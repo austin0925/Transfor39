@@ -1,0 +1,308 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.seqNo=貨物項次
+pageBean.datetimeOfProcess=處理日期時間
+pageBean.typeOfProcess=處理類別
+pageBean.systemFuntionCode=系統功能
+pageBean.processDescription=處理說明
+pageBean.processUserId=處理關員代碼
+pageBean.processUserName=處理關員姓名
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.seqNo=seqNo
+pageBean.datetimeOfProcess=datetimeOfProcess
+pageBean.typeOfProcess=typeOfProcess
+pageBean.systemFuntionCode=systemFuntionCode
+pageBean.processDescription=processDescription
+pageBean.processUserId=processUserId
+pageBean.processUserName=processUserName
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--seqNo:貨物項次-->
+<tr>
+<td>
+	<s:text name="seqNo"/>
+	<s:textfield name="pageBean.seqNo" />
+</td>
+</tr>
+
+<!--datetimeOfProcess:處理日期時間-->
+<tr>
+<td>
+	<s:text name="datetimeOfProcess"/>
+	<s:textfield name="pageBean.datetimeOfProcess" />
+</td>
+</tr>
+
+<!--typeOfProcess:處理類別-->
+<tr>
+<td>
+	<s:text name="typeOfProcess"/>
+	<s:textfield name="pageBean.typeOfProcess" />
+</td>
+</tr>
+
+<!--systemFuntionCode:系統功能-->
+<tr>
+<td>
+	<s:text name="systemFuntionCode"/>
+	<s:textfield name="pageBean.systemFuntionCode" />
+</td>
+</tr>
+
+<!--processDescription:處理說明-->
+<tr>
+<td>
+	<s:text name="processDescription"/>
+	<s:textfield name="pageBean.processDescription" />
+</td>
+</tr>
+
+<!--processUserId:處理關員代碼-->
+<tr>
+<td>
+	<s:text name="processUserId"/>
+	<s:textfield name="pageBean.processUserId" />
+</td>
+</tr>
+
+<!--processUserName:處理關員姓名-->
+<tr>
+<td>
+	<s:text name="processUserName"/>
+	<s:textfield name="pageBean.processUserName" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="SEQ_NO" index="SEQ_NO" title="%{getText('seqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEQ_NO:貨物項次:seqNo--%>
+<sjg:gridColumn name="DATETIME_OF_PROCESS" index="DATETIME_OF_PROCESS" title="%{getText('datetimeOfProcess')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DATETIME_OF_PROCESS:處理日期時間:datetimeOfProcess--%>
+<sjg:gridColumn name="TYPE_OF_PROCESS" index="TYPE_OF_PROCESS" title="%{getText('typeOfProcess')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TYPE_OF_PROCESS:處理類別:typeOfProcess--%>
+<sjg:gridColumn name="SYSTEM_FUNTION_CODE" index="SYSTEM_FUNTION_CODE" title="%{getText('systemFuntionCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SYSTEM_FUNTION_CODE:系統功能:systemFuntionCode--%>
+<sjg:gridColumn name="PROCESS_DESCRIPTION" index="PROCESS_DESCRIPTION" title="%{getText('processDescription')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_DESCRIPTION:處理說明:processDescription--%>
+<sjg:gridColumn name="PROCESS_USER_ID" index="PROCESS_USER_ID" title="%{getText('processUserId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_USER_ID:處理關員代碼:processUserId--%>
+<sjg:gridColumn name="PROCESS_USER_NAME" index="PROCESS_USER_NAME" title="%{getText('processUserName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_USER_NAME:處理關員姓名:processUserName--%>
+
+,A.DECL_NO
+,A.MAWB
+,A.HAWB
+,A.SEQ_NO
+,A.DATETIME_OF_PROCESS
+,A.TYPE_OF_PROCESS
+,A.SYSTEM_FUNTION_CODE
+,A.PROCESS_DESCRIPTION
+,A.PROCESS_USER_ID
+,A.PROCESS_USER_NAME
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="SEQ_NO" ignoreEmpty="true">SEQ_NO = ${SEQ_NO}</condition>
+<condition key="DATETIME_OF_PROCESS" ignoreEmpty="true">DATETIME_OF_PROCESS = ${DATETIME_OF_PROCESS}</condition>
+<condition key="TYPE_OF_PROCESS" ignoreEmpty="true">TYPE_OF_PROCESS = ${TYPE_OF_PROCESS}</condition>
+<condition key="SYSTEM_FUNTION_CODE" ignoreEmpty="true">SYSTEM_FUNTION_CODE = ${SYSTEM_FUNTION_CODE}</condition>
+<condition key="PROCESS_DESCRIPTION" ignoreEmpty="true">PROCESS_DESCRIPTION = ${PROCESS_DESCRIPTION}</condition>
+<condition key="PROCESS_USER_ID" ignoreEmpty="true">PROCESS_USER_ID = ${PROCESS_USER_ID}</condition>
+<condition key="PROCESS_USER_NAME" ignoreEmpty="true">PROCESS_USER_NAME = ${PROCESS_USER_NAME}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="SEQ_NO_S" ignoreEmpty="true">SEQ_NO >= ${SEQ_NO_S}</condition><condition key="SEQ_NO_E" ignoreEmpty="true">${SEQ_NO_E} >= SEQ_NO</condition><condition key="SEQ_NO_L" ignoreEmpty="true">SEQ_NO like ${SEQ_NO_L}</condition>
+<condition key="DATETIME_OF_PROCESS_S" ignoreEmpty="true">DATETIME_OF_PROCESS >= ${DATETIME_OF_PROCESS_S}</condition><condition key="DATETIME_OF_PROCESS_E" ignoreEmpty="true">${DATETIME_OF_PROCESS_E} >= DATETIME_OF_PROCESS</condition><condition key="DATETIME_OF_PROCESS_L" ignoreEmpty="true">DATETIME_OF_PROCESS like ${DATETIME_OF_PROCESS_L}</condition>
+<condition key="TYPE_OF_PROCESS_S" ignoreEmpty="true">TYPE_OF_PROCESS >= ${TYPE_OF_PROCESS_S}</condition><condition key="TYPE_OF_PROCESS_E" ignoreEmpty="true">${TYPE_OF_PROCESS_E} >= TYPE_OF_PROCESS</condition><condition key="TYPE_OF_PROCESS_L" ignoreEmpty="true">TYPE_OF_PROCESS like ${TYPE_OF_PROCESS_L}</condition>
+<condition key="SYSTEM_FUNTION_CODE_S" ignoreEmpty="true">SYSTEM_FUNTION_CODE >= ${SYSTEM_FUNTION_CODE_S}</condition><condition key="SYSTEM_FUNTION_CODE_E" ignoreEmpty="true">${SYSTEM_FUNTION_CODE_E} >= SYSTEM_FUNTION_CODE</condition><condition key="SYSTEM_FUNTION_CODE_L" ignoreEmpty="true">SYSTEM_FUNTION_CODE like ${SYSTEM_FUNTION_CODE_L}</condition>
+<condition key="PROCESS_DESCRIPTION_S" ignoreEmpty="true">PROCESS_DESCRIPTION >= ${PROCESS_DESCRIPTION_S}</condition><condition key="PROCESS_DESCRIPTION_E" ignoreEmpty="true">${PROCESS_DESCRIPTION_E} >= PROCESS_DESCRIPTION</condition><condition key="PROCESS_DESCRIPTION_L" ignoreEmpty="true">PROCESS_DESCRIPTION like ${PROCESS_DESCRIPTION_L}</condition>
+<condition key="PROCESS_USER_ID_S" ignoreEmpty="true">PROCESS_USER_ID >= ${PROCESS_USER_ID_S}</condition><condition key="PROCESS_USER_ID_E" ignoreEmpty="true">${PROCESS_USER_ID_E} >= PROCESS_USER_ID</condition><condition key="PROCESS_USER_ID_L" ignoreEmpty="true">PROCESS_USER_ID like ${PROCESS_USER_ID_L}</condition>
+<condition key="PROCESS_USER_NAME_S" ignoreEmpty="true">PROCESS_USER_NAME >= ${PROCESS_USER_NAME_S}</condition><condition key="PROCESS_USER_NAME_E" ignoreEmpty="true">${PROCESS_USER_NAME_E} >= PROCESS_USER_NAME</condition><condition key="PROCESS_USER_NAME_L" ignoreEmpty="true">PROCESS_USER_NAME like ${PROCESS_USER_NAME_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="SEQ_NO" name="SEQ_NO" ignoreEmpty="true"/>
+<field key="DATETIME_OF_PROCESS" name="DATETIME_OF_PROCESS" ignoreEmpty="true"/>
+<field key="TYPE_OF_PROCESS" name="TYPE_OF_PROCESS" ignoreEmpty="true"/>
+<field key="SYSTEM_FUNTION_CODE" name="SYSTEM_FUNTION_CODE" ignoreEmpty="true"/>
+<field key="PROCESS_DESCRIPTION" name="PROCESS_DESCRIPTION" ignoreEmpty="true"/>
+<field key="PROCESS_USER_ID" name="PROCESS_USER_ID" ignoreEmpty="true"/>
+<field key="PROCESS_USER_NAME" name="PROCESS_USER_NAME" ignoreEmpty="true"/>
+
+//報單號碼
+//pageBean.setDeclNo(randomBean.getDeclNo());
+//託運單主號
+//pageBean.setMawb(randomBean.getMawb());
+//託運單分號
+//pageBean.setHawb(randomBean.getHawb());
+//貨物項次
+//pageBean.setSeqNo(randomBean.getSeqNo());
+//處理日期時間
+//pageBean.setDatetimeOfProcess(randomBean.getDatetimeOfProcess());
+//處理類別
+//pageBean.setTypeOfProcess(randomBean.getTypeOfProcess());
+//系統功能
+//pageBean.setSystemFuntionCode(randomBean.getSystemFuntionCode());
+//處理說明
+//pageBean.setProcessDescription(randomBean.getProcessDescription());
+//處理關員代碼
+//pageBean.setProcessUserId(randomBean.getProcessUserId());
+//處理關員姓名
+//pageBean.setProcessUserName(randomBean.getProcessUserName());
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_seqNo').attr('value',rowData.SEQ_NO);
+$('#pageBean_datetimeOfProcess').attr('value',rowData.DATETIME_OF_PROCESS);
+$('#pageBean_typeOfProcess').attr('value',rowData.TYPE_OF_PROCESS);
+$('#pageBean_systemFuntionCode').attr('value',rowData.SYSTEM_FUNTION_CODE);
+$('#pageBean_processDescription').attr('value',rowData.PROCESS_DESCRIPTION);
+$('#pageBean_processUserId').attr('value',rowData.PROCESS_USER_ID);
+$('#pageBean_processUserName').attr('value',rowData.PROCESS_USER_NAME);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_seqNo').attr("value", "");
+$('#pageBean_datetimeOfProcess').attr("value", "");
+$('#pageBean_typeOfProcess').attr("value", "");
+$('#pageBean_systemFuntionCode').attr("value", "");
+$('#pageBean_processDescription').attr("value", "");
+$('#pageBean_processUserId').attr("value", "");
+$('#pageBean_processUserName').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+SEQ_NO:$('#pageBean_seqNo').val(),//貨物項次
+DATETIME_OF_PROCESS:$('#pageBean_datetimeOfProcess').val(),//處理日期時間
+TYPE_OF_PROCESS:$('#pageBean_typeOfProcess').val(),//處理類別
+SYSTEM_FUNTION_CODE:$('#pageBean_systemFuntionCode').val(),//系統功能
+PROCESS_DESCRIPTION:$('#pageBean_processDescription').val(),//處理說明
+PROCESS_USER_ID:$('#pageBean_processUserId').val(),//處理關員代碼
+PROCESS_USER_NAME:$('#pageBean_processUserName').val(),//處理關員姓名
+
+//報單號碼
+//pageBean.setDeclNo(dataObjects.getString("DECL_NO"));
+//託運單主號
+//pageBean.setMawb(dataObjects.getString("MAWB"));
+//託運單分號
+//pageBean.setHawb(dataObjects.getString("HAWB"));
+//貨物項次
+//pageBean.setSeqNo(dataObjects.getString("SEQ_NO"));
+//處理日期時間
+//pageBean.setDatetimeOfProcess((Date)dataObjects.getValue("DATETIME_OF_PROCESS"));
+//處理類別
+//pageBean.setTypeOfProcess(dataObjects.getString("TYPE_OF_PROCESS"));
+//系統功能
+//pageBean.setSystemFuntionCode(dataObjects.getString("SYSTEM_FUNTION_CODE"));
+//處理說明
+//pageBean.setProcessDescription(dataObjects.getString("PROCESS_DESCRIPTION"));
+//處理關員代碼
+//pageBean.setProcessUserId(dataObjects.getString("PROCESS_USER_ID"));
+//處理關員姓名
+//pageBean.setProcessUserName(dataObjects.getString("PROCESS_USER_NAME"));
+
+private String declNo;//報單號碼
+private String mawb;//託運單主號
+private String hawb;//託運單分號
+private String seqNo;//貨物項次
+private Date datetimeOfProcess;//處理日期時間
+private String typeOfProcess;//處理類別
+private String systemFuntionCode;//系統功能
+private String processDescription;//處理說明
+private String processUserId;//處理關員代碼
+private String processUserName;//處理關員姓名
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setSeqNo(randomBean.getSeqNo());//貨物項次
+pageBean.setDatetimeOfProcess(randomBean.getDatetimeOfProcess());//處理日期時間
+pageBean.setTypeOfProcess(randomBean.getTypeOfProcess());//處理類別
+pageBean.setSystemFuntionCode(randomBean.getSystemFuntionCode());//系統功能
+pageBean.setProcessDescription(randomBean.getProcessDescription());//處理說明
+pageBean.setProcessUserId(randomBean.getProcessUserId());//處理關員代碼
+pageBean.setProcessUserName(randomBean.getProcessUserName());//處理關員姓名
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setSeqNo(seqNo);//貨物項次
+setDatetimeOfProcess(datetimeOfProcess);//處理日期時間
+setTypeOfProcess(typeOfProcess);//處理類別
+setSystemFuntionCode(systemFuntionCode);//系統功能
+setProcessDescription(processDescription);//處理說明
+setProcessUserId(processUserId);//處理關員代碼
+setProcessUserName(processUserName);//處理關員姓名
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getSeqNo(),//貨物項次
+pageBean.getDatetimeOfProcess(),//處理日期時間
+pageBean.getTypeOfProcess(),//處理類別
+pageBean.getSystemFuntionCode(),//系統功能
+pageBean.getProcessDescription(),//處理說明
+pageBean.getProcessUserId(),//處理關員代碼
+pageBean.getProcessUserName(),//處理關員姓名
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("SEQ_NO", this.getSeqNo());//貨物項次
+pageBean.setValue("DATETIME_OF_PROCESS", this.getDatetimeOfProcess());//處理日期時間
+pageBean.setValue("TYPE_OF_PROCESS", this.getTypeOfProcess());//處理類別
+pageBean.setValue("SYSTEM_FUNTION_CODE", this.getSystemFuntionCode());//系統功能
+pageBean.setValue("PROCESS_DESCRIPTION", this.getProcessDescription());//處理說明
+pageBean.setValue("PROCESS_USER_ID", this.getProcessUserId());//處理關員代碼
+pageBean.setValue("PROCESS_USER_NAME", this.getProcessUserName());//處理關員姓名
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",貨物項次"+"(seqNo)="+pageBean.getSeqNo()+
+",處理日期時間"+"(datetimeOfProcess)="+pageBean.getDatetimeOfProcess()+
+",處理類別"+"(typeOfProcess)="+pageBean.getTypeOfProcess()+
+",系統功能"+"(systemFuntionCode)="+pageBean.getSystemFuntionCode()+
+",處理說明"+"(processDescription)="+pageBean.getProcessDescription()+
+",處理關員代碼"+"(processUserId)="+pageBean.getProcessUserId()+
+",處理關員姓名"+"(processUserName)="+pageBean.getProcessUserName()+

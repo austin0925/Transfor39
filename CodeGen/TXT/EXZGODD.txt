@@ -1,0 +1,501 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.seqNo=序號
+pageBean.hawb=託運單分號
+pageBean.itemNo=項次
+pageBean.goodsDesc=貨物名稱
+pageBean.brand=牌名(商標)
+pageBean.model=型號
+pageBean.spec=成分及規格
+pageBean.cccCode=貨品分類號列
+pageBean.qty=數量
+pageBean.qtyUnit=數量單位
+pageBean.netWeight=淨重
+pageBean.twdFob=離岸價格(新台幣)
+pageBean.stMode=統計方式代碼
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.seqNo=seqNo
+pageBean.hawb=hawb
+pageBean.itemNo=itemNo
+pageBean.goodsDesc=goodsDesc
+pageBean.brand=brand
+pageBean.model=model
+pageBean.spec=spec
+pageBean.cccCode=cccCode
+pageBean.qty=qty
+pageBean.qtyUnit=qtyUnit
+pageBean.netWeight=netWeight
+pageBean.twdFob=twdFob
+pageBean.stMode=stMode
+
+<!--declNo:報單號碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.declNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNo"/>
+	</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+	<td>
+		<s:text name="pageBean.mawb"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.mawb"/>
+	</td>
+</tr>
+
+<!--seqNo:序號-->
+<tr>
+	<td>
+		<s:text name="pageBean.seqNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.seqNo"/>
+	</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+	<td>
+		<s:text name="pageBean.hawb"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.hawb"/>
+	</td>
+</tr>
+
+<!--itemNo:項次-->
+<tr>
+	<td>
+		<s:text name="pageBean.itemNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.itemNo"/>
+	</td>
+</tr>
+
+<!--goodsDesc:貨物名稱-->
+<tr>
+	<td>
+		<s:text name="pageBean.goodsDesc"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.goodsDesc"/>
+	</td>
+</tr>
+
+<!--brand:牌名(商標)-->
+<tr>
+	<td>
+		<s:text name="pageBean.brand"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.brand"/>
+	</td>
+</tr>
+
+<!--model:型號-->
+<tr>
+	<td>
+		<s:text name="pageBean.model"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.model"/>
+	</td>
+</tr>
+
+<!--spec:成分及規格-->
+<tr>
+	<td>
+		<s:text name="pageBean.spec"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.spec"/>
+	</td>
+</tr>
+
+<!--cccCode:貨品分類號列-->
+<tr>
+	<td>
+		<s:text name="pageBean.cccCode"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.cccCode"/>
+	</td>
+</tr>
+
+<!--qty:數量-->
+<tr>
+	<td>
+		<s:text name="pageBean.qty"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.qty"/>
+	</td>
+</tr>
+
+<!--qtyUnit:數量單位-->
+<tr>
+	<td>
+		<s:text name="pageBean.qtyUnit"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.qtyUnit"/>
+	</td>
+</tr>
+
+<!--netWeight:淨重-->
+<tr>
+	<td>
+		<s:text name="pageBean.netWeight"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.netWeight"/>
+	</td>
+</tr>
+
+<!--twdFob:離岸價格(新台幣)-->
+<tr>
+	<td>
+		<s:text name="pageBean.twdFob"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.twdFob"/>
+	</td>
+</tr>
+
+<!--stMode:統計方式代碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.stMode"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.stMode"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.seqNo"/><!--seqNo:序號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.itemNo"/><!--itemNo:項次-->
+<s:hidden name="pageBean.goodsDesc"/><!--goodsDesc:貨物名稱-->
+<s:hidden name="pageBean.brand"/><!--brand:牌名(商標)-->
+<s:hidden name="pageBean.model"/><!--model:型號-->
+<s:hidden name="pageBean.spec"/><!--spec:成分及規格-->
+<s:hidden name="pageBean.cccCode"/><!--cccCode:貨品分類號列-->
+<s:hidden name="pageBean.qty"/><!--qty:數量-->
+<s:hidden name="pageBean.qtyUnit"/><!--qtyUnit:數量單位-->
+<s:hidden name="pageBean.netWeight"/><!--netWeight:淨重-->
+<s:hidden name="pageBean.twdFob"/><!--twdFob:離岸價格(新台幣)-->
+<s:hidden name="pageBean.stMode"/><!--stMode:統計方式代碼-->
+
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEQ_NO:序號:seqNo--%>
+<sjg:gridColumn name="SEQ_NO" index="SEQ_NO" title="%{getText('seqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ITEM_NO:項次:itemNo--%>
+<sjg:gridColumn name="ITEM_NO" index="ITEM_NO" title="%{getText('itemNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--GOODS_DESC:貨物名稱:goodsDesc--%>
+<sjg:gridColumn name="GOODS_DESC" index="GOODS_DESC" title="%{getText('goodsDesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BRAND:牌名(商標):brand--%>
+<sjg:gridColumn name="BRAND" index="BRAND" title="%{getText('brand')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODEL:型號:model--%>
+<sjg:gridColumn name="MODEL" index="MODEL" title="%{getText('model')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SPEC:成分及規格:spec--%>
+<sjg:gridColumn name="SPEC" index="SPEC" title="%{getText('spec')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CCC_CODE:貨品分類號列:cccCode--%>
+<sjg:gridColumn name="CCC_CODE" index="CCC_CODE" title="%{getText('cccCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QTY:數量:qty--%>
+<sjg:gridColumn name="QTY" index="QTY" title="%{getText('qty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QTY_UNIT:數量單位:qtyUnit--%>
+<sjg:gridColumn name="QTY_UNIT" index="QTY_UNIT" title="%{getText('qtyUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--NET_WEIGHT:淨重:netWeight--%>
+<sjg:gridColumn name="NET_WEIGHT" index="NET_WEIGHT" title="%{getText('netWeight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TWD_FOB:離岸價格(新台幣):twdFob--%>
+<sjg:gridColumn name="TWD_FOB" index="TWD_FOB" title="%{getText('twdFob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ST_MODE:統計方式代碼:stMode--%>
+<sjg:gridColumn name="ST_MODE" index="ST_MODE" title="%{getText('stMode')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.DECL_NO
+,A.MAWB
+,A.SEQ_NO
+,A.HAWB
+,A.ITEM_NO
+,A.GOODS_DESC
+,A.BRAND
+,A.MODEL
+,A.SPEC
+,A.CCC_CODE
+,A.QTY
+,A.QTY_UNIT
+,A.NET_WEIGHT
+,A.TWD_FOB
+,A.ST_MODE
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="SEQ_NO" ignoreEmpty="true">SEQ_NO = ${SEQ_NO}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="ITEM_NO" ignoreEmpty="true">ITEM_NO = ${ITEM_NO}</condition>
+<condition key="GOODS_DESC" ignoreEmpty="true">GOODS_DESC = ${GOODS_DESC}</condition>
+<condition key="BRAND" ignoreEmpty="true">BRAND = ${BRAND}</condition>
+<condition key="MODEL" ignoreEmpty="true">MODEL = ${MODEL}</condition>
+<condition key="SPEC" ignoreEmpty="true">SPEC = ${SPEC}</condition>
+<condition key="CCC_CODE" ignoreEmpty="true">CCC_CODE = ${CCC_CODE}</condition>
+<condition key="QTY" ignoreEmpty="true">QTY = ${QTY}</condition>
+<condition key="QTY_UNIT" ignoreEmpty="true">QTY_UNIT = ${QTY_UNIT}</condition>
+<condition key="NET_WEIGHT" ignoreEmpty="true">NET_WEIGHT = ${NET_WEIGHT}</condition>
+<condition key="TWD_FOB" ignoreEmpty="true">TWD_FOB = ${TWD_FOB}</condition>
+<condition key="ST_MODE" ignoreEmpty="true">ST_MODE = ${ST_MODE}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="SEQ_NO_S" ignoreEmpty="true">SEQ_NO >= ${SEQ_NO_S}</condition><condition key="SEQ_NO_E" ignoreEmpty="true">${SEQ_NO_E} >= SEQ_NO</condition><condition key="SEQ_NO_L" ignoreEmpty="true">SEQ_NO like ${SEQ_NO_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="ITEM_NO_S" ignoreEmpty="true">ITEM_NO >= ${ITEM_NO_S}</condition><condition key="ITEM_NO_E" ignoreEmpty="true">${ITEM_NO_E} >= ITEM_NO</condition><condition key="ITEM_NO_L" ignoreEmpty="true">ITEM_NO like ${ITEM_NO_L}</condition>
+<condition key="GOODS_DESC_S" ignoreEmpty="true">GOODS_DESC >= ${GOODS_DESC_S}</condition><condition key="GOODS_DESC_E" ignoreEmpty="true">${GOODS_DESC_E} >= GOODS_DESC</condition><condition key="GOODS_DESC_L" ignoreEmpty="true">GOODS_DESC like ${GOODS_DESC_L}</condition>
+<condition key="BRAND_S" ignoreEmpty="true">BRAND >= ${BRAND_S}</condition><condition key="BRAND_E" ignoreEmpty="true">${BRAND_E} >= BRAND</condition><condition key="BRAND_L" ignoreEmpty="true">BRAND like ${BRAND_L}</condition>
+<condition key="MODEL_S" ignoreEmpty="true">MODEL >= ${MODEL_S}</condition><condition key="MODEL_E" ignoreEmpty="true">${MODEL_E} >= MODEL</condition><condition key="MODEL_L" ignoreEmpty="true">MODEL like ${MODEL_L}</condition>
+<condition key="SPEC_S" ignoreEmpty="true">SPEC >= ${SPEC_S}</condition><condition key="SPEC_E" ignoreEmpty="true">${SPEC_E} >= SPEC</condition><condition key="SPEC_L" ignoreEmpty="true">SPEC like ${SPEC_L}</condition>
+<condition key="CCC_CODE_S" ignoreEmpty="true">CCC_CODE >= ${CCC_CODE_S}</condition><condition key="CCC_CODE_E" ignoreEmpty="true">${CCC_CODE_E} >= CCC_CODE</condition><condition key="CCC_CODE_L" ignoreEmpty="true">CCC_CODE like ${CCC_CODE_L}</condition>
+<condition key="QTY_S" ignoreEmpty="true">QTY >= ${QTY_S}</condition><condition key="QTY_E" ignoreEmpty="true">${QTY_E} >= QTY</condition><condition key="QTY_L" ignoreEmpty="true">QTY like ${QTY_L}</condition>
+<condition key="QTY_UNIT_S" ignoreEmpty="true">QTY_UNIT >= ${QTY_UNIT_S}</condition><condition key="QTY_UNIT_E" ignoreEmpty="true">${QTY_UNIT_E} >= QTY_UNIT</condition><condition key="QTY_UNIT_L" ignoreEmpty="true">QTY_UNIT like ${QTY_UNIT_L}</condition>
+<condition key="NET_WEIGHT_S" ignoreEmpty="true">NET_WEIGHT >= ${NET_WEIGHT_S}</condition><condition key="NET_WEIGHT_E" ignoreEmpty="true">${NET_WEIGHT_E} >= NET_WEIGHT</condition><condition key="NET_WEIGHT_L" ignoreEmpty="true">NET_WEIGHT like ${NET_WEIGHT_L}</condition>
+<condition key="TWD_FOB_S" ignoreEmpty="true">TWD_FOB >= ${TWD_FOB_S}</condition><condition key="TWD_FOB_E" ignoreEmpty="true">${TWD_FOB_E} >= TWD_FOB</condition><condition key="TWD_FOB_L" ignoreEmpty="true">TWD_FOB like ${TWD_FOB_L}</condition>
+<condition key="ST_MODE_S" ignoreEmpty="true">ST_MODE >= ${ST_MODE_S}</condition><condition key="ST_MODE_E" ignoreEmpty="true">${ST_MODE_E} >= ST_MODE</condition><condition key="ST_MODE_L" ignoreEmpty="true">ST_MODE like ${ST_MODE_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="SEQ_NO" name="SEQ_NO" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="ITEM_NO" name="ITEM_NO" ignoreEmpty="true"/>
+<field key="GOODS_DESC" name="GOODS_DESC" ignoreEmpty="true"/>
+<field key="BRAND" name="BRAND" ignoreEmpty="true"/>
+<field key="MODEL" name="MODEL" ignoreEmpty="true"/>
+<field key="SPEC" name="SPEC" ignoreEmpty="true"/>
+<field key="CCC_CODE" name="CCC_CODE" ignoreEmpty="true"/>
+<field key="QTY" name="QTY" ignoreEmpty="true"/>
+<field key="QTY_UNIT" name="QTY_UNIT" ignoreEmpty="true"/>
+<field key="NET_WEIGHT" name="NET_WEIGHT" ignoreEmpty="true"/>
+<field key="TWD_FOB" name="TWD_FOB" ignoreEmpty="true"/>
+<field key="ST_MODE" name="ST_MODE" ignoreEmpty="true"/>
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_seqNo').attr('value',rowData.SEQ_NO);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_itemNo').attr('value',rowData.ITEM_NO);
+$('#pageBean_goodsDesc').attr('value',rowData.GOODS_DESC);
+$('#pageBean_brand').attr('value',rowData.BRAND);
+$('#pageBean_model').attr('value',rowData.MODEL);
+$('#pageBean_spec').attr('value',rowData.SPEC);
+$('#pageBean_cccCode').attr('value',rowData.CCC_CODE);
+$('#pageBean_qty').attr('value',rowData.QTY);
+$('#pageBean_qtyUnit').attr('value',rowData.QTY_UNIT);
+$('#pageBean_netWeight').attr('value',rowData.NET_WEIGHT);
+$('#pageBean_twdFob').attr('value',rowData.TWD_FOB);
+$('#pageBean_stMode').attr('value',rowData.ST_MODE);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_seqNo').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_itemNo').attr("value", "");
+$('#pageBean_goodsDesc').attr("value", "");
+$('#pageBean_brand').attr("value", "");
+$('#pageBean_model').attr("value", "");
+$('#pageBean_spec').attr("value", "");
+$('#pageBean_cccCode').attr("value", "");
+$('#pageBean_qty').attr("value", "");
+$('#pageBean_qtyUnit').attr("value", "");
+$('#pageBean_netWeight').attr("value", "");
+$('#pageBean_twdFob').attr("value", "");
+$('#pageBean_stMode').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+SEQ_NO:$('#pageBean_seqNo').val(),//序號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+ITEM_NO:$('#pageBean_itemNo').val(),//項次
+GOODS_DESC:$('#pageBean_goodsDesc').val(),//貨物名稱
+BRAND:$('#pageBean_brand').val(),//牌名(商標)
+MODEL:$('#pageBean_model').val(),//型號
+SPEC:$('#pageBean_spec').val(),//成分及規格
+CCC_CODE:$('#pageBean_cccCode').val(),//貨品分類號列
+QTY:$('#pageBean_qty').val(),//數量
+QTY_UNIT:$('#pageBean_qtyUnit').val(),//數量單位
+NET_WEIGHT:$('#pageBean_netWeight').val(),//淨重
+TWD_FOB:$('#pageBean_twdFob').val(),//離岸價格(新台幣)
+ST_MODE:$('#pageBean_stMode').val(),//統計方式代碼
+
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setSeqNo(dataObjects.getString("SEQ_NO"));//序號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setItemNo(dataObjects.getString("ITEM_NO"));//項次
+pageBean.setGoodsDesc(dataObjects.getString("GOODS_DESC"));//貨物名稱
+pageBean.setBrand(dataObjects.getString("BRAND"));//牌名(商標)
+pageBean.setModel(dataObjects.getString("MODEL"));//型號
+pageBean.setSpec(dataObjects.getString("SPEC"));//成分及規格
+pageBean.setCccCode(dataObjects.getString("CCC_CODE"));//貨品分類號列
+pageBean.setQty((BigDecimal)dataObjects.getValue("QTY"));//數量
+pageBean.setQtyUnit((BigDecimal)dataObjects.getValue("QTY_UNIT"));//數量單位
+pageBean.setNetWeight((BigDecimal)dataObjects.getValue("NET_WEIGHT"));//淨重
+pageBean.setTwdFob(dataObjects.getString("TWD_FOB"));//離岸價格(新台幣)
+pageBean.setStMode(dataObjects.getString("ST_MODE"));//統計方式代碼
+
+private String declNo = null;//報單號碼
+private String mawb = null;//託運單主號
+private String seqNo = null;//序號
+private String hawb = null;//託運單分號
+private String itemNo = null;//項次
+private String goodsDesc = null;//貨物名稱
+private String brand = null;//牌名(商標)
+private String model = null;//型號
+private String spec = null;//成分及規格
+private String cccCode = null;//貨品分類號列
+private BigDecimal qty = null;//數量
+private BigDecimal qtyUnit = null;//數量單位
+private BigDecimal netWeight = null;//淨重
+private String twdFob = null;//離岸價格(新台幣)
+private String stMode = null;//統計方式代碼
+
+pageBean.setDeclNo("報單號碼");//報單號碼
+pageBean.setMawb("託運單主號");//託運單主號
+pageBean.setSeqNo("序號");//序號
+pageBean.setHawb("託運單分號");//託運單分號
+pageBean.setItemNo("項次");//項次
+pageBean.setGoodsDesc("貨物名稱");//貨物名稱
+pageBean.setBrand("牌名(商標)");//牌名(商標)
+pageBean.setModel("型號");//型號
+pageBean.setSpec("成分及規格");//成分及規格
+pageBean.setCccCode("貨品分類號列");//貨品分類號列
+pageBean.setQty("數量");//數量
+pageBean.setQtyUnit("數量單位");//數量單位
+pageBean.setNetWeight("淨重");//淨重
+pageBean.setTwdFob("離岸價格(新台幣)");//離岸價格(新台幣)
+pageBean.setStMode("統計方式代碼");//統計方式代碼
+
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setSeqNo(seqNo);//序號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setItemNo(itemNo);//項次
+pageBean.setGoodsDesc(goodsDesc);//貨物名稱
+pageBean.setBrand(brand);//牌名(商標)
+pageBean.setModel(model);//型號
+pageBean.setSpec(spec);//成分及規格
+pageBean.setCccCode(cccCode);//貨品分類號列
+pageBean.setQty(qty);//數量
+pageBean.setQtyUnit(qtyUnit);//數量單位
+pageBean.setNetWeight(netWeight);//淨重
+pageBean.setTwdFob(twdFob);//離岸價格(新台幣)
+pageBean.setStMode(stMode);//統計方式代碼
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setSeqNo(randomBean.getSeqNo());//序號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setItemNo(randomBean.getItemNo());//項次
+pageBean.setGoodsDesc(randomBean.getGoodsDesc());//貨物名稱
+pageBean.setBrand(randomBean.getBrand());//牌名(商標)
+pageBean.setModel(randomBean.getModel());//型號
+pageBean.setSpec(randomBean.getSpec());//成分及規格
+pageBean.setCccCode(randomBean.getCccCode());//貨品分類號列
+pageBean.setQty(randomBean.getQty());//數量
+pageBean.setQtyUnit(randomBean.getQtyUnit());//數量單位
+pageBean.setNetWeight(randomBean.getNetWeight());//淨重
+pageBean.setTwdFob(randomBean.getTwdFob());//離岸價格(新台幣)
+pageBean.setStMode(randomBean.getStMode());//統計方式代碼
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setSeqNo(seqNo);//序號
+setHawb(hawb);//託運單分號
+setItemNo(itemNo);//項次
+setGoodsDesc(goodsDesc);//貨物名稱
+setBrand(brand);//牌名(商標)
+setModel(model);//型號
+setSpec(spec);//成分及規格
+setCccCode(cccCode);//貨品分類號列
+setQty(qty);//數量
+setQtyUnit(qtyUnit);//數量單位
+setNetWeight(netWeight);//淨重
+setTwdFob(twdFob);//離岸價格(新台幣)
+setStMode(stMode);//統計方式代碼
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getSeqNo(),//序號
+pageBean.getHawb(),//託運單分號
+pageBean.getItemNo(),//項次
+pageBean.getGoodsDesc(),//貨物名稱
+pageBean.getBrand(),//牌名(商標)
+pageBean.getModel(),//型號
+pageBean.getSpec(),//成分及規格
+pageBean.getCccCode(),//貨品分類號列
+pageBean.getQty(),//數量
+pageBean.getQtyUnit(),//數量單位
+pageBean.getNetWeight(),//淨重
+pageBean.getTwdFob(),//離岸價格(新台幣)
+pageBean.getStMode(),//統計方式代碼
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("SEQ_NO", this.getSeqNo());//序號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("ITEM_NO", this.getItemNo());//項次
+pageBean.setValue("GOODS_DESC", this.getGoodsDesc());//貨物名稱
+pageBean.setValue("BRAND", this.getBrand());//牌名(商標)
+pageBean.setValue("MODEL", this.getModel());//型號
+pageBean.setValue("SPEC", this.getSpec());//成分及規格
+pageBean.setValue("CCC_CODE", this.getCccCode());//貨品分類號列
+pageBean.setValue("QTY", this.getQty());//數量
+pageBean.setValue("QTY_UNIT", this.getQtyUnit());//數量單位
+pageBean.setValue("NET_WEIGHT", this.getNetWeight());//淨重
+pageBean.setValue("TWD_FOB", this.getTwdFob());//離岸價格(新台幣)
+pageBean.setValue("ST_MODE", this.getStMode());//統計方式代碼
+
+pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
+pageBean.setValue("MAWB", "託運單主號");//託運單主號
+pageBean.setValue("SEQ_NO", "序號");//序號
+pageBean.setValue("HAWB", "託運單分號");//託運單分號
+pageBean.setValue("ITEM_NO", "項次");//項次
+pageBean.setValue("GOODS_DESC", "貨物名稱");//貨物名稱
+pageBean.setValue("BRAND", "牌名(商標)");//牌名(商標)
+pageBean.setValue("MODEL", "型號");//型號
+pageBean.setValue("SPEC", "成分及規格");//成分及規格
+pageBean.setValue("CCC_CODE", "貨品分類號列");//貨品分類號列
+pageBean.setValue("QTY", "數量");//數量
+pageBean.setValue("QTY_UNIT", "數量單位");//數量單位
+pageBean.setValue("NET_WEIGHT", "淨重");//淨重
+pageBean.setValue("TWD_FOB", "離岸價格(新台幣)");//離岸價格(新台幣)
+pageBean.setValue("ST_MODE", "統計方式代碼");//統計方式代碼
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",序號"+"(seqNo)="+pageBean.getSeqNo()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",項次"+"(itemNo)="+pageBean.getItemNo()+
+",貨物名稱"+"(goodsDesc)="+pageBean.getGoodsDesc()+
+",牌名(商標)"+"(brand)="+pageBean.getBrand()+
+",型號"+"(model)="+pageBean.getModel()+
+",成分及規格"+"(spec)="+pageBean.getSpec()+
+",貨品分類號列"+"(cccCode)="+pageBean.getCccCode()+
+",數量"+"(qty)="+pageBean.getQty()+
+",數量單位"+"(qtyUnit)="+pageBean.getQtyUnit()+
+",淨重"+"(netWeight)="+pageBean.getNetWeight()+
+",離岸價格(新台幣)"+"(twdFob)="+pageBean.getTwdFob()+
+",統計方式代碼"+"(stMode)="+pageBean.getStMode()+

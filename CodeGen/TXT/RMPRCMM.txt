@@ -1,0 +1,453 @@
+pageBean.paRecvNo=收件編號
+pageBean.paRecvDate=收件日期
+pageBean.paDispatchUnit=來文機關
+pageBean.paRemoveUnit=移案單位
+pageBean.paDispatchNo=來文文號
+pageBean.paCusInNo=海關收文編號
+pageBean.paMarkDate=簽註日期
+pageBean.paTalkNo=密告登錄號碼
+pageBean.paFbiNo=情資通報單號碼
+pageBean.paMfgCode=廠商統編
+pageBean.paMfgName=廠商名稱
+pageBean.paCpcAssignDate=關務署電腦分派日期
+pageBean.paCpcUser=關務署承辦員編號
+pageBean.paCpcName=關務署承辦員姓名
+pageBean.proUser=處理人員
+
+pageBean.paRecvNo=paRecvNo
+pageBean.paRecvDate=paRecvDate
+pageBean.paDispatchUnit=paDispatchUnit
+pageBean.paRemoveUnit=paRemoveUnit
+pageBean.paDispatchNo=paDispatchNo
+pageBean.paCusInNo=paCusInNo
+pageBean.paMarkDate=paMarkDate
+pageBean.paTalkNo=paTalkNo
+pageBean.paFbiNo=paFbiNo
+pageBean.paMfgCode=paMfgCode
+pageBean.paMfgName=paMfgName
+pageBean.paCpcAssignDate=paCpcAssignDate
+pageBean.paCpcUser=paCpcUser
+pageBean.paCpcName=paCpcName
+pageBean.proUser=proUser
+
+<!--paRecvNo:收件編號-->
+<tr>
+<td>
+	<s:text name="paRecvNo"/>
+	<s:textfield name="pageBean.paRecvNo" />
+</td>
+</tr>
+
+<!--paRecvDate:收件日期-->
+<tr>
+<td>
+	<s:text name="paRecvDate"/>
+	<s:textfield name="pageBean.paRecvDate" />
+</td>
+</tr>
+
+<!--paDispatchUnit:來文機關-->
+<tr>
+<td>
+	<s:text name="paDispatchUnit"/>
+	<s:textfield name="pageBean.paDispatchUnit" />
+</td>
+</tr>
+
+<!--paRemoveUnit:移案單位-->
+<tr>
+<td>
+	<s:text name="paRemoveUnit"/>
+	<s:textfield name="pageBean.paRemoveUnit" />
+</td>
+</tr>
+
+<!--paDispatchNo:來文文號-->
+<tr>
+<td>
+	<s:text name="paDispatchNo"/>
+	<s:textfield name="pageBean.paDispatchNo" />
+</td>
+</tr>
+
+<!--paCusInNo:海關收文編號-->
+<tr>
+<td>
+	<s:text name="paCusInNo"/>
+	<s:textfield name="pageBean.paCusInNo" />
+</td>
+</tr>
+
+<!--paMarkDate:簽註日期-->
+<tr>
+<td>
+	<s:text name="paMarkDate"/>
+	<s:textfield name="pageBean.paMarkDate" />
+</td>
+</tr>
+
+<!--paTalkNo:密告登錄號碼-->
+<tr>
+<td>
+	<s:text name="paTalkNo"/>
+	<s:textfield name="pageBean.paTalkNo" />
+</td>
+</tr>
+
+<!--paFbiNo:情資通報單號碼-->
+<tr>
+<td>
+	<s:text name="paFbiNo"/>
+	<s:textfield name="pageBean.paFbiNo" />
+</td>
+</tr>
+
+<!--paMfgCode:廠商統編-->
+<tr>
+<td>
+	<s:text name="paMfgCode"/>
+	<s:textfield name="pageBean.paMfgCode" />
+</td>
+</tr>
+
+<!--paMfgName:廠商名稱-->
+<tr>
+<td>
+	<s:text name="paMfgName"/>
+	<s:textfield name="pageBean.paMfgName" />
+</td>
+</tr>
+
+<!--paCpcAssignDate:關務署電腦分派日期-->
+<tr>
+<td>
+	<s:text name="paCpcAssignDate"/>
+	<s:textfield name="pageBean.paCpcAssignDate" />
+</td>
+</tr>
+
+<!--paCpcUser:關務署承辦員編號-->
+<tr>
+<td>
+	<s:text name="paCpcUser"/>
+	<s:textfield name="pageBean.paCpcUser" />
+</td>
+</tr>
+
+<!--paCpcName:關務署承辦員姓名-->
+<tr>
+<td>
+	<s:text name="paCpcName"/>
+	<s:textfield name="pageBean.paCpcName" />
+</td>
+</tr>
+
+<!--proUser:處理人員-->
+<tr>
+<td>
+	<s:text name="proUser"/>
+	<s:textfield name="pageBean.proUser" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="PA_RECV_NO" index="PA_RECV_NO" title="%{getText('paRecvNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_NO:收件編號:paRecvNo--%>
+<sjg:gridColumn name="PA_RECV_DATE" index="PA_RECV_DATE" title="%{getText('paRecvDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_DATE:收件日期:paRecvDate--%>
+<sjg:gridColumn name="PA_DISPATCH_UNIT" index="PA_DISPATCH_UNIT" title="%{getText('paDispatchUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_DISPATCH_UNIT:來文機關:paDispatchUnit--%>
+<sjg:gridColumn name="PA_REMOVE_UNIT" index="PA_REMOVE_UNIT" title="%{getText('paRemoveUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_REMOVE_UNIT:移案單位:paRemoveUnit--%>
+<sjg:gridColumn name="PA_DISPATCH_NO" index="PA_DISPATCH_NO" title="%{getText('paDispatchNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_DISPATCH_NO:來文文號:paDispatchNo--%>
+<sjg:gridColumn name="PA_CUS_IN_NO" index="PA_CUS_IN_NO" title="%{getText('paCusInNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_CUS_IN_NO:海關收文編號:paCusInNo--%>
+<sjg:gridColumn name="PA_MARK_DATE" index="PA_MARK_DATE" title="%{getText('paMarkDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MARK_DATE:簽註日期:paMarkDate--%>
+<sjg:gridColumn name="PA_TALK_NO" index="PA_TALK_NO" title="%{getText('paTalkNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_TALK_NO:密告登錄號碼:paTalkNo--%>
+<sjg:gridColumn name="PA_FBI_NO" index="PA_FBI_NO" title="%{getText('paFbiNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_FBI_NO:情資通報單號碼:paFbiNo--%>
+<sjg:gridColumn name="PA_MFG_CODE" index="PA_MFG_CODE" title="%{getText('paMfgCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MFG_CODE:廠商統編:paMfgCode--%>
+<sjg:gridColumn name="PA_MFG_NAME" index="PA_MFG_NAME" title="%{getText('paMfgName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MFG_NAME:廠商名稱:paMfgName--%>
+<sjg:gridColumn name="PA_CPC_ASSIGN_DATE" index="PA_CPC_ASSIGN_DATE" title="%{getText('paCpcAssignDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_CPC_ASSIGN_DATE:關務署電腦分派日期:paCpcAssignDate--%>
+<sjg:gridColumn name="PA_CPC_USER" index="PA_CPC_USER" title="%{getText('paCpcUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_CPC_USER:關務署承辦員編號:paCpcUser--%>
+<sjg:gridColumn name="PA_CPC_NAME" index="PA_CPC_NAME" title="%{getText('paCpcName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_CPC_NAME:關務署承辦員姓名:paCpcName--%>
+<sjg:gridColumn name="PRO_USER" index="PRO_USER" title="%{getText('proUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PRO_USER:處理人員:proUser--%>
+
+,A.PA_RECV_NO
+,A.PA_RECV_DATE
+,A.PA_DISPATCH_UNIT
+,A.PA_REMOVE_UNIT
+,A.PA_DISPATCH_NO
+,A.PA_CUS_IN_NO
+,A.PA_MARK_DATE
+,A.PA_TALK_NO
+,A.PA_FBI_NO
+,A.PA_MFG_CODE
+,A.PA_MFG_NAME
+,A.PA_CPC_ASSIGN_DATE
+,A.PA_CPC_USER
+,A.PA_CPC_NAME
+,A.PRO_USER
+
+<condition key="PA_RECV_NO" ignoreEmpty="true">PA_RECV_NO = ${PA_RECV_NO}</condition>
+<condition key="PA_RECV_DATE" ignoreEmpty="true">PA_RECV_DATE = ${PA_RECV_DATE}</condition>
+<condition key="PA_DISPATCH_UNIT" ignoreEmpty="true">PA_DISPATCH_UNIT = ${PA_DISPATCH_UNIT}</condition>
+<condition key="PA_REMOVE_UNIT" ignoreEmpty="true">PA_REMOVE_UNIT = ${PA_REMOVE_UNIT}</condition>
+<condition key="PA_DISPATCH_NO" ignoreEmpty="true">PA_DISPATCH_NO = ${PA_DISPATCH_NO}</condition>
+<condition key="PA_CUS_IN_NO" ignoreEmpty="true">PA_CUS_IN_NO = ${PA_CUS_IN_NO}</condition>
+<condition key="PA_MARK_DATE" ignoreEmpty="true">PA_MARK_DATE = ${PA_MARK_DATE}</condition>
+<condition key="PA_TALK_NO" ignoreEmpty="true">PA_TALK_NO = ${PA_TALK_NO}</condition>
+<condition key="PA_FBI_NO" ignoreEmpty="true">PA_FBI_NO = ${PA_FBI_NO}</condition>
+<condition key="PA_MFG_CODE" ignoreEmpty="true">PA_MFG_CODE = ${PA_MFG_CODE}</condition>
+<condition key="PA_MFG_NAME" ignoreEmpty="true">PA_MFG_NAME = ${PA_MFG_NAME}</condition>
+<condition key="PA_CPC_ASSIGN_DATE" ignoreEmpty="true">PA_CPC_ASSIGN_DATE = ${PA_CPC_ASSIGN_DATE}</condition>
+<condition key="PA_CPC_USER" ignoreEmpty="true">PA_CPC_USER = ${PA_CPC_USER}</condition>
+<condition key="PA_CPC_NAME" ignoreEmpty="true">PA_CPC_NAME = ${PA_CPC_NAME}</condition>
+<condition key="PRO_USER" ignoreEmpty="true">PRO_USER = ${PRO_USER}</condition>
+
+<condition key="PA_RECV_NO_S" ignoreEmpty="true">PA_RECV_NO >= ${PA_RECV_NO_S}</condition><condition key="PA_RECV_NO_E" ignoreEmpty="true">${PA_RECV_NO_E} >= PA_RECV_NO</condition><condition key="PA_RECV_NO_L" ignoreEmpty="true">PA_RECV_NO like ${PA_RECV_NO_L}</condition>
+<condition key="PA_RECV_DATE_S" ignoreEmpty="true">PA_RECV_DATE >= ${PA_RECV_DATE_S}</condition><condition key="PA_RECV_DATE_E" ignoreEmpty="true">${PA_RECV_DATE_E} >= PA_RECV_DATE</condition><condition key="PA_RECV_DATE_L" ignoreEmpty="true">PA_RECV_DATE like ${PA_RECV_DATE_L}</condition>
+<condition key="PA_DISPATCH_UNIT_S" ignoreEmpty="true">PA_DISPATCH_UNIT >= ${PA_DISPATCH_UNIT_S}</condition><condition key="PA_DISPATCH_UNIT_E" ignoreEmpty="true">${PA_DISPATCH_UNIT_E} >= PA_DISPATCH_UNIT</condition><condition key="PA_DISPATCH_UNIT_L" ignoreEmpty="true">PA_DISPATCH_UNIT like ${PA_DISPATCH_UNIT_L}</condition>
+<condition key="PA_REMOVE_UNIT_S" ignoreEmpty="true">PA_REMOVE_UNIT >= ${PA_REMOVE_UNIT_S}</condition><condition key="PA_REMOVE_UNIT_E" ignoreEmpty="true">${PA_REMOVE_UNIT_E} >= PA_REMOVE_UNIT</condition><condition key="PA_REMOVE_UNIT_L" ignoreEmpty="true">PA_REMOVE_UNIT like ${PA_REMOVE_UNIT_L}</condition>
+<condition key="PA_DISPATCH_NO_S" ignoreEmpty="true">PA_DISPATCH_NO >= ${PA_DISPATCH_NO_S}</condition><condition key="PA_DISPATCH_NO_E" ignoreEmpty="true">${PA_DISPATCH_NO_E} >= PA_DISPATCH_NO</condition><condition key="PA_DISPATCH_NO_L" ignoreEmpty="true">PA_DISPATCH_NO like ${PA_DISPATCH_NO_L}</condition>
+<condition key="PA_CUS_IN_NO_S" ignoreEmpty="true">PA_CUS_IN_NO >= ${PA_CUS_IN_NO_S}</condition><condition key="PA_CUS_IN_NO_E" ignoreEmpty="true">${PA_CUS_IN_NO_E} >= PA_CUS_IN_NO</condition><condition key="PA_CUS_IN_NO_L" ignoreEmpty="true">PA_CUS_IN_NO like ${PA_CUS_IN_NO_L}</condition>
+<condition key="PA_MARK_DATE_S" ignoreEmpty="true">PA_MARK_DATE >= ${PA_MARK_DATE_S}</condition><condition key="PA_MARK_DATE_E" ignoreEmpty="true">${PA_MARK_DATE_E} >= PA_MARK_DATE</condition><condition key="PA_MARK_DATE_L" ignoreEmpty="true">PA_MARK_DATE like ${PA_MARK_DATE_L}</condition>
+<condition key="PA_TALK_NO_S" ignoreEmpty="true">PA_TALK_NO >= ${PA_TALK_NO_S}</condition><condition key="PA_TALK_NO_E" ignoreEmpty="true">${PA_TALK_NO_E} >= PA_TALK_NO</condition><condition key="PA_TALK_NO_L" ignoreEmpty="true">PA_TALK_NO like ${PA_TALK_NO_L}</condition>
+<condition key="PA_FBI_NO_S" ignoreEmpty="true">PA_FBI_NO >= ${PA_FBI_NO_S}</condition><condition key="PA_FBI_NO_E" ignoreEmpty="true">${PA_FBI_NO_E} >= PA_FBI_NO</condition><condition key="PA_FBI_NO_L" ignoreEmpty="true">PA_FBI_NO like ${PA_FBI_NO_L}</condition>
+<condition key="PA_MFG_CODE_S" ignoreEmpty="true">PA_MFG_CODE >= ${PA_MFG_CODE_S}</condition><condition key="PA_MFG_CODE_E" ignoreEmpty="true">${PA_MFG_CODE_E} >= PA_MFG_CODE</condition><condition key="PA_MFG_CODE_L" ignoreEmpty="true">PA_MFG_CODE like ${PA_MFG_CODE_L}</condition>
+<condition key="PA_MFG_NAME_S" ignoreEmpty="true">PA_MFG_NAME >= ${PA_MFG_NAME_S}</condition><condition key="PA_MFG_NAME_E" ignoreEmpty="true">${PA_MFG_NAME_E} >= PA_MFG_NAME</condition><condition key="PA_MFG_NAME_L" ignoreEmpty="true">PA_MFG_NAME like ${PA_MFG_NAME_L}</condition>
+<condition key="PA_CPC_ASSIGN_DATE_S" ignoreEmpty="true">PA_CPC_ASSIGN_DATE >= ${PA_CPC_ASSIGN_DATE_S}</condition><condition key="PA_CPC_ASSIGN_DATE_E" ignoreEmpty="true">${PA_CPC_ASSIGN_DATE_E} >= PA_CPC_ASSIGN_DATE</condition><condition key="PA_CPC_ASSIGN_DATE_L" ignoreEmpty="true">PA_CPC_ASSIGN_DATE like ${PA_CPC_ASSIGN_DATE_L}</condition>
+<condition key="PA_CPC_USER_S" ignoreEmpty="true">PA_CPC_USER >= ${PA_CPC_USER_S}</condition><condition key="PA_CPC_USER_E" ignoreEmpty="true">${PA_CPC_USER_E} >= PA_CPC_USER</condition><condition key="PA_CPC_USER_L" ignoreEmpty="true">PA_CPC_USER like ${PA_CPC_USER_L}</condition>
+<condition key="PA_CPC_NAME_S" ignoreEmpty="true">PA_CPC_NAME >= ${PA_CPC_NAME_S}</condition><condition key="PA_CPC_NAME_E" ignoreEmpty="true">${PA_CPC_NAME_E} >= PA_CPC_NAME</condition><condition key="PA_CPC_NAME_L" ignoreEmpty="true">PA_CPC_NAME like ${PA_CPC_NAME_L}</condition>
+<condition key="PRO_USER_S" ignoreEmpty="true">PRO_USER >= ${PRO_USER_S}</condition><condition key="PRO_USER_E" ignoreEmpty="true">${PRO_USER_E} >= PRO_USER</condition><condition key="PRO_USER_L" ignoreEmpty="true">PRO_USER like ${PRO_USER_L}</condition>
+
+<field key="PA_RECV_NO" name="PA_RECV_NO" ignoreEmpty="true"/>
+<field key="PA_RECV_DATE" name="PA_RECV_DATE" ignoreEmpty="true"/>
+<field key="PA_DISPATCH_UNIT" name="PA_DISPATCH_UNIT" ignoreEmpty="true"/>
+<field key="PA_REMOVE_UNIT" name="PA_REMOVE_UNIT" ignoreEmpty="true"/>
+<field key="PA_DISPATCH_NO" name="PA_DISPATCH_NO" ignoreEmpty="true"/>
+<field key="PA_CUS_IN_NO" name="PA_CUS_IN_NO" ignoreEmpty="true"/>
+<field key="PA_MARK_DATE" name="PA_MARK_DATE" ignoreEmpty="true"/>
+<field key="PA_TALK_NO" name="PA_TALK_NO" ignoreEmpty="true"/>
+<field key="PA_FBI_NO" name="PA_FBI_NO" ignoreEmpty="true"/>
+<field key="PA_MFG_CODE" name="PA_MFG_CODE" ignoreEmpty="true"/>
+<field key="PA_MFG_NAME" name="PA_MFG_NAME" ignoreEmpty="true"/>
+<field key="PA_CPC_ASSIGN_DATE" name="PA_CPC_ASSIGN_DATE" ignoreEmpty="true"/>
+<field key="PA_CPC_USER" name="PA_CPC_USER" ignoreEmpty="true"/>
+<field key="PA_CPC_NAME" name="PA_CPC_NAME" ignoreEmpty="true"/>
+<field key="PRO_USER" name="PRO_USER" ignoreEmpty="true"/>
+
+//收件編號
+//pageBean.setPaRecvNo(randomBean.getPaRecvNo());
+//收件日期
+//pageBean.setPaRecvDate(randomBean.getPaRecvDate());
+//來文機關
+//pageBean.setPaDispatchUnit(randomBean.getPaDispatchUnit());
+//移案單位
+//pageBean.setPaRemoveUnit(randomBean.getPaRemoveUnit());
+//來文文號
+//pageBean.setPaDispatchNo(randomBean.getPaDispatchNo());
+//海關收文編號
+//pageBean.setPaCusInNo(randomBean.getPaCusInNo());
+//簽註日期
+//pageBean.setPaMarkDate(randomBean.getPaMarkDate());
+//密告登錄號碼
+//pageBean.setPaTalkNo(randomBean.getPaTalkNo());
+//情資通報單號碼
+//pageBean.setPaFbiNo(randomBean.getPaFbiNo());
+//廠商統編
+//pageBean.setPaMfgCode(randomBean.getPaMfgCode());
+//廠商名稱
+//pageBean.setPaMfgName(randomBean.getPaMfgName());
+//關務署電腦分派日期
+//pageBean.setPaCpcAssignDate(randomBean.getPaCpcAssignDate());
+//關務署承辦員編號
+//pageBean.setPaCpcUser(randomBean.getPaCpcUser());
+//關務署承辦員姓名
+//pageBean.setPaCpcName(randomBean.getPaCpcName());
+//處理人員
+//pageBean.setProUser(randomBean.getProUser());
+
+$('#pageBean_paRecvNo').attr('value',rowData.PA_RECV_NO);
+$('#pageBean_paRecvDate').attr('value',rowData.PA_RECV_DATE);
+$('#pageBean_paDispatchUnit').attr('value',rowData.PA_DISPATCH_UNIT);
+$('#pageBean_paRemoveUnit').attr('value',rowData.PA_REMOVE_UNIT);
+$('#pageBean_paDispatchNo').attr('value',rowData.PA_DISPATCH_NO);
+$('#pageBean_paCusInNo').attr('value',rowData.PA_CUS_IN_NO);
+$('#pageBean_paMarkDate').attr('value',rowData.PA_MARK_DATE);
+$('#pageBean_paTalkNo').attr('value',rowData.PA_TALK_NO);
+$('#pageBean_paFbiNo').attr('value',rowData.PA_FBI_NO);
+$('#pageBean_paMfgCode').attr('value',rowData.PA_MFG_CODE);
+$('#pageBean_paMfgName').attr('value',rowData.PA_MFG_NAME);
+$('#pageBean_paCpcAssignDate').attr('value',rowData.PA_CPC_ASSIGN_DATE);
+$('#pageBean_paCpcUser').attr('value',rowData.PA_CPC_USER);
+$('#pageBean_paCpcName').attr('value',rowData.PA_CPC_NAME);
+$('#pageBean_proUser').attr('value',rowData.PRO_USER);
+
+$('#pageBean_paRecvNo').attr("value", "");
+$('#pageBean_paRecvDate').attr("value", "");
+$('#pageBean_paDispatchUnit').attr("value", "");
+$('#pageBean_paRemoveUnit').attr("value", "");
+$('#pageBean_paDispatchNo').attr("value", "");
+$('#pageBean_paCusInNo').attr("value", "");
+$('#pageBean_paMarkDate').attr("value", "");
+$('#pageBean_paTalkNo').attr("value", "");
+$('#pageBean_paFbiNo').attr("value", "");
+$('#pageBean_paMfgCode').attr("value", "");
+$('#pageBean_paMfgName').attr("value", "");
+$('#pageBean_paCpcAssignDate').attr("value", "");
+$('#pageBean_paCpcUser').attr("value", "");
+$('#pageBean_paCpcName').attr("value", "");
+$('#pageBean_proUser').attr("value", "");
+
+PA_RECV_NO:$('#pageBean_paRecvNo').val(),//收件編號
+PA_RECV_DATE:$('#pageBean_paRecvDate').val(),//收件日期
+PA_DISPATCH_UNIT:$('#pageBean_paDispatchUnit').val(),//來文機關
+PA_REMOVE_UNIT:$('#pageBean_paRemoveUnit').val(),//移案單位
+PA_DISPATCH_NO:$('#pageBean_paDispatchNo').val(),//來文文號
+PA_CUS_IN_NO:$('#pageBean_paCusInNo').val(),//海關收文編號
+PA_MARK_DATE:$('#pageBean_paMarkDate').val(),//簽註日期
+PA_TALK_NO:$('#pageBean_paTalkNo').val(),//密告登錄號碼
+PA_FBI_NO:$('#pageBean_paFbiNo').val(),//情資通報單號碼
+PA_MFG_CODE:$('#pageBean_paMfgCode').val(),//廠商統編
+PA_MFG_NAME:$('#pageBean_paMfgName').val(),//廠商名稱
+PA_CPC_ASSIGN_DATE:$('#pageBean_paCpcAssignDate').val(),//關務署電腦分派日期
+PA_CPC_USER:$('#pageBean_paCpcUser').val(),//關務署承辦員編號
+PA_CPC_NAME:$('#pageBean_paCpcName').val(),//關務署承辦員姓名
+PRO_USER:$('#pageBean_proUser').val(),//處理人員
+
+//收件編號
+//pageBean.setPaRecvNo(dataObjects.getString("PA_RECV_NO"));
+//收件日期
+//pageBean.setPaRecvDate(dataObjects.getString("PA_RECV_DATE"));
+//來文機關
+//pageBean.setPaDispatchUnit(dataObjects.getString("PA_DISPATCH_UNIT"));
+//移案單位
+//pageBean.setPaRemoveUnit(dataObjects.getString("PA_REMOVE_UNIT"));
+//來文文號
+//pageBean.setPaDispatchNo(dataObjects.getString("PA_DISPATCH_NO"));
+//海關收文編號
+//pageBean.setPaCusInNo(dataObjects.getString("PA_CUS_IN_NO"));
+//簽註日期
+//pageBean.setPaMarkDate(dataObjects.getString("PA_MARK_DATE"));
+//密告登錄號碼
+//pageBean.setPaTalkNo(dataObjects.getString("PA_TALK_NO"));
+//情資通報單號碼
+//pageBean.setPaFbiNo(dataObjects.getString("PA_FBI_NO"));
+//廠商統編
+//pageBean.setPaMfgCode(dataObjects.getString("PA_MFG_CODE"));
+//廠商名稱
+//pageBean.setPaMfgName(dataObjects.getString("PA_MFG_NAME"));
+//關務署電腦分派日期
+//pageBean.setPaCpcAssignDate(dataObjects.getString("PA_CPC_ASSIGN_DATE"));
+//關務署承辦員編號
+//pageBean.setPaCpcUser(dataObjects.getString("PA_CPC_USER"));
+//關務署承辦員姓名
+//pageBean.setPaCpcName(dataObjects.getString("PA_CPC_NAME"));
+//處理人員
+//pageBean.setProUser(dataObjects.getString("PRO_USER"));
+
+private String paRecvNo;//收件編號
+private Timestamp paRecvDate;//收件日期
+private String paDispatchUnit;//來文機關
+private String paRemoveUnit;//移案單位
+private String paDispatchNo;//來文文號
+private String paCusInNo;//海關收文編號
+private Timestamp paMarkDate;//簽註日期
+private String paTalkNo;//密告登錄號碼
+private String paFbiNo;//情資通報單號碼
+private String paMfgCode;//廠商統編
+private String paMfgName;//廠商名稱
+private Timestamp paCpcAssignDate;//關務署電腦分派日期
+private String paCpcUser;//關務署承辦員編號
+private String paCpcName;//關務署承辦員姓名
+private String proUser;//處理人員
+
+pageBean.setPaRecvNo(randomBean.getPaRecvNo());//收件編號
+pageBean.setPaRecvDate(randomBean.getPaRecvDate());//收件日期
+pageBean.setPaDispatchUnit(randomBean.getPaDispatchUnit());//來文機關
+pageBean.setPaRemoveUnit(randomBean.getPaRemoveUnit());//移案單位
+pageBean.setPaDispatchNo(randomBean.getPaDispatchNo());//來文文號
+pageBean.setPaCusInNo(randomBean.getPaCusInNo());//海關收文編號
+pageBean.setPaMarkDate(randomBean.getPaMarkDate());//簽註日期
+pageBean.setPaTalkNo(randomBean.getPaTalkNo());//密告登錄號碼
+pageBean.setPaFbiNo(randomBean.getPaFbiNo());//情資通報單號碼
+pageBean.setPaMfgCode(randomBean.getPaMfgCode());//廠商統編
+pageBean.setPaMfgName(randomBean.getPaMfgName());//廠商名稱
+pageBean.setPaCpcAssignDate(randomBean.getPaCpcAssignDate());//關務署電腦分派日期
+pageBean.setPaCpcUser(randomBean.getPaCpcUser());//關務署承辦員編號
+pageBean.setPaCpcName(randomBean.getPaCpcName());//關務署承辦員姓名
+pageBean.setProUser(randomBean.getProUser());//處理人員
+
+setPaRecvNo(paRecvNo);//收件編號
+setPaRecvDate(paRecvDate);//收件日期
+setPaDispatchUnit(paDispatchUnit);//來文機關
+setPaRemoveUnit(paRemoveUnit);//移案單位
+setPaDispatchNo(paDispatchNo);//來文文號
+setPaCusInNo(paCusInNo);//海關收文編號
+setPaMarkDate(paMarkDate);//簽註日期
+setPaTalkNo(paTalkNo);//密告登錄號碼
+setPaFbiNo(paFbiNo);//情資通報單號碼
+setPaMfgCode(paMfgCode);//廠商統編
+setPaMfgName(paMfgName);//廠商名稱
+setPaCpcAssignDate(paCpcAssignDate);//關務署電腦分派日期
+setPaCpcUser(paCpcUser);//關務署承辦員編號
+setPaCpcName(paCpcName);//關務署承辦員姓名
+setProUser(proUser);//處理人員
+
+pageBean.getPaRecvNo(),//收件編號
+pageBean.getPaRecvDate(),//收件日期
+pageBean.getPaDispatchUnit(),//來文機關
+pageBean.getPaRemoveUnit(),//移案單位
+pageBean.getPaDispatchNo(),//來文文號
+pageBean.getPaCusInNo(),//海關收文編號
+pageBean.getPaMarkDate(),//簽註日期
+pageBean.getPaTalkNo(),//密告登錄號碼
+pageBean.getPaFbiNo(),//情資通報單號碼
+pageBean.getPaMfgCode(),//廠商統編
+pageBean.getPaMfgName(),//廠商名稱
+pageBean.getPaCpcAssignDate(),//關務署電腦分派日期
+pageBean.getPaCpcUser(),//關務署承辦員編號
+pageBean.getPaCpcName(),//關務署承辦員姓名
+pageBean.getProUser(),//處理人員
+
+pageBean.setValue("PA_RECV_NO", this.getPaRecvNo());//收件編號
+pageBean.setValue("PA_RECV_DATE", this.getPaRecvDate());//收件日期
+pageBean.setValue("PA_DISPATCH_UNIT", this.getPaDispatchUnit());//來文機關
+pageBean.setValue("PA_REMOVE_UNIT", this.getPaRemoveUnit());//移案單位
+pageBean.setValue("PA_DISPATCH_NO", this.getPaDispatchNo());//來文文號
+pageBean.setValue("PA_CUS_IN_NO", this.getPaCusInNo());//海關收文編號
+pageBean.setValue("PA_MARK_DATE", this.getPaMarkDate());//簽註日期
+pageBean.setValue("PA_TALK_NO", this.getPaTalkNo());//密告登錄號碼
+pageBean.setValue("PA_FBI_NO", this.getPaFbiNo());//情資通報單號碼
+pageBean.setValue("PA_MFG_CODE", this.getPaMfgCode());//廠商統編
+pageBean.setValue("PA_MFG_NAME", this.getPaMfgName());//廠商名稱
+pageBean.setValue("PA_CPC_ASSIGN_DATE", this.getPaCpcAssignDate());//關務署電腦分派日期
+pageBean.setValue("PA_CPC_USER", this.getPaCpcUser());//關務署承辦員編號
+pageBean.setValue("PA_CPC_NAME", this.getPaCpcName());//關務署承辦員姓名
+pageBean.setValue("PRO_USER", this.getProUser());//處理人員
+
+",收件編號"+"(paRecvNo)="+pageBean.getPaRecvNo()+
+",收件日期"+"(paRecvDate)="+pageBean.getPaRecvDate()+
+",來文機關"+"(paDispatchUnit)="+pageBean.getPaDispatchUnit()+
+",移案單位"+"(paRemoveUnit)="+pageBean.getPaRemoveUnit()+
+",來文文號"+"(paDispatchNo)="+pageBean.getPaDispatchNo()+
+",海關收文編號"+"(paCusInNo)="+pageBean.getPaCusInNo()+
+",簽註日期"+"(paMarkDate)="+pageBean.getPaMarkDate()+
+",密告登錄號碼"+"(paTalkNo)="+pageBean.getPaTalkNo()+
+",情資通報單號碼"+"(paFbiNo)="+pageBean.getPaFbiNo()+
+",廠商統編"+"(paMfgCode)="+pageBean.getPaMfgCode()+
+",廠商名稱"+"(paMfgName)="+pageBean.getPaMfgName()+
+",關務署電腦分派日期"+"(paCpcAssignDate)="+pageBean.getPaCpcAssignDate()+
+",關務署承辦員編號"+"(paCpcUser)="+pageBean.getPaCpcUser()+
+",關務署承辦員姓名"+"(paCpcName)="+pageBean.getPaCpcName()+
+",處理人員"+"(proUser)="+pageBean.getProUser()+

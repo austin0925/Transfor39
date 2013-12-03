@@ -1,0 +1,261 @@
+pageBean.ietType=進出轉口別
+pageBean.customsType=通關類別
+pageBean.termno=條件編號
+pageBean.seqno=序號
+pageBean.fieldType=欄位類別
+pageBean.fieldCode=欄位
+pageBean.groupType=群組類別
+pageBean.operator=關係
+pageBean.content=內容
+
+pageBean.ietType=ietType
+pageBean.customsType=customsType
+pageBean.termno=termno
+pageBean.seqno=seqno
+pageBean.fieldType=fieldType
+pageBean.fieldCode=fieldCode
+pageBean.groupType=groupType
+pageBean.operator=operator
+pageBean.content=content
+
+<!--ietType:進出轉口別-->
+<tr>
+<td>
+	<s:text name="ietType"/>
+	<s:textfield name="pageBean.ietType" />
+</td>
+</tr>
+
+<!--customsType:通關類別-->
+<tr>
+<td>
+	<s:text name="customsType"/>
+	<s:textfield name="pageBean.customsType" />
+</td>
+</tr>
+
+<!--termno:條件編號-->
+<tr>
+<td>
+	<s:text name="termno"/>
+	<s:textfield name="pageBean.termno" />
+</td>
+</tr>
+
+<!--seqno:序號-->
+<tr>
+<td>
+	<s:text name="seqno"/>
+	<s:textfield name="pageBean.seqno" />
+</td>
+</tr>
+
+<!--fieldType:欄位類別-->
+<tr>
+<td>
+	<s:text name="fieldType"/>
+	<s:textfield name="pageBean.fieldType" />
+</td>
+</tr>
+
+<!--fieldCode:欄位-->
+<tr>
+<td>
+	<s:text name="fieldCode"/>
+	<s:textfield name="pageBean.fieldCode" />
+</td>
+</tr>
+
+<!--groupType:群組類別-->
+<tr>
+<td>
+	<s:text name="groupType"/>
+	<s:textfield name="pageBean.groupType" />
+</td>
+</tr>
+
+<!--operator:關係-->
+<tr>
+<td>
+	<s:text name="operator"/>
+	<s:textfield name="pageBean.operator" />
+</td>
+</tr>
+
+<!--content:內容-->
+<tr>
+<td>
+	<s:text name="content"/>
+	<s:textfield name="pageBean.content" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="IET_TYPE" index="IET_TYPE" title="%{getText('ietType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IET_TYPE:進出轉口別:ietType--%>
+<sjg:gridColumn name="CUSTOMS_TYPE" index="CUSTOMS_TYPE" title="%{getText('customsType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_TYPE:通關類別:customsType--%>
+<sjg:gridColumn name="TERMNO" index="TERMNO" title="%{getText('termno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERMNO:條件編號:termno--%>
+<sjg:gridColumn name="SEQNO" index="SEQNO" title="%{getText('seqno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEQNO:序號:seqno--%>
+<sjg:gridColumn name="FIELD_TYPE" index="FIELD_TYPE" title="%{getText('fieldType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FIELD_TYPE:欄位類別:fieldType--%>
+<sjg:gridColumn name="FIELD_CODE" index="FIELD_CODE" title="%{getText('fieldCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FIELD_CODE:欄位:fieldCode--%>
+<sjg:gridColumn name="GROUP_TYPE" index="GROUP_TYPE" title="%{getText('groupType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--GROUP_TYPE:群組類別:groupType--%>
+<sjg:gridColumn name="OPERATOR" index="OPERATOR" title="%{getText('operator')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OPERATOR:關係:operator--%>
+<sjg:gridColumn name="CONTENT" index="CONTENT" title="%{getText('content')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONTENT:內容:content--%>
+
+,A.IET_TYPE
+,A.CUSTOMS_TYPE
+,A.TERMNO
+,A.SEQNO
+,A.FIELD_TYPE
+,A.FIELD_CODE
+,A.GROUP_TYPE
+,A.OPERATOR
+,A.CONTENT
+
+<condition key="IET_TYPE" ignoreEmpty="true">IET_TYPE = ${IET_TYPE}</condition>
+<condition key="CUSTOMS_TYPE" ignoreEmpty="true">CUSTOMS_TYPE = ${CUSTOMS_TYPE}</condition>
+<condition key="TERMNO" ignoreEmpty="true">TERMNO = ${TERMNO}</condition>
+<condition key="SEQNO" ignoreEmpty="true">SEQNO = ${SEQNO}</condition>
+<condition key="FIELD_TYPE" ignoreEmpty="true">FIELD_TYPE = ${FIELD_TYPE}</condition>
+<condition key="FIELD_CODE" ignoreEmpty="true">FIELD_CODE = ${FIELD_CODE}</condition>
+<condition key="GROUP_TYPE" ignoreEmpty="true">GROUP_TYPE = ${GROUP_TYPE}</condition>
+<condition key="OPERATOR" ignoreEmpty="true">OPERATOR = ${OPERATOR}</condition>
+<condition key="CONTENT" ignoreEmpty="true">CONTENT = ${CONTENT}</condition>
+
+<condition key="IET_TYPE_S" ignoreEmpty="true">IET_TYPE >= ${IET_TYPE_S}</condition><condition key="IET_TYPE_E" ignoreEmpty="true">${IET_TYPE_E} >= IET_TYPE</condition><condition key="IET_TYPE_L" ignoreEmpty="true">IET_TYPE like ${IET_TYPE_L}</condition>
+<condition key="CUSTOMS_TYPE_S" ignoreEmpty="true">CUSTOMS_TYPE >= ${CUSTOMS_TYPE_S}</condition><condition key="CUSTOMS_TYPE_E" ignoreEmpty="true">${CUSTOMS_TYPE_E} >= CUSTOMS_TYPE</condition><condition key="CUSTOMS_TYPE_L" ignoreEmpty="true">CUSTOMS_TYPE like ${CUSTOMS_TYPE_L}</condition>
+<condition key="TERMNO_S" ignoreEmpty="true">TERMNO >= ${TERMNO_S}</condition><condition key="TERMNO_E" ignoreEmpty="true">${TERMNO_E} >= TERMNO</condition><condition key="TERMNO_L" ignoreEmpty="true">TERMNO like ${TERMNO_L}</condition>
+<condition key="SEQNO_S" ignoreEmpty="true">SEQNO >= ${SEQNO_S}</condition><condition key="SEQNO_E" ignoreEmpty="true">${SEQNO_E} >= SEQNO</condition><condition key="SEQNO_L" ignoreEmpty="true">SEQNO like ${SEQNO_L}</condition>
+<condition key="FIELD_TYPE_S" ignoreEmpty="true">FIELD_TYPE >= ${FIELD_TYPE_S}</condition><condition key="FIELD_TYPE_E" ignoreEmpty="true">${FIELD_TYPE_E} >= FIELD_TYPE</condition><condition key="FIELD_TYPE_L" ignoreEmpty="true">FIELD_TYPE like ${FIELD_TYPE_L}</condition>
+<condition key="FIELD_CODE_S" ignoreEmpty="true">FIELD_CODE >= ${FIELD_CODE_S}</condition><condition key="FIELD_CODE_E" ignoreEmpty="true">${FIELD_CODE_E} >= FIELD_CODE</condition><condition key="FIELD_CODE_L" ignoreEmpty="true">FIELD_CODE like ${FIELD_CODE_L}</condition>
+<condition key="GROUP_TYPE_S" ignoreEmpty="true">GROUP_TYPE >= ${GROUP_TYPE_S}</condition><condition key="GROUP_TYPE_E" ignoreEmpty="true">${GROUP_TYPE_E} >= GROUP_TYPE</condition><condition key="GROUP_TYPE_L" ignoreEmpty="true">GROUP_TYPE like ${GROUP_TYPE_L}</condition>
+<condition key="OPERATOR_S" ignoreEmpty="true">OPERATOR >= ${OPERATOR_S}</condition><condition key="OPERATOR_E" ignoreEmpty="true">${OPERATOR_E} >= OPERATOR</condition><condition key="OPERATOR_L" ignoreEmpty="true">OPERATOR like ${OPERATOR_L}</condition>
+<condition key="CONTENT_S" ignoreEmpty="true">CONTENT >= ${CONTENT_S}</condition><condition key="CONTENT_E" ignoreEmpty="true">${CONTENT_E} >= CONTENT</condition><condition key="CONTENT_L" ignoreEmpty="true">CONTENT like ${CONTENT_L}</condition>
+
+<field key="IET_TYPE" name="IET_TYPE" ignoreEmpty="true"/>
+<field key="CUSTOMS_TYPE" name="CUSTOMS_TYPE" ignoreEmpty="true"/>
+<field key="TERMNO" name="TERMNO" ignoreEmpty="true"/>
+<field key="SEQNO" name="SEQNO" ignoreEmpty="true"/>
+<field key="FIELD_TYPE" name="FIELD_TYPE" ignoreEmpty="true"/>
+<field key="FIELD_CODE" name="FIELD_CODE" ignoreEmpty="true"/>
+<field key="GROUP_TYPE" name="GROUP_TYPE" ignoreEmpty="true"/>
+<field key="OPERATOR" name="OPERATOR" ignoreEmpty="true"/>
+<field key="CONTENT" name="CONTENT" ignoreEmpty="true"/>
+
+$('#pageBean_ietType').attr('value',rowData.IET_TYPE);
+$('#pageBean_customsType').attr('value',rowData.CUSTOMS_TYPE);
+$('#pageBean_termno').attr('value',rowData.TERMNO);
+$('#pageBean_seqno').attr('value',rowData.SEQNO);
+$('#pageBean_fieldType').attr('value',rowData.FIELD_TYPE);
+$('#pageBean_fieldCode').attr('value',rowData.FIELD_CODE);
+$('#pageBean_groupType').attr('value',rowData.GROUP_TYPE);
+$('#pageBean_operator').attr('value',rowData.OPERATOR);
+$('#pageBean_content').attr('value',rowData.CONTENT);
+
+$('#pageBean_ietType').attr("value", "");
+$('#pageBean_customsType').attr("value", "");
+$('#pageBean_termno').attr("value", "");
+$('#pageBean_seqno').attr("value", "");
+$('#pageBean_fieldType').attr("value", "");
+$('#pageBean_fieldCode').attr("value", "");
+$('#pageBean_groupType').attr("value", "");
+$('#pageBean_operator').attr("value", "");
+$('#pageBean_content').attr("value", "");
+
+IET_TYPE:$('#pageBean_ietType').val(),//進出轉口別
+CUSTOMS_TYPE:$('#pageBean_customsType').val(),//通關類別
+TERMNO:$('#pageBean_termno').val(),//條件編號
+SEQNO:$('#pageBean_seqno').val(),//序號
+FIELD_TYPE:$('#pageBean_fieldType').val(),//欄位類別
+FIELD_CODE:$('#pageBean_fieldCode').val(),//欄位
+GROUP_TYPE:$('#pageBean_groupType').val(),//群組類別
+OPERATOR:$('#pageBean_operator').val(),//關係
+CONTENT:$('#pageBean_content').val(),//內容
+
+pageBean.setIetType(dataObjects.getString("IET_TYPE"));//進出轉口別
+pageBean.setCustomsType(dataObjects.getString("CUSTOMS_TYPE"));//通關類別
+pageBean.setTermno(dataObjects.getString("TERMNO"));//條件編號
+pageBean.setSeqno(dataObjects.getString("SEQNO"));//序號
+pageBean.setFieldType(dataObjects.getString("FIELD_TYPE"));//欄位類別
+pageBean.setFieldCode(dataObjects.getString("FIELD_CODE"));//欄位
+pageBean.setGroupType(dataObjects.getString("GROUP_TYPE"));//群組類別
+pageBean.setOperator(dataObjects.getString("OPERATOR"));//關係
+pageBean.setContent(dataObjects.getString("CONTENT"));//內容
+
+private String ietType = null;//進出轉口別
+private String customsType = null;//通關類別
+private String termno = null;//條件編號
+private String seqno = null;//序號
+private String fieldType = null;//欄位類別
+private String fieldCode = null;//欄位
+private String groupType = null;//群組類別
+private String operator = null;//關係
+private String content = null;//內容
+
+pageBean.setIetType(ietType);//進出轉口別
+pageBean.setCustomsType(customsType);//通關類別
+pageBean.setTermno(termno);//條件編號
+pageBean.setSeqno(seqno);//序號
+pageBean.setFieldType(fieldType);//欄位類別
+pageBean.setFieldCode(fieldCode);//欄位
+pageBean.setGroupType(groupType);//群組類別
+pageBean.setOperator(operator);//關係
+pageBean.setContent(content);//內容
+
+pageBean.setIetType(randomBean.getIetType());//進出轉口別
+pageBean.setCustomsType(randomBean.getCustomsType());//通關類別
+pageBean.setTermno(randomBean.getTermno());//條件編號
+pageBean.setSeqno(randomBean.getSeqno());//序號
+pageBean.setFieldType(randomBean.getFieldType());//欄位類別
+pageBean.setFieldCode(randomBean.getFieldCode());//欄位
+pageBean.setGroupType(randomBean.getGroupType());//群組類別
+pageBean.setOperator(randomBean.getOperator());//關係
+pageBean.setContent(randomBean.getContent());//內容
+
+setIetType(ietType);//進出轉口別
+setCustomsType(customsType);//通關類別
+setTermno(termno);//條件編號
+setSeqno(seqno);//序號
+setFieldType(fieldType);//欄位類別
+setFieldCode(fieldCode);//欄位
+setGroupType(groupType);//群組類別
+setOperator(operator);//關係
+setContent(content);//內容
+
+pageBean.getIetType(),//進出轉口別
+pageBean.getCustomsType(),//通關類別
+pageBean.getTermno(),//條件編號
+pageBean.getSeqno(),//序號
+pageBean.getFieldType(),//欄位類別
+pageBean.getFieldCode(),//欄位
+pageBean.getGroupType(),//群組類別
+pageBean.getOperator(),//關係
+pageBean.getContent(),//內容
+
+pageBean.setValue("IET_TYPE", this.getIetType());//進出轉口別
+pageBean.setValue("CUSTOMS_TYPE", this.getCustomsType());//通關類別
+pageBean.setValue("TERMNO", this.getTermno());//條件編號
+pageBean.setValue("SEQNO", this.getSeqno());//序號
+pageBean.setValue("FIELD_TYPE", this.getFieldType());//欄位類別
+pageBean.setValue("FIELD_CODE", this.getFieldCode());//欄位
+pageBean.setValue("GROUP_TYPE", this.getGroupType());//群組類別
+pageBean.setValue("OPERATOR", this.getOperator());//關係
+pageBean.setValue("CONTENT", this.getContent());//內容
+
+",進出轉口別"+"(ietType)="+pageBean.getIetType()+
+",通關類別"+"(customsType)="+pageBean.getCustomsType()+
+",條件編號"+"(termno)="+pageBean.getTermno()+
+",序號"+"(seqno)="+pageBean.getSeqno()+
+",欄位類別"+"(fieldType)="+pageBean.getFieldType()+
+",欄位"+"(fieldCode)="+pageBean.getFieldCode()+
+",群組類別"+"(groupType)="+pageBean.getGroupType()+
+",關係"+"(operator)="+pageBean.getOperator()+
+",內容"+"(content)="+pageBean.getContent()+

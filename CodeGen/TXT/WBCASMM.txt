@@ -1,0 +1,775 @@
+pageBean.tid=交易代碼
+pageBean.aSType=海空運別
+pageBean.issueFmt=副報單格式
+pageBean.issueKind=申請聯別
+pageBean.feeMemoNote=存款書核發方式
+pageBean.declNo=報單號碼
+pageBean.retCode=交易回傳代碼
+pageBean.checkNo=驗證碼
+pageBean.feeMemoNo=存款書編號
+pageBean.applyDate=申請日期時間
+pageBean.applyKind=申請人類別
+pageBean.applyId=申請人代碼
+pageBean.ownerUid=委託人代碼(登入使用者)
+pageBean.processState=處理狀態
+pageBean.processDate=處理日期時間
+pageBean.filename01=原始PDF檔
+pageBean.filename02=預覽PDF檔
+pageBean.filename03=正式PDF檔
+pageBean.filename04=補印PDF檔
+pageBean.filename05=備用欄位
+pageBean.reprintTimes=補列印次數
+pageBean.itemNo=DEF式時輸入之項次清單
+pageBean.retMsg=交易回傳訊息
+pageBean.clientSrv=要求PDF列印的服務名稱
+pageBean.clientKey=與客戶服務勾稽的KEY值
+pageBean.iEType=進出口別
+pageBean.onlineBatch=即時批次處理
+
+pageBean.tid=tid
+pageBean.aSType=aSType
+pageBean.issueFmt=issueFmt
+pageBean.issueKind=issueKind
+pageBean.feeMemoNote=feeMemoNote
+pageBean.declNo=declNo
+pageBean.retCode=retCode
+pageBean.checkNo=checkNo
+pageBean.feeMemoNo=feeMemoNo
+pageBean.applyDate=applyDate
+pageBean.applyKind=applyKind
+pageBean.applyId=applyId
+pageBean.ownerUid=ownerUid
+pageBean.processState=processState
+pageBean.processDate=processDate
+pageBean.filename01=filename01
+pageBean.filename02=filename02
+pageBean.filename03=filename03
+pageBean.filename04=filename04
+pageBean.filename05=filename05
+pageBean.reprintTimes=reprintTimes
+pageBean.itemNo=itemNo
+pageBean.retMsg=retMsg
+pageBean.clientSrv=clientSrv
+pageBean.clientKey=clientKey
+pageBean.iEType=iEType
+pageBean.onlineBatch=onlineBatch
+
+<!--tid:交易代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.tid"/>
+	<s:textfield name="pageBean.tid" />
+</td>
+</tr>
+
+<!--aSType:海空運別-->
+<tr>
+<td>
+	<s:text name="pageBean.aSType"/>
+	<s:textfield name="pageBean.aSType" />
+</td>
+</tr>
+
+<!--issueFmt:副報單格式-->
+<tr>
+<td>
+	<s:text name="pageBean.issueFmt"/>
+	<s:textfield name="pageBean.issueFmt" />
+</td>
+</tr>
+
+<!--issueKind:申請聯別-->
+<tr>
+<td>
+	<s:text name="pageBean.issueKind"/>
+	<s:textfield name="pageBean.issueKind" />
+</td>
+</tr>
+
+<!--feeMemoNote:存款書核發方式-->
+<tr>
+<td>
+	<s:text name="pageBean.feeMemoNote"/>
+	<s:textfield name="pageBean.feeMemoNote" />
+</td>
+</tr>
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--retCode:交易回傳代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.retCode"/>
+	<s:textfield name="pageBean.retCode" />
+</td>
+</tr>
+
+<!--checkNo:驗證碼-->
+<tr>
+<td>
+	<s:text name="pageBean.checkNo"/>
+	<s:textfield name="pageBean.checkNo" />
+</td>
+</tr>
+
+<!--feeMemoNo:存款書編號-->
+<tr>
+<td>
+	<s:text name="pageBean.feeMemoNo"/>
+	<s:textfield name="pageBean.feeMemoNo" />
+</td>
+</tr>
+
+<!--applyDate:申請日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.applyDate"/>
+	<s:textfield name="pageBean.applyDate" />
+</td>
+</tr>
+
+<!--applyKind:申請人類別-->
+<tr>
+<td>
+	<s:text name="pageBean.applyKind"/>
+	<s:textfield name="pageBean.applyKind" />
+</td>
+</tr>
+
+<!--applyId:申請人代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.applyId"/>
+	<s:textfield name="pageBean.applyId" />
+</td>
+</tr>
+
+<!--ownerUid:委託人代碼(登入使用者)-->
+<tr>
+<td>
+	<s:text name="pageBean.ownerUid"/>
+	<s:textfield name="pageBean.ownerUid" />
+</td>
+</tr>
+
+<!--processState:處理狀態-->
+<tr>
+<td>
+	<s:text name="pageBean.processState"/>
+	<s:textfield name="pageBean.processState" />
+</td>
+</tr>
+
+<!--processDate:處理日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.processDate"/>
+	<s:textfield name="pageBean.processDate" />
+</td>
+</tr>
+
+<!--filename01:原始PDF檔-->
+<tr>
+<td>
+	<s:text name="pageBean.filename01"/>
+	<s:textfield name="pageBean.filename01" />
+</td>
+</tr>
+
+<!--filename02:預覽PDF檔-->
+<tr>
+<td>
+	<s:text name="pageBean.filename02"/>
+	<s:textfield name="pageBean.filename02" />
+</td>
+</tr>
+
+<!--filename03:正式PDF檔-->
+<tr>
+<td>
+	<s:text name="pageBean.filename03"/>
+	<s:textfield name="pageBean.filename03" />
+</td>
+</tr>
+
+<!--filename04:補印PDF檔-->
+<tr>
+<td>
+	<s:text name="pageBean.filename04"/>
+	<s:textfield name="pageBean.filename04" />
+</td>
+</tr>
+
+<!--filename05:備用欄位-->
+<tr>
+<td>
+	<s:text name="pageBean.filename05"/>
+	<s:textfield name="pageBean.filename05" />
+</td>
+</tr>
+
+<!--reprintTimes:補列印次數-->
+<tr>
+<td>
+	<s:text name="pageBean.reprintTimes"/>
+	<s:textfield name="pageBean.reprintTimes" />
+</td>
+</tr>
+
+<!--itemNo:DEF式時輸入之項次清單-->
+<tr>
+<td>
+	<s:text name="pageBean.itemNo"/>
+	<s:textfield name="pageBean.itemNo" />
+</td>
+</tr>
+
+<!--retMsg:交易回傳訊息-->
+<tr>
+<td>
+	<s:text name="pageBean.retMsg"/>
+	<s:textfield name="pageBean.retMsg" />
+</td>
+</tr>
+
+<!--clientSrv:要求PDF列印的服務名稱-->
+<tr>
+<td>
+	<s:text name="pageBean.clientSrv"/>
+	<s:textfield name="pageBean.clientSrv" />
+</td>
+</tr>
+
+<!--clientKey:與客戶服務勾稽的KEY值-->
+<tr>
+<td>
+	<s:text name="pageBean.clientKey"/>
+	<s:textfield name="pageBean.clientKey" />
+</td>
+</tr>
+
+<!--iEType:進出口別-->
+<tr>
+<td>
+	<s:text name="pageBean.iEType"/>
+	<s:textfield name="pageBean.iEType" />
+</td>
+</tr>
+
+<!--onlineBatch:即時批次處理-->
+<tr>
+<td>
+	<s:text name="pageBean.onlineBatch"/>
+	<s:textfield name="pageBean.onlineBatch" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.tid"/><!--tid:交易代碼-->
+<s:hidden name="pageBean.aSType"/><!--aSType:海空運別-->
+<s:hidden name="pageBean.issueFmt"/><!--issueFmt:副報單格式-->
+<s:hidden name="pageBean.issueKind"/><!--issueKind:申請聯別-->
+<s:hidden name="pageBean.feeMemoNote"/><!--feeMemoNote:存款書核發方式-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.retCode"/><!--retCode:交易回傳代碼-->
+<s:hidden name="pageBean.checkNo"/><!--checkNo:驗證碼-->
+<s:hidden name="pageBean.feeMemoNo"/><!--feeMemoNo:存款書編號-->
+<s:hidden name="pageBean.applyDate"/><!--applyDate:申請日期時間-->
+<s:hidden name="pageBean.applyKind"/><!--applyKind:申請人類別-->
+<s:hidden name="pageBean.applyId"/><!--applyId:申請人代碼-->
+<s:hidden name="pageBean.ownerUid"/><!--ownerUid:委託人代碼(登入使用者)-->
+<s:hidden name="pageBean.processState"/><!--processState:處理狀態-->
+<s:hidden name="pageBean.processDate"/><!--processDate:處理日期時間-->
+<s:hidden name="pageBean.filename01"/><!--filename01:原始PDF檔-->
+<s:hidden name="pageBean.filename02"/><!--filename02:預覽PDF檔-->
+<s:hidden name="pageBean.filename03"/><!--filename03:正式PDF檔-->
+<s:hidden name="pageBean.filename04"/><!--filename04:補印PDF檔-->
+<s:hidden name="pageBean.filename05"/><!--filename05:備用欄位-->
+<s:hidden name="pageBean.reprintTimes"/><!--reprintTimes:補列印次數-->
+<s:hidden name="pageBean.itemNo"/><!--itemNo:DEF式時輸入之項次清單-->
+<s:hidden name="pageBean.retMsg"/><!--retMsg:交易回傳訊息-->
+<s:hidden name="pageBean.clientSrv"/><!--clientSrv:要求PDF列印的服務名稱-->
+<s:hidden name="pageBean.clientKey"/><!--clientKey:與客戶服務勾稽的KEY值-->
+<s:hidden name="pageBean.iEType"/><!--iEType:進出口別-->
+<s:hidden name="pageBean.onlineBatch"/><!--onlineBatch:即時批次處理-->
+
+<%--TID:交易代碼:tid--%>
+<sjg:gridColumn name="TID" index="TID" title="%{getText('tid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--A_S_TYPE:海空運別:aSType--%>
+<sjg:gridColumn name="A_S_TYPE" index="A_S_TYPE" title="%{getText('aSType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ISSUE_FMT:副報單格式:issueFmt--%>
+<sjg:gridColumn name="ISSUE_FMT" index="ISSUE_FMT" title="%{getText('issueFmt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ISSUE_KIND:申請聯別:issueKind--%>
+<sjg:gridColumn name="ISSUE_KIND" index="ISSUE_KIND" title="%{getText('issueKind')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FEE_MEMO_NOTE:存款書核發方式:feeMemoNote--%>
+<sjg:gridColumn name="FEE_MEMO_NOTE" index="FEE_MEMO_NOTE" title="%{getText('feeMemoNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RET_CODE:交易回傳代碼:retCode--%>
+<sjg:gridColumn name="RET_CODE" index="RET_CODE" title="%{getText('retCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_NO:驗證碼:checkNo--%>
+<sjg:gridColumn name="CHECK_NO" index="CHECK_NO" title="%{getText('checkNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FEE_MEMO_NO:存款書編號:feeMemoNo--%>
+<sjg:gridColumn name="FEE_MEMO_NO" index="FEE_MEMO_NO" title="%{getText('feeMemoNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPLY_DATE:申請日期時間:applyDate--%>
+<sjg:gridColumn name="APPLY_DATE" index="APPLY_DATE" title="%{getText('applyDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPLY_KIND:申請人類別:applyKind--%>
+<sjg:gridColumn name="APPLY_KIND" index="APPLY_KIND" title="%{getText('applyKind')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPLY_ID:申請人代碼:applyId--%>
+<sjg:gridColumn name="APPLY_ID" index="APPLY_ID" title="%{getText('applyId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OWNER_UID:委託人代碼(登入使用者):ownerUid--%>
+<sjg:gridColumn name="OWNER_UID" index="OWNER_UID" title="%{getText('ownerUid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_STATE:處理狀態:processState--%>
+<sjg:gridColumn name="PROCESS_STATE" index="PROCESS_STATE" title="%{getText('processState')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_DATE:處理日期時間:processDate--%>
+<sjg:gridColumn name="PROCESS_DATE" index="PROCESS_DATE" title="%{getText('processDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FILENAME01:原始PDF檔:filename01--%>
+<sjg:gridColumn name="FILENAME01" index="FILENAME01" title="%{getText('filename01')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FILENAME02:預覽PDF檔:filename02--%>
+<sjg:gridColumn name="FILENAME02" index="FILENAME02" title="%{getText('filename02')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FILENAME03:正式PDF檔:filename03--%>
+<sjg:gridColumn name="FILENAME03" index="FILENAME03" title="%{getText('filename03')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FILENAME04:補印PDF檔:filename04--%>
+<sjg:gridColumn name="FILENAME04" index="FILENAME04" title="%{getText('filename04')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FILENAME05:備用欄位:filename05--%>
+<sjg:gridColumn name="FILENAME05" index="FILENAME05" title="%{getText('filename05')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REPRINT_TIMES:補列印次數:reprintTimes--%>
+<sjg:gridColumn name="REPRINT_TIMES" index="REPRINT_TIMES" title="%{getText('reprintTimes')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ITEM_NO:DEF式時輸入之項次清單:itemNo--%>
+<sjg:gridColumn name="ITEM_NO" index="ITEM_NO" title="%{getText('itemNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RET_MSG:交易回傳訊息:retMsg--%>
+<sjg:gridColumn name="RET_MSG" index="RET_MSG" title="%{getText('retMsg')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CLIENT_SRV:要求PDF列印的服務名稱:clientSrv--%>
+<sjg:gridColumn name="CLIENT_SRV" index="CLIENT_SRV" title="%{getText('clientSrv')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CLIENT_KEY:與客戶服務勾稽的KEY值:clientKey--%>
+<sjg:gridColumn name="CLIENT_KEY" index="CLIENT_KEY" title="%{getText('clientKey')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--I_E_TYPE:進出口別:iEType--%>
+<sjg:gridColumn name="I_E_TYPE" index="I_E_TYPE" title="%{getText('iEType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ONLINE_BATCH:即時批次處理:onlineBatch--%>
+<sjg:gridColumn name="ONLINE_BATCH" index="ONLINE_BATCH" title="%{getText('onlineBatch')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TID
+,A.A_S_TYPE
+,A.ISSUE_FMT
+,A.ISSUE_KIND
+,A.FEE_MEMO_NOTE
+,A.DECL_NO
+,A.RET_CODE
+,A.CHECK_NO
+,A.FEE_MEMO_NO
+,A.APPLY_DATE
+,A.APPLY_KIND
+,A.APPLY_ID
+,A.OWNER_UID
+,A.PROCESS_STATE
+,A.PROCESS_DATE
+,A.FILENAME01
+,A.FILENAME02
+,A.FILENAME03
+,A.FILENAME04
+,A.FILENAME05
+,A.REPRINT_TIMES
+,A.ITEM_NO
+,A.RET_MSG
+,A.CLIENT_SRV
+,A.CLIENT_KEY
+,A.I_E_TYPE
+,A.ONLINE_BATCH
+
+<condition key="TID" ignoreEmpty="true">TID = ${TID}</condition>
+<condition key="A_S_TYPE" ignoreEmpty="true">A_S_TYPE = ${A_S_TYPE}</condition>
+<condition key="ISSUE_FMT" ignoreEmpty="true">ISSUE_FMT = ${ISSUE_FMT}</condition>
+<condition key="ISSUE_KIND" ignoreEmpty="true">ISSUE_KIND = ${ISSUE_KIND}</condition>
+<condition key="FEE_MEMO_NOTE" ignoreEmpty="true">FEE_MEMO_NOTE = ${FEE_MEMO_NOTE}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="RET_CODE" ignoreEmpty="true">RET_CODE = ${RET_CODE}</condition>
+<condition key="CHECK_NO" ignoreEmpty="true">CHECK_NO = ${CHECK_NO}</condition>
+<condition key="FEE_MEMO_NO" ignoreEmpty="true">FEE_MEMO_NO = ${FEE_MEMO_NO}</condition>
+<condition key="APPLY_DATE" ignoreEmpty="true">APPLY_DATE = ${APPLY_DATE}</condition>
+<condition key="APPLY_KIND" ignoreEmpty="true">APPLY_KIND = ${APPLY_KIND}</condition>
+<condition key="APPLY_ID" ignoreEmpty="true">APPLY_ID = ${APPLY_ID}</condition>
+<condition key="OWNER_UID" ignoreEmpty="true">OWNER_UID = ${OWNER_UID}</condition>
+<condition key="PROCESS_STATE" ignoreEmpty="true">PROCESS_STATE = ${PROCESS_STATE}</condition>
+<condition key="PROCESS_DATE" ignoreEmpty="true">PROCESS_DATE = ${PROCESS_DATE}</condition>
+<condition key="FILENAME01" ignoreEmpty="true">FILENAME01 = ${FILENAME01}</condition>
+<condition key="FILENAME02" ignoreEmpty="true">FILENAME02 = ${FILENAME02}</condition>
+<condition key="FILENAME03" ignoreEmpty="true">FILENAME03 = ${FILENAME03}</condition>
+<condition key="FILENAME04" ignoreEmpty="true">FILENAME04 = ${FILENAME04}</condition>
+<condition key="FILENAME05" ignoreEmpty="true">FILENAME05 = ${FILENAME05}</condition>
+<condition key="REPRINT_TIMES" ignoreEmpty="true">REPRINT_TIMES = ${REPRINT_TIMES}</condition>
+<condition key="ITEM_NO" ignoreEmpty="true">ITEM_NO = ${ITEM_NO}</condition>
+<condition key="RET_MSG" ignoreEmpty="true">RET_MSG = ${RET_MSG}</condition>
+<condition key="CLIENT_SRV" ignoreEmpty="true">CLIENT_SRV = ${CLIENT_SRV}</condition>
+<condition key="CLIENT_KEY" ignoreEmpty="true">CLIENT_KEY = ${CLIENT_KEY}</condition>
+<condition key="I_E_TYPE" ignoreEmpty="true">I_E_TYPE = ${I_E_TYPE}</condition>
+<condition key="ONLINE_BATCH" ignoreEmpty="true">ONLINE_BATCH = ${ONLINE_BATCH}</condition>
+
+<condition key="TID_S" ignoreEmpty="true">TID >= ${TID_S}</condition><condition key="TID_E" ignoreEmpty="true">${TID_E} >= TID</condition><condition key="TID_L" ignoreEmpty="true">TID like ${TID_L}</condition>
+<condition key="A_S_TYPE_S" ignoreEmpty="true">A_S_TYPE >= ${A_S_TYPE_S}</condition><condition key="A_S_TYPE_E" ignoreEmpty="true">${A_S_TYPE_E} >= A_S_TYPE</condition><condition key="A_S_TYPE_L" ignoreEmpty="true">A_S_TYPE like ${A_S_TYPE_L}</condition>
+<condition key="ISSUE_FMT_S" ignoreEmpty="true">ISSUE_FMT >= ${ISSUE_FMT_S}</condition><condition key="ISSUE_FMT_E" ignoreEmpty="true">${ISSUE_FMT_E} >= ISSUE_FMT</condition><condition key="ISSUE_FMT_L" ignoreEmpty="true">ISSUE_FMT like ${ISSUE_FMT_L}</condition>
+<condition key="ISSUE_KIND_S" ignoreEmpty="true">ISSUE_KIND >= ${ISSUE_KIND_S}</condition><condition key="ISSUE_KIND_E" ignoreEmpty="true">${ISSUE_KIND_E} >= ISSUE_KIND</condition><condition key="ISSUE_KIND_L" ignoreEmpty="true">ISSUE_KIND like ${ISSUE_KIND_L}</condition>
+<condition key="FEE_MEMO_NOTE_S" ignoreEmpty="true">FEE_MEMO_NOTE >= ${FEE_MEMO_NOTE_S}</condition><condition key="FEE_MEMO_NOTE_E" ignoreEmpty="true">${FEE_MEMO_NOTE_E} >= FEE_MEMO_NOTE</condition><condition key="FEE_MEMO_NOTE_L" ignoreEmpty="true">FEE_MEMO_NOTE like ${FEE_MEMO_NOTE_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="RET_CODE_S" ignoreEmpty="true">RET_CODE >= ${RET_CODE_S}</condition><condition key="RET_CODE_E" ignoreEmpty="true">${RET_CODE_E} >= RET_CODE</condition><condition key="RET_CODE_L" ignoreEmpty="true">RET_CODE like ${RET_CODE_L}</condition>
+<condition key="CHECK_NO_S" ignoreEmpty="true">CHECK_NO >= ${CHECK_NO_S}</condition><condition key="CHECK_NO_E" ignoreEmpty="true">${CHECK_NO_E} >= CHECK_NO</condition><condition key="CHECK_NO_L" ignoreEmpty="true">CHECK_NO like ${CHECK_NO_L}</condition>
+<condition key="FEE_MEMO_NO_S" ignoreEmpty="true">FEE_MEMO_NO >= ${FEE_MEMO_NO_S}</condition><condition key="FEE_MEMO_NO_E" ignoreEmpty="true">${FEE_MEMO_NO_E} >= FEE_MEMO_NO</condition><condition key="FEE_MEMO_NO_L" ignoreEmpty="true">FEE_MEMO_NO like ${FEE_MEMO_NO_L}</condition>
+<condition key="APPLY_DATE_S" ignoreEmpty="true">APPLY_DATE >= ${APPLY_DATE_S}</condition><condition key="APPLY_DATE_E" ignoreEmpty="true">${APPLY_DATE_E} >= APPLY_DATE</condition><condition key="APPLY_DATE_L" ignoreEmpty="true">APPLY_DATE like ${APPLY_DATE_L}</condition>
+<condition key="APPLY_KIND_S" ignoreEmpty="true">APPLY_KIND >= ${APPLY_KIND_S}</condition><condition key="APPLY_KIND_E" ignoreEmpty="true">${APPLY_KIND_E} >= APPLY_KIND</condition><condition key="APPLY_KIND_L" ignoreEmpty="true">APPLY_KIND like ${APPLY_KIND_L}</condition>
+<condition key="APPLY_ID_S" ignoreEmpty="true">APPLY_ID >= ${APPLY_ID_S}</condition><condition key="APPLY_ID_E" ignoreEmpty="true">${APPLY_ID_E} >= APPLY_ID</condition><condition key="APPLY_ID_L" ignoreEmpty="true">APPLY_ID like ${APPLY_ID_L}</condition>
+<condition key="OWNER_UID_S" ignoreEmpty="true">OWNER_UID >= ${OWNER_UID_S}</condition><condition key="OWNER_UID_E" ignoreEmpty="true">${OWNER_UID_E} >= OWNER_UID</condition><condition key="OWNER_UID_L" ignoreEmpty="true">OWNER_UID like ${OWNER_UID_L}</condition>
+<condition key="PROCESS_STATE_S" ignoreEmpty="true">PROCESS_STATE >= ${PROCESS_STATE_S}</condition><condition key="PROCESS_STATE_E" ignoreEmpty="true">${PROCESS_STATE_E} >= PROCESS_STATE</condition><condition key="PROCESS_STATE_L" ignoreEmpty="true">PROCESS_STATE like ${PROCESS_STATE_L}</condition>
+<condition key="PROCESS_DATE_S" ignoreEmpty="true">PROCESS_DATE >= ${PROCESS_DATE_S}</condition><condition key="PROCESS_DATE_E" ignoreEmpty="true">${PROCESS_DATE_E} >= PROCESS_DATE</condition><condition key="PROCESS_DATE_L" ignoreEmpty="true">PROCESS_DATE like ${PROCESS_DATE_L}</condition>
+<condition key="FILENAME01_S" ignoreEmpty="true">FILENAME01 >= ${FILENAME01_S}</condition><condition key="FILENAME01_E" ignoreEmpty="true">${FILENAME01_E} >= FILENAME01</condition><condition key="FILENAME01_L" ignoreEmpty="true">FILENAME01 like ${FILENAME01_L}</condition>
+<condition key="FILENAME02_S" ignoreEmpty="true">FILENAME02 >= ${FILENAME02_S}</condition><condition key="FILENAME02_E" ignoreEmpty="true">${FILENAME02_E} >= FILENAME02</condition><condition key="FILENAME02_L" ignoreEmpty="true">FILENAME02 like ${FILENAME02_L}</condition>
+<condition key="FILENAME03_S" ignoreEmpty="true">FILENAME03 >= ${FILENAME03_S}</condition><condition key="FILENAME03_E" ignoreEmpty="true">${FILENAME03_E} >= FILENAME03</condition><condition key="FILENAME03_L" ignoreEmpty="true">FILENAME03 like ${FILENAME03_L}</condition>
+<condition key="FILENAME04_S" ignoreEmpty="true">FILENAME04 >= ${FILENAME04_S}</condition><condition key="FILENAME04_E" ignoreEmpty="true">${FILENAME04_E} >= FILENAME04</condition><condition key="FILENAME04_L" ignoreEmpty="true">FILENAME04 like ${FILENAME04_L}</condition>
+<condition key="FILENAME05_S" ignoreEmpty="true">FILENAME05 >= ${FILENAME05_S}</condition><condition key="FILENAME05_E" ignoreEmpty="true">${FILENAME05_E} >= FILENAME05</condition><condition key="FILENAME05_L" ignoreEmpty="true">FILENAME05 like ${FILENAME05_L}</condition>
+<condition key="REPRINT_TIMES_S" ignoreEmpty="true">REPRINT_TIMES >= ${REPRINT_TIMES_S}</condition><condition key="REPRINT_TIMES_E" ignoreEmpty="true">${REPRINT_TIMES_E} >= REPRINT_TIMES</condition><condition key="REPRINT_TIMES_L" ignoreEmpty="true">REPRINT_TIMES like ${REPRINT_TIMES_L}</condition>
+<condition key="ITEM_NO_S" ignoreEmpty="true">ITEM_NO >= ${ITEM_NO_S}</condition><condition key="ITEM_NO_E" ignoreEmpty="true">${ITEM_NO_E} >= ITEM_NO</condition><condition key="ITEM_NO_L" ignoreEmpty="true">ITEM_NO like ${ITEM_NO_L}</condition>
+<condition key="RET_MSG_S" ignoreEmpty="true">RET_MSG >= ${RET_MSG_S}</condition><condition key="RET_MSG_E" ignoreEmpty="true">${RET_MSG_E} >= RET_MSG</condition><condition key="RET_MSG_L" ignoreEmpty="true">RET_MSG like ${RET_MSG_L}</condition>
+<condition key="CLIENT_SRV_S" ignoreEmpty="true">CLIENT_SRV >= ${CLIENT_SRV_S}</condition><condition key="CLIENT_SRV_E" ignoreEmpty="true">${CLIENT_SRV_E} >= CLIENT_SRV</condition><condition key="CLIENT_SRV_L" ignoreEmpty="true">CLIENT_SRV like ${CLIENT_SRV_L}</condition>
+<condition key="CLIENT_KEY_S" ignoreEmpty="true">CLIENT_KEY >= ${CLIENT_KEY_S}</condition><condition key="CLIENT_KEY_E" ignoreEmpty="true">${CLIENT_KEY_E} >= CLIENT_KEY</condition><condition key="CLIENT_KEY_L" ignoreEmpty="true">CLIENT_KEY like ${CLIENT_KEY_L}</condition>
+<condition key="I_E_TYPE_S" ignoreEmpty="true">I_E_TYPE >= ${I_E_TYPE_S}</condition><condition key="I_E_TYPE_E" ignoreEmpty="true">${I_E_TYPE_E} >= I_E_TYPE</condition><condition key="I_E_TYPE_L" ignoreEmpty="true">I_E_TYPE like ${I_E_TYPE_L}</condition>
+<condition key="ONLINE_BATCH_S" ignoreEmpty="true">ONLINE_BATCH >= ${ONLINE_BATCH_S}</condition><condition key="ONLINE_BATCH_E" ignoreEmpty="true">${ONLINE_BATCH_E} >= ONLINE_BATCH</condition><condition key="ONLINE_BATCH_L" ignoreEmpty="true">ONLINE_BATCH like ${ONLINE_BATCH_L}</condition>
+
+<field key="TID" name="TID" ignoreEmpty="true"/>
+<field key="A_S_TYPE" name="A_S_TYPE" ignoreEmpty="true"/>
+<field key="ISSUE_FMT" name="ISSUE_FMT" ignoreEmpty="true"/>
+<field key="ISSUE_KIND" name="ISSUE_KIND" ignoreEmpty="true"/>
+<field key="FEE_MEMO_NOTE" name="FEE_MEMO_NOTE" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="RET_CODE" name="RET_CODE" ignoreEmpty="true"/>
+<field key="CHECK_NO" name="CHECK_NO" ignoreEmpty="true"/>
+<field key="FEE_MEMO_NO" name="FEE_MEMO_NO" ignoreEmpty="true"/>
+<field key="APPLY_DATE" name="APPLY_DATE" ignoreEmpty="true"/>
+<field key="APPLY_KIND" name="APPLY_KIND" ignoreEmpty="true"/>
+<field key="APPLY_ID" name="APPLY_ID" ignoreEmpty="true"/>
+<field key="OWNER_UID" name="OWNER_UID" ignoreEmpty="true"/>
+<field key="PROCESS_STATE" name="PROCESS_STATE" ignoreEmpty="true"/>
+<field key="PROCESS_DATE" name="PROCESS_DATE" ignoreEmpty="true"/>
+<field key="FILENAME01" name="FILENAME01" ignoreEmpty="true"/>
+<field key="FILENAME02" name="FILENAME02" ignoreEmpty="true"/>
+<field key="FILENAME03" name="FILENAME03" ignoreEmpty="true"/>
+<field key="FILENAME04" name="FILENAME04" ignoreEmpty="true"/>
+<field key="FILENAME05" name="FILENAME05" ignoreEmpty="true"/>
+<field key="REPRINT_TIMES" name="REPRINT_TIMES" ignoreEmpty="true"/>
+<field key="ITEM_NO" name="ITEM_NO" ignoreEmpty="true"/>
+<field key="RET_MSG" name="RET_MSG" ignoreEmpty="true"/>
+<field key="CLIENT_SRV" name="CLIENT_SRV" ignoreEmpty="true"/>
+<field key="CLIENT_KEY" name="CLIENT_KEY" ignoreEmpty="true"/>
+<field key="I_E_TYPE" name="I_E_TYPE" ignoreEmpty="true"/>
+<field key="ONLINE_BATCH" name="ONLINE_BATCH" ignoreEmpty="true"/>
+
+$('#pageBean_tid').attr('value',rowData.TID);
+$('#pageBean_aSType').attr('value',rowData.A_S_TYPE);
+$('#pageBean_issueFmt').attr('value',rowData.ISSUE_FMT);
+$('#pageBean_issueKind').attr('value',rowData.ISSUE_KIND);
+$('#pageBean_feeMemoNote').attr('value',rowData.FEE_MEMO_NOTE);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_retCode').attr('value',rowData.RET_CODE);
+$('#pageBean_checkNo').attr('value',rowData.CHECK_NO);
+$('#pageBean_feeMemoNo').attr('value',rowData.FEE_MEMO_NO);
+$('#pageBean_applyDate').attr('value',rowData.APPLY_DATE);
+$('#pageBean_applyKind').attr('value',rowData.APPLY_KIND);
+$('#pageBean_applyId').attr('value',rowData.APPLY_ID);
+$('#pageBean_ownerUid').attr('value',rowData.OWNER_UID);
+$('#pageBean_processState').attr('value',rowData.PROCESS_STATE);
+$('#pageBean_processDate').attr('value',rowData.PROCESS_DATE);
+$('#pageBean_filename01').attr('value',rowData.FILENAME01);
+$('#pageBean_filename02').attr('value',rowData.FILENAME02);
+$('#pageBean_filename03').attr('value',rowData.FILENAME03);
+$('#pageBean_filename04').attr('value',rowData.FILENAME04);
+$('#pageBean_filename05').attr('value',rowData.FILENAME05);
+$('#pageBean_reprintTimes').attr('value',rowData.REPRINT_TIMES);
+$('#pageBean_itemNo').attr('value',rowData.ITEM_NO);
+$('#pageBean_retMsg').attr('value',rowData.RET_MSG);
+$('#pageBean_clientSrv').attr('value',rowData.CLIENT_SRV);
+$('#pageBean_clientKey').attr('value',rowData.CLIENT_KEY);
+$('#pageBean_iEType').attr('value',rowData.I_E_TYPE);
+$('#pageBean_onlineBatch').attr('value',rowData.ONLINE_BATCH);
+
+$('#pageBean_tid').attr("value", "");
+$('#pageBean_aSType').attr("value", "");
+$('#pageBean_issueFmt').attr("value", "");
+$('#pageBean_issueKind').attr("value", "");
+$('#pageBean_feeMemoNote').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_retCode').attr("value", "");
+$('#pageBean_checkNo').attr("value", "");
+$('#pageBean_feeMemoNo').attr("value", "");
+$('#pageBean_applyDate').attr("value", "");
+$('#pageBean_applyKind').attr("value", "");
+$('#pageBean_applyId').attr("value", "");
+$('#pageBean_ownerUid').attr("value", "");
+$('#pageBean_processState').attr("value", "");
+$('#pageBean_processDate').attr("value", "");
+$('#pageBean_filename01').attr("value", "");
+$('#pageBean_filename02').attr("value", "");
+$('#pageBean_filename03').attr("value", "");
+$('#pageBean_filename04').attr("value", "");
+$('#pageBean_filename05').attr("value", "");
+$('#pageBean_reprintTimes').attr("value", "");
+$('#pageBean_itemNo').attr("value", "");
+$('#pageBean_retMsg').attr("value", "");
+$('#pageBean_clientSrv').attr("value", "");
+$('#pageBean_clientKey').attr("value", "");
+$('#pageBean_iEType').attr("value", "");
+$('#pageBean_onlineBatch').attr("value", "");
+
+TID:$('#pageBean_tid').val(),//交易代碼
+A_S_TYPE:$('#pageBean_aSType').val(),//海空運別
+ISSUE_FMT:$('#pageBean_issueFmt').val(),//副報單格式
+ISSUE_KIND:$('#pageBean_issueKind').val(),//申請聯別
+FEE_MEMO_NOTE:$('#pageBean_feeMemoNote').val(),//存款書核發方式
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+RET_CODE:$('#pageBean_retCode').val(),//交易回傳代碼
+CHECK_NO:$('#pageBean_checkNo').val(),//驗證碼
+FEE_MEMO_NO:$('#pageBean_feeMemoNo').val(),//存款書編號
+APPLY_DATE:$('#pageBean_applyDate').val(),//申請日期時間
+APPLY_KIND:$('#pageBean_applyKind').val(),//申請人類別
+APPLY_ID:$('#pageBean_applyId').val(),//申請人代碼
+OWNER_UID:$('#pageBean_ownerUid').val(),//委託人代碼(登入使用者)
+PROCESS_STATE:$('#pageBean_processState').val(),//處理狀態
+PROCESS_DATE:$('#pageBean_processDate').val(),//處理日期時間
+FILENAME01:$('#pageBean_filename01').val(),//原始PDF檔
+FILENAME02:$('#pageBean_filename02').val(),//預覽PDF檔
+FILENAME03:$('#pageBean_filename03').val(),//正式PDF檔
+FILENAME04:$('#pageBean_filename04').val(),//補印PDF檔
+FILENAME05:$('#pageBean_filename05').val(),//備用欄位
+REPRINT_TIMES:$('#pageBean_reprintTimes').val(),//補列印次數
+ITEM_NO:$('#pageBean_itemNo').val(),//DEF式時輸入之項次清單
+RET_MSG:$('#pageBean_retMsg').val(),//交易回傳訊息
+CLIENT_SRV:$('#pageBean_clientSrv').val(),//要求PDF列印的服務名稱
+CLIENT_KEY:$('#pageBean_clientKey').val(),//與客戶服務勾稽的KEY值
+I_E_TYPE:$('#pageBean_iEType').val(),//進出口別
+ONLINE_BATCH:$('#pageBean_onlineBatch').val(),//即時批次處理
+
+pageBean.setTid(dataObjects.getString("TID"));//交易代碼
+pageBean.setASType(dataObjects.getString("A_S_TYPE"));//海空運別
+pageBean.setIssueFmt(dataObjects.getString("ISSUE_FMT"));//副報單格式
+pageBean.setIssueKind(dataObjects.getString("ISSUE_KIND"));//申請聯別
+pageBean.setFeeMemoNote(dataObjects.getString("FEE_MEMO_NOTE"));//存款書核發方式
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setRetCode(dataObjects.getString("RET_CODE"));//交易回傳代碼
+pageBean.setCheckNo(dataObjects.getString("CHECK_NO"));//驗證碼
+pageBean.setFeeMemoNo(dataObjects.getString("FEE_MEMO_NO"));//存款書編號
+pageBean.setApplyDate((Date)dataObjects.getValue("APPLY_DATE"));//申請日期時間
+pageBean.setApplyKind(dataObjects.getString("APPLY_KIND"));//申請人類別
+pageBean.setApplyId(dataObjects.getString("APPLY_ID"));//申請人代碼
+pageBean.setOwnerUid(dataObjects.getString("OWNER_UID"));//委託人代碼(登入使用者)
+pageBean.setProcessState(dataObjects.getString("PROCESS_STATE"));//處理狀態
+pageBean.setProcessDate((Date)dataObjects.getValue("PROCESS_DATE"));//處理日期時間
+pageBean.setFilename01(dataObjects.getString("FILENAME01"));//原始PDF檔
+pageBean.setFilename02(dataObjects.getString("FILENAME02"));//預覽PDF檔
+pageBean.setFilename03(dataObjects.getString("FILENAME03"));//正式PDF檔
+pageBean.setFilename04(dataObjects.getString("FILENAME04"));//補印PDF檔
+pageBean.setFilename05(dataObjects.getString("FILENAME05"));//備用欄位
+pageBean.setReprintTimes(dataObjects.getString("REPRINT_TIMES"));//補列印次數
+pageBean.setItemNo(dataObjects.getString("ITEM_NO"));//DEF式時輸入之項次清單
+pageBean.setRetMsg(dataObjects.getString("RET_MSG"));//交易回傳訊息
+pageBean.setClientSrv(dataObjects.getString("CLIENT_SRV"));//要求PDF列印的服務名稱
+pageBean.setClientKey(dataObjects.getString("CLIENT_KEY"));//與客戶服務勾稽的KEY值
+pageBean.setIEType(dataObjects.getString("I_E_TYPE"));//進出口別
+pageBean.setOnlineBatch(dataObjects.getString("ONLINE_BATCH"));//即時批次處理
+
+private String tid = null;//交易代碼
+private String aSType = null;//海空運別
+private String issueFmt = null;//副報單格式
+private String issueKind = null;//申請聯別
+private String feeMemoNote = null;//存款書核發方式
+private String declNo = null;//報單號碼
+private String retCode = null;//交易回傳代碼
+private String checkNo = null;//驗證碼
+private String feeMemoNo = null;//存款書編號
+private Date applyDate = null;//申請日期時間
+private String applyKind = null;//申請人類別
+private String applyId = null;//申請人代碼
+private String ownerUid = null;//委託人代碼(登入使用者)
+private String processState = null;//處理狀態
+private Date processDate = null;//處理日期時間
+private String filename01 = null;//原始PDF檔
+private String filename02 = null;//預覽PDF檔
+private String filename03 = null;//正式PDF檔
+private String filename04 = null;//補印PDF檔
+private String filename05 = null;//備用欄位
+private String reprintTimes = null;//補列印次數
+private String itemNo = null;//DEF式時輸入之項次清單
+private String retMsg = null;//交易回傳訊息
+private String clientSrv = null;//要求PDF列印的服務名稱
+private String clientKey = null;//與客戶服務勾稽的KEY值
+private String iEType = null;//進出口別
+private String onlineBatch = null;//即時批次處理
+
+pageBean.setTid(tid);//交易代碼
+pageBean.setASType(aSType);//海空運別
+pageBean.setIssueFmt(issueFmt);//副報單格式
+pageBean.setIssueKind(issueKind);//申請聯別
+pageBean.setFeeMemoNote(feeMemoNote);//存款書核發方式
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setRetCode(retCode);//交易回傳代碼
+pageBean.setCheckNo(checkNo);//驗證碼
+pageBean.setFeeMemoNo(feeMemoNo);//存款書編號
+pageBean.setApplyDate(applyDate);//申請日期時間
+pageBean.setApplyKind(applyKind);//申請人類別
+pageBean.setApplyId(applyId);//申請人代碼
+pageBean.setOwnerUid(ownerUid);//委託人代碼(登入使用者)
+pageBean.setProcessState(processState);//處理狀態
+pageBean.setProcessDate(processDate);//處理日期時間
+pageBean.setFilename01(filename01);//原始PDF檔
+pageBean.setFilename02(filename02);//預覽PDF檔
+pageBean.setFilename03(filename03);//正式PDF檔
+pageBean.setFilename04(filename04);//補印PDF檔
+pageBean.setFilename05(filename05);//備用欄位
+pageBean.setReprintTimes(reprintTimes);//補列印次數
+pageBean.setItemNo(itemNo);//DEF式時輸入之項次清單
+pageBean.setRetMsg(retMsg);//交易回傳訊息
+pageBean.setClientSrv(clientSrv);//要求PDF列印的服務名稱
+pageBean.setClientKey(clientKey);//與客戶服務勾稽的KEY值
+pageBean.setIEType(iEType);//進出口別
+pageBean.setOnlineBatch(onlineBatch);//即時批次處理
+
+pageBean.setTid(randomBean.getTid());//交易代碼
+pageBean.setASType(randomBean.getASType());//海空運別
+pageBean.setIssueFmt(randomBean.getIssueFmt());//副報單格式
+pageBean.setIssueKind(randomBean.getIssueKind());//申請聯別
+pageBean.setFeeMemoNote(randomBean.getFeeMemoNote());//存款書核發方式
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setRetCode(randomBean.getRetCode());//交易回傳代碼
+pageBean.setCheckNo(randomBean.getCheckNo());//驗證碼
+pageBean.setFeeMemoNo(randomBean.getFeeMemoNo());//存款書編號
+pageBean.setApplyDate(randomBean.getApplyDate());//申請日期時間
+pageBean.setApplyKind(randomBean.getApplyKind());//申請人類別
+pageBean.setApplyId(randomBean.getApplyId());//申請人代碼
+pageBean.setOwnerUid(randomBean.getOwnerUid());//委託人代碼(登入使用者)
+pageBean.setProcessState(randomBean.getProcessState());//處理狀態
+pageBean.setProcessDate(randomBean.getProcessDate());//處理日期時間
+pageBean.setFilename01(randomBean.getFilename01());//原始PDF檔
+pageBean.setFilename02(randomBean.getFilename02());//預覽PDF檔
+pageBean.setFilename03(randomBean.getFilename03());//正式PDF檔
+pageBean.setFilename04(randomBean.getFilename04());//補印PDF檔
+pageBean.setFilename05(randomBean.getFilename05());//備用欄位
+pageBean.setReprintTimes(randomBean.getReprintTimes());//補列印次數
+pageBean.setItemNo(randomBean.getItemNo());//DEF式時輸入之項次清單
+pageBean.setRetMsg(randomBean.getRetMsg());//交易回傳訊息
+pageBean.setClientSrv(randomBean.getClientSrv());//要求PDF列印的服務名稱
+pageBean.setClientKey(randomBean.getClientKey());//與客戶服務勾稽的KEY值
+pageBean.setIEType(randomBean.getIEType());//進出口別
+pageBean.setOnlineBatch(randomBean.getOnlineBatch());//即時批次處理
+
+setTid(tid);//交易代碼
+setASType(aSType);//海空運別
+setIssueFmt(issueFmt);//副報單格式
+setIssueKind(issueKind);//申請聯別
+setFeeMemoNote(feeMemoNote);//存款書核發方式
+setDeclNo(declNo);//報單號碼
+setRetCode(retCode);//交易回傳代碼
+setCheckNo(checkNo);//驗證碼
+setFeeMemoNo(feeMemoNo);//存款書編號
+setApplyDate(applyDate);//申請日期時間
+setApplyKind(applyKind);//申請人類別
+setApplyId(applyId);//申請人代碼
+setOwnerUid(ownerUid);//委託人代碼(登入使用者)
+setProcessState(processState);//處理狀態
+setProcessDate(processDate);//處理日期時間
+setFilename01(filename01);//原始PDF檔
+setFilename02(filename02);//預覽PDF檔
+setFilename03(filename03);//正式PDF檔
+setFilename04(filename04);//補印PDF檔
+setFilename05(filename05);//備用欄位
+setReprintTimes(reprintTimes);//補列印次數
+setItemNo(itemNo);//DEF式時輸入之項次清單
+setRetMsg(retMsg);//交易回傳訊息
+setClientSrv(clientSrv);//要求PDF列印的服務名稱
+setClientKey(clientKey);//與客戶服務勾稽的KEY值
+setIEType(iEType);//進出口別
+setOnlineBatch(onlineBatch);//即時批次處理
+
+pageBean.getTid(),//交易代碼
+pageBean.getASType(),//海空運別
+pageBean.getIssueFmt(),//副報單格式
+pageBean.getIssueKind(),//申請聯別
+pageBean.getFeeMemoNote(),//存款書核發方式
+pageBean.getDeclNo(),//報單號碼
+pageBean.getRetCode(),//交易回傳代碼
+pageBean.getCheckNo(),//驗證碼
+pageBean.getFeeMemoNo(),//存款書編號
+pageBean.getApplyDate(),//申請日期時間
+pageBean.getApplyKind(),//申請人類別
+pageBean.getApplyId(),//申請人代碼
+pageBean.getOwnerUid(),//委託人代碼(登入使用者)
+pageBean.getProcessState(),//處理狀態
+pageBean.getProcessDate(),//處理日期時間
+pageBean.getFilename01(),//原始PDF檔
+pageBean.getFilename02(),//預覽PDF檔
+pageBean.getFilename03(),//正式PDF檔
+pageBean.getFilename04(),//補印PDF檔
+pageBean.getFilename05(),//備用欄位
+pageBean.getReprintTimes(),//補列印次數
+pageBean.getItemNo(),//DEF式時輸入之項次清單
+pageBean.getRetMsg(),//交易回傳訊息
+pageBean.getClientSrv(),//要求PDF列印的服務名稱
+pageBean.getClientKey(),//與客戶服務勾稽的KEY值
+pageBean.getIEType(),//進出口別
+pageBean.getOnlineBatch(),//即時批次處理
+
+pageBean.setValue("TID", this.getTid());//交易代碼
+pageBean.setValue("A_S_TYPE", this.getASType());//海空運別
+pageBean.setValue("ISSUE_FMT", this.getIssueFmt());//副報單格式
+pageBean.setValue("ISSUE_KIND", this.getIssueKind());//申請聯別
+pageBean.setValue("FEE_MEMO_NOTE", this.getFeeMemoNote());//存款書核發方式
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("RET_CODE", this.getRetCode());//交易回傳代碼
+pageBean.setValue("CHECK_NO", this.getCheckNo());//驗證碼
+pageBean.setValue("FEE_MEMO_NO", this.getFeeMemoNo());//存款書編號
+pageBean.setValue("APPLY_DATE", this.getApplyDate());//申請日期時間
+pageBean.setValue("APPLY_KIND", this.getApplyKind());//申請人類別
+pageBean.setValue("APPLY_ID", this.getApplyId());//申請人代碼
+pageBean.setValue("OWNER_UID", this.getOwnerUid());//委託人代碼(登入使用者)
+pageBean.setValue("PROCESS_STATE", this.getProcessState());//處理狀態
+pageBean.setValue("PROCESS_DATE", this.getProcessDate());//處理日期時間
+pageBean.setValue("FILENAME01", this.getFilename01());//原始PDF檔
+pageBean.setValue("FILENAME02", this.getFilename02());//預覽PDF檔
+pageBean.setValue("FILENAME03", this.getFilename03());//正式PDF檔
+pageBean.setValue("FILENAME04", this.getFilename04());//補印PDF檔
+pageBean.setValue("FILENAME05", this.getFilename05());//備用欄位
+pageBean.setValue("REPRINT_TIMES", this.getReprintTimes());//補列印次數
+pageBean.setValue("ITEM_NO", this.getItemNo());//DEF式時輸入之項次清單
+pageBean.setValue("RET_MSG", this.getRetMsg());//交易回傳訊息
+pageBean.setValue("CLIENT_SRV", this.getClientSrv());//要求PDF列印的服務名稱
+pageBean.setValue("CLIENT_KEY", this.getClientKey());//與客戶服務勾稽的KEY值
+pageBean.setValue("I_E_TYPE", this.getIEType());//進出口別
+pageBean.setValue("ONLINE_BATCH", this.getOnlineBatch());//即時批次處理
+
+",交易代碼"+"(tid)="+pageBean.getTid()+
+",海空運別"+"(aSType)="+pageBean.getASType()+
+",副報單格式"+"(issueFmt)="+pageBean.getIssueFmt()+
+",申請聯別"+"(issueKind)="+pageBean.getIssueKind()+
+",存款書核發方式"+"(feeMemoNote)="+pageBean.getFeeMemoNote()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",交易回傳代碼"+"(retCode)="+pageBean.getRetCode()+
+",驗證碼"+"(checkNo)="+pageBean.getCheckNo()+
+",存款書編號"+"(feeMemoNo)="+pageBean.getFeeMemoNo()+
+",申請日期時間"+"(applyDate)="+pageBean.getApplyDate()+
+",申請人類別"+"(applyKind)="+pageBean.getApplyKind()+
+",申請人代碼"+"(applyId)="+pageBean.getApplyId()+
+",委託人代碼(登入使用者)"+"(ownerUid)="+pageBean.getOwnerUid()+
+",處理狀態"+"(processState)="+pageBean.getProcessState()+
+",處理日期時間"+"(processDate)="+pageBean.getProcessDate()+
+",原始PDF檔"+"(filename01)="+pageBean.getFilename01()+
+",預覽PDF檔"+"(filename02)="+pageBean.getFilename02()+
+",正式PDF檔"+"(filename03)="+pageBean.getFilename03()+
+",補印PDF檔"+"(filename04)="+pageBean.getFilename04()+
+",備用欄位"+"(filename05)="+pageBean.getFilename05()+
+",補列印次數"+"(reprintTimes)="+pageBean.getReprintTimes()+
+",DEF式時輸入之項次清單"+"(itemNo)="+pageBean.getItemNo()+
+",交易回傳訊息"+"(retMsg)="+pageBean.getRetMsg()+
+",要求PDF列印的服務名稱"+"(clientSrv)="+pageBean.getClientSrv()+
+",與客戶服務勾稽的KEY值"+"(clientKey)="+pageBean.getClientKey()+
+",進出口別"+"(iEType)="+pageBean.getIEType()+
+",即時批次處理"+"(onlineBatch)="+pageBean.getOnlineBatch()+

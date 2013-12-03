@@ -1,0 +1,159 @@
+pageBean.tid=交易代碼
+pageBean.processDate=處理日期時間
+pageBean.processState=處理狀態
+pageBean.retCode=交易回傳碼
+pageBean.retMsg=交易回傳訊息
+
+pageBean.tid=tid
+pageBean.processDate=processDate
+pageBean.processState=processState
+pageBean.retCode=retCode
+pageBean.retMsg=retMsg
+
+<!--tid:交易代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.tid"/>
+	<s:textfield name="pageBean.tid" />
+</td>
+</tr>
+
+<!--processDate:處理日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.processDate"/>
+	<s:textfield name="pageBean.processDate" />
+</td>
+</tr>
+
+<!--processState:處理狀態-->
+<tr>
+<td>
+	<s:text name="pageBean.processState"/>
+	<s:textfield name="pageBean.processState" />
+</td>
+</tr>
+
+<!--retCode:交易回傳碼-->
+<tr>
+<td>
+	<s:text name="pageBean.retCode"/>
+	<s:textfield name="pageBean.retCode" />
+</td>
+</tr>
+
+<!--retMsg:交易回傳訊息-->
+<tr>
+<td>
+	<s:text name="pageBean.retMsg"/>
+	<s:textfield name="pageBean.retMsg" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.tid"/><!--tid:交易代碼-->
+<s:hidden name="pageBean.processDate"/><!--processDate:處理日期時間-->
+<s:hidden name="pageBean.processState"/><!--processState:處理狀態-->
+<s:hidden name="pageBean.retCode"/><!--retCode:交易回傳碼-->
+<s:hidden name="pageBean.retMsg"/><!--retMsg:交易回傳訊息-->
+
+<%--TID:交易代碼:tid--%>
+<sjg:gridColumn name="TID" index="TID" title="%{getText('tid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_DATE:處理日期時間:processDate--%>
+<sjg:gridColumn name="PROCESS_DATE" index="PROCESS_DATE" title="%{getText('processDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_STATE:處理狀態:processState--%>
+<sjg:gridColumn name="PROCESS_STATE" index="PROCESS_STATE" title="%{getText('processState')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RET_CODE:交易回傳碼:retCode--%>
+<sjg:gridColumn name="RET_CODE" index="RET_CODE" title="%{getText('retCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RET_MSG:交易回傳訊息:retMsg--%>
+<sjg:gridColumn name="RET_MSG" index="RET_MSG" title="%{getText('retMsg')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TID
+,A.PROCESS_DATE
+,A.PROCESS_STATE
+,A.RET_CODE
+,A.RET_MSG
+
+<condition key="TID" ignoreEmpty="true">TID = ${TID}</condition>
+<condition key="PROCESS_DATE" ignoreEmpty="true">PROCESS_DATE = ${PROCESS_DATE}</condition>
+<condition key="PROCESS_STATE" ignoreEmpty="true">PROCESS_STATE = ${PROCESS_STATE}</condition>
+<condition key="RET_CODE" ignoreEmpty="true">RET_CODE = ${RET_CODE}</condition>
+<condition key="RET_MSG" ignoreEmpty="true">RET_MSG = ${RET_MSG}</condition>
+
+<condition key="TID_S" ignoreEmpty="true">TID >= ${TID_S}</condition><condition key="TID_E" ignoreEmpty="true">${TID_E} >= TID</condition><condition key="TID_L" ignoreEmpty="true">TID like ${TID_L}</condition>
+<condition key="PROCESS_DATE_S" ignoreEmpty="true">PROCESS_DATE >= ${PROCESS_DATE_S}</condition><condition key="PROCESS_DATE_E" ignoreEmpty="true">${PROCESS_DATE_E} >= PROCESS_DATE</condition><condition key="PROCESS_DATE_L" ignoreEmpty="true">PROCESS_DATE like ${PROCESS_DATE_L}</condition>
+<condition key="PROCESS_STATE_S" ignoreEmpty="true">PROCESS_STATE >= ${PROCESS_STATE_S}</condition><condition key="PROCESS_STATE_E" ignoreEmpty="true">${PROCESS_STATE_E} >= PROCESS_STATE</condition><condition key="PROCESS_STATE_L" ignoreEmpty="true">PROCESS_STATE like ${PROCESS_STATE_L}</condition>
+<condition key="RET_CODE_S" ignoreEmpty="true">RET_CODE >= ${RET_CODE_S}</condition><condition key="RET_CODE_E" ignoreEmpty="true">${RET_CODE_E} >= RET_CODE</condition><condition key="RET_CODE_L" ignoreEmpty="true">RET_CODE like ${RET_CODE_L}</condition>
+<condition key="RET_MSG_S" ignoreEmpty="true">RET_MSG >= ${RET_MSG_S}</condition><condition key="RET_MSG_E" ignoreEmpty="true">${RET_MSG_E} >= RET_MSG</condition><condition key="RET_MSG_L" ignoreEmpty="true">RET_MSG like ${RET_MSG_L}</condition>
+
+<field key="TID" name="TID" ignoreEmpty="true"/>
+<field key="PROCESS_DATE" name="PROCESS_DATE" ignoreEmpty="true"/>
+<field key="PROCESS_STATE" name="PROCESS_STATE" ignoreEmpty="true"/>
+<field key="RET_CODE" name="RET_CODE" ignoreEmpty="true"/>
+<field key="RET_MSG" name="RET_MSG" ignoreEmpty="true"/>
+
+$('#pageBean_tid').attr('value',rowData.TID);
+$('#pageBean_processDate').attr('value',rowData.PROCESS_DATE);
+$('#pageBean_processState').attr('value',rowData.PROCESS_STATE);
+$('#pageBean_retCode').attr('value',rowData.RET_CODE);
+$('#pageBean_retMsg').attr('value',rowData.RET_MSG);
+
+$('#pageBean_tid').attr("value", "");
+$('#pageBean_processDate').attr("value", "");
+$('#pageBean_processState').attr("value", "");
+$('#pageBean_retCode').attr("value", "");
+$('#pageBean_retMsg').attr("value", "");
+
+TID:$('#pageBean_tid').val(),//交易代碼
+PROCESS_DATE:$('#pageBean_processDate').val(),//處理日期時間
+PROCESS_STATE:$('#pageBean_processState').val(),//處理狀態
+RET_CODE:$('#pageBean_retCode').val(),//交易回傳碼
+RET_MSG:$('#pageBean_retMsg').val(),//交易回傳訊息
+
+pageBean.setTid(dataObjects.getString("TID"));//交易代碼
+pageBean.setProcessDate((Date)dataObjects.getValue("PROCESS_DATE"));//處理日期時間
+pageBean.setProcessState(dataObjects.getString("PROCESS_STATE"));//處理狀態
+pageBean.setRetCode(dataObjects.getString("RET_CODE"));//交易回傳碼
+pageBean.setRetMsg(dataObjects.getString("RET_MSG"));//交易回傳訊息
+
+private String tid = null;//交易代碼
+private Date processDate = null;//處理日期時間
+private String processState = null;//處理狀態
+private String retCode = null;//交易回傳碼
+private String retMsg = null;//交易回傳訊息
+
+pageBean.setTid(tid);//交易代碼
+pageBean.setProcessDate(processDate);//處理日期時間
+pageBean.setProcessState(processState);//處理狀態
+pageBean.setRetCode(retCode);//交易回傳碼
+pageBean.setRetMsg(retMsg);//交易回傳訊息
+
+pageBean.setTid(randomBean.getTid());//交易代碼
+pageBean.setProcessDate(randomBean.getProcessDate());//處理日期時間
+pageBean.setProcessState(randomBean.getProcessState());//處理狀態
+pageBean.setRetCode(randomBean.getRetCode());//交易回傳碼
+pageBean.setRetMsg(randomBean.getRetMsg());//交易回傳訊息
+
+setTid(tid);//交易代碼
+setProcessDate(processDate);//處理日期時間
+setProcessState(processState);//處理狀態
+setRetCode(retCode);//交易回傳碼
+setRetMsg(retMsg);//交易回傳訊息
+
+pageBean.getTid(),//交易代碼
+pageBean.getProcessDate(),//處理日期時間
+pageBean.getProcessState(),//處理狀態
+pageBean.getRetCode(),//交易回傳碼
+pageBean.getRetMsg(),//交易回傳訊息
+
+pageBean.setValue("TID", this.getTid());//交易代碼
+pageBean.setValue("PROCESS_DATE", this.getProcessDate());//處理日期時間
+pageBean.setValue("PROCESS_STATE", this.getProcessState());//處理狀態
+pageBean.setValue("RET_CODE", this.getRetCode());//交易回傳碼
+pageBean.setValue("RET_MSG", this.getRetMsg());//交易回傳訊息
+
+",交易代碼"+"(tid)="+pageBean.getTid()+
+",處理日期時間"+"(processDate)="+pageBean.getProcessDate()+
+",處理狀態"+"(processState)="+pageBean.getProcessState()+
+",交易回傳碼"+"(retCode)="+pageBean.getRetCode()+
+",交易回傳訊息"+"(retMsg)="+pageBean.getRetMsg()+

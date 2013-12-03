@@ -1,0 +1,453 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.datetimeOfCreated=建檔日期時間
+pageBean.goodsItemNo=貨物項次
+pageBean.rejectionReasonCoded1=不受理原因代碼_1
+pageBean.rejectionReasonCoded2=不受理原因代碼_2
+pageBean.rejectionReasonCoded3=不受理原因代碼_3
+pageBean.rejectionReasonCoded4=不受理原因代碼_4
+pageBean.rejectionReasonCoded5=不受理原因代碼_5
+pageBean.rejectionReasonCoded6=不受理原因代碼_6
+pageBean.rejectionReasonCoded7=不受理原因代碼_7
+pageBean.rejectionReasonCoded8=不受理原因代碼_8
+pageBean.rejectionReasonCoded9=不受理原因代碼_9
+pageBean.validMark=有效註記
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.datetimeOfCreated=datetimeOfCreated
+pageBean.goodsItemNo=goodsItemNo
+pageBean.rejectionReasonCoded1=rejectionReasonCoded1
+pageBean.rejectionReasonCoded2=rejectionReasonCoded2
+pageBean.rejectionReasonCoded3=rejectionReasonCoded3
+pageBean.rejectionReasonCoded4=rejectionReasonCoded4
+pageBean.rejectionReasonCoded5=rejectionReasonCoded5
+pageBean.rejectionReasonCoded6=rejectionReasonCoded6
+pageBean.rejectionReasonCoded7=rejectionReasonCoded7
+pageBean.rejectionReasonCoded8=rejectionReasonCoded8
+pageBean.rejectionReasonCoded9=rejectionReasonCoded9
+pageBean.validMark=validMark
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--datetimeOfCreated:建檔日期時間-->
+<tr>
+<td>
+	<s:text name="datetimeOfCreated"/>
+	<s:textfield name="pageBean.datetimeOfCreated" />
+</td>
+</tr>
+
+<!--goodsItemNo:貨物項次-->
+<tr>
+<td>
+	<s:text name="goodsItemNo"/>
+	<s:textfield name="pageBean.goodsItemNo" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded1:不受理原因代碼_1-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded1"/>
+	<s:textfield name="pageBean.rejectionReasonCoded1" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded2:不受理原因代碼_2-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded2"/>
+	<s:textfield name="pageBean.rejectionReasonCoded2" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded3:不受理原因代碼_3-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded3"/>
+	<s:textfield name="pageBean.rejectionReasonCoded3" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded4:不受理原因代碼_4-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded4"/>
+	<s:textfield name="pageBean.rejectionReasonCoded4" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded5:不受理原因代碼_5-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded5"/>
+	<s:textfield name="pageBean.rejectionReasonCoded5" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded6:不受理原因代碼_6-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded6"/>
+	<s:textfield name="pageBean.rejectionReasonCoded6" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded7:不受理原因代碼_7-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded7"/>
+	<s:textfield name="pageBean.rejectionReasonCoded7" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded8:不受理原因代碼_8-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded8"/>
+	<s:textfield name="pageBean.rejectionReasonCoded8" />
+</td>
+</tr>
+
+<!--rejectionReasonCoded9:不受理原因代碼_9-->
+<tr>
+<td>
+	<s:text name="rejectionReasonCoded9"/>
+	<s:textfield name="pageBean.rejectionReasonCoded9" />
+</td>
+</tr>
+
+<!--validMark:有效註記-->
+<tr>
+<td>
+	<s:text name="validMark"/>
+	<s:textfield name="pageBean.validMark" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="DATETIME_OF_CREATED" index="DATETIME_OF_CREATED" title="%{getText('datetimeOfCreated')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DATETIME_OF_CREATED:建檔日期時間:datetimeOfCreated--%>
+<sjg:gridColumn name="GOODS_ITEM_NO" index="GOODS_ITEM_NO" title="%{getText('goodsItemNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--GOODS_ITEM_NO:貨物項次:goodsItemNo--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_1" index="REJECTION_REASON_CODED_1" title="%{getText('rejectionReasonCoded1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_1:不受理原因代碼_1:rejectionReasonCoded1--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_2" index="REJECTION_REASON_CODED_2" title="%{getText('rejectionReasonCoded2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_2:不受理原因代碼_2:rejectionReasonCoded2--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_3" index="REJECTION_REASON_CODED_3" title="%{getText('rejectionReasonCoded3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_3:不受理原因代碼_3:rejectionReasonCoded3--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_4" index="REJECTION_REASON_CODED_4" title="%{getText('rejectionReasonCoded4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_4:不受理原因代碼_4:rejectionReasonCoded4--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_5" index="REJECTION_REASON_CODED_5" title="%{getText('rejectionReasonCoded5')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_5:不受理原因代碼_5:rejectionReasonCoded5--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_6" index="REJECTION_REASON_CODED_6" title="%{getText('rejectionReasonCoded6')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_6:不受理原因代碼_6:rejectionReasonCoded6--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_7" index="REJECTION_REASON_CODED_7" title="%{getText('rejectionReasonCoded7')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_7:不受理原因代碼_7:rejectionReasonCoded7--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_8" index="REJECTION_REASON_CODED_8" title="%{getText('rejectionReasonCoded8')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_8:不受理原因代碼_8:rejectionReasonCoded8--%>
+<sjg:gridColumn name="REJECTION_REASON_CODED_9" index="REJECTION_REASON_CODED_9" title="%{getText('rejectionReasonCoded9')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REJECTION_REASON_CODED_9:不受理原因代碼_9:rejectionReasonCoded9--%>
+<sjg:gridColumn name="VALID_MARK" index="VALID_MARK" title="%{getText('validMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VALID_MARK:有效註記:validMark--%>
+
+,A.DECL_NO
+,A.MAWB
+,A.HAWB
+,A.DATETIME_OF_CREATED
+,A.GOODS_ITEM_NO
+,A.REJECTION_REASON_CODED_1
+,A.REJECTION_REASON_CODED_2
+,A.REJECTION_REASON_CODED_3
+,A.REJECTION_REASON_CODED_4
+,A.REJECTION_REASON_CODED_5
+,A.REJECTION_REASON_CODED_6
+,A.REJECTION_REASON_CODED_7
+,A.REJECTION_REASON_CODED_8
+,A.REJECTION_REASON_CODED_9
+,A.VALID_MARK
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="DATETIME_OF_CREATED" ignoreEmpty="true">DATETIME_OF_CREATED = ${DATETIME_OF_CREATED}</condition>
+<condition key="GOODS_ITEM_NO" ignoreEmpty="true">GOODS_ITEM_NO = ${GOODS_ITEM_NO}</condition>
+<condition key="REJECTION_REASON_CODED_1" ignoreEmpty="true">REJECTION_REASON_CODED_1 = ${REJECTION_REASON_CODED_1}</condition>
+<condition key="REJECTION_REASON_CODED_2" ignoreEmpty="true">REJECTION_REASON_CODED_2 = ${REJECTION_REASON_CODED_2}</condition>
+<condition key="REJECTION_REASON_CODED_3" ignoreEmpty="true">REJECTION_REASON_CODED_3 = ${REJECTION_REASON_CODED_3}</condition>
+<condition key="REJECTION_REASON_CODED_4" ignoreEmpty="true">REJECTION_REASON_CODED_4 = ${REJECTION_REASON_CODED_4}</condition>
+<condition key="REJECTION_REASON_CODED_5" ignoreEmpty="true">REJECTION_REASON_CODED_5 = ${REJECTION_REASON_CODED_5}</condition>
+<condition key="REJECTION_REASON_CODED_6" ignoreEmpty="true">REJECTION_REASON_CODED_6 = ${REJECTION_REASON_CODED_6}</condition>
+<condition key="REJECTION_REASON_CODED_7" ignoreEmpty="true">REJECTION_REASON_CODED_7 = ${REJECTION_REASON_CODED_7}</condition>
+<condition key="REJECTION_REASON_CODED_8" ignoreEmpty="true">REJECTION_REASON_CODED_8 = ${REJECTION_REASON_CODED_8}</condition>
+<condition key="REJECTION_REASON_CODED_9" ignoreEmpty="true">REJECTION_REASON_CODED_9 = ${REJECTION_REASON_CODED_9}</condition>
+<condition key="VALID_MARK" ignoreEmpty="true">VALID_MARK = ${VALID_MARK}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="DATETIME_OF_CREATED_S" ignoreEmpty="true">DATETIME_OF_CREATED >= ${DATETIME_OF_CREATED_S}</condition><condition key="DATETIME_OF_CREATED_E" ignoreEmpty="true">${DATETIME_OF_CREATED_E} >= DATETIME_OF_CREATED</condition><condition key="DATETIME_OF_CREATED_L" ignoreEmpty="true">DATETIME_OF_CREATED like ${DATETIME_OF_CREATED_L}</condition>
+<condition key="GOODS_ITEM_NO_S" ignoreEmpty="true">GOODS_ITEM_NO >= ${GOODS_ITEM_NO_S}</condition><condition key="GOODS_ITEM_NO_E" ignoreEmpty="true">${GOODS_ITEM_NO_E} >= GOODS_ITEM_NO</condition><condition key="GOODS_ITEM_NO_L" ignoreEmpty="true">GOODS_ITEM_NO like ${GOODS_ITEM_NO_L}</condition>
+<condition key="REJECTION_REASON_CODED_1_S" ignoreEmpty="true">REJECTION_REASON_CODED_1 >= ${REJECTION_REASON_CODED_1_S}</condition><condition key="REJECTION_REASON_CODED_1_E" ignoreEmpty="true">${REJECTION_REASON_CODED_1_E} >= REJECTION_REASON_CODED_1</condition><condition key="REJECTION_REASON_CODED_1_L" ignoreEmpty="true">REJECTION_REASON_CODED_1 like ${REJECTION_REASON_CODED_1_L}</condition>
+<condition key="REJECTION_REASON_CODED_2_S" ignoreEmpty="true">REJECTION_REASON_CODED_2 >= ${REJECTION_REASON_CODED_2_S}</condition><condition key="REJECTION_REASON_CODED_2_E" ignoreEmpty="true">${REJECTION_REASON_CODED_2_E} >= REJECTION_REASON_CODED_2</condition><condition key="REJECTION_REASON_CODED_2_L" ignoreEmpty="true">REJECTION_REASON_CODED_2 like ${REJECTION_REASON_CODED_2_L}</condition>
+<condition key="REJECTION_REASON_CODED_3_S" ignoreEmpty="true">REJECTION_REASON_CODED_3 >= ${REJECTION_REASON_CODED_3_S}</condition><condition key="REJECTION_REASON_CODED_3_E" ignoreEmpty="true">${REJECTION_REASON_CODED_3_E} >= REJECTION_REASON_CODED_3</condition><condition key="REJECTION_REASON_CODED_3_L" ignoreEmpty="true">REJECTION_REASON_CODED_3 like ${REJECTION_REASON_CODED_3_L}</condition>
+<condition key="REJECTION_REASON_CODED_4_S" ignoreEmpty="true">REJECTION_REASON_CODED_4 >= ${REJECTION_REASON_CODED_4_S}</condition><condition key="REJECTION_REASON_CODED_4_E" ignoreEmpty="true">${REJECTION_REASON_CODED_4_E} >= REJECTION_REASON_CODED_4</condition><condition key="REJECTION_REASON_CODED_4_L" ignoreEmpty="true">REJECTION_REASON_CODED_4 like ${REJECTION_REASON_CODED_4_L}</condition>
+<condition key="REJECTION_REASON_CODED_5_S" ignoreEmpty="true">REJECTION_REASON_CODED_5 >= ${REJECTION_REASON_CODED_5_S}</condition><condition key="REJECTION_REASON_CODED_5_E" ignoreEmpty="true">${REJECTION_REASON_CODED_5_E} >= REJECTION_REASON_CODED_5</condition><condition key="REJECTION_REASON_CODED_5_L" ignoreEmpty="true">REJECTION_REASON_CODED_5 like ${REJECTION_REASON_CODED_5_L}</condition>
+<condition key="REJECTION_REASON_CODED_6_S" ignoreEmpty="true">REJECTION_REASON_CODED_6 >= ${REJECTION_REASON_CODED_6_S}</condition><condition key="REJECTION_REASON_CODED_6_E" ignoreEmpty="true">${REJECTION_REASON_CODED_6_E} >= REJECTION_REASON_CODED_6</condition><condition key="REJECTION_REASON_CODED_6_L" ignoreEmpty="true">REJECTION_REASON_CODED_6 like ${REJECTION_REASON_CODED_6_L}</condition>
+<condition key="REJECTION_REASON_CODED_7_S" ignoreEmpty="true">REJECTION_REASON_CODED_7 >= ${REJECTION_REASON_CODED_7_S}</condition><condition key="REJECTION_REASON_CODED_7_E" ignoreEmpty="true">${REJECTION_REASON_CODED_7_E} >= REJECTION_REASON_CODED_7</condition><condition key="REJECTION_REASON_CODED_7_L" ignoreEmpty="true">REJECTION_REASON_CODED_7 like ${REJECTION_REASON_CODED_7_L}</condition>
+<condition key="REJECTION_REASON_CODED_8_S" ignoreEmpty="true">REJECTION_REASON_CODED_8 >= ${REJECTION_REASON_CODED_8_S}</condition><condition key="REJECTION_REASON_CODED_8_E" ignoreEmpty="true">${REJECTION_REASON_CODED_8_E} >= REJECTION_REASON_CODED_8</condition><condition key="REJECTION_REASON_CODED_8_L" ignoreEmpty="true">REJECTION_REASON_CODED_8 like ${REJECTION_REASON_CODED_8_L}</condition>
+<condition key="REJECTION_REASON_CODED_9_S" ignoreEmpty="true">REJECTION_REASON_CODED_9 >= ${REJECTION_REASON_CODED_9_S}</condition><condition key="REJECTION_REASON_CODED_9_E" ignoreEmpty="true">${REJECTION_REASON_CODED_9_E} >= REJECTION_REASON_CODED_9</condition><condition key="REJECTION_REASON_CODED_9_L" ignoreEmpty="true">REJECTION_REASON_CODED_9 like ${REJECTION_REASON_CODED_9_L}</condition>
+<condition key="VALID_MARK_S" ignoreEmpty="true">VALID_MARK >= ${VALID_MARK_S}</condition><condition key="VALID_MARK_E" ignoreEmpty="true">${VALID_MARK_E} >= VALID_MARK</condition><condition key="VALID_MARK_L" ignoreEmpty="true">VALID_MARK like ${VALID_MARK_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="DATETIME_OF_CREATED" name="DATETIME_OF_CREATED" ignoreEmpty="true"/>
+<field key="GOODS_ITEM_NO" name="GOODS_ITEM_NO" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_1" name="REJECTION_REASON_CODED_1" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_2" name="REJECTION_REASON_CODED_2" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_3" name="REJECTION_REASON_CODED_3" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_4" name="REJECTION_REASON_CODED_4" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_5" name="REJECTION_REASON_CODED_5" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_6" name="REJECTION_REASON_CODED_6" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_7" name="REJECTION_REASON_CODED_7" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_8" name="REJECTION_REASON_CODED_8" ignoreEmpty="true"/>
+<field key="REJECTION_REASON_CODED_9" name="REJECTION_REASON_CODED_9" ignoreEmpty="true"/>
+<field key="VALID_MARK" name="VALID_MARK" ignoreEmpty="true"/>
+
+//報單號碼
+//pageBean.setDeclNo(randomBean.getDeclNo());
+//託運單主號
+//pageBean.setMawb(randomBean.getMawb());
+//託運單分號
+//pageBean.setHawb(randomBean.getHawb());
+//建檔日期時間
+//pageBean.setDatetimeOfCreated(randomBean.getDatetimeOfCreated());
+//貨物項次
+//pageBean.setGoodsItemNo(randomBean.getGoodsItemNo());
+//不受理原因代碼_1
+//pageBean.setRejectionReasonCoded1(randomBean.getRejectionReasonCoded1());
+//不受理原因代碼_2
+//pageBean.setRejectionReasonCoded2(randomBean.getRejectionReasonCoded2());
+//不受理原因代碼_3
+//pageBean.setRejectionReasonCoded3(randomBean.getRejectionReasonCoded3());
+//不受理原因代碼_4
+//pageBean.setRejectionReasonCoded4(randomBean.getRejectionReasonCoded4());
+//不受理原因代碼_5
+//pageBean.setRejectionReasonCoded5(randomBean.getRejectionReasonCoded5());
+//不受理原因代碼_6
+//pageBean.setRejectionReasonCoded6(randomBean.getRejectionReasonCoded6());
+//不受理原因代碼_7
+//pageBean.setRejectionReasonCoded7(randomBean.getRejectionReasonCoded7());
+//不受理原因代碼_8
+//pageBean.setRejectionReasonCoded8(randomBean.getRejectionReasonCoded8());
+//不受理原因代碼_9
+//pageBean.setRejectionReasonCoded9(randomBean.getRejectionReasonCoded9());
+//有效註記
+//pageBean.setValidMark(randomBean.getValidMark());
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_datetimeOfCreated').attr('value',rowData.DATETIME_OF_CREATED);
+$('#pageBean_goodsItemNo').attr('value',rowData.GOODS_ITEM_NO);
+$('#pageBean_rejectionReasonCoded1').attr('value',rowData.REJECTION_REASON_CODED_1);
+$('#pageBean_rejectionReasonCoded2').attr('value',rowData.REJECTION_REASON_CODED_2);
+$('#pageBean_rejectionReasonCoded3').attr('value',rowData.REJECTION_REASON_CODED_3);
+$('#pageBean_rejectionReasonCoded4').attr('value',rowData.REJECTION_REASON_CODED_4);
+$('#pageBean_rejectionReasonCoded5').attr('value',rowData.REJECTION_REASON_CODED_5);
+$('#pageBean_rejectionReasonCoded6').attr('value',rowData.REJECTION_REASON_CODED_6);
+$('#pageBean_rejectionReasonCoded7').attr('value',rowData.REJECTION_REASON_CODED_7);
+$('#pageBean_rejectionReasonCoded8').attr('value',rowData.REJECTION_REASON_CODED_8);
+$('#pageBean_rejectionReasonCoded9').attr('value',rowData.REJECTION_REASON_CODED_9);
+$('#pageBean_validMark').attr('value',rowData.VALID_MARK);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_datetimeOfCreated').attr("value", "");
+$('#pageBean_goodsItemNo').attr("value", "");
+$('#pageBean_rejectionReasonCoded1').attr("value", "");
+$('#pageBean_rejectionReasonCoded2').attr("value", "");
+$('#pageBean_rejectionReasonCoded3').attr("value", "");
+$('#pageBean_rejectionReasonCoded4').attr("value", "");
+$('#pageBean_rejectionReasonCoded5').attr("value", "");
+$('#pageBean_rejectionReasonCoded6').attr("value", "");
+$('#pageBean_rejectionReasonCoded7').attr("value", "");
+$('#pageBean_rejectionReasonCoded8').attr("value", "");
+$('#pageBean_rejectionReasonCoded9').attr("value", "");
+$('#pageBean_validMark').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+DATETIME_OF_CREATED:$('#pageBean_datetimeOfCreated').val(),//建檔日期時間
+GOODS_ITEM_NO:$('#pageBean_goodsItemNo').val(),//貨物項次
+REJECTION_REASON_CODED_1:$('#pageBean_rejectionReasonCoded1').val(),//不受理原因代碼_1
+REJECTION_REASON_CODED_2:$('#pageBean_rejectionReasonCoded2').val(),//不受理原因代碼_2
+REJECTION_REASON_CODED_3:$('#pageBean_rejectionReasonCoded3').val(),//不受理原因代碼_3
+REJECTION_REASON_CODED_4:$('#pageBean_rejectionReasonCoded4').val(),//不受理原因代碼_4
+REJECTION_REASON_CODED_5:$('#pageBean_rejectionReasonCoded5').val(),//不受理原因代碼_5
+REJECTION_REASON_CODED_6:$('#pageBean_rejectionReasonCoded6').val(),//不受理原因代碼_6
+REJECTION_REASON_CODED_7:$('#pageBean_rejectionReasonCoded7').val(),//不受理原因代碼_7
+REJECTION_REASON_CODED_8:$('#pageBean_rejectionReasonCoded8').val(),//不受理原因代碼_8
+REJECTION_REASON_CODED_9:$('#pageBean_rejectionReasonCoded9').val(),//不受理原因代碼_9
+VALID_MARK:$('#pageBean_validMark').val(),//有效註記
+
+//報單號碼
+//pageBean.setDeclNo(dataObjects.getString("DECL_NO"));
+//託運單主號
+//pageBean.setMawb(dataObjects.getString("MAWB"));
+//託運單分號
+//pageBean.setHawb(dataObjects.getString("HAWB"));
+//建檔日期時間
+//pageBean.setDatetimeOfCreated((Timestamp)dataObjects.getValue("DATETIME_OF_CREATED"));
+//貨物項次
+//pageBean.setGoodsItemNo(dataObjects.getString("GOODS_ITEM_NO"));
+//不受理原因代碼_1
+//pageBean.setRejectionReasonCoded1(dataObjects.getString("REJECTION_REASON_CODED_1"));
+//不受理原因代碼_2
+//pageBean.setRejectionReasonCoded2(dataObjects.getString("REJECTION_REASON_CODED_2"));
+//不受理原因代碼_3
+//pageBean.setRejectionReasonCoded3(dataObjects.getString("REJECTION_REASON_CODED_3"));
+//不受理原因代碼_4
+//pageBean.setRejectionReasonCoded4(dataObjects.getString("REJECTION_REASON_CODED_4"));
+//不受理原因代碼_5
+//pageBean.setRejectionReasonCoded5(dataObjects.getString("REJECTION_REASON_CODED_5"));
+//不受理原因代碼_6
+//pageBean.setRejectionReasonCoded6(dataObjects.getString("REJECTION_REASON_CODED_6"));
+//不受理原因代碼_7
+//pageBean.setRejectionReasonCoded7(dataObjects.getString("REJECTION_REASON_CODED_7"));
+//不受理原因代碼_8
+//pageBean.setRejectionReasonCoded8(dataObjects.getString("REJECTION_REASON_CODED_8"));
+//不受理原因代碼_9
+//pageBean.setRejectionReasonCoded9(dataObjects.getString("REJECTION_REASON_CODED_9"));
+//有效註記
+//pageBean.setValidMark(dataObjects.getString("VALID_MARK"));
+
+private String declNo;//報單號碼
+private String mawb;//託運單主號
+private String hawb;//託運單分號
+private Timestamp datetimeOfCreated;//建檔日期時間
+private String goodsItemNo;//貨物項次
+private String rejectionReasonCoded1;//不受理原因代碼_1
+private String rejectionReasonCoded2;//不受理原因代碼_2
+private String rejectionReasonCoded3;//不受理原因代碼_3
+private String rejectionReasonCoded4;//不受理原因代碼_4
+private String rejectionReasonCoded5;//不受理原因代碼_5
+private String rejectionReasonCoded6;//不受理原因代碼_6
+private String rejectionReasonCoded7;//不受理原因代碼_7
+private String rejectionReasonCoded8;//不受理原因代碼_8
+private String rejectionReasonCoded9;//不受理原因代碼_9
+private String validMark;//有效註記
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setDatetimeOfCreated(randomBean.getDatetimeOfCreated());//建檔日期時間
+pageBean.setGoodsItemNo(randomBean.getGoodsItemNo());//貨物項次
+pageBean.setRejectionReasonCoded1(randomBean.getRejectionReasonCoded1());//不受理原因代碼_1
+pageBean.setRejectionReasonCoded2(randomBean.getRejectionReasonCoded2());//不受理原因代碼_2
+pageBean.setRejectionReasonCoded3(randomBean.getRejectionReasonCoded3());//不受理原因代碼_3
+pageBean.setRejectionReasonCoded4(randomBean.getRejectionReasonCoded4());//不受理原因代碼_4
+pageBean.setRejectionReasonCoded5(randomBean.getRejectionReasonCoded5());//不受理原因代碼_5
+pageBean.setRejectionReasonCoded6(randomBean.getRejectionReasonCoded6());//不受理原因代碼_6
+pageBean.setRejectionReasonCoded7(randomBean.getRejectionReasonCoded7());//不受理原因代碼_7
+pageBean.setRejectionReasonCoded8(randomBean.getRejectionReasonCoded8());//不受理原因代碼_8
+pageBean.setRejectionReasonCoded9(randomBean.getRejectionReasonCoded9());//不受理原因代碼_9
+pageBean.setValidMark(randomBean.getValidMark());//有效註記
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setDatetimeOfCreated(datetimeOfCreated);//建檔日期時間
+setGoodsItemNo(goodsItemNo);//貨物項次
+setRejectionReasonCoded1(rejectionReasonCoded1);//不受理原因代碼_1
+setRejectionReasonCoded2(rejectionReasonCoded2);//不受理原因代碼_2
+setRejectionReasonCoded3(rejectionReasonCoded3);//不受理原因代碼_3
+setRejectionReasonCoded4(rejectionReasonCoded4);//不受理原因代碼_4
+setRejectionReasonCoded5(rejectionReasonCoded5);//不受理原因代碼_5
+setRejectionReasonCoded6(rejectionReasonCoded6);//不受理原因代碼_6
+setRejectionReasonCoded7(rejectionReasonCoded7);//不受理原因代碼_7
+setRejectionReasonCoded8(rejectionReasonCoded8);//不受理原因代碼_8
+setRejectionReasonCoded9(rejectionReasonCoded9);//不受理原因代碼_9
+setValidMark(validMark);//有效註記
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getDatetimeOfCreated(),//建檔日期時間
+pageBean.getGoodsItemNo(),//貨物項次
+pageBean.getRejectionReasonCoded1(),//不受理原因代碼_1
+pageBean.getRejectionReasonCoded2(),//不受理原因代碼_2
+pageBean.getRejectionReasonCoded3(),//不受理原因代碼_3
+pageBean.getRejectionReasonCoded4(),//不受理原因代碼_4
+pageBean.getRejectionReasonCoded5(),//不受理原因代碼_5
+pageBean.getRejectionReasonCoded6(),//不受理原因代碼_6
+pageBean.getRejectionReasonCoded7(),//不受理原因代碼_7
+pageBean.getRejectionReasonCoded8(),//不受理原因代碼_8
+pageBean.getRejectionReasonCoded9(),//不受理原因代碼_9
+pageBean.getValidMark(),//有效註記
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("DATETIME_OF_CREATED", this.getDatetimeOfCreated());//建檔日期時間
+pageBean.setValue("GOODS_ITEM_NO", this.getGoodsItemNo());//貨物項次
+pageBean.setValue("REJECTION_REASON_CODED_1", this.getRejectionReasonCoded1());//不受理原因代碼_1
+pageBean.setValue("REJECTION_REASON_CODED_2", this.getRejectionReasonCoded2());//不受理原因代碼_2
+pageBean.setValue("REJECTION_REASON_CODED_3", this.getRejectionReasonCoded3());//不受理原因代碼_3
+pageBean.setValue("REJECTION_REASON_CODED_4", this.getRejectionReasonCoded4());//不受理原因代碼_4
+pageBean.setValue("REJECTION_REASON_CODED_5", this.getRejectionReasonCoded5());//不受理原因代碼_5
+pageBean.setValue("REJECTION_REASON_CODED_6", this.getRejectionReasonCoded6());//不受理原因代碼_6
+pageBean.setValue("REJECTION_REASON_CODED_7", this.getRejectionReasonCoded7());//不受理原因代碼_7
+pageBean.setValue("REJECTION_REASON_CODED_8", this.getRejectionReasonCoded8());//不受理原因代碼_8
+pageBean.setValue("REJECTION_REASON_CODED_9", this.getRejectionReasonCoded9());//不受理原因代碼_9
+pageBean.setValue("VALID_MARK", this.getValidMark());//有效註記
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",建檔日期時間"+"(datetimeOfCreated)="+pageBean.getDatetimeOfCreated()+
+",貨物項次"+"(goodsItemNo)="+pageBean.getGoodsItemNo()+
+",不受理原因代碼_1"+"(rejectionReasonCoded1)="+pageBean.getRejectionReasonCoded1()+
+",不受理原因代碼_2"+"(rejectionReasonCoded2)="+pageBean.getRejectionReasonCoded2()+
+",不受理原因代碼_3"+"(rejectionReasonCoded3)="+pageBean.getRejectionReasonCoded3()+
+",不受理原因代碼_4"+"(rejectionReasonCoded4)="+pageBean.getRejectionReasonCoded4()+
+",不受理原因代碼_5"+"(rejectionReasonCoded5)="+pageBean.getRejectionReasonCoded5()+
+",不受理原因代碼_6"+"(rejectionReasonCoded6)="+pageBean.getRejectionReasonCoded6()+
+",不受理原因代碼_7"+"(rejectionReasonCoded7)="+pageBean.getRejectionReasonCoded7()+
+",不受理原因代碼_8"+"(rejectionReasonCoded8)="+pageBean.getRejectionReasonCoded8()+
+",不受理原因代碼_9"+"(rejectionReasonCoded9)="+pageBean.getRejectionReasonCoded9()+
+",有效註記"+"(validMark)="+pageBean.getValidMark()+

@@ -1,0 +1,693 @@
+pageBean.ietType=進出轉別
+pageBean.customsType=通關類別
+pageBean.termno=條件編號
+pageBean.termDesc=條件說明
+pageBean.transTypeCd=海空別
+pageBean.creunit=關別
+pageBean.userid=建檔人員
+pageBean.causeC2c3mCd=應審應驗原因代碼
+pageBean.causeC3xCd=應儀檢原因代碼
+pageBean.causeWatchCd=查緝觀原因代碼
+pageBean.watchPrint=列印查緝觀察註記
+pageBean.startDate=起始日期
+pageBean.endDate=終止日期
+pageBean.mulType=一般權數連乘類別
+pageBean.ratioC2c3mType=應審驗比率類別
+pageBean.ratioC2c3mSet=應審驗比率設定
+pageBean.ratioC3xType=應儀檢比率類別
+pageBean.ratioC3xSet=應儀檢比率設定
+pageBean.enabled=有效檢查條件
+pageBean.remark=說明
+pageBean.useNote=資料檢查條件使用檔
+pageBean.checkCondA=主檔內容檢查條件
+pageBean.checkCondB=明細檔內容檢查條件
+pageBean.checkCondC=貨櫃檔內容檢查條件
+pageBean.deptId=建檔人員單位代碼
+
+pageBean.ietType=ietType
+pageBean.customsType=customsType
+pageBean.termno=termno
+pageBean.termDesc=termDesc
+pageBean.transTypeCd=transTypeCd
+pageBean.creunit=creunit
+pageBean.userid=userid
+pageBean.causeC2c3mCd=causeC2c3mCd
+pageBean.causeC3xCd=causeC3xCd
+pageBean.causeWatchCd=causeWatchCd
+pageBean.watchPrint=watchPrint
+pageBean.startDate=startDate
+pageBean.endDate=endDate
+pageBean.mulType=mulType
+pageBean.ratioC2c3mType=ratioC2c3mType
+pageBean.ratioC2c3mSet=ratioC2c3mSet
+pageBean.ratioC3xType=ratioC3xType
+pageBean.ratioC3xSet=ratioC3xSet
+pageBean.enabled=enabled
+pageBean.remark=remark
+pageBean.useNote=useNote
+pageBean.checkCondA=checkCondA
+pageBean.checkCondB=checkCondB
+pageBean.checkCondC=checkCondC
+pageBean.deptId=deptId
+
+<!--ietType:進出轉別-->
+<tr>
+<td>
+	<s:text name="ietType"/>
+	<s:textfield name="pageBean.ietType" />
+</td>
+</tr>
+
+<!--customsType:通關類別-->
+<tr>
+<td>
+	<s:text name="customsType"/>
+	<s:textfield name="pageBean.customsType" />
+</td>
+</tr>
+
+<!--termno:條件編號-->
+<tr>
+<td>
+	<s:text name="termno"/>
+	<s:textfield name="pageBean.termno" />
+</td>
+</tr>
+
+<!--termDesc:條件說明-->
+<tr>
+<td>
+	<s:text name="termDesc"/>
+	<s:textfield name="pageBean.termDesc" />
+</td>
+</tr>
+
+<!--transTypeCd:海空別-->
+<tr>
+<td>
+	<s:text name="transTypeCd"/>
+	<s:textfield name="pageBean.transTypeCd" />
+</td>
+</tr>
+
+<!--creunit:關別-->
+<tr>
+<td>
+	<s:text name="creunit"/>
+	<s:textfield name="pageBean.creunit" />
+</td>
+</tr>
+
+<!--userid:建檔人員-->
+<tr>
+<td>
+	<s:text name="userid"/>
+	<s:textfield name="pageBean.userid" />
+</td>
+</tr>
+
+<!--causeC2c3mCd:應審應驗原因代碼-->
+<tr>
+<td>
+	<s:text name="causeC2c3mCd"/>
+	<s:textfield name="pageBean.causeC2c3mCd" />
+</td>
+</tr>
+
+<!--causeC3xCd:應儀檢原因代碼-->
+<tr>
+<td>
+	<s:text name="causeC3xCd"/>
+	<s:textfield name="pageBean.causeC3xCd" />
+</td>
+</tr>
+
+<!--causeWatchCd:查緝觀原因代碼-->
+<tr>
+<td>
+	<s:text name="causeWatchCd"/>
+	<s:textfield name="pageBean.causeWatchCd" />
+</td>
+</tr>
+
+<!--watchPrint:列印查緝觀察註記-->
+<tr>
+<td>
+	<s:text name="watchPrint"/>
+	<s:textfield name="pageBean.watchPrint" />
+</td>
+</tr>
+
+<!--startDate:起始日期-->
+<tr>
+<td>
+	<s:text name="startDate"/>
+	<s:textfield name="pageBean.startDate" />
+</td>
+</tr>
+
+<!--endDate:終止日期-->
+<tr>
+<td>
+	<s:text name="endDate"/>
+	<s:textfield name="pageBean.endDate" />
+</td>
+</tr>
+
+<!--mulType:一般權數連乘類別-->
+<tr>
+<td>
+	<s:text name="mulType"/>
+	<s:textfield name="pageBean.mulType" />
+</td>
+</tr>
+
+<!--ratioC2c3mType:應審驗比率類別-->
+<tr>
+<td>
+	<s:text name="ratioC2c3mType"/>
+	<s:textfield name="pageBean.ratioC2c3mType" />
+</td>
+</tr>
+
+<!--ratioC2c3mSet:應審驗比率設定-->
+<tr>
+<td>
+	<s:text name="ratioC2c3mSet"/>
+	<s:textfield name="pageBean.ratioC2c3mSet" />
+</td>
+</tr>
+
+<!--ratioC3xType:應儀檢比率類別-->
+<tr>
+<td>
+	<s:text name="ratioC3xType"/>
+	<s:textfield name="pageBean.ratioC3xType" />
+</td>
+</tr>
+
+<!--ratioC3xSet:應儀檢比率設定-->
+<tr>
+<td>
+	<s:text name="ratioC3xSet"/>
+	<s:textfield name="pageBean.ratioC3xSet" />
+</td>
+</tr>
+
+<!--enabled:有效檢查條件-->
+<tr>
+<td>
+	<s:text name="enabled"/>
+	<s:textfield name="pageBean.enabled" />
+</td>
+</tr>
+
+<!--remark:說明-->
+<tr>
+<td>
+	<s:text name="remark"/>
+	<s:textfield name="pageBean.remark" />
+</td>
+</tr>
+
+<!--useNote:資料檢查條件使用檔-->
+<tr>
+<td>
+	<s:text name="useNote"/>
+	<s:textfield name="pageBean.useNote" />
+</td>
+</tr>
+
+<!--checkCondA:主檔內容檢查條件-->
+<tr>
+<td>
+	<s:text name="checkCondA"/>
+	<s:textfield name="pageBean.checkCondA" />
+</td>
+</tr>
+
+<!--checkCondB:明細檔內容檢查條件-->
+<tr>
+<td>
+	<s:text name="checkCondB"/>
+	<s:textfield name="pageBean.checkCondB" />
+</td>
+</tr>
+
+<!--checkCondC:貨櫃檔內容檢查條件-->
+<tr>
+<td>
+	<s:text name="checkCondC"/>
+	<s:textfield name="pageBean.checkCondC" />
+</td>
+</tr>
+
+<!--deptId:建檔人員單位代碼-->
+<tr>
+<td>
+	<s:text name="deptId"/>
+	<s:textfield name="pageBean.deptId" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="IET_TYPE" index="IET_TYPE" title="%{getText('ietType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IET_TYPE:進出轉別:ietType--%>
+<sjg:gridColumn name="CUSTOMS_TYPE" index="CUSTOMS_TYPE" title="%{getText('customsType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_TYPE:通關類別:customsType--%>
+<sjg:gridColumn name="TERMNO" index="TERMNO" title="%{getText('termno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERMNO:條件編號:termno--%>
+<sjg:gridColumn name="TERM_DESC" index="TERM_DESC" title="%{getText('termDesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERM_DESC:條件說明:termDesc--%>
+<sjg:gridColumn name="TRANS_TYPE_CD" index="TRANS_TYPE_CD" title="%{getText('transTypeCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_TYPE_CD:海空別:transTypeCd--%>
+<sjg:gridColumn name="CREUNIT" index="CREUNIT" title="%{getText('creunit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREUNIT:關別:creunit--%>
+<sjg:gridColumn name="USERID" index="USERID" title="%{getText('userid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USERID:建檔人員:userid--%>
+<sjg:gridColumn name="CAUSE_C2C3M_CD" index="CAUSE_C2C3M_CD" title="%{getText('causeC2c3mCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAUSE_C2C3M_CD:應審應驗原因代碼:causeC2c3mCd--%>
+<sjg:gridColumn name="CAUSE_C3X_CD" index="CAUSE_C3X_CD" title="%{getText('causeC3xCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAUSE_C3X_CD:應儀檢原因代碼:causeC3xCd--%>
+<sjg:gridColumn name="CAUSE_WATCH_CD" index="CAUSE_WATCH_CD" title="%{getText('causeWatchCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAUSE_WATCH_CD:查緝觀原因代碼:causeWatchCd--%>
+<sjg:gridColumn name="WATCH_PRINT" index="WATCH_PRINT" title="%{getText('watchPrint')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--WATCH_PRINT:列印查緝觀察註記:watchPrint--%>
+<sjg:gridColumn name="START_DATE" index="START_DATE" title="%{getText('startDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--START_DATE:起始日期:startDate--%>
+<sjg:gridColumn name="END_DATE" index="END_DATE" title="%{getText('endDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--END_DATE:終止日期:endDate--%>
+<sjg:gridColumn name="MUL_TYPE" index="MUL_TYPE" title="%{getText('mulType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MUL_TYPE:一般權數連乘類別:mulType--%>
+<sjg:gridColumn name="RATIO_C2C3M_TYPE" index="RATIO_C2C3M_TYPE" title="%{getText('ratioC2c3mType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RATIO_C2C3M_TYPE:應審驗比率類別:ratioC2c3mType--%>
+<sjg:gridColumn name="RATIO_C2C3M_SET" index="RATIO_C2C3M_SET" title="%{getText('ratioC2c3mSet')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RATIO_C2C3M_SET:應審驗比率設定:ratioC2c3mSet--%>
+<sjg:gridColumn name="RATIO_C3X_TYPE" index="RATIO_C3X_TYPE" title="%{getText('ratioC3xType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RATIO_C3X_TYPE:應儀檢比率類別:ratioC3xType--%>
+<sjg:gridColumn name="RATIO_C3X_SET" index="RATIO_C3X_SET" title="%{getText('ratioC3xSet')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RATIO_C3X_SET:應儀檢比率設定:ratioC3xSet--%>
+<sjg:gridColumn name="ENABLED" index="ENABLED" title="%{getText('enabled')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ENABLED:有效檢查條件:enabled--%>
+<sjg:gridColumn name="REMARK" index="REMARK" title="%{getText('remark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK:說明:remark--%>
+<sjg:gridColumn name="USE_NOTE" index="USE_NOTE" title="%{getText('useNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USE_NOTE:資料檢查條件使用檔:useNote--%>
+<sjg:gridColumn name="CHECK_COND_A" index="CHECK_COND_A" title="%{getText('checkCondA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_COND_A:主檔內容檢查條件:checkCondA--%>
+<sjg:gridColumn name="CHECK_COND_B" index="CHECK_COND_B" title="%{getText('checkCondB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_COND_B:明細檔內容檢查條件:checkCondB--%>
+<sjg:gridColumn name="CHECK_COND_C" index="CHECK_COND_C" title="%{getText('checkCondC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_COND_C:貨櫃檔內容檢查條件:checkCondC--%>
+<sjg:gridColumn name="DEPT_ID" index="DEPT_ID" title="%{getText('deptId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEPT_ID:建檔人員單位代碼:deptId--%>
+
+,A.IET_TYPE
+,A.CUSTOMS_TYPE
+,A.TERMNO
+,A.TERM_DESC
+,A.TRANS_TYPE_CD
+,A.CREUNIT
+,A.USERID
+,A.CAUSE_C2C3M_CD
+,A.CAUSE_C3X_CD
+,A.CAUSE_WATCH_CD
+,A.WATCH_PRINT
+,A.START_DATE
+,A.END_DATE
+,A.MUL_TYPE
+,A.RATIO_C2C3M_TYPE
+,A.RATIO_C2C3M_SET
+,A.RATIO_C3X_TYPE
+,A.RATIO_C3X_SET
+,A.ENABLED
+,A.REMARK
+,A.USE_NOTE
+,A.CHECK_COND_A
+,A.CHECK_COND_B
+,A.CHECK_COND_C
+,A.DEPT_ID
+
+<condition key="IET_TYPE" ignoreEmpty="true">IET_TYPE = ${IET_TYPE}</condition>
+<condition key="CUSTOMS_TYPE" ignoreEmpty="true">CUSTOMS_TYPE = ${CUSTOMS_TYPE}</condition>
+<condition key="TERMNO" ignoreEmpty="true">TERMNO = ${TERMNO}</condition>
+<condition key="TERM_DESC" ignoreEmpty="true">TERM_DESC = ${TERM_DESC}</condition>
+<condition key="TRANS_TYPE_CD" ignoreEmpty="true">TRANS_TYPE_CD = ${TRANS_TYPE_CD}</condition>
+<condition key="CREUNIT" ignoreEmpty="true">CREUNIT = ${CREUNIT}</condition>
+<condition key="USERID" ignoreEmpty="true">USERID = ${USERID}</condition>
+<condition key="CAUSE_C2C3M_CD" ignoreEmpty="true">CAUSE_C2C3M_CD = ${CAUSE_C2C3M_CD}</condition>
+<condition key="CAUSE_C3X_CD" ignoreEmpty="true">CAUSE_C3X_CD = ${CAUSE_C3X_CD}</condition>
+<condition key="CAUSE_WATCH_CD" ignoreEmpty="true">CAUSE_WATCH_CD = ${CAUSE_WATCH_CD}</condition>
+<condition key="WATCH_PRINT" ignoreEmpty="true">WATCH_PRINT = ${WATCH_PRINT}</condition>
+<condition key="START_DATE" ignoreEmpty="true">START_DATE = ${START_DATE}</condition>
+<condition key="END_DATE" ignoreEmpty="true">END_DATE = ${END_DATE}</condition>
+<condition key="MUL_TYPE" ignoreEmpty="true">MUL_TYPE = ${MUL_TYPE}</condition>
+<condition key="RATIO_C2C3M_TYPE" ignoreEmpty="true">RATIO_C2C3M_TYPE = ${RATIO_C2C3M_TYPE}</condition>
+<condition key="RATIO_C2C3M_SET" ignoreEmpty="true">RATIO_C2C3M_SET = ${RATIO_C2C3M_SET}</condition>
+<condition key="RATIO_C3X_TYPE" ignoreEmpty="true">RATIO_C3X_TYPE = ${RATIO_C3X_TYPE}</condition>
+<condition key="RATIO_C3X_SET" ignoreEmpty="true">RATIO_C3X_SET = ${RATIO_C3X_SET}</condition>
+<condition key="ENABLED" ignoreEmpty="true">ENABLED = ${ENABLED}</condition>
+<condition key="REMARK" ignoreEmpty="true">REMARK = ${REMARK}</condition>
+<condition key="USE_NOTE" ignoreEmpty="true">USE_NOTE = ${USE_NOTE}</condition>
+<condition key="CHECK_COND_A" ignoreEmpty="true">CHECK_COND_A = ${CHECK_COND_A}</condition>
+<condition key="CHECK_COND_B" ignoreEmpty="true">CHECK_COND_B = ${CHECK_COND_B}</condition>
+<condition key="CHECK_COND_C" ignoreEmpty="true">CHECK_COND_C = ${CHECK_COND_C}</condition>
+<condition key="DEPT_ID" ignoreEmpty="true">DEPT_ID = ${DEPT_ID}</condition>
+
+<condition key="IET_TYPE_S" ignoreEmpty="true">IET_TYPE >= ${IET_TYPE_S}</condition><condition key="IET_TYPE_E" ignoreEmpty="true">${IET_TYPE_E} >= IET_TYPE</condition><condition key="IET_TYPE_L" ignoreEmpty="true">IET_TYPE like ${IET_TYPE_L}</condition>
+<condition key="CUSTOMS_TYPE_S" ignoreEmpty="true">CUSTOMS_TYPE >= ${CUSTOMS_TYPE_S}</condition><condition key="CUSTOMS_TYPE_E" ignoreEmpty="true">${CUSTOMS_TYPE_E} >= CUSTOMS_TYPE</condition><condition key="CUSTOMS_TYPE_L" ignoreEmpty="true">CUSTOMS_TYPE like ${CUSTOMS_TYPE_L}</condition>
+<condition key="TERMNO_S" ignoreEmpty="true">TERMNO >= ${TERMNO_S}</condition><condition key="TERMNO_E" ignoreEmpty="true">${TERMNO_E} >= TERMNO</condition><condition key="TERMNO_L" ignoreEmpty="true">TERMNO like ${TERMNO_L}</condition>
+<condition key="TERM_DESC_S" ignoreEmpty="true">TERM_DESC >= ${TERM_DESC_S}</condition><condition key="TERM_DESC_E" ignoreEmpty="true">${TERM_DESC_E} >= TERM_DESC</condition><condition key="TERM_DESC_L" ignoreEmpty="true">TERM_DESC like ${TERM_DESC_L}</condition>
+<condition key="TRANS_TYPE_CD_S" ignoreEmpty="true">TRANS_TYPE_CD >= ${TRANS_TYPE_CD_S}</condition><condition key="TRANS_TYPE_CD_E" ignoreEmpty="true">${TRANS_TYPE_CD_E} >= TRANS_TYPE_CD</condition><condition key="TRANS_TYPE_CD_L" ignoreEmpty="true">TRANS_TYPE_CD like ${TRANS_TYPE_CD_L}</condition>
+<condition key="CREUNIT_S" ignoreEmpty="true">CREUNIT >= ${CREUNIT_S}</condition><condition key="CREUNIT_E" ignoreEmpty="true">${CREUNIT_E} >= CREUNIT</condition><condition key="CREUNIT_L" ignoreEmpty="true">CREUNIT like ${CREUNIT_L}</condition>
+<condition key="USERID_S" ignoreEmpty="true">USERID >= ${USERID_S}</condition><condition key="USERID_E" ignoreEmpty="true">${USERID_E} >= USERID</condition><condition key="USERID_L" ignoreEmpty="true">USERID like ${USERID_L}</condition>
+<condition key="CAUSE_C2C3M_CD_S" ignoreEmpty="true">CAUSE_C2C3M_CD >= ${CAUSE_C2C3M_CD_S}</condition><condition key="CAUSE_C2C3M_CD_E" ignoreEmpty="true">${CAUSE_C2C3M_CD_E} >= CAUSE_C2C3M_CD</condition><condition key="CAUSE_C2C3M_CD_L" ignoreEmpty="true">CAUSE_C2C3M_CD like ${CAUSE_C2C3M_CD_L}</condition>
+<condition key="CAUSE_C3X_CD_S" ignoreEmpty="true">CAUSE_C3X_CD >= ${CAUSE_C3X_CD_S}</condition><condition key="CAUSE_C3X_CD_E" ignoreEmpty="true">${CAUSE_C3X_CD_E} >= CAUSE_C3X_CD</condition><condition key="CAUSE_C3X_CD_L" ignoreEmpty="true">CAUSE_C3X_CD like ${CAUSE_C3X_CD_L}</condition>
+<condition key="CAUSE_WATCH_CD_S" ignoreEmpty="true">CAUSE_WATCH_CD >= ${CAUSE_WATCH_CD_S}</condition><condition key="CAUSE_WATCH_CD_E" ignoreEmpty="true">${CAUSE_WATCH_CD_E} >= CAUSE_WATCH_CD</condition><condition key="CAUSE_WATCH_CD_L" ignoreEmpty="true">CAUSE_WATCH_CD like ${CAUSE_WATCH_CD_L}</condition>
+<condition key="WATCH_PRINT_S" ignoreEmpty="true">WATCH_PRINT >= ${WATCH_PRINT_S}</condition><condition key="WATCH_PRINT_E" ignoreEmpty="true">${WATCH_PRINT_E} >= WATCH_PRINT</condition><condition key="WATCH_PRINT_L" ignoreEmpty="true">WATCH_PRINT like ${WATCH_PRINT_L}</condition>
+<condition key="START_DATE_S" ignoreEmpty="true">START_DATE >= ${START_DATE_S}</condition><condition key="START_DATE_E" ignoreEmpty="true">${START_DATE_E} >= START_DATE</condition><condition key="START_DATE_L" ignoreEmpty="true">START_DATE like ${START_DATE_L}</condition>
+<condition key="END_DATE_S" ignoreEmpty="true">END_DATE >= ${END_DATE_S}</condition><condition key="END_DATE_E" ignoreEmpty="true">${END_DATE_E} >= END_DATE</condition><condition key="END_DATE_L" ignoreEmpty="true">END_DATE like ${END_DATE_L}</condition>
+<condition key="MUL_TYPE_S" ignoreEmpty="true">MUL_TYPE >= ${MUL_TYPE_S}</condition><condition key="MUL_TYPE_E" ignoreEmpty="true">${MUL_TYPE_E} >= MUL_TYPE</condition><condition key="MUL_TYPE_L" ignoreEmpty="true">MUL_TYPE like ${MUL_TYPE_L}</condition>
+<condition key="RATIO_C2C3M_TYPE_S" ignoreEmpty="true">RATIO_C2C3M_TYPE >= ${RATIO_C2C3M_TYPE_S}</condition><condition key="RATIO_C2C3M_TYPE_E" ignoreEmpty="true">${RATIO_C2C3M_TYPE_E} >= RATIO_C2C3M_TYPE</condition><condition key="RATIO_C2C3M_TYPE_L" ignoreEmpty="true">RATIO_C2C3M_TYPE like ${RATIO_C2C3M_TYPE_L}</condition>
+<condition key="RATIO_C2C3M_SET_S" ignoreEmpty="true">RATIO_C2C3M_SET >= ${RATIO_C2C3M_SET_S}</condition><condition key="RATIO_C2C3M_SET_E" ignoreEmpty="true">${RATIO_C2C3M_SET_E} >= RATIO_C2C3M_SET</condition><condition key="RATIO_C2C3M_SET_L" ignoreEmpty="true">RATIO_C2C3M_SET like ${RATIO_C2C3M_SET_L}</condition>
+<condition key="RATIO_C3X_TYPE_S" ignoreEmpty="true">RATIO_C3X_TYPE >= ${RATIO_C3X_TYPE_S}</condition><condition key="RATIO_C3X_TYPE_E" ignoreEmpty="true">${RATIO_C3X_TYPE_E} >= RATIO_C3X_TYPE</condition><condition key="RATIO_C3X_TYPE_L" ignoreEmpty="true">RATIO_C3X_TYPE like ${RATIO_C3X_TYPE_L}</condition>
+<condition key="RATIO_C3X_SET_S" ignoreEmpty="true">RATIO_C3X_SET >= ${RATIO_C3X_SET_S}</condition><condition key="RATIO_C3X_SET_E" ignoreEmpty="true">${RATIO_C3X_SET_E} >= RATIO_C3X_SET</condition><condition key="RATIO_C3X_SET_L" ignoreEmpty="true">RATIO_C3X_SET like ${RATIO_C3X_SET_L}</condition>
+<condition key="ENABLED_S" ignoreEmpty="true">ENABLED >= ${ENABLED_S}</condition><condition key="ENABLED_E" ignoreEmpty="true">${ENABLED_E} >= ENABLED</condition><condition key="ENABLED_L" ignoreEmpty="true">ENABLED like ${ENABLED_L}</condition>
+<condition key="REMARK_S" ignoreEmpty="true">REMARK >= ${REMARK_S}</condition><condition key="REMARK_E" ignoreEmpty="true">${REMARK_E} >= REMARK</condition><condition key="REMARK_L" ignoreEmpty="true">REMARK like ${REMARK_L}</condition>
+<condition key="USE_NOTE_S" ignoreEmpty="true">USE_NOTE >= ${USE_NOTE_S}</condition><condition key="USE_NOTE_E" ignoreEmpty="true">${USE_NOTE_E} >= USE_NOTE</condition><condition key="USE_NOTE_L" ignoreEmpty="true">USE_NOTE like ${USE_NOTE_L}</condition>
+<condition key="CHECK_COND_A_S" ignoreEmpty="true">CHECK_COND_A >= ${CHECK_COND_A_S}</condition><condition key="CHECK_COND_A_E" ignoreEmpty="true">${CHECK_COND_A_E} >= CHECK_COND_A</condition><condition key="CHECK_COND_A_L" ignoreEmpty="true">CHECK_COND_A like ${CHECK_COND_A_L}</condition>
+<condition key="CHECK_COND_B_S" ignoreEmpty="true">CHECK_COND_B >= ${CHECK_COND_B_S}</condition><condition key="CHECK_COND_B_E" ignoreEmpty="true">${CHECK_COND_B_E} >= CHECK_COND_B</condition><condition key="CHECK_COND_B_L" ignoreEmpty="true">CHECK_COND_B like ${CHECK_COND_B_L}</condition>
+<condition key="CHECK_COND_C_S" ignoreEmpty="true">CHECK_COND_C >= ${CHECK_COND_C_S}</condition><condition key="CHECK_COND_C_E" ignoreEmpty="true">${CHECK_COND_C_E} >= CHECK_COND_C</condition><condition key="CHECK_COND_C_L" ignoreEmpty="true">CHECK_COND_C like ${CHECK_COND_C_L}</condition>
+<condition key="DEPT_ID_S" ignoreEmpty="true">DEPT_ID >= ${DEPT_ID_S}</condition><condition key="DEPT_ID_E" ignoreEmpty="true">${DEPT_ID_E} >= DEPT_ID</condition><condition key="DEPT_ID_L" ignoreEmpty="true">DEPT_ID like ${DEPT_ID_L}</condition>
+
+<field key="IET_TYPE" name="IET_TYPE" ignoreEmpty="true"/>
+<field key="CUSTOMS_TYPE" name="CUSTOMS_TYPE" ignoreEmpty="true"/>
+<field key="TERMNO" name="TERMNO" ignoreEmpty="true"/>
+<field key="TERM_DESC" name="TERM_DESC" ignoreEmpty="true"/>
+<field key="TRANS_TYPE_CD" name="TRANS_TYPE_CD" ignoreEmpty="true"/>
+<field key="CREUNIT" name="CREUNIT" ignoreEmpty="true"/>
+<field key="USERID" name="USERID" ignoreEmpty="true"/>
+<field key="CAUSE_C2C3M_CD" name="CAUSE_C2C3M_CD" ignoreEmpty="true"/>
+<field key="CAUSE_C3X_CD" name="CAUSE_C3X_CD" ignoreEmpty="true"/>
+<field key="CAUSE_WATCH_CD" name="CAUSE_WATCH_CD" ignoreEmpty="true"/>
+<field key="WATCH_PRINT" name="WATCH_PRINT" ignoreEmpty="true"/>
+<field key="START_DATE" name="START_DATE" ignoreEmpty="true"/>
+<field key="END_DATE" name="END_DATE" ignoreEmpty="true"/>
+<field key="MUL_TYPE" name="MUL_TYPE" ignoreEmpty="true"/>
+<field key="RATIO_C2C3M_TYPE" name="RATIO_C2C3M_TYPE" ignoreEmpty="true"/>
+<field key="RATIO_C2C3M_SET" name="RATIO_C2C3M_SET" ignoreEmpty="true"/>
+<field key="RATIO_C3X_TYPE" name="RATIO_C3X_TYPE" ignoreEmpty="true"/>
+<field key="RATIO_C3X_SET" name="RATIO_C3X_SET" ignoreEmpty="true"/>
+<field key="ENABLED" name="ENABLED" ignoreEmpty="true"/>
+<field key="REMARK" name="REMARK" ignoreEmpty="true"/>
+<field key="USE_NOTE" name="USE_NOTE" ignoreEmpty="true"/>
+<field key="CHECK_COND_A" name="CHECK_COND_A" ignoreEmpty="true"/>
+<field key="CHECK_COND_B" name="CHECK_COND_B" ignoreEmpty="true"/>
+<field key="CHECK_COND_C" name="CHECK_COND_C" ignoreEmpty="true"/>
+<field key="DEPT_ID" name="DEPT_ID" ignoreEmpty="true"/>
+
+$('#pageBean_ietType').attr('value',rowData.IET_TYPE);
+$('#pageBean_customsType').attr('value',rowData.CUSTOMS_TYPE);
+$('#pageBean_termno').attr('value',rowData.TERMNO);
+$('#pageBean_termDesc').attr('value',rowData.TERM_DESC);
+$('#pageBean_transTypeCd').attr('value',rowData.TRANS_TYPE_CD);
+$('#pageBean_creunit').attr('value',rowData.CREUNIT);
+$('#pageBean_userid').attr('value',rowData.USERID);
+$('#pageBean_causeC2c3mCd').attr('value',rowData.CAUSE_C2C3M_CD);
+$('#pageBean_causeC3xCd').attr('value',rowData.CAUSE_C3X_CD);
+$('#pageBean_causeWatchCd').attr('value',rowData.CAUSE_WATCH_CD);
+$('#pageBean_watchPrint').attr('value',rowData.WATCH_PRINT);
+$('#pageBean_startDate').attr('value',rowData.START_DATE);
+$('#pageBean_endDate').attr('value',rowData.END_DATE);
+$('#pageBean_mulType').attr('value',rowData.MUL_TYPE);
+$('#pageBean_ratioC2c3mType').attr('value',rowData.RATIO_C2C3M_TYPE);
+$('#pageBean_ratioC2c3mSet').attr('value',rowData.RATIO_C2C3M_SET);
+$('#pageBean_ratioC3xType').attr('value',rowData.RATIO_C3X_TYPE);
+$('#pageBean_ratioC3xSet').attr('value',rowData.RATIO_C3X_SET);
+$('#pageBean_enabled').attr('value',rowData.ENABLED);
+$('#pageBean_remark').attr('value',rowData.REMARK);
+$('#pageBean_useNote').attr('value',rowData.USE_NOTE);
+$('#pageBean_checkCondA').attr('value',rowData.CHECK_COND_A);
+$('#pageBean_checkCondB').attr('value',rowData.CHECK_COND_B);
+$('#pageBean_checkCondC').attr('value',rowData.CHECK_COND_C);
+$('#pageBean_deptId').attr('value',rowData.DEPT_ID);
+
+$('#pageBean_ietType').attr("value", "");
+$('#pageBean_customsType').attr("value", "");
+$('#pageBean_termno').attr("value", "");
+$('#pageBean_termDesc').attr("value", "");
+$('#pageBean_transTypeCd').attr("value", "");
+$('#pageBean_creunit').attr("value", "");
+$('#pageBean_userid').attr("value", "");
+$('#pageBean_causeC2c3mCd').attr("value", "");
+$('#pageBean_causeC3xCd').attr("value", "");
+$('#pageBean_causeWatchCd').attr("value", "");
+$('#pageBean_watchPrint').attr("value", "");
+$('#pageBean_startDate').attr("value", "");
+$('#pageBean_endDate').attr("value", "");
+$('#pageBean_mulType').attr("value", "");
+$('#pageBean_ratioC2c3mType').attr("value", "");
+$('#pageBean_ratioC2c3mSet').attr("value", "");
+$('#pageBean_ratioC3xType').attr("value", "");
+$('#pageBean_ratioC3xSet').attr("value", "");
+$('#pageBean_enabled').attr("value", "");
+$('#pageBean_remark').attr("value", "");
+$('#pageBean_useNote').attr("value", "");
+$('#pageBean_checkCondA').attr("value", "");
+$('#pageBean_checkCondB').attr("value", "");
+$('#pageBean_checkCondC').attr("value", "");
+$('#pageBean_deptId').attr("value", "");
+
+IET_TYPE:$('#pageBean_ietType').val(),//進出轉別
+CUSTOMS_TYPE:$('#pageBean_customsType').val(),//通關類別
+TERMNO:$('#pageBean_termno').val(),//條件編號
+TERM_DESC:$('#pageBean_termDesc').val(),//條件說明
+TRANS_TYPE_CD:$('#pageBean_transTypeCd').val(),//海空別
+CREUNIT:$('#pageBean_creunit').val(),//關別
+USERID:$('#pageBean_userid').val(),//建檔人員
+CAUSE_C2C3M_CD:$('#pageBean_causeC2c3mCd').val(),//應審應驗原因代碼
+CAUSE_C3X_CD:$('#pageBean_causeC3xCd').val(),//應儀檢原因代碼
+CAUSE_WATCH_CD:$('#pageBean_causeWatchCd').val(),//查緝觀原因代碼
+WATCH_PRINT:$('#pageBean_watchPrint').val(),//列印查緝觀察註記
+START_DATE:$('#pageBean_startDate').val(),//起始日期
+END_DATE:$('#pageBean_endDate').val(),//終止日期
+MUL_TYPE:$('#pageBean_mulType').val(),//一般權數連乘類別
+RATIO_C2C3M_TYPE:$('#pageBean_ratioC2c3mType').val(),//應審驗比率類別
+RATIO_C2C3M_SET:$('#pageBean_ratioC2c3mSet').val(),//應審驗比率設定
+RATIO_C3X_TYPE:$('#pageBean_ratioC3xType').val(),//應儀檢比率類別
+RATIO_C3X_SET:$('#pageBean_ratioC3xSet').val(),//應儀檢比率設定
+ENABLED:$('#pageBean_enabled').val(),//有效檢查條件
+REMARK:$('#pageBean_remark').val(),//說明
+USE_NOTE:$('#pageBean_useNote').val(),//資料檢查條件使用檔
+CHECK_COND_A:$('#pageBean_checkCondA').val(),//主檔內容檢查條件
+CHECK_COND_B:$('#pageBean_checkCondB').val(),//明細檔內容檢查條件
+CHECK_COND_C:$('#pageBean_checkCondC').val(),//貨櫃檔內容檢查條件
+DEPT_ID:$('#pageBean_deptId').val(),//建檔人員單位代碼
+
+pageBean.setIetType(dataObjects.getString("IET_TYPE"));//進出轉別
+pageBean.setCustomsType(dataObjects.getString("CUSTOMS_TYPE"));//通關類別
+pageBean.setTermno(dataObjects.getString("TERMNO"));//條件編號
+pageBean.setTermDesc(dataObjects.getString("TERM_DESC"));//條件說明
+pageBean.setTransTypeCd(dataObjects.getString("TRANS_TYPE_CD"));//海空別
+pageBean.setCreunit(dataObjects.getString("CREUNIT"));//關別
+pageBean.setUserid(dataObjects.getString("USERID"));//建檔人員
+pageBean.setCauseC2c3mCd(dataObjects.getString("CAUSE_C2C3M_CD"));//應審應驗原因代碼
+pageBean.setCauseC3xCd(dataObjects.getString("CAUSE_C3X_CD"));//應儀檢原因代碼
+pageBean.setCauseWatchCd(dataObjects.getString("CAUSE_WATCH_CD"));//查緝觀原因代碼
+pageBean.setWatchPrint(dataObjects.getString("WATCH_PRINT"));//列印查緝觀察註記
+pageBean.setStartDate((Date)dataObjects.getValue("START_DATE"));//起始日期
+pageBean.setEndDate((Date)dataObjects.getValue("END_DATE"));//終止日期
+pageBean.setMulType(dataObjects.getString("MUL_TYPE"));//一般權數連乘類別
+pageBean.setRatioC2c3mType(dataObjects.getString("RATIO_C2C3M_TYPE"));//應審驗比率類別
+pageBean.setRatioC2c3mSet(dataObjects.getString("RATIO_C2C3M_SET"));//應審驗比率設定
+pageBean.setRatioC3xType(dataObjects.getString("RATIO_C3X_TYPE"));//應儀檢比率類別
+pageBean.setRatioC3xSet(dataObjects.getString("RATIO_C3X_SET"));//應儀檢比率設定
+pageBean.setEnabled(dataObjects.getString("ENABLED"));//有效檢查條件
+pageBean.setRemark(dataObjects.getString("REMARK"));//說明
+pageBean.setUseNote(dataObjects.getString("USE_NOTE"));//資料檢查條件使用檔
+pageBean.setCheckCondA(dataObjects.getString("CHECK_COND_A"));//主檔內容檢查條件
+pageBean.setCheckCondB(dataObjects.getString("CHECK_COND_B"));//明細檔內容檢查條件
+pageBean.setCheckCondC(dataObjects.getString("CHECK_COND_C"));//貨櫃檔內容檢查條件
+pageBean.setDeptId(dataObjects.getString("DEPT_ID"));//建檔人員單位代碼
+
+private String ietType = null;//進出轉別
+private String customsType = null;//通關類別
+private String termno = null;//條件編號
+private String termDesc = null;//條件說明
+private String transTypeCd = null;//海空別
+private String creunit = null;//關別
+private String userid = null;//建檔人員
+private String causeC2c3mCd = null;//應審應驗原因代碼
+private String causeC3xCd = null;//應儀檢原因代碼
+private String causeWatchCd = null;//查緝觀原因代碼
+private String watchPrint = null;//列印查緝觀察註記
+private Date startDate = null;//起始日期
+private Date endDate = null;//終止日期
+private String mulType = null;//一般權數連乘類別
+private String ratioC2c3mType = null;//應審驗比率類別
+private String ratioC2c3mSet = null;//應審驗比率設定
+private String ratioC3xType = null;//應儀檢比率類別
+private String ratioC3xSet = null;//應儀檢比率設定
+private String enabled = null;//有效檢查條件
+private String remark = null;//說明
+private String useNote = null;//資料檢查條件使用檔
+private String checkCondA = null;//主檔內容檢查條件
+private String checkCondB = null;//明細檔內容檢查條件
+private String checkCondC = null;//貨櫃檔內容檢查條件
+private String deptId = null;//建檔人員單位代碼
+
+pageBean.setIetType(ietType);//進出轉別
+pageBean.setCustomsType(customsType);//通關類別
+pageBean.setTermno(termno);//條件編號
+pageBean.setTermDesc(termDesc);//條件說明
+pageBean.setTransTypeCd(transTypeCd);//海空別
+pageBean.setCreunit(creunit);//關別
+pageBean.setUserid(userid);//建檔人員
+pageBean.setCauseC2c3mCd(causeC2c3mCd);//應審應驗原因代碼
+pageBean.setCauseC3xCd(causeC3xCd);//應儀檢原因代碼
+pageBean.setCauseWatchCd(causeWatchCd);//查緝觀原因代碼
+pageBean.setWatchPrint(watchPrint);//列印查緝觀察註記
+pageBean.setStartDate(startDate);//起始日期
+pageBean.setEndDate(endDate);//終止日期
+pageBean.setMulType(mulType);//一般權數連乘類別
+pageBean.setRatioC2c3mType(ratioC2c3mType);//應審驗比率類別
+pageBean.setRatioC2c3mSet(ratioC2c3mSet);//應審驗比率設定
+pageBean.setRatioC3xType(ratioC3xType);//應儀檢比率類別
+pageBean.setRatioC3xSet(ratioC3xSet);//應儀檢比率設定
+pageBean.setEnabled(enabled);//有效檢查條件
+pageBean.setRemark(remark);//說明
+pageBean.setUseNote(useNote);//資料檢查條件使用檔
+pageBean.setCheckCondA(checkCondA);//主檔內容檢查條件
+pageBean.setCheckCondB(checkCondB);//明細檔內容檢查條件
+pageBean.setCheckCondC(checkCondC);//貨櫃檔內容檢查條件
+pageBean.setDeptId(deptId);//建檔人員單位代碼
+
+pageBean.setIetType(randomBean.getIetType());//進出轉別
+pageBean.setCustomsType(randomBean.getCustomsType());//通關類別
+pageBean.setTermno(randomBean.getTermno());//條件編號
+pageBean.setTermDesc(randomBean.getTermDesc());//條件說明
+pageBean.setTransTypeCd(randomBean.getTransTypeCd());//海空別
+pageBean.setCreunit(randomBean.getCreunit());//關別
+pageBean.setUserid(randomBean.getUserid());//建檔人員
+pageBean.setCauseC2c3mCd(randomBean.getCauseC2c3mCd());//應審應驗原因代碼
+pageBean.setCauseC3xCd(randomBean.getCauseC3xCd());//應儀檢原因代碼
+pageBean.setCauseWatchCd(randomBean.getCauseWatchCd());//查緝觀原因代碼
+pageBean.setWatchPrint(randomBean.getWatchPrint());//列印查緝觀察註記
+pageBean.setStartDate(randomBean.getStartDate());//起始日期
+pageBean.setEndDate(randomBean.getEndDate());//終止日期
+pageBean.setMulType(randomBean.getMulType());//一般權數連乘類別
+pageBean.setRatioC2c3mType(randomBean.getRatioC2c3mType());//應審驗比率類別
+pageBean.setRatioC2c3mSet(randomBean.getRatioC2c3mSet());//應審驗比率設定
+pageBean.setRatioC3xType(randomBean.getRatioC3xType());//應儀檢比率類別
+pageBean.setRatioC3xSet(randomBean.getRatioC3xSet());//應儀檢比率設定
+pageBean.setEnabled(randomBean.getEnabled());//有效檢查條件
+pageBean.setRemark(randomBean.getRemark());//說明
+pageBean.setUseNote(randomBean.getUseNote());//資料檢查條件使用檔
+pageBean.setCheckCondA(randomBean.getCheckCondA());//主檔內容檢查條件
+pageBean.setCheckCondB(randomBean.getCheckCondB());//明細檔內容檢查條件
+pageBean.setCheckCondC(randomBean.getCheckCondC());//貨櫃檔內容檢查條件
+pageBean.setDeptId(randomBean.getDeptId());//建檔人員單位代碼
+
+setIetType(ietType);//進出轉別
+setCustomsType(customsType);//通關類別
+setTermno(termno);//條件編號
+setTermDesc(termDesc);//條件說明
+setTransTypeCd(transTypeCd);//海空別
+setCreunit(creunit);//關別
+setUserid(userid);//建檔人員
+setCauseC2c3mCd(causeC2c3mCd);//應審應驗原因代碼
+setCauseC3xCd(causeC3xCd);//應儀檢原因代碼
+setCauseWatchCd(causeWatchCd);//查緝觀原因代碼
+setWatchPrint(watchPrint);//列印查緝觀察註記
+setStartDate(startDate);//起始日期
+setEndDate(endDate);//終止日期
+setMulType(mulType);//一般權數連乘類別
+setRatioC2c3mType(ratioC2c3mType);//應審驗比率類別
+setRatioC2c3mSet(ratioC2c3mSet);//應審驗比率設定
+setRatioC3xType(ratioC3xType);//應儀檢比率類別
+setRatioC3xSet(ratioC3xSet);//應儀檢比率設定
+setEnabled(enabled);//有效檢查條件
+setRemark(remark);//說明
+setUseNote(useNote);//資料檢查條件使用檔
+setCheckCondA(checkCondA);//主檔內容檢查條件
+setCheckCondB(checkCondB);//明細檔內容檢查條件
+setCheckCondC(checkCondC);//貨櫃檔內容檢查條件
+setDeptId(deptId);//建檔人員單位代碼
+
+pageBean.getIetType(),//進出轉別
+pageBean.getCustomsType(),//通關類別
+pageBean.getTermno(),//條件編號
+pageBean.getTermDesc(),//條件說明
+pageBean.getTransTypeCd(),//海空別
+pageBean.getCreunit(),//關別
+pageBean.getUserid(),//建檔人員
+pageBean.getCauseC2c3mCd(),//應審應驗原因代碼
+pageBean.getCauseC3xCd(),//應儀檢原因代碼
+pageBean.getCauseWatchCd(),//查緝觀原因代碼
+pageBean.getWatchPrint(),//列印查緝觀察註記
+pageBean.getStartDate(),//起始日期
+pageBean.getEndDate(),//終止日期
+pageBean.getMulType(),//一般權數連乘類別
+pageBean.getRatioC2c3mType(),//應審驗比率類別
+pageBean.getRatioC2c3mSet(),//應審驗比率設定
+pageBean.getRatioC3xType(),//應儀檢比率類別
+pageBean.getRatioC3xSet(),//應儀檢比率設定
+pageBean.getEnabled(),//有效檢查條件
+pageBean.getRemark(),//說明
+pageBean.getUseNote(),//資料檢查條件使用檔
+pageBean.getCheckCondA(),//主檔內容檢查條件
+pageBean.getCheckCondB(),//明細檔內容檢查條件
+pageBean.getCheckCondC(),//貨櫃檔內容檢查條件
+pageBean.getDeptId(),//建檔人員單位代碼
+
+pageBean.setValue("IET_TYPE", this.getIetType());//進出轉別
+pageBean.setValue("CUSTOMS_TYPE", this.getCustomsType());//通關類別
+pageBean.setValue("TERMNO", this.getTermno());//條件編號
+pageBean.setValue("TERM_DESC", this.getTermDesc());//條件說明
+pageBean.setValue("TRANS_TYPE_CD", this.getTransTypeCd());//海空別
+pageBean.setValue("CREUNIT", this.getCreunit());//關別
+pageBean.setValue("USERID", this.getUserid());//建檔人員
+pageBean.setValue("CAUSE_C2C3M_CD", this.getCauseC2c3mCd());//應審應驗原因代碼
+pageBean.setValue("CAUSE_C3X_CD", this.getCauseC3xCd());//應儀檢原因代碼
+pageBean.setValue("CAUSE_WATCH_CD", this.getCauseWatchCd());//查緝觀原因代碼
+pageBean.setValue("WATCH_PRINT", this.getWatchPrint());//列印查緝觀察註記
+pageBean.setValue("START_DATE", this.getStartDate());//起始日期
+pageBean.setValue("END_DATE", this.getEndDate());//終止日期
+pageBean.setValue("MUL_TYPE", this.getMulType());//一般權數連乘類別
+pageBean.setValue("RATIO_C2C3M_TYPE", this.getRatioC2c3mType());//應審驗比率類別
+pageBean.setValue("RATIO_C2C3M_SET", this.getRatioC2c3mSet());//應審驗比率設定
+pageBean.setValue("RATIO_C3X_TYPE", this.getRatioC3xType());//應儀檢比率類別
+pageBean.setValue("RATIO_C3X_SET", this.getRatioC3xSet());//應儀檢比率設定
+pageBean.setValue("ENABLED", this.getEnabled());//有效檢查條件
+pageBean.setValue("REMARK", this.getRemark());//說明
+pageBean.setValue("USE_NOTE", this.getUseNote());//資料檢查條件使用檔
+pageBean.setValue("CHECK_COND_A", this.getCheckCondA());//主檔內容檢查條件
+pageBean.setValue("CHECK_COND_B", this.getCheckCondB());//明細檔內容檢查條件
+pageBean.setValue("CHECK_COND_C", this.getCheckCondC());//貨櫃檔內容檢查條件
+pageBean.setValue("DEPT_ID", this.getDeptId());//建檔人員單位代碼
+
+",進出轉別"+"(ietType)="+pageBean.getIetType()+
+",通關類別"+"(customsType)="+pageBean.getCustomsType()+
+",條件編號"+"(termno)="+pageBean.getTermno()+
+",條件說明"+"(termDesc)="+pageBean.getTermDesc()+
+",海空別"+"(transTypeCd)="+pageBean.getTransTypeCd()+
+",關別"+"(creunit)="+pageBean.getCreunit()+
+",建檔人員"+"(userid)="+pageBean.getUserid()+
+",應審應驗原因代碼"+"(causeC2c3mCd)="+pageBean.getCauseC2c3mCd()+
+",應儀檢原因代碼"+"(causeC3xCd)="+pageBean.getCauseC3xCd()+
+",查緝觀原因代碼"+"(causeWatchCd)="+pageBean.getCauseWatchCd()+
+",列印查緝觀察註記"+"(watchPrint)="+pageBean.getWatchPrint()+
+",起始日期"+"(startDate)="+pageBean.getStartDate()+
+",終止日期"+"(endDate)="+pageBean.getEndDate()+
+",一般權數連乘類別"+"(mulType)="+pageBean.getMulType()+
+",應審驗比率類別"+"(ratioC2c3mType)="+pageBean.getRatioC2c3mType()+
+",應審驗比率設定"+"(ratioC2c3mSet)="+pageBean.getRatioC2c3mSet()+
+",應儀檢比率類別"+"(ratioC3xType)="+pageBean.getRatioC3xType()+
+",應儀檢比率設定"+"(ratioC3xSet)="+pageBean.getRatioC3xSet()+
+",有效檢查條件"+"(enabled)="+pageBean.getEnabled()+
+",說明"+"(remark)="+pageBean.getRemark()+
+",資料檢查條件使用檔"+"(useNote)="+pageBean.getUseNote()+
+",主檔內容檢查條件"+"(checkCondA)="+pageBean.getCheckCondA()+
+",明細檔內容檢查條件"+"(checkCondB)="+pageBean.getCheckCondB()+
+",貨櫃檔內容檢查條件"+"(checkCondC)="+pageBean.getCheckCondC()+
+",建檔人員單位代碼"+"(deptId)="+pageBean.getDeptId()+

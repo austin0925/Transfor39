@@ -1,0 +1,571 @@
+pageBean.ban=委任人統編
+pageBean.customs=關別
+pageBean.brokerBoxNo=報關業者箱號
+pageBean.crDate=建檔日期時間
+pageBean.declNo=報單號碼
+pageBean.agentCd=監管編號
+pageBean.transType=海空運別
+pageBean.applyType=進出口別
+pageBean.assignBegDate=委任起始日
+pageBean.assignEndDate=委任截止日
+pageBean.contType=委任關係類別
+pageBean.slType=委任型態
+pageBean.permitNo=委任核准文號
+pageBean.permitDate=核准日期時間
+pageBean.upDate=修改日期時間
+pageBean.ownerType=建檔者類別
+pageBean.crPerson=建檔者代碼
+pageBean.confirmType=確認方式
+pageBean.transactionId=存證序號
+pageBean.validType=生效註記
+pageBean.upPerson=異動者ID
+pageBean.sn=序號
+
+pageBean.ban=ban
+pageBean.customs=customs
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.crDate=crDate
+pageBean.declNo=declNo
+pageBean.agentCd=agentCd
+pageBean.transType=transType
+pageBean.applyType=applyType
+pageBean.assignBegDate=assignBegDate
+pageBean.assignEndDate=assignEndDate
+pageBean.contType=contType
+pageBean.slType=slType
+pageBean.permitNo=permitNo
+pageBean.permitDate=permitDate
+pageBean.upDate=upDate
+pageBean.ownerType=ownerType
+pageBean.crPerson=crPerson
+pageBean.confirmType=confirmType
+pageBean.transactionId=transactionId
+pageBean.validType=validType
+pageBean.upPerson=upPerson
+pageBean.sn=sn
+
+<!--ban:委任人統編-->
+<s:text name="pageBean.ban"/>
+<s:textfield name="pageBean.ban"/>
+<!--customs:關別-->
+<s:text name="pageBean.customs"/>
+<s:textfield name="pageBean.customs"/>
+<!--brokerBoxNo:報關業者箱號-->
+<s:text name="pageBean.brokerBoxNo"/>
+<s:textfield name="pageBean.brokerBoxNo"/>
+<!--crDate:建檔日期時間-->
+<s:text name="pageBean.crDate"/>
+<s:textfield name="pageBean.crDate"/>
+<!--declNo:報單號碼-->
+<s:text name="pageBean.declNo"/>
+<s:textfield name="pageBean.declNo"/>
+<!--agentCd:監管編號-->
+<s:text name="pageBean.agentCd"/>
+<s:textfield name="pageBean.agentCd"/>
+<!--transType:海空運別-->
+<s:text name="pageBean.transType"/>
+<s:textfield name="pageBean.transType"/>
+<!--applyType:進出口別-->
+<s:text name="pageBean.applyType"/>
+<s:textfield name="pageBean.applyType"/>
+<!--assignBegDate:委任起始日-->
+<s:text name="pageBean.assignBegDate"/>
+<s:textfield name="pageBean.assignBegDate"/>
+<!--assignEndDate:委任截止日-->
+<s:text name="pageBean.assignEndDate"/>
+<s:textfield name="pageBean.assignEndDate"/>
+<!--contType:委任關係類別-->
+<s:text name="pageBean.contType"/>
+<s:textfield name="pageBean.contType"/>
+<!--slType:委任型態-->
+<s:text name="pageBean.slType"/>
+<s:textfield name="pageBean.slType"/>
+<!--permitNo:委任核准文號-->
+<s:text name="pageBean.permitNo"/>
+<s:textfield name="pageBean.permitNo"/>
+<!--permitDate:核准日期時間-->
+<s:text name="pageBean.permitDate"/>
+<s:textfield name="pageBean.permitDate"/>
+<!--upDate:修改日期時間-->
+<s:text name="pageBean.upDate"/>
+<s:textfield name="pageBean.upDate"/>
+<!--ownerType:建檔者類別-->
+<s:text name="pageBean.ownerType"/>
+<s:textfield name="pageBean.ownerType"/>
+<!--crPerson:建檔者代碼-->
+<s:text name="pageBean.crPerson"/>
+<s:textfield name="pageBean.crPerson"/>
+<!--confirmType:確認方式-->
+<s:text name="pageBean.confirmType"/>
+<s:textfield name="pageBean.confirmType"/>
+<!--transactionId:存證序號-->
+<s:text name="pageBean.transactionId"/>
+<s:textfield name="pageBean.transactionId"/>
+<!--validType:生效註記-->
+<s:text name="pageBean.validType"/>
+<s:textfield name="pageBean.validType"/>
+<!--upPerson:異動者ID-->
+<s:text name="pageBean.upPerson"/>
+<s:textfield name="pageBean.upPerson"/>
+<!--sn:序號-->
+<s:text name="pageBean.sn"/>
+<s:textfield name="pageBean.sn"/>
+
+<s:hidden name="pageBean.ban"/><!--ban:委任人統編-->
+<s:hidden name="pageBean.customs"/><!--customs:關別-->
+<s:hidden name="pageBean.brokerBoxNo"/><!--brokerBoxNo:報關業者箱號-->
+<s:hidden name="pageBean.crDate"/><!--crDate:建檔日期時間-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.agentCd"/><!--agentCd:監管編號-->
+<s:hidden name="pageBean.transType"/><!--transType:海空運別-->
+<s:hidden name="pageBean.applyType"/><!--applyType:進出口別-->
+<s:hidden name="pageBean.assignBegDate"/><!--assignBegDate:委任起始日-->
+<s:hidden name="pageBean.assignEndDate"/><!--assignEndDate:委任截止日-->
+<s:hidden name="pageBean.contType"/><!--contType:委任關係類別-->
+<s:hidden name="pageBean.slType"/><!--slType:委任型態-->
+<s:hidden name="pageBean.permitNo"/><!--permitNo:委任核准文號-->
+<s:hidden name="pageBean.permitDate"/><!--permitDate:核准日期時間-->
+<s:hidden name="pageBean.upDate"/><!--upDate:修改日期時間-->
+<s:hidden name="pageBean.ownerType"/><!--ownerType:建檔者類別-->
+<s:hidden name="pageBean.crPerson"/><!--crPerson:建檔者代碼-->
+<s:hidden name="pageBean.confirmType"/><!--confirmType:確認方式-->
+<s:hidden name="pageBean.transactionId"/><!--transactionId:存證序號-->
+<s:hidden name="pageBean.validType"/><!--validType:生效註記-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動者ID-->
+<s:hidden name="pageBean.sn"/><!--sn:序號-->
+
+<%--BAN:委任人統編:ban--%>
+<sjg:gridColumn name="BAN" index="BAN" title="%{getText('ban')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS:關別:customs--%>
+<sjg:gridColumn name="CUSTOMS" index="CUSTOMS" title="%{getText('customs')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關業者箱號:brokerBoxNo--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CR_DATE:建檔日期時間:crDate--%>
+<sjg:gridColumn name="CR_DATE" index="CR_DATE" title="%{getText('crDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_CD:監管編號:agentCd--%>
+<sjg:gridColumn name="AGENT_CD" index="AGENT_CD" title="%{getText('agentCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_TYPE:海空運別:transType--%>
+<sjg:gridColumn name="TRANS_TYPE" index="TRANS_TYPE" title="%{getText('transType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPLY_TYPE:進出口別:applyType--%>
+<sjg:gridColumn name="APPLY_TYPE" index="APPLY_TYPE" title="%{getText('applyType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASSIGN_BEG_DATE:委任起始日:assignBegDate--%>
+<sjg:gridColumn name="ASSIGN_BEG_DATE" index="ASSIGN_BEG_DATE" title="%{getText('assignBegDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASSIGN_END_DATE:委任截止日:assignEndDate--%>
+<sjg:gridColumn name="ASSIGN_END_DATE" index="ASSIGN_END_DATE" title="%{getText('assignEndDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONT_TYPE:委任關係類別:contType--%>
+<sjg:gridColumn name="CONT_TYPE" index="CONT_TYPE" title="%{getText('contType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SL_TYPE:委任型態:slType--%>
+<sjg:gridColumn name="SL_TYPE" index="SL_TYPE" title="%{getText('slType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERMIT_NO:委任核准文號:permitNo--%>
+<sjg:gridColumn name="PERMIT_NO" index="PERMIT_NO" title="%{getText('permitNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERMIT_DATE:核准日期時間:permitDate--%>
+<sjg:gridColumn name="PERMIT_DATE" index="PERMIT_DATE" title="%{getText('permitDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:修改日期時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OWNER_TYPE:建檔者類別:ownerType--%>
+<sjg:gridColumn name="OWNER_TYPE" index="OWNER_TYPE" title="%{getText('ownerType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CR_PERSON:建檔者代碼:crPerson--%>
+<sjg:gridColumn name="CR_PERSON" index="CR_PERSON" title="%{getText('crPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONFIRM_TYPE:確認方式:confirmType--%>
+<sjg:gridColumn name="CONFIRM_TYPE" index="CONFIRM_TYPE" title="%{getText('confirmType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANSACTION_ID:存證序號:transactionId--%>
+<sjg:gridColumn name="TRANSACTION_ID" index="TRANSACTION_ID" title="%{getText('transactionId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VALID_TYPE:生效註記:validType--%>
+<sjg:gridColumn name="VALID_TYPE" index="VALID_TYPE" title="%{getText('validType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動者ID:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SN:序號:sn--%>
+<sjg:gridColumn name="SN" index="SN" title="%{getText('sn')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.BAN
+,A.CUSTOMS
+,A.BROKER_BOX_NO
+,A.CR_DATE
+,A.DECL_NO
+,A.AGENT_CD
+,A.TRANS_TYPE
+,A.APPLY_TYPE
+,A.ASSIGN_BEG_DATE
+,A.ASSIGN_END_DATE
+,A.CONT_TYPE
+,A.SL_TYPE
+,A.PERMIT_NO
+,A.PERMIT_DATE
+,A.UP_DATE
+,A.OWNER_TYPE
+,A.CR_PERSON
+,A.CONFIRM_TYPE
+,A.TRANSACTION_ID
+,A.VALID_TYPE
+,A.UP_PERSON
+,A.SN
+
+<condition key="BAN" ignoreEmpty="true">BAN = ${BAN}</condition>
+<condition key="CUSTOMS" ignoreEmpty="true">CUSTOMS = ${CUSTOMS}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true">BROKER_BOX_NO = ${BROKER_BOX_NO}</condition>
+<condition key="CR_DATE" ignoreEmpty="true">CR_DATE = ${CR_DATE}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="AGENT_CD" ignoreEmpty="true">AGENT_CD = ${AGENT_CD}</condition>
+<condition key="TRANS_TYPE" ignoreEmpty="true">TRANS_TYPE = ${TRANS_TYPE}</condition>
+<condition key="APPLY_TYPE" ignoreEmpty="true">APPLY_TYPE = ${APPLY_TYPE}</condition>
+<condition key="ASSIGN_BEG_DATE" ignoreEmpty="true">ASSIGN_BEG_DATE = ${ASSIGN_BEG_DATE}</condition>
+<condition key="ASSIGN_END_DATE" ignoreEmpty="true">ASSIGN_END_DATE = ${ASSIGN_END_DATE}</condition>
+<condition key="CONT_TYPE" ignoreEmpty="true">CONT_TYPE = ${CONT_TYPE}</condition>
+<condition key="SL_TYPE" ignoreEmpty="true">SL_TYPE = ${SL_TYPE}</condition>
+<condition key="PERMIT_NO" ignoreEmpty="true">PERMIT_NO = ${PERMIT_NO}</condition>
+<condition key="PERMIT_DATE" ignoreEmpty="true">PERMIT_DATE = ${PERMIT_DATE}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="OWNER_TYPE" ignoreEmpty="true">OWNER_TYPE = ${OWNER_TYPE}</condition>
+<condition key="CR_PERSON" ignoreEmpty="true">CR_PERSON = ${CR_PERSON}</condition>
+<condition key="CONFIRM_TYPE" ignoreEmpty="true">CONFIRM_TYPE = ${CONFIRM_TYPE}</condition>
+<condition key="TRANSACTION_ID" ignoreEmpty="true">TRANSACTION_ID = ${TRANSACTION_ID}</condition>
+<condition key="VALID_TYPE" ignoreEmpty="true">VALID_TYPE = ${VALID_TYPE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="SN" ignoreEmpty="true">SN = ${SN}</condition>
+
+<condition key="BAN_S" ignoreEmpty="true">BAN >= ${BAN_S}</condition><condition key="BAN_E" ignoreEmpty="true">${BAN_E} >= BAN</condition><condition key="BAN_L" ignoreEmpty="true">BAN like ${BAN_L}</condition>
+<condition key="CUSTOMS_S" ignoreEmpty="true">CUSTOMS >= ${CUSTOMS_S}</condition><condition key="CUSTOMS_E" ignoreEmpty="true">${CUSTOMS_E} >= CUSTOMS</condition><condition key="CUSTOMS_L" ignoreEmpty="true">CUSTOMS like ${CUSTOMS_L}</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true">BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true">${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition><condition key="BROKER_BOX_NO_L" ignoreEmpty="true">BROKER_BOX_NO like ${BROKER_BOX_NO_L}</condition>
+<condition key="CR_DATE_S" ignoreEmpty="true">CR_DATE >= ${CR_DATE_S}</condition><condition key="CR_DATE_E" ignoreEmpty="true">${CR_DATE_E} >= CR_DATE</condition><condition key="CR_DATE_L" ignoreEmpty="true">CR_DATE like ${CR_DATE_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="AGENT_CD_S" ignoreEmpty="true">AGENT_CD >= ${AGENT_CD_S}</condition><condition key="AGENT_CD_E" ignoreEmpty="true">${AGENT_CD_E} >= AGENT_CD</condition><condition key="AGENT_CD_L" ignoreEmpty="true">AGENT_CD like ${AGENT_CD_L}</condition>
+<condition key="TRANS_TYPE_S" ignoreEmpty="true">TRANS_TYPE >= ${TRANS_TYPE_S}</condition><condition key="TRANS_TYPE_E" ignoreEmpty="true">${TRANS_TYPE_E} >= TRANS_TYPE</condition><condition key="TRANS_TYPE_L" ignoreEmpty="true">TRANS_TYPE like ${TRANS_TYPE_L}</condition>
+<condition key="APPLY_TYPE_S" ignoreEmpty="true">APPLY_TYPE >= ${APPLY_TYPE_S}</condition><condition key="APPLY_TYPE_E" ignoreEmpty="true">${APPLY_TYPE_E} >= APPLY_TYPE</condition><condition key="APPLY_TYPE_L" ignoreEmpty="true">APPLY_TYPE like ${APPLY_TYPE_L}</condition>
+<condition key="ASSIGN_BEG_DATE_S" ignoreEmpty="true">ASSIGN_BEG_DATE >= ${ASSIGN_BEG_DATE_S}</condition><condition key="ASSIGN_BEG_DATE_E" ignoreEmpty="true">${ASSIGN_BEG_DATE_E} >= ASSIGN_BEG_DATE</condition><condition key="ASSIGN_BEG_DATE_L" ignoreEmpty="true">ASSIGN_BEG_DATE like ${ASSIGN_BEG_DATE_L}</condition>
+<condition key="ASSIGN_END_DATE_S" ignoreEmpty="true">ASSIGN_END_DATE >= ${ASSIGN_END_DATE_S}</condition><condition key="ASSIGN_END_DATE_E" ignoreEmpty="true">${ASSIGN_END_DATE_E} >= ASSIGN_END_DATE</condition><condition key="ASSIGN_END_DATE_L" ignoreEmpty="true">ASSIGN_END_DATE like ${ASSIGN_END_DATE_L}</condition>
+<condition key="CONT_TYPE_S" ignoreEmpty="true">CONT_TYPE >= ${CONT_TYPE_S}</condition><condition key="CONT_TYPE_E" ignoreEmpty="true">${CONT_TYPE_E} >= CONT_TYPE</condition><condition key="CONT_TYPE_L" ignoreEmpty="true">CONT_TYPE like ${CONT_TYPE_L}</condition>
+<condition key="SL_TYPE_S" ignoreEmpty="true">SL_TYPE >= ${SL_TYPE_S}</condition><condition key="SL_TYPE_E" ignoreEmpty="true">${SL_TYPE_E} >= SL_TYPE</condition><condition key="SL_TYPE_L" ignoreEmpty="true">SL_TYPE like ${SL_TYPE_L}</condition>
+<condition key="PERMIT_NO_S" ignoreEmpty="true">PERMIT_NO >= ${PERMIT_NO_S}</condition><condition key="PERMIT_NO_E" ignoreEmpty="true">${PERMIT_NO_E} >= PERMIT_NO</condition><condition key="PERMIT_NO_L" ignoreEmpty="true">PERMIT_NO like ${PERMIT_NO_L}</condition>
+<condition key="PERMIT_DATE_S" ignoreEmpty="true">PERMIT_DATE >= ${PERMIT_DATE_S}</condition><condition key="PERMIT_DATE_E" ignoreEmpty="true">${PERMIT_DATE_E} >= PERMIT_DATE</condition><condition key="PERMIT_DATE_L" ignoreEmpty="true">PERMIT_DATE like ${PERMIT_DATE_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="OWNER_TYPE_S" ignoreEmpty="true">OWNER_TYPE >= ${OWNER_TYPE_S}</condition><condition key="OWNER_TYPE_E" ignoreEmpty="true">${OWNER_TYPE_E} >= OWNER_TYPE</condition><condition key="OWNER_TYPE_L" ignoreEmpty="true">OWNER_TYPE like ${OWNER_TYPE_L}</condition>
+<condition key="CR_PERSON_S" ignoreEmpty="true">CR_PERSON >= ${CR_PERSON_S}</condition><condition key="CR_PERSON_E" ignoreEmpty="true">${CR_PERSON_E} >= CR_PERSON</condition><condition key="CR_PERSON_L" ignoreEmpty="true">CR_PERSON like ${CR_PERSON_L}</condition>
+<condition key="CONFIRM_TYPE_S" ignoreEmpty="true">CONFIRM_TYPE >= ${CONFIRM_TYPE_S}</condition><condition key="CONFIRM_TYPE_E" ignoreEmpty="true">${CONFIRM_TYPE_E} >= CONFIRM_TYPE</condition><condition key="CONFIRM_TYPE_L" ignoreEmpty="true">CONFIRM_TYPE like ${CONFIRM_TYPE_L}</condition>
+<condition key="TRANSACTION_ID_S" ignoreEmpty="true">TRANSACTION_ID >= ${TRANSACTION_ID_S}</condition><condition key="TRANSACTION_ID_E" ignoreEmpty="true">${TRANSACTION_ID_E} >= TRANSACTION_ID</condition><condition key="TRANSACTION_ID_L" ignoreEmpty="true">TRANSACTION_ID like ${TRANSACTION_ID_L}</condition>
+<condition key="VALID_TYPE_S" ignoreEmpty="true">VALID_TYPE >= ${VALID_TYPE_S}</condition><condition key="VALID_TYPE_E" ignoreEmpty="true">${VALID_TYPE_E} >= VALID_TYPE</condition><condition key="VALID_TYPE_L" ignoreEmpty="true">VALID_TYPE like ${VALID_TYPE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="SN_S" ignoreEmpty="true">SN >= ${SN_S}</condition><condition key="SN_E" ignoreEmpty="true">${SN_E} >= SN</condition><condition key="SN_L" ignoreEmpty="true">SN like ${SN_L}</condition>
+
+<field key="BAN" name="BAN" ignoreEmpty="true"/>
+<field key="CUSTOMS" name="CUSTOMS" ignoreEmpty="true"/>
+<field key="BROKER_BOX_NO" name="BROKER_BOX_NO" ignoreEmpty="true"/>
+<field key="CR_DATE" name="CR_DATE" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="AGENT_CD" name="AGENT_CD" ignoreEmpty="true"/>
+<field key="TRANS_TYPE" name="TRANS_TYPE" ignoreEmpty="true"/>
+<field key="APPLY_TYPE" name="APPLY_TYPE" ignoreEmpty="true"/>
+<field key="ASSIGN_BEG_DATE" name="ASSIGN_BEG_DATE" ignoreEmpty="true"/>
+<field key="ASSIGN_END_DATE" name="ASSIGN_END_DATE" ignoreEmpty="true"/>
+<field key="CONT_TYPE" name="CONT_TYPE" ignoreEmpty="true"/>
+<field key="SL_TYPE" name="SL_TYPE" ignoreEmpty="true"/>
+<field key="PERMIT_NO" name="PERMIT_NO" ignoreEmpty="true"/>
+<field key="PERMIT_DATE" name="PERMIT_DATE" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="OWNER_TYPE" name="OWNER_TYPE" ignoreEmpty="true"/>
+<field key="CR_PERSON" name="CR_PERSON" ignoreEmpty="true"/>
+<field key="CONFIRM_TYPE" name="CONFIRM_TYPE" ignoreEmpty="true"/>
+<field key="TRANSACTION_ID" name="TRANSACTION_ID" ignoreEmpty="true"/>
+<field key="VALID_TYPE" name="VALID_TYPE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="SN" name="SN" ignoreEmpty="true"/>
+
+$('#pageBean_ban').attr('value',rowData.BAN);
+$('#pageBean_customs').attr('value',rowData.CUSTOMS);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_crDate').attr('value',rowData.CR_DATE);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_agentCd').attr('value',rowData.AGENT_CD);
+$('#pageBean_transType').attr('value',rowData.TRANS_TYPE);
+$('#pageBean_applyType').attr('value',rowData.APPLY_TYPE);
+$('#pageBean_assignBegDate').attr('value',rowData.ASSIGN_BEG_DATE);
+$('#pageBean_assignEndDate').attr('value',rowData.ASSIGN_END_DATE);
+$('#pageBean_contType').attr('value',rowData.CONT_TYPE);
+$('#pageBean_slType').attr('value',rowData.SL_TYPE);
+$('#pageBean_permitNo').attr('value',rowData.PERMIT_NO);
+$('#pageBean_permitDate').attr('value',rowData.PERMIT_DATE);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_ownerType').attr('value',rowData.OWNER_TYPE);
+$('#pageBean_crPerson').attr('value',rowData.CR_PERSON);
+$('#pageBean_confirmType').attr('value',rowData.CONFIRM_TYPE);
+$('#pageBean_transactionId').attr('value',rowData.TRANSACTION_ID);
+$('#pageBean_validType').attr('value',rowData.VALID_TYPE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_sn').attr('value',rowData.SN);
+
+$('#pageBean_ban').attr("value", "");
+$('#pageBean_customs').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_crDate').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_agentCd').attr("value", "");
+$('#pageBean_transType').attr("value", "");
+$('#pageBean_applyType').attr("value", "");
+$('#pageBean_assignBegDate').attr("value", "");
+$('#pageBean_assignEndDate').attr("value", "");
+$('#pageBean_contType').attr("value", "");
+$('#pageBean_slType').attr("value", "");
+$('#pageBean_permitNo').attr("value", "");
+$('#pageBean_permitDate').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_ownerType').attr("value", "");
+$('#pageBean_crPerson').attr("value", "");
+$('#pageBean_confirmType').attr("value", "");
+$('#pageBean_transactionId').attr("value", "");
+$('#pageBean_validType').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_sn').attr("value", "");
+
+BAN:$('#pageBean_ban').val(),//委任人統編
+CUSTOMS:$('#pageBean_customs').val(),//關別
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關業者箱號
+CR_DATE:$('#pageBean_crDate').val(),//建檔日期時間
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+AGENT_CD:$('#pageBean_agentCd').val(),//監管編號
+TRANS_TYPE:$('#pageBean_transType').val(),//海空運別
+APPLY_TYPE:$('#pageBean_applyType').val(),//進出口別
+ASSIGN_BEG_DATE:$('#pageBean_assignBegDate').val(),//委任起始日
+ASSIGN_END_DATE:$('#pageBean_assignEndDate').val(),//委任截止日
+CONT_TYPE:$('#pageBean_contType').val(),//委任關係類別
+SL_TYPE:$('#pageBean_slType').val(),//委任型態
+PERMIT_NO:$('#pageBean_permitNo').val(),//委任核准文號
+PERMIT_DATE:$('#pageBean_permitDate').val(),//核准日期時間
+UP_DATE:$('#pageBean_upDate').val(),//修改日期時間
+OWNER_TYPE:$('#pageBean_ownerType').val(),//建檔者類別
+CR_PERSON:$('#pageBean_crPerson').val(),//建檔者代碼
+CONFIRM_TYPE:$('#pageBean_confirmType').val(),//確認方式
+TRANSACTION_ID:$('#pageBean_transactionId').val(),//存證序號
+VALID_TYPE:$('#pageBean_validType').val(),//生效註記
+UP_PERSON:$('#pageBean_upPerson').val(),//異動者ID
+SN:$('#pageBean_sn').val(),//序號
+
+pageBean.setBan(dataObjects.getString("BAN"));//委任人統編
+pageBean.setCustoms(dataObjects.getString("CUSTOMS"));//關別
+pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));//報關業者箱號
+pageBean.setCrDate((Date)dataObjects.getValue("CR_DATE"));//建檔日期時間
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setAgentCd(dataObjects.getString("AGENT_CD"));//監管編號
+pageBean.setTransType(dataObjects.getString("TRANS_TYPE"));//海空運別
+pageBean.setApplyType(dataObjects.getString("APPLY_TYPE"));//進出口別
+pageBean.setAssignBegDate((Date)dataObjects.getValue("ASSIGN_BEG_DATE"));//委任起始日
+pageBean.setAssignEndDate((Date)dataObjects.getValue("ASSIGN_END_DATE"));//委任截止日
+pageBean.setContType(dataObjects.getString("CONT_TYPE"));//委任關係類別
+pageBean.setSlType(dataObjects.getString("SL_TYPE"));//委任型態
+pageBean.setPermitNo(dataObjects.getString("PERMIT_NO"));//委任核准文號
+pageBean.setPermitDate((Date)dataObjects.getValue("PERMIT_DATE"));//核准日期時間
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//修改日期時間
+pageBean.setOwnerType(dataObjects.getString("OWNER_TYPE"));//建檔者類別
+pageBean.setCrPerson(dataObjects.getString("CR_PERSON"));//建檔者代碼
+pageBean.setConfirmType(dataObjects.getString("CONFIRM_TYPE"));//確認方式
+pageBean.setTransactionId(dataObjects.getString("TRANSACTION_ID"));//存證序號
+pageBean.setValidType(dataObjects.getString("VALID_TYPE"));//生效註記
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動者ID
+pageBean.setSn(dataObjects.getString("SN"));//序號
+
+private String ban = null;//委任人統編
+private String customs = null;//關別
+private String brokerBoxNo = null;//報關業者箱號
+private Date crDate = null;//建檔日期時間
+private String declNo = null;//報單號碼
+private String agentCd = null;//監管編號
+private String transType = null;//海空運別
+private String applyType = null;//進出口別
+private Date assignBegDate = null;//委任起始日
+private Date assignEndDate = null;//委任截止日
+private String contType = null;//委任關係類別
+private String slType = null;//委任型態
+private String permitNo = null;//委任核准文號
+private Date permitDate = null;//核准日期時間
+private Date upDate = null;//修改日期時間
+private String ownerType = null;//建檔者類別
+private String crPerson = null;//建檔者代碼
+private String confirmType = null;//確認方式
+private String transactionId = null;//存證序號
+private String validType = null;//生效註記
+private String upPerson = null;//異動者ID
+private String sn = null;//序號
+
+pageBean.setBan("委任人統編");//委任人統編
+pageBean.setCustoms("關別");//關別
+pageBean.setBrokerBoxNo("報關業者箱號");//報關業者箱號
+pageBean.setCrDate("建檔日期時間");//建檔日期時間
+pageBean.setDeclNo("報單號碼");//報單號碼
+pageBean.setAgentCd("監管編號");//監管編號
+pageBean.setTransType("海空運別");//海空運別
+pageBean.setApplyType("進出口別");//進出口別
+pageBean.setAssignBegDate("委任起始日");//委任起始日
+pageBean.setAssignEndDate("委任截止日");//委任截止日
+pageBean.setContType("委任關係類別");//委任關係類別
+pageBean.setSlType("委任型態");//委任型態
+pageBean.setPermitNo("委任核准文號");//委任核准文號
+pageBean.setPermitDate("核准日期時間");//核准日期時間
+pageBean.setUpDate("修改日期時間");//修改日期時間
+pageBean.setOwnerType("建檔者類別");//建檔者類別
+pageBean.setCrPerson("建檔者代碼");//建檔者代碼
+pageBean.setConfirmType("確認方式");//確認方式
+pageBean.setTransactionId("存證序號");//存證序號
+pageBean.setValidType("生效註記");//生效註記
+pageBean.setUpPerson("異動者ID");//異動者ID
+pageBean.setSn("序號");//序號
+
+pageBean.setBan(ban);//委任人統編
+pageBean.setCustoms(customs);//關別
+pageBean.setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+pageBean.setCrDate(crDate);//建檔日期時間
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setAgentCd(agentCd);//監管編號
+pageBean.setTransType(transType);//海空運別
+pageBean.setApplyType(applyType);//進出口別
+pageBean.setAssignBegDate(assignBegDate);//委任起始日
+pageBean.setAssignEndDate(assignEndDate);//委任截止日
+pageBean.setContType(contType);//委任關係類別
+pageBean.setSlType(slType);//委任型態
+pageBean.setPermitNo(permitNo);//委任核准文號
+pageBean.setPermitDate(permitDate);//核准日期時間
+pageBean.setUpDate(upDate);//修改日期時間
+pageBean.setOwnerType(ownerType);//建檔者類別
+pageBean.setCrPerson(crPerson);//建檔者代碼
+pageBean.setConfirmType(confirmType);//確認方式
+pageBean.setTransactionId(transactionId);//存證序號
+pageBean.setValidType(validType);//生效註記
+pageBean.setUpPerson(upPerson);//異動者ID
+pageBean.setSn(sn);//序號
+
+pageBean.setBan(randomBean.getBan());//委任人統編
+pageBean.setCustoms(randomBean.getCustoms());//關別
+pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());//報關業者箱號
+pageBean.setCrDate(randomBean.getCrDate());//建檔日期時間
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setAgentCd(randomBean.getAgentCd());//監管編號
+pageBean.setTransType(randomBean.getTransType());//海空運別
+pageBean.setApplyType(randomBean.getApplyType());//進出口別
+pageBean.setAssignBegDate(randomBean.getAssignBegDate());//委任起始日
+pageBean.setAssignEndDate(randomBean.getAssignEndDate());//委任截止日
+pageBean.setContType(randomBean.getContType());//委任關係類別
+pageBean.setSlType(randomBean.getSlType());//委任型態
+pageBean.setPermitNo(randomBean.getPermitNo());//委任核准文號
+pageBean.setPermitDate(randomBean.getPermitDate());//核准日期時間
+pageBean.setUpDate(randomBean.getUpDate());//修改日期時間
+pageBean.setOwnerType(randomBean.getOwnerType());//建檔者類別
+pageBean.setCrPerson(randomBean.getCrPerson());//建檔者代碼
+pageBean.setConfirmType(randomBean.getConfirmType());//確認方式
+pageBean.setTransactionId(randomBean.getTransactionId());//存證序號
+pageBean.setValidType(randomBean.getValidType());//生效註記
+pageBean.setUpPerson(randomBean.getUpPerson());//異動者ID
+pageBean.setSn(randomBean.getSn());//序號
+
+setBan(ban);//委任人統編
+setCustoms(customs);//關別
+setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+setCrDate(crDate);//建檔日期時間
+setDeclNo(declNo);//報單號碼
+setAgentCd(agentCd);//監管編號
+setTransType(transType);//海空運別
+setApplyType(applyType);//進出口別
+setAssignBegDate(assignBegDate);//委任起始日
+setAssignEndDate(assignEndDate);//委任截止日
+setContType(contType);//委任關係類別
+setSlType(slType);//委任型態
+setPermitNo(permitNo);//委任核准文號
+setPermitDate(permitDate);//核准日期時間
+setUpDate(upDate);//修改日期時間
+setOwnerType(ownerType);//建檔者類別
+setCrPerson(crPerson);//建檔者代碼
+setConfirmType(confirmType);//確認方式
+setTransactionId(transactionId);//存證序號
+setValidType(validType);//生效註記
+setUpPerson(upPerson);//異動者ID
+setSn(sn);//序號
+
+pageBean.getBan(),//委任人統編
+pageBean.getCustoms(),//關別
+pageBean.getBrokerBoxNo(),//報關業者箱號
+pageBean.getCrDate(),//建檔日期時間
+pageBean.getDeclNo(),//報單號碼
+pageBean.getAgentCd(),//監管編號
+pageBean.getTransType(),//海空運別
+pageBean.getApplyType(),//進出口別
+pageBean.getAssignBegDate(),//委任起始日
+pageBean.getAssignEndDate(),//委任截止日
+pageBean.getContType(),//委任關係類別
+pageBean.getSlType(),//委任型態
+pageBean.getPermitNo(),//委任核准文號
+pageBean.getPermitDate(),//核准日期時間
+pageBean.getUpDate(),//修改日期時間
+pageBean.getOwnerType(),//建檔者類別
+pageBean.getCrPerson(),//建檔者代碼
+pageBean.getConfirmType(),//確認方式
+pageBean.getTransactionId(),//存證序號
+pageBean.getValidType(),//生效註記
+pageBean.getUpPerson(),//異動者ID
+pageBean.getSn(),//序號
+
+pageBean.setValue("BAN", this.getBan());//委任人統編
+pageBean.setValue("CUSTOMS", this.getCustoms());//關別
+pageBean.setValue("BROKER_BOX_NO", this.getBrokerBoxNo());//報關業者箱號
+pageBean.setValue("CR_DATE", this.getCrDate());//建檔日期時間
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("AGENT_CD", this.getAgentCd());//監管編號
+pageBean.setValue("TRANS_TYPE", this.getTransType());//海空運別
+pageBean.setValue("APPLY_TYPE", this.getApplyType());//進出口別
+pageBean.setValue("ASSIGN_BEG_DATE", this.getAssignBegDate());//委任起始日
+pageBean.setValue("ASSIGN_END_DATE", this.getAssignEndDate());//委任截止日
+pageBean.setValue("CONT_TYPE", this.getContType());//委任關係類別
+pageBean.setValue("SL_TYPE", this.getSlType());//委任型態
+pageBean.setValue("PERMIT_NO", this.getPermitNo());//委任核准文號
+pageBean.setValue("PERMIT_DATE", this.getPermitDate());//核准日期時間
+pageBean.setValue("UP_DATE", this.getUpDate());//修改日期時間
+pageBean.setValue("OWNER_TYPE", this.getOwnerType());//建檔者類別
+pageBean.setValue("CR_PERSON", this.getCrPerson());//建檔者代碼
+pageBean.setValue("CONFIRM_TYPE", this.getConfirmType());//確認方式
+pageBean.setValue("TRANSACTION_ID", this.getTransactionId());//存證序號
+pageBean.setValue("VALID_TYPE", this.getValidType());//生效註記
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動者ID
+pageBean.setValue("SN", this.getSn());//序號
+
+pageBean.setValue("BAN", "委任人統編");//委任人統編
+pageBean.setValue("CUSTOMS", "關別");//關別
+pageBean.setValue("BROKER_BOX_NO", "報關業者箱號");//報關業者箱號
+pageBean.setValue("CR_DATE", "建檔日期時間");//建檔日期時間
+pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
+pageBean.setValue("AGENT_CD", "監管編號");//監管編號
+pageBean.setValue("TRANS_TYPE", "海空運別");//海空運別
+pageBean.setValue("APPLY_TYPE", "進出口別");//進出口別
+pageBean.setValue("ASSIGN_BEG_DATE", "委任起始日");//委任起始日
+pageBean.setValue("ASSIGN_END_DATE", "委任截止日");//委任截止日
+pageBean.setValue("CONT_TYPE", "委任關係類別");//委任關係類別
+pageBean.setValue("SL_TYPE", "委任型態");//委任型態
+pageBean.setValue("PERMIT_NO", "委任核准文號");//委任核准文號
+pageBean.setValue("PERMIT_DATE", "核准日期時間");//核准日期時間
+pageBean.setValue("UP_DATE", "修改日期時間");//修改日期時間
+pageBean.setValue("OWNER_TYPE", "建檔者類別");//建檔者類別
+pageBean.setValue("CR_PERSON", "建檔者代碼");//建檔者代碼
+pageBean.setValue("CONFIRM_TYPE", "確認方式");//確認方式
+pageBean.setValue("TRANSACTION_ID", "存證序號");//存證序號
+pageBean.setValue("VALID_TYPE", "生效註記");//生效註記
+pageBean.setValue("UP_PERSON", "異動者ID");//異動者ID
+pageBean.setValue("SN", "序號");//序號
+
+",委任人統編"+"(ban)="+pageBean.getBan()+
+",關別"+"(customs)="+pageBean.getCustoms()+
+",報關業者箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",建檔日期時間"+"(crDate)="+pageBean.getCrDate()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",監管編號"+"(agentCd)="+pageBean.getAgentCd()+
+",海空運別"+"(transType)="+pageBean.getTransType()+
+",進出口別"+"(applyType)="+pageBean.getApplyType()+
+",委任起始日"+"(assignBegDate)="+pageBean.getAssignBegDate()+
+",委任截止日"+"(assignEndDate)="+pageBean.getAssignEndDate()+
+",委任關係類別"+"(contType)="+pageBean.getContType()+
+",委任型態"+"(slType)="+pageBean.getSlType()+
+",委任核准文號"+"(permitNo)="+pageBean.getPermitNo()+
+",核准日期時間"+"(permitDate)="+pageBean.getPermitDate()+
+",修改日期時間"+"(upDate)="+pageBean.getUpDate()+
+",建檔者類別"+"(ownerType)="+pageBean.getOwnerType()+
+",建檔者代碼"+"(crPerson)="+pageBean.getCrPerson()+
+",確認方式"+"(confirmType)="+pageBean.getConfirmType()+
+",存證序號"+"(transactionId)="+pageBean.getTransactionId()+
+",生效註記"+"(validType)="+pageBean.getValidType()+
+",異動者ID"+"(upPerson)="+pageBean.getUpPerson()+
+",序號"+"(sn)="+pageBean.getSn()+

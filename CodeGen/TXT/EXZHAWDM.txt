@@ -1,0 +1,1269 @@
+pageBean.mawb=託運單主號
+pageBean.declNo=報單號碼
+pageBean.seqNo=序號
+pageBean.hawb=託運單分號
+pageBean.salBan=貨物輸出人統一編號
+pageBean.salBanIdType=貨物輸出人身分識別代碼
+pageBean.salEname=貨物輸出人英文名稱
+pageBean.salCname=貨物輸出人中文名稱
+pageBean.salEaddr=貨物輸出人英文地址
+pageBean.salCaddr=貨物輸出人中文地址
+pageBean.destCd=目的地代碼
+pageBean.totPackQty=總件數
+pageBean.packUnit=件數單位
+pageBean.totGrossWeight=總毛重
+pageBean.totTwdFob=總離岸價格(新台幣)
+pageBean.otherDesc1=其他申報事項-1
+pageBean.otherDesc2=其他申報事項-2
+pageBean.examMethod=申請審驗方式
+pageBean.declCustCd=收單關別代碼
+pageBean.clearType=通關方式
+pageBean.rlsNote=放行註記
+pageBean.relDate=放行日期時間
+pageBean.relPack=放行件數
+pageBean.relPackUnit=放行件數單位
+pageBean.examMark=驗貨註記
+pageBean.examCounter=驗貨檯號
+pageBean.detentionMark=查扣註記
+pageBean.inWareMark=進倉比對註記
+pageBean.iebMark=注檢註記
+pageBean.reExamMark=複驗註記
+pageBean.declType=報單類別
+pageBean.longTimeAppointMark=長期委任註記
+pageBean.financialCenterMark=財稅中心傳送註記
+pageBean.customsOfficeSection=海關股別
+pageBean.financialCenter1stdate=首次傳送日期
+pageBean.financialCenter2nddate=再次傳送日期
+pageBean.keepFiveYearNote=保留五年報單註記
+pageBean.keepFiveYearDate=保留五年報單期限
+pageBean.vanId=網路別
+
+pageBean.mawb=mawb
+pageBean.declNo=declNo
+pageBean.seqNo=seqNo
+pageBean.hawb=hawb
+pageBean.salBan=salBan
+pageBean.salBanIdType=salBanIdType
+pageBean.salEname=salEname
+pageBean.salCname=salCname
+pageBean.salEaddr=salEaddr
+pageBean.salCaddr=salCaddr
+pageBean.destCd=destCd
+pageBean.totPackQty=totPackQty
+pageBean.packUnit=packUnit
+pageBean.totGrossWeight=totGrossWeight
+pageBean.totTwdFob=totTwdFob
+pageBean.otherDesc1=otherDesc1
+pageBean.otherDesc2=otherDesc2
+pageBean.examMethod=examMethod
+pageBean.declCustCd=declCustCd
+pageBean.clearType=clearType
+pageBean.rlsNote=rlsNote
+pageBean.relDate=relDate
+pageBean.relPack=relPack
+pageBean.relPackUnit=relPackUnit
+pageBean.examMark=examMark
+pageBean.examCounter=examCounter
+pageBean.detentionMark=detentionMark
+pageBean.inWareMark=inWareMark
+pageBean.iebMark=iebMark
+pageBean.reExamMark=reExamMark
+pageBean.declType=declType
+pageBean.longTimeAppointMark=longTimeAppointMark
+pageBean.financialCenterMark=financialCenterMark
+pageBean.customsOfficeSection=customsOfficeSection
+pageBean.financialCenter1stdate=financialCenter1stdate
+pageBean.financialCenter2nddate=financialCenter2nddate
+pageBean.keepFiveYearNote=keepFiveYearNote
+pageBean.keepFiveYearDate=keepFiveYearDate
+pageBean.vanId=vanId
+
+<!--mawb:託運單主號-->
+<tr>
+	<td>
+		<s:text name="pageBean.mawb"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.mawb"/>
+	</td>
+</tr>
+
+<!--declNo:報單號碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.declNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNo"/>
+	</td>
+</tr>
+
+<!--seqNo:序號-->
+<tr>
+	<td>
+		<s:text name="pageBean.seqNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.seqNo"/>
+	</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+	<td>
+		<s:text name="pageBean.hawb"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.hawb"/>
+	</td>
+</tr>
+
+<!--salBan:貨物輸出人統一編號-->
+<tr>
+	<td>
+		<s:text name="pageBean.salBan"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salBan"/>
+	</td>
+</tr>
+
+<!--salBanIdType:貨物輸出人身分識別代碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.salBanIdType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salBanIdType"/>
+	</td>
+</tr>
+
+<!--salEname:貨物輸出人英文名稱-->
+<tr>
+	<td>
+		<s:text name="pageBean.salEname"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salEname"/>
+	</td>
+</tr>
+
+<!--salCname:貨物輸出人中文名稱-->
+<tr>
+	<td>
+		<s:text name="pageBean.salCname"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salCname"/>
+	</td>
+</tr>
+
+<!--salEaddr:貨物輸出人英文地址-->
+<tr>
+	<td>
+		<s:text name="pageBean.salEaddr"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salEaddr"/>
+	</td>
+</tr>
+
+<!--salCaddr:貨物輸出人中文地址-->
+<tr>
+	<td>
+		<s:text name="pageBean.salCaddr"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.salCaddr"/>
+	</td>
+</tr>
+
+<!--destCd:目的地代碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.destCd"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.destCd"/>
+	</td>
+</tr>
+
+<!--totPackQty:總件數-->
+<tr>
+	<td>
+		<s:text name="pageBean.totPackQty"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.totPackQty"/>
+	</td>
+</tr>
+
+<!--packUnit:件數單位-->
+<tr>
+	<td>
+		<s:text name="pageBean.packUnit"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.packUnit"/>
+	</td>
+</tr>
+
+<!--totGrossWeight:總毛重-->
+<tr>
+	<td>
+		<s:text name="pageBean.totGrossWeight"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.totGrossWeight"/>
+	</td>
+</tr>
+
+<!--totTwdFob:總離岸價格(新台幣)-->
+<tr>
+	<td>
+		<s:text name="pageBean.totTwdFob"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.totTwdFob"/>
+	</td>
+</tr>
+
+<!--otherDesc1:其他申報事項-1-->
+<tr>
+	<td>
+		<s:text name="pageBean.otherDesc1"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.otherDesc1"/>
+	</td>
+</tr>
+
+<!--otherDesc2:其他申報事項-2-->
+<tr>
+	<td>
+		<s:text name="pageBean.otherDesc2"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.otherDesc2"/>
+	</td>
+</tr>
+
+<!--examMethod:申請審驗方式-->
+<tr>
+	<td>
+		<s:text name="pageBean.examMethod"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.examMethod"/>
+	</td>
+</tr>
+
+<!--declCustCd:收單關別代碼-->
+<tr>
+	<td>
+		<s:text name="pageBean.declCustCd"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declCustCd"/>
+	</td>
+</tr>
+
+<!--clearType:通關方式-->
+<tr>
+	<td>
+		<s:text name="pageBean.clearType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.clearType"/>
+	</td>
+</tr>
+
+<!--rlsNote:放行註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.rlsNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.rlsNote"/>
+	</td>
+</tr>
+
+<!--relDate:放行日期時間-->
+<tr>
+	<td>
+		<s:text name="pageBean.relDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.relDate"/>
+	</td>
+</tr>
+
+<!--relPack:放行件數-->
+<tr>
+	<td>
+		<s:text name="pageBean.relPack"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.relPack"/>
+	</td>
+</tr>
+
+<!--relPackUnit:放行件數單位-->
+<tr>
+	<td>
+		<s:text name="pageBean.relPackUnit"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.relPackUnit"/>
+	</td>
+</tr>
+
+<!--examMark:驗貨註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.examMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.examMark"/>
+	</td>
+</tr>
+
+<!--examCounter:驗貨檯號-->
+<tr>
+	<td>
+		<s:text name="pageBean.examCounter"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.examCounter"/>
+	</td>
+</tr>
+
+<!--detentionMark:查扣註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.detentionMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.detentionMark"/>
+	</td>
+</tr>
+
+<!--inWareMark:進倉比對註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.inWareMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.inWareMark"/>
+	</td>
+</tr>
+
+<!--iebMark:注檢註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.iebMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.iebMark"/>
+	</td>
+</tr>
+
+<!--reExamMark:複驗註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.reExamMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.reExamMark"/>
+	</td>
+</tr>
+
+<!--declType:報單類別-->
+<tr>
+	<td>
+		<s:text name="pageBean.declType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declType"/>
+	</td>
+</tr>
+
+<!--longTimeAppointMark:長期委任註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.longTimeAppointMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.longTimeAppointMark"/>
+	</td>
+</tr>
+
+<!--financialCenterMark:財稅中心傳送註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.financialCenterMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.financialCenterMark"/>
+	</td>
+</tr>
+
+<!--customsOfficeSection:海關股別-->
+<tr>
+	<td>
+		<s:text name="pageBean.customsOfficeSection"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.customsOfficeSection"/>
+	</td>
+</tr>
+
+<!--financialCenter1stdate:首次傳送日期-->
+<tr>
+	<td>
+		<s:text name="pageBean.financialCenter1stdate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.financialCenter1stdate"/>
+	</td>
+</tr>
+
+<!--financialCenter2nddate:再次傳送日期-->
+<tr>
+	<td>
+		<s:text name="pageBean.financialCenter2nddate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.financialCenter2nddate"/>
+	</td>
+</tr>
+
+<!--keepFiveYearNote:保留五年報單註記-->
+<tr>
+	<td>
+		<s:text name="pageBean.keepFiveYearNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.keepFiveYearNote"/>
+	</td>
+</tr>
+
+<!--keepFiveYearDate:保留五年報單期限-->
+<tr>
+	<td>
+		<s:text name="pageBean.keepFiveYearDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.keepFiveYearDate"/>
+	</td>
+</tr>
+
+<!--vanId:網路別-->
+<tr>
+	<td>
+		<s:text name="pageBean.vanId"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.vanId"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.seqNo"/><!--seqNo:序號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.salBan"/><!--salBan:貨物輸出人統一編號-->
+<s:hidden name="pageBean.salBanIdType"/><!--salBanIdType:貨物輸出人身分識別代碼-->
+<s:hidden name="pageBean.salEname"/><!--salEname:貨物輸出人英文名稱-->
+<s:hidden name="pageBean.salCname"/><!--salCname:貨物輸出人中文名稱-->
+<s:hidden name="pageBean.salEaddr"/><!--salEaddr:貨物輸出人英文地址-->
+<s:hidden name="pageBean.salCaddr"/><!--salCaddr:貨物輸出人中文地址-->
+<s:hidden name="pageBean.destCd"/><!--destCd:目的地代碼-->
+<s:hidden name="pageBean.totPackQty"/><!--totPackQty:總件數-->
+<s:hidden name="pageBean.packUnit"/><!--packUnit:件數單位-->
+<s:hidden name="pageBean.totGrossWeight"/><!--totGrossWeight:總毛重-->
+<s:hidden name="pageBean.totTwdFob"/><!--totTwdFob:總離岸價格(新台幣)-->
+<s:hidden name="pageBean.otherDesc1"/><!--otherDesc1:其他申報事項-1-->
+<s:hidden name="pageBean.otherDesc2"/><!--otherDesc2:其他申報事項-2-->
+<s:hidden name="pageBean.examMethod"/><!--examMethod:申請審驗方式-->
+<s:hidden name="pageBean.declCustCd"/><!--declCustCd:收單關別代碼-->
+<s:hidden name="pageBean.clearType"/><!--clearType:通關方式-->
+<s:hidden name="pageBean.rlsNote"/><!--rlsNote:放行註記-->
+<s:hidden name="pageBean.relDate"/><!--relDate:放行日期時間-->
+<s:hidden name="pageBean.relPack"/><!--relPack:放行件數-->
+<s:hidden name="pageBean.relPackUnit"/><!--relPackUnit:放行件數單位-->
+<s:hidden name="pageBean.examMark"/><!--examMark:驗貨註記-->
+<s:hidden name="pageBean.examCounter"/><!--examCounter:驗貨檯號-->
+<s:hidden name="pageBean.detentionMark"/><!--detentionMark:查扣註記-->
+<s:hidden name="pageBean.inWareMark"/><!--inWareMark:進倉比對註記-->
+<s:hidden name="pageBean.iebMark"/><!--iebMark:注檢註記-->
+<s:hidden name="pageBean.reExamMark"/><!--reExamMark:複驗註記-->
+<s:hidden name="pageBean.declType"/><!--declType:報單類別-->
+<s:hidden name="pageBean.longTimeAppointMark"/><!--longTimeAppointMark:長期委任註記-->
+<s:hidden name="pageBean.financialCenterMark"/><!--financialCenterMark:財稅中心傳送註記-->
+<s:hidden name="pageBean.customsOfficeSection"/><!--customsOfficeSection:海關股別-->
+<s:hidden name="pageBean.financialCenter1stdate"/><!--financialCenter1stdate:首次傳送日期-->
+<s:hidden name="pageBean.financialCenter2nddate"/><!--financialCenter2nddate:再次傳送日期-->
+<s:hidden name="pageBean.keepFiveYearNote"/><!--keepFiveYearNote:保留五年報單註記-->
+<s:hidden name="pageBean.keepFiveYearDate"/><!--keepFiveYearDate:保留五年報單期限-->
+<s:hidden name="pageBean.vanId"/><!--vanId:網路別-->
+
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEQ_NO:序號:seqNo--%>
+<sjg:gridColumn name="SEQ_NO" index="SEQ_NO" title="%{getText('seqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN:貨物輸出人統一編號:salBan--%>
+<sjg:gridColumn name="SAL_BAN" index="SAL_BAN" title="%{getText('salBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN_ID_TYPE:貨物輸出人身分識別代碼:salBanIdType--%>
+<sjg:gridColumn name="SAL_BAN_ID_TYPE" index="SAL_BAN_ID_TYPE" title="%{getText('salBanIdType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_ENAME:貨物輸出人英文名稱:salEname--%>
+<sjg:gridColumn name="SAL_ENAME" index="SAL_ENAME" title="%{getText('salEname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_CNAME:貨物輸出人中文名稱:salCname--%>
+<sjg:gridColumn name="SAL_CNAME" index="SAL_CNAME" title="%{getText('salCname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_EADDR:貨物輸出人英文地址:salEaddr--%>
+<sjg:gridColumn name="SAL_EADDR" index="SAL_EADDR" title="%{getText('salEaddr')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_CADDR:貨物輸出人中文地址:salCaddr--%>
+<sjg:gridColumn name="SAL_CADDR" index="SAL_CADDR" title="%{getText('salCaddr')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEST_CD:目的地代碼:destCd--%>
+<sjg:gridColumn name="DEST_CD" index="DEST_CD" title="%{getText('destCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_PACK_QTY:總件數:totPackQty--%>
+<sjg:gridColumn name="TOT_PACK_QTY" index="TOT_PACK_QTY" title="%{getText('totPackQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACK_UNIT:件數單位:packUnit--%>
+<sjg:gridColumn name="PACK_UNIT" index="PACK_UNIT" title="%{getText('packUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_GROSS_WEIGHT:總毛重:totGrossWeight--%>
+<sjg:gridColumn name="TOT_GROSS_WEIGHT" index="TOT_GROSS_WEIGHT" title="%{getText('totGrossWeight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_TWD_FOB:總離岸價格(新台幣):totTwdFob--%>
+<sjg:gridColumn name="TOT_TWD_FOB" index="TOT_TWD_FOB" title="%{getText('totTwdFob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_DESC_1:其他申報事項-1:otherDesc1--%>
+<sjg:gridColumn name="OTHER_DESC_1" index="OTHER_DESC_1" title="%{getText('otherDesc1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_DESC_2:其他申報事項-2:otherDesc2--%>
+<sjg:gridColumn name="OTHER_DESC_2" index="OTHER_DESC_2" title="%{getText('otherDesc2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXAM_METHOD:申請審驗方式:examMethod--%>
+<sjg:gridColumn name="EXAM_METHOD" index="EXAM_METHOD" title="%{getText('examMethod')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_CUST_CD:收單關別代碼:declCustCd--%>
+<sjg:gridColumn name="DECL_CUST_CD" index="DECL_CUST_CD" title="%{getText('declCustCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CLEAR_TYPE:通關方式:clearType--%>
+<sjg:gridColumn name="CLEAR_TYPE" index="CLEAR_TYPE" title="%{getText('clearType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RLS_NOTE:放行註記:rlsNote--%>
+<sjg:gridColumn name="RLS_NOTE" index="RLS_NOTE" title="%{getText('rlsNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_DATE:放行日期時間:relDate--%>
+<sjg:gridColumn name="REL_DATE" index="REL_DATE" title="%{getText('relDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_PACK:放行件數:relPack--%>
+<sjg:gridColumn name="REL_PACK" index="REL_PACK" title="%{getText('relPack')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_PACK_UNIT:放行件數單位:relPackUnit--%>
+<sjg:gridColumn name="REL_PACK_UNIT" index="REL_PACK_UNIT" title="%{getText('relPackUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXAM_MARK:驗貨註記:examMark--%>
+<sjg:gridColumn name="EXAM_MARK" index="EXAM_MARK" title="%{getText('examMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXAM_COUNTER:驗貨檯號:examCounter--%>
+<sjg:gridColumn name="EXAM_COUNTER" index="EXAM_COUNTER" title="%{getText('examCounter')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DETENTION_MARK:查扣註記:detentionMark--%>
+<sjg:gridColumn name="DETENTION_MARK" index="DETENTION_MARK" title="%{getText('detentionMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IN_WARE_MARK:進倉比對註記:inWareMark--%>
+<sjg:gridColumn name="IN_WARE_MARK" index="IN_WARE_MARK" title="%{getText('inWareMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IEB_MARK:注檢註記:iebMark--%>
+<sjg:gridColumn name="IEB_MARK" index="IEB_MARK" title="%{getText('iebMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RE_EXAM_MARK:複驗註記:reExamMark--%>
+<sjg:gridColumn name="RE_EXAM_MARK" index="RE_EXAM_MARK" title="%{getText('reExamMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_TYPE:報單類別:declType--%>
+<sjg:gridColumn name="DECL_TYPE" index="DECL_TYPE" title="%{getText('declType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LONG_TIME_APPOINT_MARK:長期委任註記:longTimeAppointMark--%>
+<sjg:gridColumn name="LONG_TIME_APPOINT_MARK" index="LONG_TIME_APPOINT_MARK" title="%{getText('longTimeAppointMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FINANCIAL_CENTER_MARK:財稅中心傳送註記:financialCenterMark--%>
+<sjg:gridColumn name="FINANCIAL_CENTER_MARK" index="FINANCIAL_CENTER_MARK" title="%{getText('financialCenterMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_OFFICE_SECTION:海關股別:customsOfficeSection--%>
+<sjg:gridColumn name="CUSTOMS_OFFICE_SECTION" index="CUSTOMS_OFFICE_SECTION" title="%{getText('customsOfficeSection')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FINANCIAL_CENTER_1STDATE:首次傳送日期:financialCenter1stdate--%>
+<sjg:gridColumn name="FINANCIAL_CENTER_1STDATE" index="FINANCIAL_CENTER_1STDATE" title="%{getText('financialCenter1stdate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FINANCIAL_CENTER_2NDDATE:再次傳送日期:financialCenter2nddate--%>
+<sjg:gridColumn name="FINANCIAL_CENTER_2NDDATE" index="FINANCIAL_CENTER_2NDDATE" title="%{getText('financialCenter2nddate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--KEEP_FIVE_YEAR_NOTE:保留五年報單註記:keepFiveYearNote--%>
+<sjg:gridColumn name="KEEP_FIVE_YEAR_NOTE" index="KEEP_FIVE_YEAR_NOTE" title="%{getText('keepFiveYearNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--KEEP_FIVE_YEAR_DATE:保留五年報單期限:keepFiveYearDate--%>
+<sjg:gridColumn name="KEEP_FIVE_YEAR_DATE" index="KEEP_FIVE_YEAR_DATE" title="%{getText('keepFiveYearDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VAN_ID:網路別:vanId--%>
+<sjg:gridColumn name="VAN_ID" index="VAN_ID" title="%{getText('vanId')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.MAWB
+,A.DECL_NO
+,A.SEQ_NO
+,A.HAWB
+,A.SAL_BAN
+,A.SAL_BAN_ID_TYPE
+,A.SAL_ENAME
+,A.SAL_CNAME
+,A.SAL_EADDR
+,A.SAL_CADDR
+,A.DEST_CD
+,A.TOT_PACK_QTY
+,A.PACK_UNIT
+,A.TOT_GROSS_WEIGHT
+,A.TOT_TWD_FOB
+,A.OTHER_DESC_1
+,A.OTHER_DESC_2
+,A.EXAM_METHOD
+,A.DECL_CUST_CD
+,A.CLEAR_TYPE
+,A.RLS_NOTE
+,A.REL_DATE
+,A.REL_PACK
+,A.REL_PACK_UNIT
+,A.EXAM_MARK
+,A.EXAM_COUNTER
+,A.DETENTION_MARK
+,A.IN_WARE_MARK
+,A.IEB_MARK
+,A.RE_EXAM_MARK
+,A.DECL_TYPE
+,A.LONG_TIME_APPOINT_MARK
+,A.FINANCIAL_CENTER_MARK
+,A.CUSTOMS_OFFICE_SECTION
+,A.FINANCIAL_CENTER_1STDATE
+,A.FINANCIAL_CENTER_2NDDATE
+,A.KEEP_FIVE_YEAR_NOTE
+,A.KEEP_FIVE_YEAR_DATE
+,A.VAN_ID
+
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="SEQ_NO" ignoreEmpty="true">SEQ_NO = ${SEQ_NO}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="SAL_BAN" ignoreEmpty="true">SAL_BAN = ${SAL_BAN}</condition>
+<condition key="SAL_BAN_ID_TYPE" ignoreEmpty="true">SAL_BAN_ID_TYPE = ${SAL_BAN_ID_TYPE}</condition>
+<condition key="SAL_ENAME" ignoreEmpty="true">SAL_ENAME = ${SAL_ENAME}</condition>
+<condition key="SAL_CNAME" ignoreEmpty="true">SAL_CNAME = ${SAL_CNAME}</condition>
+<condition key="SAL_EADDR" ignoreEmpty="true">SAL_EADDR = ${SAL_EADDR}</condition>
+<condition key="SAL_CADDR" ignoreEmpty="true">SAL_CADDR = ${SAL_CADDR}</condition>
+<condition key="DEST_CD" ignoreEmpty="true">DEST_CD = ${DEST_CD}</condition>
+<condition key="TOT_PACK_QTY" ignoreEmpty="true">TOT_PACK_QTY = ${TOT_PACK_QTY}</condition>
+<condition key="PACK_UNIT" ignoreEmpty="true">PACK_UNIT = ${PACK_UNIT}</condition>
+<condition key="TOT_GROSS_WEIGHT" ignoreEmpty="true">TOT_GROSS_WEIGHT = ${TOT_GROSS_WEIGHT}</condition>
+<condition key="TOT_TWD_FOB" ignoreEmpty="true">TOT_TWD_FOB = ${TOT_TWD_FOB}</condition>
+<condition key="OTHER_DESC_1" ignoreEmpty="true">OTHER_DESC_1 = ${OTHER_DESC_1}</condition>
+<condition key="OTHER_DESC_2" ignoreEmpty="true">OTHER_DESC_2 = ${OTHER_DESC_2}</condition>
+<condition key="EXAM_METHOD" ignoreEmpty="true">EXAM_METHOD = ${EXAM_METHOD}</condition>
+<condition key="DECL_CUST_CD" ignoreEmpty="true">DECL_CUST_CD = ${DECL_CUST_CD}</condition>
+<condition key="CLEAR_TYPE" ignoreEmpty="true">CLEAR_TYPE = ${CLEAR_TYPE}</condition>
+<condition key="RLS_NOTE" ignoreEmpty="true">RLS_NOTE = ${RLS_NOTE}</condition>
+<condition key="REL_DATE" ignoreEmpty="true">REL_DATE = ${REL_DATE}</condition>
+<condition key="REL_PACK" ignoreEmpty="true">REL_PACK = ${REL_PACK}</condition>
+<condition key="REL_PACK_UNIT" ignoreEmpty="true">REL_PACK_UNIT = ${REL_PACK_UNIT}</condition>
+<condition key="EXAM_MARK" ignoreEmpty="true">EXAM_MARK = ${EXAM_MARK}</condition>
+<condition key="EXAM_COUNTER" ignoreEmpty="true">EXAM_COUNTER = ${EXAM_COUNTER}</condition>
+<condition key="DETENTION_MARK" ignoreEmpty="true">DETENTION_MARK = ${DETENTION_MARK}</condition>
+<condition key="IN_WARE_MARK" ignoreEmpty="true">IN_WARE_MARK = ${IN_WARE_MARK}</condition>
+<condition key="IEB_MARK" ignoreEmpty="true">IEB_MARK = ${IEB_MARK}</condition>
+<condition key="RE_EXAM_MARK" ignoreEmpty="true">RE_EXAM_MARK = ${RE_EXAM_MARK}</condition>
+<condition key="DECL_TYPE" ignoreEmpty="true">DECL_TYPE = ${DECL_TYPE}</condition>
+<condition key="LONG_TIME_APPOINT_MARK" ignoreEmpty="true">LONG_TIME_APPOINT_MARK = ${LONG_TIME_APPOINT_MARK}</condition>
+<condition key="FINANCIAL_CENTER_MARK" ignoreEmpty="true">FINANCIAL_CENTER_MARK = ${FINANCIAL_CENTER_MARK}</condition>
+<condition key="CUSTOMS_OFFICE_SECTION" ignoreEmpty="true">CUSTOMS_OFFICE_SECTION = ${CUSTOMS_OFFICE_SECTION}</condition>
+<condition key="FINANCIAL_CENTER_1STDATE" ignoreEmpty="true">FINANCIAL_CENTER_1STDATE = ${FINANCIAL_CENTER_1STDATE}</condition>
+<condition key="FINANCIAL_CENTER_2NDDATE" ignoreEmpty="true">FINANCIAL_CENTER_2NDDATE = ${FINANCIAL_CENTER_2NDDATE}</condition>
+<condition key="KEEP_FIVE_YEAR_NOTE" ignoreEmpty="true">KEEP_FIVE_YEAR_NOTE = ${KEEP_FIVE_YEAR_NOTE}</condition>
+<condition key="KEEP_FIVE_YEAR_DATE" ignoreEmpty="true">KEEP_FIVE_YEAR_DATE = ${KEEP_FIVE_YEAR_DATE}</condition>
+<condition key="VAN_ID" ignoreEmpty="true">VAN_ID = ${VAN_ID}</condition>
+
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="SEQ_NO_S" ignoreEmpty="true">SEQ_NO >= ${SEQ_NO_S}</condition><condition key="SEQ_NO_E" ignoreEmpty="true">${SEQ_NO_E} >= SEQ_NO</condition><condition key="SEQ_NO_L" ignoreEmpty="true">SEQ_NO like ${SEQ_NO_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="SAL_BAN_S" ignoreEmpty="true">SAL_BAN >= ${SAL_BAN_S}</condition><condition key="SAL_BAN_E" ignoreEmpty="true">${SAL_BAN_E} >= SAL_BAN</condition><condition key="SAL_BAN_L" ignoreEmpty="true">SAL_BAN like ${SAL_BAN_L}</condition>
+<condition key="SAL_BAN_ID_TYPE_S" ignoreEmpty="true">SAL_BAN_ID_TYPE >= ${SAL_BAN_ID_TYPE_S}</condition><condition key="SAL_BAN_ID_TYPE_E" ignoreEmpty="true">${SAL_BAN_ID_TYPE_E} >= SAL_BAN_ID_TYPE</condition><condition key="SAL_BAN_ID_TYPE_L" ignoreEmpty="true">SAL_BAN_ID_TYPE like ${SAL_BAN_ID_TYPE_L}</condition>
+<condition key="SAL_ENAME_S" ignoreEmpty="true">SAL_ENAME >= ${SAL_ENAME_S}</condition><condition key="SAL_ENAME_E" ignoreEmpty="true">${SAL_ENAME_E} >= SAL_ENAME</condition><condition key="SAL_ENAME_L" ignoreEmpty="true">SAL_ENAME like ${SAL_ENAME_L}</condition>
+<condition key="SAL_CNAME_S" ignoreEmpty="true">SAL_CNAME >= ${SAL_CNAME_S}</condition><condition key="SAL_CNAME_E" ignoreEmpty="true">${SAL_CNAME_E} >= SAL_CNAME</condition><condition key="SAL_CNAME_L" ignoreEmpty="true">SAL_CNAME like ${SAL_CNAME_L}</condition>
+<condition key="SAL_EADDR_S" ignoreEmpty="true">SAL_EADDR >= ${SAL_EADDR_S}</condition><condition key="SAL_EADDR_E" ignoreEmpty="true">${SAL_EADDR_E} >= SAL_EADDR</condition><condition key="SAL_EADDR_L" ignoreEmpty="true">SAL_EADDR like ${SAL_EADDR_L}</condition>
+<condition key="SAL_CADDR_S" ignoreEmpty="true">SAL_CADDR >= ${SAL_CADDR_S}</condition><condition key="SAL_CADDR_E" ignoreEmpty="true">${SAL_CADDR_E} >= SAL_CADDR</condition><condition key="SAL_CADDR_L" ignoreEmpty="true">SAL_CADDR like ${SAL_CADDR_L}</condition>
+<condition key="DEST_CD_S" ignoreEmpty="true">DEST_CD >= ${DEST_CD_S}</condition><condition key="DEST_CD_E" ignoreEmpty="true">${DEST_CD_E} >= DEST_CD</condition><condition key="DEST_CD_L" ignoreEmpty="true">DEST_CD like ${DEST_CD_L}</condition>
+<condition key="TOT_PACK_QTY_S" ignoreEmpty="true">TOT_PACK_QTY >= ${TOT_PACK_QTY_S}</condition><condition key="TOT_PACK_QTY_E" ignoreEmpty="true">${TOT_PACK_QTY_E} >= TOT_PACK_QTY</condition><condition key="TOT_PACK_QTY_L" ignoreEmpty="true">TOT_PACK_QTY like ${TOT_PACK_QTY_L}</condition>
+<condition key="PACK_UNIT_S" ignoreEmpty="true">PACK_UNIT >= ${PACK_UNIT_S}</condition><condition key="PACK_UNIT_E" ignoreEmpty="true">${PACK_UNIT_E} >= PACK_UNIT</condition><condition key="PACK_UNIT_L" ignoreEmpty="true">PACK_UNIT like ${PACK_UNIT_L}</condition>
+<condition key="TOT_GROSS_WEIGHT_S" ignoreEmpty="true">TOT_GROSS_WEIGHT >= ${TOT_GROSS_WEIGHT_S}</condition><condition key="TOT_GROSS_WEIGHT_E" ignoreEmpty="true">${TOT_GROSS_WEIGHT_E} >= TOT_GROSS_WEIGHT</condition><condition key="TOT_GROSS_WEIGHT_L" ignoreEmpty="true">TOT_GROSS_WEIGHT like ${TOT_GROSS_WEIGHT_L}</condition>
+<condition key="TOT_TWD_FOB_S" ignoreEmpty="true">TOT_TWD_FOB >= ${TOT_TWD_FOB_S}</condition><condition key="TOT_TWD_FOB_E" ignoreEmpty="true">${TOT_TWD_FOB_E} >= TOT_TWD_FOB</condition><condition key="TOT_TWD_FOB_L" ignoreEmpty="true">TOT_TWD_FOB like ${TOT_TWD_FOB_L}</condition>
+<condition key="OTHER_DESC_1_S" ignoreEmpty="true">OTHER_DESC_1 >= ${OTHER_DESC_1_S}</condition><condition key="OTHER_DESC_1_E" ignoreEmpty="true">${OTHER_DESC_1_E} >= OTHER_DESC_1</condition><condition key="OTHER_DESC_1_L" ignoreEmpty="true">OTHER_DESC_1 like ${OTHER_DESC_1_L}</condition>
+<condition key="OTHER_DESC_2_S" ignoreEmpty="true">OTHER_DESC_2 >= ${OTHER_DESC_2_S}</condition><condition key="OTHER_DESC_2_E" ignoreEmpty="true">${OTHER_DESC_2_E} >= OTHER_DESC_2</condition><condition key="OTHER_DESC_2_L" ignoreEmpty="true">OTHER_DESC_2 like ${OTHER_DESC_2_L}</condition>
+<condition key="EXAM_METHOD_S" ignoreEmpty="true">EXAM_METHOD >= ${EXAM_METHOD_S}</condition><condition key="EXAM_METHOD_E" ignoreEmpty="true">${EXAM_METHOD_E} >= EXAM_METHOD</condition><condition key="EXAM_METHOD_L" ignoreEmpty="true">EXAM_METHOD like ${EXAM_METHOD_L}</condition>
+<condition key="DECL_CUST_CD_S" ignoreEmpty="true">DECL_CUST_CD >= ${DECL_CUST_CD_S}</condition><condition key="DECL_CUST_CD_E" ignoreEmpty="true">${DECL_CUST_CD_E} >= DECL_CUST_CD</condition><condition key="DECL_CUST_CD_L" ignoreEmpty="true">DECL_CUST_CD like ${DECL_CUST_CD_L}</condition>
+<condition key="CLEAR_TYPE_S" ignoreEmpty="true">CLEAR_TYPE >= ${CLEAR_TYPE_S}</condition><condition key="CLEAR_TYPE_E" ignoreEmpty="true">${CLEAR_TYPE_E} >= CLEAR_TYPE</condition><condition key="CLEAR_TYPE_L" ignoreEmpty="true">CLEAR_TYPE like ${CLEAR_TYPE_L}</condition>
+<condition key="RLS_NOTE_S" ignoreEmpty="true">RLS_NOTE >= ${RLS_NOTE_S}</condition><condition key="RLS_NOTE_E" ignoreEmpty="true">${RLS_NOTE_E} >= RLS_NOTE</condition><condition key="RLS_NOTE_L" ignoreEmpty="true">RLS_NOTE like ${RLS_NOTE_L}</condition>
+<condition key="REL_DATE_S" ignoreEmpty="true">REL_DATE >= ${REL_DATE_S}</condition><condition key="REL_DATE_E" ignoreEmpty="true">${REL_DATE_E} >= REL_DATE</condition><condition key="REL_DATE_L" ignoreEmpty="true">REL_DATE like ${REL_DATE_L}</condition>
+<condition key="REL_PACK_S" ignoreEmpty="true">REL_PACK >= ${REL_PACK_S}</condition><condition key="REL_PACK_E" ignoreEmpty="true">${REL_PACK_E} >= REL_PACK</condition><condition key="REL_PACK_L" ignoreEmpty="true">REL_PACK like ${REL_PACK_L}</condition>
+<condition key="REL_PACK_UNIT_S" ignoreEmpty="true">REL_PACK_UNIT >= ${REL_PACK_UNIT_S}</condition><condition key="REL_PACK_UNIT_E" ignoreEmpty="true">${REL_PACK_UNIT_E} >= REL_PACK_UNIT</condition><condition key="REL_PACK_UNIT_L" ignoreEmpty="true">REL_PACK_UNIT like ${REL_PACK_UNIT_L}</condition>
+<condition key="EXAM_MARK_S" ignoreEmpty="true">EXAM_MARK >= ${EXAM_MARK_S}</condition><condition key="EXAM_MARK_E" ignoreEmpty="true">${EXAM_MARK_E} >= EXAM_MARK</condition><condition key="EXAM_MARK_L" ignoreEmpty="true">EXAM_MARK like ${EXAM_MARK_L}</condition>
+<condition key="EXAM_COUNTER_S" ignoreEmpty="true">EXAM_COUNTER >= ${EXAM_COUNTER_S}</condition><condition key="EXAM_COUNTER_E" ignoreEmpty="true">${EXAM_COUNTER_E} >= EXAM_COUNTER</condition><condition key="EXAM_COUNTER_L" ignoreEmpty="true">EXAM_COUNTER like ${EXAM_COUNTER_L}</condition>
+<condition key="DETENTION_MARK_S" ignoreEmpty="true">DETENTION_MARK >= ${DETENTION_MARK_S}</condition><condition key="DETENTION_MARK_E" ignoreEmpty="true">${DETENTION_MARK_E} >= DETENTION_MARK</condition><condition key="DETENTION_MARK_L" ignoreEmpty="true">DETENTION_MARK like ${DETENTION_MARK_L}</condition>
+<condition key="IN_WARE_MARK_S" ignoreEmpty="true">IN_WARE_MARK >= ${IN_WARE_MARK_S}</condition><condition key="IN_WARE_MARK_E" ignoreEmpty="true">${IN_WARE_MARK_E} >= IN_WARE_MARK</condition><condition key="IN_WARE_MARK_L" ignoreEmpty="true">IN_WARE_MARK like ${IN_WARE_MARK_L}</condition>
+<condition key="IEB_MARK_S" ignoreEmpty="true">IEB_MARK >= ${IEB_MARK_S}</condition><condition key="IEB_MARK_E" ignoreEmpty="true">${IEB_MARK_E} >= IEB_MARK</condition><condition key="IEB_MARK_L" ignoreEmpty="true">IEB_MARK like ${IEB_MARK_L}</condition>
+<condition key="RE_EXAM_MARK_S" ignoreEmpty="true">RE_EXAM_MARK >= ${RE_EXAM_MARK_S}</condition><condition key="RE_EXAM_MARK_E" ignoreEmpty="true">${RE_EXAM_MARK_E} >= RE_EXAM_MARK</condition><condition key="RE_EXAM_MARK_L" ignoreEmpty="true">RE_EXAM_MARK like ${RE_EXAM_MARK_L}</condition>
+<condition key="DECL_TYPE_S" ignoreEmpty="true">DECL_TYPE >= ${DECL_TYPE_S}</condition><condition key="DECL_TYPE_E" ignoreEmpty="true">${DECL_TYPE_E} >= DECL_TYPE</condition><condition key="DECL_TYPE_L" ignoreEmpty="true">DECL_TYPE like ${DECL_TYPE_L}</condition>
+<condition key="LONG_TIME_APPOINT_MARK_S" ignoreEmpty="true">LONG_TIME_APPOINT_MARK >= ${LONG_TIME_APPOINT_MARK_S}</condition><condition key="LONG_TIME_APPOINT_MARK_E" ignoreEmpty="true">${LONG_TIME_APPOINT_MARK_E} >= LONG_TIME_APPOINT_MARK</condition><condition key="LONG_TIME_APPOINT_MARK_L" ignoreEmpty="true">LONG_TIME_APPOINT_MARK like ${LONG_TIME_APPOINT_MARK_L}</condition>
+<condition key="FINANCIAL_CENTER_MARK_S" ignoreEmpty="true">FINANCIAL_CENTER_MARK >= ${FINANCIAL_CENTER_MARK_S}</condition><condition key="FINANCIAL_CENTER_MARK_E" ignoreEmpty="true">${FINANCIAL_CENTER_MARK_E} >= FINANCIAL_CENTER_MARK</condition><condition key="FINANCIAL_CENTER_MARK_L" ignoreEmpty="true">FINANCIAL_CENTER_MARK like ${FINANCIAL_CENTER_MARK_L}</condition>
+<condition key="CUSTOMS_OFFICE_SECTION_S" ignoreEmpty="true">CUSTOMS_OFFICE_SECTION >= ${CUSTOMS_OFFICE_SECTION_S}</condition><condition key="CUSTOMS_OFFICE_SECTION_E" ignoreEmpty="true">${CUSTOMS_OFFICE_SECTION_E} >= CUSTOMS_OFFICE_SECTION</condition><condition key="CUSTOMS_OFFICE_SECTION_L" ignoreEmpty="true">CUSTOMS_OFFICE_SECTION like ${CUSTOMS_OFFICE_SECTION_L}</condition>
+<condition key="FINANCIAL_CENTER_1STDATE_S" ignoreEmpty="true">FINANCIAL_CENTER_1STDATE >= ${FINANCIAL_CENTER_1STDATE_S}</condition><condition key="FINANCIAL_CENTER_1STDATE_E" ignoreEmpty="true">${FINANCIAL_CENTER_1STDATE_E} >= FINANCIAL_CENTER_1STDATE</condition><condition key="FINANCIAL_CENTER_1STDATE_L" ignoreEmpty="true">FINANCIAL_CENTER_1STDATE like ${FINANCIAL_CENTER_1STDATE_L}</condition>
+<condition key="FINANCIAL_CENTER_2NDDATE_S" ignoreEmpty="true">FINANCIAL_CENTER_2NDDATE >= ${FINANCIAL_CENTER_2NDDATE_S}</condition><condition key="FINANCIAL_CENTER_2NDDATE_E" ignoreEmpty="true">${FINANCIAL_CENTER_2NDDATE_E} >= FINANCIAL_CENTER_2NDDATE</condition><condition key="FINANCIAL_CENTER_2NDDATE_L" ignoreEmpty="true">FINANCIAL_CENTER_2NDDATE like ${FINANCIAL_CENTER_2NDDATE_L}</condition>
+<condition key="KEEP_FIVE_YEAR_NOTE_S" ignoreEmpty="true">KEEP_FIVE_YEAR_NOTE >= ${KEEP_FIVE_YEAR_NOTE_S}</condition><condition key="KEEP_FIVE_YEAR_NOTE_E" ignoreEmpty="true">${KEEP_FIVE_YEAR_NOTE_E} >= KEEP_FIVE_YEAR_NOTE</condition><condition key="KEEP_FIVE_YEAR_NOTE_L" ignoreEmpty="true">KEEP_FIVE_YEAR_NOTE like ${KEEP_FIVE_YEAR_NOTE_L}</condition>
+<condition key="KEEP_FIVE_YEAR_DATE_S" ignoreEmpty="true">KEEP_FIVE_YEAR_DATE >= ${KEEP_FIVE_YEAR_DATE_S}</condition><condition key="KEEP_FIVE_YEAR_DATE_E" ignoreEmpty="true">${KEEP_FIVE_YEAR_DATE_E} >= KEEP_FIVE_YEAR_DATE</condition><condition key="KEEP_FIVE_YEAR_DATE_L" ignoreEmpty="true">KEEP_FIVE_YEAR_DATE like ${KEEP_FIVE_YEAR_DATE_L}</condition>
+<condition key="VAN_ID_S" ignoreEmpty="true">VAN_ID >= ${VAN_ID_S}</condition><condition key="VAN_ID_E" ignoreEmpty="true">${VAN_ID_E} >= VAN_ID</condition><condition key="VAN_ID_L" ignoreEmpty="true">VAN_ID like ${VAN_ID_L}</condition>
+
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="SEQ_NO" name="SEQ_NO" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="SAL_BAN" name="SAL_BAN" ignoreEmpty="true"/>
+<field key="SAL_BAN_ID_TYPE" name="SAL_BAN_ID_TYPE" ignoreEmpty="true"/>
+<field key="SAL_ENAME" name="SAL_ENAME" ignoreEmpty="true"/>
+<field key="SAL_CNAME" name="SAL_CNAME" ignoreEmpty="true"/>
+<field key="SAL_EADDR" name="SAL_EADDR" ignoreEmpty="true"/>
+<field key="SAL_CADDR" name="SAL_CADDR" ignoreEmpty="true"/>
+<field key="DEST_CD" name="DEST_CD" ignoreEmpty="true"/>
+<field key="TOT_PACK_QTY" name="TOT_PACK_QTY" ignoreEmpty="true"/>
+<field key="PACK_UNIT" name="PACK_UNIT" ignoreEmpty="true"/>
+<field key="TOT_GROSS_WEIGHT" name="TOT_GROSS_WEIGHT" ignoreEmpty="true"/>
+<field key="TOT_TWD_FOB" name="TOT_TWD_FOB" ignoreEmpty="true"/>
+<field key="OTHER_DESC_1" name="OTHER_DESC_1" ignoreEmpty="true"/>
+<field key="OTHER_DESC_2" name="OTHER_DESC_2" ignoreEmpty="true"/>
+<field key="EXAM_METHOD" name="EXAM_METHOD" ignoreEmpty="true"/>
+<field key="DECL_CUST_CD" name="DECL_CUST_CD" ignoreEmpty="true"/>
+<field key="CLEAR_TYPE" name="CLEAR_TYPE" ignoreEmpty="true"/>
+<field key="RLS_NOTE" name="RLS_NOTE" ignoreEmpty="true"/>
+<field key="REL_DATE" name="REL_DATE" ignoreEmpty="true"/>
+<field key="REL_PACK" name="REL_PACK" ignoreEmpty="true"/>
+<field key="REL_PACK_UNIT" name="REL_PACK_UNIT" ignoreEmpty="true"/>
+<field key="EXAM_MARK" name="EXAM_MARK" ignoreEmpty="true"/>
+<field key="EXAM_COUNTER" name="EXAM_COUNTER" ignoreEmpty="true"/>
+<field key="DETENTION_MARK" name="DETENTION_MARK" ignoreEmpty="true"/>
+<field key="IN_WARE_MARK" name="IN_WARE_MARK" ignoreEmpty="true"/>
+<field key="IEB_MARK" name="IEB_MARK" ignoreEmpty="true"/>
+<field key="RE_EXAM_MARK" name="RE_EXAM_MARK" ignoreEmpty="true"/>
+<field key="DECL_TYPE" name="DECL_TYPE" ignoreEmpty="true"/>
+<field key="LONG_TIME_APPOINT_MARK" name="LONG_TIME_APPOINT_MARK" ignoreEmpty="true"/>
+<field key="FINANCIAL_CENTER_MARK" name="FINANCIAL_CENTER_MARK" ignoreEmpty="true"/>
+<field key="CUSTOMS_OFFICE_SECTION" name="CUSTOMS_OFFICE_SECTION" ignoreEmpty="true"/>
+<field key="FINANCIAL_CENTER_1STDATE" name="FINANCIAL_CENTER_1STDATE" ignoreEmpty="true"/>
+<field key="FINANCIAL_CENTER_2NDDATE" name="FINANCIAL_CENTER_2NDDATE" ignoreEmpty="true"/>
+<field key="KEEP_FIVE_YEAR_NOTE" name="KEEP_FIVE_YEAR_NOTE" ignoreEmpty="true"/>
+<field key="KEEP_FIVE_YEAR_DATE" name="KEEP_FIVE_YEAR_DATE" ignoreEmpty="true"/>
+<field key="VAN_ID" name="VAN_ID" ignoreEmpty="true"/>
+
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_seqNo').attr('value',rowData.SEQ_NO);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_salBan').attr('value',rowData.SAL_BAN);
+$('#pageBean_salBanIdType').attr('value',rowData.SAL_BAN_ID_TYPE);
+$('#pageBean_salEname').attr('value',rowData.SAL_ENAME);
+$('#pageBean_salCname').attr('value',rowData.SAL_CNAME);
+$('#pageBean_salEaddr').attr('value',rowData.SAL_EADDR);
+$('#pageBean_salCaddr').attr('value',rowData.SAL_CADDR);
+$('#pageBean_destCd').attr('value',rowData.DEST_CD);
+$('#pageBean_totPackQty').attr('value',rowData.TOT_PACK_QTY);
+$('#pageBean_packUnit').attr('value',rowData.PACK_UNIT);
+$('#pageBean_totGrossWeight').attr('value',rowData.TOT_GROSS_WEIGHT);
+$('#pageBean_totTwdFob').attr('value',rowData.TOT_TWD_FOB);
+$('#pageBean_otherDesc1').attr('value',rowData.OTHER_DESC_1);
+$('#pageBean_otherDesc2').attr('value',rowData.OTHER_DESC_2);
+$('#pageBean_examMethod').attr('value',rowData.EXAM_METHOD);
+$('#pageBean_declCustCd').attr('value',rowData.DECL_CUST_CD);
+$('#pageBean_clearType').attr('value',rowData.CLEAR_TYPE);
+$('#pageBean_rlsNote').attr('value',rowData.RLS_NOTE);
+$('#pageBean_relDate').attr('value',rowData.REL_DATE);
+$('#pageBean_relPack').attr('value',rowData.REL_PACK);
+$('#pageBean_relPackUnit').attr('value',rowData.REL_PACK_UNIT);
+$('#pageBean_examMark').attr('value',rowData.EXAM_MARK);
+$('#pageBean_examCounter').attr('value',rowData.EXAM_COUNTER);
+$('#pageBean_detentionMark').attr('value',rowData.DETENTION_MARK);
+$('#pageBean_inWareMark').attr('value',rowData.IN_WARE_MARK);
+$('#pageBean_iebMark').attr('value',rowData.IEB_MARK);
+$('#pageBean_reExamMark').attr('value',rowData.RE_EXAM_MARK);
+$('#pageBean_declType').attr('value',rowData.DECL_TYPE);
+$('#pageBean_longTimeAppointMark').attr('value',rowData.LONG_TIME_APPOINT_MARK);
+$('#pageBean_financialCenterMark').attr('value',rowData.FINANCIAL_CENTER_MARK);
+$('#pageBean_customsOfficeSection').attr('value',rowData.CUSTOMS_OFFICE_SECTION);
+$('#pageBean_financialCenter1stdate').attr('value',rowData.FINANCIAL_CENTER_1STDATE);
+$('#pageBean_financialCenter2nddate').attr('value',rowData.FINANCIAL_CENTER_2NDDATE);
+$('#pageBean_keepFiveYearNote').attr('value',rowData.KEEP_FIVE_YEAR_NOTE);
+$('#pageBean_keepFiveYearDate').attr('value',rowData.KEEP_FIVE_YEAR_DATE);
+$('#pageBean_vanId').attr('value',rowData.VAN_ID);
+
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_seqNo').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_salBan').attr("value", "");
+$('#pageBean_salBanIdType').attr("value", "");
+$('#pageBean_salEname').attr("value", "");
+$('#pageBean_salCname').attr("value", "");
+$('#pageBean_salEaddr').attr("value", "");
+$('#pageBean_salCaddr').attr("value", "");
+$('#pageBean_destCd').attr("value", "");
+$('#pageBean_totPackQty').attr("value", "");
+$('#pageBean_packUnit').attr("value", "");
+$('#pageBean_totGrossWeight').attr("value", "");
+$('#pageBean_totTwdFob').attr("value", "");
+$('#pageBean_otherDesc1').attr("value", "");
+$('#pageBean_otherDesc2').attr("value", "");
+$('#pageBean_examMethod').attr("value", "");
+$('#pageBean_declCustCd').attr("value", "");
+$('#pageBean_clearType').attr("value", "");
+$('#pageBean_rlsNote').attr("value", "");
+$('#pageBean_relDate').attr("value", "");
+$('#pageBean_relPack').attr("value", "");
+$('#pageBean_relPackUnit').attr("value", "");
+$('#pageBean_examMark').attr("value", "");
+$('#pageBean_examCounter').attr("value", "");
+$('#pageBean_detentionMark').attr("value", "");
+$('#pageBean_inWareMark').attr("value", "");
+$('#pageBean_iebMark').attr("value", "");
+$('#pageBean_reExamMark').attr("value", "");
+$('#pageBean_declType').attr("value", "");
+$('#pageBean_longTimeAppointMark').attr("value", "");
+$('#pageBean_financialCenterMark').attr("value", "");
+$('#pageBean_customsOfficeSection').attr("value", "");
+$('#pageBean_financialCenter1stdate').attr("value", "");
+$('#pageBean_financialCenter2nddate').attr("value", "");
+$('#pageBean_keepFiveYearNote').attr("value", "");
+$('#pageBean_keepFiveYearDate').attr("value", "");
+$('#pageBean_vanId').attr("value", "");
+
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+SEQ_NO:$('#pageBean_seqNo').val(),//序號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+SAL_BAN:$('#pageBean_salBan').val(),//貨物輸出人統一編號
+SAL_BAN_ID_TYPE:$('#pageBean_salBanIdType').val(),//貨物輸出人身分識別代碼
+SAL_ENAME:$('#pageBean_salEname').val(),//貨物輸出人英文名稱
+SAL_CNAME:$('#pageBean_salCname').val(),//貨物輸出人中文名稱
+SAL_EADDR:$('#pageBean_salEaddr').val(),//貨物輸出人英文地址
+SAL_CADDR:$('#pageBean_salCaddr').val(),//貨物輸出人中文地址
+DEST_CD:$('#pageBean_destCd').val(),//目的地代碼
+TOT_PACK_QTY:$('#pageBean_totPackQty').val(),//總件數
+PACK_UNIT:$('#pageBean_packUnit').val(),//件數單位
+TOT_GROSS_WEIGHT:$('#pageBean_totGrossWeight').val(),//總毛重
+TOT_TWD_FOB:$('#pageBean_totTwdFob').val(),//總離岸價格(新台幣)
+OTHER_DESC_1:$('#pageBean_otherDesc1').val(),//其他申報事項-1
+OTHER_DESC_2:$('#pageBean_otherDesc2').val(),//其他申報事項-2
+EXAM_METHOD:$('#pageBean_examMethod').val(),//申請審驗方式
+DECL_CUST_CD:$('#pageBean_declCustCd').val(),//收單關別代碼
+CLEAR_TYPE:$('#pageBean_clearType').val(),//通關方式
+RLS_NOTE:$('#pageBean_rlsNote').val(),//放行註記
+REL_DATE:$('#pageBean_relDate').val(),//放行日期時間
+REL_PACK:$('#pageBean_relPack').val(),//放行件數
+REL_PACK_UNIT:$('#pageBean_relPackUnit').val(),//放行件數單位
+EXAM_MARK:$('#pageBean_examMark').val(),//驗貨註記
+EXAM_COUNTER:$('#pageBean_examCounter').val(),//驗貨檯號
+DETENTION_MARK:$('#pageBean_detentionMark').val(),//查扣註記
+IN_WARE_MARK:$('#pageBean_inWareMark').val(),//進倉比對註記
+IEB_MARK:$('#pageBean_iebMark').val(),//注檢註記
+RE_EXAM_MARK:$('#pageBean_reExamMark').val(),//複驗註記
+DECL_TYPE:$('#pageBean_declType').val(),//報單類別
+LONG_TIME_APPOINT_MARK:$('#pageBean_longTimeAppointMark').val(),//長期委任註記
+FINANCIAL_CENTER_MARK:$('#pageBean_financialCenterMark').val(),//財稅中心傳送註記
+CUSTOMS_OFFICE_SECTION:$('#pageBean_customsOfficeSection').val(),//海關股別
+FINANCIAL_CENTER_1STDATE:$('#pageBean_financialCenter1stdate').val(),//首次傳送日期
+FINANCIAL_CENTER_2NDDATE:$('#pageBean_financialCenter2nddate').val(),//再次傳送日期
+KEEP_FIVE_YEAR_NOTE:$('#pageBean_keepFiveYearNote').val(),//保留五年報單註記
+KEEP_FIVE_YEAR_DATE:$('#pageBean_keepFiveYearDate').val(),//保留五年報單期限
+VAN_ID:$('#pageBean_vanId').val(),//網路別
+
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setSeqNo(dataObjects.getString("SEQ_NO"));//序號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setSalBan(dataObjects.getString("SAL_BAN"));//貨物輸出人統一編號
+pageBean.setSalBanIdType(dataObjects.getString("SAL_BAN_ID_TYPE"));//貨物輸出人身分識別代碼
+pageBean.setSalEname(dataObjects.getString("SAL_ENAME"));//貨物輸出人英文名稱
+pageBean.setSalCname(dataObjects.getString("SAL_CNAME"));//貨物輸出人中文名稱
+pageBean.setSalEaddr(dataObjects.getString("SAL_EADDR"));//貨物輸出人英文地址
+pageBean.setSalCaddr(dataObjects.getString("SAL_CADDR"));//貨物輸出人中文地址
+pageBean.setDestCd(dataObjects.getString("DEST_CD"));//目的地代碼
+pageBean.setTotPackQty((BigDecimal)dataObjects.getValue("TOT_PACK_QTY"));//總件數
+pageBean.setPackUnit(dataObjects.getString("PACK_UNIT"));//件數單位
+pageBean.setTotGrossWeight((BigDecimal)dataObjects.getValue("TOT_GROSS_WEIGHT"));//總毛重
+pageBean.setTotTwdFob(dataObjects.getString("TOT_TWD_FOB"));//總離岸價格(新台幣)
+pageBean.setOtherDesc1(dataObjects.getString("OTHER_DESC_1"));//其他申報事項-1
+pageBean.setOtherDesc2(dataObjects.getString("OTHER_DESC_2"));//其他申報事項-2
+pageBean.setExamMethod(dataObjects.getString("EXAM_METHOD"));//申請審驗方式
+pageBean.setDeclCustCd(dataObjects.getString("DECL_CUST_CD"));//收單關別代碼
+pageBean.setClearType(dataObjects.getString("CLEAR_TYPE"));//通關方式
+pageBean.setRlsNote(dataObjects.getString("RLS_NOTE"));//放行註記
+pageBean.setRelDate((Date)dataObjects.getValue("REL_DATE"));//放行日期時間
+pageBean.setRelPack(dataObjects.getString("REL_PACK"));//放行件數
+pageBean.setRelPackUnit(dataObjects.getString("REL_PACK_UNIT"));//放行件數單位
+pageBean.setExamMark(dataObjects.getString("EXAM_MARK"));//驗貨註記
+pageBean.setExamCounter(dataObjects.getString("EXAM_COUNTER"));//驗貨檯號
+pageBean.setDetentionMark(dataObjects.getString("DETENTION_MARK"));//查扣註記
+pageBean.setInWareMark(dataObjects.getString("IN_WARE_MARK"));//進倉比對註記
+pageBean.setIebMark(dataObjects.getString("IEB_MARK"));//注檢註記
+pageBean.setReExamMark(dataObjects.getString("RE_EXAM_MARK"));//複驗註記
+pageBean.setDeclType(dataObjects.getString("DECL_TYPE"));//報單類別
+pageBean.setLongTimeAppointMark(dataObjects.getString("LONG_TIME_APPOINT_MARK"));//長期委任註記
+pageBean.setFinancialCenterMark(dataObjects.getString("FINANCIAL_CENTER_MARK"));//財稅中心傳送註記
+pageBean.setCustomsOfficeSection(dataObjects.getString("CUSTOMS_OFFICE_SECTION"));//海關股別
+pageBean.setFinancialCenter1stdate((Date)dataObjects.getValue("FINANCIAL_CENTER_1STDATE"));//首次傳送日期
+pageBean.setFinancialCenter2nddate((Date)dataObjects.getValue("FINANCIAL_CENTER_2NDDATE"));//再次傳送日期
+pageBean.setKeepFiveYearNote(dataObjects.getString("KEEP_FIVE_YEAR_NOTE"));//保留五年報單註記
+pageBean.setKeepFiveYearDate((Date)dataObjects.getValue("KEEP_FIVE_YEAR_DATE"));//保留五年報單期限
+pageBean.setVanId(dataObjects.getString("VAN_ID"));//網路別
+
+private String mawb = null;//託運單主號
+private String declNo = null;//報單號碼
+private String seqNo = null;//序號
+private String hawb = null;//託運單分號
+private String salBan = null;//貨物輸出人統一編號
+private String salBanIdType = null;//貨物輸出人身分識別代碼
+private String salEname = null;//貨物輸出人英文名稱
+private String salCname = null;//貨物輸出人中文名稱
+private String salEaddr = null;//貨物輸出人英文地址
+private String salCaddr = null;//貨物輸出人中文地址
+private String destCd = null;//目的地代碼
+private BigDecimal totPackQty = null;//總件數
+private String packUnit = null;//件數單位
+private BigDecimal totGrossWeight = null;//總毛重
+private String totTwdFob = null;//總離岸價格(新台幣)
+private String otherDesc1 = null;//其他申報事項-1
+private String otherDesc2 = null;//其他申報事項-2
+private String examMethod = null;//申請審驗方式
+private String declCustCd = null;//收單關別代碼
+private String clearType = null;//通關方式
+private String rlsNote = null;//放行註記
+private Date relDate = null;//放行日期時間
+private String relPack = null;//放行件數
+private String relPackUnit = null;//放行件數單位
+private String examMark = null;//驗貨註記
+private String examCounter = null;//驗貨檯號
+private String detentionMark = null;//查扣註記
+private String inWareMark = null;//進倉比對註記
+private String iebMark = null;//注檢註記
+private String reExamMark = null;//複驗註記
+private String declType = null;//報單類別
+private String longTimeAppointMark = null;//長期委任註記
+private String financialCenterMark = null;//財稅中心傳送註記
+private String customsOfficeSection = null;//海關股別
+private Date financialCenter1stdate = null;//首次傳送日期
+private Date financialCenter2nddate = null;//再次傳送日期
+private String keepFiveYearNote = null;//保留五年報單註記
+private Date keepFiveYearDate = null;//保留五年報單期限
+private String vanId = null;//網路別
+
+pageBean.setMawb("託運單主號");//託運單主號
+pageBean.setDeclNo("報單號碼");//報單號碼
+pageBean.setSeqNo("序號");//序號
+pageBean.setHawb("託運單分號");//託運單分號
+pageBean.setSalBan("貨物輸出人統一編號");//貨物輸出人統一編號
+pageBean.setSalBanIdType("貨物輸出人身分識別代碼");//貨物輸出人身分識別代碼
+pageBean.setSalEname("貨物輸出人英文名稱");//貨物輸出人英文名稱
+pageBean.setSalCname("貨物輸出人中文名稱");//貨物輸出人中文名稱
+pageBean.setSalEaddr("貨物輸出人英文地址");//貨物輸出人英文地址
+pageBean.setSalCaddr("貨物輸出人中文地址");//貨物輸出人中文地址
+pageBean.setDestCd("目的地代碼");//目的地代碼
+pageBean.setTotPackQty("總件數");//總件數
+pageBean.setPackUnit("件數單位");//件數單位
+pageBean.setTotGrossWeight("總毛重");//總毛重
+pageBean.setTotTwdFob("總離岸價格(新台幣)");//總離岸價格(新台幣)
+pageBean.setOtherDesc1("其他申報事項-1");//其他申報事項-1
+pageBean.setOtherDesc2("其他申報事項-2");//其他申報事項-2
+pageBean.setExamMethod("申請審驗方式");//申請審驗方式
+pageBean.setDeclCustCd("收單關別代碼");//收單關別代碼
+pageBean.setClearType("通關方式");//通關方式
+pageBean.setRlsNote("放行註記");//放行註記
+pageBean.setRelDate("放行日期時間");//放行日期時間
+pageBean.setRelPack("放行件數");//放行件數
+pageBean.setRelPackUnit("放行件數單位");//放行件數單位
+pageBean.setExamMark("驗貨註記");//驗貨註記
+pageBean.setExamCounter("驗貨檯號");//驗貨檯號
+pageBean.setDetentionMark("查扣註記");//查扣註記
+pageBean.setInWareMark("進倉比對註記");//進倉比對註記
+pageBean.setIebMark("注檢註記");//注檢註記
+pageBean.setReExamMark("複驗註記");//複驗註記
+pageBean.setDeclType("報單類別");//報單類別
+pageBean.setLongTimeAppointMark("長期委任註記");//長期委任註記
+pageBean.setFinancialCenterMark("財稅中心傳送註記");//財稅中心傳送註記
+pageBean.setCustomsOfficeSection("海關股別");//海關股別
+pageBean.setFinancialCenter1stdate("首次傳送日期");//首次傳送日期
+pageBean.setFinancialCenter2nddate("再次傳送日期");//再次傳送日期
+pageBean.setKeepFiveYearNote("保留五年報單註記");//保留五年報單註記
+pageBean.setKeepFiveYearDate("保留五年報單期限");//保留五年報單期限
+pageBean.setVanId("網路別");//網路別
+
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setSeqNo(seqNo);//序號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setSalBan(salBan);//貨物輸出人統一編號
+pageBean.setSalBanIdType(salBanIdType);//貨物輸出人身分識別代碼
+pageBean.setSalEname(salEname);//貨物輸出人英文名稱
+pageBean.setSalCname(salCname);//貨物輸出人中文名稱
+pageBean.setSalEaddr(salEaddr);//貨物輸出人英文地址
+pageBean.setSalCaddr(salCaddr);//貨物輸出人中文地址
+pageBean.setDestCd(destCd);//目的地代碼
+pageBean.setTotPackQty(totPackQty);//總件數
+pageBean.setPackUnit(packUnit);//件數單位
+pageBean.setTotGrossWeight(totGrossWeight);//總毛重
+pageBean.setTotTwdFob(totTwdFob);//總離岸價格(新台幣)
+pageBean.setOtherDesc1(otherDesc1);//其他申報事項-1
+pageBean.setOtherDesc2(otherDesc2);//其他申報事項-2
+pageBean.setExamMethod(examMethod);//申請審驗方式
+pageBean.setDeclCustCd(declCustCd);//收單關別代碼
+pageBean.setClearType(clearType);//通關方式
+pageBean.setRlsNote(rlsNote);//放行註記
+pageBean.setRelDate(relDate);//放行日期時間
+pageBean.setRelPack(relPack);//放行件數
+pageBean.setRelPackUnit(relPackUnit);//放行件數單位
+pageBean.setExamMark(examMark);//驗貨註記
+pageBean.setExamCounter(examCounter);//驗貨檯號
+pageBean.setDetentionMark(detentionMark);//查扣註記
+pageBean.setInWareMark(inWareMark);//進倉比對註記
+pageBean.setIebMark(iebMark);//注檢註記
+pageBean.setReExamMark(reExamMark);//複驗註記
+pageBean.setDeclType(declType);//報單類別
+pageBean.setLongTimeAppointMark(longTimeAppointMark);//長期委任註記
+pageBean.setFinancialCenterMark(financialCenterMark);//財稅中心傳送註記
+pageBean.setCustomsOfficeSection(customsOfficeSection);//海關股別
+pageBean.setFinancialCenter1stdate(financialCenter1stdate);//首次傳送日期
+pageBean.setFinancialCenter2nddate(financialCenter2nddate);//再次傳送日期
+pageBean.setKeepFiveYearNote(keepFiveYearNote);//保留五年報單註記
+pageBean.setKeepFiveYearDate(keepFiveYearDate);//保留五年報單期限
+pageBean.setVanId(vanId);//網路別
+
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setSeqNo(randomBean.getSeqNo());//序號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setSalBan(randomBean.getSalBan());//貨物輸出人統一編號
+pageBean.setSalBanIdType(randomBean.getSalBanIdType());//貨物輸出人身分識別代碼
+pageBean.setSalEname(randomBean.getSalEname());//貨物輸出人英文名稱
+pageBean.setSalCname(randomBean.getSalCname());//貨物輸出人中文名稱
+pageBean.setSalEaddr(randomBean.getSalEaddr());//貨物輸出人英文地址
+pageBean.setSalCaddr(randomBean.getSalCaddr());//貨物輸出人中文地址
+pageBean.setDestCd(randomBean.getDestCd());//目的地代碼
+pageBean.setTotPackQty(randomBean.getTotPackQty());//總件數
+pageBean.setPackUnit(randomBean.getPackUnit());//件數單位
+pageBean.setTotGrossWeight(randomBean.getTotGrossWeight());//總毛重
+pageBean.setTotTwdFob(randomBean.getTotTwdFob());//總離岸價格(新台幣)
+pageBean.setOtherDesc1(randomBean.getOtherDesc1());//其他申報事項-1
+pageBean.setOtherDesc2(randomBean.getOtherDesc2());//其他申報事項-2
+pageBean.setExamMethod(randomBean.getExamMethod());//申請審驗方式
+pageBean.setDeclCustCd(randomBean.getDeclCustCd());//收單關別代碼
+pageBean.setClearType(randomBean.getClearType());//通關方式
+pageBean.setRlsNote(randomBean.getRlsNote());//放行註記
+pageBean.setRelDate(randomBean.getRelDate());//放行日期時間
+pageBean.setRelPack(randomBean.getRelPack());//放行件數
+pageBean.setRelPackUnit(randomBean.getRelPackUnit());//放行件數單位
+pageBean.setExamMark(randomBean.getExamMark());//驗貨註記
+pageBean.setExamCounter(randomBean.getExamCounter());//驗貨檯號
+pageBean.setDetentionMark(randomBean.getDetentionMark());//查扣註記
+pageBean.setInWareMark(randomBean.getInWareMark());//進倉比對註記
+pageBean.setIebMark(randomBean.getIebMark());//注檢註記
+pageBean.setReExamMark(randomBean.getReExamMark());//複驗註記
+pageBean.setDeclType(randomBean.getDeclType());//報單類別
+pageBean.setLongTimeAppointMark(randomBean.getLongTimeAppointMark());//長期委任註記
+pageBean.setFinancialCenterMark(randomBean.getFinancialCenterMark());//財稅中心傳送註記
+pageBean.setCustomsOfficeSection(randomBean.getCustomsOfficeSection());//海關股別
+pageBean.setFinancialCenter1stdate(randomBean.getFinancialCenter1stdate());//首次傳送日期
+pageBean.setFinancialCenter2nddate(randomBean.getFinancialCenter2nddate());//再次傳送日期
+pageBean.setKeepFiveYearNote(randomBean.getKeepFiveYearNote());//保留五年報單註記
+pageBean.setKeepFiveYearDate(randomBean.getKeepFiveYearDate());//保留五年報單期限
+pageBean.setVanId(randomBean.getVanId());//網路別
+
+setMawb(mawb);//託運單主號
+setDeclNo(declNo);//報單號碼
+setSeqNo(seqNo);//序號
+setHawb(hawb);//託運單分號
+setSalBan(salBan);//貨物輸出人統一編號
+setSalBanIdType(salBanIdType);//貨物輸出人身分識別代碼
+setSalEname(salEname);//貨物輸出人英文名稱
+setSalCname(salCname);//貨物輸出人中文名稱
+setSalEaddr(salEaddr);//貨物輸出人英文地址
+setSalCaddr(salCaddr);//貨物輸出人中文地址
+setDestCd(destCd);//目的地代碼
+setTotPackQty(totPackQty);//總件數
+setPackUnit(packUnit);//件數單位
+setTotGrossWeight(totGrossWeight);//總毛重
+setTotTwdFob(totTwdFob);//總離岸價格(新台幣)
+setOtherDesc1(otherDesc1);//其他申報事項-1
+setOtherDesc2(otherDesc2);//其他申報事項-2
+setExamMethod(examMethod);//申請審驗方式
+setDeclCustCd(declCustCd);//收單關別代碼
+setClearType(clearType);//通關方式
+setRlsNote(rlsNote);//放行註記
+setRelDate(relDate);//放行日期時間
+setRelPack(relPack);//放行件數
+setRelPackUnit(relPackUnit);//放行件數單位
+setExamMark(examMark);//驗貨註記
+setExamCounter(examCounter);//驗貨檯號
+setDetentionMark(detentionMark);//查扣註記
+setInWareMark(inWareMark);//進倉比對註記
+setIebMark(iebMark);//注檢註記
+setReExamMark(reExamMark);//複驗註記
+setDeclType(declType);//報單類別
+setLongTimeAppointMark(longTimeAppointMark);//長期委任註記
+setFinancialCenterMark(financialCenterMark);//財稅中心傳送註記
+setCustomsOfficeSection(customsOfficeSection);//海關股別
+setFinancialCenter1stdate(financialCenter1stdate);//首次傳送日期
+setFinancialCenter2nddate(financialCenter2nddate);//再次傳送日期
+setKeepFiveYearNote(keepFiveYearNote);//保留五年報單註記
+setKeepFiveYearDate(keepFiveYearDate);//保留五年報單期限
+setVanId(vanId);//網路別
+
+pageBean.getMawb(),//託運單主號
+pageBean.getDeclNo(),//報單號碼
+pageBean.getSeqNo(),//序號
+pageBean.getHawb(),//託運單分號
+pageBean.getSalBan(),//貨物輸出人統一編號
+pageBean.getSalBanIdType(),//貨物輸出人身分識別代碼
+pageBean.getSalEname(),//貨物輸出人英文名稱
+pageBean.getSalCname(),//貨物輸出人中文名稱
+pageBean.getSalEaddr(),//貨物輸出人英文地址
+pageBean.getSalCaddr(),//貨物輸出人中文地址
+pageBean.getDestCd(),//目的地代碼
+pageBean.getTotPackQty(),//總件數
+pageBean.getPackUnit(),//件數單位
+pageBean.getTotGrossWeight(),//總毛重
+pageBean.getTotTwdFob(),//總離岸價格(新台幣)
+pageBean.getOtherDesc1(),//其他申報事項-1
+pageBean.getOtherDesc2(),//其他申報事項-2
+pageBean.getExamMethod(),//申請審驗方式
+pageBean.getDeclCustCd(),//收單關別代碼
+pageBean.getClearType(),//通關方式
+pageBean.getRlsNote(),//放行註記
+pageBean.getRelDate(),//放行日期時間
+pageBean.getRelPack(),//放行件數
+pageBean.getRelPackUnit(),//放行件數單位
+pageBean.getExamMark(),//驗貨註記
+pageBean.getExamCounter(),//驗貨檯號
+pageBean.getDetentionMark(),//查扣註記
+pageBean.getInWareMark(),//進倉比對註記
+pageBean.getIebMark(),//注檢註記
+pageBean.getReExamMark(),//複驗註記
+pageBean.getDeclType(),//報單類別
+pageBean.getLongTimeAppointMark(),//長期委任註記
+pageBean.getFinancialCenterMark(),//財稅中心傳送註記
+pageBean.getCustomsOfficeSection(),//海關股別
+pageBean.getFinancialCenter1stdate(),//首次傳送日期
+pageBean.getFinancialCenter2nddate(),//再次傳送日期
+pageBean.getKeepFiveYearNote(),//保留五年報單註記
+pageBean.getKeepFiveYearDate(),//保留五年報單期限
+pageBean.getVanId(),//網路別
+
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("SEQ_NO", this.getSeqNo());//序號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("SAL_BAN", this.getSalBan());//貨物輸出人統一編號
+pageBean.setValue("SAL_BAN_ID_TYPE", this.getSalBanIdType());//貨物輸出人身分識別代碼
+pageBean.setValue("SAL_ENAME", this.getSalEname());//貨物輸出人英文名稱
+pageBean.setValue("SAL_CNAME", this.getSalCname());//貨物輸出人中文名稱
+pageBean.setValue("SAL_EADDR", this.getSalEaddr());//貨物輸出人英文地址
+pageBean.setValue("SAL_CADDR", this.getSalCaddr());//貨物輸出人中文地址
+pageBean.setValue("DEST_CD", this.getDestCd());//目的地代碼
+pageBean.setValue("TOT_PACK_QTY", this.getTotPackQty());//總件數
+pageBean.setValue("PACK_UNIT", this.getPackUnit());//件數單位
+pageBean.setValue("TOT_GROSS_WEIGHT", this.getTotGrossWeight());//總毛重
+pageBean.setValue("TOT_TWD_FOB", this.getTotTwdFob());//總離岸價格(新台幣)
+pageBean.setValue("OTHER_DESC_1", this.getOtherDesc1());//其他申報事項-1
+pageBean.setValue("OTHER_DESC_2", this.getOtherDesc2());//其他申報事項-2
+pageBean.setValue("EXAM_METHOD", this.getExamMethod());//申請審驗方式
+pageBean.setValue("DECL_CUST_CD", this.getDeclCustCd());//收單關別代碼
+pageBean.setValue("CLEAR_TYPE", this.getClearType());//通關方式
+pageBean.setValue("RLS_NOTE", this.getRlsNote());//放行註記
+pageBean.setValue("REL_DATE", this.getRelDate());//放行日期時間
+pageBean.setValue("REL_PACK", this.getRelPack());//放行件數
+pageBean.setValue("REL_PACK_UNIT", this.getRelPackUnit());//放行件數單位
+pageBean.setValue("EXAM_MARK", this.getExamMark());//驗貨註記
+pageBean.setValue("EXAM_COUNTER", this.getExamCounter());//驗貨檯號
+pageBean.setValue("DETENTION_MARK", this.getDetentionMark());//查扣註記
+pageBean.setValue("IN_WARE_MARK", this.getInWareMark());//進倉比對註記
+pageBean.setValue("IEB_MARK", this.getIebMark());//注檢註記
+pageBean.setValue("RE_EXAM_MARK", this.getReExamMark());//複驗註記
+pageBean.setValue("DECL_TYPE", this.getDeclType());//報單類別
+pageBean.setValue("LONG_TIME_APPOINT_MARK", this.getLongTimeAppointMark());//長期委任註記
+pageBean.setValue("FINANCIAL_CENTER_MARK", this.getFinancialCenterMark());//財稅中心傳送註記
+pageBean.setValue("CUSTOMS_OFFICE_SECTION", this.getCustomsOfficeSection());//海關股別
+pageBean.setValue("FINANCIAL_CENTER_1STDATE", this.getFinancialCenter1stdate());//首次傳送日期
+pageBean.setValue("FINANCIAL_CENTER_2NDDATE", this.getFinancialCenter2nddate());//再次傳送日期
+pageBean.setValue("KEEP_FIVE_YEAR_NOTE", this.getKeepFiveYearNote());//保留五年報單註記
+pageBean.setValue("KEEP_FIVE_YEAR_DATE", this.getKeepFiveYearDate());//保留五年報單期限
+pageBean.setValue("VAN_ID", this.getVanId());//網路別
+
+pageBean.setValue("MAWB", "託運單主號");//託運單主號
+pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
+pageBean.setValue("SEQ_NO", "序號");//序號
+pageBean.setValue("HAWB", "託運單分號");//託運單分號
+pageBean.setValue("SAL_BAN", "貨物輸出人統一編號");//貨物輸出人統一編號
+pageBean.setValue("SAL_BAN_ID_TYPE", "貨物輸出人身分識別代碼");//貨物輸出人身分識別代碼
+pageBean.setValue("SAL_ENAME", "貨物輸出人英文名稱");//貨物輸出人英文名稱
+pageBean.setValue("SAL_CNAME", "貨物輸出人中文名稱");//貨物輸出人中文名稱
+pageBean.setValue("SAL_EADDR", "貨物輸出人英文地址");//貨物輸出人英文地址
+pageBean.setValue("SAL_CADDR", "貨物輸出人中文地址");//貨物輸出人中文地址
+pageBean.setValue("DEST_CD", "目的地代碼");//目的地代碼
+pageBean.setValue("TOT_PACK_QTY", "總件數");//總件數
+pageBean.setValue("PACK_UNIT", "件數單位");//件數單位
+pageBean.setValue("TOT_GROSS_WEIGHT", "總毛重");//總毛重
+pageBean.setValue("TOT_TWD_FOB", "總離岸價格(新台幣)");//總離岸價格(新台幣)
+pageBean.setValue("OTHER_DESC_1", "其他申報事項-1");//其他申報事項-1
+pageBean.setValue("OTHER_DESC_2", "其他申報事項-2");//其他申報事項-2
+pageBean.setValue("EXAM_METHOD", "申請審驗方式");//申請審驗方式
+pageBean.setValue("DECL_CUST_CD", "收單關別代碼");//收單關別代碼
+pageBean.setValue("CLEAR_TYPE", "通關方式");//通關方式
+pageBean.setValue("RLS_NOTE", "放行註記");//放行註記
+pageBean.setValue("REL_DATE", "放行日期時間");//放行日期時間
+pageBean.setValue("REL_PACK", "放行件數");//放行件數
+pageBean.setValue("REL_PACK_UNIT", "放行件數單位");//放行件數單位
+pageBean.setValue("EXAM_MARK", "驗貨註記");//驗貨註記
+pageBean.setValue("EXAM_COUNTER", "驗貨檯號");//驗貨檯號
+pageBean.setValue("DETENTION_MARK", "查扣註記");//查扣註記
+pageBean.setValue("IN_WARE_MARK", "進倉比對註記");//進倉比對註記
+pageBean.setValue("IEB_MARK", "注檢註記");//注檢註記
+pageBean.setValue("RE_EXAM_MARK", "複驗註記");//複驗註記
+pageBean.setValue("DECL_TYPE", "報單類別");//報單類別
+pageBean.setValue("LONG_TIME_APPOINT_MARK", "長期委任註記");//長期委任註記
+pageBean.setValue("FINANCIAL_CENTER_MARK", "財稅中心傳送註記");//財稅中心傳送註記
+pageBean.setValue("CUSTOMS_OFFICE_SECTION", "海關股別");//海關股別
+pageBean.setValue("FINANCIAL_CENTER_1STDATE", "首次傳送日期");//首次傳送日期
+pageBean.setValue("FINANCIAL_CENTER_2NDDATE", "再次傳送日期");//再次傳送日期
+pageBean.setValue("KEEP_FIVE_YEAR_NOTE", "保留五年報單註記");//保留五年報單註記
+pageBean.setValue("KEEP_FIVE_YEAR_DATE", "保留五年報單期限");//保留五年報單期限
+pageBean.setValue("VAN_ID", "網路別");//網路別
+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",序號"+"(seqNo)="+pageBean.getSeqNo()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",貨物輸出人統一編號"+"(salBan)="+pageBean.getSalBan()+
+",貨物輸出人身分識別代碼"+"(salBanIdType)="+pageBean.getSalBanIdType()+
+",貨物輸出人英文名稱"+"(salEname)="+pageBean.getSalEname()+
+",貨物輸出人中文名稱"+"(salCname)="+pageBean.getSalCname()+
+",貨物輸出人英文地址"+"(salEaddr)="+pageBean.getSalEaddr()+
+",貨物輸出人中文地址"+"(salCaddr)="+pageBean.getSalCaddr()+
+",目的地代碼"+"(destCd)="+pageBean.getDestCd()+
+",總件數"+"(totPackQty)="+pageBean.getTotPackQty()+
+",件數單位"+"(packUnit)="+pageBean.getPackUnit()+
+",總毛重"+"(totGrossWeight)="+pageBean.getTotGrossWeight()+
+",總離岸價格(新台幣)"+"(totTwdFob)="+pageBean.getTotTwdFob()+
+",其他申報事項-1"+"(otherDesc1)="+pageBean.getOtherDesc1()+
+",其他申報事項-2"+"(otherDesc2)="+pageBean.getOtherDesc2()+
+",申請審驗方式"+"(examMethod)="+pageBean.getExamMethod()+
+",收單關別代碼"+"(declCustCd)="+pageBean.getDeclCustCd()+
+",通關方式"+"(clearType)="+pageBean.getClearType()+
+",放行註記"+"(rlsNote)="+pageBean.getRlsNote()+
+",放行日期時間"+"(relDate)="+pageBean.getRelDate()+
+",放行件數"+"(relPack)="+pageBean.getRelPack()+
+",放行件數單位"+"(relPackUnit)="+pageBean.getRelPackUnit()+
+",驗貨註記"+"(examMark)="+pageBean.getExamMark()+
+",驗貨檯號"+"(examCounter)="+pageBean.getExamCounter()+
+",查扣註記"+"(detentionMark)="+pageBean.getDetentionMark()+
+",進倉比對註記"+"(inWareMark)="+pageBean.getInWareMark()+
+",注檢註記"+"(iebMark)="+pageBean.getIebMark()+
+",複驗註記"+"(reExamMark)="+pageBean.getReExamMark()+
+",報單類別"+"(declType)="+pageBean.getDeclType()+
+",長期委任註記"+"(longTimeAppointMark)="+pageBean.getLongTimeAppointMark()+
+",財稅中心傳送註記"+"(financialCenterMark)="+pageBean.getFinancialCenterMark()+
+",海關股別"+"(customsOfficeSection)="+pageBean.getCustomsOfficeSection()+
+",首次傳送日期"+"(financialCenter1stdate)="+pageBean.getFinancialCenter1stdate()+
+",再次傳送日期"+"(financialCenter2nddate)="+pageBean.getFinancialCenter2nddate()+
+",保留五年報單註記"+"(keepFiveYearNote)="+pageBean.getKeepFiveYearNote()+
+",保留五年報單期限"+"(keepFiveYearDate)="+pageBean.getKeepFiveYearDate()+
+",網路別"+"(vanId)="+pageBean.getVanId()+

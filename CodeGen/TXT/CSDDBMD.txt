@@ -1,0 +1,693 @@
+pageBean.declNo=報單號碼
+pageBean.itemNo=報單項次
+pageBean.goodsCdesc=中文貨名
+pageBean.goodsEdesc=英文貨名
+pageBean.tfDeclareHsNo=原申報稅則號別
+pageBean.tfDeclareHsRate=原申報稅則號別之稅率
+pageBean.tfDeclareHsRateQty=原申報稅號之從量稅率
+pageBean.tfModifyHsNo=主辦關擬改列稅則
+pageBean.tfConfirmFlag=總局_核定稅則-草稿註記
+pageBean.tfConfirmHsNo=總局_核定稅則號別
+pageBean.tfConfirmHsRate=總局_核定稅則之稅率
+pageBean.tfConfirmHsQty=總局_核定稅則之從量稅率
+pageBean.tfMFlag=主辦整合核定稅則-草稿註記
+pageBean.tfMHsNo=主辦整合核定稅則號別
+pageBean.tfMHsRate=主辦整合核定稅則之稅率
+pageBean.tfMHsQty=主辦整合核定稅則之從量稅率
+pageBean.upDate=異動時間
+pageBean.upPerson=異動人員
+pageBean.tfSeqNo=重申請序號
+pageBean.tf001mKey=TF_001M_KEY
+pageBean.tfRelativeDocSeqNo=疑義明細資料序號
+
+pageBean.declNo=declNo
+pageBean.itemNo=itemNo
+pageBean.goodsCdesc=goodsCdesc
+pageBean.goodsEdesc=goodsEdesc
+pageBean.tfDeclareHsNo=tfDeclareHsNo
+pageBean.tfDeclareHsRate=tfDeclareHsRate
+pageBean.tfDeclareHsRateQty=tfDeclareHsRateQty
+pageBean.tfModifyHsNo=tfModifyHsNo
+pageBean.tfConfirmFlag=tfConfirmFlag
+pageBean.tfConfirmHsNo=tfConfirmHsNo
+pageBean.tfConfirmHsRate=tfConfirmHsRate
+pageBean.tfConfirmHsQty=tfConfirmHsQty
+pageBean.tfMFlag=tfMFlag
+pageBean.tfMHsNo=tfMHsNo
+pageBean.tfMHsRate=tfMHsRate
+pageBean.tfMHsQty=tfMHsQty
+pageBean.upDate=upDate
+pageBean.upPerson=upPerson
+pageBean.tfSeqNo=tfSeqNo
+pageBean.tf001mKey=tf001mKey
+pageBean.tfRelativeDocSeqNo=tfRelativeDocSeqNo
+
+<tr>
+	<td>
+		<!--declNo:報單號碼-->
+		<s:text name="pageBean.declNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--itemNo:報單項次-->
+		<s:text name="pageBean.itemNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.itemNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--goodsCdesc:中文貨名-->
+		<s:text name="pageBean.goodsCdesc"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.goodsCdesc"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--goodsEdesc:英文貨名-->
+		<s:text name="pageBean.goodsEdesc"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.goodsEdesc"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDeclareHsNo:原申報稅則號別-->
+		<s:text name="pageBean.tfDeclareHsNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDeclareHsNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDeclareHsRate:原申報稅則號別之稅率-->
+		<s:text name="pageBean.tfDeclareHsRate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDeclareHsRate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDeclareHsRateQty:原申報稅號之從量稅率-->
+		<s:text name="pageBean.tfDeclareHsRateQty"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDeclareHsRateQty"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfModifyHsNo:主辦關擬改列稅則-->
+		<s:text name="pageBean.tfModifyHsNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfModifyHsNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfConfirmFlag:總局_核定稅則-草稿註記-->
+		<s:text name="pageBean.tfConfirmFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfConfirmFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfConfirmHsNo:總局_核定稅則號別-->
+		<s:text name="pageBean.tfConfirmHsNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfConfirmHsNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfConfirmHsRate:總局_核定稅則之稅率-->
+		<s:text name="pageBean.tfConfirmHsRate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfConfirmHsRate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfConfirmHsQty:總局_核定稅則之從量稅率-->
+		<s:text name="pageBean.tfConfirmHsQty"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfConfirmHsQty"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMFlag:主辦整合核定稅則-草稿註記-->
+		<s:text name="pageBean.tfMFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMHsNo:主辦整合核定稅則號別-->
+		<s:text name="pageBean.tfMHsNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMHsNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMHsRate:主辦整合核定稅則之稅率-->
+		<s:text name="pageBean.tfMHsRate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMHsRate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMHsQty:主辦整合核定稅則之從量稅率-->
+		<s:text name="pageBean.tfMHsQty"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMHsQty"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSeqNo:重申請序號-->
+		<s:text name="pageBean.tfSeqNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSeqNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tf001mKey:TF_001M_KEY-->
+		<s:text name="pageBean.tf001mKey"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tf001mKey"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfRelativeDocSeqNo:疑義明細資料序號-->
+		<s:text name="pageBean.tfRelativeDocSeqNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfRelativeDocSeqNo"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.itemNo"/><!--itemNo:報單項次-->
+<s:hidden name="pageBean.goodsCdesc"/><!--goodsCdesc:中文貨名-->
+<s:hidden name="pageBean.goodsEdesc"/><!--goodsEdesc:英文貨名-->
+<s:hidden name="pageBean.tfDeclareHsNo"/><!--tfDeclareHsNo:原申報稅則號別-->
+<s:hidden name="pageBean.tfDeclareHsRate"/><!--tfDeclareHsRate:原申報稅則號別之稅率-->
+<s:hidden name="pageBean.tfDeclareHsRateQty"/><!--tfDeclareHsRateQty:原申報稅號之從量稅率-->
+<s:hidden name="pageBean.tfModifyHsNo"/><!--tfModifyHsNo:主辦關擬改列稅則-->
+<s:hidden name="pageBean.tfConfirmFlag"/><!--tfConfirmFlag:總局_核定稅則-草稿註記-->
+<s:hidden name="pageBean.tfConfirmHsNo"/><!--tfConfirmHsNo:總局_核定稅則號別-->
+<s:hidden name="pageBean.tfConfirmHsRate"/><!--tfConfirmHsRate:總局_核定稅則之稅率-->
+<s:hidden name="pageBean.tfConfirmHsQty"/><!--tfConfirmHsQty:總局_核定稅則之從量稅率-->
+<s:hidden name="pageBean.tfMFlag"/><!--tfMFlag:主辦整合核定稅則-草稿註記-->
+<s:hidden name="pageBean.tfMHsNo"/><!--tfMHsNo:主辦整合核定稅則號別-->
+<s:hidden name="pageBean.tfMHsRate"/><!--tfMHsRate:主辦整合核定稅則之稅率-->
+<s:hidden name="pageBean.tfMHsQty"/><!--tfMHsQty:主辦整合核定稅則之從量稅率-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.tfSeqNo"/><!--tfSeqNo:重申請序號-->
+<s:hidden name="pageBean.tf001mKey"/><!--tf001mKey:TF_001M_KEY-->
+<s:hidden name="pageBean.tfRelativeDocSeqNo"/><!--tfRelativeDocSeqNo:疑義明細資料序號-->
+
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ITEM_NO:報單項次:itemNo--%>
+<sjg:gridColumn name="ITEM_NO" index="ITEM_NO" title="%{getText('itemNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--GOODS_CDESC:中文貨名:goodsCdesc--%>
+<sjg:gridColumn name="GOODS_CDESC" index="GOODS_CDESC" title="%{getText('goodsCdesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--GOODS_EDESC:英文貨名:goodsEdesc--%>
+<sjg:gridColumn name="GOODS_EDESC" index="GOODS_EDESC" title="%{getText('goodsEdesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DECLARE_HS_NO:原申報稅則號別:tfDeclareHsNo--%>
+<sjg:gridColumn name="TF_DECLARE_HS_NO" index="TF_DECLARE_HS_NO" title="%{getText('tfDeclareHsNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DECLARE_HS_RATE:原申報稅則號別之稅率:tfDeclareHsRate--%>
+<sjg:gridColumn name="TF_DECLARE_HS_RATE" index="TF_DECLARE_HS_RATE" title="%{getText('tfDeclareHsRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DECLARE_HS_RATE_QTY:原申報稅號之從量稅率:tfDeclareHsRateQty--%>
+<sjg:gridColumn name="TF_DECLARE_HS_RATE_QTY" index="TF_DECLARE_HS_RATE_QTY" title="%{getText('tfDeclareHsRateQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_MODIFY_HS_NO:主辦關擬改列稅則:tfModifyHsNo--%>
+<sjg:gridColumn name="TF_MODIFY_HS_NO" index="TF_MODIFY_HS_NO" title="%{getText('tfModifyHsNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CONFIRM_FLAG:總局_核定稅則-草稿註記:tfConfirmFlag--%>
+<sjg:gridColumn name="TF_CONFIRM_FLAG" index="TF_CONFIRM_FLAG" title="%{getText('tfConfirmFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CONFIRM_HS_NO:總局_核定稅則號別:tfConfirmHsNo--%>
+<sjg:gridColumn name="TF_CONFIRM_HS_NO" index="TF_CONFIRM_HS_NO" title="%{getText('tfConfirmHsNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CONFIRM_HS_RATE:總局_核定稅則之稅率:tfConfirmHsRate--%>
+<sjg:gridColumn name="TF_CONFIRM_HS_RATE" index="TF_CONFIRM_HS_RATE" title="%{getText('tfConfirmHsRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CONFIRM_HS_QTY:總局_核定稅則之從量稅率:tfConfirmHsQty--%>
+<sjg:gridColumn name="TF_CONFIRM_HS_QTY" index="TF_CONFIRM_HS_QTY" title="%{getText('tfConfirmHsQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_FLAG:主辦整合核定稅則-草稿註記:tfMFlag--%>
+<sjg:gridColumn name="TF_M_FLAG" index="TF_M_FLAG" title="%{getText('tfMFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_HS_NO:主辦整合核定稅則號別:tfMHsNo--%>
+<sjg:gridColumn name="TF_M_HS_NO" index="TF_M_HS_NO" title="%{getText('tfMHsNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_HS_RATE:主辦整合核定稅則之稅率:tfMHsRate--%>
+<sjg:gridColumn name="TF_M_HS_RATE" index="TF_M_HS_RATE" title="%{getText('tfMHsRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_HS_QTY:主辦整合核定稅則之從量稅率:tfMHsQty--%>
+<sjg:gridColumn name="TF_M_HS_QTY" index="TF_M_HS_QTY" title="%{getText('tfMHsQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SEQ_NO:重申請序號:tfSeqNo--%>
+<sjg:gridColumn name="TF_SEQ_NO" index="TF_SEQ_NO" title="%{getText('tfSeqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_001M_KEY:TF_001M_KEY:tf001mKey--%>
+<sjg:gridColumn name="TF_001M_KEY" index="TF_001M_KEY" title="%{getText('tf001mKey')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RELATIVE_DOC_SEQ_NO:疑義明細資料序號:tfRelativeDocSeqNo--%>
+<sjg:gridColumn name="TF_RELATIVE_DOC_SEQ_NO" index="TF_RELATIVE_DOC_SEQ_NO" title="%{getText('tfRelativeDocSeqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.DECL_NO
+,A.ITEM_NO
+,A.GOODS_CDESC
+,A.GOODS_EDESC
+,A.TF_DECLARE_HS_NO
+,A.TF_DECLARE_HS_RATE
+,A.TF_DECLARE_HS_RATE_QTY
+,A.TF_MODIFY_HS_NO
+,A.TF_CONFIRM_FLAG
+,A.TF_CONFIRM_HS_NO
+,A.TF_CONFIRM_HS_RATE
+,A.TF_CONFIRM_HS_QTY
+,A.TF_M_FLAG
+,A.TF_M_HS_NO
+,A.TF_M_HS_RATE
+,A.TF_M_HS_QTY
+,A.UP_DATE
+,A.UP_PERSON
+,A.TF_SEQ_NO
+,A.TF_001M_KEY
+,A.TF_RELATIVE_DOC_SEQ_NO
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="ITEM_NO" ignoreEmpty="true">ITEM_NO = ${ITEM_NO}</condition>
+<condition key="GOODS_CDESC" ignoreEmpty="true">GOODS_CDESC = ${GOODS_CDESC}</condition>
+<condition key="GOODS_EDESC" ignoreEmpty="true">GOODS_EDESC = ${GOODS_EDESC}</condition>
+<condition key="TF_DECLARE_HS_NO" ignoreEmpty="true">TF_DECLARE_HS_NO = ${TF_DECLARE_HS_NO}</condition>
+<condition key="TF_DECLARE_HS_RATE" ignoreEmpty="true">TF_DECLARE_HS_RATE = ${TF_DECLARE_HS_RATE}</condition>
+<condition key="TF_DECLARE_HS_RATE_QTY" ignoreEmpty="true">TF_DECLARE_HS_RATE_QTY = ${TF_DECLARE_HS_RATE_QTY}</condition>
+<condition key="TF_MODIFY_HS_NO" ignoreEmpty="true">TF_MODIFY_HS_NO = ${TF_MODIFY_HS_NO}</condition>
+<condition key="TF_CONFIRM_FLAG" ignoreEmpty="true">TF_CONFIRM_FLAG = ${TF_CONFIRM_FLAG}</condition>
+<condition key="TF_CONFIRM_HS_NO" ignoreEmpty="true">TF_CONFIRM_HS_NO = ${TF_CONFIRM_HS_NO}</condition>
+<condition key="TF_CONFIRM_HS_RATE" ignoreEmpty="true">TF_CONFIRM_HS_RATE = ${TF_CONFIRM_HS_RATE}</condition>
+<condition key="TF_CONFIRM_HS_QTY" ignoreEmpty="true">TF_CONFIRM_HS_QTY = ${TF_CONFIRM_HS_QTY}</condition>
+<condition key="TF_M_FLAG" ignoreEmpty="true">TF_M_FLAG = ${TF_M_FLAG}</condition>
+<condition key="TF_M_HS_NO" ignoreEmpty="true">TF_M_HS_NO = ${TF_M_HS_NO}</condition>
+<condition key="TF_M_HS_RATE" ignoreEmpty="true">TF_M_HS_RATE = ${TF_M_HS_RATE}</condition>
+<condition key="TF_M_HS_QTY" ignoreEmpty="true">TF_M_HS_QTY = ${TF_M_HS_QTY}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="TF_SEQ_NO" ignoreEmpty="true">TF_SEQ_NO = ${TF_SEQ_NO}</condition>
+<condition key="TF_001M_KEY" ignoreEmpty="true">TF_001M_KEY = ${TF_001M_KEY}</condition>
+<condition key="TF_RELATIVE_DOC_SEQ_NO" ignoreEmpty="true">TF_RELATIVE_DOC_SEQ_NO = ${TF_RELATIVE_DOC_SEQ_NO}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="ITEM_NO_S" ignoreEmpty="true">ITEM_NO >= ${ITEM_NO_S}</condition><condition key="ITEM_NO_E" ignoreEmpty="true">${ITEM_NO_E} >= ITEM_NO</condition><condition key="ITEM_NO_L" ignoreEmpty="true">ITEM_NO like ${ITEM_NO_L}</condition>
+<condition key="GOODS_CDESC_S" ignoreEmpty="true">GOODS_CDESC >= ${GOODS_CDESC_S}</condition><condition key="GOODS_CDESC_E" ignoreEmpty="true">${GOODS_CDESC_E} >= GOODS_CDESC</condition><condition key="GOODS_CDESC_L" ignoreEmpty="true">GOODS_CDESC like ${GOODS_CDESC_L}</condition>
+<condition key="GOODS_EDESC_S" ignoreEmpty="true">GOODS_EDESC >= ${GOODS_EDESC_S}</condition><condition key="GOODS_EDESC_E" ignoreEmpty="true">${GOODS_EDESC_E} >= GOODS_EDESC</condition><condition key="GOODS_EDESC_L" ignoreEmpty="true">GOODS_EDESC like ${GOODS_EDESC_L}</condition>
+<condition key="TF_DECLARE_HS_NO_S" ignoreEmpty="true">TF_DECLARE_HS_NO >= ${TF_DECLARE_HS_NO_S}</condition><condition key="TF_DECLARE_HS_NO_E" ignoreEmpty="true">${TF_DECLARE_HS_NO_E} >= TF_DECLARE_HS_NO</condition><condition key="TF_DECLARE_HS_NO_L" ignoreEmpty="true">TF_DECLARE_HS_NO like ${TF_DECLARE_HS_NO_L}</condition>
+<condition key="TF_DECLARE_HS_RATE_S" ignoreEmpty="true">TF_DECLARE_HS_RATE >= ${TF_DECLARE_HS_RATE_S}</condition><condition key="TF_DECLARE_HS_RATE_E" ignoreEmpty="true">${TF_DECLARE_HS_RATE_E} >= TF_DECLARE_HS_RATE</condition><condition key="TF_DECLARE_HS_RATE_L" ignoreEmpty="true">TF_DECLARE_HS_RATE like ${TF_DECLARE_HS_RATE_L}</condition>
+<condition key="TF_DECLARE_HS_RATE_QTY_S" ignoreEmpty="true">TF_DECLARE_HS_RATE_QTY >= ${TF_DECLARE_HS_RATE_QTY_S}</condition><condition key="TF_DECLARE_HS_RATE_QTY_E" ignoreEmpty="true">${TF_DECLARE_HS_RATE_QTY_E} >= TF_DECLARE_HS_RATE_QTY</condition><condition key="TF_DECLARE_HS_RATE_QTY_L" ignoreEmpty="true">TF_DECLARE_HS_RATE_QTY like ${TF_DECLARE_HS_RATE_QTY_L}</condition>
+<condition key="TF_MODIFY_HS_NO_S" ignoreEmpty="true">TF_MODIFY_HS_NO >= ${TF_MODIFY_HS_NO_S}</condition><condition key="TF_MODIFY_HS_NO_E" ignoreEmpty="true">${TF_MODIFY_HS_NO_E} >= TF_MODIFY_HS_NO</condition><condition key="TF_MODIFY_HS_NO_L" ignoreEmpty="true">TF_MODIFY_HS_NO like ${TF_MODIFY_HS_NO_L}</condition>
+<condition key="TF_CONFIRM_FLAG_S" ignoreEmpty="true">TF_CONFIRM_FLAG >= ${TF_CONFIRM_FLAG_S}</condition><condition key="TF_CONFIRM_FLAG_E" ignoreEmpty="true">${TF_CONFIRM_FLAG_E} >= TF_CONFIRM_FLAG</condition><condition key="TF_CONFIRM_FLAG_L" ignoreEmpty="true">TF_CONFIRM_FLAG like ${TF_CONFIRM_FLAG_L}</condition>
+<condition key="TF_CONFIRM_HS_NO_S" ignoreEmpty="true">TF_CONFIRM_HS_NO >= ${TF_CONFIRM_HS_NO_S}</condition><condition key="TF_CONFIRM_HS_NO_E" ignoreEmpty="true">${TF_CONFIRM_HS_NO_E} >= TF_CONFIRM_HS_NO</condition><condition key="TF_CONFIRM_HS_NO_L" ignoreEmpty="true">TF_CONFIRM_HS_NO like ${TF_CONFIRM_HS_NO_L}</condition>
+<condition key="TF_CONFIRM_HS_RATE_S" ignoreEmpty="true">TF_CONFIRM_HS_RATE >= ${TF_CONFIRM_HS_RATE_S}</condition><condition key="TF_CONFIRM_HS_RATE_E" ignoreEmpty="true">${TF_CONFIRM_HS_RATE_E} >= TF_CONFIRM_HS_RATE</condition><condition key="TF_CONFIRM_HS_RATE_L" ignoreEmpty="true">TF_CONFIRM_HS_RATE like ${TF_CONFIRM_HS_RATE_L}</condition>
+<condition key="TF_CONFIRM_HS_QTY_S" ignoreEmpty="true">TF_CONFIRM_HS_QTY >= ${TF_CONFIRM_HS_QTY_S}</condition><condition key="TF_CONFIRM_HS_QTY_E" ignoreEmpty="true">${TF_CONFIRM_HS_QTY_E} >= TF_CONFIRM_HS_QTY</condition><condition key="TF_CONFIRM_HS_QTY_L" ignoreEmpty="true">TF_CONFIRM_HS_QTY like ${TF_CONFIRM_HS_QTY_L}</condition>
+<condition key="TF_M_FLAG_S" ignoreEmpty="true">TF_M_FLAG >= ${TF_M_FLAG_S}</condition><condition key="TF_M_FLAG_E" ignoreEmpty="true">${TF_M_FLAG_E} >= TF_M_FLAG</condition><condition key="TF_M_FLAG_L" ignoreEmpty="true">TF_M_FLAG like ${TF_M_FLAG_L}</condition>
+<condition key="TF_M_HS_NO_S" ignoreEmpty="true">TF_M_HS_NO >= ${TF_M_HS_NO_S}</condition><condition key="TF_M_HS_NO_E" ignoreEmpty="true">${TF_M_HS_NO_E} >= TF_M_HS_NO</condition><condition key="TF_M_HS_NO_L" ignoreEmpty="true">TF_M_HS_NO like ${TF_M_HS_NO_L}</condition>
+<condition key="TF_M_HS_RATE_S" ignoreEmpty="true">TF_M_HS_RATE >= ${TF_M_HS_RATE_S}</condition><condition key="TF_M_HS_RATE_E" ignoreEmpty="true">${TF_M_HS_RATE_E} >= TF_M_HS_RATE</condition><condition key="TF_M_HS_RATE_L" ignoreEmpty="true">TF_M_HS_RATE like ${TF_M_HS_RATE_L}</condition>
+<condition key="TF_M_HS_QTY_S" ignoreEmpty="true">TF_M_HS_QTY >= ${TF_M_HS_QTY_S}</condition><condition key="TF_M_HS_QTY_E" ignoreEmpty="true">${TF_M_HS_QTY_E} >= TF_M_HS_QTY</condition><condition key="TF_M_HS_QTY_L" ignoreEmpty="true">TF_M_HS_QTY like ${TF_M_HS_QTY_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="TF_SEQ_NO_S" ignoreEmpty="true">TF_SEQ_NO >= ${TF_SEQ_NO_S}</condition><condition key="TF_SEQ_NO_E" ignoreEmpty="true">${TF_SEQ_NO_E} >= TF_SEQ_NO</condition><condition key="TF_SEQ_NO_L" ignoreEmpty="true">TF_SEQ_NO like ${TF_SEQ_NO_L}</condition>
+<condition key="TF_001M_KEY_S" ignoreEmpty="true">TF_001M_KEY >= ${TF_001M_KEY_S}</condition><condition key="TF_001M_KEY_E" ignoreEmpty="true">${TF_001M_KEY_E} >= TF_001M_KEY</condition><condition key="TF_001M_KEY_L" ignoreEmpty="true">TF_001M_KEY like ${TF_001M_KEY_L}</condition>
+<condition key="TF_RELATIVE_DOC_SEQ_NO_S" ignoreEmpty="true">TF_RELATIVE_DOC_SEQ_NO >= ${TF_RELATIVE_DOC_SEQ_NO_S}</condition><condition key="TF_RELATIVE_DOC_SEQ_NO_E" ignoreEmpty="true">${TF_RELATIVE_DOC_SEQ_NO_E} >= TF_RELATIVE_DOC_SEQ_NO</condition><condition key="TF_RELATIVE_DOC_SEQ_NO_L" ignoreEmpty="true">TF_RELATIVE_DOC_SEQ_NO like ${TF_RELATIVE_DOC_SEQ_NO_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="ITEM_NO" name="ITEM_NO" ignoreEmpty="true"/>
+<field key="GOODS_CDESC" name="GOODS_CDESC" ignoreEmpty="true"/>
+<field key="GOODS_EDESC" name="GOODS_EDESC" ignoreEmpty="true"/>
+<field key="TF_DECLARE_HS_NO" name="TF_DECLARE_HS_NO" ignoreEmpty="true"/>
+<field key="TF_DECLARE_HS_RATE" name="TF_DECLARE_HS_RATE" ignoreEmpty="true"/>
+<field key="TF_DECLARE_HS_RATE_QTY" name="TF_DECLARE_HS_RATE_QTY" ignoreEmpty="true"/>
+<field key="TF_MODIFY_HS_NO" name="TF_MODIFY_HS_NO" ignoreEmpty="true"/>
+<field key="TF_CONFIRM_FLAG" name="TF_CONFIRM_FLAG" ignoreEmpty="true"/>
+<field key="TF_CONFIRM_HS_NO" name="TF_CONFIRM_HS_NO" ignoreEmpty="true"/>
+<field key="TF_CONFIRM_HS_RATE" name="TF_CONFIRM_HS_RATE" ignoreEmpty="true"/>
+<field key="TF_CONFIRM_HS_QTY" name="TF_CONFIRM_HS_QTY" ignoreEmpty="true"/>
+<field key="TF_M_FLAG" name="TF_M_FLAG" ignoreEmpty="true"/>
+<field key="TF_M_HS_NO" name="TF_M_HS_NO" ignoreEmpty="true"/>
+<field key="TF_M_HS_RATE" name="TF_M_HS_RATE" ignoreEmpty="true"/>
+<field key="TF_M_HS_QTY" name="TF_M_HS_QTY" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="TF_SEQ_NO" name="TF_SEQ_NO" ignoreEmpty="true"/>
+<field key="TF_001M_KEY" name="TF_001M_KEY" ignoreEmpty="true"/>
+<field key="TF_RELATIVE_DOC_SEQ_NO" name="TF_RELATIVE_DOC_SEQ_NO" ignoreEmpty="true"/>
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_itemNo').attr('value',rowData.ITEM_NO);
+$('#pageBean_goodsCdesc').attr('value',rowData.GOODS_CDESC);
+$('#pageBean_goodsEdesc').attr('value',rowData.GOODS_EDESC);
+$('#pageBean_tfDeclareHsNo').attr('value',rowData.TF_DECLARE_HS_NO);
+$('#pageBean_tfDeclareHsRate').attr('value',rowData.TF_DECLARE_HS_RATE);
+$('#pageBean_tfDeclareHsRateQty').attr('value',rowData.TF_DECLARE_HS_RATE_QTY);
+$('#pageBean_tfModifyHsNo').attr('value',rowData.TF_MODIFY_HS_NO);
+$('#pageBean_tfConfirmFlag').attr('value',rowData.TF_CONFIRM_FLAG);
+$('#pageBean_tfConfirmHsNo').attr('value',rowData.TF_CONFIRM_HS_NO);
+$('#pageBean_tfConfirmHsRate').attr('value',rowData.TF_CONFIRM_HS_RATE);
+$('#pageBean_tfConfirmHsQty').attr('value',rowData.TF_CONFIRM_HS_QTY);
+$('#pageBean_tfMFlag').attr('value',rowData.TF_M_FLAG);
+$('#pageBean_tfMHsNo').attr('value',rowData.TF_M_HS_NO);
+$('#pageBean_tfMHsRate').attr('value',rowData.TF_M_HS_RATE);
+$('#pageBean_tfMHsQty').attr('value',rowData.TF_M_HS_QTY);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_tfSeqNo').attr('value',rowData.TF_SEQ_NO);
+$('#pageBean_tf001mKey').attr('value',rowData.TF_001M_KEY);
+$('#pageBean_tfRelativeDocSeqNo').attr('value',rowData.TF_RELATIVE_DOC_SEQ_NO);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_itemNo').attr("value", "");
+$('#pageBean_goodsCdesc').attr("value", "");
+$('#pageBean_goodsEdesc').attr("value", "");
+$('#pageBean_tfDeclareHsNo').attr("value", "");
+$('#pageBean_tfDeclareHsRate').attr("value", "");
+$('#pageBean_tfDeclareHsRateQty').attr("value", "");
+$('#pageBean_tfModifyHsNo').attr("value", "");
+$('#pageBean_tfConfirmFlag').attr("value", "");
+$('#pageBean_tfConfirmHsNo').attr("value", "");
+$('#pageBean_tfConfirmHsRate').attr("value", "");
+$('#pageBean_tfConfirmHsQty').attr("value", "");
+$('#pageBean_tfMFlag').attr("value", "");
+$('#pageBean_tfMHsNo').attr("value", "");
+$('#pageBean_tfMHsRate').attr("value", "");
+$('#pageBean_tfMHsQty').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_tfSeqNo').attr("value", "");
+$('#pageBean_tf001mKey').attr("value", "");
+$('#pageBean_tfRelativeDocSeqNo').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+ITEM_NO:$('#pageBean_itemNo').val(),//報單項次
+GOODS_CDESC:$('#pageBean_goodsCdesc').val(),//中文貨名
+GOODS_EDESC:$('#pageBean_goodsEdesc').val(),//英文貨名
+TF_DECLARE_HS_NO:$('#pageBean_tfDeclareHsNo').val(),//原申報稅則號別
+TF_DECLARE_HS_RATE:$('#pageBean_tfDeclareHsRate').val(),//原申報稅則號別之稅率
+TF_DECLARE_HS_RATE_QTY:$('#pageBean_tfDeclareHsRateQty').val(),//原申報稅號之從量稅率
+TF_MODIFY_HS_NO:$('#pageBean_tfModifyHsNo').val(),//主辦關擬改列稅則
+TF_CONFIRM_FLAG:$('#pageBean_tfConfirmFlag').val(),//總局_核定稅則-草稿註記
+TF_CONFIRM_HS_NO:$('#pageBean_tfConfirmHsNo').val(),//總局_核定稅則號別
+TF_CONFIRM_HS_RATE:$('#pageBean_tfConfirmHsRate').val(),//總局_核定稅則之稅率
+TF_CONFIRM_HS_QTY:$('#pageBean_tfConfirmHsQty').val(),//總局_核定稅則之從量稅率
+TF_M_FLAG:$('#pageBean_tfMFlag').val(),//主辦整合核定稅則-草稿註記
+TF_M_HS_NO:$('#pageBean_tfMHsNo').val(),//主辦整合核定稅則號別
+TF_M_HS_RATE:$('#pageBean_tfMHsRate').val(),//主辦整合核定稅則之稅率
+TF_M_HS_QTY:$('#pageBean_tfMHsQty').val(),//主辦整合核定稅則之從量稅率
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+TF_SEQ_NO:$('#pageBean_tfSeqNo').val(),//重申請序號
+TF_001M_KEY:$('#pageBean_tf001mKey').val(),//TF_001M_KEY
+TF_RELATIVE_DOC_SEQ_NO:$('#pageBean_tfRelativeDocSeqNo').val(),//疑義明細資料序號
+
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setItemNo(dataObjects.getString("ITEM_NO"));//報單項次
+pageBean.setGoodsCdesc(dataObjects.getString("GOODS_CDESC"));//中文貨名
+pageBean.setGoodsEdesc(dataObjects.getString("GOODS_EDESC"));//英文貨名
+pageBean.setTfDeclareHsNo(dataObjects.getString("TF_DECLARE_HS_NO"));//原申報稅則號別
+pageBean.setTfDeclareHsRate((BigDecimal)dataObjects.getValue("TF_DECLARE_HS_RATE"));//原申報稅則號別之稅率
+pageBean.setTfDeclareHsRateQty((BigDecimal)dataObjects.getValue("TF_DECLARE_HS_RATE_QTY"));//原申報稅號之從量稅率
+pageBean.setTfModifyHsNo(dataObjects.getString("TF_MODIFY_HS_NO"));//主辦關擬改列稅則
+pageBean.setTfConfirmFlag(dataObjects.getString("TF_CONFIRM_FLAG"));//總局_核定稅則-草稿註記
+pageBean.setTfConfirmHsNo(dataObjects.getString("TF_CONFIRM_HS_NO"));//總局_核定稅則號別
+pageBean.setTfConfirmHsRate((BigDecimal)dataObjects.getValue("TF_CONFIRM_HS_RATE"));//總局_核定稅則之稅率
+pageBean.setTfConfirmHsQty((BigDecimal)dataObjects.getValue("TF_CONFIRM_HS_QTY"));//總局_核定稅則之從量稅率
+pageBean.setTfMFlag(dataObjects.getString("TF_M_FLAG"));//主辦整合核定稅則-草稿註記
+pageBean.setTfMHsNo(dataObjects.getString("TF_M_HS_NO"));//主辦整合核定稅則號別
+pageBean.setTfMHsRate((BigDecimal)dataObjects.getValue("TF_M_HS_RATE"));//主辦整合核定稅則之稅率
+pageBean.setTfMHsQty((BigDecimal)dataObjects.getValue("TF_M_HS_QTY"));//主辦整合核定稅則之從量稅率
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setTfSeqNo(dataObjects.getString("TF_SEQ_NO"));//重申請序號
+pageBean.setTf001mKey(dataObjects.getString("TF_001M_KEY"));//TF_001M_KEY
+pageBean.setTfRelativeDocSeqNo(dataObjects.getString("TF_RELATIVE_DOC_SEQ_NO"));//疑義明細資料序號
+
+private String declNo = null;//報單號碼
+private String itemNo = null;//報單項次
+private String goodsCdesc = null;//中文貨名
+private String goodsEdesc = null;//英文貨名
+private String tfDeclareHsNo = null;//原申報稅則號別
+private BigDecimal tfDeclareHsRate = null;//原申報稅則號別之稅率
+private BigDecimal tfDeclareHsRateQty = null;//原申報稅號之從量稅率
+private String tfModifyHsNo = null;//主辦關擬改列稅則
+private String tfConfirmFlag = null;//總局_核定稅則-草稿註記
+private String tfConfirmHsNo = null;//總局_核定稅則號別
+private BigDecimal tfConfirmHsRate = null;//總局_核定稅則之稅率
+private BigDecimal tfConfirmHsQty = null;//總局_核定稅則之從量稅率
+private String tfMFlag = null;//主辦整合核定稅則-草稿註記
+private String tfMHsNo = null;//主辦整合核定稅則號別
+private BigDecimal tfMHsRate = null;//主辦整合核定稅則之稅率
+private BigDecimal tfMHsQty = null;//主辦整合核定稅則之從量稅率
+private Date upDate = null;//異動時間
+private String upPerson = null;//異動人員
+private String tfSeqNo = null;//重申請序號
+private String tf001mKey = null;//TF_001M_KEY
+private String tfRelativeDocSeqNo = null;//疑義明細資料序號
+
+pageBean.setDeclNo("報單號碼");//報單號碼
+pageBean.setItemNo("報單項次");//報單項次
+pageBean.setGoodsCdesc("中文貨名");//中文貨名
+pageBean.setGoodsEdesc("英文貨名");//英文貨名
+pageBean.setTfDeclareHsNo("原申報稅則號別");//原申報稅則號別
+pageBean.setTfDeclareHsRate("原申報稅則號別之稅率");//原申報稅則號別之稅率
+pageBean.setTfDeclareHsRateQty("原申報稅號之從量稅率");//原申報稅號之從量稅率
+pageBean.setTfModifyHsNo("主辦關擬改列稅則");//主辦關擬改列稅則
+pageBean.setTfConfirmFlag("總局_核定稅則-草稿註記");//總局_核定稅則-草稿註記
+pageBean.setTfConfirmHsNo("總局_核定稅則號別");//總局_核定稅則號別
+pageBean.setTfConfirmHsRate("總局_核定稅則之稅率");//總局_核定稅則之稅率
+pageBean.setTfConfirmHsQty("總局_核定稅則之從量稅率");//總局_核定稅則之從量稅率
+pageBean.setTfMFlag("主辦整合核定稅則-草稿註記");//主辦整合核定稅則-草稿註記
+pageBean.setTfMHsNo("主辦整合核定稅則號別");//主辦整合核定稅則號別
+pageBean.setTfMHsRate("主辦整合核定稅則之稅率");//主辦整合核定稅則之稅率
+pageBean.setTfMHsQty("主辦整合核定稅則之從量稅率");//主辦整合核定稅則之從量稅率
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setTfSeqNo("重申請序號");//重申請序號
+pageBean.setTf001mKey("TF_001M_KEY");//TF_001M_KEY
+pageBean.setTfRelativeDocSeqNo("疑義明細資料序號");//疑義明細資料序號
+
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setItemNo(itemNo);//報單項次
+pageBean.setGoodsCdesc(goodsCdesc);//中文貨名
+pageBean.setGoodsEdesc(goodsEdesc);//英文貨名
+pageBean.setTfDeclareHsNo(tfDeclareHsNo);//原申報稅則號別
+pageBean.setTfDeclareHsRate(tfDeclareHsRate);//原申報稅則號別之稅率
+pageBean.setTfDeclareHsRateQty(tfDeclareHsRateQty);//原申報稅號之從量稅率
+pageBean.setTfModifyHsNo(tfModifyHsNo);//主辦關擬改列稅則
+pageBean.setTfConfirmFlag(tfConfirmFlag);//總局_核定稅則-草稿註記
+pageBean.setTfConfirmHsNo(tfConfirmHsNo);//總局_核定稅則號別
+pageBean.setTfConfirmHsRate(tfConfirmHsRate);//總局_核定稅則之稅率
+pageBean.setTfConfirmHsQty(tfConfirmHsQty);//總局_核定稅則之從量稅率
+pageBean.setTfMFlag(tfMFlag);//主辦整合核定稅則-草稿註記
+pageBean.setTfMHsNo(tfMHsNo);//主辦整合核定稅則號別
+pageBean.setTfMHsRate(tfMHsRate);//主辦整合核定稅則之稅率
+pageBean.setTfMHsQty(tfMHsQty);//主辦整合核定稅則之從量稅率
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setTfSeqNo(tfSeqNo);//重申請序號
+pageBean.setTf001mKey(tf001mKey);//TF_001M_KEY
+pageBean.setTfRelativeDocSeqNo(tfRelativeDocSeqNo);//疑義明細資料序號
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setItemNo(randomBean.getItemNo());//報單項次
+pageBean.setGoodsCdesc(randomBean.getGoodsCdesc());//中文貨名
+pageBean.setGoodsEdesc(randomBean.getGoodsEdesc());//英文貨名
+pageBean.setTfDeclareHsNo(randomBean.getTfDeclareHsNo());//原申報稅則號別
+pageBean.setTfDeclareHsRate(randomBean.getTfDeclareHsRate());//原申報稅則號別之稅率
+pageBean.setTfDeclareHsRateQty(randomBean.getTfDeclareHsRateQty());//原申報稅號之從量稅率
+pageBean.setTfModifyHsNo(randomBean.getTfModifyHsNo());//主辦關擬改列稅則
+pageBean.setTfConfirmFlag(randomBean.getTfConfirmFlag());//總局_核定稅則-草稿註記
+pageBean.setTfConfirmHsNo(randomBean.getTfConfirmHsNo());//總局_核定稅則號別
+pageBean.setTfConfirmHsRate(randomBean.getTfConfirmHsRate());//總局_核定稅則之稅率
+pageBean.setTfConfirmHsQty(randomBean.getTfConfirmHsQty());//總局_核定稅則之從量稅率
+pageBean.setTfMFlag(randomBean.getTfMFlag());//主辦整合核定稅則-草稿註記
+pageBean.setTfMHsNo(randomBean.getTfMHsNo());//主辦整合核定稅則號別
+pageBean.setTfMHsRate(randomBean.getTfMHsRate());//主辦整合核定稅則之稅率
+pageBean.setTfMHsQty(randomBean.getTfMHsQty());//主辦整合核定稅則之從量稅率
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setTfSeqNo(randomBean.getTfSeqNo());//重申請序號
+pageBean.setTf001mKey(randomBean.getTf001mKey());//TF_001M_KEY
+pageBean.setTfRelativeDocSeqNo(randomBean.getTfRelativeDocSeqNo());//疑義明細資料序號
+
+setDeclNo(declNo);//報單號碼
+setItemNo(itemNo);//報單項次
+setGoodsCdesc(goodsCdesc);//中文貨名
+setGoodsEdesc(goodsEdesc);//英文貨名
+setTfDeclareHsNo(tfDeclareHsNo);//原申報稅則號別
+setTfDeclareHsRate(tfDeclareHsRate);//原申報稅則號別之稅率
+setTfDeclareHsRateQty(tfDeclareHsRateQty);//原申報稅號之從量稅率
+setTfModifyHsNo(tfModifyHsNo);//主辦關擬改列稅則
+setTfConfirmFlag(tfConfirmFlag);//總局_核定稅則-草稿註記
+setTfConfirmHsNo(tfConfirmHsNo);//總局_核定稅則號別
+setTfConfirmHsRate(tfConfirmHsRate);//總局_核定稅則之稅率
+setTfConfirmHsQty(tfConfirmHsQty);//總局_核定稅則之從量稅率
+setTfMFlag(tfMFlag);//主辦整合核定稅則-草稿註記
+setTfMHsNo(tfMHsNo);//主辦整合核定稅則號別
+setTfMHsRate(tfMHsRate);//主辦整合核定稅則之稅率
+setTfMHsQty(tfMHsQty);//主辦整合核定稅則之從量稅率
+setUpDate(upDate);//異動時間
+setUpPerson(upPerson);//異動人員
+setTfSeqNo(tfSeqNo);//重申請序號
+setTf001mKey(tf001mKey);//TF_001M_KEY
+setTfRelativeDocSeqNo(tfRelativeDocSeqNo);//疑義明細資料序號
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getItemNo(),//報單項次
+pageBean.getGoodsCdesc(),//中文貨名
+pageBean.getGoodsEdesc(),//英文貨名
+pageBean.getTfDeclareHsNo(),//原申報稅則號別
+pageBean.getTfDeclareHsRate(),//原申報稅則號別之稅率
+pageBean.getTfDeclareHsRateQty(),//原申報稅號之從量稅率
+pageBean.getTfModifyHsNo(),//主辦關擬改列稅則
+pageBean.getTfConfirmFlag(),//總局_核定稅則-草稿註記
+pageBean.getTfConfirmHsNo(),//總局_核定稅則號別
+pageBean.getTfConfirmHsRate(),//總局_核定稅則之稅率
+pageBean.getTfConfirmHsQty(),//總局_核定稅則之從量稅率
+pageBean.getTfMFlag(),//主辦整合核定稅則-草稿註記
+pageBean.getTfMHsNo(),//主辦整合核定稅則號別
+pageBean.getTfMHsRate(),//主辦整合核定稅則之稅率
+pageBean.getTfMHsQty(),//主辦整合核定稅則之從量稅率
+pageBean.getUpDate(),//異動時間
+pageBean.getUpPerson(),//異動人員
+pageBean.getTfSeqNo(),//重申請序號
+pageBean.getTf001mKey(),//TF_001M_KEY
+pageBean.getTfRelativeDocSeqNo(),//疑義明細資料序號
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("ITEM_NO", this.getItemNo());//報單項次
+pageBean.setValue("GOODS_CDESC", this.getGoodsCdesc());//中文貨名
+pageBean.setValue("GOODS_EDESC", this.getGoodsEdesc());//英文貨名
+pageBean.setValue("TF_DECLARE_HS_NO", this.getTfDeclareHsNo());//原申報稅則號別
+pageBean.setValue("TF_DECLARE_HS_RATE", this.getTfDeclareHsRate());//原申報稅則號別之稅率
+pageBean.setValue("TF_DECLARE_HS_RATE_QTY", this.getTfDeclareHsRateQty());//原申報稅號之從量稅率
+pageBean.setValue("TF_MODIFY_HS_NO", this.getTfModifyHsNo());//主辦關擬改列稅則
+pageBean.setValue("TF_CONFIRM_FLAG", this.getTfConfirmFlag());//總局_核定稅則-草稿註記
+pageBean.setValue("TF_CONFIRM_HS_NO", this.getTfConfirmHsNo());//總局_核定稅則號別
+pageBean.setValue("TF_CONFIRM_HS_RATE", this.getTfConfirmHsRate());//總局_核定稅則之稅率
+pageBean.setValue("TF_CONFIRM_HS_QTY", this.getTfConfirmHsQty());//總局_核定稅則之從量稅率
+pageBean.setValue("TF_M_FLAG", this.getTfMFlag());//主辦整合核定稅則-草稿註記
+pageBean.setValue("TF_M_HS_NO", this.getTfMHsNo());//主辦整合核定稅則號別
+pageBean.setValue("TF_M_HS_RATE", this.getTfMHsRate());//主辦整合核定稅則之稅率
+pageBean.setValue("TF_M_HS_QTY", this.getTfMHsQty());//主辦整合核定稅則之從量稅率
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("TF_SEQ_NO", this.getTfSeqNo());//重申請序號
+pageBean.setValue("TF_001M_KEY", this.getTf001mKey());//TF_001M_KEY
+pageBean.setValue("TF_RELATIVE_DOC_SEQ_NO", this.getTfRelativeDocSeqNo());//疑義明細資料序號
+
+pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
+pageBean.setValue("ITEM_NO", "報單項次");//報單項次
+pageBean.setValue("GOODS_CDESC", "中文貨名");//中文貨名
+pageBean.setValue("GOODS_EDESC", "英文貨名");//英文貨名
+pageBean.setValue("TF_DECLARE_HS_NO", "原申報稅則號別");//原申報稅則號別
+pageBean.setValue("TF_DECLARE_HS_RATE", "原申報稅則號別之稅率");//原申報稅則號別之稅率
+pageBean.setValue("TF_DECLARE_HS_RATE_QTY", "原申報稅號之從量稅率");//原申報稅號之從量稅率
+pageBean.setValue("TF_MODIFY_HS_NO", "主辦關擬改列稅則");//主辦關擬改列稅則
+pageBean.setValue("TF_CONFIRM_FLAG", "總局_核定稅則-草稿註記");//總局_核定稅則-草稿註記
+pageBean.setValue("TF_CONFIRM_HS_NO", "總局_核定稅則號別");//總局_核定稅則號別
+pageBean.setValue("TF_CONFIRM_HS_RATE", "總局_核定稅則之稅率");//總局_核定稅則之稅率
+pageBean.setValue("TF_CONFIRM_HS_QTY", "總局_核定稅則之從量稅率");//總局_核定稅則之從量稅率
+pageBean.setValue("TF_M_FLAG", "主辦整合核定稅則-草稿註記");//主辦整合核定稅則-草稿註記
+pageBean.setValue("TF_M_HS_NO", "主辦整合核定稅則號別");//主辦整合核定稅則號別
+pageBean.setValue("TF_M_HS_RATE", "主辦整合核定稅則之稅率");//主辦整合核定稅則之稅率
+pageBean.setValue("TF_M_HS_QTY", "主辦整合核定稅則之從量稅率");//主辦整合核定稅則之從量稅率
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("TF_SEQ_NO", "重申請序號");//重申請序號
+pageBean.setValue("TF_001M_KEY", "TF_001M_KEY");//TF_001M_KEY
+pageBean.setValue("TF_RELATIVE_DOC_SEQ_NO", "疑義明細資料序號");//疑義明細資料序號
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",報單項次"+"(itemNo)="+pageBean.getItemNo()+
+",中文貨名"+"(goodsCdesc)="+pageBean.getGoodsCdesc()+
+",英文貨名"+"(goodsEdesc)="+pageBean.getGoodsEdesc()+
+",原申報稅則號別"+"(tfDeclareHsNo)="+pageBean.getTfDeclareHsNo()+
+",原申報稅則號別之稅率"+"(tfDeclareHsRate)="+pageBean.getTfDeclareHsRate()+
+",原申報稅號之從量稅率"+"(tfDeclareHsRateQty)="+pageBean.getTfDeclareHsRateQty()+
+",主辦關擬改列稅則"+"(tfModifyHsNo)="+pageBean.getTfModifyHsNo()+
+",總局_核定稅則-草稿註記"+"(tfConfirmFlag)="+pageBean.getTfConfirmFlag()+
+",總局_核定稅則號別"+"(tfConfirmHsNo)="+pageBean.getTfConfirmHsNo()+
+",總局_核定稅則之稅率"+"(tfConfirmHsRate)="+pageBean.getTfConfirmHsRate()+
+",總局_核定稅則之從量稅率"+"(tfConfirmHsQty)="+pageBean.getTfConfirmHsQty()+
+",主辦整合核定稅則-草稿註記"+"(tfMFlag)="+pageBean.getTfMFlag()+
+",主辦整合核定稅則號別"+"(tfMHsNo)="+pageBean.getTfMHsNo()+
+",主辦整合核定稅則之稅率"+"(tfMHsRate)="+pageBean.getTfMHsRate()+
+",主辦整合核定稅則之從量稅率"+"(tfMHsQty)="+pageBean.getTfMHsQty()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",重申請序號"+"(tfSeqNo)="+pageBean.getTfSeqNo()+
+",TF_001M_KEY"+"(tf001mKey)="+pageBean.getTf001mKey()+
+",疑義明細資料序號"+"(tfRelativeDocSeqNo)="+pageBean.getTfRelativeDocSeqNo()+

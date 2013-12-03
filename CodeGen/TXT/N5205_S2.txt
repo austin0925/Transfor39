@@ -1,0 +1,540 @@
+pageBean.transId=TRANS_ID
+pageBean.seqNo=序號
+pageBean.sortSeqNo=次序
+pageBean.hawb=託運單分號
+pageBean.salBan=出口人(貨物輸出人)統一編號
+pageBean.salBanId=出口人身分識別代碼
+pageBean.salEname=出口人(貨物輸出人)英文名稱
+pageBean.salCname=出口人(貨物輸出人)中文名稱
+pageBean.salEaddr=出口人(貨物輸出人)英文地址
+pageBean.salCaddr=出口人(貨物輸出人)中文地址
+pageBean.destCd=目的地代碼
+pageBean.totPackQty=總件數
+pageBean.packUnit=件數單位
+pageBean.totGrossWeight=總毛重
+pageBean.totTwdFob=總離岸價格(新台幣)
+pageBean.otherRemark1=其他申報事項1
+pageBean.otherRemark2=其他申報事項2
+pageBean.examCd=申請審驗方式
+
+pageBean.transId=transId
+pageBean.seqNo=seqNo
+pageBean.sortSeqNo=sortSeqNo
+pageBean.hawb=hawb
+pageBean.salBan=salBan
+pageBean.salBanId=salBanId
+pageBean.salEname=salEname
+pageBean.salCname=salCname
+pageBean.salEaddr=salEaddr
+pageBean.salCaddr=salCaddr
+pageBean.destCd=destCd
+pageBean.totPackQty=totPackQty
+pageBean.packUnit=packUnit
+pageBean.totGrossWeight=totGrossWeight
+pageBean.totTwdFob=totTwdFob
+pageBean.otherRemark1=otherRemark1
+pageBean.otherRemark2=otherRemark2
+pageBean.examCd=examCd
+
+<!--transId:TRANS_ID-->
+<tr>
+<td>
+	<s:text name="transId"/>
+	<s:textfield name="pageBean.transId" />
+</td>
+</tr>
+
+<!--seqNo:序號-->
+<tr>
+<td>
+	<s:text name="seqNo"/>
+	<s:textfield name="pageBean.seqNo" />
+</td>
+</tr>
+
+<!--sortSeqNo:次序-->
+<tr>
+<td>
+	<s:text name="sortSeqNo"/>
+	<s:textfield name="pageBean.sortSeqNo" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--salBan:出口人(貨物輸出人)統一編號-->
+<tr>
+<td>
+	<s:text name="salBan"/>
+	<s:textfield name="pageBean.salBan" />
+</td>
+</tr>
+
+<!--salBanId:出口人身分識別代碼-->
+<tr>
+<td>
+	<s:text name="salBanId"/>
+	<s:textfield name="pageBean.salBanId" />
+</td>
+</tr>
+
+<!--salEname:出口人(貨物輸出人)英文名稱-->
+<tr>
+<td>
+	<s:text name="salEname"/>
+	<s:textfield name="pageBean.salEname" />
+</td>
+</tr>
+
+<!--salCname:出口人(貨物輸出人)中文名稱-->
+<tr>
+<td>
+	<s:text name="salCname"/>
+	<s:textfield name="pageBean.salCname" />
+</td>
+</tr>
+
+<!--salEaddr:出口人(貨物輸出人)英文地址-->
+<tr>
+<td>
+	<s:text name="salEaddr"/>
+	<s:textfield name="pageBean.salEaddr" />
+</td>
+</tr>
+
+<!--salCaddr:出口人(貨物輸出人)中文地址-->
+<tr>
+<td>
+	<s:text name="salCaddr"/>
+	<s:textfield name="pageBean.salCaddr" />
+</td>
+</tr>
+
+<!--destCd:目的地代碼-->
+<tr>
+<td>
+	<s:text name="destCd"/>
+	<s:textfield name="pageBean.destCd" />
+</td>
+</tr>
+
+<!--totPackQty:總件數-->
+<tr>
+<td>
+	<s:text name="totPackQty"/>
+	<s:textfield name="pageBean.totPackQty" />
+</td>
+</tr>
+
+<!--packUnit:件數單位-->
+<tr>
+<td>
+	<s:text name="packUnit"/>
+	<s:textfield name="pageBean.packUnit" />
+</td>
+</tr>
+
+<!--totGrossWeight:總毛重-->
+<tr>
+<td>
+	<s:text name="totGrossWeight"/>
+	<s:textfield name="pageBean.totGrossWeight" />
+</td>
+</tr>
+
+<!--totTwdFob:總離岸價格(新台幣)-->
+<tr>
+<td>
+	<s:text name="totTwdFob"/>
+	<s:textfield name="pageBean.totTwdFob" />
+</td>
+</tr>
+
+<!--otherRemark1:其他申報事項1-->
+<tr>
+<td>
+	<s:text name="otherRemark1"/>
+	<s:textfield name="pageBean.otherRemark1" />
+</td>
+</tr>
+
+<!--otherRemark2:其他申報事項2-->
+<tr>
+<td>
+	<s:text name="otherRemark2"/>
+	<s:textfield name="pageBean.otherRemark2" />
+</td>
+</tr>
+
+<!--examCd:申請審驗方式-->
+<tr>
+<td>
+	<s:text name="examCd"/>
+	<s:textfield name="pageBean.examCd" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="TRANS_ID" index="TRANS_ID" title="%{getText('transId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_ID:TRANS_ID:transId--%>
+<sjg:gridColumn name="SEQ_NO" index="SEQ_NO" title="%{getText('seqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEQ_NO:序號:seqNo--%>
+<sjg:gridColumn name="SORT_SEQ_NO" index="SORT_SEQ_NO" title="%{getText('sortSeqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SORT_SEQ_NO:次序:sortSeqNo--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="SAL_BAN" index="SAL_BAN" title="%{getText('salBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN:出口人(貨物輸出人)統一編號:salBan--%>
+<sjg:gridColumn name="SAL_BAN_ID" index="SAL_BAN_ID" title="%{getText('salBanId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN_ID:出口人身分識別代碼:salBanId--%>
+<sjg:gridColumn name="SAL_ENAME" index="SAL_ENAME" title="%{getText('salEname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_ENAME:出口人(貨物輸出人)英文名稱:salEname--%>
+<sjg:gridColumn name="SAL_CNAME" index="SAL_CNAME" title="%{getText('salCname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_CNAME:出口人(貨物輸出人)中文名稱:salCname--%>
+<sjg:gridColumn name="SAL_EADDR" index="SAL_EADDR" title="%{getText('salEaddr')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_EADDR:出口人(貨物輸出人)英文地址:salEaddr--%>
+<sjg:gridColumn name="SAL_CADDR" index="SAL_CADDR" title="%{getText('salCaddr')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_CADDR:出口人(貨物輸出人)中文地址:salCaddr--%>
+<sjg:gridColumn name="DEST_CD" index="DEST_CD" title="%{getText('destCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEST_CD:目的地代碼:destCd--%>
+<sjg:gridColumn name="TOT_PACK_QTY" index="TOT_PACK_QTY" title="%{getText('totPackQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_PACK_QTY:總件數:totPackQty--%>
+<sjg:gridColumn name="PACK_UNIT" index="PACK_UNIT" title="%{getText('packUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACK_UNIT:件數單位:packUnit--%>
+<sjg:gridColumn name="TOT_GROSS_WEIGHT" index="TOT_GROSS_WEIGHT" title="%{getText('totGrossWeight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_GROSS_WEIGHT:總毛重:totGrossWeight--%>
+<sjg:gridColumn name="TOT_TWD_FOB" index="TOT_TWD_FOB" title="%{getText('totTwdFob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_TWD_FOB:總離岸價格(新台幣):totTwdFob--%>
+<sjg:gridColumn name="OTHER_REMARK1" index="OTHER_REMARK1" title="%{getText('otherRemark1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_REMARK1:其他申報事項1:otherRemark1--%>
+<sjg:gridColumn name="OTHER_REMARK2" index="OTHER_REMARK2" title="%{getText('otherRemark2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_REMARK2:其他申報事項2:otherRemark2--%>
+<sjg:gridColumn name="EXAM_CD" index="EXAM_CD" title="%{getText('examCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXAM_CD:申請審驗方式:examCd--%>
+
+,A.TRANS_ID
+,A.SEQ_NO
+,A.SORT_SEQ_NO
+,A.HAWB
+,A.SAL_BAN
+,A.SAL_BAN_ID
+,A.SAL_ENAME
+,A.SAL_CNAME
+,A.SAL_EADDR
+,A.SAL_CADDR
+,A.DEST_CD
+,A.TOT_PACK_QTY
+,A.PACK_UNIT
+,A.TOT_GROSS_WEIGHT
+,A.TOT_TWD_FOB
+,A.OTHER_REMARK1
+,A.OTHER_REMARK2
+,A.EXAM_CD
+
+<condition key="TRANS_ID" ignoreEmpty="true">TRANS_ID = ${TRANS_ID}</condition>
+<condition key="SEQ_NO" ignoreEmpty="true">SEQ_NO = ${SEQ_NO}</condition>
+<condition key="SORT_SEQ_NO" ignoreEmpty="true">SORT_SEQ_NO = ${SORT_SEQ_NO}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="SAL_BAN" ignoreEmpty="true">SAL_BAN = ${SAL_BAN}</condition>
+<condition key="SAL_BAN_ID" ignoreEmpty="true">SAL_BAN_ID = ${SAL_BAN_ID}</condition>
+<condition key="SAL_ENAME" ignoreEmpty="true">SAL_ENAME = ${SAL_ENAME}</condition>
+<condition key="SAL_CNAME" ignoreEmpty="true">SAL_CNAME = ${SAL_CNAME}</condition>
+<condition key="SAL_EADDR" ignoreEmpty="true">SAL_EADDR = ${SAL_EADDR}</condition>
+<condition key="SAL_CADDR" ignoreEmpty="true">SAL_CADDR = ${SAL_CADDR}</condition>
+<condition key="DEST_CD" ignoreEmpty="true">DEST_CD = ${DEST_CD}</condition>
+<condition key="TOT_PACK_QTY" ignoreEmpty="true">TOT_PACK_QTY = ${TOT_PACK_QTY}</condition>
+<condition key="PACK_UNIT" ignoreEmpty="true">PACK_UNIT = ${PACK_UNIT}</condition>
+<condition key="TOT_GROSS_WEIGHT" ignoreEmpty="true">TOT_GROSS_WEIGHT = ${TOT_GROSS_WEIGHT}</condition>
+<condition key="TOT_TWD_FOB" ignoreEmpty="true">TOT_TWD_FOB = ${TOT_TWD_FOB}</condition>
+<condition key="OTHER_REMARK1" ignoreEmpty="true">OTHER_REMARK1 = ${OTHER_REMARK1}</condition>
+<condition key="OTHER_REMARK2" ignoreEmpty="true">OTHER_REMARK2 = ${OTHER_REMARK2}</condition>
+<condition key="EXAM_CD" ignoreEmpty="true">EXAM_CD = ${EXAM_CD}</condition>
+
+<condition key="TRANS_ID_S" ignoreEmpty="true">TRANS_ID >= ${TRANS_ID_S}</condition><condition key="TRANS_ID_E" ignoreEmpty="true">${TRANS_ID_E} >= TRANS_ID</condition><condition key="TRANS_ID_L" ignoreEmpty="true">TRANS_ID like ${TRANS_ID_L}</condition>
+<condition key="SEQ_NO_S" ignoreEmpty="true">SEQ_NO >= ${SEQ_NO_S}</condition><condition key="SEQ_NO_E" ignoreEmpty="true">${SEQ_NO_E} >= SEQ_NO</condition><condition key="SEQ_NO_L" ignoreEmpty="true">SEQ_NO like ${SEQ_NO_L}</condition>
+<condition key="SORT_SEQ_NO_S" ignoreEmpty="true">SORT_SEQ_NO >= ${SORT_SEQ_NO_S}</condition><condition key="SORT_SEQ_NO_E" ignoreEmpty="true">${SORT_SEQ_NO_E} >= SORT_SEQ_NO</condition><condition key="SORT_SEQ_NO_L" ignoreEmpty="true">SORT_SEQ_NO like ${SORT_SEQ_NO_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="SAL_BAN_S" ignoreEmpty="true">SAL_BAN >= ${SAL_BAN_S}</condition><condition key="SAL_BAN_E" ignoreEmpty="true">${SAL_BAN_E} >= SAL_BAN</condition><condition key="SAL_BAN_L" ignoreEmpty="true">SAL_BAN like ${SAL_BAN_L}</condition>
+<condition key="SAL_BAN_ID_S" ignoreEmpty="true">SAL_BAN_ID >= ${SAL_BAN_ID_S}</condition><condition key="SAL_BAN_ID_E" ignoreEmpty="true">${SAL_BAN_ID_E} >= SAL_BAN_ID</condition><condition key="SAL_BAN_ID_L" ignoreEmpty="true">SAL_BAN_ID like ${SAL_BAN_ID_L}</condition>
+<condition key="SAL_ENAME_S" ignoreEmpty="true">SAL_ENAME >= ${SAL_ENAME_S}</condition><condition key="SAL_ENAME_E" ignoreEmpty="true">${SAL_ENAME_E} >= SAL_ENAME</condition><condition key="SAL_ENAME_L" ignoreEmpty="true">SAL_ENAME like ${SAL_ENAME_L}</condition>
+<condition key="SAL_CNAME_S" ignoreEmpty="true">SAL_CNAME >= ${SAL_CNAME_S}</condition><condition key="SAL_CNAME_E" ignoreEmpty="true">${SAL_CNAME_E} >= SAL_CNAME</condition><condition key="SAL_CNAME_L" ignoreEmpty="true">SAL_CNAME like ${SAL_CNAME_L}</condition>
+<condition key="SAL_EADDR_S" ignoreEmpty="true">SAL_EADDR >= ${SAL_EADDR_S}</condition><condition key="SAL_EADDR_E" ignoreEmpty="true">${SAL_EADDR_E} >= SAL_EADDR</condition><condition key="SAL_EADDR_L" ignoreEmpty="true">SAL_EADDR like ${SAL_EADDR_L}</condition>
+<condition key="SAL_CADDR_S" ignoreEmpty="true">SAL_CADDR >= ${SAL_CADDR_S}</condition><condition key="SAL_CADDR_E" ignoreEmpty="true">${SAL_CADDR_E} >= SAL_CADDR</condition><condition key="SAL_CADDR_L" ignoreEmpty="true">SAL_CADDR like ${SAL_CADDR_L}</condition>
+<condition key="DEST_CD_S" ignoreEmpty="true">DEST_CD >= ${DEST_CD_S}</condition><condition key="DEST_CD_E" ignoreEmpty="true">${DEST_CD_E} >= DEST_CD</condition><condition key="DEST_CD_L" ignoreEmpty="true">DEST_CD like ${DEST_CD_L}</condition>
+<condition key="TOT_PACK_QTY_S" ignoreEmpty="true">TOT_PACK_QTY >= ${TOT_PACK_QTY_S}</condition><condition key="TOT_PACK_QTY_E" ignoreEmpty="true">${TOT_PACK_QTY_E} >= TOT_PACK_QTY</condition><condition key="TOT_PACK_QTY_L" ignoreEmpty="true">TOT_PACK_QTY like ${TOT_PACK_QTY_L}</condition>
+<condition key="PACK_UNIT_S" ignoreEmpty="true">PACK_UNIT >= ${PACK_UNIT_S}</condition><condition key="PACK_UNIT_E" ignoreEmpty="true">${PACK_UNIT_E} >= PACK_UNIT</condition><condition key="PACK_UNIT_L" ignoreEmpty="true">PACK_UNIT like ${PACK_UNIT_L}</condition>
+<condition key="TOT_GROSS_WEIGHT_S" ignoreEmpty="true">TOT_GROSS_WEIGHT >= ${TOT_GROSS_WEIGHT_S}</condition><condition key="TOT_GROSS_WEIGHT_E" ignoreEmpty="true">${TOT_GROSS_WEIGHT_E} >= TOT_GROSS_WEIGHT</condition><condition key="TOT_GROSS_WEIGHT_L" ignoreEmpty="true">TOT_GROSS_WEIGHT like ${TOT_GROSS_WEIGHT_L}</condition>
+<condition key="TOT_TWD_FOB_S" ignoreEmpty="true">TOT_TWD_FOB >= ${TOT_TWD_FOB_S}</condition><condition key="TOT_TWD_FOB_E" ignoreEmpty="true">${TOT_TWD_FOB_E} >= TOT_TWD_FOB</condition><condition key="TOT_TWD_FOB_L" ignoreEmpty="true">TOT_TWD_FOB like ${TOT_TWD_FOB_L}</condition>
+<condition key="OTHER_REMARK1_S" ignoreEmpty="true">OTHER_REMARK1 >= ${OTHER_REMARK1_S}</condition><condition key="OTHER_REMARK1_E" ignoreEmpty="true">${OTHER_REMARK1_E} >= OTHER_REMARK1</condition><condition key="OTHER_REMARK1_L" ignoreEmpty="true">OTHER_REMARK1 like ${OTHER_REMARK1_L}</condition>
+<condition key="OTHER_REMARK2_S" ignoreEmpty="true">OTHER_REMARK2 >= ${OTHER_REMARK2_S}</condition><condition key="OTHER_REMARK2_E" ignoreEmpty="true">${OTHER_REMARK2_E} >= OTHER_REMARK2</condition><condition key="OTHER_REMARK2_L" ignoreEmpty="true">OTHER_REMARK2 like ${OTHER_REMARK2_L}</condition>
+<condition key="EXAM_CD_S" ignoreEmpty="true">EXAM_CD >= ${EXAM_CD_S}</condition><condition key="EXAM_CD_E" ignoreEmpty="true">${EXAM_CD_E} >= EXAM_CD</condition><condition key="EXAM_CD_L" ignoreEmpty="true">EXAM_CD like ${EXAM_CD_L}</condition>
+
+<field key="TRANS_ID" name="TRANS_ID" ignoreEmpty="true"/>
+<field key="SEQ_NO" name="SEQ_NO" ignoreEmpty="true"/>
+<field key="SORT_SEQ_NO" name="SORT_SEQ_NO" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="SAL_BAN" name="SAL_BAN" ignoreEmpty="true"/>
+<field key="SAL_BAN_ID" name="SAL_BAN_ID" ignoreEmpty="true"/>
+<field key="SAL_ENAME" name="SAL_ENAME" ignoreEmpty="true"/>
+<field key="SAL_CNAME" name="SAL_CNAME" ignoreEmpty="true"/>
+<field key="SAL_EADDR" name="SAL_EADDR" ignoreEmpty="true"/>
+<field key="SAL_CADDR" name="SAL_CADDR" ignoreEmpty="true"/>
+<field key="DEST_CD" name="DEST_CD" ignoreEmpty="true"/>
+<field key="TOT_PACK_QTY" name="TOT_PACK_QTY" ignoreEmpty="true"/>
+<field key="PACK_UNIT" name="PACK_UNIT" ignoreEmpty="true"/>
+<field key="TOT_GROSS_WEIGHT" name="TOT_GROSS_WEIGHT" ignoreEmpty="true"/>
+<field key="TOT_TWD_FOB" name="TOT_TWD_FOB" ignoreEmpty="true"/>
+<field key="OTHER_REMARK1" name="OTHER_REMARK1" ignoreEmpty="true"/>
+<field key="OTHER_REMARK2" name="OTHER_REMARK2" ignoreEmpty="true"/>
+<field key="EXAM_CD" name="EXAM_CD" ignoreEmpty="true"/>
+
+//TRANS_ID
+//pageBean.setTransId(randomBean.getTransId());
+//序號
+//pageBean.setSeqNo(randomBean.getSeqNo());
+//次序
+//pageBean.setSortSeqNo(randomBean.getSortSeqNo());
+//託運單分號
+//pageBean.setHawb(randomBean.getHawb());
+//出口人(貨物輸出人)統一編號
+//pageBean.setSalBan(randomBean.getSalBan());
+//出口人身分識別代碼
+//pageBean.setSalBanId(randomBean.getSalBanId());
+//出口人(貨物輸出人)英文名稱
+//pageBean.setSalEname(randomBean.getSalEname());
+//出口人(貨物輸出人)中文名稱
+//pageBean.setSalCname(randomBean.getSalCname());
+//出口人(貨物輸出人)英文地址
+//pageBean.setSalEaddr(randomBean.getSalEaddr());
+//出口人(貨物輸出人)中文地址
+//pageBean.setSalCaddr(randomBean.getSalCaddr());
+//目的地代碼
+//pageBean.setDestCd(randomBean.getDestCd());
+//總件數
+//pageBean.setTotPackQty(randomBean.getTotPackQty());
+//件數單位
+//pageBean.setPackUnit(randomBean.getPackUnit());
+//總毛重
+//pageBean.setTotGrossWeight(randomBean.getTotGrossWeight());
+//總離岸價格(新台幣)
+//pageBean.setTotTwdFob(randomBean.getTotTwdFob());
+//其他申報事項1
+//pageBean.setOtherRemark1(randomBean.getOtherRemark1());
+//其他申報事項2
+//pageBean.setOtherRemark2(randomBean.getOtherRemark2());
+//申請審驗方式
+//pageBean.setExamCd(randomBean.getExamCd());
+
+$('#pageBean_transId').attr('value',rowData.TRANS_ID);
+$('#pageBean_seqNo').attr('value',rowData.SEQ_NO);
+$('#pageBean_sortSeqNo').attr('value',rowData.SORT_SEQ_NO);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_salBan').attr('value',rowData.SAL_BAN);
+$('#pageBean_salBanId').attr('value',rowData.SAL_BAN_ID);
+$('#pageBean_salEname').attr('value',rowData.SAL_ENAME);
+$('#pageBean_salCname').attr('value',rowData.SAL_CNAME);
+$('#pageBean_salEaddr').attr('value',rowData.SAL_EADDR);
+$('#pageBean_salCaddr').attr('value',rowData.SAL_CADDR);
+$('#pageBean_destCd').attr('value',rowData.DEST_CD);
+$('#pageBean_totPackQty').attr('value',rowData.TOT_PACK_QTY);
+$('#pageBean_packUnit').attr('value',rowData.PACK_UNIT);
+$('#pageBean_totGrossWeight').attr('value',rowData.TOT_GROSS_WEIGHT);
+$('#pageBean_totTwdFob').attr('value',rowData.TOT_TWD_FOB);
+$('#pageBean_otherRemark1').attr('value',rowData.OTHER_REMARK1);
+$('#pageBean_otherRemark2').attr('value',rowData.OTHER_REMARK2);
+$('#pageBean_examCd').attr('value',rowData.EXAM_CD);
+
+$('#pageBean_transId').attr("value", "");
+$('#pageBean_seqNo').attr("value", "");
+$('#pageBean_sortSeqNo').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_salBan').attr("value", "");
+$('#pageBean_salBanId').attr("value", "");
+$('#pageBean_salEname').attr("value", "");
+$('#pageBean_salCname').attr("value", "");
+$('#pageBean_salEaddr').attr("value", "");
+$('#pageBean_salCaddr').attr("value", "");
+$('#pageBean_destCd').attr("value", "");
+$('#pageBean_totPackQty').attr("value", "");
+$('#pageBean_packUnit').attr("value", "");
+$('#pageBean_totGrossWeight').attr("value", "");
+$('#pageBean_totTwdFob').attr("value", "");
+$('#pageBean_otherRemark1').attr("value", "");
+$('#pageBean_otherRemark2').attr("value", "");
+$('#pageBean_examCd').attr("value", "");
+
+TRANS_ID:$('#pageBean_transId').val(),//TRANS_ID
+SEQ_NO:$('#pageBean_seqNo').val(),//序號
+SORT_SEQ_NO:$('#pageBean_sortSeqNo').val(),//次序
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+SAL_BAN:$('#pageBean_salBan').val(),//出口人(貨物輸出人)統一編號
+SAL_BAN_ID:$('#pageBean_salBanId').val(),//出口人身分識別代碼
+SAL_ENAME:$('#pageBean_salEname').val(),//出口人(貨物輸出人)英文名稱
+SAL_CNAME:$('#pageBean_salCname').val(),//出口人(貨物輸出人)中文名稱
+SAL_EADDR:$('#pageBean_salEaddr').val(),//出口人(貨物輸出人)英文地址
+SAL_CADDR:$('#pageBean_salCaddr').val(),//出口人(貨物輸出人)中文地址
+DEST_CD:$('#pageBean_destCd').val(),//目的地代碼
+TOT_PACK_QTY:$('#pageBean_totPackQty').val(),//總件數
+PACK_UNIT:$('#pageBean_packUnit').val(),//件數單位
+TOT_GROSS_WEIGHT:$('#pageBean_totGrossWeight').val(),//總毛重
+TOT_TWD_FOB:$('#pageBean_totTwdFob').val(),//總離岸價格(新台幣)
+OTHER_REMARK1:$('#pageBean_otherRemark1').val(),//其他申報事項1
+OTHER_REMARK2:$('#pageBean_otherRemark2').val(),//其他申報事項2
+EXAM_CD:$('#pageBean_examCd').val(),//申請審驗方式
+
+//TRANS_ID
+//pageBean.setTransId(dataObjects.getString("TRANS_ID"));
+//序號
+//pageBean.setSeqNo(dataObjects.getString("SEQ_NO"));
+//次序
+//pageBean.setSortSeqNo(dataObjects.getString("SORT_SEQ_NO"));
+//託運單分號
+//pageBean.setHawb(dataObjects.getString("HAWB"));
+//出口人(貨物輸出人)統一編號
+//pageBean.setSalBan(dataObjects.getString("SAL_BAN"));
+//出口人身分識別代碼
+//pageBean.setSalBanId(dataObjects.getString("SAL_BAN_ID"));
+//出口人(貨物輸出人)英文名稱
+//pageBean.setSalEname(dataObjects.getString("SAL_ENAME"));
+//出口人(貨物輸出人)中文名稱
+//pageBean.setSalCname(dataObjects.getString("SAL_CNAME"));
+//出口人(貨物輸出人)英文地址
+//pageBean.setSalEaddr(dataObjects.getString("SAL_EADDR"));
+//出口人(貨物輸出人)中文地址
+//pageBean.setSalCaddr(dataObjects.getString("SAL_CADDR"));
+//目的地代碼
+//pageBean.setDestCd(dataObjects.getString("DEST_CD"));
+//總件數
+//pageBean.setTotPackQty((BigDecimal)dataObjects.getValue("TOT_PACK_QTY"));
+//件數單位
+//pageBean.setPackUnit(dataObjects.getString("PACK_UNIT"));
+//總毛重
+//pageBean.setTotGrossWeight((BigDecimal)dataObjects.getValue("TOT_GROSS_WEIGHT"));
+//總離岸價格(新台幣)
+//pageBean.setTotTwdFob(dataObjects.getString("TOT_TWD_FOB"));
+//其他申報事項1
+//pageBean.setOtherRemark1(dataObjects.getString("OTHER_REMARK1"));
+//其他申報事項2
+//pageBean.setOtherRemark2(dataObjects.getString("OTHER_REMARK2"));
+//申請審驗方式
+//pageBean.setExamCd(dataObjects.getString("EXAM_CD"));
+
+private String transId;//TRANS_ID
+private String seqNo;//序號
+private String sortSeqNo;//次序
+private String hawb;//託運單分號
+private String salBan;//出口人(貨物輸出人)統一編號
+private String salBanId;//出口人身分識別代碼
+private String salEname;//出口人(貨物輸出人)英文名稱
+private String salCname;//出口人(貨物輸出人)中文名稱
+private String salEaddr;//出口人(貨物輸出人)英文地址
+private String salCaddr;//出口人(貨物輸出人)中文地址
+private String destCd;//目的地代碼
+private BigDecimal totPackQty;//總件數
+private String packUnit;//件數單位
+private BigDecimal totGrossWeight;//總毛重
+private String totTwdFob;//總離岸價格(新台幣)
+private String otherRemark1;//其他申報事項1
+private String otherRemark2;//其他申報事項2
+private String examCd;//申請審驗方式
+
+pageBean.setTransId(randomBean.getTransId());//TRANS_ID
+pageBean.setSeqNo(randomBean.getSeqNo());//序號
+pageBean.setSortSeqNo(randomBean.getSortSeqNo());//次序
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setSalBan(randomBean.getSalBan());//出口人(貨物輸出人)統一編號
+pageBean.setSalBanId(randomBean.getSalBanId());//出口人身分識別代碼
+pageBean.setSalEname(randomBean.getSalEname());//出口人(貨物輸出人)英文名稱
+pageBean.setSalCname(randomBean.getSalCname());//出口人(貨物輸出人)中文名稱
+pageBean.setSalEaddr(randomBean.getSalEaddr());//出口人(貨物輸出人)英文地址
+pageBean.setSalCaddr(randomBean.getSalCaddr());//出口人(貨物輸出人)中文地址
+pageBean.setDestCd(randomBean.getDestCd());//目的地代碼
+pageBean.setTotPackQty(randomBean.getTotPackQty());//總件數
+pageBean.setPackUnit(randomBean.getPackUnit());//件數單位
+pageBean.setTotGrossWeight(randomBean.getTotGrossWeight());//總毛重
+pageBean.setTotTwdFob(randomBean.getTotTwdFob());//總離岸價格(新台幣)
+pageBean.setOtherRemark1(randomBean.getOtherRemark1());//其他申報事項1
+pageBean.setOtherRemark2(randomBean.getOtherRemark2());//其他申報事項2
+pageBean.setExamCd(randomBean.getExamCd());//申請審驗方式
+
+setTransId(transId);//TRANS_ID
+setSeqNo(seqNo);//序號
+setSortSeqNo(sortSeqNo);//次序
+setHawb(hawb);//託運單分號
+setSalBan(salBan);//出口人(貨物輸出人)統一編號
+setSalBanId(salBanId);//出口人身分識別代碼
+setSalEname(salEname);//出口人(貨物輸出人)英文名稱
+setSalCname(salCname);//出口人(貨物輸出人)中文名稱
+setSalEaddr(salEaddr);//出口人(貨物輸出人)英文地址
+setSalCaddr(salCaddr);//出口人(貨物輸出人)中文地址
+setDestCd(destCd);//目的地代碼
+setTotPackQty(totPackQty);//總件數
+setPackUnit(packUnit);//件數單位
+setTotGrossWeight(totGrossWeight);//總毛重
+setTotTwdFob(totTwdFob);//總離岸價格(新台幣)
+setOtherRemark1(otherRemark1);//其他申報事項1
+setOtherRemark2(otherRemark2);//其他申報事項2
+setExamCd(examCd);//申請審驗方式
+
+pageBean.getTransId(),//TRANS_ID
+pageBean.getSeqNo(),//序號
+pageBean.getSortSeqNo(),//次序
+pageBean.getHawb(),//託運單分號
+pageBean.getSalBan(),//出口人(貨物輸出人)統一編號
+pageBean.getSalBanId(),//出口人身分識別代碼
+pageBean.getSalEname(),//出口人(貨物輸出人)英文名稱
+pageBean.getSalCname(),//出口人(貨物輸出人)中文名稱
+pageBean.getSalEaddr(),//出口人(貨物輸出人)英文地址
+pageBean.getSalCaddr(),//出口人(貨物輸出人)中文地址
+pageBean.getDestCd(),//目的地代碼
+pageBean.getTotPackQty(),//總件數
+pageBean.getPackUnit(),//件數單位
+pageBean.getTotGrossWeight(),//總毛重
+pageBean.getTotTwdFob(),//總離岸價格(新台幣)
+pageBean.getOtherRemark1(),//其他申報事項1
+pageBean.getOtherRemark2(),//其他申報事項2
+pageBean.getExamCd(),//申請審驗方式
+
+pageBean.setValue("TRANS_ID", this.getTransId());//TRANS_ID
+pageBean.setValue("SEQ_NO", this.getSeqNo());//序號
+pageBean.setValue("SORT_SEQ_NO", this.getSortSeqNo());//次序
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("SAL_BAN", this.getSalBan());//出口人(貨物輸出人)統一編號
+pageBean.setValue("SAL_BAN_ID", this.getSalBanId());//出口人身分識別代碼
+pageBean.setValue("SAL_ENAME", this.getSalEname());//出口人(貨物輸出人)英文名稱
+pageBean.setValue("SAL_CNAME", this.getSalCname());//出口人(貨物輸出人)中文名稱
+pageBean.setValue("SAL_EADDR", this.getSalEaddr());//出口人(貨物輸出人)英文地址
+pageBean.setValue("SAL_CADDR", this.getSalCaddr());//出口人(貨物輸出人)中文地址
+pageBean.setValue("DEST_CD", this.getDestCd());//目的地代碼
+pageBean.setValue("TOT_PACK_QTY", this.getTotPackQty());//總件數
+pageBean.setValue("PACK_UNIT", this.getPackUnit());//件數單位
+pageBean.setValue("TOT_GROSS_WEIGHT", this.getTotGrossWeight());//總毛重
+pageBean.setValue("TOT_TWD_FOB", this.getTotTwdFob());//總離岸價格(新台幣)
+pageBean.setValue("OTHER_REMARK1", this.getOtherRemark1());//其他申報事項1
+pageBean.setValue("OTHER_REMARK2", this.getOtherRemark2());//其他申報事項2
+pageBean.setValue("EXAM_CD", this.getExamCd());//申請審驗方式
+
+",TRANS_ID"+"(transId)="+pageBean.getTransId()+
+",序號"+"(seqNo)="+pageBean.getSeqNo()+
+",次序"+"(sortSeqNo)="+pageBean.getSortSeqNo()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",出口人(貨物輸出人)統一編號"+"(salBan)="+pageBean.getSalBan()+
+",出口人身分識別代碼"+"(salBanId)="+pageBean.getSalBanId()+
+",出口人(貨物輸出人)英文名稱"+"(salEname)="+pageBean.getSalEname()+
+",出口人(貨物輸出人)中文名稱"+"(salCname)="+pageBean.getSalCname()+
+",出口人(貨物輸出人)英文地址"+"(salEaddr)="+pageBean.getSalEaddr()+
+",出口人(貨物輸出人)中文地址"+"(salCaddr)="+pageBean.getSalCaddr()+
+",目的地代碼"+"(destCd)="+pageBean.getDestCd()+
+",總件數"+"(totPackQty)="+pageBean.getTotPackQty()+
+",件數單位"+"(packUnit)="+pageBean.getPackUnit()+
+",總毛重"+"(totGrossWeight)="+pageBean.getTotGrossWeight()+
+",總離岸價格(新台幣)"+"(totTwdFob)="+pageBean.getTotTwdFob()+
+",其他申報事項1"+"(otherRemark1)="+pageBean.getOtherRemark1()+
+",其他申報事項2"+"(otherRemark2)="+pageBean.getOtherRemark2()+
+",申請審驗方式"+"(examCd)="+pageBean.getExamCd()+

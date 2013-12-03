@@ -1,0 +1,511 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.batchNo=執行批號
+pageBean.termno=條件編號
+pageBean.detailType=符合條件資料類別
+pageBean.detailNo=符合條件報單項次
+pageBean.causeC2c3mCd=審驗原因代碼
+pageBean.matchC2c3m=應審驗原因符合狀態 [NMS]
+pageBean.ratioC2c3m=應審驗比率設定
+pageBean.salBan=廠商統編
+pageBean.cccCode=貨品分類號列
+pageBean.declClearType=報單通關方式
+pageBean.logDate=處理日期時間
+pageBean.termUserid=條件建檔人員
+pageBean.termCreunit=條件建檔關別
+pageBean.causeDetail=條件說明
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.batchNo=batchNo
+pageBean.termno=termno
+pageBean.detailType=detailType
+pageBean.detailNo=detailNo
+pageBean.causeC2c3mCd=causeC2c3mCd
+pageBean.matchC2c3m=matchC2c3m
+pageBean.ratioC2c3m=ratioC2c3m
+pageBean.salBan=salBan
+pageBean.cccCode=cccCode
+pageBean.declClearType=declClearType
+pageBean.logDate=logDate
+pageBean.termUserid=termUserid
+pageBean.termCreunit=termCreunit
+pageBean.causeDetail=causeDetail
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--batchNo:執行批號-->
+<tr>
+<td>
+	<s:text name="batchNo"/>
+	<s:textfield name="pageBean.batchNo" />
+</td>
+</tr>
+
+<!--termno:條件編號-->
+<tr>
+<td>
+	<s:text name="termno"/>
+	<s:textfield name="pageBean.termno" />
+</td>
+</tr>
+
+<!--detailType:符合條件資料類別-->
+<tr>
+<td>
+	<s:text name="detailType"/>
+	<s:textfield name="pageBean.detailType" />
+</td>
+</tr>
+
+<!--detailNo:符合條件報單項次-->
+<tr>
+<td>
+	<s:text name="detailNo"/>
+	<s:textfield name="pageBean.detailNo" />
+</td>
+</tr>
+
+<!--causeC2c3mCd:審驗原因代碼-->
+<tr>
+<td>
+	<s:text name="causeC2c3mCd"/>
+	<s:textfield name="pageBean.causeC2c3mCd" />
+</td>
+</tr>
+
+<!--matchC2c3m:應審驗原因符合狀態 [NMS]-->
+<tr>
+<td>
+	<s:text name="matchC2c3m"/>
+	<s:textfield name="pageBean.matchC2c3m" />
+</td>
+</tr>
+
+<!--ratioC2c3m:應審驗比率設定-->
+<tr>
+<td>
+	<s:text name="ratioC2c3m"/>
+	<s:textfield name="pageBean.ratioC2c3m" />
+</td>
+</tr>
+
+<!--salBan:廠商統編-->
+<tr>
+<td>
+	<s:text name="salBan"/>
+	<s:textfield name="pageBean.salBan" />
+</td>
+</tr>
+
+<!--cccCode:貨品分類號列-->
+<tr>
+<td>
+	<s:text name="cccCode"/>
+	<s:textfield name="pageBean.cccCode" />
+</td>
+</tr>
+
+<!--declClearType:報單通關方式-->
+<tr>
+<td>
+	<s:text name="declClearType"/>
+	<s:textfield name="pageBean.declClearType" />
+</td>
+</tr>
+
+<!--logDate:處理日期時間-->
+<tr>
+<td>
+	<s:text name="logDate"/>
+	<s:textfield name="pageBean.logDate" />
+</td>
+</tr>
+
+<!--termUserid:條件建檔人員-->
+<tr>
+<td>
+	<s:text name="termUserid"/>
+	<s:textfield name="pageBean.termUserid" />
+</td>
+</tr>
+
+<!--termCreunit:條件建檔關別-->
+<tr>
+<td>
+	<s:text name="termCreunit"/>
+	<s:textfield name="pageBean.termCreunit" />
+</td>
+</tr>
+
+<!--causeDetail:條件說明-->
+<tr>
+<td>
+	<s:text name="causeDetail"/>
+	<s:textfield name="pageBean.causeDetail" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="BATCH_NO" index="BATCH_NO" title="%{getText('batchNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BATCH_NO:執行批號:batchNo--%>
+<sjg:gridColumn name="TERMNO" index="TERMNO" title="%{getText('termno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERMNO:條件編號:termno--%>
+<sjg:gridColumn name="DETAIL_TYPE" index="DETAIL_TYPE" title="%{getText('detailType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DETAIL_TYPE:符合條件資料類別:detailType--%>
+<sjg:gridColumn name="DETAIL_NO" index="DETAIL_NO" title="%{getText('detailNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DETAIL_NO:符合條件報單項次:detailNo--%>
+<sjg:gridColumn name="CAUSE_C2C3M_CD" index="CAUSE_C2C3M_CD" title="%{getText('causeC2c3mCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAUSE_C2C3M_CD:審驗原因代碼:causeC2c3mCd--%>
+<sjg:gridColumn name="MATCH_C2C3M" index="MATCH_C2C3M" title="%{getText('matchC2c3m')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MATCH_C2C3M:應審驗原因符合狀態 [NMS]:matchC2c3m--%>
+<sjg:gridColumn name="RATIO_C2C3M" index="RATIO_C2C3M" title="%{getText('ratioC2c3m')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RATIO_C2C3M:應審驗比率設定:ratioC2c3m--%>
+<sjg:gridColumn name="SAL_BAN" index="SAL_BAN" title="%{getText('salBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN:廠商統編:salBan--%>
+<sjg:gridColumn name="CCC_CODE" index="CCC_CODE" title="%{getText('cccCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CCC_CODE:貨品分類號列:cccCode--%>
+<sjg:gridColumn name="DECL_CLEAR_TYPE" index="DECL_CLEAR_TYPE" title="%{getText('declClearType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_CLEAR_TYPE:報單通關方式:declClearType--%>
+<sjg:gridColumn name="LOG_DATE" index="LOG_DATE" title="%{getText('logDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LOG_DATE:處理日期時間:logDate--%>
+<sjg:gridColumn name="TERM_USERID" index="TERM_USERID" title="%{getText('termUserid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERM_USERID:條件建檔人員:termUserid--%>
+<sjg:gridColumn name="TERM_CREUNIT" index="TERM_CREUNIT" title="%{getText('termCreunit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TERM_CREUNIT:條件建檔關別:termCreunit--%>
+<sjg:gridColumn name="CAUSE_DETAIL" index="CAUSE_DETAIL" title="%{getText('causeDetail')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAUSE_DETAIL:條件說明:causeDetail--%>
+
+,A.DECL_NO
+,A.MAWB
+,A.HAWB
+,A.BATCH_NO
+,A.TERMNO
+,A.DETAIL_TYPE
+,A.DETAIL_NO
+,A.CAUSE_C2C3M_CD
+,A.MATCH_C2C3M
+,A.RATIO_C2C3M
+,A.SAL_BAN
+,A.CCC_CODE
+,A.DECL_CLEAR_TYPE
+,A.LOG_DATE
+,A.TERM_USERID
+,A.TERM_CREUNIT
+,A.CAUSE_DETAIL
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="BATCH_NO" ignoreEmpty="true">BATCH_NO = ${BATCH_NO}</condition>
+<condition key="TERMNO" ignoreEmpty="true">TERMNO = ${TERMNO}</condition>
+<condition key="DETAIL_TYPE" ignoreEmpty="true">DETAIL_TYPE = ${DETAIL_TYPE}</condition>
+<condition key="DETAIL_NO" ignoreEmpty="true">DETAIL_NO = ${DETAIL_NO}</condition>
+<condition key="CAUSE_C2C3M_CD" ignoreEmpty="true">CAUSE_C2C3M_CD = ${CAUSE_C2C3M_CD}</condition>
+<condition key="MATCH_C2C3M" ignoreEmpty="true">MATCH_C2C3M = ${MATCH_C2C3M}</condition>
+<condition key="RATIO_C2C3M" ignoreEmpty="true">RATIO_C2C3M = ${RATIO_C2C3M}</condition>
+<condition key="SAL_BAN" ignoreEmpty="true">SAL_BAN = ${SAL_BAN}</condition>
+<condition key="CCC_CODE" ignoreEmpty="true">CCC_CODE = ${CCC_CODE}</condition>
+<condition key="DECL_CLEAR_TYPE" ignoreEmpty="true">DECL_CLEAR_TYPE = ${DECL_CLEAR_TYPE}</condition>
+<condition key="LOG_DATE" ignoreEmpty="true">LOG_DATE = ${LOG_DATE}</condition>
+<condition key="TERM_USERID" ignoreEmpty="true">TERM_USERID = ${TERM_USERID}</condition>
+<condition key="TERM_CREUNIT" ignoreEmpty="true">TERM_CREUNIT = ${TERM_CREUNIT}</condition>
+<condition key="CAUSE_DETAIL" ignoreEmpty="true">CAUSE_DETAIL = ${CAUSE_DETAIL}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="BATCH_NO_S" ignoreEmpty="true">BATCH_NO >= ${BATCH_NO_S}</condition><condition key="BATCH_NO_E" ignoreEmpty="true">${BATCH_NO_E} >= BATCH_NO</condition><condition key="BATCH_NO_L" ignoreEmpty="true">BATCH_NO like ${BATCH_NO_L}</condition>
+<condition key="TERMNO_S" ignoreEmpty="true">TERMNO >= ${TERMNO_S}</condition><condition key="TERMNO_E" ignoreEmpty="true">${TERMNO_E} >= TERMNO</condition><condition key="TERMNO_L" ignoreEmpty="true">TERMNO like ${TERMNO_L}</condition>
+<condition key="DETAIL_TYPE_S" ignoreEmpty="true">DETAIL_TYPE >= ${DETAIL_TYPE_S}</condition><condition key="DETAIL_TYPE_E" ignoreEmpty="true">${DETAIL_TYPE_E} >= DETAIL_TYPE</condition><condition key="DETAIL_TYPE_L" ignoreEmpty="true">DETAIL_TYPE like ${DETAIL_TYPE_L}</condition>
+<condition key="DETAIL_NO_S" ignoreEmpty="true">DETAIL_NO >= ${DETAIL_NO_S}</condition><condition key="DETAIL_NO_E" ignoreEmpty="true">${DETAIL_NO_E} >= DETAIL_NO</condition><condition key="DETAIL_NO_L" ignoreEmpty="true">DETAIL_NO like ${DETAIL_NO_L}</condition>
+<condition key="CAUSE_C2C3M_CD_S" ignoreEmpty="true">CAUSE_C2C3M_CD >= ${CAUSE_C2C3M_CD_S}</condition><condition key="CAUSE_C2C3M_CD_E" ignoreEmpty="true">${CAUSE_C2C3M_CD_E} >= CAUSE_C2C3M_CD</condition><condition key="CAUSE_C2C3M_CD_L" ignoreEmpty="true">CAUSE_C2C3M_CD like ${CAUSE_C2C3M_CD_L}</condition>
+<condition key="MATCH_C2C3M_S" ignoreEmpty="true">MATCH_C2C3M >= ${MATCH_C2C3M_S}</condition><condition key="MATCH_C2C3M_E" ignoreEmpty="true">${MATCH_C2C3M_E} >= MATCH_C2C3M</condition><condition key="MATCH_C2C3M_L" ignoreEmpty="true">MATCH_C2C3M like ${MATCH_C2C3M_L}</condition>
+<condition key="RATIO_C2C3M_S" ignoreEmpty="true">RATIO_C2C3M >= ${RATIO_C2C3M_S}</condition><condition key="RATIO_C2C3M_E" ignoreEmpty="true">${RATIO_C2C3M_E} >= RATIO_C2C3M</condition><condition key="RATIO_C2C3M_L" ignoreEmpty="true">RATIO_C2C3M like ${RATIO_C2C3M_L}</condition>
+<condition key="SAL_BAN_S" ignoreEmpty="true">SAL_BAN >= ${SAL_BAN_S}</condition><condition key="SAL_BAN_E" ignoreEmpty="true">${SAL_BAN_E} >= SAL_BAN</condition><condition key="SAL_BAN_L" ignoreEmpty="true">SAL_BAN like ${SAL_BAN_L}</condition>
+<condition key="CCC_CODE_S" ignoreEmpty="true">CCC_CODE >= ${CCC_CODE_S}</condition><condition key="CCC_CODE_E" ignoreEmpty="true">${CCC_CODE_E} >= CCC_CODE</condition><condition key="CCC_CODE_L" ignoreEmpty="true">CCC_CODE like ${CCC_CODE_L}</condition>
+<condition key="DECL_CLEAR_TYPE_S" ignoreEmpty="true">DECL_CLEAR_TYPE >= ${DECL_CLEAR_TYPE_S}</condition><condition key="DECL_CLEAR_TYPE_E" ignoreEmpty="true">${DECL_CLEAR_TYPE_E} >= DECL_CLEAR_TYPE</condition><condition key="DECL_CLEAR_TYPE_L" ignoreEmpty="true">DECL_CLEAR_TYPE like ${DECL_CLEAR_TYPE_L}</condition>
+<condition key="LOG_DATE_S" ignoreEmpty="true">LOG_DATE >= ${LOG_DATE_S}</condition><condition key="LOG_DATE_E" ignoreEmpty="true">${LOG_DATE_E} >= LOG_DATE</condition><condition key="LOG_DATE_L" ignoreEmpty="true">LOG_DATE like ${LOG_DATE_L}</condition>
+<condition key="TERM_USERID_S" ignoreEmpty="true">TERM_USERID >= ${TERM_USERID_S}</condition><condition key="TERM_USERID_E" ignoreEmpty="true">${TERM_USERID_E} >= TERM_USERID</condition><condition key="TERM_USERID_L" ignoreEmpty="true">TERM_USERID like ${TERM_USERID_L}</condition>
+<condition key="TERM_CREUNIT_S" ignoreEmpty="true">TERM_CREUNIT >= ${TERM_CREUNIT_S}</condition><condition key="TERM_CREUNIT_E" ignoreEmpty="true">${TERM_CREUNIT_E} >= TERM_CREUNIT</condition><condition key="TERM_CREUNIT_L" ignoreEmpty="true">TERM_CREUNIT like ${TERM_CREUNIT_L}</condition>
+<condition key="CAUSE_DETAIL_S" ignoreEmpty="true">CAUSE_DETAIL >= ${CAUSE_DETAIL_S}</condition><condition key="CAUSE_DETAIL_E" ignoreEmpty="true">${CAUSE_DETAIL_E} >= CAUSE_DETAIL</condition><condition key="CAUSE_DETAIL_L" ignoreEmpty="true">CAUSE_DETAIL like ${CAUSE_DETAIL_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="BATCH_NO" name="BATCH_NO" ignoreEmpty="true"/>
+<field key="TERMNO" name="TERMNO" ignoreEmpty="true"/>
+<field key="DETAIL_TYPE" name="DETAIL_TYPE" ignoreEmpty="true"/>
+<field key="DETAIL_NO" name="DETAIL_NO" ignoreEmpty="true"/>
+<field key="CAUSE_C2C3M_CD" name="CAUSE_C2C3M_CD" ignoreEmpty="true"/>
+<field key="MATCH_C2C3M" name="MATCH_C2C3M" ignoreEmpty="true"/>
+<field key="RATIO_C2C3M" name="RATIO_C2C3M" ignoreEmpty="true"/>
+<field key="SAL_BAN" name="SAL_BAN" ignoreEmpty="true"/>
+<field key="CCC_CODE" name="CCC_CODE" ignoreEmpty="true"/>
+<field key="DECL_CLEAR_TYPE" name="DECL_CLEAR_TYPE" ignoreEmpty="true"/>
+<field key="LOG_DATE" name="LOG_DATE" ignoreEmpty="true"/>
+<field key="TERM_USERID" name="TERM_USERID" ignoreEmpty="true"/>
+<field key="TERM_CREUNIT" name="TERM_CREUNIT" ignoreEmpty="true"/>
+<field key="CAUSE_DETAIL" name="CAUSE_DETAIL" ignoreEmpty="true"/>
+
+//報單號碼
+//pageBean.setDeclNo(randomBean.getDeclNo());
+//託運單主號
+//pageBean.setMawb(randomBean.getMawb());
+//託運單分號
+//pageBean.setHawb(randomBean.getHawb());
+//執行批號
+//pageBean.setBatchNo(randomBean.getBatchNo());
+//條件編號
+//pageBean.setTermno(randomBean.getTermno());
+//符合條件資料類別
+//pageBean.setDetailType(randomBean.getDetailType());
+//符合條件報單項次
+//pageBean.setDetailNo(randomBean.getDetailNo());
+//審驗原因代碼
+//pageBean.setCauseC2c3mCd(randomBean.getCauseC2c3mCd());
+//應審驗原因符合狀態 [NMS]
+//pageBean.setMatchC2c3m(randomBean.getMatchC2c3m());
+//應審驗比率設定
+//pageBean.setRatioC2c3m(randomBean.getRatioC2c3m());
+//廠商統編
+//pageBean.setSalBan(randomBean.getSalBan());
+//貨品分類號列
+//pageBean.setCccCode(randomBean.getCccCode());
+//報單通關方式
+//pageBean.setDeclClearType(randomBean.getDeclClearType());
+//處理日期時間
+//pageBean.setLogDate(randomBean.getLogDate());
+//條件建檔人員
+//pageBean.setTermUserid(randomBean.getTermUserid());
+//條件建檔關別
+//pageBean.setTermCreunit(randomBean.getTermCreunit());
+//條件說明
+//pageBean.setCauseDetail(randomBean.getCauseDetail());
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_batchNo').attr('value',rowData.BATCH_NO);
+$('#pageBean_termno').attr('value',rowData.TERMNO);
+$('#pageBean_detailType').attr('value',rowData.DETAIL_TYPE);
+$('#pageBean_detailNo').attr('value',rowData.DETAIL_NO);
+$('#pageBean_causeC2c3mCd').attr('value',rowData.CAUSE_C2C3M_CD);
+$('#pageBean_matchC2c3m').attr('value',rowData.MATCH_C2C3M);
+$('#pageBean_ratioC2c3m').attr('value',rowData.RATIO_C2C3M);
+$('#pageBean_salBan').attr('value',rowData.SAL_BAN);
+$('#pageBean_cccCode').attr('value',rowData.CCC_CODE);
+$('#pageBean_declClearType').attr('value',rowData.DECL_CLEAR_TYPE);
+$('#pageBean_logDate').attr('value',rowData.LOG_DATE);
+$('#pageBean_termUserid').attr('value',rowData.TERM_USERID);
+$('#pageBean_termCreunit').attr('value',rowData.TERM_CREUNIT);
+$('#pageBean_causeDetail').attr('value',rowData.CAUSE_DETAIL);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_batchNo').attr("value", "");
+$('#pageBean_termno').attr("value", "");
+$('#pageBean_detailType').attr("value", "");
+$('#pageBean_detailNo').attr("value", "");
+$('#pageBean_causeC2c3mCd').attr("value", "");
+$('#pageBean_matchC2c3m').attr("value", "");
+$('#pageBean_ratioC2c3m').attr("value", "");
+$('#pageBean_salBan').attr("value", "");
+$('#pageBean_cccCode').attr("value", "");
+$('#pageBean_declClearType').attr("value", "");
+$('#pageBean_logDate').attr("value", "");
+$('#pageBean_termUserid').attr("value", "");
+$('#pageBean_termCreunit').attr("value", "");
+$('#pageBean_causeDetail').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+BATCH_NO:$('#pageBean_batchNo').val(),//執行批號
+TERMNO:$('#pageBean_termno').val(),//條件編號
+DETAIL_TYPE:$('#pageBean_detailType').val(),//符合條件資料類別
+DETAIL_NO:$('#pageBean_detailNo').val(),//符合條件報單項次
+CAUSE_C2C3M_CD:$('#pageBean_causeC2c3mCd').val(),//審驗原因代碼
+MATCH_C2C3M:$('#pageBean_matchC2c3m').val(),//應審驗原因符合狀態 [NMS]
+RATIO_C2C3M:$('#pageBean_ratioC2c3m').val(),//應審驗比率設定
+SAL_BAN:$('#pageBean_salBan').val(),//廠商統編
+CCC_CODE:$('#pageBean_cccCode').val(),//貨品分類號列
+DECL_CLEAR_TYPE:$('#pageBean_declClearType').val(),//報單通關方式
+LOG_DATE:$('#pageBean_logDate').val(),//處理日期時間
+TERM_USERID:$('#pageBean_termUserid').val(),//條件建檔人員
+TERM_CREUNIT:$('#pageBean_termCreunit').val(),//條件建檔關別
+CAUSE_DETAIL:$('#pageBean_causeDetail').val(),//條件說明
+
+//報單號碼
+//pageBean.setDeclNo(dataObjects.getString("DECL_NO"));
+//託運單主號
+//pageBean.setMawb(dataObjects.getString("MAWB"));
+//託運單分號
+//pageBean.setHawb(dataObjects.getString("HAWB"));
+//執行批號
+//pageBean.setBatchNo(dataObjects.getString("BATCH_NO"));
+//條件編號
+//pageBean.setTermno(dataObjects.getString("TERMNO"));
+//符合條件資料類別
+//pageBean.setDetailType(dataObjects.getString("DETAIL_TYPE"));
+//符合條件報單項次
+//pageBean.setDetailNo(dataObjects.getString("DETAIL_NO"));
+//審驗原因代碼
+//pageBean.setCauseC2c3mCd(dataObjects.getString("CAUSE_C2C3M_CD"));
+//應審驗原因符合狀態 [NMS]
+//pageBean.setMatchC2c3m(dataObjects.getString("MATCH_C2C3M"));
+//應審驗比率設定
+//pageBean.setRatioC2c3m(dataObjects.getString("RATIO_C2C3M"));
+//廠商統編
+//pageBean.setSalBan(dataObjects.getString("SAL_BAN"));
+//貨品分類號列
+//pageBean.setCccCode(dataObjects.getString("CCC_CODE"));
+//報單通關方式
+//pageBean.setDeclClearType(dataObjects.getString("DECL_CLEAR_TYPE"));
+//處理日期時間
+//pageBean.setLogDate((Date)dataObjects.getValue("LOG_DATE"));
+//條件建檔人員
+//pageBean.setTermUserid(dataObjects.getString("TERM_USERID"));
+//條件建檔關別
+//pageBean.setTermCreunit(dataObjects.getString("TERM_CREUNIT"));
+//條件說明
+//pageBean.setCauseDetail(dataObjects.getString("CAUSE_DETAIL"));
+
+private String declNo;//報單號碼
+private String mawb;//託運單主號
+private String hawb;//託運單分號
+private String batchNo;//執行批號
+private String termno;//條件編號
+private String detailType;//符合條件資料類別
+private String detailNo;//符合條件報單項次
+private String causeC2c3mCd;//審驗原因代碼
+private String matchC2c3m;//應審驗原因符合狀態 [NMS]
+private String ratioC2c3m;//應審驗比率設定
+private String salBan;//廠商統編
+private String cccCode;//貨品分類號列
+private String declClearType;//報單通關方式
+private Date logDate;//處理日期時間
+private String termUserid;//條件建檔人員
+private String termCreunit;//條件建檔關別
+private String causeDetail;//條件說明
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setBatchNo(randomBean.getBatchNo());//執行批號
+pageBean.setTermno(randomBean.getTermno());//條件編號
+pageBean.setDetailType(randomBean.getDetailType());//符合條件資料類別
+pageBean.setDetailNo(randomBean.getDetailNo());//符合條件報單項次
+pageBean.setCauseC2c3mCd(randomBean.getCauseC2c3mCd());//審驗原因代碼
+pageBean.setMatchC2c3m(randomBean.getMatchC2c3m());//應審驗原因符合狀態 [NMS]
+pageBean.setRatioC2c3m(randomBean.getRatioC2c3m());//應審驗比率設定
+pageBean.setSalBan(randomBean.getSalBan());//廠商統編
+pageBean.setCccCode(randomBean.getCccCode());//貨品分類號列
+pageBean.setDeclClearType(randomBean.getDeclClearType());//報單通關方式
+pageBean.setLogDate(randomBean.getLogDate());//處理日期時間
+pageBean.setTermUserid(randomBean.getTermUserid());//條件建檔人員
+pageBean.setTermCreunit(randomBean.getTermCreunit());//條件建檔關別
+pageBean.setCauseDetail(randomBean.getCauseDetail());//條件說明
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setBatchNo(batchNo);//執行批號
+setTermno(termno);//條件編號
+setDetailType(detailType);//符合條件資料類別
+setDetailNo(detailNo);//符合條件報單項次
+setCauseC2c3mCd(causeC2c3mCd);//審驗原因代碼
+setMatchC2c3m(matchC2c3m);//應審驗原因符合狀態 [NMS]
+setRatioC2c3m(ratioC2c3m);//應審驗比率設定
+setSalBan(salBan);//廠商統編
+setCccCode(cccCode);//貨品分類號列
+setDeclClearType(declClearType);//報單通關方式
+setLogDate(logDate);//處理日期時間
+setTermUserid(termUserid);//條件建檔人員
+setTermCreunit(termCreunit);//條件建檔關別
+setCauseDetail(causeDetail);//條件說明
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getBatchNo(),//執行批號
+pageBean.getTermno(),//條件編號
+pageBean.getDetailType(),//符合條件資料類別
+pageBean.getDetailNo(),//符合條件報單項次
+pageBean.getCauseC2c3mCd(),//審驗原因代碼
+pageBean.getMatchC2c3m(),//應審驗原因符合狀態 [NMS]
+pageBean.getRatioC2c3m(),//應審驗比率設定
+pageBean.getSalBan(),//廠商統編
+pageBean.getCccCode(),//貨品分類號列
+pageBean.getDeclClearType(),//報單通關方式
+pageBean.getLogDate(),//處理日期時間
+pageBean.getTermUserid(),//條件建檔人員
+pageBean.getTermCreunit(),//條件建檔關別
+pageBean.getCauseDetail(),//條件說明
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("BATCH_NO", this.getBatchNo());//執行批號
+pageBean.setValue("TERMNO", this.getTermno());//條件編號
+pageBean.setValue("DETAIL_TYPE", this.getDetailType());//符合條件資料類別
+pageBean.setValue("DETAIL_NO", this.getDetailNo());//符合條件報單項次
+pageBean.setValue("CAUSE_C2C3M_CD", this.getCauseC2c3mCd());//審驗原因代碼
+pageBean.setValue("MATCH_C2C3M", this.getMatchC2c3m());//應審驗原因符合狀態 [NMS]
+pageBean.setValue("RATIO_C2C3M", this.getRatioC2c3m());//應審驗比率設定
+pageBean.setValue("SAL_BAN", this.getSalBan());//廠商統編
+pageBean.setValue("CCC_CODE", this.getCccCode());//貨品分類號列
+pageBean.setValue("DECL_CLEAR_TYPE", this.getDeclClearType());//報單通關方式
+pageBean.setValue("LOG_DATE", this.getLogDate());//處理日期時間
+pageBean.setValue("TERM_USERID", this.getTermUserid());//條件建檔人員
+pageBean.setValue("TERM_CREUNIT", this.getTermCreunit());//條件建檔關別
+pageBean.setValue("CAUSE_DETAIL", this.getCauseDetail());//條件說明
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",執行批號"+"(batchNo)="+pageBean.getBatchNo()+
+",條件編號"+"(termno)="+pageBean.getTermno()+
+",符合條件資料類別"+"(detailType)="+pageBean.getDetailType()+
+",符合條件報單項次"+"(detailNo)="+pageBean.getDetailNo()+
+",審驗原因代碼"+"(causeC2c3mCd)="+pageBean.getCauseC2c3mCd()+
+",應審驗原因符合狀態 [NMS]"+"(matchC2c3m)="+pageBean.getMatchC2c3m()+
+",應審驗比率設定"+"(ratioC2c3m)="+pageBean.getRatioC2c3m()+
+",廠商統編"+"(salBan)="+pageBean.getSalBan()+
+",貨品分類號列"+"(cccCode)="+pageBean.getCccCode()+
+",報單通關方式"+"(declClearType)="+pageBean.getDeclClearType()+
+",處理日期時間"+"(logDate)="+pageBean.getLogDate()+
+",條件建檔人員"+"(termUserid)="+pageBean.getTermUserid()+
+",條件建檔關別"+"(termCreunit)="+pageBean.getTermCreunit()+
+",條件說明"+"(causeDetail)="+pageBean.getCauseDetail()+

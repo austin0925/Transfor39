@@ -1,0 +1,295 @@
+pageBean.ban=委任人統一編號
+pageBean.custCd=關別
+pageBean.ietType=進出口別
+pageBean.brokerBoxNo=報關業者箱號
+pageBean.declNo=報單號碼
+pageBean.asgnAprvRefNo=核准文號
+pageBean.permitDate=核准日期
+pageBean.crUser=建檔人員
+pageBean.agentType=委任類別
+pageBean.applyType=委任代號
+pageBean.transTypeCd=海空運別
+pageBean.usedMark=使用註記
+
+pageBean.ban=ban
+pageBean.custCd=custCd
+pageBean.ietType=ietType
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.declNo=declNo
+pageBean.asgnAprvRefNo=asgnAprvRefNo
+pageBean.permitDate=permitDate
+pageBean.crUser=crUser
+pageBean.agentType=agentType
+pageBean.applyType=applyType
+pageBean.transTypeCd=transTypeCd
+pageBean.usedMark=usedMark
+
+<!--ban:委任人統一編號-->
+<s:text name="pageBean.ban"/>
+<s:textfield name="pageBean.ban"/>
+<!--custCd:關別-->
+<s:text name="pageBean.custCd"/>
+<s:textfield name="pageBean.custCd"/>
+<!--ietType:進出口別-->
+<s:text name="pageBean.ietType"/>
+<s:textfield name="pageBean.ietType"/>
+<!--brokerBoxNo:報關業者箱號-->
+<s:text name="pageBean.brokerBoxNo"/>
+<s:textfield name="pageBean.brokerBoxNo"/>
+<!--declNo:報單號碼-->
+<s:text name="pageBean.declNo"/>
+<s:textfield name="pageBean.declNo"/>
+<!--asgnAprvRefNo:核准文號-->
+<s:text name="pageBean.asgnAprvRefNo"/>
+<s:textfield name="pageBean.asgnAprvRefNo"/>
+<!--permitDate:核准日期-->
+<s:text name="pageBean.permitDate"/>
+<s:textfield name="pageBean.permitDate"/>
+<!--crUser:建檔人員-->
+<s:text name="pageBean.crUser"/>
+<s:textfield name="pageBean.crUser"/>
+<!--agentType:委任類別-->
+<s:text name="pageBean.agentType"/>
+<s:textfield name="pageBean.agentType"/>
+<!--applyType:委任代號-->
+<s:text name="pageBean.applyType"/>
+<s:textfield name="pageBean.applyType"/>
+<!--transTypeCd:海空運別-->
+<s:text name="pageBean.transTypeCd"/>
+<s:textfield name="pageBean.transTypeCd"/>
+<!--usedMark:使用註記-->
+<s:text name="pageBean.usedMark"/>
+<s:textfield name="pageBean.usedMark"/>
+
+<s:hidden name="pageBean.ban"/><!--ban:委任人統一編號-->
+<s:hidden name="pageBean.custCd"/><!--custCd:關別-->
+<s:hidden name="pageBean.ietType"/><!--ietType:進出口別-->
+<s:hidden name="pageBean.brokerBoxNo"/><!--brokerBoxNo:報關業者箱號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.asgnAprvRefNo"/><!--asgnAprvRefNo:核准文號-->
+<s:hidden name="pageBean.permitDate"/><!--permitDate:核准日期-->
+<s:hidden name="pageBean.crUser"/><!--crUser:建檔人員-->
+<s:hidden name="pageBean.agentType"/><!--agentType:委任類別-->
+<s:hidden name="pageBean.applyType"/><!--applyType:委任代號-->
+<s:hidden name="pageBean.transTypeCd"/><!--transTypeCd:海空運別-->
+<s:hidden name="pageBean.usedMark"/><!--usedMark:使用註記-->
+
+<%--BAN:委任人統一編號:ban--%>
+<sjg:gridColumn name="BAN" index="BAN" title="%{getText('ban')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUST_CD:關別:custCd--%>
+<sjg:gridColumn name="CUST_CD" index="CUST_CD" title="%{getText('custCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IET_TYPE:進出口別:ietType--%>
+<sjg:gridColumn name="IET_TYPE" index="IET_TYPE" title="%{getText('ietType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關業者箱號:brokerBoxNo--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASGN_APRV_REF_NO:核准文號:asgnAprvRefNo--%>
+<sjg:gridColumn name="ASGN_APRV_REF_NO" index="ASGN_APRV_REF_NO" title="%{getText('asgnAprvRefNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERMIT_DATE:核准日期:permitDate--%>
+<sjg:gridColumn name="PERMIT_DATE" index="PERMIT_DATE" title="%{getText('permitDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CR_USER:建檔人員:crUser--%>
+<sjg:gridColumn name="CR_USER" index="CR_USER" title="%{getText('crUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_TYPE:委任類別:agentType--%>
+<sjg:gridColumn name="AGENT_TYPE" index="AGENT_TYPE" title="%{getText('agentType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPLY_TYPE:委任代號:applyType--%>
+<sjg:gridColumn name="APPLY_TYPE" index="APPLY_TYPE" title="%{getText('applyType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_TYPE_CD:海空運別:transTypeCd--%>
+<sjg:gridColumn name="TRANS_TYPE_CD" index="TRANS_TYPE_CD" title="%{getText('transTypeCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USED_MARK:使用註記:usedMark--%>
+<sjg:gridColumn name="USED_MARK" index="USED_MARK" title="%{getText('usedMark')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.BAN
+,A.CUST_CD
+,A.IET_TYPE
+,A.BROKER_BOX_NO
+,A.DECL_NO
+,A.ASGN_APRV_REF_NO
+,A.PERMIT_DATE
+,A.CR_USER
+,A.AGENT_TYPE
+,A.APPLY_TYPE
+,A.TRANS_TYPE_CD
+,A.USED_MARK
+
+<condition key="BAN" ignoreEmpty="true">BAN = ${BAN}</condition>
+<condition key="CUST_CD" ignoreEmpty="true">CUST_CD = ${CUST_CD}</condition>
+<condition key="IET_TYPE" ignoreEmpty="true">IET_TYPE = ${IET_TYPE}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true">BROKER_BOX_NO = ${BROKER_BOX_NO}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="ASGN_APRV_REF_NO" ignoreEmpty="true">ASGN_APRV_REF_NO = ${ASGN_APRV_REF_NO}</condition>
+<condition key="PERMIT_DATE" ignoreEmpty="true">PERMIT_DATE = ${PERMIT_DATE}</condition>
+<condition key="CR_USER" ignoreEmpty="true">CR_USER = ${CR_USER}</condition>
+<condition key="AGENT_TYPE" ignoreEmpty="true">AGENT_TYPE = ${AGENT_TYPE}</condition>
+<condition key="APPLY_TYPE" ignoreEmpty="true">APPLY_TYPE = ${APPLY_TYPE}</condition>
+<condition key="TRANS_TYPE_CD" ignoreEmpty="true">TRANS_TYPE_CD = ${TRANS_TYPE_CD}</condition>
+<condition key="USED_MARK" ignoreEmpty="true">USED_MARK = ${USED_MARK}</condition>
+
+<condition key="BAN_S" ignoreEmpty="true">BAN >= ${BAN_S}</condition><condition key="BAN_E" ignoreEmpty="true">${BAN_E} >= BAN</condition><condition key="BAN_L" ignoreEmpty="true">BAN like ${BAN_L}</condition>
+<condition key="CUST_CD_S" ignoreEmpty="true">CUST_CD >= ${CUST_CD_S}</condition><condition key="CUST_CD_E" ignoreEmpty="true">${CUST_CD_E} >= CUST_CD</condition><condition key="CUST_CD_L" ignoreEmpty="true">CUST_CD like ${CUST_CD_L}</condition>
+<condition key="IET_TYPE_S" ignoreEmpty="true">IET_TYPE >= ${IET_TYPE_S}</condition><condition key="IET_TYPE_E" ignoreEmpty="true">${IET_TYPE_E} >= IET_TYPE</condition><condition key="IET_TYPE_L" ignoreEmpty="true">IET_TYPE like ${IET_TYPE_L}</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true">BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true">${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition><condition key="BROKER_BOX_NO_L" ignoreEmpty="true">BROKER_BOX_NO like ${BROKER_BOX_NO_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="ASGN_APRV_REF_NO_S" ignoreEmpty="true">ASGN_APRV_REF_NO >= ${ASGN_APRV_REF_NO_S}</condition><condition key="ASGN_APRV_REF_NO_E" ignoreEmpty="true">${ASGN_APRV_REF_NO_E} >= ASGN_APRV_REF_NO</condition><condition key="ASGN_APRV_REF_NO_L" ignoreEmpty="true">ASGN_APRV_REF_NO like ${ASGN_APRV_REF_NO_L}</condition>
+<condition key="PERMIT_DATE_S" ignoreEmpty="true">PERMIT_DATE >= ${PERMIT_DATE_S}</condition><condition key="PERMIT_DATE_E" ignoreEmpty="true">${PERMIT_DATE_E} >= PERMIT_DATE</condition><condition key="PERMIT_DATE_L" ignoreEmpty="true">PERMIT_DATE like ${PERMIT_DATE_L}</condition>
+<condition key="CR_USER_S" ignoreEmpty="true">CR_USER >= ${CR_USER_S}</condition><condition key="CR_USER_E" ignoreEmpty="true">${CR_USER_E} >= CR_USER</condition><condition key="CR_USER_L" ignoreEmpty="true">CR_USER like ${CR_USER_L}</condition>
+<condition key="AGENT_TYPE_S" ignoreEmpty="true">AGENT_TYPE >= ${AGENT_TYPE_S}</condition><condition key="AGENT_TYPE_E" ignoreEmpty="true">${AGENT_TYPE_E} >= AGENT_TYPE</condition><condition key="AGENT_TYPE_L" ignoreEmpty="true">AGENT_TYPE like ${AGENT_TYPE_L}</condition>
+<condition key="APPLY_TYPE_S" ignoreEmpty="true">APPLY_TYPE >= ${APPLY_TYPE_S}</condition><condition key="APPLY_TYPE_E" ignoreEmpty="true">${APPLY_TYPE_E} >= APPLY_TYPE</condition><condition key="APPLY_TYPE_L" ignoreEmpty="true">APPLY_TYPE like ${APPLY_TYPE_L}</condition>
+<condition key="TRANS_TYPE_CD_S" ignoreEmpty="true">TRANS_TYPE_CD >= ${TRANS_TYPE_CD_S}</condition><condition key="TRANS_TYPE_CD_E" ignoreEmpty="true">${TRANS_TYPE_CD_E} >= TRANS_TYPE_CD</condition><condition key="TRANS_TYPE_CD_L" ignoreEmpty="true">TRANS_TYPE_CD like ${TRANS_TYPE_CD_L}</condition>
+<condition key="USED_MARK_S" ignoreEmpty="true">USED_MARK >= ${USED_MARK_S}</condition><condition key="USED_MARK_E" ignoreEmpty="true">${USED_MARK_E} >= USED_MARK</condition><condition key="USED_MARK_L" ignoreEmpty="true">USED_MARK like ${USED_MARK_L}</condition>
+
+<field key="BAN" name="BAN" ignoreEmpty="true"/>
+<field key="CUST_CD" name="CUST_CD" ignoreEmpty="true"/>
+<field key="IET_TYPE" name="IET_TYPE" ignoreEmpty="true"/>
+<field key="BROKER_BOX_NO" name="BROKER_BOX_NO" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="ASGN_APRV_REF_NO" name="ASGN_APRV_REF_NO" ignoreEmpty="true"/>
+<field key="PERMIT_DATE" name="PERMIT_DATE" ignoreEmpty="true"/>
+<field key="CR_USER" name="CR_USER" ignoreEmpty="true"/>
+<field key="AGENT_TYPE" name="AGENT_TYPE" ignoreEmpty="true"/>
+<field key="APPLY_TYPE" name="APPLY_TYPE" ignoreEmpty="true"/>
+<field key="TRANS_TYPE_CD" name="TRANS_TYPE_CD" ignoreEmpty="true"/>
+<field key="USED_MARK" name="USED_MARK" ignoreEmpty="true"/>
+
+$('#pageBean_ban').attr('value',rowData.BAN);
+$('#pageBean_custCd').attr('value',rowData.CUST_CD);
+$('#pageBean_ietType').attr('value',rowData.IET_TYPE);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_asgnAprvRefNo').attr('value',rowData.ASGN_APRV_REF_NO);
+$('#pageBean_permitDate').attr('value',rowData.PERMIT_DATE);
+$('#pageBean_crUser').attr('value',rowData.CR_USER);
+$('#pageBean_agentType').attr('value',rowData.AGENT_TYPE);
+$('#pageBean_applyType').attr('value',rowData.APPLY_TYPE);
+$('#pageBean_transTypeCd').attr('value',rowData.TRANS_TYPE_CD);
+$('#pageBean_usedMark').attr('value',rowData.USED_MARK);
+
+$('#pageBean_ban').attr("value", "");
+$('#pageBean_custCd').attr("value", "");
+$('#pageBean_ietType').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_asgnAprvRefNo').attr("value", "");
+$('#pageBean_permitDate').attr("value", "");
+$('#pageBean_crUser').attr("value", "");
+$('#pageBean_agentType').attr("value", "");
+$('#pageBean_applyType').attr("value", "");
+$('#pageBean_transTypeCd').attr("value", "");
+$('#pageBean_usedMark').attr("value", "");
+
+BAN:$('#pageBean_ban').val(),//委任人統一編號
+CUST_CD:$('#pageBean_custCd').val(),//關別
+IET_TYPE:$('#pageBean_ietType').val(),//進出口別
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關業者箱號
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+ASGN_APRV_REF_NO:$('#pageBean_asgnAprvRefNo').val(),//核准文號
+PERMIT_DATE:$('#pageBean_permitDate').val(),//核准日期
+CR_USER:$('#pageBean_crUser').val(),//建檔人員
+AGENT_TYPE:$('#pageBean_agentType').val(),//委任類別
+APPLY_TYPE:$('#pageBean_applyType').val(),//委任代號
+TRANS_TYPE_CD:$('#pageBean_transTypeCd').val(),//海空運別
+USED_MARK:$('#pageBean_usedMark').val(),//使用註記
+
+pageBean.setBan(dataObjects.getString("BAN"));//委任人統一編號
+pageBean.setCustCd(dataObjects.getString("CUST_CD"));//關別
+pageBean.setIetType(dataObjects.getString("IET_TYPE"));//進出口別
+pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));//報關業者箱號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setAsgnAprvRefNo(dataObjects.getString("ASGN_APRV_REF_NO"));//核准文號
+pageBean.setPermitDate((Date)dataObjects.getValue("PERMIT_DATE"));//核准日期
+pageBean.setCrUser(dataObjects.getString("CR_USER"));//建檔人員
+pageBean.setAgentType(dataObjects.getString("AGENT_TYPE"));//委任類別
+pageBean.setApplyType(dataObjects.getString("APPLY_TYPE"));//委任代號
+pageBean.setTransTypeCd(dataObjects.getString("TRANS_TYPE_CD"));//海空運別
+pageBean.setUsedMark(dataObjects.getString("USED_MARK"));//使用註記
+
+private String ban = null;//委任人統一編號
+private String custCd = null;//關別
+private String ietType = null;//進出口別
+private String brokerBoxNo = null;//報關業者箱號
+private String declNo = null;//報單號碼
+private String asgnAprvRefNo = null;//核准文號
+private Date permitDate = null;//核准日期
+private String crUser = null;//建檔人員
+private String agentType = null;//委任類別
+private String applyType = null;//委任代號
+private String transTypeCd = null;//海空運別
+private String usedMark = null;//使用註記
+
+pageBean.setBan(ban);//委任人統一編號
+pageBean.setCustCd(custCd);//關別
+pageBean.setIetType(ietType);//進出口別
+pageBean.setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setAsgnAprvRefNo(asgnAprvRefNo);//核准文號
+pageBean.setPermitDate(permitDate);//核准日期
+pageBean.setCrUser(crUser);//建檔人員
+pageBean.setAgentType(agentType);//委任類別
+pageBean.setApplyType(applyType);//委任代號
+pageBean.setTransTypeCd(transTypeCd);//海空運別
+pageBean.setUsedMark(usedMark);//使用註記
+
+pageBean.setBan(randomBean.getBan());//委任人統一編號
+pageBean.setCustCd(randomBean.getCustCd());//關別
+pageBean.setIetType(randomBean.getIetType());//進出口別
+pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());//報關業者箱號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setAsgnAprvRefNo(randomBean.getAsgnAprvRefNo());//核准文號
+pageBean.setPermitDate(randomBean.getPermitDate());//核准日期
+pageBean.setCrUser(randomBean.getCrUser());//建檔人員
+pageBean.setAgentType(randomBean.getAgentType());//委任類別
+pageBean.setApplyType(randomBean.getApplyType());//委任代號
+pageBean.setTransTypeCd(randomBean.getTransTypeCd());//海空運別
+pageBean.setUsedMark(randomBean.getUsedMark());//使用註記
+
+setBan(ban);//委任人統一編號
+setCustCd(custCd);//關別
+setIetType(ietType);//進出口別
+setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+setDeclNo(declNo);//報單號碼
+setAsgnAprvRefNo(asgnAprvRefNo);//核准文號
+setPermitDate(permitDate);//核准日期
+setCrUser(crUser);//建檔人員
+setAgentType(agentType);//委任類別
+setApplyType(applyType);//委任代號
+setTransTypeCd(transTypeCd);//海空運別
+setUsedMark(usedMark);//使用註記
+
+pageBean.getBan(),//委任人統一編號
+pageBean.getCustCd(),//關別
+pageBean.getIetType(),//進出口別
+pageBean.getBrokerBoxNo(),//報關業者箱號
+pageBean.getDeclNo(),//報單號碼
+pageBean.getAsgnAprvRefNo(),//核准文號
+pageBean.getPermitDate(),//核准日期
+pageBean.getCrUser(),//建檔人員
+pageBean.getAgentType(),//委任類別
+pageBean.getApplyType(),//委任代號
+pageBean.getTransTypeCd(),//海空運別
+pageBean.getUsedMark(),//使用註記
+
+pageBean.setValue("BAN", this.getBan());//委任人統一編號
+pageBean.setValue("CUST_CD", this.getCustCd());//關別
+pageBean.setValue("IET_TYPE", this.getIetType());//進出口別
+pageBean.setValue("BROKER_BOX_NO", this.getBrokerBoxNo());//報關業者箱號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("ASGN_APRV_REF_NO", this.getAsgnAprvRefNo());//核准文號
+pageBean.setValue("PERMIT_DATE", this.getPermitDate());//核准日期
+pageBean.setValue("CR_USER", this.getCrUser());//建檔人員
+pageBean.setValue("AGENT_TYPE", this.getAgentType());//委任類別
+pageBean.setValue("APPLY_TYPE", this.getApplyType());//委任代號
+pageBean.setValue("TRANS_TYPE_CD", this.getTransTypeCd());//海空運別
+pageBean.setValue("USED_MARK", this.getUsedMark());//使用註記
+
+",委任人統一編號"+"(ban)="+pageBean.getBan()+
+",關別"+"(custCd)="+pageBean.getCustCd()+
+",進出口別"+"(ietType)="+pageBean.getIetType()+
+",報關業者箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",核准文號"+"(asgnAprvRefNo)="+pageBean.getAsgnAprvRefNo()+
+",核准日期"+"(permitDate)="+pageBean.getPermitDate()+
+",建檔人員"+"(crUser)="+pageBean.getCrUser()+
+",委任類別"+"(agentType)="+pageBean.getAgentType()+
+",委任代號"+"(applyType)="+pageBean.getApplyType()+
+",海空運別"+"(transTypeCd)="+pageBean.getTransTypeCd()+
+",使用註記"+"(usedMark)="+pageBean.getUsedMark()+

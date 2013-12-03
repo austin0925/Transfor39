@@ -1,0 +1,2147 @@
+pageBean.declNo=報單號碼
+pageBean.seaAirType=海空運別
+pageBean.declType=報單類別
+pageBean.functionCode=訊息功能代碼
+pageBean.brokerBoxNo=報關業者箱號
+pageBean.brokerBoxSubNo=報關業者箱號附碼
+pageBean.brokerEmp=專責報關人員代號
+pageBean.storWareCd1=卸存地點代碼1
+pageBean.storWareCd2=卸存地點代碼2
+pageBean.transportMode=出口運輸方式代碼
+pageBean.refundNote=申請沖退原料稅
+pageBean.payMethod=海關稅費繳納方式代碼
+pageBean.vslRegNo=海關通關號碼
+pageBean.soNo=裝貨單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.declDate=報關日期
+pageBean.portCd=裝貨港代碼
+pageBean.destCd=目的地代碼
+pageBean.deliveryDest=運送抵達地
+pageBean.incoterms=交易條件代碼
+pageBean.totInvAmt=發票總金額
+pageBean.freight=運費
+pageBean.insurance=保險費
+pageBean.additionalFee=應加費用
+pageBean.deductionFee=應減費用
+pageBean.currencyCd=幣別代碼
+pageBean.exchangeRate=外幣匯率
+pageBean.fob=離岸價格
+pageBean.transportId=出口船（機）代碼
+pageBean.voyagNo=船舶航次（海）/航機班次（空）
+pageBean.totPackQty=總件數
+pageBean.totPackUnit=總件數單位
+pageBean.coPackNote=合成註記
+pageBean.packDesc=包裝說明
+pageBean.totGrossWeight=總毛重
+pageBean.lisSts=簽證情形
+pageBean.carrierAgencyType=運輸業者/代理行類別代碼
+pageBean.uniNo=貨物唯一追蹤號碼
+pageBean.containerNoteNo=運送單號碼
+pageBean.remarkDesc=標記
+pageBean.examMethod=申請審驗方式
+pageBean.attachDocNo1=檢附文件號碼1
+pageBean.attachDocNo2=檢附文件號碼2
+pageBean.attachDocNo3=檢附文件號碼3
+pageBean.applCopyQty=申請報單副本件數
+pageBean.materlSuppl=檢附外銷品使用原料及其供應商資料表
+pageBean.inBwBan=進倉保稅倉庫業者統一編號
+pageBean.outBwBan=出倉保稅倉庫業者統一編號
+pageBean.bwIdenfier=保稅倉庫業者身分識別代碼
+pageBean.inBwCd=進倉保稅倉庫代碼
+pageBean.outBwCd=出倉保稅倉庫代碼
+pageBean.bondGoodsRptMth=保稅貨物按月彙報月份
+pageBean.tpRefNo=交易對方參考編號
+pageBean.otherDesc1=其他申報事項1
+pageBean.otherDesc2=其他申報事項2
+pageBean.tradeFee=推貿費金額
+pageBean.processStat=報單處理狀態
+pageBean.dutyExempWavrNote=排除低價免稅註記
+pageBean.permitNo=先稅後放核准案號
+pageBean.brokerCname=報關行中文名稱
+pageBean.brokerEmpCname=專責人員姓名
+pageBean.taxAcntBsnsCod=營業稅記帳廠商編號
+pageBean.remark1=備註1
+pageBean.remark2=備註2
+pageBean.remark3=備註3
+pageBean.remark4=備註4
+pageBean.remark5=備註5
+pageBean.remark6=備註6
+pageBean.remark7=備註7
+pageBean.remark8=備註8
+pageBean.remark9=備註9
+pageBean.remark10=備註10
+pageBean.upDate=更新日期
+pageBean.upPerson=更新人員
+pageBean.carrierAgencyId=運輸業者/代理行代碼
+
+pageBean.declNo=declNo
+pageBean.seaAirType=seaAirType
+pageBean.declType=declType
+pageBean.functionCode=functionCode
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.brokerBoxSubNo=brokerBoxSubNo
+pageBean.brokerEmp=brokerEmp
+pageBean.storWareCd1=storWareCd1
+pageBean.storWareCd2=storWareCd2
+pageBean.transportMode=transportMode
+pageBean.refundNote=refundNote
+pageBean.payMethod=payMethod
+pageBean.vslRegNo=vslRegNo
+pageBean.soNo=soNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.declDate=declDate
+pageBean.portCd=portCd
+pageBean.destCd=destCd
+pageBean.deliveryDest=deliveryDest
+pageBean.incoterms=incoterms
+pageBean.totInvAmt=totInvAmt
+pageBean.freight=freight
+pageBean.insurance=insurance
+pageBean.additionalFee=additionalFee
+pageBean.deductionFee=deductionFee
+pageBean.currencyCd=currencyCd
+pageBean.exchangeRate=exchangeRate
+pageBean.fob=fob
+pageBean.transportId=transportId
+pageBean.voyagNo=voyagNo
+pageBean.totPackQty=totPackQty
+pageBean.totPackUnit=totPackUnit
+pageBean.coPackNote=coPackNote
+pageBean.packDesc=packDesc
+pageBean.totGrossWeight=totGrossWeight
+pageBean.lisSts=lisSts
+pageBean.carrierAgencyType=carrierAgencyType
+pageBean.uniNo=uniNo
+pageBean.containerNoteNo=containerNoteNo
+pageBean.remarkDesc=remarkDesc
+pageBean.examMethod=examMethod
+pageBean.attachDocNo1=attachDocNo1
+pageBean.attachDocNo2=attachDocNo2
+pageBean.attachDocNo3=attachDocNo3
+pageBean.applCopyQty=applCopyQty
+pageBean.materlSuppl=materlSuppl
+pageBean.inBwBan=inBwBan
+pageBean.outBwBan=outBwBan
+pageBean.bwIdenfier=bwIdenfier
+pageBean.inBwCd=inBwCd
+pageBean.outBwCd=outBwCd
+pageBean.bondGoodsRptMth=bondGoodsRptMth
+pageBean.tpRefNo=tpRefNo
+pageBean.otherDesc1=otherDesc1
+pageBean.otherDesc2=otherDesc2
+pageBean.tradeFee=tradeFee
+pageBean.processStat=processStat
+pageBean.dutyExempWavrNote=dutyExempWavrNote
+pageBean.permitNo=permitNo
+pageBean.brokerCname=brokerCname
+pageBean.brokerEmpCname=brokerEmpCname
+pageBean.taxAcntBsnsCod=taxAcntBsnsCod
+pageBean.remark1=remark1
+pageBean.remark2=remark2
+pageBean.remark3=remark3
+pageBean.remark4=remark4
+pageBean.remark5=remark5
+pageBean.remark6=remark6
+pageBean.remark7=remark7
+pageBean.remark8=remark8
+pageBean.remark9=remark9
+pageBean.remark10=remark10
+pageBean.upDate=upDate
+pageBean.upPerson=upPerson
+pageBean.carrierAgencyId=carrierAgencyId
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--seaAirType:海空運別-->
+<tr>
+<td>
+	<s:text name="pageBean.seaAirType"/>
+	<s:textfield name="pageBean.seaAirType" />
+</td>
+</tr>
+
+<!--declType:報單類別-->
+<tr>
+<td>
+	<s:text name="pageBean.declType"/>
+	<s:textfield name="pageBean.declType" />
+</td>
+</tr>
+
+<!--functionCode:訊息功能代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.functionCode"/>
+	<s:textfield name="pageBean.functionCode" />
+</td>
+</tr>
+
+<!--brokerBoxNo:報關業者箱號-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerBoxNo"/>
+	<s:textfield name="pageBean.brokerBoxNo" />
+</td>
+</tr>
+
+<!--brokerBoxSubNo:報關業者箱號附碼-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerBoxSubNo"/>
+	<s:textfield name="pageBean.brokerBoxSubNo" />
+</td>
+</tr>
+
+<!--brokerEmp:專責報關人員代號-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerEmp"/>
+	<s:textfield name="pageBean.brokerEmp" />
+</td>
+</tr>
+
+<!--storWareCd1:卸存地點代碼1-->
+<tr>
+<td>
+	<s:text name="pageBean.storWareCd1"/>
+	<s:textfield name="pageBean.storWareCd1" />
+</td>
+</tr>
+
+<!--storWareCd2:卸存地點代碼2-->
+<tr>
+<td>
+	<s:text name="pageBean.storWareCd2"/>
+	<s:textfield name="pageBean.storWareCd2" />
+</td>
+</tr>
+
+<!--transportMode:出口運輸方式代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.transportMode"/>
+	<s:textfield name="pageBean.transportMode" />
+</td>
+</tr>
+
+<!--refundNote:申請沖退原料稅-->
+<tr>
+<td>
+	<s:text name="pageBean.refundNote"/>
+	<s:textfield name="pageBean.refundNote" />
+</td>
+</tr>
+
+<!--payMethod:海關稅費繳納方式代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.payMethod"/>
+	<s:textfield name="pageBean.payMethod" />
+</td>
+</tr>
+
+<!--vslRegNo:海關通關號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.vslRegNo"/>
+	<s:textfield name="pageBean.vslRegNo" />
+</td>
+</tr>
+
+<!--soNo:裝貨單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.soNo"/>
+	<s:textfield name="pageBean.soNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--declDate:報關日期-->
+<tr>
+<td>
+	<s:text name="pageBean.declDate"/>
+	<s:textfield name="pageBean.declDate" />
+</td>
+</tr>
+
+<!--portCd:裝貨港代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.portCd"/>
+	<s:textfield name="pageBean.portCd" />
+</td>
+</tr>
+
+<!--destCd:目的地代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.destCd"/>
+	<s:textfield name="pageBean.destCd" />
+</td>
+</tr>
+
+<!--deliveryDest:運送抵達地-->
+<tr>
+<td>
+	<s:text name="pageBean.deliveryDest"/>
+	<s:textfield name="pageBean.deliveryDest" />
+</td>
+</tr>
+
+<!--incoterms:交易條件代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.incoterms"/>
+	<s:textfield name="pageBean.incoterms" />
+</td>
+</tr>
+
+<!--totInvAmt:發票總金額-->
+<tr>
+<td>
+	<s:text name="pageBean.totInvAmt"/>
+	<s:textfield name="pageBean.totInvAmt" />
+</td>
+</tr>
+
+<!--freight:運費-->
+<tr>
+<td>
+	<s:text name="pageBean.freight"/>
+	<s:textfield name="pageBean.freight" />
+</td>
+</tr>
+
+<!--insurance:保險費-->
+<tr>
+<td>
+	<s:text name="pageBean.insurance"/>
+	<s:textfield name="pageBean.insurance" />
+</td>
+</tr>
+
+<!--additionalFee:應加費用-->
+<tr>
+<td>
+	<s:text name="pageBean.additionalFee"/>
+	<s:textfield name="pageBean.additionalFee" />
+</td>
+</tr>
+
+<!--deductionFee:應減費用-->
+<tr>
+<td>
+	<s:text name="pageBean.deductionFee"/>
+	<s:textfield name="pageBean.deductionFee" />
+</td>
+</tr>
+
+<!--currencyCd:幣別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.currencyCd"/>
+	<s:textfield name="pageBean.currencyCd" />
+</td>
+</tr>
+
+<!--exchangeRate:外幣匯率-->
+<tr>
+<td>
+	<s:text name="pageBean.exchangeRate"/>
+	<s:textfield name="pageBean.exchangeRate" />
+</td>
+</tr>
+
+<!--fob:離岸價格-->
+<tr>
+<td>
+	<s:text name="pageBean.fob"/>
+	<s:textfield name="pageBean.fob" />
+</td>
+</tr>
+
+<!--transportId:出口船（機）代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.transportId"/>
+	<s:textfield name="pageBean.transportId" />
+</td>
+</tr>
+
+<!--voyagNo:船舶航次（海）/航機班次（空）-->
+<tr>
+<td>
+	<s:text name="pageBean.voyagNo"/>
+	<s:textfield name="pageBean.voyagNo" />
+</td>
+</tr>
+
+<!--totPackQty:總件數-->
+<tr>
+<td>
+	<s:text name="pageBean.totPackQty"/>
+	<s:textfield name="pageBean.totPackQty" />
+</td>
+</tr>
+
+<!--totPackUnit:總件數單位-->
+<tr>
+<td>
+	<s:text name="pageBean.totPackUnit"/>
+	<s:textfield name="pageBean.totPackUnit" />
+</td>
+</tr>
+
+<!--coPackNote:合成註記-->
+<tr>
+<td>
+	<s:text name="pageBean.coPackNote"/>
+	<s:textfield name="pageBean.coPackNote" />
+</td>
+</tr>
+
+<!--packDesc:包裝說明-->
+<tr>
+<td>
+	<s:text name="pageBean.packDesc"/>
+	<s:textfield name="pageBean.packDesc" />
+</td>
+</tr>
+
+<!--totGrossWeight:總毛重-->
+<tr>
+<td>
+	<s:text name="pageBean.totGrossWeight"/>
+	<s:textfield name="pageBean.totGrossWeight" />
+</td>
+</tr>
+
+<!--lisSts:簽證情形-->
+<tr>
+<td>
+	<s:text name="pageBean.lisSts"/>
+	<s:textfield name="pageBean.lisSts" />
+</td>
+</tr>
+
+<!--carrierAgencyType:運輸業者/代理行類別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.carrierAgencyType"/>
+	<s:textfield name="pageBean.carrierAgencyType" />
+</td>
+</tr>
+
+<!--uniNo:貨物唯一追蹤號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.uniNo"/>
+	<s:textfield name="pageBean.uniNo" />
+</td>
+</tr>
+
+<!--containerNoteNo:運送單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.containerNoteNo"/>
+	<s:textfield name="pageBean.containerNoteNo" />
+</td>
+</tr>
+
+<!--remarkDesc:標記-->
+<tr>
+<td>
+	<s:text name="pageBean.remarkDesc"/>
+	<s:textfield name="pageBean.remarkDesc" />
+</td>
+</tr>
+
+<!--examMethod:申請審驗方式-->
+<tr>
+<td>
+	<s:text name="pageBean.examMethod"/>
+	<s:textfield name="pageBean.examMethod" />
+</td>
+</tr>
+
+<!--attachDocNo1:檢附文件號碼1-->
+<tr>
+<td>
+	<s:text name="pageBean.attachDocNo1"/>
+	<s:textfield name="pageBean.attachDocNo1" />
+</td>
+</tr>
+
+<!--attachDocNo2:檢附文件號碼2-->
+<tr>
+<td>
+	<s:text name="pageBean.attachDocNo2"/>
+	<s:textfield name="pageBean.attachDocNo2" />
+</td>
+</tr>
+
+<!--attachDocNo3:檢附文件號碼3-->
+<tr>
+<td>
+	<s:text name="pageBean.attachDocNo3"/>
+	<s:textfield name="pageBean.attachDocNo3" />
+</td>
+</tr>
+
+<!--applCopyQty:申請報單副本件數-->
+<tr>
+<td>
+	<s:text name="pageBean.applCopyQty"/>
+	<s:textfield name="pageBean.applCopyQty" />
+</td>
+</tr>
+
+<!--materlSuppl:檢附外銷品使用原料及其供應商資料表-->
+<tr>
+<td>
+	<s:text name="pageBean.materlSuppl"/>
+	<s:textfield name="pageBean.materlSuppl" />
+</td>
+</tr>
+
+<!--inBwBan:進倉保稅倉庫業者統一編號-->
+<tr>
+<td>
+	<s:text name="pageBean.inBwBan"/>
+	<s:textfield name="pageBean.inBwBan" />
+</td>
+</tr>
+
+<!--outBwBan:出倉保稅倉庫業者統一編號-->
+<tr>
+<td>
+	<s:text name="pageBean.outBwBan"/>
+	<s:textfield name="pageBean.outBwBan" />
+</td>
+</tr>
+
+<!--bwIdenfier:保稅倉庫業者身分識別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.bwIdenfier"/>
+	<s:textfield name="pageBean.bwIdenfier" />
+</td>
+</tr>
+
+<!--inBwCd:進倉保稅倉庫代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.inBwCd"/>
+	<s:textfield name="pageBean.inBwCd" />
+</td>
+</tr>
+
+<!--outBwCd:出倉保稅倉庫代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.outBwCd"/>
+	<s:textfield name="pageBean.outBwCd" />
+</td>
+</tr>
+
+<!--bondGoodsRptMth:保稅貨物按月彙報月份-->
+<tr>
+<td>
+	<s:text name="pageBean.bondGoodsRptMth"/>
+	<s:textfield name="pageBean.bondGoodsRptMth" />
+</td>
+</tr>
+
+<!--tpRefNo:交易對方參考編號-->
+<tr>
+<td>
+	<s:text name="pageBean.tpRefNo"/>
+	<s:textfield name="pageBean.tpRefNo" />
+</td>
+</tr>
+
+<!--otherDesc1:其他申報事項1-->
+<tr>
+<td>
+	<s:text name="pageBean.otherDesc1"/>
+	<s:textfield name="pageBean.otherDesc1" />
+</td>
+</tr>
+
+<!--otherDesc2:其他申報事項2-->
+<tr>
+<td>
+	<s:text name="pageBean.otherDesc2"/>
+	<s:textfield name="pageBean.otherDesc2" />
+</td>
+</tr>
+
+<!--tradeFee:推貿費金額-->
+<tr>
+<td>
+	<s:text name="pageBean.tradeFee"/>
+	<s:textfield name="pageBean.tradeFee" />
+</td>
+</tr>
+
+<!--processStat:報單處理狀態-->
+<tr>
+<td>
+	<s:text name="pageBean.processStat"/>
+	<s:textfield name="pageBean.processStat" />
+</td>
+</tr>
+
+<!--dutyExempWavrNote:排除低價免稅註記-->
+<tr>
+<td>
+	<s:text name="pageBean.dutyExempWavrNote"/>
+	<s:textfield name="pageBean.dutyExempWavrNote" />
+</td>
+</tr>
+
+<!--permitNo:先稅後放核准案號-->
+<tr>
+<td>
+	<s:text name="pageBean.permitNo"/>
+	<s:textfield name="pageBean.permitNo" />
+</td>
+</tr>
+
+<!--brokerCname:報關行中文名稱-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerCname"/>
+	<s:textfield name="pageBean.brokerCname" />
+</td>
+</tr>
+
+<!--brokerEmpCname:專責人員姓名-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerEmpCname"/>
+	<s:textfield name="pageBean.brokerEmpCname" />
+</td>
+</tr>
+
+<!--taxAcntBsnsCod:營業稅記帳廠商編號-->
+<tr>
+<td>
+	<s:text name="pageBean.taxAcntBsnsCod"/>
+	<s:textfield name="pageBean.taxAcntBsnsCod" />
+</td>
+</tr>
+
+<!--remark1:備註1-->
+<tr>
+<td>
+	<s:text name="pageBean.remark1"/>
+	<s:textfield name="pageBean.remark1" />
+</td>
+</tr>
+
+<!--remark2:備註2-->
+<tr>
+<td>
+	<s:text name="pageBean.remark2"/>
+	<s:textfield name="pageBean.remark2" />
+</td>
+</tr>
+
+<!--remark3:備註3-->
+<tr>
+<td>
+	<s:text name="pageBean.remark3"/>
+	<s:textfield name="pageBean.remark3" />
+</td>
+</tr>
+
+<!--remark4:備註4-->
+<tr>
+<td>
+	<s:text name="pageBean.remark4"/>
+	<s:textfield name="pageBean.remark4" />
+</td>
+</tr>
+
+<!--remark5:備註5-->
+<tr>
+<td>
+	<s:text name="pageBean.remark5"/>
+	<s:textfield name="pageBean.remark5" />
+</td>
+</tr>
+
+<!--remark6:備註6-->
+<tr>
+<td>
+	<s:text name="pageBean.remark6"/>
+	<s:textfield name="pageBean.remark6" />
+</td>
+</tr>
+
+<!--remark7:備註7-->
+<tr>
+<td>
+	<s:text name="pageBean.remark7"/>
+	<s:textfield name="pageBean.remark7" />
+</td>
+</tr>
+
+<!--remark8:備註8-->
+<tr>
+<td>
+	<s:text name="pageBean.remark8"/>
+	<s:textfield name="pageBean.remark8" />
+</td>
+</tr>
+
+<!--remark9:備註9-->
+<tr>
+<td>
+	<s:text name="pageBean.remark9"/>
+	<s:textfield name="pageBean.remark9" />
+</td>
+</tr>
+
+<!--remark10:備註10-->
+<tr>
+<td>
+	<s:text name="pageBean.remark10"/>
+	<s:textfield name="pageBean.remark10" />
+</td>
+</tr>
+
+<!--upDate:更新日期-->
+<tr>
+<td>
+	<s:text name="pageBean.upDate"/>
+	<s:textfield name="pageBean.upDate" />
+</td>
+</tr>
+
+<!--upPerson:更新人員-->
+<tr>
+<td>
+	<s:text name="pageBean.upPerson"/>
+	<s:textfield name="pageBean.upPerson" />
+</td>
+</tr>
+
+<!--carrierAgencyId:運輸業者/代理行代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.carrierAgencyId"/>
+	<s:textfield name="pageBean.carrierAgencyId" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.seaAirType"/><!--seaAirType:海空運別-->
+<s:hidden name="pageBean.declType"/><!--declType:報單類別-->
+<s:hidden name="pageBean.functionCode"/><!--functionCode:訊息功能代碼-->
+<s:hidden name="pageBean.brokerBoxNo"/><!--brokerBoxNo:報關業者箱號-->
+<s:hidden name="pageBean.brokerBoxSubNo"/><!--brokerBoxSubNo:報關業者箱號附碼-->
+<s:hidden name="pageBean.brokerEmp"/><!--brokerEmp:專責報關人員代號-->
+<s:hidden name="pageBean.storWareCd1"/><!--storWareCd1:卸存地點代碼1-->
+<s:hidden name="pageBean.storWareCd2"/><!--storWareCd2:卸存地點代碼2-->
+<s:hidden name="pageBean.transportMode"/><!--transportMode:出口運輸方式代碼-->
+<s:hidden name="pageBean.refundNote"/><!--refundNote:申請沖退原料稅-->
+<s:hidden name="pageBean.payMethod"/><!--payMethod:海關稅費繳納方式代碼-->
+<s:hidden name="pageBean.vslRegNo"/><!--vslRegNo:海關通關號碼-->
+<s:hidden name="pageBean.soNo"/><!--soNo:裝貨單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.declDate"/><!--declDate:報關日期-->
+<s:hidden name="pageBean.portCd"/><!--portCd:裝貨港代碼-->
+<s:hidden name="pageBean.destCd"/><!--destCd:目的地代碼-->
+<s:hidden name="pageBean.deliveryDest"/><!--deliveryDest:運送抵達地-->
+<s:hidden name="pageBean.incoterms"/><!--incoterms:交易條件代碼-->
+<s:hidden name="pageBean.totInvAmt"/><!--totInvAmt:發票總金額-->
+<s:hidden name="pageBean.freight"/><!--freight:運費-->
+<s:hidden name="pageBean.insurance"/><!--insurance:保險費-->
+<s:hidden name="pageBean.additionalFee"/><!--additionalFee:應加費用-->
+<s:hidden name="pageBean.deductionFee"/><!--deductionFee:應減費用-->
+<s:hidden name="pageBean.currencyCd"/><!--currencyCd:幣別代碼-->
+<s:hidden name="pageBean.exchangeRate"/><!--exchangeRate:外幣匯率-->
+<s:hidden name="pageBean.fob"/><!--fob:離岸價格-->
+<s:hidden name="pageBean.transportId"/><!--transportId:出口船（機）代碼-->
+<s:hidden name="pageBean.voyagNo"/><!--voyagNo:船舶航次（海）/航機班次（空）-->
+<s:hidden name="pageBean.totPackQty"/><!--totPackQty:總件數-->
+<s:hidden name="pageBean.totPackUnit"/><!--totPackUnit:總件數單位-->
+<s:hidden name="pageBean.coPackNote"/><!--coPackNote:合成註記-->
+<s:hidden name="pageBean.packDesc"/><!--packDesc:包裝說明-->
+<s:hidden name="pageBean.totGrossWeight"/><!--totGrossWeight:總毛重-->
+<s:hidden name="pageBean.lisSts"/><!--lisSts:簽證情形-->
+<s:hidden name="pageBean.carrierAgencyType"/><!--carrierAgencyType:運輸業者/代理行類別代碼-->
+<s:hidden name="pageBean.uniNo"/><!--uniNo:貨物唯一追蹤號碼-->
+<s:hidden name="pageBean.containerNoteNo"/><!--containerNoteNo:運送單號碼-->
+<s:hidden name="pageBean.remarkDesc"/><!--remarkDesc:標記-->
+<s:hidden name="pageBean.examMethod"/><!--examMethod:申請審驗方式-->
+<s:hidden name="pageBean.attachDocNo1"/><!--attachDocNo1:檢附文件號碼1-->
+<s:hidden name="pageBean.attachDocNo2"/><!--attachDocNo2:檢附文件號碼2-->
+<s:hidden name="pageBean.attachDocNo3"/><!--attachDocNo3:檢附文件號碼3-->
+<s:hidden name="pageBean.applCopyQty"/><!--applCopyQty:申請報單副本件數-->
+<s:hidden name="pageBean.materlSuppl"/><!--materlSuppl:檢附外銷品使用原料及其供應商資料表-->
+<s:hidden name="pageBean.inBwBan"/><!--inBwBan:進倉保稅倉庫業者統一編號-->
+<s:hidden name="pageBean.outBwBan"/><!--outBwBan:出倉保稅倉庫業者統一編號-->
+<s:hidden name="pageBean.bwIdenfier"/><!--bwIdenfier:保稅倉庫業者身分識別代碼-->
+<s:hidden name="pageBean.inBwCd"/><!--inBwCd:進倉保稅倉庫代碼-->
+<s:hidden name="pageBean.outBwCd"/><!--outBwCd:出倉保稅倉庫代碼-->
+<s:hidden name="pageBean.bondGoodsRptMth"/><!--bondGoodsRptMth:保稅貨物按月彙報月份-->
+<s:hidden name="pageBean.tpRefNo"/><!--tpRefNo:交易對方參考編號-->
+<s:hidden name="pageBean.otherDesc1"/><!--otherDesc1:其他申報事項1-->
+<s:hidden name="pageBean.otherDesc2"/><!--otherDesc2:其他申報事項2-->
+<s:hidden name="pageBean.tradeFee"/><!--tradeFee:推貿費金額-->
+<s:hidden name="pageBean.processStat"/><!--processStat:報單處理狀態-->
+<s:hidden name="pageBean.dutyExempWavrNote"/><!--dutyExempWavrNote:排除低價免稅註記-->
+<s:hidden name="pageBean.permitNo"/><!--permitNo:先稅後放核准案號-->
+<s:hidden name="pageBean.brokerCname"/><!--brokerCname:報關行中文名稱-->
+<s:hidden name="pageBean.brokerEmpCname"/><!--brokerEmpCname:專責人員姓名-->
+<s:hidden name="pageBean.taxAcntBsnsCod"/><!--taxAcntBsnsCod:營業稅記帳廠商編號-->
+<s:hidden name="pageBean.remark1"/><!--remark1:備註1-->
+<s:hidden name="pageBean.remark2"/><!--remark2:備註2-->
+<s:hidden name="pageBean.remark3"/><!--remark3:備註3-->
+<s:hidden name="pageBean.remark4"/><!--remark4:備註4-->
+<s:hidden name="pageBean.remark5"/><!--remark5:備註5-->
+<s:hidden name="pageBean.remark6"/><!--remark6:備註6-->
+<s:hidden name="pageBean.remark7"/><!--remark7:備註7-->
+<s:hidden name="pageBean.remark8"/><!--remark8:備註8-->
+<s:hidden name="pageBean.remark9"/><!--remark9:備註9-->
+<s:hidden name="pageBean.remark10"/><!--remark10:備註10-->
+<s:hidden name="pageBean.upDate"/><!--upDate:更新日期-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:更新人員-->
+<s:hidden name="pageBean.carrierAgencyId"/><!--carrierAgencyId:運輸業者/代理行代碼-->
+
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SEA_AIR_TYPE:海空運別:seaAirType--%>
+<sjg:gridColumn name="SEA_AIR_TYPE" index="SEA_AIR_TYPE" title="%{getText('seaAirType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_TYPE:報單類別:declType--%>
+<sjg:gridColumn name="DECL_TYPE" index="DECL_TYPE" title="%{getText('declType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FUNCTION_CODE:訊息功能代碼:functionCode--%>
+<sjg:gridColumn name="FUNCTION_CODE" index="FUNCTION_CODE" title="%{getText('functionCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關業者箱號:brokerBoxNo--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_SUB_NO:報關業者箱號附碼:brokerBoxSubNo--%>
+<sjg:gridColumn name="BROKER_BOX_SUB_NO" index="BROKER_BOX_SUB_NO" title="%{getText('brokerBoxSubNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_EMP:專責報關人員代號:brokerEmp--%>
+<sjg:gridColumn name="BROKER_EMP" index="BROKER_EMP" title="%{getText('brokerEmp')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STOR_WARE_CD1:卸存地點代碼1:storWareCd1--%>
+<sjg:gridColumn name="STOR_WARE_CD1" index="STOR_WARE_CD1" title="%{getText('storWareCd1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STOR_WARE_CD2:卸存地點代碼2:storWareCd2--%>
+<sjg:gridColumn name="STOR_WARE_CD2" index="STOR_WARE_CD2" title="%{getText('storWareCd2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANSPORT_MODE:出口運輸方式代碼:transportMode--%>
+<sjg:gridColumn name="TRANSPORT_MODE" index="TRANSPORT_MODE" title="%{getText('transportMode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REFUND_NOTE:申請沖退原料稅:refundNote--%>
+<sjg:gridColumn name="REFUND_NOTE" index="REFUND_NOTE" title="%{getText('refundNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PAY_METHOD:海關稅費繳納方式代碼:payMethod--%>
+<sjg:gridColumn name="PAY_METHOD" index="PAY_METHOD" title="%{getText('payMethod')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VSL_REG_NO:海關通關號碼:vslRegNo--%>
+<sjg:gridColumn name="VSL_REG_NO" index="VSL_REG_NO" title="%{getText('vslRegNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SO_NO:裝貨單號碼:soNo--%>
+<sjg:gridColumn name="SO_NO" index="SO_NO" title="%{getText('soNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_DATE:報關日期:declDate--%>
+<sjg:gridColumn name="DECL_DATE" index="DECL_DATE" title="%{getText('declDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PORT_CD:裝貨港代碼:portCd--%>
+<sjg:gridColumn name="PORT_CD" index="PORT_CD" title="%{getText('portCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEST_CD:目的地代碼:destCd--%>
+<sjg:gridColumn name="DEST_CD" index="DEST_CD" title="%{getText('destCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DELIVERY_DEST:運送抵達地:deliveryDest--%>
+<sjg:gridColumn name="DELIVERY_DEST" index="DELIVERY_DEST" title="%{getText('deliveryDest')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--INCOTERMS:交易條件代碼:incoterms--%>
+<sjg:gridColumn name="INCOTERMS" index="INCOTERMS" title="%{getText('incoterms')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_INV_AMT:發票總金額:totInvAmt--%>
+<sjg:gridColumn name="TOT_INV_AMT" index="TOT_INV_AMT" title="%{getText('totInvAmt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FREIGHT:運費:freight--%>
+<sjg:gridColumn name="FREIGHT" index="FREIGHT" title="%{getText('freight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--INSURANCE:保險費:insurance--%>
+<sjg:gridColumn name="INSURANCE" index="INSURANCE" title="%{getText('insurance')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ADDITIONAL_FEE:應加費用:additionalFee--%>
+<sjg:gridColumn name="ADDITIONAL_FEE" index="ADDITIONAL_FEE" title="%{getText('additionalFee')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEDUCTION_FEE:應減費用:deductionFee--%>
+<sjg:gridColumn name="DEDUCTION_FEE" index="DEDUCTION_FEE" title="%{getText('deductionFee')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CURRENCY_CD:幣別代碼:currencyCd--%>
+<sjg:gridColumn name="CURRENCY_CD" index="CURRENCY_CD" title="%{getText('currencyCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXCHANGE_RATE:外幣匯率:exchangeRate--%>
+<sjg:gridColumn name="EXCHANGE_RATE" index="EXCHANGE_RATE" title="%{getText('exchangeRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FOB:離岸價格:fob--%>
+<sjg:gridColumn name="FOB" index="FOB" title="%{getText('fob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANSPORT_ID:出口船（機）代碼:transportId--%>
+<sjg:gridColumn name="TRANSPORT_ID" index="TRANSPORT_ID" title="%{getText('transportId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VOYAG_NO:船舶航次（海）/航機班次（空）:voyagNo--%>
+<sjg:gridColumn name="VOYAG_NO" index="VOYAG_NO" title="%{getText('voyagNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_PACK_QTY:總件數:totPackQty--%>
+<sjg:gridColumn name="TOT_PACK_QTY" index="TOT_PACK_QTY" title="%{getText('totPackQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_PACK_UNIT:總件數單位:totPackUnit--%>
+<sjg:gridColumn name="TOT_PACK_UNIT" index="TOT_PACK_UNIT" title="%{getText('totPackUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CO_PACK_NOTE:合成註記:coPackNote--%>
+<sjg:gridColumn name="CO_PACK_NOTE" index="CO_PACK_NOTE" title="%{getText('coPackNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACK_DESC:包裝說明:packDesc--%>
+<sjg:gridColumn name="PACK_DESC" index="PACK_DESC" title="%{getText('packDesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_GROSS_WEIGHT:總毛重:totGrossWeight--%>
+<sjg:gridColumn name="TOT_GROSS_WEIGHT" index="TOT_GROSS_WEIGHT" title="%{getText('totGrossWeight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LIS_STS:簽證情形:lisSts--%>
+<sjg:gridColumn name="LIS_STS" index="LIS_STS" title="%{getText('lisSts')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CARRIER_AGENCY_TYPE:運輸業者/代理行類別代碼:carrierAgencyType--%>
+<sjg:gridColumn name="CARRIER_AGENCY_TYPE" index="CARRIER_AGENCY_TYPE" title="%{getText('carrierAgencyType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UNI_NO:貨物唯一追蹤號碼:uniNo--%>
+<sjg:gridColumn name="UNI_NO" index="UNI_NO" title="%{getText('uniNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONTAINER_NOTE_NO:運送單號碼:containerNoteNo--%>
+<sjg:gridColumn name="CONTAINER_NOTE_NO" index="CONTAINER_NOTE_NO" title="%{getText('containerNoteNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK_DESC:標記:remarkDesc--%>
+<sjg:gridColumn name="REMARK_DESC" index="REMARK_DESC" title="%{getText('remarkDesc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXAM_METHOD:申請審驗方式:examMethod--%>
+<sjg:gridColumn name="EXAM_METHOD" index="EXAM_METHOD" title="%{getText('examMethod')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ATTACH_DOC_NO1:檢附文件號碼1:attachDocNo1--%>
+<sjg:gridColumn name="ATTACH_DOC_NO1" index="ATTACH_DOC_NO1" title="%{getText('attachDocNo1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ATTACH_DOC_NO2:檢附文件號碼2:attachDocNo2--%>
+<sjg:gridColumn name="ATTACH_DOC_NO2" index="ATTACH_DOC_NO2" title="%{getText('attachDocNo2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ATTACH_DOC_NO3:檢附文件號碼3:attachDocNo3--%>
+<sjg:gridColumn name="ATTACH_DOC_NO3" index="ATTACH_DOC_NO3" title="%{getText('attachDocNo3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--APPL_COPY_QTY:申請報單副本件數:applCopyQty--%>
+<sjg:gridColumn name="APPL_COPY_QTY" index="APPL_COPY_QTY" title="%{getText('applCopyQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MATERL_SUPPL:檢附外銷品使用原料及其供應商資料表:materlSuppl--%>
+<sjg:gridColumn name="MATERL_SUPPL" index="MATERL_SUPPL" title="%{getText('materlSuppl')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IN_BW_BAN:進倉保稅倉庫業者統一編號:inBwBan--%>
+<sjg:gridColumn name="IN_BW_BAN" index="IN_BW_BAN" title="%{getText('inBwBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OUT_BW_BAN:出倉保稅倉庫業者統一編號:outBwBan--%>
+<sjg:gridColumn name="OUT_BW_BAN" index="OUT_BW_BAN" title="%{getText('outBwBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BW_IDENFIER:保稅倉庫業者身分識別代碼:bwIdenfier--%>
+<sjg:gridColumn name="BW_IDENFIER" index="BW_IDENFIER" title="%{getText('bwIdenfier')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IN_BW_CD:進倉保稅倉庫代碼:inBwCd--%>
+<sjg:gridColumn name="IN_BW_CD" index="IN_BW_CD" title="%{getText('inBwCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OUT_BW_CD:出倉保稅倉庫代碼:outBwCd--%>
+<sjg:gridColumn name="OUT_BW_CD" index="OUT_BW_CD" title="%{getText('outBwCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BOND_GOODS_RPT_MTH:保稅貨物按月彙報月份:bondGoodsRptMth--%>
+<sjg:gridColumn name="BOND_GOODS_RPT_MTH" index="BOND_GOODS_RPT_MTH" title="%{getText('bondGoodsRptMth')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TP_REF_NO:交易對方參考編號:tpRefNo--%>
+<sjg:gridColumn name="TP_REF_NO" index="TP_REF_NO" title="%{getText('tpRefNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_DESC_1:其他申報事項1:otherDesc1--%>
+<sjg:gridColumn name="OTHER_DESC_1" index="OTHER_DESC_1" title="%{getText('otherDesc1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--OTHER_DESC_2:其他申報事項2:otherDesc2--%>
+<sjg:gridColumn name="OTHER_DESC_2" index="OTHER_DESC_2" title="%{getText('otherDesc2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRADE_FEE:推貿費金額:tradeFee--%>
+<sjg:gridColumn name="TRADE_FEE" index="TRADE_FEE" title="%{getText('tradeFee')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_STAT:報單處理狀態:processStat--%>
+<sjg:gridColumn name="PROCESS_STAT" index="PROCESS_STAT" title="%{getText('processStat')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DUTY_EXEMP_WAVR_NOTE:排除低價免稅註記:dutyExempWavrNote--%>
+<sjg:gridColumn name="DUTY_EXEMP_WAVR_NOTE" index="DUTY_EXEMP_WAVR_NOTE" title="%{getText('dutyExempWavrNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERMIT_NO:先稅後放核准案號:permitNo--%>
+<sjg:gridColumn name="PERMIT_NO" index="PERMIT_NO" title="%{getText('permitNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_CNAME:報關行中文名稱:brokerCname--%>
+<sjg:gridColumn name="BROKER_CNAME" index="BROKER_CNAME" title="%{getText('brokerCname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_EMP_CNAME:專責人員姓名:brokerEmpCname--%>
+<sjg:gridColumn name="BROKER_EMP_CNAME" index="BROKER_EMP_CNAME" title="%{getText('brokerEmpCname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TAX_ACNT_BSNS_COD:營業稅記帳廠商編號:taxAcntBsnsCod--%>
+<sjg:gridColumn name="TAX_ACNT_BSNS_COD" index="TAX_ACNT_BSNS_COD" title="%{getText('taxAcntBsnsCod')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK1:備註1:remark1--%>
+<sjg:gridColumn name="REMARK1" index="REMARK1" title="%{getText('remark1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK2:備註2:remark2--%>
+<sjg:gridColumn name="REMARK2" index="REMARK2" title="%{getText('remark2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK3:備註3:remark3--%>
+<sjg:gridColumn name="REMARK3" index="REMARK3" title="%{getText('remark3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK4:備註4:remark4--%>
+<sjg:gridColumn name="REMARK4" index="REMARK4" title="%{getText('remark4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK5:備註5:remark5--%>
+<sjg:gridColumn name="REMARK5" index="REMARK5" title="%{getText('remark5')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK6:備註6:remark6--%>
+<sjg:gridColumn name="REMARK6" index="REMARK6" title="%{getText('remark6')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK7:備註7:remark7--%>
+<sjg:gridColumn name="REMARK7" index="REMARK7" title="%{getText('remark7')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK8:備註8:remark8--%>
+<sjg:gridColumn name="REMARK8" index="REMARK8" title="%{getText('remark8')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK9:備註9:remark9--%>
+<sjg:gridColumn name="REMARK9" index="REMARK9" title="%{getText('remark9')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK10:備註10:remark10--%>
+<sjg:gridColumn name="REMARK10" index="REMARK10" title="%{getText('remark10')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:更新日期:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:更新人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CARRIER_AGENCY_ID:運輸業者/代理行代碼:carrierAgencyId--%>
+<sjg:gridColumn name="CARRIER_AGENCY_ID" index="CARRIER_AGENCY_ID" title="%{getText('carrierAgencyId')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.DECL_NO
+,A.SEA_AIR_TYPE
+,A.DECL_TYPE
+,A.FUNCTION_CODE
+,A.BROKER_BOX_NO
+,A.BROKER_BOX_SUB_NO
+,A.BROKER_EMP
+,A.STOR_WARE_CD1
+,A.STOR_WARE_CD2
+,A.TRANSPORT_MODE
+,A.REFUND_NOTE
+,A.PAY_METHOD
+,A.VSL_REG_NO
+,A.SO_NO
+,A.MAWB
+,A.HAWB
+,A.DECL_DATE
+,A.PORT_CD
+,A.DEST_CD
+,A.DELIVERY_DEST
+,A.INCOTERMS
+,A.TOT_INV_AMT
+,A.FREIGHT
+,A.INSURANCE
+,A.ADDITIONAL_FEE
+,A.DEDUCTION_FEE
+,A.CURRENCY_CD
+,A.EXCHANGE_RATE
+,A.FOB
+,A.TRANSPORT_ID
+,A.VOYAG_NO
+,A.TOT_PACK_QTY
+,A.TOT_PACK_UNIT
+,A.CO_PACK_NOTE
+,A.PACK_DESC
+,A.TOT_GROSS_WEIGHT
+,A.LIS_STS
+,A.CARRIER_AGENCY_TYPE
+,A.UNI_NO
+,A.CONTAINER_NOTE_NO
+,A.REMARK_DESC
+,A.EXAM_METHOD
+,A.ATTACH_DOC_NO1
+,A.ATTACH_DOC_NO2
+,A.ATTACH_DOC_NO3
+,A.APPL_COPY_QTY
+,A.MATERL_SUPPL
+,A.IN_BW_BAN
+,A.OUT_BW_BAN
+,A.BW_IDENFIER
+,A.IN_BW_CD
+,A.OUT_BW_CD
+,A.BOND_GOODS_RPT_MTH
+,A.TP_REF_NO
+,A.OTHER_DESC_1
+,A.OTHER_DESC_2
+,A.TRADE_FEE
+,A.PROCESS_STAT
+,A.DUTY_EXEMP_WAVR_NOTE
+,A.PERMIT_NO
+,A.BROKER_CNAME
+,A.BROKER_EMP_CNAME
+,A.TAX_ACNT_BSNS_COD
+,A.REMARK1
+,A.REMARK2
+,A.REMARK3
+,A.REMARK4
+,A.REMARK5
+,A.REMARK6
+,A.REMARK7
+,A.REMARK8
+,A.REMARK9
+,A.REMARK10
+,A.UP_DATE
+,A.UP_PERSON
+,A.CARRIER_AGENCY_ID
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="SEA_AIR_TYPE" ignoreEmpty="true">SEA_AIR_TYPE = ${SEA_AIR_TYPE}</condition>
+<condition key="DECL_TYPE" ignoreEmpty="true">DECL_TYPE = ${DECL_TYPE}</condition>
+<condition key="FUNCTION_CODE" ignoreEmpty="true">FUNCTION_CODE = ${FUNCTION_CODE}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true">BROKER_BOX_NO = ${BROKER_BOX_NO}</condition>
+<condition key="BROKER_BOX_SUB_NO" ignoreEmpty="true">BROKER_BOX_SUB_NO = ${BROKER_BOX_SUB_NO}</condition>
+<condition key="BROKER_EMP" ignoreEmpty="true">BROKER_EMP = ${BROKER_EMP}</condition>
+<condition key="STOR_WARE_CD1" ignoreEmpty="true">STOR_WARE_CD1 = ${STOR_WARE_CD1}</condition>
+<condition key="STOR_WARE_CD2" ignoreEmpty="true">STOR_WARE_CD2 = ${STOR_WARE_CD2}</condition>
+<condition key="TRANSPORT_MODE" ignoreEmpty="true">TRANSPORT_MODE = ${TRANSPORT_MODE}</condition>
+<condition key="REFUND_NOTE" ignoreEmpty="true">REFUND_NOTE = ${REFUND_NOTE}</condition>
+<condition key="PAY_METHOD" ignoreEmpty="true">PAY_METHOD = ${PAY_METHOD}</condition>
+<condition key="VSL_REG_NO" ignoreEmpty="true">VSL_REG_NO = ${VSL_REG_NO}</condition>
+<condition key="SO_NO" ignoreEmpty="true">SO_NO = ${SO_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="DECL_DATE" ignoreEmpty="true">DECL_DATE = ${DECL_DATE}</condition>
+<condition key="PORT_CD" ignoreEmpty="true">PORT_CD = ${PORT_CD}</condition>
+<condition key="DEST_CD" ignoreEmpty="true">DEST_CD = ${DEST_CD}</condition>
+<condition key="DELIVERY_DEST" ignoreEmpty="true">DELIVERY_DEST = ${DELIVERY_DEST}</condition>
+<condition key="INCOTERMS" ignoreEmpty="true">INCOTERMS = ${INCOTERMS}</condition>
+<condition key="TOT_INV_AMT" ignoreEmpty="true">TOT_INV_AMT = ${TOT_INV_AMT}</condition>
+<condition key="FREIGHT" ignoreEmpty="true">FREIGHT = ${FREIGHT}</condition>
+<condition key="INSURANCE" ignoreEmpty="true">INSURANCE = ${INSURANCE}</condition>
+<condition key="ADDITIONAL_FEE" ignoreEmpty="true">ADDITIONAL_FEE = ${ADDITIONAL_FEE}</condition>
+<condition key="DEDUCTION_FEE" ignoreEmpty="true">DEDUCTION_FEE = ${DEDUCTION_FEE}</condition>
+<condition key="CURRENCY_CD" ignoreEmpty="true">CURRENCY_CD = ${CURRENCY_CD}</condition>
+<condition key="EXCHANGE_RATE" ignoreEmpty="true">EXCHANGE_RATE = ${EXCHANGE_RATE}</condition>
+<condition key="FOB" ignoreEmpty="true">FOB = ${FOB}</condition>
+<condition key="TRANSPORT_ID" ignoreEmpty="true">TRANSPORT_ID = ${TRANSPORT_ID}</condition>
+<condition key="VOYAG_NO" ignoreEmpty="true">VOYAG_NO = ${VOYAG_NO}</condition>
+<condition key="TOT_PACK_QTY" ignoreEmpty="true">TOT_PACK_QTY = ${TOT_PACK_QTY}</condition>
+<condition key="TOT_PACK_UNIT" ignoreEmpty="true">TOT_PACK_UNIT = ${TOT_PACK_UNIT}</condition>
+<condition key="CO_PACK_NOTE" ignoreEmpty="true">CO_PACK_NOTE = ${CO_PACK_NOTE}</condition>
+<condition key="PACK_DESC" ignoreEmpty="true">PACK_DESC = ${PACK_DESC}</condition>
+<condition key="TOT_GROSS_WEIGHT" ignoreEmpty="true">TOT_GROSS_WEIGHT = ${TOT_GROSS_WEIGHT}</condition>
+<condition key="LIS_STS" ignoreEmpty="true">LIS_STS = ${LIS_STS}</condition>
+<condition key="CARRIER_AGENCY_TYPE" ignoreEmpty="true">CARRIER_AGENCY_TYPE = ${CARRIER_AGENCY_TYPE}</condition>
+<condition key="UNI_NO" ignoreEmpty="true">UNI_NO = ${UNI_NO}</condition>
+<condition key="CONTAINER_NOTE_NO" ignoreEmpty="true">CONTAINER_NOTE_NO = ${CONTAINER_NOTE_NO}</condition>
+<condition key="REMARK_DESC" ignoreEmpty="true">REMARK_DESC = ${REMARK_DESC}</condition>
+<condition key="EXAM_METHOD" ignoreEmpty="true">EXAM_METHOD = ${EXAM_METHOD}</condition>
+<condition key="ATTACH_DOC_NO1" ignoreEmpty="true">ATTACH_DOC_NO1 = ${ATTACH_DOC_NO1}</condition>
+<condition key="ATTACH_DOC_NO2" ignoreEmpty="true">ATTACH_DOC_NO2 = ${ATTACH_DOC_NO2}</condition>
+<condition key="ATTACH_DOC_NO3" ignoreEmpty="true">ATTACH_DOC_NO3 = ${ATTACH_DOC_NO3}</condition>
+<condition key="APPL_COPY_QTY" ignoreEmpty="true">APPL_COPY_QTY = ${APPL_COPY_QTY}</condition>
+<condition key="MATERL_SUPPL" ignoreEmpty="true">MATERL_SUPPL = ${MATERL_SUPPL}</condition>
+<condition key="IN_BW_BAN" ignoreEmpty="true">IN_BW_BAN = ${IN_BW_BAN}</condition>
+<condition key="OUT_BW_BAN" ignoreEmpty="true">OUT_BW_BAN = ${OUT_BW_BAN}</condition>
+<condition key="BW_IDENFIER" ignoreEmpty="true">BW_IDENFIER = ${BW_IDENFIER}</condition>
+<condition key="IN_BW_CD" ignoreEmpty="true">IN_BW_CD = ${IN_BW_CD}</condition>
+<condition key="OUT_BW_CD" ignoreEmpty="true">OUT_BW_CD = ${OUT_BW_CD}</condition>
+<condition key="BOND_GOODS_RPT_MTH" ignoreEmpty="true">BOND_GOODS_RPT_MTH = ${BOND_GOODS_RPT_MTH}</condition>
+<condition key="TP_REF_NO" ignoreEmpty="true">TP_REF_NO = ${TP_REF_NO}</condition>
+<condition key="OTHER_DESC_1" ignoreEmpty="true">OTHER_DESC_1 = ${OTHER_DESC_1}</condition>
+<condition key="OTHER_DESC_2" ignoreEmpty="true">OTHER_DESC_2 = ${OTHER_DESC_2}</condition>
+<condition key="TRADE_FEE" ignoreEmpty="true">TRADE_FEE = ${TRADE_FEE}</condition>
+<condition key="PROCESS_STAT" ignoreEmpty="true">PROCESS_STAT = ${PROCESS_STAT}</condition>
+<condition key="DUTY_EXEMP_WAVR_NOTE" ignoreEmpty="true">DUTY_EXEMP_WAVR_NOTE = ${DUTY_EXEMP_WAVR_NOTE}</condition>
+<condition key="PERMIT_NO" ignoreEmpty="true">PERMIT_NO = ${PERMIT_NO}</condition>
+<condition key="BROKER_CNAME" ignoreEmpty="true">BROKER_CNAME = ${BROKER_CNAME}</condition>
+<condition key="BROKER_EMP_CNAME" ignoreEmpty="true">BROKER_EMP_CNAME = ${BROKER_EMP_CNAME}</condition>
+<condition key="TAX_ACNT_BSNS_COD" ignoreEmpty="true">TAX_ACNT_BSNS_COD = ${TAX_ACNT_BSNS_COD}</condition>
+<condition key="REMARK1" ignoreEmpty="true">REMARK1 = ${REMARK1}</condition>
+<condition key="REMARK2" ignoreEmpty="true">REMARK2 = ${REMARK2}</condition>
+<condition key="REMARK3" ignoreEmpty="true">REMARK3 = ${REMARK3}</condition>
+<condition key="REMARK4" ignoreEmpty="true">REMARK4 = ${REMARK4}</condition>
+<condition key="REMARK5" ignoreEmpty="true">REMARK5 = ${REMARK5}</condition>
+<condition key="REMARK6" ignoreEmpty="true">REMARK6 = ${REMARK6}</condition>
+<condition key="REMARK7" ignoreEmpty="true">REMARK7 = ${REMARK7}</condition>
+<condition key="REMARK8" ignoreEmpty="true">REMARK8 = ${REMARK8}</condition>
+<condition key="REMARK9" ignoreEmpty="true">REMARK9 = ${REMARK9}</condition>
+<condition key="REMARK10" ignoreEmpty="true">REMARK10 = ${REMARK10}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="CARRIER_AGENCY_ID" ignoreEmpty="true">CARRIER_AGENCY_ID = ${CARRIER_AGENCY_ID}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="SEA_AIR_TYPE_S" ignoreEmpty="true">SEA_AIR_TYPE >= ${SEA_AIR_TYPE_S}</condition><condition key="SEA_AIR_TYPE_E" ignoreEmpty="true">${SEA_AIR_TYPE_E} >= SEA_AIR_TYPE</condition><condition key="SEA_AIR_TYPE_L" ignoreEmpty="true">SEA_AIR_TYPE like ${SEA_AIR_TYPE_L}</condition>
+<condition key="DECL_TYPE_S" ignoreEmpty="true">DECL_TYPE >= ${DECL_TYPE_S}</condition><condition key="DECL_TYPE_E" ignoreEmpty="true">${DECL_TYPE_E} >= DECL_TYPE</condition><condition key="DECL_TYPE_L" ignoreEmpty="true">DECL_TYPE like ${DECL_TYPE_L}</condition>
+<condition key="FUNCTION_CODE_S" ignoreEmpty="true">FUNCTION_CODE >= ${FUNCTION_CODE_S}</condition><condition key="FUNCTION_CODE_E" ignoreEmpty="true">${FUNCTION_CODE_E} >= FUNCTION_CODE</condition><condition key="FUNCTION_CODE_L" ignoreEmpty="true">FUNCTION_CODE like ${FUNCTION_CODE_L}</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true">BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true">${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition><condition key="BROKER_BOX_NO_L" ignoreEmpty="true">BROKER_BOX_NO like ${BROKER_BOX_NO_L}</condition>
+<condition key="BROKER_BOX_SUB_NO_S" ignoreEmpty="true">BROKER_BOX_SUB_NO >= ${BROKER_BOX_SUB_NO_S}</condition><condition key="BROKER_BOX_SUB_NO_E" ignoreEmpty="true">${BROKER_BOX_SUB_NO_E} >= BROKER_BOX_SUB_NO</condition><condition key="BROKER_BOX_SUB_NO_L" ignoreEmpty="true">BROKER_BOX_SUB_NO like ${BROKER_BOX_SUB_NO_L}</condition>
+<condition key="BROKER_EMP_S" ignoreEmpty="true">BROKER_EMP >= ${BROKER_EMP_S}</condition><condition key="BROKER_EMP_E" ignoreEmpty="true">${BROKER_EMP_E} >= BROKER_EMP</condition><condition key="BROKER_EMP_L" ignoreEmpty="true">BROKER_EMP like ${BROKER_EMP_L}</condition>
+<condition key="STOR_WARE_CD1_S" ignoreEmpty="true">STOR_WARE_CD1 >= ${STOR_WARE_CD1_S}</condition><condition key="STOR_WARE_CD1_E" ignoreEmpty="true">${STOR_WARE_CD1_E} >= STOR_WARE_CD1</condition><condition key="STOR_WARE_CD1_L" ignoreEmpty="true">STOR_WARE_CD1 like ${STOR_WARE_CD1_L}</condition>
+<condition key="STOR_WARE_CD2_S" ignoreEmpty="true">STOR_WARE_CD2 >= ${STOR_WARE_CD2_S}</condition><condition key="STOR_WARE_CD2_E" ignoreEmpty="true">${STOR_WARE_CD2_E} >= STOR_WARE_CD2</condition><condition key="STOR_WARE_CD2_L" ignoreEmpty="true">STOR_WARE_CD2 like ${STOR_WARE_CD2_L}</condition>
+<condition key="TRANSPORT_MODE_S" ignoreEmpty="true">TRANSPORT_MODE >= ${TRANSPORT_MODE_S}</condition><condition key="TRANSPORT_MODE_E" ignoreEmpty="true">${TRANSPORT_MODE_E} >= TRANSPORT_MODE</condition><condition key="TRANSPORT_MODE_L" ignoreEmpty="true">TRANSPORT_MODE like ${TRANSPORT_MODE_L}</condition>
+<condition key="REFUND_NOTE_S" ignoreEmpty="true">REFUND_NOTE >= ${REFUND_NOTE_S}</condition><condition key="REFUND_NOTE_E" ignoreEmpty="true">${REFUND_NOTE_E} >= REFUND_NOTE</condition><condition key="REFUND_NOTE_L" ignoreEmpty="true">REFUND_NOTE like ${REFUND_NOTE_L}</condition>
+<condition key="PAY_METHOD_S" ignoreEmpty="true">PAY_METHOD >= ${PAY_METHOD_S}</condition><condition key="PAY_METHOD_E" ignoreEmpty="true">${PAY_METHOD_E} >= PAY_METHOD</condition><condition key="PAY_METHOD_L" ignoreEmpty="true">PAY_METHOD like ${PAY_METHOD_L}</condition>
+<condition key="VSL_REG_NO_S" ignoreEmpty="true">VSL_REG_NO >= ${VSL_REG_NO_S}</condition><condition key="VSL_REG_NO_E" ignoreEmpty="true">${VSL_REG_NO_E} >= VSL_REG_NO</condition><condition key="VSL_REG_NO_L" ignoreEmpty="true">VSL_REG_NO like ${VSL_REG_NO_L}</condition>
+<condition key="SO_NO_S" ignoreEmpty="true">SO_NO >= ${SO_NO_S}</condition><condition key="SO_NO_E" ignoreEmpty="true">${SO_NO_E} >= SO_NO</condition><condition key="SO_NO_L" ignoreEmpty="true">SO_NO like ${SO_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="DECL_DATE_S" ignoreEmpty="true">DECL_DATE >= ${DECL_DATE_S}</condition><condition key="DECL_DATE_E" ignoreEmpty="true">${DECL_DATE_E} >= DECL_DATE</condition><condition key="DECL_DATE_L" ignoreEmpty="true">DECL_DATE like ${DECL_DATE_L}</condition>
+<condition key="PORT_CD_S" ignoreEmpty="true">PORT_CD >= ${PORT_CD_S}</condition><condition key="PORT_CD_E" ignoreEmpty="true">${PORT_CD_E} >= PORT_CD</condition><condition key="PORT_CD_L" ignoreEmpty="true">PORT_CD like ${PORT_CD_L}</condition>
+<condition key="DEST_CD_S" ignoreEmpty="true">DEST_CD >= ${DEST_CD_S}</condition><condition key="DEST_CD_E" ignoreEmpty="true">${DEST_CD_E} >= DEST_CD</condition><condition key="DEST_CD_L" ignoreEmpty="true">DEST_CD like ${DEST_CD_L}</condition>
+<condition key="DELIVERY_DEST_S" ignoreEmpty="true">DELIVERY_DEST >= ${DELIVERY_DEST_S}</condition><condition key="DELIVERY_DEST_E" ignoreEmpty="true">${DELIVERY_DEST_E} >= DELIVERY_DEST</condition><condition key="DELIVERY_DEST_L" ignoreEmpty="true">DELIVERY_DEST like ${DELIVERY_DEST_L}</condition>
+<condition key="INCOTERMS_S" ignoreEmpty="true">INCOTERMS >= ${INCOTERMS_S}</condition><condition key="INCOTERMS_E" ignoreEmpty="true">${INCOTERMS_E} >= INCOTERMS</condition><condition key="INCOTERMS_L" ignoreEmpty="true">INCOTERMS like ${INCOTERMS_L}</condition>
+<condition key="TOT_INV_AMT_S" ignoreEmpty="true">TOT_INV_AMT >= ${TOT_INV_AMT_S}</condition><condition key="TOT_INV_AMT_E" ignoreEmpty="true">${TOT_INV_AMT_E} >= TOT_INV_AMT</condition><condition key="TOT_INV_AMT_L" ignoreEmpty="true">TOT_INV_AMT like ${TOT_INV_AMT_L}</condition>
+<condition key="FREIGHT_S" ignoreEmpty="true">FREIGHT >= ${FREIGHT_S}</condition><condition key="FREIGHT_E" ignoreEmpty="true">${FREIGHT_E} >= FREIGHT</condition><condition key="FREIGHT_L" ignoreEmpty="true">FREIGHT like ${FREIGHT_L}</condition>
+<condition key="INSURANCE_S" ignoreEmpty="true">INSURANCE >= ${INSURANCE_S}</condition><condition key="INSURANCE_E" ignoreEmpty="true">${INSURANCE_E} >= INSURANCE</condition><condition key="INSURANCE_L" ignoreEmpty="true">INSURANCE like ${INSURANCE_L}</condition>
+<condition key="ADDITIONAL_FEE_S" ignoreEmpty="true">ADDITIONAL_FEE >= ${ADDITIONAL_FEE_S}</condition><condition key="ADDITIONAL_FEE_E" ignoreEmpty="true">${ADDITIONAL_FEE_E} >= ADDITIONAL_FEE</condition><condition key="ADDITIONAL_FEE_L" ignoreEmpty="true">ADDITIONAL_FEE like ${ADDITIONAL_FEE_L}</condition>
+<condition key="DEDUCTION_FEE_S" ignoreEmpty="true">DEDUCTION_FEE >= ${DEDUCTION_FEE_S}</condition><condition key="DEDUCTION_FEE_E" ignoreEmpty="true">${DEDUCTION_FEE_E} >= DEDUCTION_FEE</condition><condition key="DEDUCTION_FEE_L" ignoreEmpty="true">DEDUCTION_FEE like ${DEDUCTION_FEE_L}</condition>
+<condition key="CURRENCY_CD_S" ignoreEmpty="true">CURRENCY_CD >= ${CURRENCY_CD_S}</condition><condition key="CURRENCY_CD_E" ignoreEmpty="true">${CURRENCY_CD_E} >= CURRENCY_CD</condition><condition key="CURRENCY_CD_L" ignoreEmpty="true">CURRENCY_CD like ${CURRENCY_CD_L}</condition>
+<condition key="EXCHANGE_RATE_S" ignoreEmpty="true">EXCHANGE_RATE >= ${EXCHANGE_RATE_S}</condition><condition key="EXCHANGE_RATE_E" ignoreEmpty="true">${EXCHANGE_RATE_E} >= EXCHANGE_RATE</condition><condition key="EXCHANGE_RATE_L" ignoreEmpty="true">EXCHANGE_RATE like ${EXCHANGE_RATE_L}</condition>
+<condition key="FOB_S" ignoreEmpty="true">FOB >= ${FOB_S}</condition><condition key="FOB_E" ignoreEmpty="true">${FOB_E} >= FOB</condition><condition key="FOB_L" ignoreEmpty="true">FOB like ${FOB_L}</condition>
+<condition key="TRANSPORT_ID_S" ignoreEmpty="true">TRANSPORT_ID >= ${TRANSPORT_ID_S}</condition><condition key="TRANSPORT_ID_E" ignoreEmpty="true">${TRANSPORT_ID_E} >= TRANSPORT_ID</condition><condition key="TRANSPORT_ID_L" ignoreEmpty="true">TRANSPORT_ID like ${TRANSPORT_ID_L}</condition>
+<condition key="VOYAG_NO_S" ignoreEmpty="true">VOYAG_NO >= ${VOYAG_NO_S}</condition><condition key="VOYAG_NO_E" ignoreEmpty="true">${VOYAG_NO_E} >= VOYAG_NO</condition><condition key="VOYAG_NO_L" ignoreEmpty="true">VOYAG_NO like ${VOYAG_NO_L}</condition>
+<condition key="TOT_PACK_QTY_S" ignoreEmpty="true">TOT_PACK_QTY >= ${TOT_PACK_QTY_S}</condition><condition key="TOT_PACK_QTY_E" ignoreEmpty="true">${TOT_PACK_QTY_E} >= TOT_PACK_QTY</condition><condition key="TOT_PACK_QTY_L" ignoreEmpty="true">TOT_PACK_QTY like ${TOT_PACK_QTY_L}</condition>
+<condition key="TOT_PACK_UNIT_S" ignoreEmpty="true">TOT_PACK_UNIT >= ${TOT_PACK_UNIT_S}</condition><condition key="TOT_PACK_UNIT_E" ignoreEmpty="true">${TOT_PACK_UNIT_E} >= TOT_PACK_UNIT</condition><condition key="TOT_PACK_UNIT_L" ignoreEmpty="true">TOT_PACK_UNIT like ${TOT_PACK_UNIT_L}</condition>
+<condition key="CO_PACK_NOTE_S" ignoreEmpty="true">CO_PACK_NOTE >= ${CO_PACK_NOTE_S}</condition><condition key="CO_PACK_NOTE_E" ignoreEmpty="true">${CO_PACK_NOTE_E} >= CO_PACK_NOTE</condition><condition key="CO_PACK_NOTE_L" ignoreEmpty="true">CO_PACK_NOTE like ${CO_PACK_NOTE_L}</condition>
+<condition key="PACK_DESC_S" ignoreEmpty="true">PACK_DESC >= ${PACK_DESC_S}</condition><condition key="PACK_DESC_E" ignoreEmpty="true">${PACK_DESC_E} >= PACK_DESC</condition><condition key="PACK_DESC_L" ignoreEmpty="true">PACK_DESC like ${PACK_DESC_L}</condition>
+<condition key="TOT_GROSS_WEIGHT_S" ignoreEmpty="true">TOT_GROSS_WEIGHT >= ${TOT_GROSS_WEIGHT_S}</condition><condition key="TOT_GROSS_WEIGHT_E" ignoreEmpty="true">${TOT_GROSS_WEIGHT_E} >= TOT_GROSS_WEIGHT</condition><condition key="TOT_GROSS_WEIGHT_L" ignoreEmpty="true">TOT_GROSS_WEIGHT like ${TOT_GROSS_WEIGHT_L}</condition>
+<condition key="LIS_STS_S" ignoreEmpty="true">LIS_STS >= ${LIS_STS_S}</condition><condition key="LIS_STS_E" ignoreEmpty="true">${LIS_STS_E} >= LIS_STS</condition><condition key="LIS_STS_L" ignoreEmpty="true">LIS_STS like ${LIS_STS_L}</condition>
+<condition key="CARRIER_AGENCY_TYPE_S" ignoreEmpty="true">CARRIER_AGENCY_TYPE >= ${CARRIER_AGENCY_TYPE_S}</condition><condition key="CARRIER_AGENCY_TYPE_E" ignoreEmpty="true">${CARRIER_AGENCY_TYPE_E} >= CARRIER_AGENCY_TYPE</condition><condition key="CARRIER_AGENCY_TYPE_L" ignoreEmpty="true">CARRIER_AGENCY_TYPE like ${CARRIER_AGENCY_TYPE_L}</condition>
+<condition key="UNI_NO_S" ignoreEmpty="true">UNI_NO >= ${UNI_NO_S}</condition><condition key="UNI_NO_E" ignoreEmpty="true">${UNI_NO_E} >= UNI_NO</condition><condition key="UNI_NO_L" ignoreEmpty="true">UNI_NO like ${UNI_NO_L}</condition>
+<condition key="CONTAINER_NOTE_NO_S" ignoreEmpty="true">CONTAINER_NOTE_NO >= ${CONTAINER_NOTE_NO_S}</condition><condition key="CONTAINER_NOTE_NO_E" ignoreEmpty="true">${CONTAINER_NOTE_NO_E} >= CONTAINER_NOTE_NO</condition><condition key="CONTAINER_NOTE_NO_L" ignoreEmpty="true">CONTAINER_NOTE_NO like ${CONTAINER_NOTE_NO_L}</condition>
+<condition key="REMARK_DESC_S" ignoreEmpty="true">REMARK_DESC >= ${REMARK_DESC_S}</condition><condition key="REMARK_DESC_E" ignoreEmpty="true">${REMARK_DESC_E} >= REMARK_DESC</condition><condition key="REMARK_DESC_L" ignoreEmpty="true">REMARK_DESC like ${REMARK_DESC_L}</condition>
+<condition key="EXAM_METHOD_S" ignoreEmpty="true">EXAM_METHOD >= ${EXAM_METHOD_S}</condition><condition key="EXAM_METHOD_E" ignoreEmpty="true">${EXAM_METHOD_E} >= EXAM_METHOD</condition><condition key="EXAM_METHOD_L" ignoreEmpty="true">EXAM_METHOD like ${EXAM_METHOD_L}</condition>
+<condition key="ATTACH_DOC_NO1_S" ignoreEmpty="true">ATTACH_DOC_NO1 >= ${ATTACH_DOC_NO1_S}</condition><condition key="ATTACH_DOC_NO1_E" ignoreEmpty="true">${ATTACH_DOC_NO1_E} >= ATTACH_DOC_NO1</condition><condition key="ATTACH_DOC_NO1_L" ignoreEmpty="true">ATTACH_DOC_NO1 like ${ATTACH_DOC_NO1_L}</condition>
+<condition key="ATTACH_DOC_NO2_S" ignoreEmpty="true">ATTACH_DOC_NO2 >= ${ATTACH_DOC_NO2_S}</condition><condition key="ATTACH_DOC_NO2_E" ignoreEmpty="true">${ATTACH_DOC_NO2_E} >= ATTACH_DOC_NO2</condition><condition key="ATTACH_DOC_NO2_L" ignoreEmpty="true">ATTACH_DOC_NO2 like ${ATTACH_DOC_NO2_L}</condition>
+<condition key="ATTACH_DOC_NO3_S" ignoreEmpty="true">ATTACH_DOC_NO3 >= ${ATTACH_DOC_NO3_S}</condition><condition key="ATTACH_DOC_NO3_E" ignoreEmpty="true">${ATTACH_DOC_NO3_E} >= ATTACH_DOC_NO3</condition><condition key="ATTACH_DOC_NO3_L" ignoreEmpty="true">ATTACH_DOC_NO3 like ${ATTACH_DOC_NO3_L}</condition>
+<condition key="APPL_COPY_QTY_S" ignoreEmpty="true">APPL_COPY_QTY >= ${APPL_COPY_QTY_S}</condition><condition key="APPL_COPY_QTY_E" ignoreEmpty="true">${APPL_COPY_QTY_E} >= APPL_COPY_QTY</condition><condition key="APPL_COPY_QTY_L" ignoreEmpty="true">APPL_COPY_QTY like ${APPL_COPY_QTY_L}</condition>
+<condition key="MATERL_SUPPL_S" ignoreEmpty="true">MATERL_SUPPL >= ${MATERL_SUPPL_S}</condition><condition key="MATERL_SUPPL_E" ignoreEmpty="true">${MATERL_SUPPL_E} >= MATERL_SUPPL</condition><condition key="MATERL_SUPPL_L" ignoreEmpty="true">MATERL_SUPPL like ${MATERL_SUPPL_L}</condition>
+<condition key="IN_BW_BAN_S" ignoreEmpty="true">IN_BW_BAN >= ${IN_BW_BAN_S}</condition><condition key="IN_BW_BAN_E" ignoreEmpty="true">${IN_BW_BAN_E} >= IN_BW_BAN</condition><condition key="IN_BW_BAN_L" ignoreEmpty="true">IN_BW_BAN like ${IN_BW_BAN_L}</condition>
+<condition key="OUT_BW_BAN_S" ignoreEmpty="true">OUT_BW_BAN >= ${OUT_BW_BAN_S}</condition><condition key="OUT_BW_BAN_E" ignoreEmpty="true">${OUT_BW_BAN_E} >= OUT_BW_BAN</condition><condition key="OUT_BW_BAN_L" ignoreEmpty="true">OUT_BW_BAN like ${OUT_BW_BAN_L}</condition>
+<condition key="BW_IDENFIER_S" ignoreEmpty="true">BW_IDENFIER >= ${BW_IDENFIER_S}</condition><condition key="BW_IDENFIER_E" ignoreEmpty="true">${BW_IDENFIER_E} >= BW_IDENFIER</condition><condition key="BW_IDENFIER_L" ignoreEmpty="true">BW_IDENFIER like ${BW_IDENFIER_L}</condition>
+<condition key="IN_BW_CD_S" ignoreEmpty="true">IN_BW_CD >= ${IN_BW_CD_S}</condition><condition key="IN_BW_CD_E" ignoreEmpty="true">${IN_BW_CD_E} >= IN_BW_CD</condition><condition key="IN_BW_CD_L" ignoreEmpty="true">IN_BW_CD like ${IN_BW_CD_L}</condition>
+<condition key="OUT_BW_CD_S" ignoreEmpty="true">OUT_BW_CD >= ${OUT_BW_CD_S}</condition><condition key="OUT_BW_CD_E" ignoreEmpty="true">${OUT_BW_CD_E} >= OUT_BW_CD</condition><condition key="OUT_BW_CD_L" ignoreEmpty="true">OUT_BW_CD like ${OUT_BW_CD_L}</condition>
+<condition key="BOND_GOODS_RPT_MTH_S" ignoreEmpty="true">BOND_GOODS_RPT_MTH >= ${BOND_GOODS_RPT_MTH_S}</condition><condition key="BOND_GOODS_RPT_MTH_E" ignoreEmpty="true">${BOND_GOODS_RPT_MTH_E} >= BOND_GOODS_RPT_MTH</condition><condition key="BOND_GOODS_RPT_MTH_L" ignoreEmpty="true">BOND_GOODS_RPT_MTH like ${BOND_GOODS_RPT_MTH_L}</condition>
+<condition key="TP_REF_NO_S" ignoreEmpty="true">TP_REF_NO >= ${TP_REF_NO_S}</condition><condition key="TP_REF_NO_E" ignoreEmpty="true">${TP_REF_NO_E} >= TP_REF_NO</condition><condition key="TP_REF_NO_L" ignoreEmpty="true">TP_REF_NO like ${TP_REF_NO_L}</condition>
+<condition key="OTHER_DESC_1_S" ignoreEmpty="true">OTHER_DESC_1 >= ${OTHER_DESC_1_S}</condition><condition key="OTHER_DESC_1_E" ignoreEmpty="true">${OTHER_DESC_1_E} >= OTHER_DESC_1</condition><condition key="OTHER_DESC_1_L" ignoreEmpty="true">OTHER_DESC_1 like ${OTHER_DESC_1_L}</condition>
+<condition key="OTHER_DESC_2_S" ignoreEmpty="true">OTHER_DESC_2 >= ${OTHER_DESC_2_S}</condition><condition key="OTHER_DESC_2_E" ignoreEmpty="true">${OTHER_DESC_2_E} >= OTHER_DESC_2</condition><condition key="OTHER_DESC_2_L" ignoreEmpty="true">OTHER_DESC_2 like ${OTHER_DESC_2_L}</condition>
+<condition key="TRADE_FEE_S" ignoreEmpty="true">TRADE_FEE >= ${TRADE_FEE_S}</condition><condition key="TRADE_FEE_E" ignoreEmpty="true">${TRADE_FEE_E} >= TRADE_FEE</condition><condition key="TRADE_FEE_L" ignoreEmpty="true">TRADE_FEE like ${TRADE_FEE_L}</condition>
+<condition key="PROCESS_STAT_S" ignoreEmpty="true">PROCESS_STAT >= ${PROCESS_STAT_S}</condition><condition key="PROCESS_STAT_E" ignoreEmpty="true">${PROCESS_STAT_E} >= PROCESS_STAT</condition><condition key="PROCESS_STAT_L" ignoreEmpty="true">PROCESS_STAT like ${PROCESS_STAT_L}</condition>
+<condition key="DUTY_EXEMP_WAVR_NOTE_S" ignoreEmpty="true">DUTY_EXEMP_WAVR_NOTE >= ${DUTY_EXEMP_WAVR_NOTE_S}</condition><condition key="DUTY_EXEMP_WAVR_NOTE_E" ignoreEmpty="true">${DUTY_EXEMP_WAVR_NOTE_E} >= DUTY_EXEMP_WAVR_NOTE</condition><condition key="DUTY_EXEMP_WAVR_NOTE_L" ignoreEmpty="true">DUTY_EXEMP_WAVR_NOTE like ${DUTY_EXEMP_WAVR_NOTE_L}</condition>
+<condition key="PERMIT_NO_S" ignoreEmpty="true">PERMIT_NO >= ${PERMIT_NO_S}</condition><condition key="PERMIT_NO_E" ignoreEmpty="true">${PERMIT_NO_E} >= PERMIT_NO</condition><condition key="PERMIT_NO_L" ignoreEmpty="true">PERMIT_NO like ${PERMIT_NO_L}</condition>
+<condition key="BROKER_CNAME_S" ignoreEmpty="true">BROKER_CNAME >= ${BROKER_CNAME_S}</condition><condition key="BROKER_CNAME_E" ignoreEmpty="true">${BROKER_CNAME_E} >= BROKER_CNAME</condition><condition key="BROKER_CNAME_L" ignoreEmpty="true">BROKER_CNAME like ${BROKER_CNAME_L}</condition>
+<condition key="BROKER_EMP_CNAME_S" ignoreEmpty="true">BROKER_EMP_CNAME >= ${BROKER_EMP_CNAME_S}</condition><condition key="BROKER_EMP_CNAME_E" ignoreEmpty="true">${BROKER_EMP_CNAME_E} >= BROKER_EMP_CNAME</condition><condition key="BROKER_EMP_CNAME_L" ignoreEmpty="true">BROKER_EMP_CNAME like ${BROKER_EMP_CNAME_L}</condition>
+<condition key="TAX_ACNT_BSNS_COD_S" ignoreEmpty="true">TAX_ACNT_BSNS_COD >= ${TAX_ACNT_BSNS_COD_S}</condition><condition key="TAX_ACNT_BSNS_COD_E" ignoreEmpty="true">${TAX_ACNT_BSNS_COD_E} >= TAX_ACNT_BSNS_COD</condition><condition key="TAX_ACNT_BSNS_COD_L" ignoreEmpty="true">TAX_ACNT_BSNS_COD like ${TAX_ACNT_BSNS_COD_L}</condition>
+<condition key="REMARK1_S" ignoreEmpty="true">REMARK1 >= ${REMARK1_S}</condition><condition key="REMARK1_E" ignoreEmpty="true">${REMARK1_E} >= REMARK1</condition><condition key="REMARK1_L" ignoreEmpty="true">REMARK1 like ${REMARK1_L}</condition>
+<condition key="REMARK2_S" ignoreEmpty="true">REMARK2 >= ${REMARK2_S}</condition><condition key="REMARK2_E" ignoreEmpty="true">${REMARK2_E} >= REMARK2</condition><condition key="REMARK2_L" ignoreEmpty="true">REMARK2 like ${REMARK2_L}</condition>
+<condition key="REMARK3_S" ignoreEmpty="true">REMARK3 >= ${REMARK3_S}</condition><condition key="REMARK3_E" ignoreEmpty="true">${REMARK3_E} >= REMARK3</condition><condition key="REMARK3_L" ignoreEmpty="true">REMARK3 like ${REMARK3_L}</condition>
+<condition key="REMARK4_S" ignoreEmpty="true">REMARK4 >= ${REMARK4_S}</condition><condition key="REMARK4_E" ignoreEmpty="true">${REMARK4_E} >= REMARK4</condition><condition key="REMARK4_L" ignoreEmpty="true">REMARK4 like ${REMARK4_L}</condition>
+<condition key="REMARK5_S" ignoreEmpty="true">REMARK5 >= ${REMARK5_S}</condition><condition key="REMARK5_E" ignoreEmpty="true">${REMARK5_E} >= REMARK5</condition><condition key="REMARK5_L" ignoreEmpty="true">REMARK5 like ${REMARK5_L}</condition>
+<condition key="REMARK6_S" ignoreEmpty="true">REMARK6 >= ${REMARK6_S}</condition><condition key="REMARK6_E" ignoreEmpty="true">${REMARK6_E} >= REMARK6</condition><condition key="REMARK6_L" ignoreEmpty="true">REMARK6 like ${REMARK6_L}</condition>
+<condition key="REMARK7_S" ignoreEmpty="true">REMARK7 >= ${REMARK7_S}</condition><condition key="REMARK7_E" ignoreEmpty="true">${REMARK7_E} >= REMARK7</condition><condition key="REMARK7_L" ignoreEmpty="true">REMARK7 like ${REMARK7_L}</condition>
+<condition key="REMARK8_S" ignoreEmpty="true">REMARK8 >= ${REMARK8_S}</condition><condition key="REMARK8_E" ignoreEmpty="true">${REMARK8_E} >= REMARK8</condition><condition key="REMARK8_L" ignoreEmpty="true">REMARK8 like ${REMARK8_L}</condition>
+<condition key="REMARK9_S" ignoreEmpty="true">REMARK9 >= ${REMARK9_S}</condition><condition key="REMARK9_E" ignoreEmpty="true">${REMARK9_E} >= REMARK9</condition><condition key="REMARK9_L" ignoreEmpty="true">REMARK9 like ${REMARK9_L}</condition>
+<condition key="REMARK10_S" ignoreEmpty="true">REMARK10 >= ${REMARK10_S}</condition><condition key="REMARK10_E" ignoreEmpty="true">${REMARK10_E} >= REMARK10</condition><condition key="REMARK10_L" ignoreEmpty="true">REMARK10 like ${REMARK10_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="CARRIER_AGENCY_ID_S" ignoreEmpty="true">CARRIER_AGENCY_ID >= ${CARRIER_AGENCY_ID_S}</condition><condition key="CARRIER_AGENCY_ID_E" ignoreEmpty="true">${CARRIER_AGENCY_ID_E} >= CARRIER_AGENCY_ID</condition><condition key="CARRIER_AGENCY_ID_L" ignoreEmpty="true">CARRIER_AGENCY_ID like ${CARRIER_AGENCY_ID_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="SEA_AIR_TYPE" name="SEA_AIR_TYPE" ignoreEmpty="true"/>
+<field key="DECL_TYPE" name="DECL_TYPE" ignoreEmpty="true"/>
+<field key="FUNCTION_CODE" name="FUNCTION_CODE" ignoreEmpty="true"/>
+<field key="BROKER_BOX_NO" name="BROKER_BOX_NO" ignoreEmpty="true"/>
+<field key="BROKER_BOX_SUB_NO" name="BROKER_BOX_SUB_NO" ignoreEmpty="true"/>
+<field key="BROKER_EMP" name="BROKER_EMP" ignoreEmpty="true"/>
+<field key="STOR_WARE_CD1" name="STOR_WARE_CD1" ignoreEmpty="true"/>
+<field key="STOR_WARE_CD2" name="STOR_WARE_CD2" ignoreEmpty="true"/>
+<field key="TRANSPORT_MODE" name="TRANSPORT_MODE" ignoreEmpty="true"/>
+<field key="REFUND_NOTE" name="REFUND_NOTE" ignoreEmpty="true"/>
+<field key="PAY_METHOD" name="PAY_METHOD" ignoreEmpty="true"/>
+<field key="VSL_REG_NO" name="VSL_REG_NO" ignoreEmpty="true"/>
+<field key="SO_NO" name="SO_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="DECL_DATE" name="DECL_DATE" ignoreEmpty="true"/>
+<field key="PORT_CD" name="PORT_CD" ignoreEmpty="true"/>
+<field key="DEST_CD" name="DEST_CD" ignoreEmpty="true"/>
+<field key="DELIVERY_DEST" name="DELIVERY_DEST" ignoreEmpty="true"/>
+<field key="INCOTERMS" name="INCOTERMS" ignoreEmpty="true"/>
+<field key="TOT_INV_AMT" name="TOT_INV_AMT" ignoreEmpty="true"/>
+<field key="FREIGHT" name="FREIGHT" ignoreEmpty="true"/>
+<field key="INSURANCE" name="INSURANCE" ignoreEmpty="true"/>
+<field key="ADDITIONAL_FEE" name="ADDITIONAL_FEE" ignoreEmpty="true"/>
+<field key="DEDUCTION_FEE" name="DEDUCTION_FEE" ignoreEmpty="true"/>
+<field key="CURRENCY_CD" name="CURRENCY_CD" ignoreEmpty="true"/>
+<field key="EXCHANGE_RATE" name="EXCHANGE_RATE" ignoreEmpty="true"/>
+<field key="FOB" name="FOB" ignoreEmpty="true"/>
+<field key="TRANSPORT_ID" name="TRANSPORT_ID" ignoreEmpty="true"/>
+<field key="VOYAG_NO" name="VOYAG_NO" ignoreEmpty="true"/>
+<field key="TOT_PACK_QTY" name="TOT_PACK_QTY" ignoreEmpty="true"/>
+<field key="TOT_PACK_UNIT" name="TOT_PACK_UNIT" ignoreEmpty="true"/>
+<field key="CO_PACK_NOTE" name="CO_PACK_NOTE" ignoreEmpty="true"/>
+<field key="PACK_DESC" name="PACK_DESC" ignoreEmpty="true"/>
+<field key="TOT_GROSS_WEIGHT" name="TOT_GROSS_WEIGHT" ignoreEmpty="true"/>
+<field key="LIS_STS" name="LIS_STS" ignoreEmpty="true"/>
+<field key="CARRIER_AGENCY_TYPE" name="CARRIER_AGENCY_TYPE" ignoreEmpty="true"/>
+<field key="UNI_NO" name="UNI_NO" ignoreEmpty="true"/>
+<field key="CONTAINER_NOTE_NO" name="CONTAINER_NOTE_NO" ignoreEmpty="true"/>
+<field key="REMARK_DESC" name="REMARK_DESC" ignoreEmpty="true"/>
+<field key="EXAM_METHOD" name="EXAM_METHOD" ignoreEmpty="true"/>
+<field key="ATTACH_DOC_NO1" name="ATTACH_DOC_NO1" ignoreEmpty="true"/>
+<field key="ATTACH_DOC_NO2" name="ATTACH_DOC_NO2" ignoreEmpty="true"/>
+<field key="ATTACH_DOC_NO3" name="ATTACH_DOC_NO3" ignoreEmpty="true"/>
+<field key="APPL_COPY_QTY" name="APPL_COPY_QTY" ignoreEmpty="true"/>
+<field key="MATERL_SUPPL" name="MATERL_SUPPL" ignoreEmpty="true"/>
+<field key="IN_BW_BAN" name="IN_BW_BAN" ignoreEmpty="true"/>
+<field key="OUT_BW_BAN" name="OUT_BW_BAN" ignoreEmpty="true"/>
+<field key="BW_IDENFIER" name="BW_IDENFIER" ignoreEmpty="true"/>
+<field key="IN_BW_CD" name="IN_BW_CD" ignoreEmpty="true"/>
+<field key="OUT_BW_CD" name="OUT_BW_CD" ignoreEmpty="true"/>
+<field key="BOND_GOODS_RPT_MTH" name="BOND_GOODS_RPT_MTH" ignoreEmpty="true"/>
+<field key="TP_REF_NO" name="TP_REF_NO" ignoreEmpty="true"/>
+<field key="OTHER_DESC_1" name="OTHER_DESC_1" ignoreEmpty="true"/>
+<field key="OTHER_DESC_2" name="OTHER_DESC_2" ignoreEmpty="true"/>
+<field key="TRADE_FEE" name="TRADE_FEE" ignoreEmpty="true"/>
+<field key="PROCESS_STAT" name="PROCESS_STAT" ignoreEmpty="true"/>
+<field key="DUTY_EXEMP_WAVR_NOTE" name="DUTY_EXEMP_WAVR_NOTE" ignoreEmpty="true"/>
+<field key="PERMIT_NO" name="PERMIT_NO" ignoreEmpty="true"/>
+<field key="BROKER_CNAME" name="BROKER_CNAME" ignoreEmpty="true"/>
+<field key="BROKER_EMP_CNAME" name="BROKER_EMP_CNAME" ignoreEmpty="true"/>
+<field key="TAX_ACNT_BSNS_COD" name="TAX_ACNT_BSNS_COD" ignoreEmpty="true"/>
+<field key="REMARK1" name="REMARK1" ignoreEmpty="true"/>
+<field key="REMARK2" name="REMARK2" ignoreEmpty="true"/>
+<field key="REMARK3" name="REMARK3" ignoreEmpty="true"/>
+<field key="REMARK4" name="REMARK4" ignoreEmpty="true"/>
+<field key="REMARK5" name="REMARK5" ignoreEmpty="true"/>
+<field key="REMARK6" name="REMARK6" ignoreEmpty="true"/>
+<field key="REMARK7" name="REMARK7" ignoreEmpty="true"/>
+<field key="REMARK8" name="REMARK8" ignoreEmpty="true"/>
+<field key="REMARK9" name="REMARK9" ignoreEmpty="true"/>
+<field key="REMARK10" name="REMARK10" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="CARRIER_AGENCY_ID" name="CARRIER_AGENCY_ID" ignoreEmpty="true"/>
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_seaAirType').attr('value',rowData.SEA_AIR_TYPE);
+$('#pageBean_declType').attr('value',rowData.DECL_TYPE);
+$('#pageBean_functionCode').attr('value',rowData.FUNCTION_CODE);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_brokerBoxSubNo').attr('value',rowData.BROKER_BOX_SUB_NO);
+$('#pageBean_brokerEmp').attr('value',rowData.BROKER_EMP);
+$('#pageBean_storWareCd1').attr('value',rowData.STOR_WARE_CD1);
+$('#pageBean_storWareCd2').attr('value',rowData.STOR_WARE_CD2);
+$('#pageBean_transportMode').attr('value',rowData.TRANSPORT_MODE);
+$('#pageBean_refundNote').attr('value',rowData.REFUND_NOTE);
+$('#pageBean_payMethod').attr('value',rowData.PAY_METHOD);
+$('#pageBean_vslRegNo').attr('value',rowData.VSL_REG_NO);
+$('#pageBean_soNo').attr('value',rowData.SO_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_declDate').attr('value',rowData.DECL_DATE);
+$('#pageBean_portCd').attr('value',rowData.PORT_CD);
+$('#pageBean_destCd').attr('value',rowData.DEST_CD);
+$('#pageBean_deliveryDest').attr('value',rowData.DELIVERY_DEST);
+$('#pageBean_incoterms').attr('value',rowData.INCOTERMS);
+$('#pageBean_totInvAmt').attr('value',rowData.TOT_INV_AMT);
+$('#pageBean_freight').attr('value',rowData.FREIGHT);
+$('#pageBean_insurance').attr('value',rowData.INSURANCE);
+$('#pageBean_additionalFee').attr('value',rowData.ADDITIONAL_FEE);
+$('#pageBean_deductionFee').attr('value',rowData.DEDUCTION_FEE);
+$('#pageBean_currencyCd').attr('value',rowData.CURRENCY_CD);
+$('#pageBean_exchangeRate').attr('value',rowData.EXCHANGE_RATE);
+$('#pageBean_fob').attr('value',rowData.FOB);
+$('#pageBean_transportId').attr('value',rowData.TRANSPORT_ID);
+$('#pageBean_voyagNo').attr('value',rowData.VOYAG_NO);
+$('#pageBean_totPackQty').attr('value',rowData.TOT_PACK_QTY);
+$('#pageBean_totPackUnit').attr('value',rowData.TOT_PACK_UNIT);
+$('#pageBean_coPackNote').attr('value',rowData.CO_PACK_NOTE);
+$('#pageBean_packDesc').attr('value',rowData.PACK_DESC);
+$('#pageBean_totGrossWeight').attr('value',rowData.TOT_GROSS_WEIGHT);
+$('#pageBean_lisSts').attr('value',rowData.LIS_STS);
+$('#pageBean_carrierAgencyType').attr('value',rowData.CARRIER_AGENCY_TYPE);
+$('#pageBean_uniNo').attr('value',rowData.UNI_NO);
+$('#pageBean_containerNoteNo').attr('value',rowData.CONTAINER_NOTE_NO);
+$('#pageBean_remarkDesc').attr('value',rowData.REMARK_DESC);
+$('#pageBean_examMethod').attr('value',rowData.EXAM_METHOD);
+$('#pageBean_attachDocNo1').attr('value',rowData.ATTACH_DOC_NO1);
+$('#pageBean_attachDocNo2').attr('value',rowData.ATTACH_DOC_NO2);
+$('#pageBean_attachDocNo3').attr('value',rowData.ATTACH_DOC_NO3);
+$('#pageBean_applCopyQty').attr('value',rowData.APPL_COPY_QTY);
+$('#pageBean_materlSuppl').attr('value',rowData.MATERL_SUPPL);
+$('#pageBean_inBwBan').attr('value',rowData.IN_BW_BAN);
+$('#pageBean_outBwBan').attr('value',rowData.OUT_BW_BAN);
+$('#pageBean_bwIdenfier').attr('value',rowData.BW_IDENFIER);
+$('#pageBean_inBwCd').attr('value',rowData.IN_BW_CD);
+$('#pageBean_outBwCd').attr('value',rowData.OUT_BW_CD);
+$('#pageBean_bondGoodsRptMth').attr('value',rowData.BOND_GOODS_RPT_MTH);
+$('#pageBean_tpRefNo').attr('value',rowData.TP_REF_NO);
+$('#pageBean_otherDesc1').attr('value',rowData.OTHER_DESC_1);
+$('#pageBean_otherDesc2').attr('value',rowData.OTHER_DESC_2);
+$('#pageBean_tradeFee').attr('value',rowData.TRADE_FEE);
+$('#pageBean_processStat').attr('value',rowData.PROCESS_STAT);
+$('#pageBean_dutyExempWavrNote').attr('value',rowData.DUTY_EXEMP_WAVR_NOTE);
+$('#pageBean_permitNo').attr('value',rowData.PERMIT_NO);
+$('#pageBean_brokerCname').attr('value',rowData.BROKER_CNAME);
+$('#pageBean_brokerEmpCname').attr('value',rowData.BROKER_EMP_CNAME);
+$('#pageBean_taxAcntBsnsCod').attr('value',rowData.TAX_ACNT_BSNS_COD);
+$('#pageBean_remark1').attr('value',rowData.REMARK1);
+$('#pageBean_remark2').attr('value',rowData.REMARK2);
+$('#pageBean_remark3').attr('value',rowData.REMARK3);
+$('#pageBean_remark4').attr('value',rowData.REMARK4);
+$('#pageBean_remark5').attr('value',rowData.REMARK5);
+$('#pageBean_remark6').attr('value',rowData.REMARK6);
+$('#pageBean_remark7').attr('value',rowData.REMARK7);
+$('#pageBean_remark8').attr('value',rowData.REMARK8);
+$('#pageBean_remark9').attr('value',rowData.REMARK9);
+$('#pageBean_remark10').attr('value',rowData.REMARK10);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_carrierAgencyId').attr('value',rowData.CARRIER_AGENCY_ID);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_seaAirType').attr("value", "");
+$('#pageBean_declType').attr("value", "");
+$('#pageBean_functionCode').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_brokerBoxSubNo').attr("value", "");
+$('#pageBean_brokerEmp').attr("value", "");
+$('#pageBean_storWareCd1').attr("value", "");
+$('#pageBean_storWareCd2').attr("value", "");
+$('#pageBean_transportMode').attr("value", "");
+$('#pageBean_refundNote').attr("value", "");
+$('#pageBean_payMethod').attr("value", "");
+$('#pageBean_vslRegNo').attr("value", "");
+$('#pageBean_soNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_declDate').attr("value", "");
+$('#pageBean_portCd').attr("value", "");
+$('#pageBean_destCd').attr("value", "");
+$('#pageBean_deliveryDest').attr("value", "");
+$('#pageBean_incoterms').attr("value", "");
+$('#pageBean_totInvAmt').attr("value", "");
+$('#pageBean_freight').attr("value", "");
+$('#pageBean_insurance').attr("value", "");
+$('#pageBean_additionalFee').attr("value", "");
+$('#pageBean_deductionFee').attr("value", "");
+$('#pageBean_currencyCd').attr("value", "");
+$('#pageBean_exchangeRate').attr("value", "");
+$('#pageBean_fob').attr("value", "");
+$('#pageBean_transportId').attr("value", "");
+$('#pageBean_voyagNo').attr("value", "");
+$('#pageBean_totPackQty').attr("value", "");
+$('#pageBean_totPackUnit').attr("value", "");
+$('#pageBean_coPackNote').attr("value", "");
+$('#pageBean_packDesc').attr("value", "");
+$('#pageBean_totGrossWeight').attr("value", "");
+$('#pageBean_lisSts').attr("value", "");
+$('#pageBean_carrierAgencyType').attr("value", "");
+$('#pageBean_uniNo').attr("value", "");
+$('#pageBean_containerNoteNo').attr("value", "");
+$('#pageBean_remarkDesc').attr("value", "");
+$('#pageBean_examMethod').attr("value", "");
+$('#pageBean_attachDocNo1').attr("value", "");
+$('#pageBean_attachDocNo2').attr("value", "");
+$('#pageBean_attachDocNo3').attr("value", "");
+$('#pageBean_applCopyQty').attr("value", "");
+$('#pageBean_materlSuppl').attr("value", "");
+$('#pageBean_inBwBan').attr("value", "");
+$('#pageBean_outBwBan').attr("value", "");
+$('#pageBean_bwIdenfier').attr("value", "");
+$('#pageBean_inBwCd').attr("value", "");
+$('#pageBean_outBwCd').attr("value", "");
+$('#pageBean_bondGoodsRptMth').attr("value", "");
+$('#pageBean_tpRefNo').attr("value", "");
+$('#pageBean_otherDesc1').attr("value", "");
+$('#pageBean_otherDesc2').attr("value", "");
+$('#pageBean_tradeFee').attr("value", "");
+$('#pageBean_processStat').attr("value", "");
+$('#pageBean_dutyExempWavrNote').attr("value", "");
+$('#pageBean_permitNo').attr("value", "");
+$('#pageBean_brokerCname').attr("value", "");
+$('#pageBean_brokerEmpCname').attr("value", "");
+$('#pageBean_taxAcntBsnsCod').attr("value", "");
+$('#pageBean_remark1').attr("value", "");
+$('#pageBean_remark2').attr("value", "");
+$('#pageBean_remark3').attr("value", "");
+$('#pageBean_remark4').attr("value", "");
+$('#pageBean_remark5').attr("value", "");
+$('#pageBean_remark6').attr("value", "");
+$('#pageBean_remark7').attr("value", "");
+$('#pageBean_remark8').attr("value", "");
+$('#pageBean_remark9').attr("value", "");
+$('#pageBean_remark10').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_carrierAgencyId').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+SEA_AIR_TYPE:$('#pageBean_seaAirType').val(),//海空運別
+DECL_TYPE:$('#pageBean_declType').val(),//報單類別
+FUNCTION_CODE:$('#pageBean_functionCode').val(),//訊息功能代碼
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關業者箱號
+BROKER_BOX_SUB_NO:$('#pageBean_brokerBoxSubNo').val(),//報關業者箱號附碼
+BROKER_EMP:$('#pageBean_brokerEmp').val(),//專責報關人員代號
+STOR_WARE_CD1:$('#pageBean_storWareCd1').val(),//卸存地點代碼1
+STOR_WARE_CD2:$('#pageBean_storWareCd2').val(),//卸存地點代碼2
+TRANSPORT_MODE:$('#pageBean_transportMode').val(),//出口運輸方式代碼
+REFUND_NOTE:$('#pageBean_refundNote').val(),//申請沖退原料稅
+PAY_METHOD:$('#pageBean_payMethod').val(),//海關稅費繳納方式代碼
+VSL_REG_NO:$('#pageBean_vslRegNo').val(),//海關通關號碼
+SO_NO:$('#pageBean_soNo').val(),//裝貨單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+DECL_DATE:$('#pageBean_declDate').val(),//報關日期
+PORT_CD:$('#pageBean_portCd').val(),//裝貨港代碼
+DEST_CD:$('#pageBean_destCd').val(),//目的地代碼
+DELIVERY_DEST:$('#pageBean_deliveryDest').val(),//運送抵達地
+INCOTERMS:$('#pageBean_incoterms').val(),//交易條件代碼
+TOT_INV_AMT:$('#pageBean_totInvAmt').val(),//發票總金額
+FREIGHT:$('#pageBean_freight').val(),//運費
+INSURANCE:$('#pageBean_insurance').val(),//保險費
+ADDITIONAL_FEE:$('#pageBean_additionalFee').val(),//應加費用
+DEDUCTION_FEE:$('#pageBean_deductionFee').val(),//應減費用
+CURRENCY_CD:$('#pageBean_currencyCd').val(),//幣別代碼
+EXCHANGE_RATE:$('#pageBean_exchangeRate').val(),//外幣匯率
+FOB:$('#pageBean_fob').val(),//離岸價格
+TRANSPORT_ID:$('#pageBean_transportId').val(),//出口船（機）代碼
+VOYAG_NO:$('#pageBean_voyagNo').val(),//船舶航次（海）/航機班次（空）
+TOT_PACK_QTY:$('#pageBean_totPackQty').val(),//總件數
+TOT_PACK_UNIT:$('#pageBean_totPackUnit').val(),//總件數單位
+CO_PACK_NOTE:$('#pageBean_coPackNote').val(),//合成註記
+PACK_DESC:$('#pageBean_packDesc').val(),//包裝說明
+TOT_GROSS_WEIGHT:$('#pageBean_totGrossWeight').val(),//總毛重
+LIS_STS:$('#pageBean_lisSts').val(),//簽證情形
+CARRIER_AGENCY_TYPE:$('#pageBean_carrierAgencyType').val(),//運輸業者/代理行類別代碼
+UNI_NO:$('#pageBean_uniNo').val(),//貨物唯一追蹤號碼
+CONTAINER_NOTE_NO:$('#pageBean_containerNoteNo').val(),//運送單號碼
+REMARK_DESC:$('#pageBean_remarkDesc').val(),//標記
+EXAM_METHOD:$('#pageBean_examMethod').val(),//申請審驗方式
+ATTACH_DOC_NO1:$('#pageBean_attachDocNo1').val(),//檢附文件號碼1
+ATTACH_DOC_NO2:$('#pageBean_attachDocNo2').val(),//檢附文件號碼2
+ATTACH_DOC_NO3:$('#pageBean_attachDocNo3').val(),//檢附文件號碼3
+APPL_COPY_QTY:$('#pageBean_applCopyQty').val(),//申請報單副本件數
+MATERL_SUPPL:$('#pageBean_materlSuppl').val(),//檢附外銷品使用原料及其供應商資料表
+IN_BW_BAN:$('#pageBean_inBwBan').val(),//進倉保稅倉庫業者統一編號
+OUT_BW_BAN:$('#pageBean_outBwBan').val(),//出倉保稅倉庫業者統一編號
+BW_IDENFIER:$('#pageBean_bwIdenfier').val(),//保稅倉庫業者身分識別代碼
+IN_BW_CD:$('#pageBean_inBwCd').val(),//進倉保稅倉庫代碼
+OUT_BW_CD:$('#pageBean_outBwCd').val(),//出倉保稅倉庫代碼
+BOND_GOODS_RPT_MTH:$('#pageBean_bondGoodsRptMth').val(),//保稅貨物按月彙報月份
+TP_REF_NO:$('#pageBean_tpRefNo').val(),//交易對方參考編號
+OTHER_DESC_1:$('#pageBean_otherDesc1').val(),//其他申報事項1
+OTHER_DESC_2:$('#pageBean_otherDesc2').val(),//其他申報事項2
+TRADE_FEE:$('#pageBean_tradeFee').val(),//推貿費金額
+PROCESS_STAT:$('#pageBean_processStat').val(),//報單處理狀態
+DUTY_EXEMP_WAVR_NOTE:$('#pageBean_dutyExempWavrNote').val(),//排除低價免稅註記
+PERMIT_NO:$('#pageBean_permitNo').val(),//先稅後放核准案號
+BROKER_CNAME:$('#pageBean_brokerCname').val(),//報關行中文名稱
+BROKER_EMP_CNAME:$('#pageBean_brokerEmpCname').val(),//專責人員姓名
+TAX_ACNT_BSNS_COD:$('#pageBean_taxAcntBsnsCod').val(),//營業稅記帳廠商編號
+REMARK1:$('#pageBean_remark1').val(),//備註1
+REMARK2:$('#pageBean_remark2').val(),//備註2
+REMARK3:$('#pageBean_remark3').val(),//備註3
+REMARK4:$('#pageBean_remark4').val(),//備註4
+REMARK5:$('#pageBean_remark5').val(),//備註5
+REMARK6:$('#pageBean_remark6').val(),//備註6
+REMARK7:$('#pageBean_remark7').val(),//備註7
+REMARK8:$('#pageBean_remark8').val(),//備註8
+REMARK9:$('#pageBean_remark9').val(),//備註9
+REMARK10:$('#pageBean_remark10').val(),//備註10
+UP_DATE:$('#pageBean_upDate').val(),//更新日期
+UP_PERSON:$('#pageBean_upPerson').val(),//更新人員
+CARRIER_AGENCY_ID:$('#pageBean_carrierAgencyId').val(),//運輸業者/代理行代碼
+
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setSeaAirType(dataObjects.getString("SEA_AIR_TYPE"));//海空運別
+pageBean.setDeclType(dataObjects.getString("DECL_TYPE"));//報單類別
+pageBean.setFunctionCode(dataObjects.getString("FUNCTION_CODE"));//訊息功能代碼
+pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));//報關業者箱號
+pageBean.setBrokerBoxSubNo(dataObjects.getString("BROKER_BOX_SUB_NO"));//報關業者箱號附碼
+pageBean.setBrokerEmp(dataObjects.getString("BROKER_EMP"));//專責報關人員代號
+pageBean.setStorWareCd1(dataObjects.getString("STOR_WARE_CD1"));//卸存地點代碼1
+pageBean.setStorWareCd2(dataObjects.getString("STOR_WARE_CD2"));//卸存地點代碼2
+pageBean.setTransportMode(dataObjects.getString("TRANSPORT_MODE"));//出口運輸方式代碼
+pageBean.setRefundNote(dataObjects.getString("REFUND_NOTE"));//申請沖退原料稅
+pageBean.setPayMethod(dataObjects.getString("PAY_METHOD"));//海關稅費繳納方式代碼
+pageBean.setVslRegNo(dataObjects.getString("VSL_REG_NO"));//海關通關號碼
+pageBean.setSoNo(dataObjects.getString("SO_NO"));//裝貨單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setDeclDate((Date)dataObjects.getValue("DECL_DATE"));//報關日期
+pageBean.setPortCd(dataObjects.getString("PORT_CD"));//裝貨港代碼
+pageBean.setDestCd(dataObjects.getString("DEST_CD"));//目的地代碼
+pageBean.setDeliveryDest(dataObjects.getString("DELIVERY_DEST"));//運送抵達地
+pageBean.setIncoterms(dataObjects.getString("INCOTERMS"));//交易條件代碼
+pageBean.setTotInvAmt(dataObjects.getString("TOT_INV_AMT"));//發票總金額
+pageBean.setFreight(dataObjects.getString("FREIGHT"));//運費
+pageBean.setInsurance(dataObjects.getString("INSURANCE"));//保險費
+pageBean.setAdditionalFee(dataObjects.getString("ADDITIONAL_FEE"));//應加費用
+pageBean.setDeductionFee(dataObjects.getString("DEDUCTION_FEE"));//應減費用
+pageBean.setCurrencyCd(dataObjects.getString("CURRENCY_CD"));//幣別代碼
+pageBean.setExchangeRate((BigDecimal)dataObjects.getValue("EXCHANGE_RATE"));//外幣匯率
+pageBean.setFob(dataObjects.getString("FOB"));//離岸價格
+pageBean.setTransportId(dataObjects.getString("TRANSPORT_ID"));//出口船（機）代碼
+pageBean.setVoyagNo(dataObjects.getString("VOYAG_NO"));//船舶航次（海）/航機班次（空）
+pageBean.setTotPackQty((BigDecimal)dataObjects.getValue("TOT_PACK_QTY"));//總件數
+pageBean.setTotPackUnit(dataObjects.getString("TOT_PACK_UNIT"));//總件數單位
+pageBean.setCoPackNote(dataObjects.getString("CO_PACK_NOTE"));//合成註記
+pageBean.setPackDesc(dataObjects.getString("PACK_DESC"));//包裝說明
+pageBean.setTotGrossWeight((BigDecimal)dataObjects.getValue("TOT_GROSS_WEIGHT"));//總毛重
+pageBean.setLisSts(dataObjects.getString("LIS_STS"));//簽證情形
+pageBean.setCarrierAgencyType(dataObjects.getString("CARRIER_AGENCY_TYPE"));//運輸業者/代理行類別代碼
+pageBean.setUniNo(dataObjects.getString("UNI_NO"));//貨物唯一追蹤號碼
+pageBean.setContainerNoteNo(dataObjects.getString("CONTAINER_NOTE_NO"));//運送單號碼
+pageBean.setRemarkDesc(dataObjects.getString("REMARK_DESC"));//標記
+pageBean.setExamMethod(dataObjects.getString("EXAM_METHOD"));//申請審驗方式
+pageBean.setAttachDocNo1(dataObjects.getString("ATTACH_DOC_NO1"));//檢附文件號碼1
+pageBean.setAttachDocNo2(dataObjects.getString("ATTACH_DOC_NO2"));//檢附文件號碼2
+pageBean.setAttachDocNo3(dataObjects.getString("ATTACH_DOC_NO3"));//檢附文件號碼3
+pageBean.setApplCopyQty((BigDecimal)dataObjects.getValue("APPL_COPY_QTY"));//申請報單副本件數
+pageBean.setMaterlSuppl(dataObjects.getString("MATERL_SUPPL"));//檢附外銷品使用原料及其供應商資料表
+pageBean.setInBwBan(dataObjects.getString("IN_BW_BAN"));//進倉保稅倉庫業者統一編號
+pageBean.setOutBwBan(dataObjects.getString("OUT_BW_BAN"));//出倉保稅倉庫業者統一編號
+pageBean.setBwIdenfier(dataObjects.getString("BW_IDENFIER"));//保稅倉庫業者身分識別代碼
+pageBean.setInBwCd(dataObjects.getString("IN_BW_CD"));//進倉保稅倉庫代碼
+pageBean.setOutBwCd(dataObjects.getString("OUT_BW_CD"));//出倉保稅倉庫代碼
+pageBean.setBondGoodsRptMth(dataObjects.getString("BOND_GOODS_RPT_MTH"));//保稅貨物按月彙報月份
+pageBean.setTpRefNo(dataObjects.getString("TP_REF_NO"));//交易對方參考編號
+pageBean.setOtherDesc1(dataObjects.getString("OTHER_DESC_1"));//其他申報事項1
+pageBean.setOtherDesc2(dataObjects.getString("OTHER_DESC_2"));//其他申報事項2
+pageBean.setTradeFee(dataObjects.getString("TRADE_FEE"));//推貿費金額
+pageBean.setProcessStat(dataObjects.getString("PROCESS_STAT"));//報單處理狀態
+pageBean.setDutyExempWavrNote(dataObjects.getString("DUTY_EXEMP_WAVR_NOTE"));//排除低價免稅註記
+pageBean.setPermitNo(dataObjects.getString("PERMIT_NO"));//先稅後放核准案號
+pageBean.setBrokerCname(dataObjects.getString("BROKER_CNAME"));//報關行中文名稱
+pageBean.setBrokerEmpCname(dataObjects.getString("BROKER_EMP_CNAME"));//專責人員姓名
+pageBean.setTaxAcntBsnsCod((BigDecimal)dataObjects.getValue("TAX_ACNT_BSNS_COD"));//營業稅記帳廠商編號
+pageBean.setRemark1(dataObjects.getString("REMARK1"));//備註1
+pageBean.setRemark2(dataObjects.getString("REMARK2"));//備註2
+pageBean.setRemark3(dataObjects.getString("REMARK3"));//備註3
+pageBean.setRemark4(dataObjects.getString("REMARK4"));//備註4
+pageBean.setRemark5(dataObjects.getString("REMARK5"));//備註5
+pageBean.setRemark6(dataObjects.getString("REMARK6"));//備註6
+pageBean.setRemark7(dataObjects.getString("REMARK7"));//備註7
+pageBean.setRemark8(dataObjects.getString("REMARK8"));//備註8
+pageBean.setRemark9(dataObjects.getString("REMARK9"));//備註9
+pageBean.setRemark10(dataObjects.getString("REMARK10"));//備註10
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//更新日期
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//更新人員
+pageBean.setCarrierAgencyId(dataObjects.getString("CARRIER_AGENCY_ID"));//運輸業者/代理行代碼
+
+private String declNo = null;//報單號碼
+private String seaAirType = null;//海空運別
+private String declType = null;//報單類別
+private String functionCode = null;//訊息功能代碼
+private String brokerBoxNo = null;//報關業者箱號
+private String brokerBoxSubNo = null;//報關業者箱號附碼
+private String brokerEmp = null;//專責報關人員代號
+private String storWareCd1 = null;//卸存地點代碼1
+private String storWareCd2 = null;//卸存地點代碼2
+private String transportMode = null;//出口運輸方式代碼
+private String refundNote = null;//申請沖退原料稅
+private String payMethod = null;//海關稅費繳納方式代碼
+private String vslRegNo = null;//海關通關號碼
+private String soNo = null;//裝貨單號碼
+private String mawb = null;//託運單主號
+private String hawb = null;//託運單分號
+private Date declDate = null;//報關日期
+private String portCd = null;//裝貨港代碼
+private String destCd = null;//目的地代碼
+private String deliveryDest = null;//運送抵達地
+private String incoterms = null;//交易條件代碼
+private String totInvAmt = null;//發票總金額
+private String freight = null;//運費
+private String insurance = null;//保險費
+private String additionalFee = null;//應加費用
+private String deductionFee = null;//應減費用
+private String currencyCd = null;//幣別代碼
+private BigDecimal exchangeRate = null;//外幣匯率
+private String fob = null;//離岸價格
+private String transportId = null;//出口船（機）代碼
+private String voyagNo = null;//船舶航次（海）/航機班次（空）
+private BigDecimal totPackQty = null;//總件數
+private String totPackUnit = null;//總件數單位
+private String coPackNote = null;//合成註記
+private String packDesc = null;//包裝說明
+private BigDecimal totGrossWeight = null;//總毛重
+private String lisSts = null;//簽證情形
+private String carrierAgencyType = null;//運輸業者/代理行類別代碼
+private String uniNo = null;//貨物唯一追蹤號碼
+private String containerNoteNo = null;//運送單號碼
+private String remarkDesc = null;//標記
+private String examMethod = null;//申請審驗方式
+private String attachDocNo1 = null;//檢附文件號碼1
+private String attachDocNo2 = null;//檢附文件號碼2
+private String attachDocNo3 = null;//檢附文件號碼3
+private BigDecimal applCopyQty = null;//申請報單副本件數
+private String materlSuppl = null;//檢附外銷品使用原料及其供應商資料表
+private String inBwBan = null;//進倉保稅倉庫業者統一編號
+private String outBwBan = null;//出倉保稅倉庫業者統一編號
+private String bwIdenfier = null;//保稅倉庫業者身分識別代碼
+private String inBwCd = null;//進倉保稅倉庫代碼
+private String outBwCd = null;//出倉保稅倉庫代碼
+private String bondGoodsRptMth = null;//保稅貨物按月彙報月份
+private String tpRefNo = null;//交易對方參考編號
+private String otherDesc1 = null;//其他申報事項1
+private String otherDesc2 = null;//其他申報事項2
+private String tradeFee = null;//推貿費金額
+private String processStat = null;//報單處理狀態
+private String dutyExempWavrNote = null;//排除低價免稅註記
+private String permitNo = null;//先稅後放核准案號
+private String brokerCname = null;//報關行中文名稱
+private String brokerEmpCname = null;//專責人員姓名
+private BigDecimal taxAcntBsnsCod = null;//營業稅記帳廠商編號
+private String remark1 = null;//備註1
+private String remark2 = null;//備註2
+private String remark3 = null;//備註3
+private String remark4 = null;//備註4
+private String remark5 = null;//備註5
+private String remark6 = null;//備註6
+private String remark7 = null;//備註7
+private String remark8 = null;//備註8
+private String remark9 = null;//備註9
+private String remark10 = null;//備註10
+private Date upDate = null;//更新日期
+private String upPerson = null;//更新人員
+private String carrierAgencyId = null;//運輸業者/代理行代碼
+
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setSeaAirType(seaAirType);//海空運別
+pageBean.setDeclType(declType);//報單類別
+pageBean.setFunctionCode(functionCode);//訊息功能代碼
+pageBean.setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+pageBean.setBrokerBoxSubNo(brokerBoxSubNo);//報關業者箱號附碼
+pageBean.setBrokerEmp(brokerEmp);//專責報關人員代號
+pageBean.setStorWareCd1(storWareCd1);//卸存地點代碼1
+pageBean.setStorWareCd2(storWareCd2);//卸存地點代碼2
+pageBean.setTransportMode(transportMode);//出口運輸方式代碼
+pageBean.setRefundNote(refundNote);//申請沖退原料稅
+pageBean.setPayMethod(payMethod);//海關稅費繳納方式代碼
+pageBean.setVslRegNo(vslRegNo);//海關通關號碼
+pageBean.setSoNo(soNo);//裝貨單號碼
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setDeclDate(declDate);//報關日期
+pageBean.setPortCd(portCd);//裝貨港代碼
+pageBean.setDestCd(destCd);//目的地代碼
+pageBean.setDeliveryDest(deliveryDest);//運送抵達地
+pageBean.setIncoterms(incoterms);//交易條件代碼
+pageBean.setTotInvAmt(totInvAmt);//發票總金額
+pageBean.setFreight(freight);//運費
+pageBean.setInsurance(insurance);//保險費
+pageBean.setAdditionalFee(additionalFee);//應加費用
+pageBean.setDeductionFee(deductionFee);//應減費用
+pageBean.setCurrencyCd(currencyCd);//幣別代碼
+pageBean.setExchangeRate(exchangeRate);//外幣匯率
+pageBean.setFob(fob);//離岸價格
+pageBean.setTransportId(transportId);//出口船（機）代碼
+pageBean.setVoyagNo(voyagNo);//船舶航次（海）/航機班次（空）
+pageBean.setTotPackQty(totPackQty);//總件數
+pageBean.setTotPackUnit(totPackUnit);//總件數單位
+pageBean.setCoPackNote(coPackNote);//合成註記
+pageBean.setPackDesc(packDesc);//包裝說明
+pageBean.setTotGrossWeight(totGrossWeight);//總毛重
+pageBean.setLisSts(lisSts);//簽證情形
+pageBean.setCarrierAgencyType(carrierAgencyType);//運輸業者/代理行類別代碼
+pageBean.setUniNo(uniNo);//貨物唯一追蹤號碼
+pageBean.setContainerNoteNo(containerNoteNo);//運送單號碼
+pageBean.setRemarkDesc(remarkDesc);//標記
+pageBean.setExamMethod(examMethod);//申請審驗方式
+pageBean.setAttachDocNo1(attachDocNo1);//檢附文件號碼1
+pageBean.setAttachDocNo2(attachDocNo2);//檢附文件號碼2
+pageBean.setAttachDocNo3(attachDocNo3);//檢附文件號碼3
+pageBean.setApplCopyQty(applCopyQty);//申請報單副本件數
+pageBean.setMaterlSuppl(materlSuppl);//檢附外銷品使用原料及其供應商資料表
+pageBean.setInBwBan(inBwBan);//進倉保稅倉庫業者統一編號
+pageBean.setOutBwBan(outBwBan);//出倉保稅倉庫業者統一編號
+pageBean.setBwIdenfier(bwIdenfier);//保稅倉庫業者身分識別代碼
+pageBean.setInBwCd(inBwCd);//進倉保稅倉庫代碼
+pageBean.setOutBwCd(outBwCd);//出倉保稅倉庫代碼
+pageBean.setBondGoodsRptMth(bondGoodsRptMth);//保稅貨物按月彙報月份
+pageBean.setTpRefNo(tpRefNo);//交易對方參考編號
+pageBean.setOtherDesc1(otherDesc1);//其他申報事項1
+pageBean.setOtherDesc2(otherDesc2);//其他申報事項2
+pageBean.setTradeFee(tradeFee);//推貿費金額
+pageBean.setProcessStat(processStat);//報單處理狀態
+pageBean.setDutyExempWavrNote(dutyExempWavrNote);//排除低價免稅註記
+pageBean.setPermitNo(permitNo);//先稅後放核准案號
+pageBean.setBrokerCname(brokerCname);//報關行中文名稱
+pageBean.setBrokerEmpCname(brokerEmpCname);//專責人員姓名
+pageBean.setTaxAcntBsnsCod(taxAcntBsnsCod);//營業稅記帳廠商編號
+pageBean.setRemark1(remark1);//備註1
+pageBean.setRemark2(remark2);//備註2
+pageBean.setRemark3(remark3);//備註3
+pageBean.setRemark4(remark4);//備註4
+pageBean.setRemark5(remark5);//備註5
+pageBean.setRemark6(remark6);//備註6
+pageBean.setRemark7(remark7);//備註7
+pageBean.setRemark8(remark8);//備註8
+pageBean.setRemark9(remark9);//備註9
+pageBean.setRemark10(remark10);//備註10
+pageBean.setUpDate(upDate);//更新日期
+pageBean.setUpPerson(upPerson);//更新人員
+pageBean.setCarrierAgencyId(carrierAgencyId);//運輸業者/代理行代碼
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setSeaAirType(randomBean.getSeaAirType());//海空運別
+pageBean.setDeclType(randomBean.getDeclType());//報單類別
+pageBean.setFunctionCode(randomBean.getFunctionCode());//訊息功能代碼
+pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());//報關業者箱號
+pageBean.setBrokerBoxSubNo(randomBean.getBrokerBoxSubNo());//報關業者箱號附碼
+pageBean.setBrokerEmp(randomBean.getBrokerEmp());//專責報關人員代號
+pageBean.setStorWareCd1(randomBean.getStorWareCd1());//卸存地點代碼1
+pageBean.setStorWareCd2(randomBean.getStorWareCd2());//卸存地點代碼2
+pageBean.setTransportMode(randomBean.getTransportMode());//出口運輸方式代碼
+pageBean.setRefundNote(randomBean.getRefundNote());//申請沖退原料稅
+pageBean.setPayMethod(randomBean.getPayMethod());//海關稅費繳納方式代碼
+pageBean.setVslRegNo(randomBean.getVslRegNo());//海關通關號碼
+pageBean.setSoNo(randomBean.getSoNo());//裝貨單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setDeclDate(randomBean.getDeclDate());//報關日期
+pageBean.setPortCd(randomBean.getPortCd());//裝貨港代碼
+pageBean.setDestCd(randomBean.getDestCd());//目的地代碼
+pageBean.setDeliveryDest(randomBean.getDeliveryDest());//運送抵達地
+pageBean.setIncoterms(randomBean.getIncoterms());//交易條件代碼
+pageBean.setTotInvAmt(randomBean.getTotInvAmt());//發票總金額
+pageBean.setFreight(randomBean.getFreight());//運費
+pageBean.setInsurance(randomBean.getInsurance());//保險費
+pageBean.setAdditionalFee(randomBean.getAdditionalFee());//應加費用
+pageBean.setDeductionFee(randomBean.getDeductionFee());//應減費用
+pageBean.setCurrencyCd(randomBean.getCurrencyCd());//幣別代碼
+pageBean.setExchangeRate(randomBean.getExchangeRate());//外幣匯率
+pageBean.setFob(randomBean.getFob());//離岸價格
+pageBean.setTransportId(randomBean.getTransportId());//出口船（機）代碼
+pageBean.setVoyagNo(randomBean.getVoyagNo());//船舶航次（海）/航機班次（空）
+pageBean.setTotPackQty(randomBean.getTotPackQty());//總件數
+pageBean.setTotPackUnit(randomBean.getTotPackUnit());//總件數單位
+pageBean.setCoPackNote(randomBean.getCoPackNote());//合成註記
+pageBean.setPackDesc(randomBean.getPackDesc());//包裝說明
+pageBean.setTotGrossWeight(randomBean.getTotGrossWeight());//總毛重
+pageBean.setLisSts(randomBean.getLisSts());//簽證情形
+pageBean.setCarrierAgencyType(randomBean.getCarrierAgencyType());//運輸業者/代理行類別代碼
+pageBean.setUniNo(randomBean.getUniNo());//貨物唯一追蹤號碼
+pageBean.setContainerNoteNo(randomBean.getContainerNoteNo());//運送單號碼
+pageBean.setRemarkDesc(randomBean.getRemarkDesc());//標記
+pageBean.setExamMethod(randomBean.getExamMethod());//申請審驗方式
+pageBean.setAttachDocNo1(randomBean.getAttachDocNo1());//檢附文件號碼1
+pageBean.setAttachDocNo2(randomBean.getAttachDocNo2());//檢附文件號碼2
+pageBean.setAttachDocNo3(randomBean.getAttachDocNo3());//檢附文件號碼3
+pageBean.setApplCopyQty(randomBean.getApplCopyQty());//申請報單副本件數
+pageBean.setMaterlSuppl(randomBean.getMaterlSuppl());//檢附外銷品使用原料及其供應商資料表
+pageBean.setInBwBan(randomBean.getInBwBan());//進倉保稅倉庫業者統一編號
+pageBean.setOutBwBan(randomBean.getOutBwBan());//出倉保稅倉庫業者統一編號
+pageBean.setBwIdenfier(randomBean.getBwIdenfier());//保稅倉庫業者身分識別代碼
+pageBean.setInBwCd(randomBean.getInBwCd());//進倉保稅倉庫代碼
+pageBean.setOutBwCd(randomBean.getOutBwCd());//出倉保稅倉庫代碼
+pageBean.setBondGoodsRptMth(randomBean.getBondGoodsRptMth());//保稅貨物按月彙報月份
+pageBean.setTpRefNo(randomBean.getTpRefNo());//交易對方參考編號
+pageBean.setOtherDesc1(randomBean.getOtherDesc1());//其他申報事項1
+pageBean.setOtherDesc2(randomBean.getOtherDesc2());//其他申報事項2
+pageBean.setTradeFee(randomBean.getTradeFee());//推貿費金額
+pageBean.setProcessStat(randomBean.getProcessStat());//報單處理狀態
+pageBean.setDutyExempWavrNote(randomBean.getDutyExempWavrNote());//排除低價免稅註記
+pageBean.setPermitNo(randomBean.getPermitNo());//先稅後放核准案號
+pageBean.setBrokerCname(randomBean.getBrokerCname());//報關行中文名稱
+pageBean.setBrokerEmpCname(randomBean.getBrokerEmpCname());//專責人員姓名
+pageBean.setTaxAcntBsnsCod(randomBean.getTaxAcntBsnsCod());//營業稅記帳廠商編號
+pageBean.setRemark1(randomBean.getRemark1());//備註1
+pageBean.setRemark2(randomBean.getRemark2());//備註2
+pageBean.setRemark3(randomBean.getRemark3());//備註3
+pageBean.setRemark4(randomBean.getRemark4());//備註4
+pageBean.setRemark5(randomBean.getRemark5());//備註5
+pageBean.setRemark6(randomBean.getRemark6());//備註6
+pageBean.setRemark7(randomBean.getRemark7());//備註7
+pageBean.setRemark8(randomBean.getRemark8());//備註8
+pageBean.setRemark9(randomBean.getRemark9());//備註9
+pageBean.setRemark10(randomBean.getRemark10());//備註10
+pageBean.setUpDate(randomBean.getUpDate());//更新日期
+pageBean.setUpPerson(randomBean.getUpPerson());//更新人員
+pageBean.setCarrierAgencyId(randomBean.getCarrierAgencyId());//運輸業者/代理行代碼
+
+setDeclNo(declNo);//報單號碼
+setSeaAirType(seaAirType);//海空運別
+setDeclType(declType);//報單類別
+setFunctionCode(functionCode);//訊息功能代碼
+setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+setBrokerBoxSubNo(brokerBoxSubNo);//報關業者箱號附碼
+setBrokerEmp(brokerEmp);//專責報關人員代號
+setStorWareCd1(storWareCd1);//卸存地點代碼1
+setStorWareCd2(storWareCd2);//卸存地點代碼2
+setTransportMode(transportMode);//出口運輸方式代碼
+setRefundNote(refundNote);//申請沖退原料稅
+setPayMethod(payMethod);//海關稅費繳納方式代碼
+setVslRegNo(vslRegNo);//海關通關號碼
+setSoNo(soNo);//裝貨單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setDeclDate(declDate);//報關日期
+setPortCd(portCd);//裝貨港代碼
+setDestCd(destCd);//目的地代碼
+setDeliveryDest(deliveryDest);//運送抵達地
+setIncoterms(incoterms);//交易條件代碼
+setTotInvAmt(totInvAmt);//發票總金額
+setFreight(freight);//運費
+setInsurance(insurance);//保險費
+setAdditionalFee(additionalFee);//應加費用
+setDeductionFee(deductionFee);//應減費用
+setCurrencyCd(currencyCd);//幣別代碼
+setExchangeRate(exchangeRate);//外幣匯率
+setFob(fob);//離岸價格
+setTransportId(transportId);//出口船（機）代碼
+setVoyagNo(voyagNo);//船舶航次（海）/航機班次（空）
+setTotPackQty(totPackQty);//總件數
+setTotPackUnit(totPackUnit);//總件數單位
+setCoPackNote(coPackNote);//合成註記
+setPackDesc(packDesc);//包裝說明
+setTotGrossWeight(totGrossWeight);//總毛重
+setLisSts(lisSts);//簽證情形
+setCarrierAgencyType(carrierAgencyType);//運輸業者/代理行類別代碼
+setUniNo(uniNo);//貨物唯一追蹤號碼
+setContainerNoteNo(containerNoteNo);//運送單號碼
+setRemarkDesc(remarkDesc);//標記
+setExamMethod(examMethod);//申請審驗方式
+setAttachDocNo1(attachDocNo1);//檢附文件號碼1
+setAttachDocNo2(attachDocNo2);//檢附文件號碼2
+setAttachDocNo3(attachDocNo3);//檢附文件號碼3
+setApplCopyQty(applCopyQty);//申請報單副本件數
+setMaterlSuppl(materlSuppl);//檢附外銷品使用原料及其供應商資料表
+setInBwBan(inBwBan);//進倉保稅倉庫業者統一編號
+setOutBwBan(outBwBan);//出倉保稅倉庫業者統一編號
+setBwIdenfier(bwIdenfier);//保稅倉庫業者身分識別代碼
+setInBwCd(inBwCd);//進倉保稅倉庫代碼
+setOutBwCd(outBwCd);//出倉保稅倉庫代碼
+setBondGoodsRptMth(bondGoodsRptMth);//保稅貨物按月彙報月份
+setTpRefNo(tpRefNo);//交易對方參考編號
+setOtherDesc1(otherDesc1);//其他申報事項1
+setOtherDesc2(otherDesc2);//其他申報事項2
+setTradeFee(tradeFee);//推貿費金額
+setProcessStat(processStat);//報單處理狀態
+setDutyExempWavrNote(dutyExempWavrNote);//排除低價免稅註記
+setPermitNo(permitNo);//先稅後放核准案號
+setBrokerCname(brokerCname);//報關行中文名稱
+setBrokerEmpCname(brokerEmpCname);//專責人員姓名
+setTaxAcntBsnsCod(taxAcntBsnsCod);//營業稅記帳廠商編號
+setRemark1(remark1);//備註1
+setRemark2(remark2);//備註2
+setRemark3(remark3);//備註3
+setRemark4(remark4);//備註4
+setRemark5(remark5);//備註5
+setRemark6(remark6);//備註6
+setRemark7(remark7);//備註7
+setRemark8(remark8);//備註8
+setRemark9(remark9);//備註9
+setRemark10(remark10);//備註10
+setUpDate(upDate);//更新日期
+setUpPerson(upPerson);//更新人員
+setCarrierAgencyId(carrierAgencyId);//運輸業者/代理行代碼
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getSeaAirType(),//海空運別
+pageBean.getDeclType(),//報單類別
+pageBean.getFunctionCode(),//訊息功能代碼
+pageBean.getBrokerBoxNo(),//報關業者箱號
+pageBean.getBrokerBoxSubNo(),//報關業者箱號附碼
+pageBean.getBrokerEmp(),//專責報關人員代號
+pageBean.getStorWareCd1(),//卸存地點代碼1
+pageBean.getStorWareCd2(),//卸存地點代碼2
+pageBean.getTransportMode(),//出口運輸方式代碼
+pageBean.getRefundNote(),//申請沖退原料稅
+pageBean.getPayMethod(),//海關稅費繳納方式代碼
+pageBean.getVslRegNo(),//海關通關號碼
+pageBean.getSoNo(),//裝貨單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getDeclDate(),//報關日期
+pageBean.getPortCd(),//裝貨港代碼
+pageBean.getDestCd(),//目的地代碼
+pageBean.getDeliveryDest(),//運送抵達地
+pageBean.getIncoterms(),//交易條件代碼
+pageBean.getTotInvAmt(),//發票總金額
+pageBean.getFreight(),//運費
+pageBean.getInsurance(),//保險費
+pageBean.getAdditionalFee(),//應加費用
+pageBean.getDeductionFee(),//應減費用
+pageBean.getCurrencyCd(),//幣別代碼
+pageBean.getExchangeRate(),//外幣匯率
+pageBean.getFob(),//離岸價格
+pageBean.getTransportId(),//出口船（機）代碼
+pageBean.getVoyagNo(),//船舶航次（海）/航機班次（空）
+pageBean.getTotPackQty(),//總件數
+pageBean.getTotPackUnit(),//總件數單位
+pageBean.getCoPackNote(),//合成註記
+pageBean.getPackDesc(),//包裝說明
+pageBean.getTotGrossWeight(),//總毛重
+pageBean.getLisSts(),//簽證情形
+pageBean.getCarrierAgencyType(),//運輸業者/代理行類別代碼
+pageBean.getUniNo(),//貨物唯一追蹤號碼
+pageBean.getContainerNoteNo(),//運送單號碼
+pageBean.getRemarkDesc(),//標記
+pageBean.getExamMethod(),//申請審驗方式
+pageBean.getAttachDocNo1(),//檢附文件號碼1
+pageBean.getAttachDocNo2(),//檢附文件號碼2
+pageBean.getAttachDocNo3(),//檢附文件號碼3
+pageBean.getApplCopyQty(),//申請報單副本件數
+pageBean.getMaterlSuppl(),//檢附外銷品使用原料及其供應商資料表
+pageBean.getInBwBan(),//進倉保稅倉庫業者統一編號
+pageBean.getOutBwBan(),//出倉保稅倉庫業者統一編號
+pageBean.getBwIdenfier(),//保稅倉庫業者身分識別代碼
+pageBean.getInBwCd(),//進倉保稅倉庫代碼
+pageBean.getOutBwCd(),//出倉保稅倉庫代碼
+pageBean.getBondGoodsRptMth(),//保稅貨物按月彙報月份
+pageBean.getTpRefNo(),//交易對方參考編號
+pageBean.getOtherDesc1(),//其他申報事項1
+pageBean.getOtherDesc2(),//其他申報事項2
+pageBean.getTradeFee(),//推貿費金額
+pageBean.getProcessStat(),//報單處理狀態
+pageBean.getDutyExempWavrNote(),//排除低價免稅註記
+pageBean.getPermitNo(),//先稅後放核准案號
+pageBean.getBrokerCname(),//報關行中文名稱
+pageBean.getBrokerEmpCname(),//專責人員姓名
+pageBean.getTaxAcntBsnsCod(),//營業稅記帳廠商編號
+pageBean.getRemark1(),//備註1
+pageBean.getRemark2(),//備註2
+pageBean.getRemark3(),//備註3
+pageBean.getRemark4(),//備註4
+pageBean.getRemark5(),//備註5
+pageBean.getRemark6(),//備註6
+pageBean.getRemark7(),//備註7
+pageBean.getRemark8(),//備註8
+pageBean.getRemark9(),//備註9
+pageBean.getRemark10(),//備註10
+pageBean.getUpDate(),//更新日期
+pageBean.getUpPerson(),//更新人員
+pageBean.getCarrierAgencyId(),//運輸業者/代理行代碼
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("SEA_AIR_TYPE", this.getSeaAirType());//海空運別
+pageBean.setValue("DECL_TYPE", this.getDeclType());//報單類別
+pageBean.setValue("FUNCTION_CODE", this.getFunctionCode());//訊息功能代碼
+pageBean.setValue("BROKER_BOX_NO", this.getBrokerBoxNo());//報關業者箱號
+pageBean.setValue("BROKER_BOX_SUB_NO", this.getBrokerBoxSubNo());//報關業者箱號附碼
+pageBean.setValue("BROKER_EMP", this.getBrokerEmp());//專責報關人員代號
+pageBean.setValue("STOR_WARE_CD1", this.getStorWareCd1());//卸存地點代碼1
+pageBean.setValue("STOR_WARE_CD2", this.getStorWareCd2());//卸存地點代碼2
+pageBean.setValue("TRANSPORT_MODE", this.getTransportMode());//出口運輸方式代碼
+pageBean.setValue("REFUND_NOTE", this.getRefundNote());//申請沖退原料稅
+pageBean.setValue("PAY_METHOD", this.getPayMethod());//海關稅費繳納方式代碼
+pageBean.setValue("VSL_REG_NO", this.getVslRegNo());//海關通關號碼
+pageBean.setValue("SO_NO", this.getSoNo());//裝貨單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("DECL_DATE", this.getDeclDate());//報關日期
+pageBean.setValue("PORT_CD", this.getPortCd());//裝貨港代碼
+pageBean.setValue("DEST_CD", this.getDestCd());//目的地代碼
+pageBean.setValue("DELIVERY_DEST", this.getDeliveryDest());//運送抵達地
+pageBean.setValue("INCOTERMS", this.getIncoterms());//交易條件代碼
+pageBean.setValue("TOT_INV_AMT", this.getTotInvAmt());//發票總金額
+pageBean.setValue("FREIGHT", this.getFreight());//運費
+pageBean.setValue("INSURANCE", this.getInsurance());//保險費
+pageBean.setValue("ADDITIONAL_FEE", this.getAdditionalFee());//應加費用
+pageBean.setValue("DEDUCTION_FEE", this.getDeductionFee());//應減費用
+pageBean.setValue("CURRENCY_CD", this.getCurrencyCd());//幣別代碼
+pageBean.setValue("EXCHANGE_RATE", this.getExchangeRate());//外幣匯率
+pageBean.setValue("FOB", this.getFob());//離岸價格
+pageBean.setValue("TRANSPORT_ID", this.getTransportId());//出口船（機）代碼
+pageBean.setValue("VOYAG_NO", this.getVoyagNo());//船舶航次（海）/航機班次（空）
+pageBean.setValue("TOT_PACK_QTY", this.getTotPackQty());//總件數
+pageBean.setValue("TOT_PACK_UNIT", this.getTotPackUnit());//總件數單位
+pageBean.setValue("CO_PACK_NOTE", this.getCoPackNote());//合成註記
+pageBean.setValue("PACK_DESC", this.getPackDesc());//包裝說明
+pageBean.setValue("TOT_GROSS_WEIGHT", this.getTotGrossWeight());//總毛重
+pageBean.setValue("LIS_STS", this.getLisSts());//簽證情形
+pageBean.setValue("CARRIER_AGENCY_TYPE", this.getCarrierAgencyType());//運輸業者/代理行類別代碼
+pageBean.setValue("UNI_NO", this.getUniNo());//貨物唯一追蹤號碼
+pageBean.setValue("CONTAINER_NOTE_NO", this.getContainerNoteNo());//運送單號碼
+pageBean.setValue("REMARK_DESC", this.getRemarkDesc());//標記
+pageBean.setValue("EXAM_METHOD", this.getExamMethod());//申請審驗方式
+pageBean.setValue("ATTACH_DOC_NO1", this.getAttachDocNo1());//檢附文件號碼1
+pageBean.setValue("ATTACH_DOC_NO2", this.getAttachDocNo2());//檢附文件號碼2
+pageBean.setValue("ATTACH_DOC_NO3", this.getAttachDocNo3());//檢附文件號碼3
+pageBean.setValue("APPL_COPY_QTY", this.getApplCopyQty());//申請報單副本件數
+pageBean.setValue("MATERL_SUPPL", this.getMaterlSuppl());//檢附外銷品使用原料及其供應商資料表
+pageBean.setValue("IN_BW_BAN", this.getInBwBan());//進倉保稅倉庫業者統一編號
+pageBean.setValue("OUT_BW_BAN", this.getOutBwBan());//出倉保稅倉庫業者統一編號
+pageBean.setValue("BW_IDENFIER", this.getBwIdenfier());//保稅倉庫業者身分識別代碼
+pageBean.setValue("IN_BW_CD", this.getInBwCd());//進倉保稅倉庫代碼
+pageBean.setValue("OUT_BW_CD", this.getOutBwCd());//出倉保稅倉庫代碼
+pageBean.setValue("BOND_GOODS_RPT_MTH", this.getBondGoodsRptMth());//保稅貨物按月彙報月份
+pageBean.setValue("TP_REF_NO", this.getTpRefNo());//交易對方參考編號
+pageBean.setValue("OTHER_DESC_1", this.getOtherDesc1());//其他申報事項1
+pageBean.setValue("OTHER_DESC_2", this.getOtherDesc2());//其他申報事項2
+pageBean.setValue("TRADE_FEE", this.getTradeFee());//推貿費金額
+pageBean.setValue("PROCESS_STAT", this.getProcessStat());//報單處理狀態
+pageBean.setValue("DUTY_EXEMP_WAVR_NOTE", this.getDutyExempWavrNote());//排除低價免稅註記
+pageBean.setValue("PERMIT_NO", this.getPermitNo());//先稅後放核准案號
+pageBean.setValue("BROKER_CNAME", this.getBrokerCname());//報關行中文名稱
+pageBean.setValue("BROKER_EMP_CNAME", this.getBrokerEmpCname());//專責人員姓名
+pageBean.setValue("TAX_ACNT_BSNS_COD", this.getTaxAcntBsnsCod());//營業稅記帳廠商編號
+pageBean.setValue("REMARK1", this.getRemark1());//備註1
+pageBean.setValue("REMARK2", this.getRemark2());//備註2
+pageBean.setValue("REMARK3", this.getRemark3());//備註3
+pageBean.setValue("REMARK4", this.getRemark4());//備註4
+pageBean.setValue("REMARK5", this.getRemark5());//備註5
+pageBean.setValue("REMARK6", this.getRemark6());//備註6
+pageBean.setValue("REMARK7", this.getRemark7());//備註7
+pageBean.setValue("REMARK8", this.getRemark8());//備註8
+pageBean.setValue("REMARK9", this.getRemark9());//備註9
+pageBean.setValue("REMARK10", this.getRemark10());//備註10
+pageBean.setValue("UP_DATE", this.getUpDate());//更新日期
+pageBean.setValue("UP_PERSON", this.getUpPerson());//更新人員
+pageBean.setValue("CARRIER_AGENCY_ID", this.getCarrierAgencyId());//運輸業者/代理行代碼
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",海空運別"+"(seaAirType)="+pageBean.getSeaAirType()+
+",報單類別"+"(declType)="+pageBean.getDeclType()+
+",訊息功能代碼"+"(functionCode)="+pageBean.getFunctionCode()+
+",報關業者箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",報關業者箱號附碼"+"(brokerBoxSubNo)="+pageBean.getBrokerBoxSubNo()+
+",專責報關人員代號"+"(brokerEmp)="+pageBean.getBrokerEmp()+
+",卸存地點代碼1"+"(storWareCd1)="+pageBean.getStorWareCd1()+
+",卸存地點代碼2"+"(storWareCd2)="+pageBean.getStorWareCd2()+
+",出口運輸方式代碼"+"(transportMode)="+pageBean.getTransportMode()+
+",申請沖退原料稅"+"(refundNote)="+pageBean.getRefundNote()+
+",海關稅費繳納方式代碼"+"(payMethod)="+pageBean.getPayMethod()+
+",海關通關號碼"+"(vslRegNo)="+pageBean.getVslRegNo()+
+",裝貨單號碼"+"(soNo)="+pageBean.getSoNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",報關日期"+"(declDate)="+pageBean.getDeclDate()+
+",裝貨港代碼"+"(portCd)="+pageBean.getPortCd()+
+",目的地代碼"+"(destCd)="+pageBean.getDestCd()+
+",運送抵達地"+"(deliveryDest)="+pageBean.getDeliveryDest()+
+",交易條件代碼"+"(incoterms)="+pageBean.getIncoterms()+
+",發票總金額"+"(totInvAmt)="+pageBean.getTotInvAmt()+
+",運費"+"(freight)="+pageBean.getFreight()+
+",保險費"+"(insurance)="+pageBean.getInsurance()+
+",應加費用"+"(additionalFee)="+pageBean.getAdditionalFee()+
+",應減費用"+"(deductionFee)="+pageBean.getDeductionFee()+
+",幣別代碼"+"(currencyCd)="+pageBean.getCurrencyCd()+
+",外幣匯率"+"(exchangeRate)="+pageBean.getExchangeRate()+
+",離岸價格"+"(fob)="+pageBean.getFob()+
+",出口船（機）代碼"+"(transportId)="+pageBean.getTransportId()+
+",船舶航次（海）/航機班次（空）"+"(voyagNo)="+pageBean.getVoyagNo()+
+",總件數"+"(totPackQty)="+pageBean.getTotPackQty()+
+",總件數單位"+"(totPackUnit)="+pageBean.getTotPackUnit()+
+",合成註記"+"(coPackNote)="+pageBean.getCoPackNote()+
+",包裝說明"+"(packDesc)="+pageBean.getPackDesc()+
+",總毛重"+"(totGrossWeight)="+pageBean.getTotGrossWeight()+
+",簽證情形"+"(lisSts)="+pageBean.getLisSts()+
+",運輸業者/代理行類別代碼"+"(carrierAgencyType)="+pageBean.getCarrierAgencyType()+
+",貨物唯一追蹤號碼"+"(uniNo)="+pageBean.getUniNo()+
+",運送單號碼"+"(containerNoteNo)="+pageBean.getContainerNoteNo()+
+",標記"+"(remarkDesc)="+pageBean.getRemarkDesc()+
+",申請審驗方式"+"(examMethod)="+pageBean.getExamMethod()+
+",檢附文件號碼1"+"(attachDocNo1)="+pageBean.getAttachDocNo1()+
+",檢附文件號碼2"+"(attachDocNo2)="+pageBean.getAttachDocNo2()+
+",檢附文件號碼3"+"(attachDocNo3)="+pageBean.getAttachDocNo3()+
+",申請報單副本件數"+"(applCopyQty)="+pageBean.getApplCopyQty()+
+",檢附外銷品使用原料及其供應商資料表"+"(materlSuppl)="+pageBean.getMaterlSuppl()+
+",進倉保稅倉庫業者統一編號"+"(inBwBan)="+pageBean.getInBwBan()+
+",出倉保稅倉庫業者統一編號"+"(outBwBan)="+pageBean.getOutBwBan()+
+",保稅倉庫業者身分識別代碼"+"(bwIdenfier)="+pageBean.getBwIdenfier()+
+",進倉保稅倉庫代碼"+"(inBwCd)="+pageBean.getInBwCd()+
+",出倉保稅倉庫代碼"+"(outBwCd)="+pageBean.getOutBwCd()+
+",保稅貨物按月彙報月份"+"(bondGoodsRptMth)="+pageBean.getBondGoodsRptMth()+
+",交易對方參考編號"+"(tpRefNo)="+pageBean.getTpRefNo()+
+",其他申報事項1"+"(otherDesc1)="+pageBean.getOtherDesc1()+
+",其他申報事項2"+"(otherDesc2)="+pageBean.getOtherDesc2()+
+",推貿費金額"+"(tradeFee)="+pageBean.getTradeFee()+
+",報單處理狀態"+"(processStat)="+pageBean.getProcessStat()+
+",排除低價免稅註記"+"(dutyExempWavrNote)="+pageBean.getDutyExempWavrNote()+
+",先稅後放核准案號"+"(permitNo)="+pageBean.getPermitNo()+
+",報關行中文名稱"+"(brokerCname)="+pageBean.getBrokerCname()+
+",專責人員姓名"+"(brokerEmpCname)="+pageBean.getBrokerEmpCname()+
+",營業稅記帳廠商編號"+"(taxAcntBsnsCod)="+pageBean.getTaxAcntBsnsCod()+
+",備註1"+"(remark1)="+pageBean.getRemark1()+
+",備註2"+"(remark2)="+pageBean.getRemark2()+
+",備註3"+"(remark3)="+pageBean.getRemark3()+
+",備註4"+"(remark4)="+pageBean.getRemark4()+
+",備註5"+"(remark5)="+pageBean.getRemark5()+
+",備註6"+"(remark6)="+pageBean.getRemark6()+
+",備註7"+"(remark7)="+pageBean.getRemark7()+
+",備註8"+"(remark8)="+pageBean.getRemark8()+
+",備註9"+"(remark9)="+pageBean.getRemark9()+
+",備註10"+"(remark10)="+pageBean.getRemark10()+
+",更新日期"+"(upDate)="+pageBean.getUpDate()+
+",更新人員"+"(upPerson)="+pageBean.getUpPerson()+
+",運輸業者/代理行代碼"+"(carrierAgencyId)="+pageBean.getCarrierAgencyId()+

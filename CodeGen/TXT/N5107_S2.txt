@@ -1,0 +1,153 @@
+pageBean.transId=TRANS_ID
+pageBean.itemNo=項次
+pageBean.addDocCd=應補辦事項代碼
+pageBean.imgFlName=檢附影像檔名稱
+pageBean.impExpRglaCd=輸出入規定
+
+pageBean.transId=transId
+pageBean.itemNo=itemNo
+pageBean.addDocCd=addDocCd
+pageBean.imgFlName=imgFlName
+pageBean.impExpRglaCd=impExpRglaCd
+
+<!--transId:TRANS_ID-->
+<tr>
+<td>
+	<s:text name="transId"/>
+	<s:textfield name="pageBean.transId" />
+</td>
+</tr>
+
+<!--itemNo:項次-->
+<tr>
+<td>
+	<s:text name="itemNo"/>
+	<s:textfield name="pageBean.itemNo" />
+</td>
+</tr>
+
+<!--addDocCd:應補辦事項代碼-->
+<tr>
+<td>
+	<s:text name="addDocCd"/>
+	<s:textfield name="pageBean.addDocCd" />
+</td>
+</tr>
+
+<!--imgFlName:檢附影像檔名稱-->
+<tr>
+<td>
+	<s:text name="imgFlName"/>
+	<s:textfield name="pageBean.imgFlName" />
+</td>
+</tr>
+
+<!--impExpRglaCd:輸出入規定-->
+<tr>
+<td>
+	<s:text name="impExpRglaCd"/>
+	<s:textfield name="pageBean.impExpRglaCd" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="TRANS_ID" index="TRANS_ID" title="%{getText('transId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_ID:TRANS_ID:transId--%>
+<sjg:gridColumn name="ITEM_NO" index="ITEM_NO" title="%{getText('itemNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ITEM_NO:項次:itemNo--%>
+<sjg:gridColumn name="ADD_DOC_CD" index="ADD_DOC_CD" title="%{getText('addDocCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ADD_DOC_CD:應補辦事項代碼:addDocCd--%>
+<sjg:gridColumn name="IMG_FL_NAME" index="IMG_FL_NAME" title="%{getText('imgFlName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IMG_FL_NAME:檢附影像檔名稱:imgFlName--%>
+<sjg:gridColumn name="IMP_EXP_RGLA_CD" index="IMP_EXP_RGLA_CD" title="%{getText('impExpRglaCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IMP_EXP_RGLA_CD:輸出入規定:impExpRglaCd--%>
+
+,A.TRANS_ID
+,A.ITEM_NO
+,A.ADD_DOC_CD
+,A.IMG_FL_NAME
+,A.IMP_EXP_RGLA_CD
+
+<condition key="TRANS_ID" ignoreEmpty="true">TRANS_ID = ${TRANS_ID}</condition>
+<condition key="ITEM_NO" ignoreEmpty="true">ITEM_NO = ${ITEM_NO}</condition>
+<condition key="ADD_DOC_CD" ignoreEmpty="true">ADD_DOC_CD = ${ADD_DOC_CD}</condition>
+<condition key="IMG_FL_NAME" ignoreEmpty="true">IMG_FL_NAME = ${IMG_FL_NAME}</condition>
+<condition key="IMP_EXP_RGLA_CD" ignoreEmpty="true">IMP_EXP_RGLA_CD = ${IMP_EXP_RGLA_CD}</condition>
+
+<condition key="TRANS_ID_S" ignoreEmpty="true">TRANS_ID >= ${TRANS_ID_S}</condition><condition key="TRANS_ID_E" ignoreEmpty="true">${TRANS_ID_E} >= TRANS_ID</condition><condition key="TRANS_ID_L" ignoreEmpty="true">TRANS_ID like ${TRANS_ID_L}</condition>
+<condition key="ITEM_NO_S" ignoreEmpty="true">ITEM_NO >= ${ITEM_NO_S}</condition><condition key="ITEM_NO_E" ignoreEmpty="true">${ITEM_NO_E} >= ITEM_NO</condition><condition key="ITEM_NO_L" ignoreEmpty="true">ITEM_NO like ${ITEM_NO_L}</condition>
+<condition key="ADD_DOC_CD_S" ignoreEmpty="true">ADD_DOC_CD >= ${ADD_DOC_CD_S}</condition><condition key="ADD_DOC_CD_E" ignoreEmpty="true">${ADD_DOC_CD_E} >= ADD_DOC_CD</condition><condition key="ADD_DOC_CD_L" ignoreEmpty="true">ADD_DOC_CD like ${ADD_DOC_CD_L}</condition>
+<condition key="IMG_FL_NAME_S" ignoreEmpty="true">IMG_FL_NAME >= ${IMG_FL_NAME_S}</condition><condition key="IMG_FL_NAME_E" ignoreEmpty="true">${IMG_FL_NAME_E} >= IMG_FL_NAME</condition><condition key="IMG_FL_NAME_L" ignoreEmpty="true">IMG_FL_NAME like ${IMG_FL_NAME_L}</condition>
+<condition key="IMP_EXP_RGLA_CD_S" ignoreEmpty="true">IMP_EXP_RGLA_CD >= ${IMP_EXP_RGLA_CD_S}</condition><condition key="IMP_EXP_RGLA_CD_E" ignoreEmpty="true">${IMP_EXP_RGLA_CD_E} >= IMP_EXP_RGLA_CD</condition><condition key="IMP_EXP_RGLA_CD_L" ignoreEmpty="true">IMP_EXP_RGLA_CD like ${IMP_EXP_RGLA_CD_L}</condition>
+
+<field key="TRANS_ID" name="TRANS_ID" ignoreEmpty="true"/>
+<field key="ITEM_NO" name="ITEM_NO" ignoreEmpty="true"/>
+<field key="ADD_DOC_CD" name="ADD_DOC_CD" ignoreEmpty="true"/>
+<field key="IMG_FL_NAME" name="IMG_FL_NAME" ignoreEmpty="true"/>
+<field key="IMP_EXP_RGLA_CD" name="IMP_EXP_RGLA_CD" ignoreEmpty="true"/>
+
+$('#pageBean_transId').attr('value',rowData.TRANS_ID);
+$('#pageBean_itemNo').attr('value',rowData.ITEM_NO);
+$('#pageBean_addDocCd').attr('value',rowData.ADD_DOC_CD);
+$('#pageBean_imgFlName').attr('value',rowData.IMG_FL_NAME);
+$('#pageBean_impExpRglaCd').attr('value',rowData.IMP_EXP_RGLA_CD);
+
+$('#pageBean_transId').attr("value", "");
+$('#pageBean_itemNo').attr("value", "");
+$('#pageBean_addDocCd').attr("value", "");
+$('#pageBean_imgFlName').attr("value", "");
+$('#pageBean_impExpRglaCd').attr("value", "");
+
+TRANS_ID:$('#pageBean_transId').val(),//TRANS_ID
+ITEM_NO:$('#pageBean_itemNo').val(),//項次
+ADD_DOC_CD:$('#pageBean_addDocCd').val(),//應補辦事項代碼
+IMG_FL_NAME:$('#pageBean_imgFlName').val(),//檢附影像檔名稱
+IMP_EXP_RGLA_CD:$('#pageBean_impExpRglaCd').val(),//輸出入規定
+
+pageBean.setTransId(dataObjects.getString("TRANS_ID"));//TRANS_ID
+pageBean.setItemNo(dataObjects.getString("ITEM_NO"));//項次
+pageBean.setAddDocCd(dataObjects.getString("ADD_DOC_CD"));//應補辦事項代碼
+pageBean.setImgFlName(dataObjects.getString("IMG_FL_NAME"));//檢附影像檔名稱
+pageBean.setImpExpRglaCd(dataObjects.getString("IMP_EXP_RGLA_CD"));//輸出入規定
+
+private String transId = null;//TRANS_ID
+private String itemNo = null;//項次
+private String addDocCd = null;//應補辦事項代碼
+private String imgFlName = null;//檢附影像檔名稱
+private String impExpRglaCd = null;//輸出入規定
+
+pageBean.setTransId(transId);//TRANS_ID
+pageBean.setItemNo(itemNo);//項次
+pageBean.setAddDocCd(addDocCd);//應補辦事項代碼
+pageBean.setImgFlName(imgFlName);//檢附影像檔名稱
+pageBean.setImpExpRglaCd(impExpRglaCd);//輸出入規定
+
+pageBean.setTransId(randomBean.getTransId());//TRANS_ID
+pageBean.setItemNo(randomBean.getItemNo());//項次
+pageBean.setAddDocCd(randomBean.getAddDocCd());//應補辦事項代碼
+pageBean.setImgFlName(randomBean.getImgFlName());//檢附影像檔名稱
+pageBean.setImpExpRglaCd(randomBean.getImpExpRglaCd());//輸出入規定
+
+setTransId(transId);//TRANS_ID
+setItemNo(itemNo);//項次
+setAddDocCd(addDocCd);//應補辦事項代碼
+setImgFlName(imgFlName);//檢附影像檔名稱
+setImpExpRglaCd(impExpRglaCd);//輸出入規定
+
+pageBean.getTransId(),//TRANS_ID
+pageBean.getItemNo(),//項次
+pageBean.getAddDocCd(),//應補辦事項代碼
+pageBean.getImgFlName(),//檢附影像檔名稱
+pageBean.getImpExpRglaCd(),//輸出入規定
+
+pageBean.setValue("TRANS_ID", this.getTransId());//TRANS_ID
+pageBean.setValue("ITEM_NO", this.getItemNo());//項次
+pageBean.setValue("ADD_DOC_CD", this.getAddDocCd());//應補辦事項代碼
+pageBean.setValue("IMG_FL_NAME", this.getImgFlName());//檢附影像檔名稱
+pageBean.setValue("IMP_EXP_RGLA_CD", this.getImpExpRglaCd());//輸出入規定
+
+",TRANS_ID"+"(transId)="+pageBean.getTransId()+
+",項次"+"(itemNo)="+pageBean.getItemNo()+
+",應補辦事項代碼"+"(addDocCd)="+pageBean.getAddDocCd()+
+",檢附影像檔名稱"+"(imgFlName)="+pageBean.getImgFlName()+
+",輸出入規定"+"(impExpRglaCd)="+pageBean.getImpExpRglaCd()+

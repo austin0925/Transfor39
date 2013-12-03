@@ -1,0 +1,1215 @@
+pageBean.mfgType=廠商類別(*:廠商  空白:個人)
+pageBean.ban=營利事業統一編號
+pageBean.mfgName=英文名稱
+pageBean.mfgAddress=英文地址
+pageBean.mfgTel=電話號碼
+pageBean.cname=中文名稱
+pageBean.caddr=中文地址
+pageBean.avtId=營業人註記
+pageBean.taxUnpaid=內地稅欠繳註記
+pageBean.bofIm=進口資格
+pageBean.bofEx=出口資格
+pageBean.setupDate=廠商成立日期
+pageBean.detentionCode=查扣註記
+pageBean.puniXType=涉及重大走私漏稅註記
+pageBean.mfgClass=進口現有等級
+pageBean.puniDate=進口等級最近異動日期
+pageBean.checkReleaseMark=驗估處先核後放註記
+pageBean.exClass=出口等級
+pageBean.exIgocDate=出口最近處分日期
+pageBean.lgMark=LG轉換註記
+pageBean.excelConnectCode=優良廠商連線註記
+pageBean.sourceMark=資料來源註記
+pageBean.checkEndDate=先核後放截止日期
+pageBean.creditMark=信譽註記
+pageBean.specialClass=進口特殊等級
+pageBean.checkBegDate=先核後放起始日期
+pageBean.unionCompNote=一般策略聯盟廠商註記
+pageBean.exchangNo=央行結匯帳號
+pageBean.accNo=銀行帳號
+pageBean.bofProcess=智慧財產局晶片登錄註記
+pageBean.orgiClass=進口原有等級
+pageBean.trnc=財稅中心稅急異動原因代號
+pageBean.secureNote=安全認證優質企業註記
+pageBean.proposeGrade=專案核列等級
+pageBean.aeoNote=一般優質企業註記
+pageBean.vDownC=驗估處降級註記
+pageBean.taxDownC=財稅營業稅降級註記
+pageBean.qualifiedNotOkCode=資格異動原因
+pageBean.qualifiedNotOkDate=資格異動日期
+pageBean.altKey=關係企業統一編號
+pageBean.typeNote=特殊企業註記
+pageBean.upsMark=快遞廠商註記
+pageBean.lastTransId=異動程式代號
+pageBean.lastUserName=異動使用者代號
+pageBean.lastTransUnit=異動使用者單位
+pageBean.capt=資本額(千元)
+pageBean.puniXTypeDate=涉及重大走私漏稅註記日期
+pageBean.nonExamMarkDate=得船邊驗放有效期限
+pageBean.exehMark=出口推貿費季繳廠商需電子資料註記
+pageBean.nonExamMark=船邊抽驗放行註記
+pageBean.exOrgiClass=出口原有等級
+pageBean.upDate=異動日期時間
+
+pageBean.mfgType=mfgType
+pageBean.ban=ban
+pageBean.mfgName=mfgName
+pageBean.mfgAddress=mfgAddress
+pageBean.mfgTel=mfgTel
+pageBean.cname=cname
+pageBean.caddr=caddr
+pageBean.avtId=avtId
+pageBean.taxUnpaid=taxUnpaid
+pageBean.bofIm=bofIm
+pageBean.bofEx=bofEx
+pageBean.setupDate=setupDate
+pageBean.detentionCode=detentionCode
+pageBean.puniXType=puniXType
+pageBean.mfgClass=mfgClass
+pageBean.puniDate=puniDate
+pageBean.checkReleaseMark=checkReleaseMark
+pageBean.exClass=exClass
+pageBean.exIgocDate=exIgocDate
+pageBean.lgMark=lgMark
+pageBean.excelConnectCode=excelConnectCode
+pageBean.sourceMark=sourceMark
+pageBean.checkEndDate=checkEndDate
+pageBean.creditMark=creditMark
+pageBean.specialClass=specialClass
+pageBean.checkBegDate=checkBegDate
+pageBean.unionCompNote=unionCompNote
+pageBean.exchangNo=exchangNo
+pageBean.accNo=accNo
+pageBean.bofProcess=bofProcess
+pageBean.orgiClass=orgiClass
+pageBean.trnc=trnc
+pageBean.secureNote=secureNote
+pageBean.proposeGrade=proposeGrade
+pageBean.aeoNote=aeoNote
+pageBean.vDownC=vDownC
+pageBean.taxDownC=taxDownC
+pageBean.qualifiedNotOkCode=qualifiedNotOkCode
+pageBean.qualifiedNotOkDate=qualifiedNotOkDate
+pageBean.altKey=altKey
+pageBean.typeNote=typeNote
+pageBean.upsMark=upsMark
+pageBean.lastTransId=lastTransId
+pageBean.lastUserName=lastUserName
+pageBean.lastTransUnit=lastTransUnit
+pageBean.capt=capt
+pageBean.puniXTypeDate=puniXTypeDate
+pageBean.nonExamMarkDate=nonExamMarkDate
+pageBean.exehMark=exehMark
+pageBean.nonExamMark=nonExamMark
+pageBean.exOrgiClass=exOrgiClass
+pageBean.upDate=upDate
+
+<!--mfgType:廠商類別(*:廠商  空白:個人)-->
+<s:text name="pageBean.mfgType"/>
+<s:textfield name="pageBean.mfgType"/>
+<!--ban:營利事業統一編號-->
+<s:text name="pageBean.ban"/>
+<s:textfield name="pageBean.ban"/>
+<!--mfgName:英文名稱-->
+<s:text name="pageBean.mfgName"/>
+<s:textfield name="pageBean.mfgName"/>
+<!--mfgAddress:英文地址-->
+<s:text name="pageBean.mfgAddress"/>
+<s:textfield name="pageBean.mfgAddress"/>
+<!--mfgTel:電話號碼-->
+<s:text name="pageBean.mfgTel"/>
+<s:textfield name="pageBean.mfgTel"/>
+<!--cname:中文名稱-->
+<s:text name="pageBean.cname"/>
+<s:textfield name="pageBean.cname"/>
+<!--caddr:中文地址-->
+<s:text name="pageBean.caddr"/>
+<s:textfield name="pageBean.caddr"/>
+<!--avtId:營業人註記-->
+<s:text name="pageBean.avtId"/>
+<s:textfield name="pageBean.avtId"/>
+<!--taxUnpaid:內地稅欠繳註記-->
+<s:text name="pageBean.taxUnpaid"/>
+<s:textfield name="pageBean.taxUnpaid"/>
+<!--bofIm:進口資格-->
+<s:text name="pageBean.bofIm"/>
+<s:textfield name="pageBean.bofIm"/>
+<!--bofEx:出口資格-->
+<s:text name="pageBean.bofEx"/>
+<s:textfield name="pageBean.bofEx"/>
+<!--setupDate:廠商成立日期-->
+<s:text name="pageBean.setupDate"/>
+<s:textfield name="pageBean.setupDate"/>
+<!--detentionCode:查扣註記-->
+<s:text name="pageBean.detentionCode"/>
+<s:textfield name="pageBean.detentionCode"/>
+<!--puniXType:涉及重大走私漏稅註記-->
+<s:text name="pageBean.puniXType"/>
+<s:textfield name="pageBean.puniXType"/>
+<!--mfgClass:進口現有等級-->
+<s:text name="pageBean.mfgClass"/>
+<s:textfield name="pageBean.mfgClass"/>
+<!--puniDate:進口等級最近異動日期-->
+<s:text name="pageBean.puniDate"/>
+<s:textfield name="pageBean.puniDate"/>
+<!--checkReleaseMark:驗估處先核後放註記-->
+<s:text name="pageBean.checkReleaseMark"/>
+<s:textfield name="pageBean.checkReleaseMark"/>
+<!--exClass:出口等級-->
+<s:text name="pageBean.exClass"/>
+<s:textfield name="pageBean.exClass"/>
+<!--exIgocDate:出口最近處分日期-->
+<s:text name="pageBean.exIgocDate"/>
+<s:textfield name="pageBean.exIgocDate"/>
+<!--lgMark:LG轉換註記-->
+<s:text name="pageBean.lgMark"/>
+<s:textfield name="pageBean.lgMark"/>
+<!--excelConnectCode:優良廠商連線註記-->
+<s:text name="pageBean.excelConnectCode"/>
+<s:textfield name="pageBean.excelConnectCode"/>
+<!--sourceMark:資料來源註記-->
+<s:text name="pageBean.sourceMark"/>
+<s:textfield name="pageBean.sourceMark"/>
+<!--checkEndDate:先核後放截止日期-->
+<s:text name="pageBean.checkEndDate"/>
+<s:textfield name="pageBean.checkEndDate"/>
+<!--creditMark:信譽註記-->
+<s:text name="pageBean.creditMark"/>
+<s:textfield name="pageBean.creditMark"/>
+<!--specialClass:進口特殊等級-->
+<s:text name="pageBean.specialClass"/>
+<s:textfield name="pageBean.specialClass"/>
+<!--checkBegDate:先核後放起始日期-->
+<s:text name="pageBean.checkBegDate"/>
+<s:textfield name="pageBean.checkBegDate"/>
+<!--unionCompNote:一般策略聯盟廠商註記-->
+<s:text name="pageBean.unionCompNote"/>
+<s:textfield name="pageBean.unionCompNote"/>
+<!--exchangNo:央行結匯帳號-->
+<s:text name="pageBean.exchangNo"/>
+<s:textfield name="pageBean.exchangNo"/>
+<!--accNo:銀行帳號-->
+<s:text name="pageBean.accNo"/>
+<s:textfield name="pageBean.accNo"/>
+<!--bofProcess:智慧財產局晶片登錄註記-->
+<s:text name="pageBean.bofProcess"/>
+<s:textfield name="pageBean.bofProcess"/>
+<!--orgiClass:進口原有等級-->
+<s:text name="pageBean.orgiClass"/>
+<s:textfield name="pageBean.orgiClass"/>
+<!--trnc:財稅中心稅急異動原因代號-->
+<s:text name="pageBean.trnc"/>
+<s:textfield name="pageBean.trnc"/>
+<!--secureNote:安全認證優質企業註記-->
+<s:text name="pageBean.secureNote"/>
+<s:textfield name="pageBean.secureNote"/>
+<!--proposeGrade:專案核列等級-->
+<s:text name="pageBean.proposeGrade"/>
+<s:textfield name="pageBean.proposeGrade"/>
+<!--aeoNote:一般優質企業註記-->
+<s:text name="pageBean.aeoNote"/>
+<s:textfield name="pageBean.aeoNote"/>
+<!--vDownC:驗估處降級註記-->
+<s:text name="pageBean.vDownC"/>
+<s:textfield name="pageBean.vDownC"/>
+<!--taxDownC:財稅營業稅降級註記-->
+<s:text name="pageBean.taxDownC"/>
+<s:textfield name="pageBean.taxDownC"/>
+<!--qualifiedNotOkCode:資格異動原因-->
+<s:text name="pageBean.qualifiedNotOkCode"/>
+<s:textfield name="pageBean.qualifiedNotOkCode"/>
+<!--qualifiedNotOkDate:資格異動日期-->
+<s:text name="pageBean.qualifiedNotOkDate"/>
+<s:textfield name="pageBean.qualifiedNotOkDate"/>
+<!--altKey:關係企業統一編號-->
+<s:text name="pageBean.altKey"/>
+<s:textfield name="pageBean.altKey"/>
+<!--typeNote:特殊企業註記-->
+<s:text name="pageBean.typeNote"/>
+<s:textfield name="pageBean.typeNote"/>
+<!--upsMark:快遞廠商註記-->
+<s:text name="pageBean.upsMark"/>
+<s:textfield name="pageBean.upsMark"/>
+<!--lastTransId:異動程式代號-->
+<s:text name="pageBean.lastTransId"/>
+<s:textfield name="pageBean.lastTransId"/>
+<!--lastUserName:異動使用者代號-->
+<s:text name="pageBean.lastUserName"/>
+<s:textfield name="pageBean.lastUserName"/>
+<!--lastTransUnit:異動使用者單位-->
+<s:text name="pageBean.lastTransUnit"/>
+<s:textfield name="pageBean.lastTransUnit"/>
+<!--capt:資本額(千元)-->
+<s:text name="pageBean.capt"/>
+<s:textfield name="pageBean.capt"/>
+<!--puniXTypeDate:涉及重大走私漏稅註記日期-->
+<s:text name="pageBean.puniXTypeDate"/>
+<s:textfield name="pageBean.puniXTypeDate"/>
+<!--nonExamMarkDate:得船邊驗放有效期限-->
+<s:text name="pageBean.nonExamMarkDate"/>
+<s:textfield name="pageBean.nonExamMarkDate"/>
+<!--exehMark:出口推貿費季繳廠商需電子資料註記-->
+<s:text name="pageBean.exehMark"/>
+<s:textfield name="pageBean.exehMark"/>
+<!--nonExamMark:船邊抽驗放行註記-->
+<s:text name="pageBean.nonExamMark"/>
+<s:textfield name="pageBean.nonExamMark"/>
+<!--exOrgiClass:出口原有等級-->
+<s:text name="pageBean.exOrgiClass"/>
+<s:textfield name="pageBean.exOrgiClass"/>
+<!--upDate:異動日期時間-->
+<s:text name="pageBean.upDate"/>
+<s:textfield name="pageBean.upDate"/>
+
+<s:hidden name="pageBean.mfgType"/><!--mfgType:廠商類別(*:廠商  空白:個人)-->
+<s:hidden name="pageBean.ban"/><!--ban:營利事業統一編號-->
+<s:hidden name="pageBean.mfgName"/><!--mfgName:英文名稱-->
+<s:hidden name="pageBean.mfgAddress"/><!--mfgAddress:英文地址-->
+<s:hidden name="pageBean.mfgTel"/><!--mfgTel:電話號碼-->
+<s:hidden name="pageBean.cname"/><!--cname:中文名稱-->
+<s:hidden name="pageBean.caddr"/><!--caddr:中文地址-->
+<s:hidden name="pageBean.avtId"/><!--avtId:營業人註記-->
+<s:hidden name="pageBean.taxUnpaid"/><!--taxUnpaid:內地稅欠繳註記-->
+<s:hidden name="pageBean.bofIm"/><!--bofIm:進口資格-->
+<s:hidden name="pageBean.bofEx"/><!--bofEx:出口資格-->
+<s:hidden name="pageBean.setupDate"/><!--setupDate:廠商成立日期-->
+<s:hidden name="pageBean.detentionCode"/><!--detentionCode:查扣註記-->
+<s:hidden name="pageBean.puniXType"/><!--puniXType:涉及重大走私漏稅註記-->
+<s:hidden name="pageBean.mfgClass"/><!--mfgClass:進口現有等級-->
+<s:hidden name="pageBean.puniDate"/><!--puniDate:進口等級最近異動日期-->
+<s:hidden name="pageBean.checkReleaseMark"/><!--checkReleaseMark:驗估處先核後放註記-->
+<s:hidden name="pageBean.exClass"/><!--exClass:出口等級-->
+<s:hidden name="pageBean.exIgocDate"/><!--exIgocDate:出口最近處分日期-->
+<s:hidden name="pageBean.lgMark"/><!--lgMark:LG轉換註記-->
+<s:hidden name="pageBean.excelConnectCode"/><!--excelConnectCode:優良廠商連線註記-->
+<s:hidden name="pageBean.sourceMark"/><!--sourceMark:資料來源註記-->
+<s:hidden name="pageBean.checkEndDate"/><!--checkEndDate:先核後放截止日期-->
+<s:hidden name="pageBean.creditMark"/><!--creditMark:信譽註記-->
+<s:hidden name="pageBean.specialClass"/><!--specialClass:進口特殊等級-->
+<s:hidden name="pageBean.checkBegDate"/><!--checkBegDate:先核後放起始日期-->
+<s:hidden name="pageBean.unionCompNote"/><!--unionCompNote:一般策略聯盟廠商註記-->
+<s:hidden name="pageBean.exchangNo"/><!--exchangNo:央行結匯帳號-->
+<s:hidden name="pageBean.accNo"/><!--accNo:銀行帳號-->
+<s:hidden name="pageBean.bofProcess"/><!--bofProcess:智慧財產局晶片登錄註記-->
+<s:hidden name="pageBean.orgiClass"/><!--orgiClass:進口原有等級-->
+<s:hidden name="pageBean.trnc"/><!--trnc:財稅中心稅急異動原因代號-->
+<s:hidden name="pageBean.secureNote"/><!--secureNote:安全認證優質企業註記-->
+<s:hidden name="pageBean.proposeGrade"/><!--proposeGrade:專案核列等級-->
+<s:hidden name="pageBean.aeoNote"/><!--aeoNote:一般優質企業註記-->
+<s:hidden name="pageBean.vDownC"/><!--vDownC:驗估處降級註記-->
+<s:hidden name="pageBean.taxDownC"/><!--taxDownC:財稅營業稅降級註記-->
+<s:hidden name="pageBean.qualifiedNotOkCode"/><!--qualifiedNotOkCode:資格異動原因-->
+<s:hidden name="pageBean.qualifiedNotOkDate"/><!--qualifiedNotOkDate:資格異動日期-->
+<s:hidden name="pageBean.altKey"/><!--altKey:關係企業統一編號-->
+<s:hidden name="pageBean.typeNote"/><!--typeNote:特殊企業註記-->
+<s:hidden name="pageBean.upsMark"/><!--upsMark:快遞廠商註記-->
+<s:hidden name="pageBean.lastTransId"/><!--lastTransId:異動程式代號-->
+<s:hidden name="pageBean.lastUserName"/><!--lastUserName:異動使用者代號-->
+<s:hidden name="pageBean.lastTransUnit"/><!--lastTransUnit:異動使用者單位-->
+<s:hidden name="pageBean.capt"/><!--capt:資本額(千元)-->
+<s:hidden name="pageBean.puniXTypeDate"/><!--puniXTypeDate:涉及重大走私漏稅註記日期-->
+<s:hidden name="pageBean.nonExamMarkDate"/><!--nonExamMarkDate:得船邊驗放有效期限-->
+<s:hidden name="pageBean.exehMark"/><!--exehMark:出口推貿費季繳廠商需電子資料註記-->
+<s:hidden name="pageBean.nonExamMark"/><!--nonExamMark:船邊抽驗放行註記-->
+<s:hidden name="pageBean.exOrgiClass"/><!--exOrgiClass:出口原有等級-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動日期時間-->
+
+<%--MFG_TYPE:廠商類別(*:廠商  空白:個人):mfgType--%>
+<sjg:gridColumn name="MFG_TYPE" index="MFG_TYPE" title="%{getText('mfgType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAN:營利事業統一編號:ban--%>
+<sjg:gridColumn name="BAN" index="BAN" title="%{getText('ban')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFG_NAME:英文名稱:mfgName--%>
+<sjg:gridColumn name="MFG_NAME" index="MFG_NAME" title="%{getText('mfgName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFG_ADDRESS:英文地址:mfgAddress--%>
+<sjg:gridColumn name="MFG_ADDRESS" index="MFG_ADDRESS" title="%{getText('mfgAddress')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFG_TEL:電話號碼:mfgTel--%>
+<sjg:gridColumn name="MFG_TEL" index="MFG_TEL" title="%{getText('mfgTel')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CNAME:中文名稱:cname--%>
+<sjg:gridColumn name="CNAME" index="CNAME" title="%{getText('cname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CADDR:中文地址:caddr--%>
+<sjg:gridColumn name="CADDR" index="CADDR" title="%{getText('caddr')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AVT_ID:營業人註記:avtId--%>
+<sjg:gridColumn name="AVT_ID" index="AVT_ID" title="%{getText('avtId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TAX_UNPAID:內地稅欠繳註記:taxUnpaid--%>
+<sjg:gridColumn name="TAX_UNPAID" index="TAX_UNPAID" title="%{getText('taxUnpaid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BOF_IM:進口資格:bofIm--%>
+<sjg:gridColumn name="BOF_IM" index="BOF_IM" title="%{getText('bofIm')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BOF_EX:出口資格:bofEx--%>
+<sjg:gridColumn name="BOF_EX" index="BOF_EX" title="%{getText('bofEx')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SETUP_DATE:廠商成立日期:setupDate--%>
+<sjg:gridColumn name="SETUP_DATE" index="SETUP_DATE" title="%{getText('setupDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DETENTION_CODE:查扣註記:detentionCode--%>
+<sjg:gridColumn name="DETENTION_CODE" index="DETENTION_CODE" title="%{getText('detentionCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PUNI_X_TYPE:涉及重大走私漏稅註記:puniXType--%>
+<sjg:gridColumn name="PUNI_X_TYPE" index="PUNI_X_TYPE" title="%{getText('puniXType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFG_CLASS:進口現有等級:mfgClass--%>
+<sjg:gridColumn name="MFG_CLASS" index="MFG_CLASS" title="%{getText('mfgClass')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PUNI_DATE:進口等級最近異動日期:puniDate--%>
+<sjg:gridColumn name="PUNI_DATE" index="PUNI_DATE" title="%{getText('puniDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_RELEASE_MARK:驗估處先核後放註記:checkReleaseMark--%>
+<sjg:gridColumn name="CHECK_RELEASE_MARK" index="CHECK_RELEASE_MARK" title="%{getText('checkReleaseMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EX_CLASS:出口等級:exClass--%>
+<sjg:gridColumn name="EX_CLASS" index="EX_CLASS" title="%{getText('exClass')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EX_IGOC_DATE:出口最近處分日期:exIgocDate--%>
+<sjg:gridColumn name="EX_IGOC_DATE" index="EX_IGOC_DATE" title="%{getText('exIgocDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LG_MARK:LG轉換註記:lgMark--%>
+<sjg:gridColumn name="LG_MARK" index="LG_MARK" title="%{getText('lgMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXCEL_CONNECT_CODE:優良廠商連線註記:excelConnectCode--%>
+<sjg:gridColumn name="EXCEL_CONNECT_CODE" index="EXCEL_CONNECT_CODE" title="%{getText('excelConnectCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SOURCE_MARK:資料來源註記:sourceMark--%>
+<sjg:gridColumn name="SOURCE_MARK" index="SOURCE_MARK" title="%{getText('sourceMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_END_DATE:先核後放截止日期:checkEndDate--%>
+<sjg:gridColumn name="CHECK_END_DATE" index="CHECK_END_DATE" title="%{getText('checkEndDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREDIT_MARK:信譽註記:creditMark--%>
+<sjg:gridColumn name="CREDIT_MARK" index="CREDIT_MARK" title="%{getText('creditMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SPECIAL_CLASS:進口特殊等級:specialClass--%>
+<sjg:gridColumn name="SPECIAL_CLASS" index="SPECIAL_CLASS" title="%{getText('specialClass')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CHECK_BEG_DATE:先核後放起始日期:checkBegDate--%>
+<sjg:gridColumn name="CHECK_BEG_DATE" index="CHECK_BEG_DATE" title="%{getText('checkBegDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UNION_COMP_NOTE:一般策略聯盟廠商註記:unionCompNote--%>
+<sjg:gridColumn name="UNION_COMP_NOTE" index="UNION_COMP_NOTE" title="%{getText('unionCompNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXCHANG_NO:央行結匯帳號:exchangNo--%>
+<sjg:gridColumn name="EXCHANG_NO" index="EXCHANG_NO" title="%{getText('exchangNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ACC_NO:銀行帳號:accNo--%>
+<sjg:gridColumn name="ACC_NO" index="ACC_NO" title="%{getText('accNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BOF_PROCESS:智慧財產局晶片登錄註記:bofProcess--%>
+<sjg:gridColumn name="BOF_PROCESS" index="BOF_PROCESS" title="%{getText('bofProcess')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ORGI_CLASS:進口原有等級:orgiClass--%>
+<sjg:gridColumn name="ORGI_CLASS" index="ORGI_CLASS" title="%{getText('orgiClass')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRNC:財稅中心稅急異動原因代號:trnc--%>
+<sjg:gridColumn name="TRNC" index="TRNC" title="%{getText('trnc')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SECURE_NOTE:安全認證優質企業註記:secureNote--%>
+<sjg:gridColumn name="SECURE_NOTE" index="SECURE_NOTE" title="%{getText('secureNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROPOSE_GRADE:專案核列等級:proposeGrade--%>
+<sjg:gridColumn name="PROPOSE_GRADE" index="PROPOSE_GRADE" title="%{getText('proposeGrade')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AEO_NOTE:一般優質企業註記:aeoNote--%>
+<sjg:gridColumn name="AEO_NOTE" index="AEO_NOTE" title="%{getText('aeoNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--V_DOWN_C:驗估處降級註記:vDownC--%>
+<sjg:gridColumn name="V_DOWN_C" index="V_DOWN_C" title="%{getText('vDownC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TAX_DOWN_C:財稅營業稅降級註記:taxDownC--%>
+<sjg:gridColumn name="TAX_DOWN_C" index="TAX_DOWN_C" title="%{getText('taxDownC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUALIFIED_NOT_OK_CODE:資格異動原因:qualifiedNotOkCode--%>
+<sjg:gridColumn name="QUALIFIED_NOT_OK_CODE" index="QUALIFIED_NOT_OK_CODE" title="%{getText('qualifiedNotOkCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUALIFIED_NOT_OK_DATE:資格異動日期:qualifiedNotOkDate--%>
+<sjg:gridColumn name="QUALIFIED_NOT_OK_DATE" index="QUALIFIED_NOT_OK_DATE" title="%{getText('qualifiedNotOkDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ALT_KEY:關係企業統一編號:altKey--%>
+<sjg:gridColumn name="ALT_KEY" index="ALT_KEY" title="%{getText('altKey')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TYPE_NOTE:特殊企業註記:typeNote--%>
+<sjg:gridColumn name="TYPE_NOTE" index="TYPE_NOTE" title="%{getText('typeNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UPS_MARK:快遞廠商註記:upsMark--%>
+<sjg:gridColumn name="UPS_MARK" index="UPS_MARK" title="%{getText('upsMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_TRANS_ID:異動程式代號:lastTransId--%>
+<sjg:gridColumn name="LAST_TRANS_ID" index="LAST_TRANS_ID" title="%{getText('lastTransId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_USER_NAME:異動使用者代號:lastUserName--%>
+<sjg:gridColumn name="LAST_USER_NAME" index="LAST_USER_NAME" title="%{getText('lastUserName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_TRANS_UNIT:異動使用者單位:lastTransUnit--%>
+<sjg:gridColumn name="LAST_TRANS_UNIT" index="LAST_TRANS_UNIT" title="%{getText('lastTransUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CAPT:資本額(千元):capt--%>
+<sjg:gridColumn name="CAPT" index="CAPT" title="%{getText('capt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PUNI_X_TYPE_DATE:涉及重大走私漏稅註記日期:puniXTypeDate--%>
+<sjg:gridColumn name="PUNI_X_TYPE_DATE" index="PUNI_X_TYPE_DATE" title="%{getText('puniXTypeDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--NON_EXAM_MARK_DATE:得船邊驗放有效期限:nonExamMarkDate--%>
+<sjg:gridColumn name="NON_EXAM_MARK_DATE" index="NON_EXAM_MARK_DATE" title="%{getText('nonExamMarkDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXEH_MARK:出口推貿費季繳廠商需電子資料註記:exehMark--%>
+<sjg:gridColumn name="EXEH_MARK" index="EXEH_MARK" title="%{getText('exehMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--NON_EXAM_MARK:船邊抽驗放行註記:nonExamMark--%>
+<sjg:gridColumn name="NON_EXAM_MARK" index="NON_EXAM_MARK" title="%{getText('nonExamMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EX_ORGI_CLASS:出口原有等級:exOrgiClass--%>
+<sjg:gridColumn name="EX_ORGI_CLASS" index="EX_ORGI_CLASS" title="%{getText('exOrgiClass')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動日期時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.MFG_TYPE
+,A.BAN
+,A.MFG_NAME
+,A.MFG_ADDRESS
+,A.MFG_TEL
+,A.CNAME
+,A.CADDR
+,A.AVT_ID
+,A.TAX_UNPAID
+,A.BOF_IM
+,A.BOF_EX
+,A.SETUP_DATE
+,A.DETENTION_CODE
+,A.PUNI_X_TYPE
+,A.MFG_CLASS
+,A.PUNI_DATE
+,A.CHECK_RELEASE_MARK
+,A.EX_CLASS
+,A.EX_IGOC_DATE
+,A.LG_MARK
+,A.EXCEL_CONNECT_CODE
+,A.SOURCE_MARK
+,A.CHECK_END_DATE
+,A.CREDIT_MARK
+,A.SPECIAL_CLASS
+,A.CHECK_BEG_DATE
+,A.UNION_COMP_NOTE
+,A.EXCHANG_NO
+,A.ACC_NO
+,A.BOF_PROCESS
+,A.ORGI_CLASS
+,A.TRNC
+,A.SECURE_NOTE
+,A.PROPOSE_GRADE
+,A.AEO_NOTE
+,A.V_DOWN_C
+,A.TAX_DOWN_C
+,A.QUALIFIED_NOT_OK_CODE
+,A.QUALIFIED_NOT_OK_DATE
+,A.ALT_KEY
+,A.TYPE_NOTE
+,A.UPS_MARK
+,A.LAST_TRANS_ID
+,A.LAST_USER_NAME
+,A.LAST_TRANS_UNIT
+,A.CAPT
+,A.PUNI_X_TYPE_DATE
+,A.NON_EXAM_MARK_DATE
+,A.EXEH_MARK
+,A.NON_EXAM_MARK
+,A.EX_ORGI_CLASS
+,A.UP_DATE
+
+<condition key="MFG_TYPE" ignoreEmpty="true">MFG_TYPE = ${MFG_TYPE}</condition>
+<condition key="BAN" ignoreEmpty="true">BAN = ${BAN}</condition>
+<condition key="MFG_NAME" ignoreEmpty="true">MFG_NAME = ${MFG_NAME}</condition>
+<condition key="MFG_ADDRESS" ignoreEmpty="true">MFG_ADDRESS = ${MFG_ADDRESS}</condition>
+<condition key="MFG_TEL" ignoreEmpty="true">MFG_TEL = ${MFG_TEL}</condition>
+<condition key="CNAME" ignoreEmpty="true">CNAME = ${CNAME}</condition>
+<condition key="CADDR" ignoreEmpty="true">CADDR = ${CADDR}</condition>
+<condition key="AVT_ID" ignoreEmpty="true">AVT_ID = ${AVT_ID}</condition>
+<condition key="TAX_UNPAID" ignoreEmpty="true">TAX_UNPAID = ${TAX_UNPAID}</condition>
+<condition key="BOF_IM" ignoreEmpty="true">BOF_IM = ${BOF_IM}</condition>
+<condition key="BOF_EX" ignoreEmpty="true">BOF_EX = ${BOF_EX}</condition>
+<condition key="SETUP_DATE" ignoreEmpty="true">SETUP_DATE = ${SETUP_DATE}</condition>
+<condition key="DETENTION_CODE" ignoreEmpty="true">DETENTION_CODE = ${DETENTION_CODE}</condition>
+<condition key="PUNI_X_TYPE" ignoreEmpty="true">PUNI_X_TYPE = ${PUNI_X_TYPE}</condition>
+<condition key="MFG_CLASS" ignoreEmpty="true">MFG_CLASS = ${MFG_CLASS}</condition>
+<condition key="PUNI_DATE" ignoreEmpty="true">PUNI_DATE = ${PUNI_DATE}</condition>
+<condition key="CHECK_RELEASE_MARK" ignoreEmpty="true">CHECK_RELEASE_MARK = ${CHECK_RELEASE_MARK}</condition>
+<condition key="EX_CLASS" ignoreEmpty="true">EX_CLASS = ${EX_CLASS}</condition>
+<condition key="EX_IGOC_DATE" ignoreEmpty="true">EX_IGOC_DATE = ${EX_IGOC_DATE}</condition>
+<condition key="LG_MARK" ignoreEmpty="true">LG_MARK = ${LG_MARK}</condition>
+<condition key="EXCEL_CONNECT_CODE" ignoreEmpty="true">EXCEL_CONNECT_CODE = ${EXCEL_CONNECT_CODE}</condition>
+<condition key="SOURCE_MARK" ignoreEmpty="true">SOURCE_MARK = ${SOURCE_MARK}</condition>
+<condition key="CHECK_END_DATE" ignoreEmpty="true">CHECK_END_DATE = ${CHECK_END_DATE}</condition>
+<condition key="CREDIT_MARK" ignoreEmpty="true">CREDIT_MARK = ${CREDIT_MARK}</condition>
+<condition key="SPECIAL_CLASS" ignoreEmpty="true">SPECIAL_CLASS = ${SPECIAL_CLASS}</condition>
+<condition key="CHECK_BEG_DATE" ignoreEmpty="true">CHECK_BEG_DATE = ${CHECK_BEG_DATE}</condition>
+<condition key="UNION_COMP_NOTE" ignoreEmpty="true">UNION_COMP_NOTE = ${UNION_COMP_NOTE}</condition>
+<condition key="EXCHANG_NO" ignoreEmpty="true">EXCHANG_NO = ${EXCHANG_NO}</condition>
+<condition key="ACC_NO" ignoreEmpty="true">ACC_NO = ${ACC_NO}</condition>
+<condition key="BOF_PROCESS" ignoreEmpty="true">BOF_PROCESS = ${BOF_PROCESS}</condition>
+<condition key="ORGI_CLASS" ignoreEmpty="true">ORGI_CLASS = ${ORGI_CLASS}</condition>
+<condition key="TRNC" ignoreEmpty="true">TRNC = ${TRNC}</condition>
+<condition key="SECURE_NOTE" ignoreEmpty="true">SECURE_NOTE = ${SECURE_NOTE}</condition>
+<condition key="PROPOSE_GRADE" ignoreEmpty="true">PROPOSE_GRADE = ${PROPOSE_GRADE}</condition>
+<condition key="AEO_NOTE" ignoreEmpty="true">AEO_NOTE = ${AEO_NOTE}</condition>
+<condition key="V_DOWN_C" ignoreEmpty="true">V_DOWN_C = ${V_DOWN_C}</condition>
+<condition key="TAX_DOWN_C" ignoreEmpty="true">TAX_DOWN_C = ${TAX_DOWN_C}</condition>
+<condition key="QUALIFIED_NOT_OK_CODE" ignoreEmpty="true">QUALIFIED_NOT_OK_CODE = ${QUALIFIED_NOT_OK_CODE}</condition>
+<condition key="QUALIFIED_NOT_OK_DATE" ignoreEmpty="true">QUALIFIED_NOT_OK_DATE = ${QUALIFIED_NOT_OK_DATE}</condition>
+<condition key="ALT_KEY" ignoreEmpty="true">ALT_KEY = ${ALT_KEY}</condition>
+<condition key="TYPE_NOTE" ignoreEmpty="true">TYPE_NOTE = ${TYPE_NOTE}</condition>
+<condition key="UPS_MARK" ignoreEmpty="true">UPS_MARK = ${UPS_MARK}</condition>
+<condition key="LAST_TRANS_ID" ignoreEmpty="true">LAST_TRANS_ID = ${LAST_TRANS_ID}</condition>
+<condition key="LAST_USER_NAME" ignoreEmpty="true">LAST_USER_NAME = ${LAST_USER_NAME}</condition>
+<condition key="LAST_TRANS_UNIT" ignoreEmpty="true">LAST_TRANS_UNIT = ${LAST_TRANS_UNIT}</condition>
+<condition key="CAPT" ignoreEmpty="true">CAPT = ${CAPT}</condition>
+<condition key="PUNI_X_TYPE_DATE" ignoreEmpty="true">PUNI_X_TYPE_DATE = ${PUNI_X_TYPE_DATE}</condition>
+<condition key="NON_EXAM_MARK_DATE" ignoreEmpty="true">NON_EXAM_MARK_DATE = ${NON_EXAM_MARK_DATE}</condition>
+<condition key="EXEH_MARK" ignoreEmpty="true">EXEH_MARK = ${EXEH_MARK}</condition>
+<condition key="NON_EXAM_MARK" ignoreEmpty="true">NON_EXAM_MARK = ${NON_EXAM_MARK}</condition>
+<condition key="EX_ORGI_CLASS" ignoreEmpty="true">EX_ORGI_CLASS = ${EX_ORGI_CLASS}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+
+<condition key="MFG_TYPE_S" ignoreEmpty="true">MFG_TYPE >= ${MFG_TYPE_S}</condition><condition key="MFG_TYPE_E" ignoreEmpty="true">${MFG_TYPE_E} >= MFG_TYPE</condition><condition key="MFG_TYPE_L" ignoreEmpty="true">MFG_TYPE like ${MFG_TYPE_L}</condition>
+<condition key="BAN_S" ignoreEmpty="true">BAN >= ${BAN_S}</condition><condition key="BAN_E" ignoreEmpty="true">${BAN_E} >= BAN</condition><condition key="BAN_L" ignoreEmpty="true">BAN like ${BAN_L}</condition>
+<condition key="MFG_NAME_S" ignoreEmpty="true">MFG_NAME >= ${MFG_NAME_S}</condition><condition key="MFG_NAME_E" ignoreEmpty="true">${MFG_NAME_E} >= MFG_NAME</condition><condition key="MFG_NAME_L" ignoreEmpty="true">MFG_NAME like ${MFG_NAME_L}</condition>
+<condition key="MFG_ADDRESS_S" ignoreEmpty="true">MFG_ADDRESS >= ${MFG_ADDRESS_S}</condition><condition key="MFG_ADDRESS_E" ignoreEmpty="true">${MFG_ADDRESS_E} >= MFG_ADDRESS</condition><condition key="MFG_ADDRESS_L" ignoreEmpty="true">MFG_ADDRESS like ${MFG_ADDRESS_L}</condition>
+<condition key="MFG_TEL_S" ignoreEmpty="true">MFG_TEL >= ${MFG_TEL_S}</condition><condition key="MFG_TEL_E" ignoreEmpty="true">${MFG_TEL_E} >= MFG_TEL</condition><condition key="MFG_TEL_L" ignoreEmpty="true">MFG_TEL like ${MFG_TEL_L}</condition>
+<condition key="CNAME_S" ignoreEmpty="true">CNAME >= ${CNAME_S}</condition><condition key="CNAME_E" ignoreEmpty="true">${CNAME_E} >= CNAME</condition><condition key="CNAME_L" ignoreEmpty="true">CNAME like ${CNAME_L}</condition>
+<condition key="CADDR_S" ignoreEmpty="true">CADDR >= ${CADDR_S}</condition><condition key="CADDR_E" ignoreEmpty="true">${CADDR_E} >= CADDR</condition><condition key="CADDR_L" ignoreEmpty="true">CADDR like ${CADDR_L}</condition>
+<condition key="AVT_ID_S" ignoreEmpty="true">AVT_ID >= ${AVT_ID_S}</condition><condition key="AVT_ID_E" ignoreEmpty="true">${AVT_ID_E} >= AVT_ID</condition><condition key="AVT_ID_L" ignoreEmpty="true">AVT_ID like ${AVT_ID_L}</condition>
+<condition key="TAX_UNPAID_S" ignoreEmpty="true">TAX_UNPAID >= ${TAX_UNPAID_S}</condition><condition key="TAX_UNPAID_E" ignoreEmpty="true">${TAX_UNPAID_E} >= TAX_UNPAID</condition><condition key="TAX_UNPAID_L" ignoreEmpty="true">TAX_UNPAID like ${TAX_UNPAID_L}</condition>
+<condition key="BOF_IM_S" ignoreEmpty="true">BOF_IM >= ${BOF_IM_S}</condition><condition key="BOF_IM_E" ignoreEmpty="true">${BOF_IM_E} >= BOF_IM</condition><condition key="BOF_IM_L" ignoreEmpty="true">BOF_IM like ${BOF_IM_L}</condition>
+<condition key="BOF_EX_S" ignoreEmpty="true">BOF_EX >= ${BOF_EX_S}</condition><condition key="BOF_EX_E" ignoreEmpty="true">${BOF_EX_E} >= BOF_EX</condition><condition key="BOF_EX_L" ignoreEmpty="true">BOF_EX like ${BOF_EX_L}</condition>
+<condition key="SETUP_DATE_S" ignoreEmpty="true">SETUP_DATE >= ${SETUP_DATE_S}</condition><condition key="SETUP_DATE_E" ignoreEmpty="true">${SETUP_DATE_E} >= SETUP_DATE</condition><condition key="SETUP_DATE_L" ignoreEmpty="true">SETUP_DATE like ${SETUP_DATE_L}</condition>
+<condition key="DETENTION_CODE_S" ignoreEmpty="true">DETENTION_CODE >= ${DETENTION_CODE_S}</condition><condition key="DETENTION_CODE_E" ignoreEmpty="true">${DETENTION_CODE_E} >= DETENTION_CODE</condition><condition key="DETENTION_CODE_L" ignoreEmpty="true">DETENTION_CODE like ${DETENTION_CODE_L}</condition>
+<condition key="PUNI_X_TYPE_S" ignoreEmpty="true">PUNI_X_TYPE >= ${PUNI_X_TYPE_S}</condition><condition key="PUNI_X_TYPE_E" ignoreEmpty="true">${PUNI_X_TYPE_E} >= PUNI_X_TYPE</condition><condition key="PUNI_X_TYPE_L" ignoreEmpty="true">PUNI_X_TYPE like ${PUNI_X_TYPE_L}</condition>
+<condition key="MFG_CLASS_S" ignoreEmpty="true">MFG_CLASS >= ${MFG_CLASS_S}</condition><condition key="MFG_CLASS_E" ignoreEmpty="true">${MFG_CLASS_E} >= MFG_CLASS</condition><condition key="MFG_CLASS_L" ignoreEmpty="true">MFG_CLASS like ${MFG_CLASS_L}</condition>
+<condition key="PUNI_DATE_S" ignoreEmpty="true">PUNI_DATE >= ${PUNI_DATE_S}</condition><condition key="PUNI_DATE_E" ignoreEmpty="true">${PUNI_DATE_E} >= PUNI_DATE</condition><condition key="PUNI_DATE_L" ignoreEmpty="true">PUNI_DATE like ${PUNI_DATE_L}</condition>
+<condition key="CHECK_RELEASE_MARK_S" ignoreEmpty="true">CHECK_RELEASE_MARK >= ${CHECK_RELEASE_MARK_S}</condition><condition key="CHECK_RELEASE_MARK_E" ignoreEmpty="true">${CHECK_RELEASE_MARK_E} >= CHECK_RELEASE_MARK</condition><condition key="CHECK_RELEASE_MARK_L" ignoreEmpty="true">CHECK_RELEASE_MARK like ${CHECK_RELEASE_MARK_L}</condition>
+<condition key="EX_CLASS_S" ignoreEmpty="true">EX_CLASS >= ${EX_CLASS_S}</condition><condition key="EX_CLASS_E" ignoreEmpty="true">${EX_CLASS_E} >= EX_CLASS</condition><condition key="EX_CLASS_L" ignoreEmpty="true">EX_CLASS like ${EX_CLASS_L}</condition>
+<condition key="EX_IGOC_DATE_S" ignoreEmpty="true">EX_IGOC_DATE >= ${EX_IGOC_DATE_S}</condition><condition key="EX_IGOC_DATE_E" ignoreEmpty="true">${EX_IGOC_DATE_E} >= EX_IGOC_DATE</condition><condition key="EX_IGOC_DATE_L" ignoreEmpty="true">EX_IGOC_DATE like ${EX_IGOC_DATE_L}</condition>
+<condition key="LG_MARK_S" ignoreEmpty="true">LG_MARK >= ${LG_MARK_S}</condition><condition key="LG_MARK_E" ignoreEmpty="true">${LG_MARK_E} >= LG_MARK</condition><condition key="LG_MARK_L" ignoreEmpty="true">LG_MARK like ${LG_MARK_L}</condition>
+<condition key="EXCEL_CONNECT_CODE_S" ignoreEmpty="true">EXCEL_CONNECT_CODE >= ${EXCEL_CONNECT_CODE_S}</condition><condition key="EXCEL_CONNECT_CODE_E" ignoreEmpty="true">${EXCEL_CONNECT_CODE_E} >= EXCEL_CONNECT_CODE</condition><condition key="EXCEL_CONNECT_CODE_L" ignoreEmpty="true">EXCEL_CONNECT_CODE like ${EXCEL_CONNECT_CODE_L}</condition>
+<condition key="SOURCE_MARK_S" ignoreEmpty="true">SOURCE_MARK >= ${SOURCE_MARK_S}</condition><condition key="SOURCE_MARK_E" ignoreEmpty="true">${SOURCE_MARK_E} >= SOURCE_MARK</condition><condition key="SOURCE_MARK_L" ignoreEmpty="true">SOURCE_MARK like ${SOURCE_MARK_L}</condition>
+<condition key="CHECK_END_DATE_S" ignoreEmpty="true">CHECK_END_DATE >= ${CHECK_END_DATE_S}</condition><condition key="CHECK_END_DATE_E" ignoreEmpty="true">${CHECK_END_DATE_E} >= CHECK_END_DATE</condition><condition key="CHECK_END_DATE_L" ignoreEmpty="true">CHECK_END_DATE like ${CHECK_END_DATE_L}</condition>
+<condition key="CREDIT_MARK_S" ignoreEmpty="true">CREDIT_MARK >= ${CREDIT_MARK_S}</condition><condition key="CREDIT_MARK_E" ignoreEmpty="true">${CREDIT_MARK_E} >= CREDIT_MARK</condition><condition key="CREDIT_MARK_L" ignoreEmpty="true">CREDIT_MARK like ${CREDIT_MARK_L}</condition>
+<condition key="SPECIAL_CLASS_S" ignoreEmpty="true">SPECIAL_CLASS >= ${SPECIAL_CLASS_S}</condition><condition key="SPECIAL_CLASS_E" ignoreEmpty="true">${SPECIAL_CLASS_E} >= SPECIAL_CLASS</condition><condition key="SPECIAL_CLASS_L" ignoreEmpty="true">SPECIAL_CLASS like ${SPECIAL_CLASS_L}</condition>
+<condition key="CHECK_BEG_DATE_S" ignoreEmpty="true">CHECK_BEG_DATE >= ${CHECK_BEG_DATE_S}</condition><condition key="CHECK_BEG_DATE_E" ignoreEmpty="true">${CHECK_BEG_DATE_E} >= CHECK_BEG_DATE</condition><condition key="CHECK_BEG_DATE_L" ignoreEmpty="true">CHECK_BEG_DATE like ${CHECK_BEG_DATE_L}</condition>
+<condition key="UNION_COMP_NOTE_S" ignoreEmpty="true">UNION_COMP_NOTE >= ${UNION_COMP_NOTE_S}</condition><condition key="UNION_COMP_NOTE_E" ignoreEmpty="true">${UNION_COMP_NOTE_E} >= UNION_COMP_NOTE</condition><condition key="UNION_COMP_NOTE_L" ignoreEmpty="true">UNION_COMP_NOTE like ${UNION_COMP_NOTE_L}</condition>
+<condition key="EXCHANG_NO_S" ignoreEmpty="true">EXCHANG_NO >= ${EXCHANG_NO_S}</condition><condition key="EXCHANG_NO_E" ignoreEmpty="true">${EXCHANG_NO_E} >= EXCHANG_NO</condition><condition key="EXCHANG_NO_L" ignoreEmpty="true">EXCHANG_NO like ${EXCHANG_NO_L}</condition>
+<condition key="ACC_NO_S" ignoreEmpty="true">ACC_NO >= ${ACC_NO_S}</condition><condition key="ACC_NO_E" ignoreEmpty="true">${ACC_NO_E} >= ACC_NO</condition><condition key="ACC_NO_L" ignoreEmpty="true">ACC_NO like ${ACC_NO_L}</condition>
+<condition key="BOF_PROCESS_S" ignoreEmpty="true">BOF_PROCESS >= ${BOF_PROCESS_S}</condition><condition key="BOF_PROCESS_E" ignoreEmpty="true">${BOF_PROCESS_E} >= BOF_PROCESS</condition><condition key="BOF_PROCESS_L" ignoreEmpty="true">BOF_PROCESS like ${BOF_PROCESS_L}</condition>
+<condition key="ORGI_CLASS_S" ignoreEmpty="true">ORGI_CLASS >= ${ORGI_CLASS_S}</condition><condition key="ORGI_CLASS_E" ignoreEmpty="true">${ORGI_CLASS_E} >= ORGI_CLASS</condition><condition key="ORGI_CLASS_L" ignoreEmpty="true">ORGI_CLASS like ${ORGI_CLASS_L}</condition>
+<condition key="TRNC_S" ignoreEmpty="true">TRNC >= ${TRNC_S}</condition><condition key="TRNC_E" ignoreEmpty="true">${TRNC_E} >= TRNC</condition><condition key="TRNC_L" ignoreEmpty="true">TRNC like ${TRNC_L}</condition>
+<condition key="SECURE_NOTE_S" ignoreEmpty="true">SECURE_NOTE >= ${SECURE_NOTE_S}</condition><condition key="SECURE_NOTE_E" ignoreEmpty="true">${SECURE_NOTE_E} >= SECURE_NOTE</condition><condition key="SECURE_NOTE_L" ignoreEmpty="true">SECURE_NOTE like ${SECURE_NOTE_L}</condition>
+<condition key="PROPOSE_GRADE_S" ignoreEmpty="true">PROPOSE_GRADE >= ${PROPOSE_GRADE_S}</condition><condition key="PROPOSE_GRADE_E" ignoreEmpty="true">${PROPOSE_GRADE_E} >= PROPOSE_GRADE</condition><condition key="PROPOSE_GRADE_L" ignoreEmpty="true">PROPOSE_GRADE like ${PROPOSE_GRADE_L}</condition>
+<condition key="AEO_NOTE_S" ignoreEmpty="true">AEO_NOTE >= ${AEO_NOTE_S}</condition><condition key="AEO_NOTE_E" ignoreEmpty="true">${AEO_NOTE_E} >= AEO_NOTE</condition><condition key="AEO_NOTE_L" ignoreEmpty="true">AEO_NOTE like ${AEO_NOTE_L}</condition>
+<condition key="V_DOWN_C_S" ignoreEmpty="true">V_DOWN_C >= ${V_DOWN_C_S}</condition><condition key="V_DOWN_C_E" ignoreEmpty="true">${V_DOWN_C_E} >= V_DOWN_C</condition><condition key="V_DOWN_C_L" ignoreEmpty="true">V_DOWN_C like ${V_DOWN_C_L}</condition>
+<condition key="TAX_DOWN_C_S" ignoreEmpty="true">TAX_DOWN_C >= ${TAX_DOWN_C_S}</condition><condition key="TAX_DOWN_C_E" ignoreEmpty="true">${TAX_DOWN_C_E} >= TAX_DOWN_C</condition><condition key="TAX_DOWN_C_L" ignoreEmpty="true">TAX_DOWN_C like ${TAX_DOWN_C_L}</condition>
+<condition key="QUALIFIED_NOT_OK_CODE_S" ignoreEmpty="true">QUALIFIED_NOT_OK_CODE >= ${QUALIFIED_NOT_OK_CODE_S}</condition><condition key="QUALIFIED_NOT_OK_CODE_E" ignoreEmpty="true">${QUALIFIED_NOT_OK_CODE_E} >= QUALIFIED_NOT_OK_CODE</condition><condition key="QUALIFIED_NOT_OK_CODE_L" ignoreEmpty="true">QUALIFIED_NOT_OK_CODE like ${QUALIFIED_NOT_OK_CODE_L}</condition>
+<condition key="QUALIFIED_NOT_OK_DATE_S" ignoreEmpty="true">QUALIFIED_NOT_OK_DATE >= ${QUALIFIED_NOT_OK_DATE_S}</condition><condition key="QUALIFIED_NOT_OK_DATE_E" ignoreEmpty="true">${QUALIFIED_NOT_OK_DATE_E} >= QUALIFIED_NOT_OK_DATE</condition><condition key="QUALIFIED_NOT_OK_DATE_L" ignoreEmpty="true">QUALIFIED_NOT_OK_DATE like ${QUALIFIED_NOT_OK_DATE_L}</condition>
+<condition key="ALT_KEY_S" ignoreEmpty="true">ALT_KEY >= ${ALT_KEY_S}</condition><condition key="ALT_KEY_E" ignoreEmpty="true">${ALT_KEY_E} >= ALT_KEY</condition><condition key="ALT_KEY_L" ignoreEmpty="true">ALT_KEY like ${ALT_KEY_L}</condition>
+<condition key="TYPE_NOTE_S" ignoreEmpty="true">TYPE_NOTE >= ${TYPE_NOTE_S}</condition><condition key="TYPE_NOTE_E" ignoreEmpty="true">${TYPE_NOTE_E} >= TYPE_NOTE</condition><condition key="TYPE_NOTE_L" ignoreEmpty="true">TYPE_NOTE like ${TYPE_NOTE_L}</condition>
+<condition key="UPS_MARK_S" ignoreEmpty="true">UPS_MARK >= ${UPS_MARK_S}</condition><condition key="UPS_MARK_E" ignoreEmpty="true">${UPS_MARK_E} >= UPS_MARK</condition><condition key="UPS_MARK_L" ignoreEmpty="true">UPS_MARK like ${UPS_MARK_L}</condition>
+<condition key="LAST_TRANS_ID_S" ignoreEmpty="true">LAST_TRANS_ID >= ${LAST_TRANS_ID_S}</condition><condition key="LAST_TRANS_ID_E" ignoreEmpty="true">${LAST_TRANS_ID_E} >= LAST_TRANS_ID</condition><condition key="LAST_TRANS_ID_L" ignoreEmpty="true">LAST_TRANS_ID like ${LAST_TRANS_ID_L}</condition>
+<condition key="LAST_USER_NAME_S" ignoreEmpty="true">LAST_USER_NAME >= ${LAST_USER_NAME_S}</condition><condition key="LAST_USER_NAME_E" ignoreEmpty="true">${LAST_USER_NAME_E} >= LAST_USER_NAME</condition><condition key="LAST_USER_NAME_L" ignoreEmpty="true">LAST_USER_NAME like ${LAST_USER_NAME_L}</condition>
+<condition key="LAST_TRANS_UNIT_S" ignoreEmpty="true">LAST_TRANS_UNIT >= ${LAST_TRANS_UNIT_S}</condition><condition key="LAST_TRANS_UNIT_E" ignoreEmpty="true">${LAST_TRANS_UNIT_E} >= LAST_TRANS_UNIT</condition><condition key="LAST_TRANS_UNIT_L" ignoreEmpty="true">LAST_TRANS_UNIT like ${LAST_TRANS_UNIT_L}</condition>
+<condition key="CAPT_S" ignoreEmpty="true">CAPT >= ${CAPT_S}</condition><condition key="CAPT_E" ignoreEmpty="true">${CAPT_E} >= CAPT</condition><condition key="CAPT_L" ignoreEmpty="true">CAPT like ${CAPT_L}</condition>
+<condition key="PUNI_X_TYPE_DATE_S" ignoreEmpty="true">PUNI_X_TYPE_DATE >= ${PUNI_X_TYPE_DATE_S}</condition><condition key="PUNI_X_TYPE_DATE_E" ignoreEmpty="true">${PUNI_X_TYPE_DATE_E} >= PUNI_X_TYPE_DATE</condition><condition key="PUNI_X_TYPE_DATE_L" ignoreEmpty="true">PUNI_X_TYPE_DATE like ${PUNI_X_TYPE_DATE_L}</condition>
+<condition key="NON_EXAM_MARK_DATE_S" ignoreEmpty="true">NON_EXAM_MARK_DATE >= ${NON_EXAM_MARK_DATE_S}</condition><condition key="NON_EXAM_MARK_DATE_E" ignoreEmpty="true">${NON_EXAM_MARK_DATE_E} >= NON_EXAM_MARK_DATE</condition><condition key="NON_EXAM_MARK_DATE_L" ignoreEmpty="true">NON_EXAM_MARK_DATE like ${NON_EXAM_MARK_DATE_L}</condition>
+<condition key="EXEH_MARK_S" ignoreEmpty="true">EXEH_MARK >= ${EXEH_MARK_S}</condition><condition key="EXEH_MARK_E" ignoreEmpty="true">${EXEH_MARK_E} >= EXEH_MARK</condition><condition key="EXEH_MARK_L" ignoreEmpty="true">EXEH_MARK like ${EXEH_MARK_L}</condition>
+<condition key="NON_EXAM_MARK_S" ignoreEmpty="true">NON_EXAM_MARK >= ${NON_EXAM_MARK_S}</condition><condition key="NON_EXAM_MARK_E" ignoreEmpty="true">${NON_EXAM_MARK_E} >= NON_EXAM_MARK</condition><condition key="NON_EXAM_MARK_L" ignoreEmpty="true">NON_EXAM_MARK like ${NON_EXAM_MARK_L}</condition>
+<condition key="EX_ORGI_CLASS_S" ignoreEmpty="true">EX_ORGI_CLASS >= ${EX_ORGI_CLASS_S}</condition><condition key="EX_ORGI_CLASS_E" ignoreEmpty="true">${EX_ORGI_CLASS_E} >= EX_ORGI_CLASS</condition><condition key="EX_ORGI_CLASS_L" ignoreEmpty="true">EX_ORGI_CLASS like ${EX_ORGI_CLASS_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+
+<field key="MFG_TYPE" name="MFG_TYPE" ignoreEmpty="true"/>
+<field key="BAN" name="BAN" ignoreEmpty="true"/>
+<field key="MFG_NAME" name="MFG_NAME" ignoreEmpty="true"/>
+<field key="MFG_ADDRESS" name="MFG_ADDRESS" ignoreEmpty="true"/>
+<field key="MFG_TEL" name="MFG_TEL" ignoreEmpty="true"/>
+<field key="CNAME" name="CNAME" ignoreEmpty="true"/>
+<field key="CADDR" name="CADDR" ignoreEmpty="true"/>
+<field key="AVT_ID" name="AVT_ID" ignoreEmpty="true"/>
+<field key="TAX_UNPAID" name="TAX_UNPAID" ignoreEmpty="true"/>
+<field key="BOF_IM" name="BOF_IM" ignoreEmpty="true"/>
+<field key="BOF_EX" name="BOF_EX" ignoreEmpty="true"/>
+<field key="SETUP_DATE" name="SETUP_DATE" ignoreEmpty="true"/>
+<field key="DETENTION_CODE" name="DETENTION_CODE" ignoreEmpty="true"/>
+<field key="PUNI_X_TYPE" name="PUNI_X_TYPE" ignoreEmpty="true"/>
+<field key="MFG_CLASS" name="MFG_CLASS" ignoreEmpty="true"/>
+<field key="PUNI_DATE" name="PUNI_DATE" ignoreEmpty="true"/>
+<field key="CHECK_RELEASE_MARK" name="CHECK_RELEASE_MARK" ignoreEmpty="true"/>
+<field key="EX_CLASS" name="EX_CLASS" ignoreEmpty="true"/>
+<field key="EX_IGOC_DATE" name="EX_IGOC_DATE" ignoreEmpty="true"/>
+<field key="LG_MARK" name="LG_MARK" ignoreEmpty="true"/>
+<field key="EXCEL_CONNECT_CODE" name="EXCEL_CONNECT_CODE" ignoreEmpty="true"/>
+<field key="SOURCE_MARK" name="SOURCE_MARK" ignoreEmpty="true"/>
+<field key="CHECK_END_DATE" name="CHECK_END_DATE" ignoreEmpty="true"/>
+<field key="CREDIT_MARK" name="CREDIT_MARK" ignoreEmpty="true"/>
+<field key="SPECIAL_CLASS" name="SPECIAL_CLASS" ignoreEmpty="true"/>
+<field key="CHECK_BEG_DATE" name="CHECK_BEG_DATE" ignoreEmpty="true"/>
+<field key="UNION_COMP_NOTE" name="UNION_COMP_NOTE" ignoreEmpty="true"/>
+<field key="EXCHANG_NO" name="EXCHANG_NO" ignoreEmpty="true"/>
+<field key="ACC_NO" name="ACC_NO" ignoreEmpty="true"/>
+<field key="BOF_PROCESS" name="BOF_PROCESS" ignoreEmpty="true"/>
+<field key="ORGI_CLASS" name="ORGI_CLASS" ignoreEmpty="true"/>
+<field key="TRNC" name="TRNC" ignoreEmpty="true"/>
+<field key="SECURE_NOTE" name="SECURE_NOTE" ignoreEmpty="true"/>
+<field key="PROPOSE_GRADE" name="PROPOSE_GRADE" ignoreEmpty="true"/>
+<field key="AEO_NOTE" name="AEO_NOTE" ignoreEmpty="true"/>
+<field key="V_DOWN_C" name="V_DOWN_C" ignoreEmpty="true"/>
+<field key="TAX_DOWN_C" name="TAX_DOWN_C" ignoreEmpty="true"/>
+<field key="QUALIFIED_NOT_OK_CODE" name="QUALIFIED_NOT_OK_CODE" ignoreEmpty="true"/>
+<field key="QUALIFIED_NOT_OK_DATE" name="QUALIFIED_NOT_OK_DATE" ignoreEmpty="true"/>
+<field key="ALT_KEY" name="ALT_KEY" ignoreEmpty="true"/>
+<field key="TYPE_NOTE" name="TYPE_NOTE" ignoreEmpty="true"/>
+<field key="UPS_MARK" name="UPS_MARK" ignoreEmpty="true"/>
+<field key="LAST_TRANS_ID" name="LAST_TRANS_ID" ignoreEmpty="true"/>
+<field key="LAST_USER_NAME" name="LAST_USER_NAME" ignoreEmpty="true"/>
+<field key="LAST_TRANS_UNIT" name="LAST_TRANS_UNIT" ignoreEmpty="true"/>
+<field key="CAPT" name="CAPT" ignoreEmpty="true"/>
+<field key="PUNI_X_TYPE_DATE" name="PUNI_X_TYPE_DATE" ignoreEmpty="true"/>
+<field key="NON_EXAM_MARK_DATE" name="NON_EXAM_MARK_DATE" ignoreEmpty="true"/>
+<field key="EXEH_MARK" name="EXEH_MARK" ignoreEmpty="true"/>
+<field key="NON_EXAM_MARK" name="NON_EXAM_MARK" ignoreEmpty="true"/>
+<field key="EX_ORGI_CLASS" name="EX_ORGI_CLASS" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+
+$('#pageBean_mfgType').attr('value',rowData.MFG_TYPE);
+$('#pageBean_ban').attr('value',rowData.BAN);
+$('#pageBean_mfgName').attr('value',rowData.MFG_NAME);
+$('#pageBean_mfgAddress').attr('value',rowData.MFG_ADDRESS);
+$('#pageBean_mfgTel').attr('value',rowData.MFG_TEL);
+$('#pageBean_cname').attr('value',rowData.CNAME);
+$('#pageBean_caddr').attr('value',rowData.CADDR);
+$('#pageBean_avtId').attr('value',rowData.AVT_ID);
+$('#pageBean_taxUnpaid').attr('value',rowData.TAX_UNPAID);
+$('#pageBean_bofIm').attr('value',rowData.BOF_IM);
+$('#pageBean_bofEx').attr('value',rowData.BOF_EX);
+$('#pageBean_setupDate').attr('value',rowData.SETUP_DATE);
+$('#pageBean_detentionCode').attr('value',rowData.DETENTION_CODE);
+$('#pageBean_puniXType').attr('value',rowData.PUNI_X_TYPE);
+$('#pageBean_mfgClass').attr('value',rowData.MFG_CLASS);
+$('#pageBean_puniDate').attr('value',rowData.PUNI_DATE);
+$('#pageBean_checkReleaseMark').attr('value',rowData.CHECK_RELEASE_MARK);
+$('#pageBean_exClass').attr('value',rowData.EX_CLASS);
+$('#pageBean_exIgocDate').attr('value',rowData.EX_IGOC_DATE);
+$('#pageBean_lgMark').attr('value',rowData.LG_MARK);
+$('#pageBean_excelConnectCode').attr('value',rowData.EXCEL_CONNECT_CODE);
+$('#pageBean_sourceMark').attr('value',rowData.SOURCE_MARK);
+$('#pageBean_checkEndDate').attr('value',rowData.CHECK_END_DATE);
+$('#pageBean_creditMark').attr('value',rowData.CREDIT_MARK);
+$('#pageBean_specialClass').attr('value',rowData.SPECIAL_CLASS);
+$('#pageBean_checkBegDate').attr('value',rowData.CHECK_BEG_DATE);
+$('#pageBean_unionCompNote').attr('value',rowData.UNION_COMP_NOTE);
+$('#pageBean_exchangNo').attr('value',rowData.EXCHANG_NO);
+$('#pageBean_accNo').attr('value',rowData.ACC_NO);
+$('#pageBean_bofProcess').attr('value',rowData.BOF_PROCESS);
+$('#pageBean_orgiClass').attr('value',rowData.ORGI_CLASS);
+$('#pageBean_trnc').attr('value',rowData.TRNC);
+$('#pageBean_secureNote').attr('value',rowData.SECURE_NOTE);
+$('#pageBean_proposeGrade').attr('value',rowData.PROPOSE_GRADE);
+$('#pageBean_aeoNote').attr('value',rowData.AEO_NOTE);
+$('#pageBean_vDownC').attr('value',rowData.V_DOWN_C);
+$('#pageBean_taxDownC').attr('value',rowData.TAX_DOWN_C);
+$('#pageBean_qualifiedNotOkCode').attr('value',rowData.QUALIFIED_NOT_OK_CODE);
+$('#pageBean_qualifiedNotOkDate').attr('value',rowData.QUALIFIED_NOT_OK_DATE);
+$('#pageBean_altKey').attr('value',rowData.ALT_KEY);
+$('#pageBean_typeNote').attr('value',rowData.TYPE_NOTE);
+$('#pageBean_upsMark').attr('value',rowData.UPS_MARK);
+$('#pageBean_lastTransId').attr('value',rowData.LAST_TRANS_ID);
+$('#pageBean_lastUserName').attr('value',rowData.LAST_USER_NAME);
+$('#pageBean_lastTransUnit').attr('value',rowData.LAST_TRANS_UNIT);
+$('#pageBean_capt').attr('value',rowData.CAPT);
+$('#pageBean_puniXTypeDate').attr('value',rowData.PUNI_X_TYPE_DATE);
+$('#pageBean_nonExamMarkDate').attr('value',rowData.NON_EXAM_MARK_DATE);
+$('#pageBean_exehMark').attr('value',rowData.EXEH_MARK);
+$('#pageBean_nonExamMark').attr('value',rowData.NON_EXAM_MARK);
+$('#pageBean_exOrgiClass').attr('value',rowData.EX_ORGI_CLASS);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+
+$('#pageBean_mfgType').attr("value", "");
+$('#pageBean_ban').attr("value", "");
+$('#pageBean_mfgName').attr("value", "");
+$('#pageBean_mfgAddress').attr("value", "");
+$('#pageBean_mfgTel').attr("value", "");
+$('#pageBean_cname').attr("value", "");
+$('#pageBean_caddr').attr("value", "");
+$('#pageBean_avtId').attr("value", "");
+$('#pageBean_taxUnpaid').attr("value", "");
+$('#pageBean_bofIm').attr("value", "");
+$('#pageBean_bofEx').attr("value", "");
+$('#pageBean_setupDate').attr("value", "");
+$('#pageBean_detentionCode').attr("value", "");
+$('#pageBean_puniXType').attr("value", "");
+$('#pageBean_mfgClass').attr("value", "");
+$('#pageBean_puniDate').attr("value", "");
+$('#pageBean_checkReleaseMark').attr("value", "");
+$('#pageBean_exClass').attr("value", "");
+$('#pageBean_exIgocDate').attr("value", "");
+$('#pageBean_lgMark').attr("value", "");
+$('#pageBean_excelConnectCode').attr("value", "");
+$('#pageBean_sourceMark').attr("value", "");
+$('#pageBean_checkEndDate').attr("value", "");
+$('#pageBean_creditMark').attr("value", "");
+$('#pageBean_specialClass').attr("value", "");
+$('#pageBean_checkBegDate').attr("value", "");
+$('#pageBean_unionCompNote').attr("value", "");
+$('#pageBean_exchangNo').attr("value", "");
+$('#pageBean_accNo').attr("value", "");
+$('#pageBean_bofProcess').attr("value", "");
+$('#pageBean_orgiClass').attr("value", "");
+$('#pageBean_trnc').attr("value", "");
+$('#pageBean_secureNote').attr("value", "");
+$('#pageBean_proposeGrade').attr("value", "");
+$('#pageBean_aeoNote').attr("value", "");
+$('#pageBean_vDownC').attr("value", "");
+$('#pageBean_taxDownC').attr("value", "");
+$('#pageBean_qualifiedNotOkCode').attr("value", "");
+$('#pageBean_qualifiedNotOkDate').attr("value", "");
+$('#pageBean_altKey').attr("value", "");
+$('#pageBean_typeNote').attr("value", "");
+$('#pageBean_upsMark').attr("value", "");
+$('#pageBean_lastTransId').attr("value", "");
+$('#pageBean_lastUserName').attr("value", "");
+$('#pageBean_lastTransUnit').attr("value", "");
+$('#pageBean_capt').attr("value", "");
+$('#pageBean_puniXTypeDate').attr("value", "");
+$('#pageBean_nonExamMarkDate').attr("value", "");
+$('#pageBean_exehMark').attr("value", "");
+$('#pageBean_nonExamMark').attr("value", "");
+$('#pageBean_exOrgiClass').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+
+MFG_TYPE:$('#pageBean_mfgType').val(),//廠商類別(*:廠商  空白:個人)
+BAN:$('#pageBean_ban').val(),//營利事業統一編號
+MFG_NAME:$('#pageBean_mfgName').val(),//英文名稱
+MFG_ADDRESS:$('#pageBean_mfgAddress').val(),//英文地址
+MFG_TEL:$('#pageBean_mfgTel').val(),//電話號碼
+CNAME:$('#pageBean_cname').val(),//中文名稱
+CADDR:$('#pageBean_caddr').val(),//中文地址
+AVT_ID:$('#pageBean_avtId').val(),//營業人註記
+TAX_UNPAID:$('#pageBean_taxUnpaid').val(),//內地稅欠繳註記
+BOF_IM:$('#pageBean_bofIm').val(),//進口資格
+BOF_EX:$('#pageBean_bofEx').val(),//出口資格
+SETUP_DATE:$('#pageBean_setupDate').val(),//廠商成立日期
+DETENTION_CODE:$('#pageBean_detentionCode').val(),//查扣註記
+PUNI_X_TYPE:$('#pageBean_puniXType').val(),//涉及重大走私漏稅註記
+MFG_CLASS:$('#pageBean_mfgClass').val(),//進口現有等級
+PUNI_DATE:$('#pageBean_puniDate').val(),//進口等級最近異動日期
+CHECK_RELEASE_MARK:$('#pageBean_checkReleaseMark').val(),//驗估處先核後放註記
+EX_CLASS:$('#pageBean_exClass').val(),//出口等級
+EX_IGOC_DATE:$('#pageBean_exIgocDate').val(),//出口最近處分日期
+LG_MARK:$('#pageBean_lgMark').val(),//LG轉換註記
+EXCEL_CONNECT_CODE:$('#pageBean_excelConnectCode').val(),//優良廠商連線註記
+SOURCE_MARK:$('#pageBean_sourceMark').val(),//資料來源註記
+CHECK_END_DATE:$('#pageBean_checkEndDate').val(),//先核後放截止日期
+CREDIT_MARK:$('#pageBean_creditMark').val(),//信譽註記
+SPECIAL_CLASS:$('#pageBean_specialClass').val(),//進口特殊等級
+CHECK_BEG_DATE:$('#pageBean_checkBegDate').val(),//先核後放起始日期
+UNION_COMP_NOTE:$('#pageBean_unionCompNote').val(),//一般策略聯盟廠商註記
+EXCHANG_NO:$('#pageBean_exchangNo').val(),//央行結匯帳號
+ACC_NO:$('#pageBean_accNo').val(),//銀行帳號
+BOF_PROCESS:$('#pageBean_bofProcess').val(),//智慧財產局晶片登錄註記
+ORGI_CLASS:$('#pageBean_orgiClass').val(),//進口原有等級
+TRNC:$('#pageBean_trnc').val(),//財稅中心稅急異動原因代號
+SECURE_NOTE:$('#pageBean_secureNote').val(),//安全認證優質企業註記
+PROPOSE_GRADE:$('#pageBean_proposeGrade').val(),//專案核列等級
+AEO_NOTE:$('#pageBean_aeoNote').val(),//一般優質企業註記
+V_DOWN_C:$('#pageBean_vDownC').val(),//驗估處降級註記
+TAX_DOWN_C:$('#pageBean_taxDownC').val(),//財稅營業稅降級註記
+QUALIFIED_NOT_OK_CODE:$('#pageBean_qualifiedNotOkCode').val(),//資格異動原因
+QUALIFIED_NOT_OK_DATE:$('#pageBean_qualifiedNotOkDate').val(),//資格異動日期
+ALT_KEY:$('#pageBean_altKey').val(),//關係企業統一編號
+TYPE_NOTE:$('#pageBean_typeNote').val(),//特殊企業註記
+UPS_MARK:$('#pageBean_upsMark').val(),//快遞廠商註記
+LAST_TRANS_ID:$('#pageBean_lastTransId').val(),//異動程式代號
+LAST_USER_NAME:$('#pageBean_lastUserName').val(),//異動使用者代號
+LAST_TRANS_UNIT:$('#pageBean_lastTransUnit').val(),//異動使用者單位
+CAPT:$('#pageBean_capt').val(),//資本額(千元)
+PUNI_X_TYPE_DATE:$('#pageBean_puniXTypeDate').val(),//涉及重大走私漏稅註記日期
+NON_EXAM_MARK_DATE:$('#pageBean_nonExamMarkDate').val(),//得船邊驗放有效期限
+EXEH_MARK:$('#pageBean_exehMark').val(),//出口推貿費季繳廠商需電子資料註記
+NON_EXAM_MARK:$('#pageBean_nonExamMark').val(),//船邊抽驗放行註記
+EX_ORGI_CLASS:$('#pageBean_exOrgiClass').val(),//出口原有等級
+UP_DATE:$('#pageBean_upDate').val(),//異動日期時間
+
+pageBean.setMfgType(dataObjects.getString("MFG_TYPE"));//廠商類別(*:廠商  空白:個人)
+pageBean.setBan(dataObjects.getString("BAN"));//營利事業統一編號
+pageBean.setMfgName(dataObjects.getString("MFG_NAME"));//英文名稱
+pageBean.setMfgAddress(dataObjects.getString("MFG_ADDRESS"));//英文地址
+pageBean.setMfgTel(dataObjects.getString("MFG_TEL"));//電話號碼
+pageBean.setCname(dataObjects.getString("CNAME"));//中文名稱
+pageBean.setCaddr(dataObjects.getString("CADDR"));//中文地址
+pageBean.setAvtId(dataObjects.getString("AVT_ID"));//營業人註記
+pageBean.setTaxUnpaid((BigDecimal)dataObjects.getValue("TAX_UNPAID"));//內地稅欠繳註記
+pageBean.setBofIm(dataObjects.getString("BOF_IM"));//進口資格
+pageBean.setBofEx(dataObjects.getString("BOF_EX"));//出口資格
+pageBean.setSetupDate((Date)dataObjects.getValue("SETUP_DATE"));//廠商成立日期
+pageBean.setDetentionCode(dataObjects.getString("DETENTION_CODE"));//查扣註記
+pageBean.setPuniXType(dataObjects.getString("PUNI_X_TYPE"));//涉及重大走私漏稅註記
+pageBean.setMfgClass(dataObjects.getString("MFG_CLASS"));//進口現有等級
+pageBean.setPuniDate((Date)dataObjects.getValue("PUNI_DATE"));//進口等級最近異動日期
+pageBean.setCheckReleaseMark(dataObjects.getString("CHECK_RELEASE_MARK"));//驗估處先核後放註記
+pageBean.setExClass(dataObjects.getString("EX_CLASS"));//出口等級
+pageBean.setExIgocDate((Date)dataObjects.getValue("EX_IGOC_DATE"));//出口最近處分日期
+pageBean.setLgMark(dataObjects.getString("LG_MARK"));//LG轉換註記
+pageBean.setExcelConnectCode(dataObjects.getString("EXCEL_CONNECT_CODE"));//優良廠商連線註記
+pageBean.setSourceMark(dataObjects.getString("SOURCE_MARK"));//資料來源註記
+pageBean.setCheckEndDate((Date)dataObjects.getValue("CHECK_END_DATE"));//先核後放截止日期
+pageBean.setCreditMark(dataObjects.getString("CREDIT_MARK"));//信譽註記
+pageBean.setSpecialClass(dataObjects.getString("SPECIAL_CLASS"));//進口特殊等級
+pageBean.setCheckBegDate((Date)dataObjects.getValue("CHECK_BEG_DATE"));//先核後放起始日期
+pageBean.setUnionCompNote(dataObjects.getString("UNION_COMP_NOTE"));//一般策略聯盟廠商註記
+pageBean.setExchangNo(dataObjects.getString("EXCHANG_NO"));//央行結匯帳號
+pageBean.setAccNo(dataObjects.getString("ACC_NO"));//銀行帳號
+pageBean.setBofProcess(dataObjects.getString("BOF_PROCESS"));//智慧財產局晶片登錄註記
+pageBean.setOrgiClass(dataObjects.getString("ORGI_CLASS"));//進口原有等級
+pageBean.setTrnc(dataObjects.getString("TRNC"));//財稅中心稅急異動原因代號
+pageBean.setSecureNote(dataObjects.getString("SECURE_NOTE"));//安全認證優質企業註記
+pageBean.setProposeGrade(dataObjects.getString("PROPOSE_GRADE"));//專案核列等級
+pageBean.setAeoNote(dataObjects.getString("AEO_NOTE"));//一般優質企業註記
+pageBean.setVDownC(dataObjects.getString("V_DOWN_C"));//驗估處降級註記
+pageBean.setTaxDownC((BigDecimal)dataObjects.getValue("TAX_DOWN_C"));//財稅營業稅降級註記
+pageBean.setQualifiedNotOkCode(dataObjects.getString("QUALIFIED_NOT_OK_CODE"));//資格異動原因
+pageBean.setQualifiedNotOkDate((Date)dataObjects.getValue("QUALIFIED_NOT_OK_DATE"));//資格異動日期
+pageBean.setAltKey(dataObjects.getString("ALT_KEY"));//關係企業統一編號
+pageBean.setTypeNote(dataObjects.getString("TYPE_NOTE"));//特殊企業註記
+pageBean.setUpsMark(dataObjects.getString("UPS_MARK"));//快遞廠商註記
+pageBean.setLastTransId(dataObjects.getString("LAST_TRANS_ID"));//異動程式代號
+pageBean.setLastUserName(dataObjects.getString("LAST_USER_NAME"));//異動使用者代號
+pageBean.setLastTransUnit(dataObjects.getString("LAST_TRANS_UNIT"));//異動使用者單位
+pageBean.setCapt(dataObjects.getString("CAPT"));//資本額(千元)
+pageBean.setPuniXTypeDate((Date)dataObjects.getValue("PUNI_X_TYPE_DATE"));//涉及重大走私漏稅註記日期
+pageBean.setNonExamMarkDate((Date)dataObjects.getValue("NON_EXAM_MARK_DATE"));//得船邊驗放有效期限
+pageBean.setExehMark(dataObjects.getString("EXEH_MARK"));//出口推貿費季繳廠商需電子資料註記
+pageBean.setNonExamMark(dataObjects.getString("NON_EXAM_MARK"));//船邊抽驗放行註記
+pageBean.setExOrgiClass(dataObjects.getString("EX_ORGI_CLASS"));//出口原有等級
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動日期時間
+
+private String mfgType = null;//廠商類別(*:廠商  空白:個人)
+private String ban = null;//營利事業統一編號
+private String mfgName = null;//英文名稱
+private String mfgAddress = null;//英文地址
+private String mfgTel = null;//電話號碼
+private String cname = null;//中文名稱
+private String caddr = null;//中文地址
+private String avtId = null;//營業人註記
+private BigDecimal taxUnpaid = null;//內地稅欠繳註記
+private String bofIm = null;//進口資格
+private String bofEx = null;//出口資格
+private Date setupDate = null;//廠商成立日期
+private String detentionCode = null;//查扣註記
+private String puniXType = null;//涉及重大走私漏稅註記
+private String mfgClass = null;//進口現有等級
+private Date puniDate = null;//進口等級最近異動日期
+private String checkReleaseMark = null;//驗估處先核後放註記
+private String exClass = null;//出口等級
+private Date exIgocDate = null;//出口最近處分日期
+private String lgMark = null;//LG轉換註記
+private String excelConnectCode = null;//優良廠商連線註記
+private String sourceMark = null;//資料來源註記
+private Date checkEndDate = null;//先核後放截止日期
+private String creditMark = null;//信譽註記
+private String specialClass = null;//進口特殊等級
+private Date checkBegDate = null;//先核後放起始日期
+private String unionCompNote = null;//一般策略聯盟廠商註記
+private String exchangNo = null;//央行結匯帳號
+private String accNo = null;//銀行帳號
+private String bofProcess = null;//智慧財產局晶片登錄註記
+private String orgiClass = null;//進口原有等級
+private String trnc = null;//財稅中心稅急異動原因代號
+private String secureNote = null;//安全認證優質企業註記
+private String proposeGrade = null;//專案核列等級
+private String aeoNote = null;//一般優質企業註記
+private String vDownC = null;//驗估處降級註記
+private BigDecimal taxDownC = null;//財稅營業稅降級註記
+private String qualifiedNotOkCode = null;//資格異動原因
+private Date qualifiedNotOkDate = null;//資格異動日期
+private String altKey = null;//關係企業統一編號
+private String typeNote = null;//特殊企業註記
+private String upsMark = null;//快遞廠商註記
+private String lastTransId = null;//異動程式代號
+private String lastUserName = null;//異動使用者代號
+private String lastTransUnit = null;//異動使用者單位
+private String capt = null;//資本額(千元)
+private Date puniXTypeDate = null;//涉及重大走私漏稅註記日期
+private Date nonExamMarkDate = null;//得船邊驗放有效期限
+private String exehMark = null;//出口推貿費季繳廠商需電子資料註記
+private String nonExamMark = null;//船邊抽驗放行註記
+private String exOrgiClass = null;//出口原有等級
+private Date upDate = null;//異動日期時間
+
+pageBean.setMfgType(mfgType);//廠商類別(*:廠商  空白:個人)
+pageBean.setBan(ban);//營利事業統一編號
+pageBean.setMfgName(mfgName);//英文名稱
+pageBean.setMfgAddress(mfgAddress);//英文地址
+pageBean.setMfgTel(mfgTel);//電話號碼
+pageBean.setCname(cname);//中文名稱
+pageBean.setCaddr(caddr);//中文地址
+pageBean.setAvtId(avtId);//營業人註記
+pageBean.setTaxUnpaid(taxUnpaid);//內地稅欠繳註記
+pageBean.setBofIm(bofIm);//進口資格
+pageBean.setBofEx(bofEx);//出口資格
+pageBean.setSetupDate(setupDate);//廠商成立日期
+pageBean.setDetentionCode(detentionCode);//查扣註記
+pageBean.setPuniXType(puniXType);//涉及重大走私漏稅註記
+pageBean.setMfgClass(mfgClass);//進口現有等級
+pageBean.setPuniDate(puniDate);//進口等級最近異動日期
+pageBean.setCheckReleaseMark(checkReleaseMark);//驗估處先核後放註記
+pageBean.setExClass(exClass);//出口等級
+pageBean.setExIgocDate(exIgocDate);//出口最近處分日期
+pageBean.setLgMark(lgMark);//LG轉換註記
+pageBean.setExcelConnectCode(excelConnectCode);//優良廠商連線註記
+pageBean.setSourceMark(sourceMark);//資料來源註記
+pageBean.setCheckEndDate(checkEndDate);//先核後放截止日期
+pageBean.setCreditMark(creditMark);//信譽註記
+pageBean.setSpecialClass(specialClass);//進口特殊等級
+pageBean.setCheckBegDate(checkBegDate);//先核後放起始日期
+pageBean.setUnionCompNote(unionCompNote);//一般策略聯盟廠商註記
+pageBean.setExchangNo(exchangNo);//央行結匯帳號
+pageBean.setAccNo(accNo);//銀行帳號
+pageBean.setBofProcess(bofProcess);//智慧財產局晶片登錄註記
+pageBean.setOrgiClass(orgiClass);//進口原有等級
+pageBean.setTrnc(trnc);//財稅中心稅急異動原因代號
+pageBean.setSecureNote(secureNote);//安全認證優質企業註記
+pageBean.setProposeGrade(proposeGrade);//專案核列等級
+pageBean.setAeoNote(aeoNote);//一般優質企業註記
+pageBean.setVDownC(vDownC);//驗估處降級註記
+pageBean.setTaxDownC(taxDownC);//財稅營業稅降級註記
+pageBean.setQualifiedNotOkCode(qualifiedNotOkCode);//資格異動原因
+pageBean.setQualifiedNotOkDate(qualifiedNotOkDate);//資格異動日期
+pageBean.setAltKey(altKey);//關係企業統一編號
+pageBean.setTypeNote(typeNote);//特殊企業註記
+pageBean.setUpsMark(upsMark);//快遞廠商註記
+pageBean.setLastTransId(lastTransId);//異動程式代號
+pageBean.setLastUserName(lastUserName);//異動使用者代號
+pageBean.setLastTransUnit(lastTransUnit);//異動使用者單位
+pageBean.setCapt(capt);//資本額(千元)
+pageBean.setPuniXTypeDate(puniXTypeDate);//涉及重大走私漏稅註記日期
+pageBean.setNonExamMarkDate(nonExamMarkDate);//得船邊驗放有效期限
+pageBean.setExehMark(exehMark);//出口推貿費季繳廠商需電子資料註記
+pageBean.setNonExamMark(nonExamMark);//船邊抽驗放行註記
+pageBean.setExOrgiClass(exOrgiClass);//出口原有等級
+pageBean.setUpDate(upDate);//異動日期時間
+
+pageBean.setMfgType(randomBean.getMfgType());//廠商類別(*:廠商  空白:個人)
+pageBean.setBan(randomBean.getBan());//營利事業統一編號
+pageBean.setMfgName(randomBean.getMfgName());//英文名稱
+pageBean.setMfgAddress(randomBean.getMfgAddress());//英文地址
+pageBean.setMfgTel(randomBean.getMfgTel());//電話號碼
+pageBean.setCname(randomBean.getCname());//中文名稱
+pageBean.setCaddr(randomBean.getCaddr());//中文地址
+pageBean.setAvtId(randomBean.getAvtId());//營業人註記
+pageBean.setTaxUnpaid(randomBean.getTaxUnpaid());//內地稅欠繳註記
+pageBean.setBofIm(randomBean.getBofIm());//進口資格
+pageBean.setBofEx(randomBean.getBofEx());//出口資格
+pageBean.setSetupDate(randomBean.getSetupDate());//廠商成立日期
+pageBean.setDetentionCode(randomBean.getDetentionCode());//查扣註記
+pageBean.setPuniXType(randomBean.getPuniXType());//涉及重大走私漏稅註記
+pageBean.setMfgClass(randomBean.getMfgClass());//進口現有等級
+pageBean.setPuniDate(randomBean.getPuniDate());//進口等級最近異動日期
+pageBean.setCheckReleaseMark(randomBean.getCheckReleaseMark());//驗估處先核後放註記
+pageBean.setExClass(randomBean.getExClass());//出口等級
+pageBean.setExIgocDate(randomBean.getExIgocDate());//出口最近處分日期
+pageBean.setLgMark(randomBean.getLgMark());//LG轉換註記
+pageBean.setExcelConnectCode(randomBean.getExcelConnectCode());//優良廠商連線註記
+pageBean.setSourceMark(randomBean.getSourceMark());//資料來源註記
+pageBean.setCheckEndDate(randomBean.getCheckEndDate());//先核後放截止日期
+pageBean.setCreditMark(randomBean.getCreditMark());//信譽註記
+pageBean.setSpecialClass(randomBean.getSpecialClass());//進口特殊等級
+pageBean.setCheckBegDate(randomBean.getCheckBegDate());//先核後放起始日期
+pageBean.setUnionCompNote(randomBean.getUnionCompNote());//一般策略聯盟廠商註記
+pageBean.setExchangNo(randomBean.getExchangNo());//央行結匯帳號
+pageBean.setAccNo(randomBean.getAccNo());//銀行帳號
+pageBean.setBofProcess(randomBean.getBofProcess());//智慧財產局晶片登錄註記
+pageBean.setOrgiClass(randomBean.getOrgiClass());//進口原有等級
+pageBean.setTrnc(randomBean.getTrnc());//財稅中心稅急異動原因代號
+pageBean.setSecureNote(randomBean.getSecureNote());//安全認證優質企業註記
+pageBean.setProposeGrade(randomBean.getProposeGrade());//專案核列等級
+pageBean.setAeoNote(randomBean.getAeoNote());//一般優質企業註記
+pageBean.setVDownC(randomBean.getVDownC());//驗估處降級註記
+pageBean.setTaxDownC(randomBean.getTaxDownC());//財稅營業稅降級註記
+pageBean.setQualifiedNotOkCode(randomBean.getQualifiedNotOkCode());//資格異動原因
+pageBean.setQualifiedNotOkDate(randomBean.getQualifiedNotOkDate());//資格異動日期
+pageBean.setAltKey(randomBean.getAltKey());//關係企業統一編號
+pageBean.setTypeNote(randomBean.getTypeNote());//特殊企業註記
+pageBean.setUpsMark(randomBean.getUpsMark());//快遞廠商註記
+pageBean.setLastTransId(randomBean.getLastTransId());//異動程式代號
+pageBean.setLastUserName(randomBean.getLastUserName());//異動使用者代號
+pageBean.setLastTransUnit(randomBean.getLastTransUnit());//異動使用者單位
+pageBean.setCapt(randomBean.getCapt());//資本額(千元)
+pageBean.setPuniXTypeDate(randomBean.getPuniXTypeDate());//涉及重大走私漏稅註記日期
+pageBean.setNonExamMarkDate(randomBean.getNonExamMarkDate());//得船邊驗放有效期限
+pageBean.setExehMark(randomBean.getExehMark());//出口推貿費季繳廠商需電子資料註記
+pageBean.setNonExamMark(randomBean.getNonExamMark());//船邊抽驗放行註記
+pageBean.setExOrgiClass(randomBean.getExOrgiClass());//出口原有等級
+pageBean.setUpDate(randomBean.getUpDate());//異動日期時間
+
+setMfgType(mfgType);//廠商類別(*:廠商  空白:個人)
+setBan(ban);//營利事業統一編號
+setMfgName(mfgName);//英文名稱
+setMfgAddress(mfgAddress);//英文地址
+setMfgTel(mfgTel);//電話號碼
+setCname(cname);//中文名稱
+setCaddr(caddr);//中文地址
+setAvtId(avtId);//營業人註記
+setTaxUnpaid(taxUnpaid);//內地稅欠繳註記
+setBofIm(bofIm);//進口資格
+setBofEx(bofEx);//出口資格
+setSetupDate(setupDate);//廠商成立日期
+setDetentionCode(detentionCode);//查扣註記
+setPuniXType(puniXType);//涉及重大走私漏稅註記
+setMfgClass(mfgClass);//進口現有等級
+setPuniDate(puniDate);//進口等級最近異動日期
+setCheckReleaseMark(checkReleaseMark);//驗估處先核後放註記
+setExClass(exClass);//出口等級
+setExIgocDate(exIgocDate);//出口最近處分日期
+setLgMark(lgMark);//LG轉換註記
+setExcelConnectCode(excelConnectCode);//優良廠商連線註記
+setSourceMark(sourceMark);//資料來源註記
+setCheckEndDate(checkEndDate);//先核後放截止日期
+setCreditMark(creditMark);//信譽註記
+setSpecialClass(specialClass);//進口特殊等級
+setCheckBegDate(checkBegDate);//先核後放起始日期
+setUnionCompNote(unionCompNote);//一般策略聯盟廠商註記
+setExchangNo(exchangNo);//央行結匯帳號
+setAccNo(accNo);//銀行帳號
+setBofProcess(bofProcess);//智慧財產局晶片登錄註記
+setOrgiClass(orgiClass);//進口原有等級
+setTrnc(trnc);//財稅中心稅急異動原因代號
+setSecureNote(secureNote);//安全認證優質企業註記
+setProposeGrade(proposeGrade);//專案核列等級
+setAeoNote(aeoNote);//一般優質企業註記
+setVDownC(vDownC);//驗估處降級註記
+setTaxDownC(taxDownC);//財稅營業稅降級註記
+setQualifiedNotOkCode(qualifiedNotOkCode);//資格異動原因
+setQualifiedNotOkDate(qualifiedNotOkDate);//資格異動日期
+setAltKey(altKey);//關係企業統一編號
+setTypeNote(typeNote);//特殊企業註記
+setUpsMark(upsMark);//快遞廠商註記
+setLastTransId(lastTransId);//異動程式代號
+setLastUserName(lastUserName);//異動使用者代號
+setLastTransUnit(lastTransUnit);//異動使用者單位
+setCapt(capt);//資本額(千元)
+setPuniXTypeDate(puniXTypeDate);//涉及重大走私漏稅註記日期
+setNonExamMarkDate(nonExamMarkDate);//得船邊驗放有效期限
+setExehMark(exehMark);//出口推貿費季繳廠商需電子資料註記
+setNonExamMark(nonExamMark);//船邊抽驗放行註記
+setExOrgiClass(exOrgiClass);//出口原有等級
+setUpDate(upDate);//異動日期時間
+
+pageBean.getMfgType(),//廠商類別(*:廠商  空白:個人)
+pageBean.getBan(),//營利事業統一編號
+pageBean.getMfgName(),//英文名稱
+pageBean.getMfgAddress(),//英文地址
+pageBean.getMfgTel(),//電話號碼
+pageBean.getCname(),//中文名稱
+pageBean.getCaddr(),//中文地址
+pageBean.getAvtId(),//營業人註記
+pageBean.getTaxUnpaid(),//內地稅欠繳註記
+pageBean.getBofIm(),//進口資格
+pageBean.getBofEx(),//出口資格
+pageBean.getSetupDate(),//廠商成立日期
+pageBean.getDetentionCode(),//查扣註記
+pageBean.getPuniXType(),//涉及重大走私漏稅註記
+pageBean.getMfgClass(),//進口現有等級
+pageBean.getPuniDate(),//進口等級最近異動日期
+pageBean.getCheckReleaseMark(),//驗估處先核後放註記
+pageBean.getExClass(),//出口等級
+pageBean.getExIgocDate(),//出口最近處分日期
+pageBean.getLgMark(),//LG轉換註記
+pageBean.getExcelConnectCode(),//優良廠商連線註記
+pageBean.getSourceMark(),//資料來源註記
+pageBean.getCheckEndDate(),//先核後放截止日期
+pageBean.getCreditMark(),//信譽註記
+pageBean.getSpecialClass(),//進口特殊等級
+pageBean.getCheckBegDate(),//先核後放起始日期
+pageBean.getUnionCompNote(),//一般策略聯盟廠商註記
+pageBean.getExchangNo(),//央行結匯帳號
+pageBean.getAccNo(),//銀行帳號
+pageBean.getBofProcess(),//智慧財產局晶片登錄註記
+pageBean.getOrgiClass(),//進口原有等級
+pageBean.getTrnc(),//財稅中心稅急異動原因代號
+pageBean.getSecureNote(),//安全認證優質企業註記
+pageBean.getProposeGrade(),//專案核列等級
+pageBean.getAeoNote(),//一般優質企業註記
+pageBean.getVDownC(),//驗估處降級註記
+pageBean.getTaxDownC(),//財稅營業稅降級註記
+pageBean.getQualifiedNotOkCode(),//資格異動原因
+pageBean.getQualifiedNotOkDate(),//資格異動日期
+pageBean.getAltKey(),//關係企業統一編號
+pageBean.getTypeNote(),//特殊企業註記
+pageBean.getUpsMark(),//快遞廠商註記
+pageBean.getLastTransId(),//異動程式代號
+pageBean.getLastUserName(),//異動使用者代號
+pageBean.getLastTransUnit(),//異動使用者單位
+pageBean.getCapt(),//資本額(千元)
+pageBean.getPuniXTypeDate(),//涉及重大走私漏稅註記日期
+pageBean.getNonExamMarkDate(),//得船邊驗放有效期限
+pageBean.getExehMark(),//出口推貿費季繳廠商需電子資料註記
+pageBean.getNonExamMark(),//船邊抽驗放行註記
+pageBean.getExOrgiClass(),//出口原有等級
+pageBean.getUpDate(),//異動日期時間
+
+pageBean.setValue("MFG_TYPE", this.getMfgType());//廠商類別(*:廠商  空白:個人)
+pageBean.setValue("BAN", this.getBan());//營利事業統一編號
+pageBean.setValue("MFG_NAME", this.getMfgName());//英文名稱
+pageBean.setValue("MFG_ADDRESS", this.getMfgAddress());//英文地址
+pageBean.setValue("MFG_TEL", this.getMfgTel());//電話號碼
+pageBean.setValue("CNAME", this.getCname());//中文名稱
+pageBean.setValue("CADDR", this.getCaddr());//中文地址
+pageBean.setValue("AVT_ID", this.getAvtId());//營業人註記
+pageBean.setValue("TAX_UNPAID", this.getTaxUnpaid());//內地稅欠繳註記
+pageBean.setValue("BOF_IM", this.getBofIm());//進口資格
+pageBean.setValue("BOF_EX", this.getBofEx());//出口資格
+pageBean.setValue("SETUP_DATE", this.getSetupDate());//廠商成立日期
+pageBean.setValue("DETENTION_CODE", this.getDetentionCode());//查扣註記
+pageBean.setValue("PUNI_X_TYPE", this.getPuniXType());//涉及重大走私漏稅註記
+pageBean.setValue("MFG_CLASS", this.getMfgClass());//進口現有等級
+pageBean.setValue("PUNI_DATE", this.getPuniDate());//進口等級最近異動日期
+pageBean.setValue("CHECK_RELEASE_MARK", this.getCheckReleaseMark());//驗估處先核後放註記
+pageBean.setValue("EX_CLASS", this.getExClass());//出口等級
+pageBean.setValue("EX_IGOC_DATE", this.getExIgocDate());//出口最近處分日期
+pageBean.setValue("LG_MARK", this.getLgMark());//LG轉換註記
+pageBean.setValue("EXCEL_CONNECT_CODE", this.getExcelConnectCode());//優良廠商連線註記
+pageBean.setValue("SOURCE_MARK", this.getSourceMark());//資料來源註記
+pageBean.setValue("CHECK_END_DATE", this.getCheckEndDate());//先核後放截止日期
+pageBean.setValue("CREDIT_MARK", this.getCreditMark());//信譽註記
+pageBean.setValue("SPECIAL_CLASS", this.getSpecialClass());//進口特殊等級
+pageBean.setValue("CHECK_BEG_DATE", this.getCheckBegDate());//先核後放起始日期
+pageBean.setValue("UNION_COMP_NOTE", this.getUnionCompNote());//一般策略聯盟廠商註記
+pageBean.setValue("EXCHANG_NO", this.getExchangNo());//央行結匯帳號
+pageBean.setValue("ACC_NO", this.getAccNo());//銀行帳號
+pageBean.setValue("BOF_PROCESS", this.getBofProcess());//智慧財產局晶片登錄註記
+pageBean.setValue("ORGI_CLASS", this.getOrgiClass());//進口原有等級
+pageBean.setValue("TRNC", this.getTrnc());//財稅中心稅急異動原因代號
+pageBean.setValue("SECURE_NOTE", this.getSecureNote());//安全認證優質企業註記
+pageBean.setValue("PROPOSE_GRADE", this.getProposeGrade());//專案核列等級
+pageBean.setValue("AEO_NOTE", this.getAeoNote());//一般優質企業註記
+pageBean.setValue("V_DOWN_C", this.getVDownC());//驗估處降級註記
+pageBean.setValue("TAX_DOWN_C", this.getTaxDownC());//財稅營業稅降級註記
+pageBean.setValue("QUALIFIED_NOT_OK_CODE", this.getQualifiedNotOkCode());//資格異動原因
+pageBean.setValue("QUALIFIED_NOT_OK_DATE", this.getQualifiedNotOkDate());//資格異動日期
+pageBean.setValue("ALT_KEY", this.getAltKey());//關係企業統一編號
+pageBean.setValue("TYPE_NOTE", this.getTypeNote());//特殊企業註記
+pageBean.setValue("UPS_MARK", this.getUpsMark());//快遞廠商註記
+pageBean.setValue("LAST_TRANS_ID", this.getLastTransId());//異動程式代號
+pageBean.setValue("LAST_USER_NAME", this.getLastUserName());//異動使用者代號
+pageBean.setValue("LAST_TRANS_UNIT", this.getLastTransUnit());//異動使用者單位
+pageBean.setValue("CAPT", this.getCapt());//資本額(千元)
+pageBean.setValue("PUNI_X_TYPE_DATE", this.getPuniXTypeDate());//涉及重大走私漏稅註記日期
+pageBean.setValue("NON_EXAM_MARK_DATE", this.getNonExamMarkDate());//得船邊驗放有效期限
+pageBean.setValue("EXEH_MARK", this.getExehMark());//出口推貿費季繳廠商需電子資料註記
+pageBean.setValue("NON_EXAM_MARK", this.getNonExamMark());//船邊抽驗放行註記
+pageBean.setValue("EX_ORGI_CLASS", this.getExOrgiClass());//出口原有等級
+pageBean.setValue("UP_DATE", this.getUpDate());//異動日期時間
+
+",廠商類別(*:廠商  空白:個人)"+"(mfgType)="+pageBean.getMfgType()+
+",營利事業統一編號"+"(ban)="+pageBean.getBan()+
+",英文名稱"+"(mfgName)="+pageBean.getMfgName()+
+",英文地址"+"(mfgAddress)="+pageBean.getMfgAddress()+
+",電話號碼"+"(mfgTel)="+pageBean.getMfgTel()+
+",中文名稱"+"(cname)="+pageBean.getCname()+
+",中文地址"+"(caddr)="+pageBean.getCaddr()+
+",營業人註記"+"(avtId)="+pageBean.getAvtId()+
+",內地稅欠繳註記"+"(taxUnpaid)="+pageBean.getTaxUnpaid()+
+",進口資格"+"(bofIm)="+pageBean.getBofIm()+
+",出口資格"+"(bofEx)="+pageBean.getBofEx()+
+",廠商成立日期"+"(setupDate)="+pageBean.getSetupDate()+
+",查扣註記"+"(detentionCode)="+pageBean.getDetentionCode()+
+",涉及重大走私漏稅註記"+"(puniXType)="+pageBean.getPuniXType()+
+",進口現有等級"+"(mfgClass)="+pageBean.getMfgClass()+
+",進口等級最近異動日期"+"(puniDate)="+pageBean.getPuniDate()+
+",驗估處先核後放註記"+"(checkReleaseMark)="+pageBean.getCheckReleaseMark()+
+",出口等級"+"(exClass)="+pageBean.getExClass()+
+",出口最近處分日期"+"(exIgocDate)="+pageBean.getExIgocDate()+
+",LG轉換註記"+"(lgMark)="+pageBean.getLgMark()+
+",優良廠商連線註記"+"(excelConnectCode)="+pageBean.getExcelConnectCode()+
+",資料來源註記"+"(sourceMark)="+pageBean.getSourceMark()+
+",先核後放截止日期"+"(checkEndDate)="+pageBean.getCheckEndDate()+
+",信譽註記"+"(creditMark)="+pageBean.getCreditMark()+
+",進口特殊等級"+"(specialClass)="+pageBean.getSpecialClass()+
+",先核後放起始日期"+"(checkBegDate)="+pageBean.getCheckBegDate()+
+",一般策略聯盟廠商註記"+"(unionCompNote)="+pageBean.getUnionCompNote()+
+",央行結匯帳號"+"(exchangNo)="+pageBean.getExchangNo()+
+",銀行帳號"+"(accNo)="+pageBean.getAccNo()+
+",智慧財產局晶片登錄註記"+"(bofProcess)="+pageBean.getBofProcess()+
+",進口原有等級"+"(orgiClass)="+pageBean.getOrgiClass()+
+",財稅中心稅急異動原因代號"+"(trnc)="+pageBean.getTrnc()+
+",安全認證優質企業註記"+"(secureNote)="+pageBean.getSecureNote()+
+",專案核列等級"+"(proposeGrade)="+pageBean.getProposeGrade()+
+",一般優質企業註記"+"(aeoNote)="+pageBean.getAeoNote()+
+",驗估處降級註記"+"(vDownC)="+pageBean.getVDownC()+
+",財稅營業稅降級註記"+"(taxDownC)="+pageBean.getTaxDownC()+
+",資格異動原因"+"(qualifiedNotOkCode)="+pageBean.getQualifiedNotOkCode()+
+",資格異動日期"+"(qualifiedNotOkDate)="+pageBean.getQualifiedNotOkDate()+
+",關係企業統一編號"+"(altKey)="+pageBean.getAltKey()+
+",特殊企業註記"+"(typeNote)="+pageBean.getTypeNote()+
+",快遞廠商註記"+"(upsMark)="+pageBean.getUpsMark()+
+",異動程式代號"+"(lastTransId)="+pageBean.getLastTransId()+
+",異動使用者代號"+"(lastUserName)="+pageBean.getLastUserName()+
+",異動使用者單位"+"(lastTransUnit)="+pageBean.getLastTransUnit()+
+",資本額(千元)"+"(capt)="+pageBean.getCapt()+
+",涉及重大走私漏稅註記日期"+"(puniXTypeDate)="+pageBean.getPuniXTypeDate()+
+",得船邊驗放有效期限"+"(nonExamMarkDate)="+pageBean.getNonExamMarkDate()+
+",出口推貿費季繳廠商需電子資料註記"+"(exehMark)="+pageBean.getExehMark()+
+",船邊抽驗放行註記"+"(nonExamMark)="+pageBean.getNonExamMark()+
+",出口原有等級"+"(exOrgiClass)="+pageBean.getExOrgiClass()+
+",異動日期時間"+"(upDate)="+pageBean.getUpDate()+

@@ -1,0 +1,245 @@
+pageBean.tfDocNo=發文文號
+pageBean.declNo=報單號碼
+pageBean.tfDocSeqno=相關文號序號
+pageBean.tfIssueDte=發文日期
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+pageBean.tfSerialSeq=
+
+pageBean.tfDocNo=tfDocNo
+pageBean.declNo=declNo
+pageBean.tfDocSeqno=tfDocSeqno
+pageBean.tfIssueDte=tfIssueDte
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+pageBean.tfSerialSeq=tfSerialSeq
+
+<tr>
+	<td>
+		<!--tfDocNo:發文文號-->
+		<s:text name="pageBean.tfDocNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--declNo:報單號碼-->
+		<s:text name="pageBean.declNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDocSeqno:相關文號序號-->
+		<s:text name="pageBean.tfDocSeqno"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocSeqno"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfIssueDte:發文日期-->
+		<s:text name="pageBean.tfIssueDte"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfIssueDte"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSerialSeq:-->
+		<s:text name="pageBean.tfSerialSeq"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSerialSeq"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.tfDocNo"/><!--tfDocNo:發文文號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.tfDocSeqno"/><!--tfDocSeqno:相關文號序號-->
+<s:hidden name="pageBean.tfIssueDte"/><!--tfIssueDte:發文日期-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.tfSerialSeq"/><!--tfSerialSeq:-->
+
+<%--TF_DOC_NO:發文文號:tfDocNo--%>
+<sjg:gridColumn name="TF_DOC_NO" index="TF_DOC_NO" title="%{getText('tfDocNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DOC_SEQNO:相關文號序號:tfDocSeqno--%>
+<sjg:gridColumn name="TF_DOC_SEQNO" index="TF_DOC_SEQNO" title="%{getText('tfDocSeqno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ISSUE_DTE:發文日期:tfIssueDte--%>
+<sjg:gridColumn name="TF_ISSUE_DTE" index="TF_ISSUE_DTE" title="%{getText('tfIssueDte')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SERIAL_SEQ::tfSerialSeq--%>
+<sjg:gridColumn name="TF_SERIAL_SEQ" index="TF_SERIAL_SEQ" title="%{getText('tfSerialSeq')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TF_DOC_NO
+,A.DECL_NO
+,A.TF_DOC_SEQNO
+,A.TF_ISSUE_DTE
+,A.UP_PERSON
+,A.UP_DATE
+,A.TF_SERIAL_SEQ
+
+<condition key="TF_DOC_NO" ignoreEmpty="true">TF_DOC_NO = ${TF_DOC_NO}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="TF_DOC_SEQNO" ignoreEmpty="true">TF_DOC_SEQNO = ${TF_DOC_SEQNO}</condition>
+<condition key="TF_ISSUE_DTE" ignoreEmpty="true">TF_ISSUE_DTE = ${TF_ISSUE_DTE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="TF_SERIAL_SEQ" ignoreEmpty="true">TF_SERIAL_SEQ = ${TF_SERIAL_SEQ}</condition>
+
+<condition key="TF_DOC_NO_S" ignoreEmpty="true">TF_DOC_NO >= ${TF_DOC_NO_S}</condition><condition key="TF_DOC_NO_E" ignoreEmpty="true">${TF_DOC_NO_E} >= TF_DOC_NO</condition><condition key="TF_DOC_NO_L" ignoreEmpty="true">TF_DOC_NO like ${TF_DOC_NO_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="TF_DOC_SEQNO_S" ignoreEmpty="true">TF_DOC_SEQNO >= ${TF_DOC_SEQNO_S}</condition><condition key="TF_DOC_SEQNO_E" ignoreEmpty="true">${TF_DOC_SEQNO_E} >= TF_DOC_SEQNO</condition><condition key="TF_DOC_SEQNO_L" ignoreEmpty="true">TF_DOC_SEQNO like ${TF_DOC_SEQNO_L}</condition>
+<condition key="TF_ISSUE_DTE_S" ignoreEmpty="true">TF_ISSUE_DTE >= ${TF_ISSUE_DTE_S}</condition><condition key="TF_ISSUE_DTE_E" ignoreEmpty="true">${TF_ISSUE_DTE_E} >= TF_ISSUE_DTE</condition><condition key="TF_ISSUE_DTE_L" ignoreEmpty="true">TF_ISSUE_DTE like ${TF_ISSUE_DTE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="TF_SERIAL_SEQ_S" ignoreEmpty="true">TF_SERIAL_SEQ >= ${TF_SERIAL_SEQ_S}</condition><condition key="TF_SERIAL_SEQ_E" ignoreEmpty="true">${TF_SERIAL_SEQ_E} >= TF_SERIAL_SEQ</condition><condition key="TF_SERIAL_SEQ_L" ignoreEmpty="true">TF_SERIAL_SEQ like ${TF_SERIAL_SEQ_L}</condition>
+
+<field key="TF_DOC_NO" name="TF_DOC_NO" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="TF_DOC_SEQNO" name="TF_DOC_SEQNO" ignoreEmpty="true"/>
+<field key="TF_ISSUE_DTE" name="TF_ISSUE_DTE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="TF_SERIAL_SEQ" name="TF_SERIAL_SEQ" ignoreEmpty="true"/>
+
+$('#pageBean_tfDocNo').attr('value',rowData.TF_DOC_NO);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_tfDocSeqno').attr('value',rowData.TF_DOC_SEQNO);
+$('#pageBean_tfIssueDte').attr('value',rowData.TF_ISSUE_DTE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_tfSerialSeq').attr('value',rowData.TF_SERIAL_SEQ);
+
+$('#pageBean_tfDocNo').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_tfDocSeqno').attr("value", "");
+$('#pageBean_tfIssueDte').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_tfSerialSeq').attr("value", "");
+
+TF_DOC_NO:$('#pageBean_tfDocNo').val(),//發文文號
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+TF_DOC_SEQNO:$('#pageBean_tfDocSeqno').val(),//相關文號序號
+TF_ISSUE_DTE:$('#pageBean_tfIssueDte').val(),//發文日期
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+TF_SERIAL_SEQ:$('#pageBean_tfSerialSeq').val(),//
+
+pageBean.setTfDocNo(dataObjects.getString("TF_DOC_NO"));//發文文號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setTfDocSeqno(dataObjects.getString("TF_DOC_SEQNO"));//相關文號序號
+pageBean.setTfIssueDte(dataObjects.getString("TF_ISSUE_DTE"));//發文日期
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setTfSerialSeq(dataObjects.getString("TF_SERIAL_SEQ"));//
+
+private String tfDocNo = null;//發文文號
+private String declNo = null;//報單號碼
+private String tfDocSeqno = null;//相關文號序號
+private String tfIssueDte = null;//發文日期
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+private String tfSerialSeq = null;//
+
+pageBean.setTfDocNo("發文文號");//發文文號
+pageBean.setDeclNo("報單號碼");//報單號碼
+pageBean.setTfDocSeqno("相關文號序號");//相關文號序號
+pageBean.setTfIssueDte("發文日期");//發文日期
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setTfSerialSeq("");//
+
+pageBean.setTfDocNo(tfDocNo);//發文文號
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setTfDocSeqno(tfDocSeqno);//相關文號序號
+pageBean.setTfIssueDte(tfIssueDte);//發文日期
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setTfSerialSeq(tfSerialSeq);//
+
+pageBean.setTfDocNo(randomBean.getTfDocNo());//發文文號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setTfDocSeqno(randomBean.getTfDocSeqno());//相關文號序號
+pageBean.setTfIssueDte(randomBean.getTfIssueDte());//發文日期
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setTfSerialSeq(randomBean.getTfSerialSeq());//
+
+setTfDocNo(tfDocNo);//發文文號
+setDeclNo(declNo);//報單號碼
+setTfDocSeqno(tfDocSeqno);//相關文號序號
+setTfIssueDte(tfIssueDte);//發文日期
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+setTfSerialSeq(tfSerialSeq);//
+
+pageBean.getTfDocNo(),//發文文號
+pageBean.getDeclNo(),//報單號碼
+pageBean.getTfDocSeqno(),//相關文號序號
+pageBean.getTfIssueDte(),//發文日期
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+pageBean.getTfSerialSeq(),//
+
+pageBean.setValue("TF_DOC_NO", this.getTfDocNo());//發文文號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("TF_DOC_SEQNO", this.getTfDocSeqno());//相關文號序號
+pageBean.setValue("TF_ISSUE_DTE", this.getTfIssueDte());//發文日期
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("TF_SERIAL_SEQ", this.getTfSerialSeq());//
+
+pageBean.setValue("TF_DOC_NO", "發文文號");//發文文號
+pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
+pageBean.setValue("TF_DOC_SEQNO", "相關文號序號");//相關文號序號
+pageBean.setValue("TF_ISSUE_DTE", "發文日期");//發文日期
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("TF_SERIAL_SEQ", "");//
+
+",發文文號"+"(tfDocNo)="+pageBean.getTfDocNo()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",相關文號序號"+"(tfDocSeqno)="+pageBean.getTfDocSeqno()+
+",發文日期"+"(tfIssueDte)="+pageBean.getTfIssueDte()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+","+"(tfSerialSeq)="+pageBean.getTfSerialSeq()+

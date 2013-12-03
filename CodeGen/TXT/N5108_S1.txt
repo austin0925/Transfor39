@@ -1,0 +1,1027 @@
+pageBean.transId=TRANS_ID
+pageBean.senderId=傳送方代碼
+pageBean.receiverId=接收方代碼
+pageBean.ccList=副本通知對象
+pageBean.controlNumber=交換控制碼
+pageBean.vanId=網路別
+pageBean.dlvrDate=傳送時間
+pageBean.dealDate=內部應用系統處理時間
+pageBean.orgMsgId=原訊息編號
+pageBean.orgMsgCd=原訊息類別
+pageBean.orgSendCd=原訊息傳送者代碼
+pageBean.transTypeCd=海空運別
+pageBean.ietType=進出口別代碼
+pageBean.mftNo=艙單號碼
+pageBean.soNo=裝貨單號碼
+pageBean.mawb=主提單號碼
+pageBean.hawb=分提單號碼
+pageBean.mawb2=託運單主號
+pageBean.hawb2=託運單分號
+pageBean.transportId=船（機）代碼
+pageBean.voyageFlightNo=船舶航次（海）/航機班次（空）
+pageBean.vslRegNo=海關通關號碼
+pageBean.arvDate=航機抵達日期
+pageBean.rspnsCd=回應別
+pageBean.mftQty=艙號筆數
+pageBean.fullQty=實櫃總數
+pageBean.emptyQty=空櫃總數
+pageBean.returnRsn1=駁回原因代碼1
+pageBean.returnRsn2=駁回原因代碼2
+pageBean.returnRsn3=駁回原因代碼3
+pageBean.returnRsn4=駁回原因代碼4
+pageBean.returnRsn5=駁回原因代碼5
+pageBean.returnRsn6=駁回原因代碼6
+pageBean.returnRsn7=駁回原因代碼7
+pageBean.returnRsn8=駁回原因代碼8
+pageBean.returnRsn9=駁回原因代碼9
+
+pageBean.transId=transId
+pageBean.senderId=senderId
+pageBean.receiverId=receiverId
+pageBean.ccList=ccList
+pageBean.controlNumber=controlNumber
+pageBean.vanId=vanId
+pageBean.dlvrDate=dlvrDate
+pageBean.dealDate=dealDate
+pageBean.orgMsgId=orgMsgId
+pageBean.orgMsgCd=orgMsgCd
+pageBean.orgSendCd=orgSendCd
+pageBean.transTypeCd=transTypeCd
+pageBean.ietType=ietType
+pageBean.mftNo=mftNo
+pageBean.soNo=soNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.mawb2=mawb2
+pageBean.hawb2=hawb2
+pageBean.transportId=transportId
+pageBean.voyageFlightNo=voyageFlightNo
+pageBean.vslRegNo=vslRegNo
+pageBean.arvDate=arvDate
+pageBean.rspnsCd=rspnsCd
+pageBean.mftQty=mftQty
+pageBean.fullQty=fullQty
+pageBean.emptyQty=emptyQty
+pageBean.returnRsn1=returnRsn1
+pageBean.returnRsn2=returnRsn2
+pageBean.returnRsn3=returnRsn3
+pageBean.returnRsn4=returnRsn4
+pageBean.returnRsn5=returnRsn5
+pageBean.returnRsn6=returnRsn6
+pageBean.returnRsn7=returnRsn7
+pageBean.returnRsn8=returnRsn8
+pageBean.returnRsn9=returnRsn9
+
+<!--transId:TRANS_ID-->
+<tr>
+<td>
+	<s:text name="pageBean.transId"/>
+	<s:textfield name="pageBean.transId" />
+</td>
+</tr>
+
+<!--senderId:傳送方代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.senderId"/>
+	<s:textfield name="pageBean.senderId" />
+</td>
+</tr>
+
+<!--receiverId:接收方代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.receiverId"/>
+	<s:textfield name="pageBean.receiverId" />
+</td>
+</tr>
+
+<!--ccList:副本通知對象-->
+<tr>
+<td>
+	<s:text name="pageBean.ccList"/>
+	<s:textfield name="pageBean.ccList" />
+</td>
+</tr>
+
+<!--controlNumber:交換控制碼-->
+<tr>
+<td>
+	<s:text name="pageBean.controlNumber"/>
+	<s:textfield name="pageBean.controlNumber" />
+</td>
+</tr>
+
+<!--vanId:網路別-->
+<tr>
+<td>
+	<s:text name="pageBean.vanId"/>
+	<s:textfield name="pageBean.vanId" />
+</td>
+</tr>
+
+<!--dlvrDate:傳送時間-->
+<tr>
+<td>
+	<s:text name="pageBean.dlvrDate"/>
+	<s:textfield name="pageBean.dlvrDate" />
+</td>
+</tr>
+
+<!--dealDate:內部應用系統處理時間-->
+<tr>
+<td>
+	<s:text name="pageBean.dealDate"/>
+	<s:textfield name="pageBean.dealDate" />
+</td>
+</tr>
+
+<!--orgMsgId:原訊息編號-->
+<tr>
+<td>
+	<s:text name="pageBean.orgMsgId"/>
+	<s:textfield name="pageBean.orgMsgId" />
+</td>
+</tr>
+
+<!--orgMsgCd:原訊息類別-->
+<tr>
+<td>
+	<s:text name="pageBean.orgMsgCd"/>
+	<s:textfield name="pageBean.orgMsgCd" />
+</td>
+</tr>
+
+<!--orgSendCd:原訊息傳送者代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.orgSendCd"/>
+	<s:textfield name="pageBean.orgSendCd" />
+</td>
+</tr>
+
+<!--transTypeCd:海空運別-->
+<tr>
+<td>
+	<s:text name="pageBean.transTypeCd"/>
+	<s:textfield name="pageBean.transTypeCd" />
+</td>
+</tr>
+
+<!--ietType:進出口別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.ietType"/>
+	<s:textfield name="pageBean.ietType" />
+</td>
+</tr>
+
+<!--mftNo:艙單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.mftNo"/>
+	<s:textfield name="pageBean.mftNo" />
+</td>
+</tr>
+
+<!--soNo:裝貨單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.soNo"/>
+	<s:textfield name="pageBean.soNo" />
+</td>
+</tr>
+
+<!--mawb:主提單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:分提單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--mawb2:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb2"/>
+	<s:textfield name="pageBean.mawb2" />
+</td>
+</tr>
+
+<!--hawb2:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb2"/>
+	<s:textfield name="pageBean.hawb2" />
+</td>
+</tr>
+
+<!--transportId:船（機）代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.transportId"/>
+	<s:textfield name="pageBean.transportId" />
+</td>
+</tr>
+
+<!--voyageFlightNo:船舶航次（海）/航機班次（空）-->
+<tr>
+<td>
+	<s:text name="pageBean.voyageFlightNo"/>
+	<s:textfield name="pageBean.voyageFlightNo" />
+</td>
+</tr>
+
+<!--vslRegNo:海關通關號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.vslRegNo"/>
+	<s:textfield name="pageBean.vslRegNo" />
+</td>
+</tr>
+
+<!--arvDate:航機抵達日期-->
+<tr>
+<td>
+	<s:text name="pageBean.arvDate"/>
+	<s:textfield name="pageBean.arvDate" />
+</td>
+</tr>
+
+<!--rspnsCd:回應別-->
+<tr>
+<td>
+	<s:text name="pageBean.rspnsCd"/>
+	<s:textfield name="pageBean.rspnsCd" />
+</td>
+</tr>
+
+<!--mftQty:艙號筆數-->
+<tr>
+<td>
+	<s:text name="pageBean.mftQty"/>
+	<s:textfield name="pageBean.mftQty" />
+</td>
+</tr>
+
+<!--fullQty:實櫃總數-->
+<tr>
+<td>
+	<s:text name="pageBean.fullQty"/>
+	<s:textfield name="pageBean.fullQty" />
+</td>
+</tr>
+
+<!--emptyQty:空櫃總數-->
+<tr>
+<td>
+	<s:text name="pageBean.emptyQty"/>
+	<s:textfield name="pageBean.emptyQty" />
+</td>
+</tr>
+
+<!--returnRsn1:駁回原因代碼1-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn1"/>
+	<s:textfield name="pageBean.returnRsn1" />
+</td>
+</tr>
+
+<!--returnRsn2:駁回原因代碼2-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn2"/>
+	<s:textfield name="pageBean.returnRsn2" />
+</td>
+</tr>
+
+<!--returnRsn3:駁回原因代碼3-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn3"/>
+	<s:textfield name="pageBean.returnRsn3" />
+</td>
+</tr>
+
+<!--returnRsn4:駁回原因代碼4-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn4"/>
+	<s:textfield name="pageBean.returnRsn4" />
+</td>
+</tr>
+
+<!--returnRsn5:駁回原因代碼5-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn5"/>
+	<s:textfield name="pageBean.returnRsn5" />
+</td>
+</tr>
+
+<!--returnRsn6:駁回原因代碼6-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn6"/>
+	<s:textfield name="pageBean.returnRsn6" />
+</td>
+</tr>
+
+<!--returnRsn7:駁回原因代碼7-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn7"/>
+	<s:textfield name="pageBean.returnRsn7" />
+</td>
+</tr>
+
+<!--returnRsn8:駁回原因代碼8-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn8"/>
+	<s:textfield name="pageBean.returnRsn8" />
+</td>
+</tr>
+
+<!--returnRsn9:駁回原因代碼9-->
+<tr>
+<td>
+	<s:text name="pageBean.returnRsn9"/>
+	<s:textfield name="pageBean.returnRsn9" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.transId"/><!--transId:TRANS_ID-->
+<s:hidden name="pageBean.senderId"/><!--senderId:傳送方代碼-->
+<s:hidden name="pageBean.receiverId"/><!--receiverId:接收方代碼-->
+<s:hidden name="pageBean.ccList"/><!--ccList:副本通知對象-->
+<s:hidden name="pageBean.controlNumber"/><!--controlNumber:交換控制碼-->
+<s:hidden name="pageBean.vanId"/><!--vanId:網路別-->
+<s:hidden name="pageBean.dlvrDate"/><!--dlvrDate:傳送時間-->
+<s:hidden name="pageBean.dealDate"/><!--dealDate:內部應用系統處理時間-->
+<s:hidden name="pageBean.orgMsgId"/><!--orgMsgId:原訊息編號-->
+<s:hidden name="pageBean.orgMsgCd"/><!--orgMsgCd:原訊息類別-->
+<s:hidden name="pageBean.orgSendCd"/><!--orgSendCd:原訊息傳送者代碼-->
+<s:hidden name="pageBean.transTypeCd"/><!--transTypeCd:海空運別-->
+<s:hidden name="pageBean.ietType"/><!--ietType:進出口別代碼-->
+<s:hidden name="pageBean.mftNo"/><!--mftNo:艙單號碼-->
+<s:hidden name="pageBean.soNo"/><!--soNo:裝貨單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:主提單號碼-->
+<s:hidden name="pageBean.hawb"/><!--hawb:分提單號碼-->
+<s:hidden name="pageBean.mawb2"/><!--mawb2:託運單主號-->
+<s:hidden name="pageBean.hawb2"/><!--hawb2:託運單分號-->
+<s:hidden name="pageBean.transportId"/><!--transportId:船（機）代碼-->
+<s:hidden name="pageBean.voyageFlightNo"/><!--voyageFlightNo:船舶航次（海）/航機班次（空）-->
+<s:hidden name="pageBean.vslRegNo"/><!--vslRegNo:海關通關號碼-->
+<s:hidden name="pageBean.arvDate"/><!--arvDate:航機抵達日期-->
+<s:hidden name="pageBean.rspnsCd"/><!--rspnsCd:回應別-->
+<s:hidden name="pageBean.mftQty"/><!--mftQty:艙號筆數-->
+<s:hidden name="pageBean.fullQty"/><!--fullQty:實櫃總數-->
+<s:hidden name="pageBean.emptyQty"/><!--emptyQty:空櫃總數-->
+<s:hidden name="pageBean.returnRsn1"/><!--returnRsn1:駁回原因代碼1-->
+<s:hidden name="pageBean.returnRsn2"/><!--returnRsn2:駁回原因代碼2-->
+<s:hidden name="pageBean.returnRsn3"/><!--returnRsn3:駁回原因代碼3-->
+<s:hidden name="pageBean.returnRsn4"/><!--returnRsn4:駁回原因代碼4-->
+<s:hidden name="pageBean.returnRsn5"/><!--returnRsn5:駁回原因代碼5-->
+<s:hidden name="pageBean.returnRsn6"/><!--returnRsn6:駁回原因代碼6-->
+<s:hidden name="pageBean.returnRsn7"/><!--returnRsn7:駁回原因代碼7-->
+<s:hidden name="pageBean.returnRsn8"/><!--returnRsn8:駁回原因代碼8-->
+<s:hidden name="pageBean.returnRsn9"/><!--returnRsn9:駁回原因代碼9-->
+
+<%--TRANS_ID:TRANS_ID:transId--%>
+<sjg:gridColumn name="TRANS_ID" index="TRANS_ID" title="%{getText('transId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SENDER_ID:傳送方代碼:senderId--%>
+<sjg:gridColumn name="SENDER_ID" index="SENDER_ID" title="%{getText('senderId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RECEIVER_ID:接收方代碼:receiverId--%>
+<sjg:gridColumn name="RECEIVER_ID" index="RECEIVER_ID" title="%{getText('receiverId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CC_LIST:副本通知對象:ccList--%>
+<sjg:gridColumn name="CC_LIST" index="CC_LIST" title="%{getText('ccList')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONTROL_NUMBER:交換控制碼:controlNumber--%>
+<sjg:gridColumn name="CONTROL_NUMBER" index="CONTROL_NUMBER" title="%{getText('controlNumber')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VAN_ID:網路別:vanId--%>
+<sjg:gridColumn name="VAN_ID" index="VAN_ID" title="%{getText('vanId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DLVR_DATE:傳送時間:dlvrDate--%>
+<sjg:gridColumn name="DLVR_DATE" index="DLVR_DATE" title="%{getText('dlvrDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEAL_DATE:內部應用系統處理時間:dealDate--%>
+<sjg:gridColumn name="DEAL_DATE" index="DEAL_DATE" title="%{getText('dealDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ORG_MSG_ID:原訊息編號:orgMsgId--%>
+<sjg:gridColumn name="ORG_MSG_ID" index="ORG_MSG_ID" title="%{getText('orgMsgId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ORG_MSG_CD:原訊息類別:orgMsgCd--%>
+<sjg:gridColumn name="ORG_MSG_CD" index="ORG_MSG_CD" title="%{getText('orgMsgCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ORG_SEND_CD:原訊息傳送者代碼:orgSendCd--%>
+<sjg:gridColumn name="ORG_SEND_CD" index="ORG_SEND_CD" title="%{getText('orgSendCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_TYPE_CD:海空運別:transTypeCd--%>
+<sjg:gridColumn name="TRANS_TYPE_CD" index="TRANS_TYPE_CD" title="%{getText('transTypeCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IET_TYPE:進出口別代碼:ietType--%>
+<sjg:gridColumn name="IET_TYPE" index="IET_TYPE" title="%{getText('ietType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFT_NO:艙單號碼:mftNo--%>
+<sjg:gridColumn name="MFT_NO" index="MFT_NO" title="%{getText('mftNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SO_NO:裝貨單號碼:soNo--%>
+<sjg:gridColumn name="SO_NO" index="SO_NO" title="%{getText('soNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:主提單號碼:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:分提單號碼:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB2:託運單主號:mawb2--%>
+<sjg:gridColumn name="MAWB2" index="MAWB2" title="%{getText('mawb2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB2:託運單分號:hawb2--%>
+<sjg:gridColumn name="HAWB2" index="HAWB2" title="%{getText('hawb2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANSPORT_ID:船（機）代碼:transportId--%>
+<sjg:gridColumn name="TRANSPORT_ID" index="TRANSPORT_ID" title="%{getText('transportId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VOYAGE_FLIGHT_NO:船舶航次（海）/航機班次（空）:voyageFlightNo--%>
+<sjg:gridColumn name="VOYAGE_FLIGHT_NO" index="VOYAGE_FLIGHT_NO" title="%{getText('voyageFlightNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VSL_REG_NO:海關通關號碼:vslRegNo--%>
+<sjg:gridColumn name="VSL_REG_NO" index="VSL_REG_NO" title="%{getText('vslRegNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ARV_DATE:航機抵達日期:arvDate--%>
+<sjg:gridColumn name="ARV_DATE" index="ARV_DATE" title="%{getText('arvDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RSPNS_CD:回應別:rspnsCd--%>
+<sjg:gridColumn name="RSPNS_CD" index="RSPNS_CD" title="%{getText('rspnsCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MFT_QTY:艙號筆數:mftQty--%>
+<sjg:gridColumn name="MFT_QTY" index="MFT_QTY" title="%{getText('mftQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FULL_QTY:實櫃總數:fullQty--%>
+<sjg:gridColumn name="FULL_QTY" index="FULL_QTY" title="%{getText('fullQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EMPTY_QTY:空櫃總數:emptyQty--%>
+<sjg:gridColumn name="EMPTY_QTY" index="EMPTY_QTY" title="%{getText('emptyQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN1:駁回原因代碼1:returnRsn1--%>
+<sjg:gridColumn name="RETURN_RSN1" index="RETURN_RSN1" title="%{getText('returnRsn1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN2:駁回原因代碼2:returnRsn2--%>
+<sjg:gridColumn name="RETURN_RSN2" index="RETURN_RSN2" title="%{getText('returnRsn2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN3:駁回原因代碼3:returnRsn3--%>
+<sjg:gridColumn name="RETURN_RSN3" index="RETURN_RSN3" title="%{getText('returnRsn3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN4:駁回原因代碼4:returnRsn4--%>
+<sjg:gridColumn name="RETURN_RSN4" index="RETURN_RSN4" title="%{getText('returnRsn4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN5:駁回原因代碼5:returnRsn5--%>
+<sjg:gridColumn name="RETURN_RSN5" index="RETURN_RSN5" title="%{getText('returnRsn5')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN6:駁回原因代碼6:returnRsn6--%>
+<sjg:gridColumn name="RETURN_RSN6" index="RETURN_RSN6" title="%{getText('returnRsn6')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN7:駁回原因代碼7:returnRsn7--%>
+<sjg:gridColumn name="RETURN_RSN7" index="RETURN_RSN7" title="%{getText('returnRsn7')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN8:駁回原因代碼8:returnRsn8--%>
+<sjg:gridColumn name="RETURN_RSN8" index="RETURN_RSN8" title="%{getText('returnRsn8')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RETURN_RSN9:駁回原因代碼9:returnRsn9--%>
+<sjg:gridColumn name="RETURN_RSN9" index="RETURN_RSN9" title="%{getText('returnRsn9')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TRANS_ID
+,A.SENDER_ID
+,A.RECEIVER_ID
+,A.CC_LIST
+,A.CONTROL_NUMBER
+,A.VAN_ID
+,A.DLVR_DATE
+,A.DEAL_DATE
+,A.ORG_MSG_ID
+,A.ORG_MSG_CD
+,A.ORG_SEND_CD
+,A.TRANS_TYPE_CD
+,A.IET_TYPE
+,A.MFT_NO
+,A.SO_NO
+,A.MAWB
+,A.HAWB
+,A.MAWB2
+,A.HAWB2
+,A.TRANSPORT_ID
+,A.VOYAGE_FLIGHT_NO
+,A.VSL_REG_NO
+,A.ARV_DATE
+,A.RSPNS_CD
+,A.MFT_QTY
+,A.FULL_QTY
+,A.EMPTY_QTY
+,A.RETURN_RSN1
+,A.RETURN_RSN2
+,A.RETURN_RSN3
+,A.RETURN_RSN4
+,A.RETURN_RSN5
+,A.RETURN_RSN6
+,A.RETURN_RSN7
+,A.RETURN_RSN8
+,A.RETURN_RSN9
+
+<condition key="TRANS_ID" ignoreEmpty="true">TRANS_ID = ${TRANS_ID}</condition>
+<condition key="SENDER_ID" ignoreEmpty="true">SENDER_ID = ${SENDER_ID}</condition>
+<condition key="RECEIVER_ID" ignoreEmpty="true">RECEIVER_ID = ${RECEIVER_ID}</condition>
+<condition key="CC_LIST" ignoreEmpty="true">CC_LIST = ${CC_LIST}</condition>
+<condition key="CONTROL_NUMBER" ignoreEmpty="true">CONTROL_NUMBER = ${CONTROL_NUMBER}</condition>
+<condition key="VAN_ID" ignoreEmpty="true">VAN_ID = ${VAN_ID}</condition>
+<condition key="DLVR_DATE" ignoreEmpty="true">DLVR_DATE = ${DLVR_DATE}</condition>
+<condition key="DEAL_DATE" ignoreEmpty="true">DEAL_DATE = ${DEAL_DATE}</condition>
+<condition key="ORG_MSG_ID" ignoreEmpty="true">ORG_MSG_ID = ${ORG_MSG_ID}</condition>
+<condition key="ORG_MSG_CD" ignoreEmpty="true">ORG_MSG_CD = ${ORG_MSG_CD}</condition>
+<condition key="ORG_SEND_CD" ignoreEmpty="true">ORG_SEND_CD = ${ORG_SEND_CD}</condition>
+<condition key="TRANS_TYPE_CD" ignoreEmpty="true">TRANS_TYPE_CD = ${TRANS_TYPE_CD}</condition>
+<condition key="IET_TYPE" ignoreEmpty="true">IET_TYPE = ${IET_TYPE}</condition>
+<condition key="MFT_NO" ignoreEmpty="true">MFT_NO = ${MFT_NO}</condition>
+<condition key="SO_NO" ignoreEmpty="true">SO_NO = ${SO_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="MAWB2" ignoreEmpty="true">MAWB2 = ${MAWB2}</condition>
+<condition key="HAWB2" ignoreEmpty="true">HAWB2 = ${HAWB2}</condition>
+<condition key="TRANSPORT_ID" ignoreEmpty="true">TRANSPORT_ID = ${TRANSPORT_ID}</condition>
+<condition key="VOYAGE_FLIGHT_NO" ignoreEmpty="true">VOYAGE_FLIGHT_NO = ${VOYAGE_FLIGHT_NO}</condition>
+<condition key="VSL_REG_NO" ignoreEmpty="true">VSL_REG_NO = ${VSL_REG_NO}</condition>
+<condition key="ARV_DATE" ignoreEmpty="true">ARV_DATE = ${ARV_DATE}</condition>
+<condition key="RSPNS_CD" ignoreEmpty="true">RSPNS_CD = ${RSPNS_CD}</condition>
+<condition key="MFT_QTY" ignoreEmpty="true">MFT_QTY = ${MFT_QTY}</condition>
+<condition key="FULL_QTY" ignoreEmpty="true">FULL_QTY = ${FULL_QTY}</condition>
+<condition key="EMPTY_QTY" ignoreEmpty="true">EMPTY_QTY = ${EMPTY_QTY}</condition>
+<condition key="RETURN_RSN1" ignoreEmpty="true">RETURN_RSN1 = ${RETURN_RSN1}</condition>
+<condition key="RETURN_RSN2" ignoreEmpty="true">RETURN_RSN2 = ${RETURN_RSN2}</condition>
+<condition key="RETURN_RSN3" ignoreEmpty="true">RETURN_RSN3 = ${RETURN_RSN3}</condition>
+<condition key="RETURN_RSN4" ignoreEmpty="true">RETURN_RSN4 = ${RETURN_RSN4}</condition>
+<condition key="RETURN_RSN5" ignoreEmpty="true">RETURN_RSN5 = ${RETURN_RSN5}</condition>
+<condition key="RETURN_RSN6" ignoreEmpty="true">RETURN_RSN6 = ${RETURN_RSN6}</condition>
+<condition key="RETURN_RSN7" ignoreEmpty="true">RETURN_RSN7 = ${RETURN_RSN7}</condition>
+<condition key="RETURN_RSN8" ignoreEmpty="true">RETURN_RSN8 = ${RETURN_RSN8}</condition>
+<condition key="RETURN_RSN9" ignoreEmpty="true">RETURN_RSN9 = ${RETURN_RSN9}</condition>
+
+<condition key="TRANS_ID_S" ignoreEmpty="true">TRANS_ID >= ${TRANS_ID_S}</condition><condition key="TRANS_ID_E" ignoreEmpty="true">${TRANS_ID_E} >= TRANS_ID</condition><condition key="TRANS_ID_L" ignoreEmpty="true">TRANS_ID like ${TRANS_ID_L}</condition>
+<condition key="SENDER_ID_S" ignoreEmpty="true">SENDER_ID >= ${SENDER_ID_S}</condition><condition key="SENDER_ID_E" ignoreEmpty="true">${SENDER_ID_E} >= SENDER_ID</condition><condition key="SENDER_ID_L" ignoreEmpty="true">SENDER_ID like ${SENDER_ID_L}</condition>
+<condition key="RECEIVER_ID_S" ignoreEmpty="true">RECEIVER_ID >= ${RECEIVER_ID_S}</condition><condition key="RECEIVER_ID_E" ignoreEmpty="true">${RECEIVER_ID_E} >= RECEIVER_ID</condition><condition key="RECEIVER_ID_L" ignoreEmpty="true">RECEIVER_ID like ${RECEIVER_ID_L}</condition>
+<condition key="CC_LIST_S" ignoreEmpty="true">CC_LIST >= ${CC_LIST_S}</condition><condition key="CC_LIST_E" ignoreEmpty="true">${CC_LIST_E} >= CC_LIST</condition><condition key="CC_LIST_L" ignoreEmpty="true">CC_LIST like ${CC_LIST_L}</condition>
+<condition key="CONTROL_NUMBER_S" ignoreEmpty="true">CONTROL_NUMBER >= ${CONTROL_NUMBER_S}</condition><condition key="CONTROL_NUMBER_E" ignoreEmpty="true">${CONTROL_NUMBER_E} >= CONTROL_NUMBER</condition><condition key="CONTROL_NUMBER_L" ignoreEmpty="true">CONTROL_NUMBER like ${CONTROL_NUMBER_L}</condition>
+<condition key="VAN_ID_S" ignoreEmpty="true">VAN_ID >= ${VAN_ID_S}</condition><condition key="VAN_ID_E" ignoreEmpty="true">${VAN_ID_E} >= VAN_ID</condition><condition key="VAN_ID_L" ignoreEmpty="true">VAN_ID like ${VAN_ID_L}</condition>
+<condition key="DLVR_DATE_S" ignoreEmpty="true">DLVR_DATE >= ${DLVR_DATE_S}</condition><condition key="DLVR_DATE_E" ignoreEmpty="true">${DLVR_DATE_E} >= DLVR_DATE</condition><condition key="DLVR_DATE_L" ignoreEmpty="true">DLVR_DATE like ${DLVR_DATE_L}</condition>
+<condition key="DEAL_DATE_S" ignoreEmpty="true">DEAL_DATE >= ${DEAL_DATE_S}</condition><condition key="DEAL_DATE_E" ignoreEmpty="true">${DEAL_DATE_E} >= DEAL_DATE</condition><condition key="DEAL_DATE_L" ignoreEmpty="true">DEAL_DATE like ${DEAL_DATE_L}</condition>
+<condition key="ORG_MSG_ID_S" ignoreEmpty="true">ORG_MSG_ID >= ${ORG_MSG_ID_S}</condition><condition key="ORG_MSG_ID_E" ignoreEmpty="true">${ORG_MSG_ID_E} >= ORG_MSG_ID</condition><condition key="ORG_MSG_ID_L" ignoreEmpty="true">ORG_MSG_ID like ${ORG_MSG_ID_L}</condition>
+<condition key="ORG_MSG_CD_S" ignoreEmpty="true">ORG_MSG_CD >= ${ORG_MSG_CD_S}</condition><condition key="ORG_MSG_CD_E" ignoreEmpty="true">${ORG_MSG_CD_E} >= ORG_MSG_CD</condition><condition key="ORG_MSG_CD_L" ignoreEmpty="true">ORG_MSG_CD like ${ORG_MSG_CD_L}</condition>
+<condition key="ORG_SEND_CD_S" ignoreEmpty="true">ORG_SEND_CD >= ${ORG_SEND_CD_S}</condition><condition key="ORG_SEND_CD_E" ignoreEmpty="true">${ORG_SEND_CD_E} >= ORG_SEND_CD</condition><condition key="ORG_SEND_CD_L" ignoreEmpty="true">ORG_SEND_CD like ${ORG_SEND_CD_L}</condition>
+<condition key="TRANS_TYPE_CD_S" ignoreEmpty="true">TRANS_TYPE_CD >= ${TRANS_TYPE_CD_S}</condition><condition key="TRANS_TYPE_CD_E" ignoreEmpty="true">${TRANS_TYPE_CD_E} >= TRANS_TYPE_CD</condition><condition key="TRANS_TYPE_CD_L" ignoreEmpty="true">TRANS_TYPE_CD like ${TRANS_TYPE_CD_L}</condition>
+<condition key="IET_TYPE_S" ignoreEmpty="true">IET_TYPE >= ${IET_TYPE_S}</condition><condition key="IET_TYPE_E" ignoreEmpty="true">${IET_TYPE_E} >= IET_TYPE</condition><condition key="IET_TYPE_L" ignoreEmpty="true">IET_TYPE like ${IET_TYPE_L}</condition>
+<condition key="MFT_NO_S" ignoreEmpty="true">MFT_NO >= ${MFT_NO_S}</condition><condition key="MFT_NO_E" ignoreEmpty="true">${MFT_NO_E} >= MFT_NO</condition><condition key="MFT_NO_L" ignoreEmpty="true">MFT_NO like ${MFT_NO_L}</condition>
+<condition key="SO_NO_S" ignoreEmpty="true">SO_NO >= ${SO_NO_S}</condition><condition key="SO_NO_E" ignoreEmpty="true">${SO_NO_E} >= SO_NO</condition><condition key="SO_NO_L" ignoreEmpty="true">SO_NO like ${SO_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="MAWB2_S" ignoreEmpty="true">MAWB2 >= ${MAWB2_S}</condition><condition key="MAWB2_E" ignoreEmpty="true">${MAWB2_E} >= MAWB2</condition><condition key="MAWB2_L" ignoreEmpty="true">MAWB2 like ${MAWB2_L}</condition>
+<condition key="HAWB2_S" ignoreEmpty="true">HAWB2 >= ${HAWB2_S}</condition><condition key="HAWB2_E" ignoreEmpty="true">${HAWB2_E} >= HAWB2</condition><condition key="HAWB2_L" ignoreEmpty="true">HAWB2 like ${HAWB2_L}</condition>
+<condition key="TRANSPORT_ID_S" ignoreEmpty="true">TRANSPORT_ID >= ${TRANSPORT_ID_S}</condition><condition key="TRANSPORT_ID_E" ignoreEmpty="true">${TRANSPORT_ID_E} >= TRANSPORT_ID</condition><condition key="TRANSPORT_ID_L" ignoreEmpty="true">TRANSPORT_ID like ${TRANSPORT_ID_L}</condition>
+<condition key="VOYAGE_FLIGHT_NO_S" ignoreEmpty="true">VOYAGE_FLIGHT_NO >= ${VOYAGE_FLIGHT_NO_S}</condition><condition key="VOYAGE_FLIGHT_NO_E" ignoreEmpty="true">${VOYAGE_FLIGHT_NO_E} >= VOYAGE_FLIGHT_NO</condition><condition key="VOYAGE_FLIGHT_NO_L" ignoreEmpty="true">VOYAGE_FLIGHT_NO like ${VOYAGE_FLIGHT_NO_L}</condition>
+<condition key="VSL_REG_NO_S" ignoreEmpty="true">VSL_REG_NO >= ${VSL_REG_NO_S}</condition><condition key="VSL_REG_NO_E" ignoreEmpty="true">${VSL_REG_NO_E} >= VSL_REG_NO</condition><condition key="VSL_REG_NO_L" ignoreEmpty="true">VSL_REG_NO like ${VSL_REG_NO_L}</condition>
+<condition key="ARV_DATE_S" ignoreEmpty="true">ARV_DATE >= ${ARV_DATE_S}</condition><condition key="ARV_DATE_E" ignoreEmpty="true">${ARV_DATE_E} >= ARV_DATE</condition><condition key="ARV_DATE_L" ignoreEmpty="true">ARV_DATE like ${ARV_DATE_L}</condition>
+<condition key="RSPNS_CD_S" ignoreEmpty="true">RSPNS_CD >= ${RSPNS_CD_S}</condition><condition key="RSPNS_CD_E" ignoreEmpty="true">${RSPNS_CD_E} >= RSPNS_CD</condition><condition key="RSPNS_CD_L" ignoreEmpty="true">RSPNS_CD like ${RSPNS_CD_L}</condition>
+<condition key="MFT_QTY_S" ignoreEmpty="true">MFT_QTY >= ${MFT_QTY_S}</condition><condition key="MFT_QTY_E" ignoreEmpty="true">${MFT_QTY_E} >= MFT_QTY</condition><condition key="MFT_QTY_L" ignoreEmpty="true">MFT_QTY like ${MFT_QTY_L}</condition>
+<condition key="FULL_QTY_S" ignoreEmpty="true">FULL_QTY >= ${FULL_QTY_S}</condition><condition key="FULL_QTY_E" ignoreEmpty="true">${FULL_QTY_E} >= FULL_QTY</condition><condition key="FULL_QTY_L" ignoreEmpty="true">FULL_QTY like ${FULL_QTY_L}</condition>
+<condition key="EMPTY_QTY_S" ignoreEmpty="true">EMPTY_QTY >= ${EMPTY_QTY_S}</condition><condition key="EMPTY_QTY_E" ignoreEmpty="true">${EMPTY_QTY_E} >= EMPTY_QTY</condition><condition key="EMPTY_QTY_L" ignoreEmpty="true">EMPTY_QTY like ${EMPTY_QTY_L}</condition>
+<condition key="RETURN_RSN1_S" ignoreEmpty="true">RETURN_RSN1 >= ${RETURN_RSN1_S}</condition><condition key="RETURN_RSN1_E" ignoreEmpty="true">${RETURN_RSN1_E} >= RETURN_RSN1</condition><condition key="RETURN_RSN1_L" ignoreEmpty="true">RETURN_RSN1 like ${RETURN_RSN1_L}</condition>
+<condition key="RETURN_RSN2_S" ignoreEmpty="true">RETURN_RSN2 >= ${RETURN_RSN2_S}</condition><condition key="RETURN_RSN2_E" ignoreEmpty="true">${RETURN_RSN2_E} >= RETURN_RSN2</condition><condition key="RETURN_RSN2_L" ignoreEmpty="true">RETURN_RSN2 like ${RETURN_RSN2_L}</condition>
+<condition key="RETURN_RSN3_S" ignoreEmpty="true">RETURN_RSN3 >= ${RETURN_RSN3_S}</condition><condition key="RETURN_RSN3_E" ignoreEmpty="true">${RETURN_RSN3_E} >= RETURN_RSN3</condition><condition key="RETURN_RSN3_L" ignoreEmpty="true">RETURN_RSN3 like ${RETURN_RSN3_L}</condition>
+<condition key="RETURN_RSN4_S" ignoreEmpty="true">RETURN_RSN4 >= ${RETURN_RSN4_S}</condition><condition key="RETURN_RSN4_E" ignoreEmpty="true">${RETURN_RSN4_E} >= RETURN_RSN4</condition><condition key="RETURN_RSN4_L" ignoreEmpty="true">RETURN_RSN4 like ${RETURN_RSN4_L}</condition>
+<condition key="RETURN_RSN5_S" ignoreEmpty="true">RETURN_RSN5 >= ${RETURN_RSN5_S}</condition><condition key="RETURN_RSN5_E" ignoreEmpty="true">${RETURN_RSN5_E} >= RETURN_RSN5</condition><condition key="RETURN_RSN5_L" ignoreEmpty="true">RETURN_RSN5 like ${RETURN_RSN5_L}</condition>
+<condition key="RETURN_RSN6_S" ignoreEmpty="true">RETURN_RSN6 >= ${RETURN_RSN6_S}</condition><condition key="RETURN_RSN6_E" ignoreEmpty="true">${RETURN_RSN6_E} >= RETURN_RSN6</condition><condition key="RETURN_RSN6_L" ignoreEmpty="true">RETURN_RSN6 like ${RETURN_RSN6_L}</condition>
+<condition key="RETURN_RSN7_S" ignoreEmpty="true">RETURN_RSN7 >= ${RETURN_RSN7_S}</condition><condition key="RETURN_RSN7_E" ignoreEmpty="true">${RETURN_RSN7_E} >= RETURN_RSN7</condition><condition key="RETURN_RSN7_L" ignoreEmpty="true">RETURN_RSN7 like ${RETURN_RSN7_L}</condition>
+<condition key="RETURN_RSN8_S" ignoreEmpty="true">RETURN_RSN8 >= ${RETURN_RSN8_S}</condition><condition key="RETURN_RSN8_E" ignoreEmpty="true">${RETURN_RSN8_E} >= RETURN_RSN8</condition><condition key="RETURN_RSN8_L" ignoreEmpty="true">RETURN_RSN8 like ${RETURN_RSN8_L}</condition>
+<condition key="RETURN_RSN9_S" ignoreEmpty="true">RETURN_RSN9 >= ${RETURN_RSN9_S}</condition><condition key="RETURN_RSN9_E" ignoreEmpty="true">${RETURN_RSN9_E} >= RETURN_RSN9</condition><condition key="RETURN_RSN9_L" ignoreEmpty="true">RETURN_RSN9 like ${RETURN_RSN9_L}</condition>
+
+<field key="TRANS_ID" name="TRANS_ID" ignoreEmpty="true"/>
+<field key="SENDER_ID" name="SENDER_ID" ignoreEmpty="true"/>
+<field key="RECEIVER_ID" name="RECEIVER_ID" ignoreEmpty="true"/>
+<field key="CC_LIST" name="CC_LIST" ignoreEmpty="true"/>
+<field key="CONTROL_NUMBER" name="CONTROL_NUMBER" ignoreEmpty="true"/>
+<field key="VAN_ID" name="VAN_ID" ignoreEmpty="true"/>
+<field key="DLVR_DATE" name="DLVR_DATE" ignoreEmpty="true"/>
+<field key="DEAL_DATE" name="DEAL_DATE" ignoreEmpty="true"/>
+<field key="ORG_MSG_ID" name="ORG_MSG_ID" ignoreEmpty="true"/>
+<field key="ORG_MSG_CD" name="ORG_MSG_CD" ignoreEmpty="true"/>
+<field key="ORG_SEND_CD" name="ORG_SEND_CD" ignoreEmpty="true"/>
+<field key="TRANS_TYPE_CD" name="TRANS_TYPE_CD" ignoreEmpty="true"/>
+<field key="IET_TYPE" name="IET_TYPE" ignoreEmpty="true"/>
+<field key="MFT_NO" name="MFT_NO" ignoreEmpty="true"/>
+<field key="SO_NO" name="SO_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="MAWB2" name="MAWB2" ignoreEmpty="true"/>
+<field key="HAWB2" name="HAWB2" ignoreEmpty="true"/>
+<field key="TRANSPORT_ID" name="TRANSPORT_ID" ignoreEmpty="true"/>
+<field key="VOYAGE_FLIGHT_NO" name="VOYAGE_FLIGHT_NO" ignoreEmpty="true"/>
+<field key="VSL_REG_NO" name="VSL_REG_NO" ignoreEmpty="true"/>
+<field key="ARV_DATE" name="ARV_DATE" ignoreEmpty="true"/>
+<field key="RSPNS_CD" name="RSPNS_CD" ignoreEmpty="true"/>
+<field key="MFT_QTY" name="MFT_QTY" ignoreEmpty="true"/>
+<field key="FULL_QTY" name="FULL_QTY" ignoreEmpty="true"/>
+<field key="EMPTY_QTY" name="EMPTY_QTY" ignoreEmpty="true"/>
+<field key="RETURN_RSN1" name="RETURN_RSN1" ignoreEmpty="true"/>
+<field key="RETURN_RSN2" name="RETURN_RSN2" ignoreEmpty="true"/>
+<field key="RETURN_RSN3" name="RETURN_RSN3" ignoreEmpty="true"/>
+<field key="RETURN_RSN4" name="RETURN_RSN4" ignoreEmpty="true"/>
+<field key="RETURN_RSN5" name="RETURN_RSN5" ignoreEmpty="true"/>
+<field key="RETURN_RSN6" name="RETURN_RSN6" ignoreEmpty="true"/>
+<field key="RETURN_RSN7" name="RETURN_RSN7" ignoreEmpty="true"/>
+<field key="RETURN_RSN8" name="RETURN_RSN8" ignoreEmpty="true"/>
+<field key="RETURN_RSN9" name="RETURN_RSN9" ignoreEmpty="true"/>
+
+$('#pageBean_transId').attr('value',rowData.TRANS_ID);
+$('#pageBean_senderId').attr('value',rowData.SENDER_ID);
+$('#pageBean_receiverId').attr('value',rowData.RECEIVER_ID);
+$('#pageBean_ccList').attr('value',rowData.CC_LIST);
+$('#pageBean_controlNumber').attr('value',rowData.CONTROL_NUMBER);
+$('#pageBean_vanId').attr('value',rowData.VAN_ID);
+$('#pageBean_dlvrDate').attr('value',rowData.DLVR_DATE);
+$('#pageBean_dealDate').attr('value',rowData.DEAL_DATE);
+$('#pageBean_orgMsgId').attr('value',rowData.ORG_MSG_ID);
+$('#pageBean_orgMsgCd').attr('value',rowData.ORG_MSG_CD);
+$('#pageBean_orgSendCd').attr('value',rowData.ORG_SEND_CD);
+$('#pageBean_transTypeCd').attr('value',rowData.TRANS_TYPE_CD);
+$('#pageBean_ietType').attr('value',rowData.IET_TYPE);
+$('#pageBean_mftNo').attr('value',rowData.MFT_NO);
+$('#pageBean_soNo').attr('value',rowData.SO_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_mawb2').attr('value',rowData.MAWB2);
+$('#pageBean_hawb2').attr('value',rowData.HAWB2);
+$('#pageBean_transportId').attr('value',rowData.TRANSPORT_ID);
+$('#pageBean_voyageFlightNo').attr('value',rowData.VOYAGE_FLIGHT_NO);
+$('#pageBean_vslRegNo').attr('value',rowData.VSL_REG_NO);
+$('#pageBean_arvDate').attr('value',rowData.ARV_DATE);
+$('#pageBean_rspnsCd').attr('value',rowData.RSPNS_CD);
+$('#pageBean_mftQty').attr('value',rowData.MFT_QTY);
+$('#pageBean_fullQty').attr('value',rowData.FULL_QTY);
+$('#pageBean_emptyQty').attr('value',rowData.EMPTY_QTY);
+$('#pageBean_returnRsn1').attr('value',rowData.RETURN_RSN1);
+$('#pageBean_returnRsn2').attr('value',rowData.RETURN_RSN2);
+$('#pageBean_returnRsn3').attr('value',rowData.RETURN_RSN3);
+$('#pageBean_returnRsn4').attr('value',rowData.RETURN_RSN4);
+$('#pageBean_returnRsn5').attr('value',rowData.RETURN_RSN5);
+$('#pageBean_returnRsn6').attr('value',rowData.RETURN_RSN6);
+$('#pageBean_returnRsn7').attr('value',rowData.RETURN_RSN7);
+$('#pageBean_returnRsn8').attr('value',rowData.RETURN_RSN8);
+$('#pageBean_returnRsn9').attr('value',rowData.RETURN_RSN9);
+
+$('#pageBean_transId').attr("value", "");
+$('#pageBean_senderId').attr("value", "");
+$('#pageBean_receiverId').attr("value", "");
+$('#pageBean_ccList').attr("value", "");
+$('#pageBean_controlNumber').attr("value", "");
+$('#pageBean_vanId').attr("value", "");
+$('#pageBean_dlvrDate').attr("value", "");
+$('#pageBean_dealDate').attr("value", "");
+$('#pageBean_orgMsgId').attr("value", "");
+$('#pageBean_orgMsgCd').attr("value", "");
+$('#pageBean_orgSendCd').attr("value", "");
+$('#pageBean_transTypeCd').attr("value", "");
+$('#pageBean_ietType').attr("value", "");
+$('#pageBean_mftNo').attr("value", "");
+$('#pageBean_soNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_mawb2').attr("value", "");
+$('#pageBean_hawb2').attr("value", "");
+$('#pageBean_transportId').attr("value", "");
+$('#pageBean_voyageFlightNo').attr("value", "");
+$('#pageBean_vslRegNo').attr("value", "");
+$('#pageBean_arvDate').attr("value", "");
+$('#pageBean_rspnsCd').attr("value", "");
+$('#pageBean_mftQty').attr("value", "");
+$('#pageBean_fullQty').attr("value", "");
+$('#pageBean_emptyQty').attr("value", "");
+$('#pageBean_returnRsn1').attr("value", "");
+$('#pageBean_returnRsn2').attr("value", "");
+$('#pageBean_returnRsn3').attr("value", "");
+$('#pageBean_returnRsn4').attr("value", "");
+$('#pageBean_returnRsn5').attr("value", "");
+$('#pageBean_returnRsn6').attr("value", "");
+$('#pageBean_returnRsn7').attr("value", "");
+$('#pageBean_returnRsn8').attr("value", "");
+$('#pageBean_returnRsn9').attr("value", "");
+
+TRANS_ID:$('#pageBean_transId').val(),//TRANS_ID
+SENDER_ID:$('#pageBean_senderId').val(),//傳送方代碼
+RECEIVER_ID:$('#pageBean_receiverId').val(),//接收方代碼
+CC_LIST:$('#pageBean_ccList').val(),//副本通知對象
+CONTROL_NUMBER:$('#pageBean_controlNumber').val(),//交換控制碼
+VAN_ID:$('#pageBean_vanId').val(),//網路別
+DLVR_DATE:$('#pageBean_dlvrDate').val(),//傳送時間
+DEAL_DATE:$('#pageBean_dealDate').val(),//內部應用系統處理時間
+ORG_MSG_ID:$('#pageBean_orgMsgId').val(),//原訊息編號
+ORG_MSG_CD:$('#pageBean_orgMsgCd').val(),//原訊息類別
+ORG_SEND_CD:$('#pageBean_orgSendCd').val(),//原訊息傳送者代碼
+TRANS_TYPE_CD:$('#pageBean_transTypeCd').val(),//海空運別
+IET_TYPE:$('#pageBean_ietType').val(),//進出口別代碼
+MFT_NO:$('#pageBean_mftNo').val(),//艙單號碼
+SO_NO:$('#pageBean_soNo').val(),//裝貨單號碼
+MAWB:$('#pageBean_mawb').val(),//主提單號碼
+HAWB:$('#pageBean_hawb').val(),//分提單號碼
+MAWB2:$('#pageBean_mawb2').val(),//託運單主號
+HAWB2:$('#pageBean_hawb2').val(),//託運單分號
+TRANSPORT_ID:$('#pageBean_transportId').val(),//船（機）代碼
+VOYAGE_FLIGHT_NO:$('#pageBean_voyageFlightNo').val(),//船舶航次（海）/航機班次（空）
+VSL_REG_NO:$('#pageBean_vslRegNo').val(),//海關通關號碼
+ARV_DATE:$('#pageBean_arvDate').val(),//航機抵達日期
+RSPNS_CD:$('#pageBean_rspnsCd').val(),//回應別
+MFT_QTY:$('#pageBean_mftQty').val(),//艙號筆數
+FULL_QTY:$('#pageBean_fullQty').val(),//實櫃總數
+EMPTY_QTY:$('#pageBean_emptyQty').val(),//空櫃總數
+RETURN_RSN1:$('#pageBean_returnRsn1').val(),//駁回原因代碼1
+RETURN_RSN2:$('#pageBean_returnRsn2').val(),//駁回原因代碼2
+RETURN_RSN3:$('#pageBean_returnRsn3').val(),//駁回原因代碼3
+RETURN_RSN4:$('#pageBean_returnRsn4').val(),//駁回原因代碼4
+RETURN_RSN5:$('#pageBean_returnRsn5').val(),//駁回原因代碼5
+RETURN_RSN6:$('#pageBean_returnRsn6').val(),//駁回原因代碼6
+RETURN_RSN7:$('#pageBean_returnRsn7').val(),//駁回原因代碼7
+RETURN_RSN8:$('#pageBean_returnRsn8').val(),//駁回原因代碼8
+RETURN_RSN9:$('#pageBean_returnRsn9').val(),//駁回原因代碼9
+
+pageBean.setTransId(dataObjects.getString("TRANS_ID"));//TRANS_ID
+pageBean.setSenderId(dataObjects.getString("SENDER_ID"));//傳送方代碼
+pageBean.setReceiverId(dataObjects.getString("RECEIVER_ID"));//接收方代碼
+pageBean.setCcList(dataObjects.getString("CC_LIST"));//副本通知對象
+pageBean.setControlNumber(dataObjects.getString("CONTROL_NUMBER"));//交換控制碼
+pageBean.setVanId(dataObjects.getString("VAN_ID"));//網路別
+pageBean.setDlvrDate((Date)dataObjects.getValue("DLVR_DATE"));//傳送時間
+pageBean.setDealDate((Date)dataObjects.getValue("DEAL_DATE"));//內部應用系統處理時間
+pageBean.setOrgMsgId(dataObjects.getString("ORG_MSG_ID"));//原訊息編號
+pageBean.setOrgMsgCd(dataObjects.getString("ORG_MSG_CD"));//原訊息類別
+pageBean.setOrgSendCd(dataObjects.getString("ORG_SEND_CD"));//原訊息傳送者代碼
+pageBean.setTransTypeCd(dataObjects.getString("TRANS_TYPE_CD"));//海空運別
+pageBean.setIetType(dataObjects.getString("IET_TYPE"));//進出口別代碼
+pageBean.setMftNo(dataObjects.getString("MFT_NO"));//艙單號碼
+pageBean.setSoNo(dataObjects.getString("SO_NO"));//裝貨單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//主提單號碼
+pageBean.setHawb(dataObjects.getString("HAWB"));//分提單號碼
+pageBean.setMawb2(dataObjects.getString("MAWB2"));//託運單主號
+pageBean.setHawb2(dataObjects.getString("HAWB2"));//託運單分號
+pageBean.setTransportId(dataObjects.getString("TRANSPORT_ID"));//船（機）代碼
+pageBean.setVoyageFlightNo(dataObjects.getString("VOYAGE_FLIGHT_NO"));//船舶航次（海）/航機班次（空）
+pageBean.setVslRegNo(dataObjects.getString("VSL_REG_NO"));//海關通關號碼
+pageBean.setArvDate((Date)dataObjects.getValue("ARV_DATE"));//航機抵達日期
+pageBean.setRspnsCd(dataObjects.getString("RSPNS_CD"));//回應別
+pageBean.setMftQty((BigDecimal)dataObjects.getValue("MFT_QTY"));//艙號筆數
+pageBean.setFullQty((BigDecimal)dataObjects.getValue("FULL_QTY"));//實櫃總數
+pageBean.setEmptyQty((BigDecimal)dataObjects.getValue("EMPTY_QTY"));//空櫃總數
+pageBean.setReturnRsn1(dataObjects.getString("RETURN_RSN1"));//駁回原因代碼1
+pageBean.setReturnRsn2(dataObjects.getString("RETURN_RSN2"));//駁回原因代碼2
+pageBean.setReturnRsn3(dataObjects.getString("RETURN_RSN3"));//駁回原因代碼3
+pageBean.setReturnRsn4(dataObjects.getString("RETURN_RSN4"));//駁回原因代碼4
+pageBean.setReturnRsn5(dataObjects.getString("RETURN_RSN5"));//駁回原因代碼5
+pageBean.setReturnRsn6(dataObjects.getString("RETURN_RSN6"));//駁回原因代碼6
+pageBean.setReturnRsn7(dataObjects.getString("RETURN_RSN7"));//駁回原因代碼7
+pageBean.setReturnRsn8(dataObjects.getString("RETURN_RSN8"));//駁回原因代碼8
+pageBean.setReturnRsn9(dataObjects.getString("RETURN_RSN9"));//駁回原因代碼9
+
+private String transId = null;//TRANS_ID
+private String senderId = null;//傳送方代碼
+private String receiverId = null;//接收方代碼
+private String ccList = null;//副本通知對象
+private String controlNumber = null;//交換控制碼
+private String vanId = null;//網路別
+private Date dlvrDate = null;//傳送時間
+private Date dealDate = null;//內部應用系統處理時間
+private String orgMsgId = null;//原訊息編號
+private String orgMsgCd = null;//原訊息類別
+private String orgSendCd = null;//原訊息傳送者代碼
+private String transTypeCd = null;//海空運別
+private String ietType = null;//進出口別代碼
+private String mftNo = null;//艙單號碼
+private String soNo = null;//裝貨單號碼
+private String mawb = null;//主提單號碼
+private String hawb = null;//分提單號碼
+private String mawb2 = null;//託運單主號
+private String hawb2 = null;//託運單分號
+private String transportId = null;//船（機）代碼
+private String voyageFlightNo = null;//船舶航次（海）/航機班次（空）
+private String vslRegNo = null;//海關通關號碼
+private Date arvDate = null;//航機抵達日期
+private String rspnsCd = null;//回應別
+private BigDecimal mftQty = null;//艙號筆數
+private BigDecimal fullQty = null;//實櫃總數
+private BigDecimal emptyQty = null;//空櫃總數
+private String returnRsn1 = null;//駁回原因代碼1
+private String returnRsn2 = null;//駁回原因代碼2
+private String returnRsn3 = null;//駁回原因代碼3
+private String returnRsn4 = null;//駁回原因代碼4
+private String returnRsn5 = null;//駁回原因代碼5
+private String returnRsn6 = null;//駁回原因代碼6
+private String returnRsn7 = null;//駁回原因代碼7
+private String returnRsn8 = null;//駁回原因代碼8
+private String returnRsn9 = null;//駁回原因代碼9
+
+pageBean.setTransId(transId);//TRANS_ID
+pageBean.setSenderId(senderId);//傳送方代碼
+pageBean.setReceiverId(receiverId);//接收方代碼
+pageBean.setCcList(ccList);//副本通知對象
+pageBean.setControlNumber(controlNumber);//交換控制碼
+pageBean.setVanId(vanId);//網路別
+pageBean.setDlvrDate(dlvrDate);//傳送時間
+pageBean.setDealDate(dealDate);//內部應用系統處理時間
+pageBean.setOrgMsgId(orgMsgId);//原訊息編號
+pageBean.setOrgMsgCd(orgMsgCd);//原訊息類別
+pageBean.setOrgSendCd(orgSendCd);//原訊息傳送者代碼
+pageBean.setTransTypeCd(transTypeCd);//海空運別
+pageBean.setIetType(ietType);//進出口別代碼
+pageBean.setMftNo(mftNo);//艙單號碼
+pageBean.setSoNo(soNo);//裝貨單號碼
+pageBean.setMawb(mawb);//主提單號碼
+pageBean.setHawb(hawb);//分提單號碼
+pageBean.setMawb2(mawb2);//託運單主號
+pageBean.setHawb2(hawb2);//託運單分號
+pageBean.setTransportId(transportId);//船（機）代碼
+pageBean.setVoyageFlightNo(voyageFlightNo);//船舶航次（海）/航機班次（空）
+pageBean.setVslRegNo(vslRegNo);//海關通關號碼
+pageBean.setArvDate(arvDate);//航機抵達日期
+pageBean.setRspnsCd(rspnsCd);//回應別
+pageBean.setMftQty(mftQty);//艙號筆數
+pageBean.setFullQty(fullQty);//實櫃總數
+pageBean.setEmptyQty(emptyQty);//空櫃總數
+pageBean.setReturnRsn1(returnRsn1);//駁回原因代碼1
+pageBean.setReturnRsn2(returnRsn2);//駁回原因代碼2
+pageBean.setReturnRsn3(returnRsn3);//駁回原因代碼3
+pageBean.setReturnRsn4(returnRsn4);//駁回原因代碼4
+pageBean.setReturnRsn5(returnRsn5);//駁回原因代碼5
+pageBean.setReturnRsn6(returnRsn6);//駁回原因代碼6
+pageBean.setReturnRsn7(returnRsn7);//駁回原因代碼7
+pageBean.setReturnRsn8(returnRsn8);//駁回原因代碼8
+pageBean.setReturnRsn9(returnRsn9);//駁回原因代碼9
+
+pageBean.setTransId(randomBean.getTransId());//TRANS_ID
+pageBean.setSenderId(randomBean.getSenderId());//傳送方代碼
+pageBean.setReceiverId(randomBean.getReceiverId());//接收方代碼
+pageBean.setCcList(randomBean.getCcList());//副本通知對象
+pageBean.setControlNumber(randomBean.getControlNumber());//交換控制碼
+pageBean.setVanId(randomBean.getVanId());//網路別
+pageBean.setDlvrDate(randomBean.getDlvrDate());//傳送時間
+pageBean.setDealDate(randomBean.getDealDate());//內部應用系統處理時間
+pageBean.setOrgMsgId(randomBean.getOrgMsgId());//原訊息編號
+pageBean.setOrgMsgCd(randomBean.getOrgMsgCd());//原訊息類別
+pageBean.setOrgSendCd(randomBean.getOrgSendCd());//原訊息傳送者代碼
+pageBean.setTransTypeCd(randomBean.getTransTypeCd());//海空運別
+pageBean.setIetType(randomBean.getIetType());//進出口別代碼
+pageBean.setMftNo(randomBean.getMftNo());//艙單號碼
+pageBean.setSoNo(randomBean.getSoNo());//裝貨單號碼
+pageBean.setMawb(randomBean.getMawb());//主提單號碼
+pageBean.setHawb(randomBean.getHawb());//分提單號碼
+pageBean.setMawb2(randomBean.getMawb2());//託運單主號
+pageBean.setHawb2(randomBean.getHawb2());//託運單分號
+pageBean.setTransportId(randomBean.getTransportId());//船（機）代碼
+pageBean.setVoyageFlightNo(randomBean.getVoyageFlightNo());//船舶航次（海）/航機班次（空）
+pageBean.setVslRegNo(randomBean.getVslRegNo());//海關通關號碼
+pageBean.setArvDate(randomBean.getArvDate());//航機抵達日期
+pageBean.setRspnsCd(randomBean.getRspnsCd());//回應別
+pageBean.setMftQty(randomBean.getMftQty());//艙號筆數
+pageBean.setFullQty(randomBean.getFullQty());//實櫃總數
+pageBean.setEmptyQty(randomBean.getEmptyQty());//空櫃總數
+pageBean.setReturnRsn1(randomBean.getReturnRsn1());//駁回原因代碼1
+pageBean.setReturnRsn2(randomBean.getReturnRsn2());//駁回原因代碼2
+pageBean.setReturnRsn3(randomBean.getReturnRsn3());//駁回原因代碼3
+pageBean.setReturnRsn4(randomBean.getReturnRsn4());//駁回原因代碼4
+pageBean.setReturnRsn5(randomBean.getReturnRsn5());//駁回原因代碼5
+pageBean.setReturnRsn6(randomBean.getReturnRsn6());//駁回原因代碼6
+pageBean.setReturnRsn7(randomBean.getReturnRsn7());//駁回原因代碼7
+pageBean.setReturnRsn8(randomBean.getReturnRsn8());//駁回原因代碼8
+pageBean.setReturnRsn9(randomBean.getReturnRsn9());//駁回原因代碼9
+
+setTransId(transId);//TRANS_ID
+setSenderId(senderId);//傳送方代碼
+setReceiverId(receiverId);//接收方代碼
+setCcList(ccList);//副本通知對象
+setControlNumber(controlNumber);//交換控制碼
+setVanId(vanId);//網路別
+setDlvrDate(dlvrDate);//傳送時間
+setDealDate(dealDate);//內部應用系統處理時間
+setOrgMsgId(orgMsgId);//原訊息編號
+setOrgMsgCd(orgMsgCd);//原訊息類別
+setOrgSendCd(orgSendCd);//原訊息傳送者代碼
+setTransTypeCd(transTypeCd);//海空運別
+setIetType(ietType);//進出口別代碼
+setMftNo(mftNo);//艙單號碼
+setSoNo(soNo);//裝貨單號碼
+setMawb(mawb);//主提單號碼
+setHawb(hawb);//分提單號碼
+setMawb2(mawb2);//託運單主號
+setHawb2(hawb2);//託運單分號
+setTransportId(transportId);//船（機）代碼
+setVoyageFlightNo(voyageFlightNo);//船舶航次（海）/航機班次（空）
+setVslRegNo(vslRegNo);//海關通關號碼
+setArvDate(arvDate);//航機抵達日期
+setRspnsCd(rspnsCd);//回應別
+setMftQty(mftQty);//艙號筆數
+setFullQty(fullQty);//實櫃總數
+setEmptyQty(emptyQty);//空櫃總數
+setReturnRsn1(returnRsn1);//駁回原因代碼1
+setReturnRsn2(returnRsn2);//駁回原因代碼2
+setReturnRsn3(returnRsn3);//駁回原因代碼3
+setReturnRsn4(returnRsn4);//駁回原因代碼4
+setReturnRsn5(returnRsn5);//駁回原因代碼5
+setReturnRsn6(returnRsn6);//駁回原因代碼6
+setReturnRsn7(returnRsn7);//駁回原因代碼7
+setReturnRsn8(returnRsn8);//駁回原因代碼8
+setReturnRsn9(returnRsn9);//駁回原因代碼9
+
+pageBean.getTransId(),//TRANS_ID
+pageBean.getSenderId(),//傳送方代碼
+pageBean.getReceiverId(),//接收方代碼
+pageBean.getCcList(),//副本通知對象
+pageBean.getControlNumber(),//交換控制碼
+pageBean.getVanId(),//網路別
+pageBean.getDlvrDate(),//傳送時間
+pageBean.getDealDate(),//內部應用系統處理時間
+pageBean.getOrgMsgId(),//原訊息編號
+pageBean.getOrgMsgCd(),//原訊息類別
+pageBean.getOrgSendCd(),//原訊息傳送者代碼
+pageBean.getTransTypeCd(),//海空運別
+pageBean.getIetType(),//進出口別代碼
+pageBean.getMftNo(),//艙單號碼
+pageBean.getSoNo(),//裝貨單號碼
+pageBean.getMawb(),//主提單號碼
+pageBean.getHawb(),//分提單號碼
+pageBean.getMawb2(),//託運單主號
+pageBean.getHawb2(),//託運單分號
+pageBean.getTransportId(),//船（機）代碼
+pageBean.getVoyageFlightNo(),//船舶航次（海）/航機班次（空）
+pageBean.getVslRegNo(),//海關通關號碼
+pageBean.getArvDate(),//航機抵達日期
+pageBean.getRspnsCd(),//回應別
+pageBean.getMftQty(),//艙號筆數
+pageBean.getFullQty(),//實櫃總數
+pageBean.getEmptyQty(),//空櫃總數
+pageBean.getReturnRsn1(),//駁回原因代碼1
+pageBean.getReturnRsn2(),//駁回原因代碼2
+pageBean.getReturnRsn3(),//駁回原因代碼3
+pageBean.getReturnRsn4(),//駁回原因代碼4
+pageBean.getReturnRsn5(),//駁回原因代碼5
+pageBean.getReturnRsn6(),//駁回原因代碼6
+pageBean.getReturnRsn7(),//駁回原因代碼7
+pageBean.getReturnRsn8(),//駁回原因代碼8
+pageBean.getReturnRsn9(),//駁回原因代碼9
+
+pageBean.setValue("TRANS_ID", this.getTransId());//TRANS_ID
+pageBean.setValue("SENDER_ID", this.getSenderId());//傳送方代碼
+pageBean.setValue("RECEIVER_ID", this.getReceiverId());//接收方代碼
+pageBean.setValue("CC_LIST", this.getCcList());//副本通知對象
+pageBean.setValue("CONTROL_NUMBER", this.getControlNumber());//交換控制碼
+pageBean.setValue("VAN_ID", this.getVanId());//網路別
+pageBean.setValue("DLVR_DATE", this.getDlvrDate());//傳送時間
+pageBean.setValue("DEAL_DATE", this.getDealDate());//內部應用系統處理時間
+pageBean.setValue("ORG_MSG_ID", this.getOrgMsgId());//原訊息編號
+pageBean.setValue("ORG_MSG_CD", this.getOrgMsgCd());//原訊息類別
+pageBean.setValue("ORG_SEND_CD", this.getOrgSendCd());//原訊息傳送者代碼
+pageBean.setValue("TRANS_TYPE_CD", this.getTransTypeCd());//海空運別
+pageBean.setValue("IET_TYPE", this.getIetType());//進出口別代碼
+pageBean.setValue("MFT_NO", this.getMftNo());//艙單號碼
+pageBean.setValue("SO_NO", this.getSoNo());//裝貨單號碼
+pageBean.setValue("MAWB", this.getMawb());//主提單號碼
+pageBean.setValue("HAWB", this.getHawb());//分提單號碼
+pageBean.setValue("MAWB2", this.getMawb2());//託運單主號
+pageBean.setValue("HAWB2", this.getHawb2());//託運單分號
+pageBean.setValue("TRANSPORT_ID", this.getTransportId());//船（機）代碼
+pageBean.setValue("VOYAGE_FLIGHT_NO", this.getVoyageFlightNo());//船舶航次（海）/航機班次（空）
+pageBean.setValue("VSL_REG_NO", this.getVslRegNo());//海關通關號碼
+pageBean.setValue("ARV_DATE", this.getArvDate());//航機抵達日期
+pageBean.setValue("RSPNS_CD", this.getRspnsCd());//回應別
+pageBean.setValue("MFT_QTY", this.getMftQty());//艙號筆數
+pageBean.setValue("FULL_QTY", this.getFullQty());//實櫃總數
+pageBean.setValue("EMPTY_QTY", this.getEmptyQty());//空櫃總數
+pageBean.setValue("RETURN_RSN1", this.getReturnRsn1());//駁回原因代碼1
+pageBean.setValue("RETURN_RSN2", this.getReturnRsn2());//駁回原因代碼2
+pageBean.setValue("RETURN_RSN3", this.getReturnRsn3());//駁回原因代碼3
+pageBean.setValue("RETURN_RSN4", this.getReturnRsn4());//駁回原因代碼4
+pageBean.setValue("RETURN_RSN5", this.getReturnRsn5());//駁回原因代碼5
+pageBean.setValue("RETURN_RSN6", this.getReturnRsn6());//駁回原因代碼6
+pageBean.setValue("RETURN_RSN7", this.getReturnRsn7());//駁回原因代碼7
+pageBean.setValue("RETURN_RSN8", this.getReturnRsn8());//駁回原因代碼8
+pageBean.setValue("RETURN_RSN9", this.getReturnRsn9());//駁回原因代碼9
+
+",TRANS_ID"+"(transId)="+pageBean.getTransId()+
+",傳送方代碼"+"(senderId)="+pageBean.getSenderId()+
+",接收方代碼"+"(receiverId)="+pageBean.getReceiverId()+
+",副本通知對象"+"(ccList)="+pageBean.getCcList()+
+",交換控制碼"+"(controlNumber)="+pageBean.getControlNumber()+
+",網路別"+"(vanId)="+pageBean.getVanId()+
+",傳送時間"+"(dlvrDate)="+pageBean.getDlvrDate()+
+",內部應用系統處理時間"+"(dealDate)="+pageBean.getDealDate()+
+",原訊息編號"+"(orgMsgId)="+pageBean.getOrgMsgId()+
+",原訊息類別"+"(orgMsgCd)="+pageBean.getOrgMsgCd()+
+",原訊息傳送者代碼"+"(orgSendCd)="+pageBean.getOrgSendCd()+
+",海空運別"+"(transTypeCd)="+pageBean.getTransTypeCd()+
+",進出口別代碼"+"(ietType)="+pageBean.getIetType()+
+",艙單號碼"+"(mftNo)="+pageBean.getMftNo()+
+",裝貨單號碼"+"(soNo)="+pageBean.getSoNo()+
+",主提單號碼"+"(mawb)="+pageBean.getMawb()+
+",分提單號碼"+"(hawb)="+pageBean.getHawb()+
+",託運單主號"+"(mawb2)="+pageBean.getMawb2()+
+",託運單分號"+"(hawb2)="+pageBean.getHawb2()+
+",船（機）代碼"+"(transportId)="+pageBean.getTransportId()+
+",船舶航次（海）/航機班次（空）"+"(voyageFlightNo)="+pageBean.getVoyageFlightNo()+
+",海關通關號碼"+"(vslRegNo)="+pageBean.getVslRegNo()+
+",航機抵達日期"+"(arvDate)="+pageBean.getArvDate()+
+",回應別"+"(rspnsCd)="+pageBean.getRspnsCd()+
+",艙號筆數"+"(mftQty)="+pageBean.getMftQty()+
+",實櫃總數"+"(fullQty)="+pageBean.getFullQty()+
+",空櫃總數"+"(emptyQty)="+pageBean.getEmptyQty()+
+",駁回原因代碼1"+"(returnRsn1)="+pageBean.getReturnRsn1()+
+",駁回原因代碼2"+"(returnRsn2)="+pageBean.getReturnRsn2()+
+",駁回原因代碼3"+"(returnRsn3)="+pageBean.getReturnRsn3()+
+",駁回原因代碼4"+"(returnRsn4)="+pageBean.getReturnRsn4()+
+",駁回原因代碼5"+"(returnRsn5)="+pageBean.getReturnRsn5()+
+",駁回原因代碼6"+"(returnRsn6)="+pageBean.getReturnRsn6()+
+",駁回原因代碼7"+"(returnRsn7)="+pageBean.getReturnRsn7()+
+",駁回原因代碼8"+"(returnRsn8)="+pageBean.getReturnRsn8()+
+",駁回原因代碼9"+"(returnRsn9)="+pageBean.getReturnRsn9()+

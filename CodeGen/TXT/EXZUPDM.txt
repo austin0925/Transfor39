@@ -1,0 +1,355 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.updataSequence=異動序號
+pageBean.datetimeOfUpdata=異動日期時間
+pageBean.typeOfUpdata=異動類別
+pageBean.systemFuntion=異動程式畫面
+pageBean.updataOfficerId=異動關員代碼
+pageBean.updataOfficerName=異動關員姓名
+pageBean.updataDescription=異動說明
+pageBean.beforeUpdata=異動前資料
+pageBean.afterUpdata=異動後資料
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.updataSequence=updataSequence
+pageBean.datetimeOfUpdata=datetimeOfUpdata
+pageBean.typeOfUpdata=typeOfUpdata
+pageBean.systemFuntion=systemFuntion
+pageBean.updataOfficerId=updataOfficerId
+pageBean.updataOfficerName=updataOfficerName
+pageBean.updataDescription=updataDescription
+pageBean.beforeUpdata=beforeUpdata
+pageBean.afterUpdata=afterUpdata
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--updataSequence:異動序號-->
+<tr>
+<td>
+	<s:text name="pageBean.updataSequence"/>
+	<s:textfield name="pageBean.updataSequence" />
+</td>
+</tr>
+
+<!--datetimeOfUpdata:異動日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.datetimeOfUpdata"/>
+	<s:textfield name="pageBean.datetimeOfUpdata" />
+</td>
+</tr>
+
+<!--typeOfUpdata:異動類別-->
+<tr>
+<td>
+	<s:text name="pageBean.typeOfUpdata"/>
+	<s:textfield name="pageBean.typeOfUpdata" />
+</td>
+</tr>
+
+<!--systemFuntion:異動程式畫面-->
+<tr>
+<td>
+	<s:text name="pageBean.systemFuntion"/>
+	<s:textfield name="pageBean.systemFuntion" />
+</td>
+</tr>
+
+<!--updataOfficerId:異動關員代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.updataOfficerId"/>
+	<s:textfield name="pageBean.updataOfficerId" />
+</td>
+</tr>
+
+<!--updataOfficerName:異動關員姓名-->
+<tr>
+<td>
+	<s:text name="pageBean.updataOfficerName"/>
+	<s:textfield name="pageBean.updataOfficerName" />
+</td>
+</tr>
+
+<!--updataDescription:異動說明-->
+<tr>
+<td>
+	<s:text name="pageBean.updataDescription"/>
+	<s:textfield name="pageBean.updataDescription" />
+</td>
+</tr>
+
+<!--beforeUpdata:異動前資料-->
+<tr>
+<td>
+	<s:text name="pageBean.beforeUpdata"/>
+	<s:textfield name="pageBean.beforeUpdata" />
+</td>
+</tr>
+
+<!--afterUpdata:異動後資料-->
+<tr>
+<td>
+	<s:text name="pageBean.afterUpdata"/>
+	<s:textfield name="pageBean.afterUpdata" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.updataSequence"/><!--updataSequence:異動序號-->
+<s:hidden name="pageBean.datetimeOfUpdata"/><!--datetimeOfUpdata:異動日期時間-->
+<s:hidden name="pageBean.typeOfUpdata"/><!--typeOfUpdata:異動類別-->
+<s:hidden name="pageBean.systemFuntion"/><!--systemFuntion:異動程式畫面-->
+<s:hidden name="pageBean.updataOfficerId"/><!--updataOfficerId:異動關員代碼-->
+<s:hidden name="pageBean.updataOfficerName"/><!--updataOfficerName:異動關員姓名-->
+<s:hidden name="pageBean.updataDescription"/><!--updataDescription:異動說明-->
+<s:hidden name="pageBean.beforeUpdata"/><!--beforeUpdata:異動前資料-->
+<s:hidden name="pageBean.afterUpdata"/><!--afterUpdata:異動後資料-->
+
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UPDATA_SEQUENCE:異動序號:updataSequence--%>
+<sjg:gridColumn name="UPDATA_SEQUENCE" index="UPDATA_SEQUENCE" title="%{getText('updataSequence')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DATETIME_OF_UPDATA:異動日期時間:datetimeOfUpdata--%>
+<sjg:gridColumn name="DATETIME_OF_UPDATA" index="DATETIME_OF_UPDATA" title="%{getText('datetimeOfUpdata')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TYPE_OF_UPDATA:異動類別:typeOfUpdata--%>
+<sjg:gridColumn name="TYPE_OF_UPDATA" index="TYPE_OF_UPDATA" title="%{getText('typeOfUpdata')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SYSTEM_FUNTION:異動程式畫面:systemFuntion--%>
+<sjg:gridColumn name="SYSTEM_FUNTION" index="SYSTEM_FUNTION" title="%{getText('systemFuntion')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UPDATA_OFFICER_ID:異動關員代碼:updataOfficerId--%>
+<sjg:gridColumn name="UPDATA_OFFICER_ID" index="UPDATA_OFFICER_ID" title="%{getText('updataOfficerId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UPDATA_OFFICER_NAME:異動關員姓名:updataOfficerName--%>
+<sjg:gridColumn name="UPDATA_OFFICER_NAME" index="UPDATA_OFFICER_NAME" title="%{getText('updataOfficerName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UPDATA_DESCRIPTION:異動說明:updataDescription--%>
+<sjg:gridColumn name="UPDATA_DESCRIPTION" index="UPDATA_DESCRIPTION" title="%{getText('updataDescription')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BEFORE_UPDATA:異動前資料:beforeUpdata--%>
+<sjg:gridColumn name="BEFORE_UPDATA" index="BEFORE_UPDATA" title="%{getText('beforeUpdata')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AFTER_UPDATA:異動後資料:afterUpdata--%>
+<sjg:gridColumn name="AFTER_UPDATA" index="AFTER_UPDATA" title="%{getText('afterUpdata')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.DECL_NO
+,A.MAWB
+,A.HAWB
+,A.UPDATA_SEQUENCE
+,A.DATETIME_OF_UPDATA
+,A.TYPE_OF_UPDATA
+,A.SYSTEM_FUNTION
+,A.UPDATA_OFFICER_ID
+,A.UPDATA_OFFICER_NAME
+,A.UPDATA_DESCRIPTION
+,A.BEFORE_UPDATA
+,A.AFTER_UPDATA
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="UPDATA_SEQUENCE" ignoreEmpty="true">UPDATA_SEQUENCE = ${UPDATA_SEQUENCE}</condition>
+<condition key="DATETIME_OF_UPDATA" ignoreEmpty="true">DATETIME_OF_UPDATA = ${DATETIME_OF_UPDATA}</condition>
+<condition key="TYPE_OF_UPDATA" ignoreEmpty="true">TYPE_OF_UPDATA = ${TYPE_OF_UPDATA}</condition>
+<condition key="SYSTEM_FUNTION" ignoreEmpty="true">SYSTEM_FUNTION = ${SYSTEM_FUNTION}</condition>
+<condition key="UPDATA_OFFICER_ID" ignoreEmpty="true">UPDATA_OFFICER_ID = ${UPDATA_OFFICER_ID}</condition>
+<condition key="UPDATA_OFFICER_NAME" ignoreEmpty="true">UPDATA_OFFICER_NAME = ${UPDATA_OFFICER_NAME}</condition>
+<condition key="UPDATA_DESCRIPTION" ignoreEmpty="true">UPDATA_DESCRIPTION = ${UPDATA_DESCRIPTION}</condition>
+<condition key="BEFORE_UPDATA" ignoreEmpty="true">BEFORE_UPDATA = ${BEFORE_UPDATA}</condition>
+<condition key="AFTER_UPDATA" ignoreEmpty="true">AFTER_UPDATA = ${AFTER_UPDATA}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="UPDATA_SEQUENCE_S" ignoreEmpty="true">UPDATA_SEQUENCE >= ${UPDATA_SEQUENCE_S}</condition><condition key="UPDATA_SEQUENCE_E" ignoreEmpty="true">${UPDATA_SEQUENCE_E} >= UPDATA_SEQUENCE</condition><condition key="UPDATA_SEQUENCE_L" ignoreEmpty="true">UPDATA_SEQUENCE like ${UPDATA_SEQUENCE_L}</condition>
+<condition key="DATETIME_OF_UPDATA_S" ignoreEmpty="true">DATETIME_OF_UPDATA >= ${DATETIME_OF_UPDATA_S}</condition><condition key="DATETIME_OF_UPDATA_E" ignoreEmpty="true">${DATETIME_OF_UPDATA_E} >= DATETIME_OF_UPDATA</condition><condition key="DATETIME_OF_UPDATA_L" ignoreEmpty="true">DATETIME_OF_UPDATA like ${DATETIME_OF_UPDATA_L}</condition>
+<condition key="TYPE_OF_UPDATA_S" ignoreEmpty="true">TYPE_OF_UPDATA >= ${TYPE_OF_UPDATA_S}</condition><condition key="TYPE_OF_UPDATA_E" ignoreEmpty="true">${TYPE_OF_UPDATA_E} >= TYPE_OF_UPDATA</condition><condition key="TYPE_OF_UPDATA_L" ignoreEmpty="true">TYPE_OF_UPDATA like ${TYPE_OF_UPDATA_L}</condition>
+<condition key="SYSTEM_FUNTION_S" ignoreEmpty="true">SYSTEM_FUNTION >= ${SYSTEM_FUNTION_S}</condition><condition key="SYSTEM_FUNTION_E" ignoreEmpty="true">${SYSTEM_FUNTION_E} >= SYSTEM_FUNTION</condition><condition key="SYSTEM_FUNTION_L" ignoreEmpty="true">SYSTEM_FUNTION like ${SYSTEM_FUNTION_L}</condition>
+<condition key="UPDATA_OFFICER_ID_S" ignoreEmpty="true">UPDATA_OFFICER_ID >= ${UPDATA_OFFICER_ID_S}</condition><condition key="UPDATA_OFFICER_ID_E" ignoreEmpty="true">${UPDATA_OFFICER_ID_E} >= UPDATA_OFFICER_ID</condition><condition key="UPDATA_OFFICER_ID_L" ignoreEmpty="true">UPDATA_OFFICER_ID like ${UPDATA_OFFICER_ID_L}</condition>
+<condition key="UPDATA_OFFICER_NAME_S" ignoreEmpty="true">UPDATA_OFFICER_NAME >= ${UPDATA_OFFICER_NAME_S}</condition><condition key="UPDATA_OFFICER_NAME_E" ignoreEmpty="true">${UPDATA_OFFICER_NAME_E} >= UPDATA_OFFICER_NAME</condition><condition key="UPDATA_OFFICER_NAME_L" ignoreEmpty="true">UPDATA_OFFICER_NAME like ${UPDATA_OFFICER_NAME_L}</condition>
+<condition key="UPDATA_DESCRIPTION_S" ignoreEmpty="true">UPDATA_DESCRIPTION >= ${UPDATA_DESCRIPTION_S}</condition><condition key="UPDATA_DESCRIPTION_E" ignoreEmpty="true">${UPDATA_DESCRIPTION_E} >= UPDATA_DESCRIPTION</condition><condition key="UPDATA_DESCRIPTION_L" ignoreEmpty="true">UPDATA_DESCRIPTION like ${UPDATA_DESCRIPTION_L}</condition>
+<condition key="BEFORE_UPDATA_S" ignoreEmpty="true">BEFORE_UPDATA >= ${BEFORE_UPDATA_S}</condition><condition key="BEFORE_UPDATA_E" ignoreEmpty="true">${BEFORE_UPDATA_E} >= BEFORE_UPDATA</condition><condition key="BEFORE_UPDATA_L" ignoreEmpty="true">BEFORE_UPDATA like ${BEFORE_UPDATA_L}</condition>
+<condition key="AFTER_UPDATA_S" ignoreEmpty="true">AFTER_UPDATA >= ${AFTER_UPDATA_S}</condition><condition key="AFTER_UPDATA_E" ignoreEmpty="true">${AFTER_UPDATA_E} >= AFTER_UPDATA</condition><condition key="AFTER_UPDATA_L" ignoreEmpty="true">AFTER_UPDATA like ${AFTER_UPDATA_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="UPDATA_SEQUENCE" name="UPDATA_SEQUENCE" ignoreEmpty="true"/>
+<field key="DATETIME_OF_UPDATA" name="DATETIME_OF_UPDATA" ignoreEmpty="true"/>
+<field key="TYPE_OF_UPDATA" name="TYPE_OF_UPDATA" ignoreEmpty="true"/>
+<field key="SYSTEM_FUNTION" name="SYSTEM_FUNTION" ignoreEmpty="true"/>
+<field key="UPDATA_OFFICER_ID" name="UPDATA_OFFICER_ID" ignoreEmpty="true"/>
+<field key="UPDATA_OFFICER_NAME" name="UPDATA_OFFICER_NAME" ignoreEmpty="true"/>
+<field key="UPDATA_DESCRIPTION" name="UPDATA_DESCRIPTION" ignoreEmpty="true"/>
+<field key="BEFORE_UPDATA" name="BEFORE_UPDATA" ignoreEmpty="true"/>
+<field key="AFTER_UPDATA" name="AFTER_UPDATA" ignoreEmpty="true"/>
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_updataSequence').attr('value',rowData.UPDATA_SEQUENCE);
+$('#pageBean_datetimeOfUpdata').attr('value',rowData.DATETIME_OF_UPDATA);
+$('#pageBean_typeOfUpdata').attr('value',rowData.TYPE_OF_UPDATA);
+$('#pageBean_systemFuntion').attr('value',rowData.SYSTEM_FUNTION);
+$('#pageBean_updataOfficerId').attr('value',rowData.UPDATA_OFFICER_ID);
+$('#pageBean_updataOfficerName').attr('value',rowData.UPDATA_OFFICER_NAME);
+$('#pageBean_updataDescription').attr('value',rowData.UPDATA_DESCRIPTION);
+$('#pageBean_beforeUpdata').attr('value',rowData.BEFORE_UPDATA);
+$('#pageBean_afterUpdata').attr('value',rowData.AFTER_UPDATA);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_updataSequence').attr("value", "");
+$('#pageBean_datetimeOfUpdata').attr("value", "");
+$('#pageBean_typeOfUpdata').attr("value", "");
+$('#pageBean_systemFuntion').attr("value", "");
+$('#pageBean_updataOfficerId').attr("value", "");
+$('#pageBean_updataOfficerName').attr("value", "");
+$('#pageBean_updataDescription').attr("value", "");
+$('#pageBean_beforeUpdata').attr("value", "");
+$('#pageBean_afterUpdata').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+UPDATA_SEQUENCE:$('#pageBean_updataSequence').val(),//異動序號
+DATETIME_OF_UPDATA:$('#pageBean_datetimeOfUpdata').val(),//異動日期時間
+TYPE_OF_UPDATA:$('#pageBean_typeOfUpdata').val(),//異動類別
+SYSTEM_FUNTION:$('#pageBean_systemFuntion').val(),//異動程式畫面
+UPDATA_OFFICER_ID:$('#pageBean_updataOfficerId').val(),//異動關員代碼
+UPDATA_OFFICER_NAME:$('#pageBean_updataOfficerName').val(),//異動關員姓名
+UPDATA_DESCRIPTION:$('#pageBean_updataDescription').val(),//異動說明
+BEFORE_UPDATA:$('#pageBean_beforeUpdata').val(),//異動前資料
+AFTER_UPDATA:$('#pageBean_afterUpdata').val(),//異動後資料
+
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setUpdataSequence(dataObjects.getString("UPDATA_SEQUENCE"));//異動序號
+pageBean.setDatetimeOfUpdata((Date)dataObjects.getValue("DATETIME_OF_UPDATA"));//異動日期時間
+pageBean.setTypeOfUpdata(dataObjects.getString("TYPE_OF_UPDATA"));//異動類別
+pageBean.setSystemFuntion(dataObjects.getString("SYSTEM_FUNTION"));//異動程式畫面
+pageBean.setUpdataOfficerId(dataObjects.getString("UPDATA_OFFICER_ID"));//異動關員代碼
+pageBean.setUpdataOfficerName(dataObjects.getString("UPDATA_OFFICER_NAME"));//異動關員姓名
+pageBean.setUpdataDescription(dataObjects.getString("UPDATA_DESCRIPTION"));//異動說明
+pageBean.setBeforeUpdata(dataObjects.getString("BEFORE_UPDATA"));//異動前資料
+pageBean.setAfterUpdata(dataObjects.getString("AFTER_UPDATA"));//異動後資料
+
+private String declNo = null;//報單號碼
+private String mawb = null;//託運單主號
+private String hawb = null;//託運單分號
+private String updataSequence = null;//異動序號
+private Date datetimeOfUpdata = null;//異動日期時間
+private String typeOfUpdata = null;//異動類別
+private String systemFuntion = null;//異動程式畫面
+private String updataOfficerId = null;//異動關員代碼
+private String updataOfficerName = null;//異動關員姓名
+private String updataDescription = null;//異動說明
+private String beforeUpdata = null;//異動前資料
+private String afterUpdata = null;//異動後資料
+
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setUpdataSequence(updataSequence);//異動序號
+pageBean.setDatetimeOfUpdata(datetimeOfUpdata);//異動日期時間
+pageBean.setTypeOfUpdata(typeOfUpdata);//異動類別
+pageBean.setSystemFuntion(systemFuntion);//異動程式畫面
+pageBean.setUpdataOfficerId(updataOfficerId);//異動關員代碼
+pageBean.setUpdataOfficerName(updataOfficerName);//異動關員姓名
+pageBean.setUpdataDescription(updataDescription);//異動說明
+pageBean.setBeforeUpdata(beforeUpdata);//異動前資料
+pageBean.setAfterUpdata(afterUpdata);//異動後資料
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setUpdataSequence(randomBean.getUpdataSequence());//異動序號
+pageBean.setDatetimeOfUpdata(randomBean.getDatetimeOfUpdata());//異動日期時間
+pageBean.setTypeOfUpdata(randomBean.getTypeOfUpdata());//異動類別
+pageBean.setSystemFuntion(randomBean.getSystemFuntion());//異動程式畫面
+pageBean.setUpdataOfficerId(randomBean.getUpdataOfficerId());//異動關員代碼
+pageBean.setUpdataOfficerName(randomBean.getUpdataOfficerName());//異動關員姓名
+pageBean.setUpdataDescription(randomBean.getUpdataDescription());//異動說明
+pageBean.setBeforeUpdata(randomBean.getBeforeUpdata());//異動前資料
+pageBean.setAfterUpdata(randomBean.getAfterUpdata());//異動後資料
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setUpdataSequence(updataSequence);//異動序號
+setDatetimeOfUpdata(datetimeOfUpdata);//異動日期時間
+setTypeOfUpdata(typeOfUpdata);//異動類別
+setSystemFuntion(systemFuntion);//異動程式畫面
+setUpdataOfficerId(updataOfficerId);//異動關員代碼
+setUpdataOfficerName(updataOfficerName);//異動關員姓名
+setUpdataDescription(updataDescription);//異動說明
+setBeforeUpdata(beforeUpdata);//異動前資料
+setAfterUpdata(afterUpdata);//異動後資料
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getUpdataSequence(),//異動序號
+pageBean.getDatetimeOfUpdata(),//異動日期時間
+pageBean.getTypeOfUpdata(),//異動類別
+pageBean.getSystemFuntion(),//異動程式畫面
+pageBean.getUpdataOfficerId(),//異動關員代碼
+pageBean.getUpdataOfficerName(),//異動關員姓名
+pageBean.getUpdataDescription(),//異動說明
+pageBean.getBeforeUpdata(),//異動前資料
+pageBean.getAfterUpdata(),//異動後資料
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("UPDATA_SEQUENCE", this.getUpdataSequence());//異動序號
+pageBean.setValue("DATETIME_OF_UPDATA", this.getDatetimeOfUpdata());//異動日期時間
+pageBean.setValue("TYPE_OF_UPDATA", this.getTypeOfUpdata());//異動類別
+pageBean.setValue("SYSTEM_FUNTION", this.getSystemFuntion());//異動程式畫面
+pageBean.setValue("UPDATA_OFFICER_ID", this.getUpdataOfficerId());//異動關員代碼
+pageBean.setValue("UPDATA_OFFICER_NAME", this.getUpdataOfficerName());//異動關員姓名
+pageBean.setValue("UPDATA_DESCRIPTION", this.getUpdataDescription());//異動說明
+pageBean.setValue("BEFORE_UPDATA", this.getBeforeUpdata());//異動前資料
+pageBean.setValue("AFTER_UPDATA", this.getAfterUpdata());//異動後資料
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",異動序號"+"(updataSequence)="+pageBean.getUpdataSequence()+
+",異動日期時間"+"(datetimeOfUpdata)="+pageBean.getDatetimeOfUpdata()+
+",異動類別"+"(typeOfUpdata)="+pageBean.getTypeOfUpdata()+
+",異動程式畫面"+"(systemFuntion)="+pageBean.getSystemFuntion()+
+",異動關員代碼"+"(updataOfficerId)="+pageBean.getUpdataOfficerId()+
+",異動關員姓名"+"(updataOfficerName)="+pageBean.getUpdataOfficerName()+
+",異動說明"+"(updataDescription)="+pageBean.getUpdataDescription()+
+",異動前資料"+"(beforeUpdata)="+pageBean.getBeforeUpdata()+
+",異動後資料"+"(afterUpdata)="+pageBean.getAfterUpdata()+

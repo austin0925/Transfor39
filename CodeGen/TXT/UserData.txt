@@ -1,0 +1,525 @@
+pageBean.userId=
+pageBean.userPassword=
+pageBean.userName=
+pageBean.email=
+pageBean.status=
+pageBean.pwdChgInterval=
+pageBean.pwdChgDate=
+pageBean.expiredDate=
+pageBean.loginLockNum=
+pageBean.loginErrNum=
+pageBean.buildDate=
+pageBean.buildBy=
+pageBean.userType=
+pageBean.customId=
+pageBean.extId=
+pageBean.extName=
+pageBean.authMethod=
+pageBean.syncState=
+pageBean.pwdState=
+pageBean.lastCallingTime=
+pageBean.authHeader=
+pageBean.serialNo=
+
+pageBean.userId=userId
+pageBean.userPassword=userPassword
+pageBean.userName=userName
+pageBean.email=email
+pageBean.status=status
+pageBean.pwdChgInterval=pwdChgInterval
+pageBean.pwdChgDate=pwdChgDate
+pageBean.expiredDate=expiredDate
+pageBean.loginLockNum=loginLockNum
+pageBean.loginErrNum=loginErrNum
+pageBean.buildDate=buildDate
+pageBean.buildBy=buildBy
+pageBean.userType=userType
+pageBean.customId=customId
+pageBean.extId=extId
+pageBean.extName=extName
+pageBean.authMethod=authMethod
+pageBean.syncState=syncState
+pageBean.pwdState=pwdState
+pageBean.lastCallingTime=lastCallingTime
+pageBean.authHeader=authHeader
+pageBean.serialNo=serialNo
+
+<!--userId:-->
+<s:text name="pageBean.userId"/>
+<s:textfield name="pageBean.userId"/>
+<!--userPassword:-->
+<s:text name="pageBean.userPassword"/>
+<s:textfield name="pageBean.userPassword"/>
+<!--userName:-->
+<s:text name="pageBean.userName"/>
+<s:textfield name="pageBean.userName"/>
+<!--email:-->
+<s:text name="pageBean.email"/>
+<s:textfield name="pageBean.email"/>
+<!--status:-->
+<s:text name="pageBean.status"/>
+<s:textfield name="pageBean.status"/>
+<!--pwdChgInterval:-->
+<s:text name="pageBean.pwdChgInterval"/>
+<s:textfield name="pageBean.pwdChgInterval"/>
+<!--pwdChgDate:-->
+<s:text name="pageBean.pwdChgDate"/>
+<s:textfield name="pageBean.pwdChgDate"/>
+<!--expiredDate:-->
+<s:text name="pageBean.expiredDate"/>
+<s:textfield name="pageBean.expiredDate"/>
+<!--loginLockNum:-->
+<s:text name="pageBean.loginLockNum"/>
+<s:textfield name="pageBean.loginLockNum"/>
+<!--loginErrNum:-->
+<s:text name="pageBean.loginErrNum"/>
+<s:textfield name="pageBean.loginErrNum"/>
+<!--buildDate:-->
+<s:text name="pageBean.buildDate"/>
+<s:textfield name="pageBean.buildDate"/>
+<!--buildBy:-->
+<s:text name="pageBean.buildBy"/>
+<s:textfield name="pageBean.buildBy"/>
+<!--userType:-->
+<s:text name="pageBean.userType"/>
+<s:textfield name="pageBean.userType"/>
+<!--customId:-->
+<s:text name="pageBean.customId"/>
+<s:textfield name="pageBean.customId"/>
+<!--extId:-->
+<s:text name="pageBean.extId"/>
+<s:textfield name="pageBean.extId"/>
+<!--extName:-->
+<s:text name="pageBean.extName"/>
+<s:textfield name="pageBean.extName"/>
+<!--authMethod:-->
+<s:text name="pageBean.authMethod"/>
+<s:textfield name="pageBean.authMethod"/>
+<!--syncState:-->
+<s:text name="pageBean.syncState"/>
+<s:textfield name="pageBean.syncState"/>
+<!--pwdState:-->
+<s:text name="pageBean.pwdState"/>
+<s:textfield name="pageBean.pwdState"/>
+<!--lastCallingTime:-->
+<s:text name="pageBean.lastCallingTime"/>
+<s:textfield name="pageBean.lastCallingTime"/>
+<!--authHeader:-->
+<s:text name="pageBean.authHeader"/>
+<s:textfield name="pageBean.authHeader"/>
+<!--serialNo:-->
+<s:text name="pageBean.serialNo"/>
+<s:textfield name="pageBean.serialNo"/>
+
+<s:hidden name="pageBean.userId"/><!--userId:-->
+<s:hidden name="pageBean.userPassword"/><!--userPassword:-->
+<s:hidden name="pageBean.userName"/><!--userName:-->
+<s:hidden name="pageBean.email"/><!--email:-->
+<s:hidden name="pageBean.status"/><!--status:-->
+<s:hidden name="pageBean.pwdChgInterval"/><!--pwdChgInterval:-->
+<s:hidden name="pageBean.pwdChgDate"/><!--pwdChgDate:-->
+<s:hidden name="pageBean.expiredDate"/><!--expiredDate:-->
+<s:hidden name="pageBean.loginLockNum"/><!--loginLockNum:-->
+<s:hidden name="pageBean.loginErrNum"/><!--loginErrNum:-->
+<s:hidden name="pageBean.buildDate"/><!--buildDate:-->
+<s:hidden name="pageBean.buildBy"/><!--buildBy:-->
+<s:hidden name="pageBean.userType"/><!--userType:-->
+<s:hidden name="pageBean.customId"/><!--customId:-->
+<s:hidden name="pageBean.extId"/><!--extId:-->
+<s:hidden name="pageBean.extName"/><!--extName:-->
+<s:hidden name="pageBean.authMethod"/><!--authMethod:-->
+<s:hidden name="pageBean.syncState"/><!--syncState:-->
+<s:hidden name="pageBean.pwdState"/><!--pwdState:-->
+<s:hidden name="pageBean.lastCallingTime"/><!--lastCallingTime:-->
+<s:hidden name="pageBean.authHeader"/><!--authHeader:-->
+<s:hidden name="pageBean.serialNo"/><!--serialNo:-->
+
+<%--USER_ID::userId--%>
+<sjg:gridColumn name="USER_ID" index="USER_ID" title="%{getText('userId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USER_PASSWORD::userPassword--%>
+<sjg:gridColumn name="USER_PASSWORD" index="USER_PASSWORD" title="%{getText('userPassword')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USER_NAME::userName--%>
+<sjg:gridColumn name="USER_NAME" index="USER_NAME" title="%{getText('userName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EMAIL::email--%>
+<sjg:gridColumn name="EMAIL" index="EMAIL" title="%{getText('email')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STATUS::status--%>
+<sjg:gridColumn name="STATUS" index="STATUS" title="%{getText('status')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PWD_CHG_INTERVAL::pwdChgInterval--%>
+<sjg:gridColumn name="PWD_CHG_INTERVAL" index="PWD_CHG_INTERVAL" title="%{getText('pwdChgInterval')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PWD_CHG_DATE::pwdChgDate--%>
+<sjg:gridColumn name="PWD_CHG_DATE" index="PWD_CHG_DATE" title="%{getText('pwdChgDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXPIRED_DATE::expiredDate--%>
+<sjg:gridColumn name="EXPIRED_DATE" index="EXPIRED_DATE" title="%{getText('expiredDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LOGIN_LOCK_NUM::loginLockNum--%>
+<sjg:gridColumn name="LOGIN_LOCK_NUM" index="LOGIN_LOCK_NUM" title="%{getText('loginLockNum')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LOGIN_ERR_NUM::loginErrNum--%>
+<sjg:gridColumn name="LOGIN_ERR_NUM" index="LOGIN_ERR_NUM" title="%{getText('loginErrNum')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BUILD_DATE::buildDate--%>
+<sjg:gridColumn name="BUILD_DATE" index="BUILD_DATE" title="%{getText('buildDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BUILD_BY::buildBy--%>
+<sjg:gridColumn name="BUILD_BY" index="BUILD_BY" title="%{getText('buildBy')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--USER_TYPE::userType--%>
+<sjg:gridColumn name="USER_TYPE" index="USER_TYPE" title="%{getText('userType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOM_ID::customId--%>
+<sjg:gridColumn name="CUSTOM_ID" index="CUSTOM_ID" title="%{getText('customId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXT_ID::extId--%>
+<sjg:gridColumn name="EXT_ID" index="EXT_ID" title="%{getText('extId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXT_NAME::extName--%>
+<sjg:gridColumn name="EXT_NAME" index="EXT_NAME" title="%{getText('extName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AUTH_METHOD::authMethod--%>
+<sjg:gridColumn name="AUTH_METHOD" index="AUTH_METHOD" title="%{getText('authMethod')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SYNC_STATE::syncState--%>
+<sjg:gridColumn name="SYNC_STATE" index="SYNC_STATE" title="%{getText('syncState')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PWD_STATE::pwdState--%>
+<sjg:gridColumn name="PWD_STATE" index="PWD_STATE" title="%{getText('pwdState')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_CALLING_TIME::lastCallingTime--%>
+<sjg:gridColumn name="LAST_CALLING_TIME" index="LAST_CALLING_TIME" title="%{getText('lastCallingTime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AUTH_HEADER::authHeader--%>
+<sjg:gridColumn name="AUTH_HEADER" index="AUTH_HEADER" title="%{getText('authHeader')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SERIAL_NO::serialNo--%>
+<sjg:gridColumn name="SERIAL_NO" index="SERIAL_NO" title="%{getText('serialNo')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.USER_ID
+,A.USER_PASSWORD
+,A.USER_NAME
+,A.EMAIL
+,A.STATUS
+,A.PWD_CHG_INTERVAL
+,A.PWD_CHG_DATE
+,A.EXPIRED_DATE
+,A.LOGIN_LOCK_NUM
+,A.LOGIN_ERR_NUM
+,A.BUILD_DATE
+,A.BUILD_BY
+,A.USER_TYPE
+,A.CUSTOM_ID
+,A.EXT_ID
+,A.EXT_NAME
+,A.AUTH_METHOD
+,A.SYNC_STATE
+,A.PWD_STATE
+,A.LAST_CALLING_TIME
+,A.AUTH_HEADER
+,A.SERIAL_NO
+
+<condition key="USER_ID" ignoreEmpty="true">USER_ID = ${USER_ID}</condition>
+<condition key="USER_PASSWORD" ignoreEmpty="true">USER_PASSWORD = ${USER_PASSWORD}</condition>
+<condition key="USER_NAME" ignoreEmpty="true">USER_NAME = ${USER_NAME}</condition>
+<condition key="EMAIL" ignoreEmpty="true">EMAIL = ${EMAIL}</condition>
+<condition key="STATUS" ignoreEmpty="true">STATUS = ${STATUS}</condition>
+<condition key="PWD_CHG_INTERVAL" ignoreEmpty="true">PWD_CHG_INTERVAL = ${PWD_CHG_INTERVAL}</condition>
+<condition key="PWD_CHG_DATE" ignoreEmpty="true">PWD_CHG_DATE = ${PWD_CHG_DATE}</condition>
+<condition key="EXPIRED_DATE" ignoreEmpty="true">EXPIRED_DATE = ${EXPIRED_DATE}</condition>
+<condition key="LOGIN_LOCK_NUM" ignoreEmpty="true">LOGIN_LOCK_NUM = ${LOGIN_LOCK_NUM}</condition>
+<condition key="LOGIN_ERR_NUM" ignoreEmpty="true">LOGIN_ERR_NUM = ${LOGIN_ERR_NUM}</condition>
+<condition key="BUILD_DATE" ignoreEmpty="true">BUILD_DATE = ${BUILD_DATE}</condition>
+<condition key="BUILD_BY" ignoreEmpty="true">BUILD_BY = ${BUILD_BY}</condition>
+<condition key="USER_TYPE" ignoreEmpty="true">USER_TYPE = ${USER_TYPE}</condition>
+<condition key="CUSTOM_ID" ignoreEmpty="true">CUSTOM_ID = ${CUSTOM_ID}</condition>
+<condition key="EXT_ID" ignoreEmpty="true">EXT_ID = ${EXT_ID}</condition>
+<condition key="EXT_NAME" ignoreEmpty="true">EXT_NAME = ${EXT_NAME}</condition>
+<condition key="AUTH_METHOD" ignoreEmpty="true">AUTH_METHOD = ${AUTH_METHOD}</condition>
+<condition key="SYNC_STATE" ignoreEmpty="true">SYNC_STATE = ${SYNC_STATE}</condition>
+<condition key="PWD_STATE" ignoreEmpty="true">PWD_STATE = ${PWD_STATE}</condition>
+<condition key="LAST_CALLING_TIME" ignoreEmpty="true">LAST_CALLING_TIME = ${LAST_CALLING_TIME}</condition>
+<condition key="AUTH_HEADER" ignoreEmpty="true">AUTH_HEADER = ${AUTH_HEADER}</condition>
+<condition key="SERIAL_NO" ignoreEmpty="true">SERIAL_NO = ${SERIAL_NO}</condition>
+
+<condition key="USER_ID_S" ignoreEmpty="true">USER_ID >= ${USER_ID_S}</condition><condition key="USER_ID_E" ignoreEmpty="true">${USER_ID_E} >= USER_ID</condition><condition key="USER_ID_L" ignoreEmpty="true">USER_ID like ${USER_ID_L}</condition>
+<condition key="USER_PASSWORD_S" ignoreEmpty="true">USER_PASSWORD >= ${USER_PASSWORD_S}</condition><condition key="USER_PASSWORD_E" ignoreEmpty="true">${USER_PASSWORD_E} >= USER_PASSWORD</condition><condition key="USER_PASSWORD_L" ignoreEmpty="true">USER_PASSWORD like ${USER_PASSWORD_L}</condition>
+<condition key="USER_NAME_S" ignoreEmpty="true">USER_NAME >= ${USER_NAME_S}</condition><condition key="USER_NAME_E" ignoreEmpty="true">${USER_NAME_E} >= USER_NAME</condition><condition key="USER_NAME_L" ignoreEmpty="true">USER_NAME like ${USER_NAME_L}</condition>
+<condition key="EMAIL_S" ignoreEmpty="true">EMAIL >= ${EMAIL_S}</condition><condition key="EMAIL_E" ignoreEmpty="true">${EMAIL_E} >= EMAIL</condition><condition key="EMAIL_L" ignoreEmpty="true">EMAIL like ${EMAIL_L}</condition>
+<condition key="STATUS_S" ignoreEmpty="true">STATUS >= ${STATUS_S}</condition><condition key="STATUS_E" ignoreEmpty="true">${STATUS_E} >= STATUS</condition><condition key="STATUS_L" ignoreEmpty="true">STATUS like ${STATUS_L}</condition>
+<condition key="PWD_CHG_INTERVAL_S" ignoreEmpty="true">PWD_CHG_INTERVAL >= ${PWD_CHG_INTERVAL_S}</condition><condition key="PWD_CHG_INTERVAL_E" ignoreEmpty="true">${PWD_CHG_INTERVAL_E} >= PWD_CHG_INTERVAL</condition><condition key="PWD_CHG_INTERVAL_L" ignoreEmpty="true">PWD_CHG_INTERVAL like ${PWD_CHG_INTERVAL_L}</condition>
+<condition key="PWD_CHG_DATE_S" ignoreEmpty="true">PWD_CHG_DATE >= ${PWD_CHG_DATE_S}</condition><condition key="PWD_CHG_DATE_E" ignoreEmpty="true">${PWD_CHG_DATE_E} >= PWD_CHG_DATE</condition><condition key="PWD_CHG_DATE_L" ignoreEmpty="true">PWD_CHG_DATE like ${PWD_CHG_DATE_L}</condition>
+<condition key="EXPIRED_DATE_S" ignoreEmpty="true">EXPIRED_DATE >= ${EXPIRED_DATE_S}</condition><condition key="EXPIRED_DATE_E" ignoreEmpty="true">${EXPIRED_DATE_E} >= EXPIRED_DATE</condition><condition key="EXPIRED_DATE_L" ignoreEmpty="true">EXPIRED_DATE like ${EXPIRED_DATE_L}</condition>
+<condition key="LOGIN_LOCK_NUM_S" ignoreEmpty="true">LOGIN_LOCK_NUM >= ${LOGIN_LOCK_NUM_S}</condition><condition key="LOGIN_LOCK_NUM_E" ignoreEmpty="true">${LOGIN_LOCK_NUM_E} >= LOGIN_LOCK_NUM</condition><condition key="LOGIN_LOCK_NUM_L" ignoreEmpty="true">LOGIN_LOCK_NUM like ${LOGIN_LOCK_NUM_L}</condition>
+<condition key="LOGIN_ERR_NUM_S" ignoreEmpty="true">LOGIN_ERR_NUM >= ${LOGIN_ERR_NUM_S}</condition><condition key="LOGIN_ERR_NUM_E" ignoreEmpty="true">${LOGIN_ERR_NUM_E} >= LOGIN_ERR_NUM</condition><condition key="LOGIN_ERR_NUM_L" ignoreEmpty="true">LOGIN_ERR_NUM like ${LOGIN_ERR_NUM_L}</condition>
+<condition key="BUILD_DATE_S" ignoreEmpty="true">BUILD_DATE >= ${BUILD_DATE_S}</condition><condition key="BUILD_DATE_E" ignoreEmpty="true">${BUILD_DATE_E} >= BUILD_DATE</condition><condition key="BUILD_DATE_L" ignoreEmpty="true">BUILD_DATE like ${BUILD_DATE_L}</condition>
+<condition key="BUILD_BY_S" ignoreEmpty="true">BUILD_BY >= ${BUILD_BY_S}</condition><condition key="BUILD_BY_E" ignoreEmpty="true">${BUILD_BY_E} >= BUILD_BY</condition><condition key="BUILD_BY_L" ignoreEmpty="true">BUILD_BY like ${BUILD_BY_L}</condition>
+<condition key="USER_TYPE_S" ignoreEmpty="true">USER_TYPE >= ${USER_TYPE_S}</condition><condition key="USER_TYPE_E" ignoreEmpty="true">${USER_TYPE_E} >= USER_TYPE</condition><condition key="USER_TYPE_L" ignoreEmpty="true">USER_TYPE like ${USER_TYPE_L}</condition>
+<condition key="CUSTOM_ID_S" ignoreEmpty="true">CUSTOM_ID >= ${CUSTOM_ID_S}</condition><condition key="CUSTOM_ID_E" ignoreEmpty="true">${CUSTOM_ID_E} >= CUSTOM_ID</condition><condition key="CUSTOM_ID_L" ignoreEmpty="true">CUSTOM_ID like ${CUSTOM_ID_L}</condition>
+<condition key="EXT_ID_S" ignoreEmpty="true">EXT_ID >= ${EXT_ID_S}</condition><condition key="EXT_ID_E" ignoreEmpty="true">${EXT_ID_E} >= EXT_ID</condition><condition key="EXT_ID_L" ignoreEmpty="true">EXT_ID like ${EXT_ID_L}</condition>
+<condition key="EXT_NAME_S" ignoreEmpty="true">EXT_NAME >= ${EXT_NAME_S}</condition><condition key="EXT_NAME_E" ignoreEmpty="true">${EXT_NAME_E} >= EXT_NAME</condition><condition key="EXT_NAME_L" ignoreEmpty="true">EXT_NAME like ${EXT_NAME_L}</condition>
+<condition key="AUTH_METHOD_S" ignoreEmpty="true">AUTH_METHOD >= ${AUTH_METHOD_S}</condition><condition key="AUTH_METHOD_E" ignoreEmpty="true">${AUTH_METHOD_E} >= AUTH_METHOD</condition><condition key="AUTH_METHOD_L" ignoreEmpty="true">AUTH_METHOD like ${AUTH_METHOD_L}</condition>
+<condition key="SYNC_STATE_S" ignoreEmpty="true">SYNC_STATE >= ${SYNC_STATE_S}</condition><condition key="SYNC_STATE_E" ignoreEmpty="true">${SYNC_STATE_E} >= SYNC_STATE</condition><condition key="SYNC_STATE_L" ignoreEmpty="true">SYNC_STATE like ${SYNC_STATE_L}</condition>
+<condition key="PWD_STATE_S" ignoreEmpty="true">PWD_STATE >= ${PWD_STATE_S}</condition><condition key="PWD_STATE_E" ignoreEmpty="true">${PWD_STATE_E} >= PWD_STATE</condition><condition key="PWD_STATE_L" ignoreEmpty="true">PWD_STATE like ${PWD_STATE_L}</condition>
+<condition key="LAST_CALLING_TIME_S" ignoreEmpty="true">LAST_CALLING_TIME >= ${LAST_CALLING_TIME_S}</condition><condition key="LAST_CALLING_TIME_E" ignoreEmpty="true">${LAST_CALLING_TIME_E} >= LAST_CALLING_TIME</condition><condition key="LAST_CALLING_TIME_L" ignoreEmpty="true">LAST_CALLING_TIME like ${LAST_CALLING_TIME_L}</condition>
+<condition key="AUTH_HEADER_S" ignoreEmpty="true">AUTH_HEADER >= ${AUTH_HEADER_S}</condition><condition key="AUTH_HEADER_E" ignoreEmpty="true">${AUTH_HEADER_E} >= AUTH_HEADER</condition><condition key="AUTH_HEADER_L" ignoreEmpty="true">AUTH_HEADER like ${AUTH_HEADER_L}</condition>
+<condition key="SERIAL_NO_S" ignoreEmpty="true">SERIAL_NO >= ${SERIAL_NO_S}</condition><condition key="SERIAL_NO_E" ignoreEmpty="true">${SERIAL_NO_E} >= SERIAL_NO</condition><condition key="SERIAL_NO_L" ignoreEmpty="true">SERIAL_NO like ${SERIAL_NO_L}</condition>
+
+<field key="USER_ID" name="USER_ID" ignoreEmpty="true"/>
+<field key="USER_PASSWORD" name="USER_PASSWORD" ignoreEmpty="true"/>
+<field key="USER_NAME" name="USER_NAME" ignoreEmpty="true"/>
+<field key="EMAIL" name="EMAIL" ignoreEmpty="true"/>
+<field key="STATUS" name="STATUS" ignoreEmpty="true"/>
+<field key="PWD_CHG_INTERVAL" name="PWD_CHG_INTERVAL" ignoreEmpty="true"/>
+<field key="PWD_CHG_DATE" name="PWD_CHG_DATE" ignoreEmpty="true"/>
+<field key="EXPIRED_DATE" name="EXPIRED_DATE" ignoreEmpty="true"/>
+<field key="LOGIN_LOCK_NUM" name="LOGIN_LOCK_NUM" ignoreEmpty="true"/>
+<field key="LOGIN_ERR_NUM" name="LOGIN_ERR_NUM" ignoreEmpty="true"/>
+<field key="BUILD_DATE" name="BUILD_DATE" ignoreEmpty="true"/>
+<field key="BUILD_BY" name="BUILD_BY" ignoreEmpty="true"/>
+<field key="USER_TYPE" name="USER_TYPE" ignoreEmpty="true"/>
+<field key="CUSTOM_ID" name="CUSTOM_ID" ignoreEmpty="true"/>
+<field key="EXT_ID" name="EXT_ID" ignoreEmpty="true"/>
+<field key="EXT_NAME" name="EXT_NAME" ignoreEmpty="true"/>
+<field key="AUTH_METHOD" name="AUTH_METHOD" ignoreEmpty="true"/>
+<field key="SYNC_STATE" name="SYNC_STATE" ignoreEmpty="true"/>
+<field key="PWD_STATE" name="PWD_STATE" ignoreEmpty="true"/>
+<field key="LAST_CALLING_TIME" name="LAST_CALLING_TIME" ignoreEmpty="true"/>
+<field key="AUTH_HEADER" name="AUTH_HEADER" ignoreEmpty="true"/>
+<field key="SERIAL_NO" name="SERIAL_NO" ignoreEmpty="true"/>
+
+$('#pageBean_userId').attr('value',rowData.USER_ID);
+$('#pageBean_userPassword').attr('value',rowData.USER_PASSWORD);
+$('#pageBean_userName').attr('value',rowData.USER_NAME);
+$('#pageBean_email').attr('value',rowData.EMAIL);
+$('#pageBean_status').attr('value',rowData.STATUS);
+$('#pageBean_pwdChgInterval').attr('value',rowData.PWD_CHG_INTERVAL);
+$('#pageBean_pwdChgDate').attr('value',rowData.PWD_CHG_DATE);
+$('#pageBean_expiredDate').attr('value',rowData.EXPIRED_DATE);
+$('#pageBean_loginLockNum').attr('value',rowData.LOGIN_LOCK_NUM);
+$('#pageBean_loginErrNum').attr('value',rowData.LOGIN_ERR_NUM);
+$('#pageBean_buildDate').attr('value',rowData.BUILD_DATE);
+$('#pageBean_buildBy').attr('value',rowData.BUILD_BY);
+$('#pageBean_userType').attr('value',rowData.USER_TYPE);
+$('#pageBean_customId').attr('value',rowData.CUSTOM_ID);
+$('#pageBean_extId').attr('value',rowData.EXT_ID);
+$('#pageBean_extName').attr('value',rowData.EXT_NAME);
+$('#pageBean_authMethod').attr('value',rowData.AUTH_METHOD);
+$('#pageBean_syncState').attr('value',rowData.SYNC_STATE);
+$('#pageBean_pwdState').attr('value',rowData.PWD_STATE);
+$('#pageBean_lastCallingTime').attr('value',rowData.LAST_CALLING_TIME);
+$('#pageBean_authHeader').attr('value',rowData.AUTH_HEADER);
+$('#pageBean_serialNo').attr('value',rowData.SERIAL_NO);
+
+$('#pageBean_userId').attr("value", "");
+$('#pageBean_userPassword').attr("value", "");
+$('#pageBean_userName').attr("value", "");
+$('#pageBean_email').attr("value", "");
+$('#pageBean_status').attr("value", "");
+$('#pageBean_pwdChgInterval').attr("value", "");
+$('#pageBean_pwdChgDate').attr("value", "");
+$('#pageBean_expiredDate').attr("value", "");
+$('#pageBean_loginLockNum').attr("value", "");
+$('#pageBean_loginErrNum').attr("value", "");
+$('#pageBean_buildDate').attr("value", "");
+$('#pageBean_buildBy').attr("value", "");
+$('#pageBean_userType').attr("value", "");
+$('#pageBean_customId').attr("value", "");
+$('#pageBean_extId').attr("value", "");
+$('#pageBean_extName').attr("value", "");
+$('#pageBean_authMethod').attr("value", "");
+$('#pageBean_syncState').attr("value", "");
+$('#pageBean_pwdState').attr("value", "");
+$('#pageBean_lastCallingTime').attr("value", "");
+$('#pageBean_authHeader').attr("value", "");
+$('#pageBean_serialNo').attr("value", "");
+
+USER_ID:$('#pageBean_userId').val(),//
+USER_PASSWORD:$('#pageBean_userPassword').val(),//
+USER_NAME:$('#pageBean_userName').val(),//
+EMAIL:$('#pageBean_email').val(),//
+STATUS:$('#pageBean_status').val(),//
+PWD_CHG_INTERVAL:$('#pageBean_pwdChgInterval').val(),//
+PWD_CHG_DATE:$('#pageBean_pwdChgDate').val(),//
+EXPIRED_DATE:$('#pageBean_expiredDate').val(),//
+LOGIN_LOCK_NUM:$('#pageBean_loginLockNum').val(),//
+LOGIN_ERR_NUM:$('#pageBean_loginErrNum').val(),//
+BUILD_DATE:$('#pageBean_buildDate').val(),//
+BUILD_BY:$('#pageBean_buildBy').val(),//
+USER_TYPE:$('#pageBean_userType').val(),//
+CUSTOM_ID:$('#pageBean_customId').val(),//
+EXT_ID:$('#pageBean_extId').val(),//
+EXT_NAME:$('#pageBean_extName').val(),//
+AUTH_METHOD:$('#pageBean_authMethod').val(),//
+SYNC_STATE:$('#pageBean_syncState').val(),//
+PWD_STATE:$('#pageBean_pwdState').val(),//
+LAST_CALLING_TIME:$('#pageBean_lastCallingTime').val(),//
+AUTH_HEADER:$('#pageBean_authHeader').val(),//
+SERIAL_NO:$('#pageBean_serialNo').val(),//
+
+pageBean.setUserId(dataObjects.getString("USER_ID"));//
+pageBean.setUserPassword(dataObjects.getString("USER_PASSWORD"));//
+pageBean.setUserName(dataObjects.getString("USER_NAME"));//
+pageBean.setEmail(dataObjects.getString("EMAIL"));//
+pageBean.setStatus(dataObjects.getString("STATUS"));//
+pageBean.setPwdChgInterval(dataObjects.getString("PWD_CHG_INTERVAL"));//
+pageBean.setPwdChgDate((Date)dataObjects.getValue("PWD_CHG_DATE"));//
+pageBean.setExpiredDate((Date)dataObjects.getValue("EXPIRED_DATE"));//
+pageBean.setLoginLockNum(dataObjects.getString("LOGIN_LOCK_NUM"));//
+pageBean.setLoginErrNum(dataObjects.getString("LOGIN_ERR_NUM"));//
+pageBean.setBuildDate((Date)dataObjects.getValue("BUILD_DATE"));//
+pageBean.setBuildBy(dataObjects.getString("BUILD_BY"));//
+pageBean.setUserType(dataObjects.getString("USER_TYPE"));//
+pageBean.setCustomId(dataObjects.getString("CUSTOM_ID"));//
+pageBean.setExtId(dataObjects.getString("EXT_ID"));//
+pageBean.setExtName(dataObjects.getString("EXT_NAME"));//
+pageBean.setAuthMethod(dataObjects.getString("AUTH_METHOD"));//
+pageBean.setSyncState(dataObjects.getString("SYNC_STATE"));//
+pageBean.setPwdState(dataObjects.getString("PWD_STATE"));//
+pageBean.setLastCallingTime(dataObjects.getString("LAST_CALLING_TIME"));//
+pageBean.setAuthHeader(dataObjects.getString("AUTH_HEADER"));//
+pageBean.setSerialNo(dataObjects.getString("SERIAL_NO"));//
+
+private String userId = null;//
+private String userPassword = null;//
+private String userName = null;//
+private String email = null;//
+private String status = null;//
+private String pwdChgInterval = null;//
+private Date pwdChgDate = null;//
+private Date expiredDate = null;//
+private String loginLockNum = null;//
+private String loginErrNum = null;//
+private Date buildDate = null;//
+private String buildBy = null;//
+private String userType = null;//
+private String customId = null;//
+private String extId = null;//
+private String extName = null;//
+private String authMethod = null;//
+private String syncState = null;//
+private String pwdState = null;//
+private String lastCallingTime = null;//
+private String authHeader = null;//
+private String serialNo = null;//
+
+pageBean.setUserId(userId);//
+pageBean.setUserPassword(userPassword);//
+pageBean.setUserName(userName);//
+pageBean.setEmail(email);//
+pageBean.setStatus(status);//
+pageBean.setPwdChgInterval(pwdChgInterval);//
+pageBean.setPwdChgDate(pwdChgDate);//
+pageBean.setExpiredDate(expiredDate);//
+pageBean.setLoginLockNum(loginLockNum);//
+pageBean.setLoginErrNum(loginErrNum);//
+pageBean.setBuildDate(buildDate);//
+pageBean.setBuildBy(buildBy);//
+pageBean.setUserType(userType);//
+pageBean.setCustomId(customId);//
+pageBean.setExtId(extId);//
+pageBean.setExtName(extName);//
+pageBean.setAuthMethod(authMethod);//
+pageBean.setSyncState(syncState);//
+pageBean.setPwdState(pwdState);//
+pageBean.setLastCallingTime(lastCallingTime);//
+pageBean.setAuthHeader(authHeader);//
+pageBean.setSerialNo(serialNo);//
+
+pageBean.setUserId(randomBean.getUserId());//
+pageBean.setUserPassword(randomBean.getUserPassword());//
+pageBean.setUserName(randomBean.getUserName());//
+pageBean.setEmail(randomBean.getEmail());//
+pageBean.setStatus(randomBean.getStatus());//
+pageBean.setPwdChgInterval(randomBean.getPwdChgInterval());//
+pageBean.setPwdChgDate(randomBean.getPwdChgDate());//
+pageBean.setExpiredDate(randomBean.getExpiredDate());//
+pageBean.setLoginLockNum(randomBean.getLoginLockNum());//
+pageBean.setLoginErrNum(randomBean.getLoginErrNum());//
+pageBean.setBuildDate(randomBean.getBuildDate());//
+pageBean.setBuildBy(randomBean.getBuildBy());//
+pageBean.setUserType(randomBean.getUserType());//
+pageBean.setCustomId(randomBean.getCustomId());//
+pageBean.setExtId(randomBean.getExtId());//
+pageBean.setExtName(randomBean.getExtName());//
+pageBean.setAuthMethod(randomBean.getAuthMethod());//
+pageBean.setSyncState(randomBean.getSyncState());//
+pageBean.setPwdState(randomBean.getPwdState());//
+pageBean.setLastCallingTime(randomBean.getLastCallingTime());//
+pageBean.setAuthHeader(randomBean.getAuthHeader());//
+pageBean.setSerialNo(randomBean.getSerialNo());//
+
+setUserId(userId);//
+setUserPassword(userPassword);//
+setUserName(userName);//
+setEmail(email);//
+setStatus(status);//
+setPwdChgInterval(pwdChgInterval);//
+setPwdChgDate(pwdChgDate);//
+setExpiredDate(expiredDate);//
+setLoginLockNum(loginLockNum);//
+setLoginErrNum(loginErrNum);//
+setBuildDate(buildDate);//
+setBuildBy(buildBy);//
+setUserType(userType);//
+setCustomId(customId);//
+setExtId(extId);//
+setExtName(extName);//
+setAuthMethod(authMethod);//
+setSyncState(syncState);//
+setPwdState(pwdState);//
+setLastCallingTime(lastCallingTime);//
+setAuthHeader(authHeader);//
+setSerialNo(serialNo);//
+
+pageBean.getUserId(),//
+pageBean.getUserPassword(),//
+pageBean.getUserName(),//
+pageBean.getEmail(),//
+pageBean.getStatus(),//
+pageBean.getPwdChgInterval(),//
+pageBean.getPwdChgDate(),//
+pageBean.getExpiredDate(),//
+pageBean.getLoginLockNum(),//
+pageBean.getLoginErrNum(),//
+pageBean.getBuildDate(),//
+pageBean.getBuildBy(),//
+pageBean.getUserType(),//
+pageBean.getCustomId(),//
+pageBean.getExtId(),//
+pageBean.getExtName(),//
+pageBean.getAuthMethod(),//
+pageBean.getSyncState(),//
+pageBean.getPwdState(),//
+pageBean.getLastCallingTime(),//
+pageBean.getAuthHeader(),//
+pageBean.getSerialNo(),//
+
+pageBean.setValue("USER_ID", this.getUserId());//
+pageBean.setValue("USER_PASSWORD", this.getUserPassword());//
+pageBean.setValue("USER_NAME", this.getUserName());//
+pageBean.setValue("EMAIL", this.getEmail());//
+pageBean.setValue("STATUS", this.getStatus());//
+pageBean.setValue("PWD_CHG_INTERVAL", this.getPwdChgInterval());//
+pageBean.setValue("PWD_CHG_DATE", this.getPwdChgDate());//
+pageBean.setValue("EXPIRED_DATE", this.getExpiredDate());//
+pageBean.setValue("LOGIN_LOCK_NUM", this.getLoginLockNum());//
+pageBean.setValue("LOGIN_ERR_NUM", this.getLoginErrNum());//
+pageBean.setValue("BUILD_DATE", this.getBuildDate());//
+pageBean.setValue("BUILD_BY", this.getBuildBy());//
+pageBean.setValue("USER_TYPE", this.getUserType());//
+pageBean.setValue("CUSTOM_ID", this.getCustomId());//
+pageBean.setValue("EXT_ID", this.getExtId());//
+pageBean.setValue("EXT_NAME", this.getExtName());//
+pageBean.setValue("AUTH_METHOD", this.getAuthMethod());//
+pageBean.setValue("SYNC_STATE", this.getSyncState());//
+pageBean.setValue("PWD_STATE", this.getPwdState());//
+pageBean.setValue("LAST_CALLING_TIME", this.getLastCallingTime());//
+pageBean.setValue("AUTH_HEADER", this.getAuthHeader());//
+pageBean.setValue("SERIAL_NO", this.getSerialNo());//
+
+","+"(userId)="+pageBean.getUserId()+
+","+"(userPassword)="+pageBean.getUserPassword()+
+","+"(userName)="+pageBean.getUserName()+
+","+"(email)="+pageBean.getEmail()+
+","+"(status)="+pageBean.getStatus()+
+","+"(pwdChgInterval)="+pageBean.getPwdChgInterval()+
+","+"(pwdChgDate)="+pageBean.getPwdChgDate()+
+","+"(expiredDate)="+pageBean.getExpiredDate()+
+","+"(loginLockNum)="+pageBean.getLoginLockNum()+
+","+"(loginErrNum)="+pageBean.getLoginErrNum()+
+","+"(buildDate)="+pageBean.getBuildDate()+
+","+"(buildBy)="+pageBean.getBuildBy()+
+","+"(userType)="+pageBean.getUserType()+
+","+"(customId)="+pageBean.getCustomId()+
+","+"(extId)="+pageBean.getExtId()+
+","+"(extName)="+pageBean.getExtName()+
+","+"(authMethod)="+pageBean.getAuthMethod()+
+","+"(syncState)="+pageBean.getSyncState()+
+","+"(pwdState)="+pageBean.getPwdState()+
+","+"(lastCallingTime)="+pageBean.getLastCallingTime()+
+","+"(authHeader)="+pageBean.getAuthHeader()+
+","+"(serialNo)="+pageBean.getSerialNo()+

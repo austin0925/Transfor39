@@ -1,0 +1,467 @@
+pageBean.declNo=報單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.releaseSequence=放行紀錄序號
+pageBean.datetimeOfGoodsRelease=放行日期時間
+pageBean.dateOfExwarehouse=出倉日期
+pageBean.typeOfDeclaration=報單類別
+pageBean.packageReleased=放行件數
+pageBean.packageReleasedUnit=放行件數單位
+pageBean.packageUnreleased=未放行件數
+pageBean.packageUnreleasedUnit=未放行件數單位
+pageBean.customsCode=關別代碼
+pageBean.customsSectionNo=海關股別
+pageBean.releaseType=放行型態
+pageBean.processUserId=處理關員代碼
+pageBean.processUserName=處理關員姓名
+
+pageBean.declNo=declNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.releaseSequence=releaseSequence
+pageBean.datetimeOfGoodsRelease=datetimeOfGoodsRelease
+pageBean.dateOfExwarehouse=dateOfExwarehouse
+pageBean.typeOfDeclaration=typeOfDeclaration
+pageBean.packageReleased=packageReleased
+pageBean.packageReleasedUnit=packageReleasedUnit
+pageBean.packageUnreleased=packageUnreleased
+pageBean.packageUnreleasedUnit=packageUnreleasedUnit
+pageBean.customsCode=customsCode
+pageBean.customsSectionNo=customsSectionNo
+pageBean.releaseType=releaseType
+pageBean.processUserId=processUserId
+pageBean.processUserName=processUserName
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--releaseSequence:放行紀錄序號-->
+<tr>
+<td>
+	<s:text name="pageBean.releaseSequence"/>
+	<s:textfield name="pageBean.releaseSequence" />
+</td>
+</tr>
+
+<!--datetimeOfGoodsRelease:放行日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.datetimeOfGoodsRelease"/>
+	<s:textfield name="pageBean.datetimeOfGoodsRelease" />
+</td>
+</tr>
+
+<!--dateOfExwarehouse:出倉日期-->
+<tr>
+<td>
+	<s:text name="pageBean.dateOfExwarehouse"/>
+	<s:textfield name="pageBean.dateOfExwarehouse" />
+</td>
+</tr>
+
+<!--typeOfDeclaration:報單類別-->
+<tr>
+<td>
+	<s:text name="pageBean.typeOfDeclaration"/>
+	<s:textfield name="pageBean.typeOfDeclaration" />
+</td>
+</tr>
+
+<!--packageReleased:放行件數-->
+<tr>
+<td>
+	<s:text name="pageBean.packageReleased"/>
+	<s:textfield name="pageBean.packageReleased" />
+</td>
+</tr>
+
+<!--packageReleasedUnit:放行件數單位-->
+<tr>
+<td>
+	<s:text name="pageBean.packageReleasedUnit"/>
+	<s:textfield name="pageBean.packageReleasedUnit" />
+</td>
+</tr>
+
+<!--packageUnreleased:未放行件數-->
+<tr>
+<td>
+	<s:text name="pageBean.packageUnreleased"/>
+	<s:textfield name="pageBean.packageUnreleased" />
+</td>
+</tr>
+
+<!--packageUnreleasedUnit:未放行件數單位-->
+<tr>
+<td>
+	<s:text name="pageBean.packageUnreleasedUnit"/>
+	<s:textfield name="pageBean.packageUnreleasedUnit" />
+</td>
+</tr>
+
+<!--customsCode:關別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.customsCode"/>
+	<s:textfield name="pageBean.customsCode" />
+</td>
+</tr>
+
+<!--customsSectionNo:海關股別-->
+<tr>
+<td>
+	<s:text name="pageBean.customsSectionNo"/>
+	<s:textfield name="pageBean.customsSectionNo" />
+</td>
+</tr>
+
+<!--releaseType:放行型態-->
+<tr>
+<td>
+	<s:text name="pageBean.releaseType"/>
+	<s:textfield name="pageBean.releaseType" />
+</td>
+</tr>
+
+<!--processUserId:處理關員代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.processUserId"/>
+	<s:textfield name="pageBean.processUserId" />
+</td>
+</tr>
+
+<!--processUserName:處理關員姓名-->
+<tr>
+<td>
+	<s:text name="pageBean.processUserName"/>
+	<s:textfield name="pageBean.processUserName" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.releaseSequence"/><!--releaseSequence:放行紀錄序號-->
+<s:hidden name="pageBean.datetimeOfGoodsRelease"/><!--datetimeOfGoodsRelease:放行日期時間-->
+<s:hidden name="pageBean.dateOfExwarehouse"/><!--dateOfExwarehouse:出倉日期-->
+<s:hidden name="pageBean.typeOfDeclaration"/><!--typeOfDeclaration:報單類別-->
+<s:hidden name="pageBean.packageReleased"/><!--packageReleased:放行件數-->
+<s:hidden name="pageBean.packageReleasedUnit"/><!--packageReleasedUnit:放行件數單位-->
+<s:hidden name="pageBean.packageUnreleased"/><!--packageUnreleased:未放行件數-->
+<s:hidden name="pageBean.packageUnreleasedUnit"/><!--packageUnreleasedUnit:未放行件數單位-->
+<s:hidden name="pageBean.customsCode"/><!--customsCode:關別代碼-->
+<s:hidden name="pageBean.customsSectionNo"/><!--customsSectionNo:海關股別-->
+<s:hidden name="pageBean.releaseType"/><!--releaseType:放行型態-->
+<s:hidden name="pageBean.processUserId"/><!--processUserId:處理關員代碼-->
+<s:hidden name="pageBean.processUserName"/><!--processUserName:處理關員姓名-->
+
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RELEASE_SEQUENCE:放行紀錄序號:releaseSequence--%>
+<sjg:gridColumn name="RELEASE_SEQUENCE" index="RELEASE_SEQUENCE" title="%{getText('releaseSequence')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DATETIME_OF_GOODS_RELEASE:放行日期時間:datetimeOfGoodsRelease--%>
+<sjg:gridColumn name="DATETIME_OF_GOODS_RELEASE" index="DATETIME_OF_GOODS_RELEASE" title="%{getText('datetimeOfGoodsRelease')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DATE_OF_EXWAREHOUSE:出倉日期:dateOfExwarehouse--%>
+<sjg:gridColumn name="DATE_OF_EXWAREHOUSE" index="DATE_OF_EXWAREHOUSE" title="%{getText('dateOfExwarehouse')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TYPE_OF_DECLARATION:報單類別:typeOfDeclaration--%>
+<sjg:gridColumn name="TYPE_OF_DECLARATION" index="TYPE_OF_DECLARATION" title="%{getText('typeOfDeclaration')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACKAGE_RELEASED:放行件數:packageReleased--%>
+<sjg:gridColumn name="PACKAGE_RELEASED" index="PACKAGE_RELEASED" title="%{getText('packageReleased')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACKAGE_RELEASED_UNIT:放行件數單位:packageReleasedUnit--%>
+<sjg:gridColumn name="PACKAGE_RELEASED_UNIT" index="PACKAGE_RELEASED_UNIT" title="%{getText('packageReleasedUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACKAGE_UNRELEASED:未放行件數:packageUnreleased--%>
+<sjg:gridColumn name="PACKAGE_UNRELEASED" index="PACKAGE_UNRELEASED" title="%{getText('packageUnreleased')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACKAGE_UNRELEASED_UNIT:未放行件數單位:packageUnreleasedUnit--%>
+<sjg:gridColumn name="PACKAGE_UNRELEASED_UNIT" index="PACKAGE_UNRELEASED_UNIT" title="%{getText('packageUnreleasedUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_CODE:關別代碼:customsCode--%>
+<sjg:gridColumn name="CUSTOMS_CODE" index="CUSTOMS_CODE" title="%{getText('customsCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_SECTION_NO:海關股別:customsSectionNo--%>
+<sjg:gridColumn name="CUSTOMS_SECTION_NO" index="CUSTOMS_SECTION_NO" title="%{getText('customsSectionNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RELEASE_TYPE:放行型態:releaseType--%>
+<sjg:gridColumn name="RELEASE_TYPE" index="RELEASE_TYPE" title="%{getText('releaseType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_USER_ID:處理關員代碼:processUserId--%>
+<sjg:gridColumn name="PROCESS_USER_ID" index="PROCESS_USER_ID" title="%{getText('processUserId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PROCESS_USER_NAME:處理關員姓名:processUserName--%>
+<sjg:gridColumn name="PROCESS_USER_NAME" index="PROCESS_USER_NAME" title="%{getText('processUserName')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.DECL_NO
+,A.MAWB
+,A.HAWB
+,A.RELEASE_SEQUENCE
+,A.DATETIME_OF_GOODS_RELEASE
+,A.DATE_OF_EXWAREHOUSE
+,A.TYPE_OF_DECLARATION
+,A.PACKAGE_RELEASED
+,A.PACKAGE_RELEASED_UNIT
+,A.PACKAGE_UNRELEASED
+,A.PACKAGE_UNRELEASED_UNIT
+,A.CUSTOMS_CODE
+,A.CUSTOMS_SECTION_NO
+,A.RELEASE_TYPE
+,A.PROCESS_USER_ID
+,A.PROCESS_USER_NAME
+
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="RELEASE_SEQUENCE" ignoreEmpty="true">RELEASE_SEQUENCE = ${RELEASE_SEQUENCE}</condition>
+<condition key="DATETIME_OF_GOODS_RELEASE" ignoreEmpty="true">DATETIME_OF_GOODS_RELEASE = ${DATETIME_OF_GOODS_RELEASE}</condition>
+<condition key="DATE_OF_EXWAREHOUSE" ignoreEmpty="true">DATE_OF_EXWAREHOUSE = ${DATE_OF_EXWAREHOUSE}</condition>
+<condition key="TYPE_OF_DECLARATION" ignoreEmpty="true">TYPE_OF_DECLARATION = ${TYPE_OF_DECLARATION}</condition>
+<condition key="PACKAGE_RELEASED" ignoreEmpty="true">PACKAGE_RELEASED = ${PACKAGE_RELEASED}</condition>
+<condition key="PACKAGE_RELEASED_UNIT" ignoreEmpty="true">PACKAGE_RELEASED_UNIT = ${PACKAGE_RELEASED_UNIT}</condition>
+<condition key="PACKAGE_UNRELEASED" ignoreEmpty="true">PACKAGE_UNRELEASED = ${PACKAGE_UNRELEASED}</condition>
+<condition key="PACKAGE_UNRELEASED_UNIT" ignoreEmpty="true">PACKAGE_UNRELEASED_UNIT = ${PACKAGE_UNRELEASED_UNIT}</condition>
+<condition key="CUSTOMS_CODE" ignoreEmpty="true">CUSTOMS_CODE = ${CUSTOMS_CODE}</condition>
+<condition key="CUSTOMS_SECTION_NO" ignoreEmpty="true">CUSTOMS_SECTION_NO = ${CUSTOMS_SECTION_NO}</condition>
+<condition key="RELEASE_TYPE" ignoreEmpty="true">RELEASE_TYPE = ${RELEASE_TYPE}</condition>
+<condition key="PROCESS_USER_ID" ignoreEmpty="true">PROCESS_USER_ID = ${PROCESS_USER_ID}</condition>
+<condition key="PROCESS_USER_NAME" ignoreEmpty="true">PROCESS_USER_NAME = ${PROCESS_USER_NAME}</condition>
+
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="RELEASE_SEQUENCE_S" ignoreEmpty="true">RELEASE_SEQUENCE >= ${RELEASE_SEQUENCE_S}</condition><condition key="RELEASE_SEQUENCE_E" ignoreEmpty="true">${RELEASE_SEQUENCE_E} >= RELEASE_SEQUENCE</condition><condition key="RELEASE_SEQUENCE_L" ignoreEmpty="true">RELEASE_SEQUENCE like ${RELEASE_SEQUENCE_L}</condition>
+<condition key="DATETIME_OF_GOODS_RELEASE_S" ignoreEmpty="true">DATETIME_OF_GOODS_RELEASE >= ${DATETIME_OF_GOODS_RELEASE_S}</condition><condition key="DATETIME_OF_GOODS_RELEASE_E" ignoreEmpty="true">${DATETIME_OF_GOODS_RELEASE_E} >= DATETIME_OF_GOODS_RELEASE</condition><condition key="DATETIME_OF_GOODS_RELEASE_L" ignoreEmpty="true">DATETIME_OF_GOODS_RELEASE like ${DATETIME_OF_GOODS_RELEASE_L}</condition>
+<condition key="DATE_OF_EXWAREHOUSE_S" ignoreEmpty="true">DATE_OF_EXWAREHOUSE >= ${DATE_OF_EXWAREHOUSE_S}</condition><condition key="DATE_OF_EXWAREHOUSE_E" ignoreEmpty="true">${DATE_OF_EXWAREHOUSE_E} >= DATE_OF_EXWAREHOUSE</condition><condition key="DATE_OF_EXWAREHOUSE_L" ignoreEmpty="true">DATE_OF_EXWAREHOUSE like ${DATE_OF_EXWAREHOUSE_L}</condition>
+<condition key="TYPE_OF_DECLARATION_S" ignoreEmpty="true">TYPE_OF_DECLARATION >= ${TYPE_OF_DECLARATION_S}</condition><condition key="TYPE_OF_DECLARATION_E" ignoreEmpty="true">${TYPE_OF_DECLARATION_E} >= TYPE_OF_DECLARATION</condition><condition key="TYPE_OF_DECLARATION_L" ignoreEmpty="true">TYPE_OF_DECLARATION like ${TYPE_OF_DECLARATION_L}</condition>
+<condition key="PACKAGE_RELEASED_S" ignoreEmpty="true">PACKAGE_RELEASED >= ${PACKAGE_RELEASED_S}</condition><condition key="PACKAGE_RELEASED_E" ignoreEmpty="true">${PACKAGE_RELEASED_E} >= PACKAGE_RELEASED</condition><condition key="PACKAGE_RELEASED_L" ignoreEmpty="true">PACKAGE_RELEASED like ${PACKAGE_RELEASED_L}</condition>
+<condition key="PACKAGE_RELEASED_UNIT_S" ignoreEmpty="true">PACKAGE_RELEASED_UNIT >= ${PACKAGE_RELEASED_UNIT_S}</condition><condition key="PACKAGE_RELEASED_UNIT_E" ignoreEmpty="true">${PACKAGE_RELEASED_UNIT_E} >= PACKAGE_RELEASED_UNIT</condition><condition key="PACKAGE_RELEASED_UNIT_L" ignoreEmpty="true">PACKAGE_RELEASED_UNIT like ${PACKAGE_RELEASED_UNIT_L}</condition>
+<condition key="PACKAGE_UNRELEASED_S" ignoreEmpty="true">PACKAGE_UNRELEASED >= ${PACKAGE_UNRELEASED_S}</condition><condition key="PACKAGE_UNRELEASED_E" ignoreEmpty="true">${PACKAGE_UNRELEASED_E} >= PACKAGE_UNRELEASED</condition><condition key="PACKAGE_UNRELEASED_L" ignoreEmpty="true">PACKAGE_UNRELEASED like ${PACKAGE_UNRELEASED_L}</condition>
+<condition key="PACKAGE_UNRELEASED_UNIT_S" ignoreEmpty="true">PACKAGE_UNRELEASED_UNIT >= ${PACKAGE_UNRELEASED_UNIT_S}</condition><condition key="PACKAGE_UNRELEASED_UNIT_E" ignoreEmpty="true">${PACKAGE_UNRELEASED_UNIT_E} >= PACKAGE_UNRELEASED_UNIT</condition><condition key="PACKAGE_UNRELEASED_UNIT_L" ignoreEmpty="true">PACKAGE_UNRELEASED_UNIT like ${PACKAGE_UNRELEASED_UNIT_L}</condition>
+<condition key="CUSTOMS_CODE_S" ignoreEmpty="true">CUSTOMS_CODE >= ${CUSTOMS_CODE_S}</condition><condition key="CUSTOMS_CODE_E" ignoreEmpty="true">${CUSTOMS_CODE_E} >= CUSTOMS_CODE</condition><condition key="CUSTOMS_CODE_L" ignoreEmpty="true">CUSTOMS_CODE like ${CUSTOMS_CODE_L}</condition>
+<condition key="CUSTOMS_SECTION_NO_S" ignoreEmpty="true">CUSTOMS_SECTION_NO >= ${CUSTOMS_SECTION_NO_S}</condition><condition key="CUSTOMS_SECTION_NO_E" ignoreEmpty="true">${CUSTOMS_SECTION_NO_E} >= CUSTOMS_SECTION_NO</condition><condition key="CUSTOMS_SECTION_NO_L" ignoreEmpty="true">CUSTOMS_SECTION_NO like ${CUSTOMS_SECTION_NO_L}</condition>
+<condition key="RELEASE_TYPE_S" ignoreEmpty="true">RELEASE_TYPE >= ${RELEASE_TYPE_S}</condition><condition key="RELEASE_TYPE_E" ignoreEmpty="true">${RELEASE_TYPE_E} >= RELEASE_TYPE</condition><condition key="RELEASE_TYPE_L" ignoreEmpty="true">RELEASE_TYPE like ${RELEASE_TYPE_L}</condition>
+<condition key="PROCESS_USER_ID_S" ignoreEmpty="true">PROCESS_USER_ID >= ${PROCESS_USER_ID_S}</condition><condition key="PROCESS_USER_ID_E" ignoreEmpty="true">${PROCESS_USER_ID_E} >= PROCESS_USER_ID</condition><condition key="PROCESS_USER_ID_L" ignoreEmpty="true">PROCESS_USER_ID like ${PROCESS_USER_ID_L}</condition>
+<condition key="PROCESS_USER_NAME_S" ignoreEmpty="true">PROCESS_USER_NAME >= ${PROCESS_USER_NAME_S}</condition><condition key="PROCESS_USER_NAME_E" ignoreEmpty="true">${PROCESS_USER_NAME_E} >= PROCESS_USER_NAME</condition><condition key="PROCESS_USER_NAME_L" ignoreEmpty="true">PROCESS_USER_NAME like ${PROCESS_USER_NAME_L}</condition>
+
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="RELEASE_SEQUENCE" name="RELEASE_SEQUENCE" ignoreEmpty="true"/>
+<field key="DATETIME_OF_GOODS_RELEASE" name="DATETIME_OF_GOODS_RELEASE" ignoreEmpty="true"/>
+<field key="DATE_OF_EXWAREHOUSE" name="DATE_OF_EXWAREHOUSE" ignoreEmpty="true"/>
+<field key="TYPE_OF_DECLARATION" name="TYPE_OF_DECLARATION" ignoreEmpty="true"/>
+<field key="PACKAGE_RELEASED" name="PACKAGE_RELEASED" ignoreEmpty="true"/>
+<field key="PACKAGE_RELEASED_UNIT" name="PACKAGE_RELEASED_UNIT" ignoreEmpty="true"/>
+<field key="PACKAGE_UNRELEASED" name="PACKAGE_UNRELEASED" ignoreEmpty="true"/>
+<field key="PACKAGE_UNRELEASED_UNIT" name="PACKAGE_UNRELEASED_UNIT" ignoreEmpty="true"/>
+<field key="CUSTOMS_CODE" name="CUSTOMS_CODE" ignoreEmpty="true"/>
+<field key="CUSTOMS_SECTION_NO" name="CUSTOMS_SECTION_NO" ignoreEmpty="true"/>
+<field key="RELEASE_TYPE" name="RELEASE_TYPE" ignoreEmpty="true"/>
+<field key="PROCESS_USER_ID" name="PROCESS_USER_ID" ignoreEmpty="true"/>
+<field key="PROCESS_USER_NAME" name="PROCESS_USER_NAME" ignoreEmpty="true"/>
+
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_releaseSequence').attr('value',rowData.RELEASE_SEQUENCE);
+$('#pageBean_datetimeOfGoodsRelease').attr('value',rowData.DATETIME_OF_GOODS_RELEASE);
+$('#pageBean_dateOfExwarehouse').attr('value',rowData.DATE_OF_EXWAREHOUSE);
+$('#pageBean_typeOfDeclaration').attr('value',rowData.TYPE_OF_DECLARATION);
+$('#pageBean_packageReleased').attr('value',rowData.PACKAGE_RELEASED);
+$('#pageBean_packageReleasedUnit').attr('value',rowData.PACKAGE_RELEASED_UNIT);
+$('#pageBean_packageUnreleased').attr('value',rowData.PACKAGE_UNRELEASED);
+$('#pageBean_packageUnreleasedUnit').attr('value',rowData.PACKAGE_UNRELEASED_UNIT);
+$('#pageBean_customsCode').attr('value',rowData.CUSTOMS_CODE);
+$('#pageBean_customsSectionNo').attr('value',rowData.CUSTOMS_SECTION_NO);
+$('#pageBean_releaseType').attr('value',rowData.RELEASE_TYPE);
+$('#pageBean_processUserId').attr('value',rowData.PROCESS_USER_ID);
+$('#pageBean_processUserName').attr('value',rowData.PROCESS_USER_NAME);
+
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_releaseSequence').attr("value", "");
+$('#pageBean_datetimeOfGoodsRelease').attr("value", "");
+$('#pageBean_dateOfExwarehouse').attr("value", "");
+$('#pageBean_typeOfDeclaration').attr("value", "");
+$('#pageBean_packageReleased').attr("value", "");
+$('#pageBean_packageReleasedUnit').attr("value", "");
+$('#pageBean_packageUnreleased').attr("value", "");
+$('#pageBean_packageUnreleasedUnit').attr("value", "");
+$('#pageBean_customsCode').attr("value", "");
+$('#pageBean_customsSectionNo').attr("value", "");
+$('#pageBean_releaseType').attr("value", "");
+$('#pageBean_processUserId').attr("value", "");
+$('#pageBean_processUserName').attr("value", "");
+
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+RELEASE_SEQUENCE:$('#pageBean_releaseSequence').val(),//放行紀錄序號
+DATETIME_OF_GOODS_RELEASE:$('#pageBean_datetimeOfGoodsRelease').val(),//放行日期時間
+DATE_OF_EXWAREHOUSE:$('#pageBean_dateOfExwarehouse').val(),//出倉日期
+TYPE_OF_DECLARATION:$('#pageBean_typeOfDeclaration').val(),//報單類別
+PACKAGE_RELEASED:$('#pageBean_packageReleased').val(),//放行件數
+PACKAGE_RELEASED_UNIT:$('#pageBean_packageReleasedUnit').val(),//放行件數單位
+PACKAGE_UNRELEASED:$('#pageBean_packageUnreleased').val(),//未放行件數
+PACKAGE_UNRELEASED_UNIT:$('#pageBean_packageUnreleasedUnit').val(),//未放行件數單位
+CUSTOMS_CODE:$('#pageBean_customsCode').val(),//關別代碼
+CUSTOMS_SECTION_NO:$('#pageBean_customsSectionNo').val(),//海關股別
+RELEASE_TYPE:$('#pageBean_releaseType').val(),//放行型態
+PROCESS_USER_ID:$('#pageBean_processUserId').val(),//處理關員代碼
+PROCESS_USER_NAME:$('#pageBean_processUserName').val(),//處理關員姓名
+
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setReleaseSequence(dataObjects.getString("RELEASE_SEQUENCE"));//放行紀錄序號
+pageBean.setDatetimeOfGoodsRelease((Date)dataObjects.getValue("DATETIME_OF_GOODS_RELEASE"));//放行日期時間
+pageBean.setDateOfExwarehouse((Date)dataObjects.getValue("DATE_OF_EXWAREHOUSE"));//出倉日期
+pageBean.setTypeOfDeclaration(dataObjects.getString("TYPE_OF_DECLARATION"));//報單類別
+pageBean.setPackageReleased(dataObjects.getString("PACKAGE_RELEASED"));//放行件數
+pageBean.setPackageReleasedUnit(dataObjects.getString("PACKAGE_RELEASED_UNIT"));//放行件數單位
+pageBean.setPackageUnreleased(dataObjects.getString("PACKAGE_UNRELEASED"));//未放行件數
+pageBean.setPackageUnreleasedUnit(dataObjects.getString("PACKAGE_UNRELEASED_UNIT"));//未放行件數單位
+pageBean.setCustomsCode(dataObjects.getString("CUSTOMS_CODE"));//關別代碼
+pageBean.setCustomsSectionNo(dataObjects.getString("CUSTOMS_SECTION_NO"));//海關股別
+pageBean.setReleaseType(dataObjects.getString("RELEASE_TYPE"));//放行型態
+pageBean.setProcessUserId(dataObjects.getString("PROCESS_USER_ID"));//處理關員代碼
+pageBean.setProcessUserName(dataObjects.getString("PROCESS_USER_NAME"));//處理關員姓名
+
+private String declNo = null;//報單號碼
+private String mawb = null;//託運單主號
+private String hawb = null;//託運單分號
+private String releaseSequence = null;//放行紀錄序號
+private Date datetimeOfGoodsRelease = null;//放行日期時間
+private Date dateOfExwarehouse = null;//出倉日期
+private String typeOfDeclaration = null;//報單類別
+private String packageReleased = null;//放行件數
+private String packageReleasedUnit = null;//放行件數單位
+private String packageUnreleased = null;//未放行件數
+private String packageUnreleasedUnit = null;//未放行件數單位
+private String customsCode = null;//關別代碼
+private String customsSectionNo = null;//海關股別
+private String releaseType = null;//放行型態
+private String processUserId = null;//處理關員代碼
+private String processUserName = null;//處理關員姓名
+
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setReleaseSequence(releaseSequence);//放行紀錄序號
+pageBean.setDatetimeOfGoodsRelease(datetimeOfGoodsRelease);//放行日期時間
+pageBean.setDateOfExwarehouse(dateOfExwarehouse);//出倉日期
+pageBean.setTypeOfDeclaration(typeOfDeclaration);//報單類別
+pageBean.setPackageReleased(packageReleased);//放行件數
+pageBean.setPackageReleasedUnit(packageReleasedUnit);//放行件數單位
+pageBean.setPackageUnreleased(packageUnreleased);//未放行件數
+pageBean.setPackageUnreleasedUnit(packageUnreleasedUnit);//未放行件數單位
+pageBean.setCustomsCode(customsCode);//關別代碼
+pageBean.setCustomsSectionNo(customsSectionNo);//海關股別
+pageBean.setReleaseType(releaseType);//放行型態
+pageBean.setProcessUserId(processUserId);//處理關員代碼
+pageBean.setProcessUserName(processUserName);//處理關員姓名
+
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setReleaseSequence(randomBean.getReleaseSequence());//放行紀錄序號
+pageBean.setDatetimeOfGoodsRelease(randomBean.getDatetimeOfGoodsRelease());//放行日期時間
+pageBean.setDateOfExwarehouse(randomBean.getDateOfExwarehouse());//出倉日期
+pageBean.setTypeOfDeclaration(randomBean.getTypeOfDeclaration());//報單類別
+pageBean.setPackageReleased(randomBean.getPackageReleased());//放行件數
+pageBean.setPackageReleasedUnit(randomBean.getPackageReleasedUnit());//放行件數單位
+pageBean.setPackageUnreleased(randomBean.getPackageUnreleased());//未放行件數
+pageBean.setPackageUnreleasedUnit(randomBean.getPackageUnreleasedUnit());//未放行件數單位
+pageBean.setCustomsCode(randomBean.getCustomsCode());//關別代碼
+pageBean.setCustomsSectionNo(randomBean.getCustomsSectionNo());//海關股別
+pageBean.setReleaseType(randomBean.getReleaseType());//放行型態
+pageBean.setProcessUserId(randomBean.getProcessUserId());//處理關員代碼
+pageBean.setProcessUserName(randomBean.getProcessUserName());//處理關員姓名
+
+setDeclNo(declNo);//報單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setReleaseSequence(releaseSequence);//放行紀錄序號
+setDatetimeOfGoodsRelease(datetimeOfGoodsRelease);//放行日期時間
+setDateOfExwarehouse(dateOfExwarehouse);//出倉日期
+setTypeOfDeclaration(typeOfDeclaration);//報單類別
+setPackageReleased(packageReleased);//放行件數
+setPackageReleasedUnit(packageReleasedUnit);//放行件數單位
+setPackageUnreleased(packageUnreleased);//未放行件數
+setPackageUnreleasedUnit(packageUnreleasedUnit);//未放行件數單位
+setCustomsCode(customsCode);//關別代碼
+setCustomsSectionNo(customsSectionNo);//海關股別
+setReleaseType(releaseType);//放行型態
+setProcessUserId(processUserId);//處理關員代碼
+setProcessUserName(processUserName);//處理關員姓名
+
+pageBean.getDeclNo(),//報單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getReleaseSequence(),//放行紀錄序號
+pageBean.getDatetimeOfGoodsRelease(),//放行日期時間
+pageBean.getDateOfExwarehouse(),//出倉日期
+pageBean.getTypeOfDeclaration(),//報單類別
+pageBean.getPackageReleased(),//放行件數
+pageBean.getPackageReleasedUnit(),//放行件數單位
+pageBean.getPackageUnreleased(),//未放行件數
+pageBean.getPackageUnreleasedUnit(),//未放行件數單位
+pageBean.getCustomsCode(),//關別代碼
+pageBean.getCustomsSectionNo(),//海關股別
+pageBean.getReleaseType(),//放行型態
+pageBean.getProcessUserId(),//處理關員代碼
+pageBean.getProcessUserName(),//處理關員姓名
+
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("RELEASE_SEQUENCE", this.getReleaseSequence());//放行紀錄序號
+pageBean.setValue("DATETIME_OF_GOODS_RELEASE", this.getDatetimeOfGoodsRelease());//放行日期時間
+pageBean.setValue("DATE_OF_EXWAREHOUSE", this.getDateOfExwarehouse());//出倉日期
+pageBean.setValue("TYPE_OF_DECLARATION", this.getTypeOfDeclaration());//報單類別
+pageBean.setValue("PACKAGE_RELEASED", this.getPackageReleased());//放行件數
+pageBean.setValue("PACKAGE_RELEASED_UNIT", this.getPackageReleasedUnit());//放行件數單位
+pageBean.setValue("PACKAGE_UNRELEASED", this.getPackageUnreleased());//未放行件數
+pageBean.setValue("PACKAGE_UNRELEASED_UNIT", this.getPackageUnreleasedUnit());//未放行件數單位
+pageBean.setValue("CUSTOMS_CODE", this.getCustomsCode());//關別代碼
+pageBean.setValue("CUSTOMS_SECTION_NO", this.getCustomsSectionNo());//海關股別
+pageBean.setValue("RELEASE_TYPE", this.getReleaseType());//放行型態
+pageBean.setValue("PROCESS_USER_ID", this.getProcessUserId());//處理關員代碼
+pageBean.setValue("PROCESS_USER_NAME", this.getProcessUserName());//處理關員姓名
+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",放行紀錄序號"+"(releaseSequence)="+pageBean.getReleaseSequence()+
+",放行日期時間"+"(datetimeOfGoodsRelease)="+pageBean.getDatetimeOfGoodsRelease()+
+",出倉日期"+"(dateOfExwarehouse)="+pageBean.getDateOfExwarehouse()+
+",報單類別"+"(typeOfDeclaration)="+pageBean.getTypeOfDeclaration()+
+",放行件數"+"(packageReleased)="+pageBean.getPackageReleased()+
+",放行件數單位"+"(packageReleasedUnit)="+pageBean.getPackageReleasedUnit()+
+",未放行件數"+"(packageUnreleased)="+pageBean.getPackageUnreleased()+
+",未放行件數單位"+"(packageUnreleasedUnit)="+pageBean.getPackageUnreleasedUnit()+
+",關別代碼"+"(customsCode)="+pageBean.getCustomsCode()+
+",海關股別"+"(customsSectionNo)="+pageBean.getCustomsSectionNo()+
+",放行型態"+"(releaseType)="+pageBean.getReleaseType()+
+",處理關員代碼"+"(processUserId)="+pageBean.getProcessUserId()+
+",處理關員姓名"+"(processUserName)="+pageBean.getProcessUserName()+

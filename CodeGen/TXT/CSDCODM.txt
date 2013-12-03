@@ -1,0 +1,213 @@
+pageBean.codekind=代碼類別
+pageBean.code=代碼
+pageBean.codeRemark=代碼說明
+pageBean.codeNote=代碼備註
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+
+pageBean.codekind=codekind
+pageBean.code=code
+pageBean.codeRemark=codeRemark
+pageBean.codeNote=codeNote
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+
+<tr>
+	<td>
+		<!--codekind:代碼類別-->
+		<s:text name="pageBean.codekind"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.codekind"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--code:代碼-->
+		<s:text name="pageBean.code"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.code"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--codeRemark:代碼說明-->
+		<s:text name="pageBean.codeRemark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.codeRemark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--codeNote:代碼備註-->
+		<s:text name="pageBean.codeNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.codeNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.codekind"/><!--codekind:代碼類別-->
+<s:hidden name="pageBean.code"/><!--code:代碼-->
+<s:hidden name="pageBean.codeRemark"/><!--codeRemark:代碼說明-->
+<s:hidden name="pageBean.codeNote"/><!--codeNote:代碼備註-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+
+<%--CODEKIND:代碼類別:codekind--%>
+<sjg:gridColumn name="CODEKIND" index="CODEKIND" title="%{getText('codekind')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CODE:代碼:code--%>
+<sjg:gridColumn name="CODE" index="CODE" title="%{getText('code')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CODE_REMARK:代碼說明:codeRemark--%>
+<sjg:gridColumn name="CODE_REMARK" index="CODE_REMARK" title="%{getText('codeRemark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CODE_NOTE:代碼備註:codeNote--%>
+<sjg:gridColumn name="CODE_NOTE" index="CODE_NOTE" title="%{getText('codeNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.CODEKIND
+,A.CODE
+,A.CODE_REMARK
+,A.CODE_NOTE
+,A.UP_PERSON
+,A.UP_DATE
+
+<condition key="CODEKIND" ignoreEmpty="true">CODEKIND = ${CODEKIND}</condition>
+<condition key="CODE" ignoreEmpty="true">CODE = ${CODE}</condition>
+<condition key="CODE_REMARK" ignoreEmpty="true">CODE_REMARK = ${CODE_REMARK}</condition>
+<condition key="CODE_NOTE" ignoreEmpty="true">CODE_NOTE = ${CODE_NOTE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+
+<condition key="CODEKIND_S" ignoreEmpty="true">CODEKIND >= ${CODEKIND_S}</condition><condition key="CODEKIND_E" ignoreEmpty="true">${CODEKIND_E} >= CODEKIND</condition><condition key="CODEKIND_L" ignoreEmpty="true">CODEKIND like ${CODEKIND_L}</condition>
+<condition key="CODE_S" ignoreEmpty="true">CODE >= ${CODE_S}</condition><condition key="CODE_E" ignoreEmpty="true">${CODE_E} >= CODE</condition><condition key="CODE_L" ignoreEmpty="true">CODE like ${CODE_L}</condition>
+<condition key="CODE_REMARK_S" ignoreEmpty="true">CODE_REMARK >= ${CODE_REMARK_S}</condition><condition key="CODE_REMARK_E" ignoreEmpty="true">${CODE_REMARK_E} >= CODE_REMARK</condition><condition key="CODE_REMARK_L" ignoreEmpty="true">CODE_REMARK like ${CODE_REMARK_L}</condition>
+<condition key="CODE_NOTE_S" ignoreEmpty="true">CODE_NOTE >= ${CODE_NOTE_S}</condition><condition key="CODE_NOTE_E" ignoreEmpty="true">${CODE_NOTE_E} >= CODE_NOTE</condition><condition key="CODE_NOTE_L" ignoreEmpty="true">CODE_NOTE like ${CODE_NOTE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+
+<field key="CODEKIND" name="CODEKIND" ignoreEmpty="true"/>
+<field key="CODE" name="CODE" ignoreEmpty="true"/>
+<field key="CODE_REMARK" name="CODE_REMARK" ignoreEmpty="true"/>
+<field key="CODE_NOTE" name="CODE_NOTE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+
+$('#pageBean_codekind').attr('value',rowData.CODEKIND);
+$('#pageBean_code').attr('value',rowData.CODE);
+$('#pageBean_codeRemark').attr('value',rowData.CODE_REMARK);
+$('#pageBean_codeNote').attr('value',rowData.CODE_NOTE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+
+$('#pageBean_codekind').attr("value", "");
+$('#pageBean_code').attr("value", "");
+$('#pageBean_codeRemark').attr("value", "");
+$('#pageBean_codeNote').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+
+CODEKIND:$('#pageBean_codekind').val(),//代碼類別
+CODE:$('#pageBean_code').val(),//代碼
+CODE_REMARK:$('#pageBean_codeRemark').val(),//代碼說明
+CODE_NOTE:$('#pageBean_codeNote').val(),//代碼備註
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+
+pageBean.setCodekind(dataObjects.getString("CODEKIND"));//代碼類別
+pageBean.setCode(dataObjects.getString("CODE"));//代碼
+pageBean.setCodeRemark(dataObjects.getString("CODE_REMARK"));//代碼說明
+pageBean.setCodeNote(dataObjects.getString("CODE_NOTE"));//代碼備註
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+
+private String codekind = null;//代碼類別
+private String code = null;//代碼
+private String codeRemark = null;//代碼說明
+private String codeNote = null;//代碼備註
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+
+pageBean.setCodekind("代碼類別");//代碼類別
+pageBean.setCode("代碼");//代碼
+pageBean.setCodeRemark("代碼說明");//代碼說明
+pageBean.setCodeNote("代碼備註");//代碼備註
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+
+pageBean.setCodekind(codekind);//代碼類別
+pageBean.setCode(code);//代碼
+pageBean.setCodeRemark(codeRemark);//代碼說明
+pageBean.setCodeNote(codeNote);//代碼備註
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+
+pageBean.setCodekind(randomBean.getCodekind());//代碼類別
+pageBean.setCode(randomBean.getCode());//代碼
+pageBean.setCodeRemark(randomBean.getCodeRemark());//代碼說明
+pageBean.setCodeNote(randomBean.getCodeNote());//代碼備註
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+
+setCodekind(codekind);//代碼類別
+setCode(code);//代碼
+setCodeRemark(codeRemark);//代碼說明
+setCodeNote(codeNote);//代碼備註
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+
+pageBean.getCodekind(),//代碼類別
+pageBean.getCode(),//代碼
+pageBean.getCodeRemark(),//代碼說明
+pageBean.getCodeNote(),//代碼備註
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+
+pageBean.setValue("CODEKIND", this.getCodekind());//代碼類別
+pageBean.setValue("CODE", this.getCode());//代碼
+pageBean.setValue("CODE_REMARK", this.getCodeRemark());//代碼說明
+pageBean.setValue("CODE_NOTE", this.getCodeNote());//代碼備註
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+
+pageBean.setValue("CODEKIND", "代碼類別");//代碼類別
+pageBean.setValue("CODE", "代碼");//代碼
+pageBean.setValue("CODE_REMARK", "代碼說明");//代碼說明
+pageBean.setValue("CODE_NOTE", "代碼備註");//代碼備註
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+
+",代碼類別"+"(codekind)="+pageBean.getCodekind()+
+",代碼"+"(code)="+pageBean.getCode()+
+",代碼說明"+"(codeRemark)="+pageBean.getCodeRemark()+
+",代碼備註"+"(codeNote)="+pageBean.getCodeNote()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+

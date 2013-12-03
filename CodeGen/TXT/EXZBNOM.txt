@@ -1,0 +1,151 @@
+pageBean.handlingCustoms=理單關別
+pageBean.rocYears=民國年度
+pageBean.handlingType=理單類別
+pageBean.bagNo=編袋號碼
+pageBean.bagSequenceNo=編袋序號
+
+pageBean.handlingCustoms=handlingCustoms
+pageBean.rocYears=rocYears
+pageBean.handlingType=handlingType
+pageBean.bagNo=bagNo
+pageBean.bagSequenceNo=bagSequenceNo
+
+<!--handlingCustoms:理單關別-->
+<tr>
+<td>
+	<s:text name="handlingCustoms"/>
+	<s:textfield name="pageBean.handlingCustoms" />
+</td>
+</tr>
+
+<!--rocYears:民國年度-->
+<tr>
+<td>
+	<s:text name="rocYears"/>
+	<s:textfield name="pageBean.rocYears" />
+</td>
+</tr>
+
+<!--handlingType:理單類別-->
+<tr>
+<td>
+	<s:text name="handlingType"/>
+	<s:textfield name="pageBean.handlingType" />
+</td>
+</tr>
+
+<!--bagNo:編袋號碼-->
+<tr>
+<td>
+	<s:text name="bagNo"/>
+	<s:textfield name="pageBean.bagNo" />
+</td>
+</tr>
+
+<!--bagSequenceNo:編袋序號-->
+<tr>
+<td>
+	<s:text name="bagSequenceNo"/>
+	<s:textfield name="pageBean.bagSequenceNo" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="HANDLING_CUSTOMS" index="HANDLING_CUSTOMS" title="%{getText('handlingCustoms')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_CUSTOMS:理單關別:handlingCustoms--%>
+<sjg:gridColumn name="ROC_YEARS" index="ROC_YEARS" title="%{getText('rocYears')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ROC_YEARS:民國年度:rocYears--%>
+<sjg:gridColumn name="HANDLING_TYPE" index="HANDLING_TYPE" title="%{getText('handlingType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_TYPE:理單類別:handlingType--%>
+<sjg:gridColumn name="BAG_NO" index="BAG_NO" title="%{getText('bagNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAG_NO:編袋號碼:bagNo--%>
+<sjg:gridColumn name="BAG_SEQUENCE_NO" index="BAG_SEQUENCE_NO" title="%{getText('bagSequenceNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAG_SEQUENCE_NO:編袋序號:bagSequenceNo--%>
+
+,A.HANDLING_CUSTOMS
+,A.ROC_YEARS
+,A.HANDLING_TYPE
+,A.BAG_NO
+,A.BAG_SEQUENCE_NO
+
+<condition key="HANDLING_CUSTOMS" ignoreEmpty="true" >HANDLING_CUSTOMS like ${HANDLING_CUSTOMS}</condition>
+<condition key="ROC_YEARS" ignoreEmpty="true" >ROC_YEARS like ${ROC_YEARS}</condition>
+<condition key="HANDLING_TYPE" ignoreEmpty="true" >HANDLING_TYPE like ${HANDLING_TYPE}</condition>
+<condition key="BAG_NO" ignoreEmpty="true" >BAG_NO like ${BAG_NO}</condition>
+<condition key="BAG_SEQUENCE_NO" ignoreEmpty="true" >BAG_SEQUENCE_NO like ${BAG_SEQUENCE_NO}</condition>
+
+<condition key="HANDLING_CUSTOMS_S" ignoreEmpty="true" >HANDLING_CUSTOMS >= ${HANDLING_CUSTOMS_S}</condition><condition key="HANDLING_CUSTOMS_E" ignoreEmpty="true" >${HANDLING_CUSTOMS_E} >= HANDLING_CUSTOMS</condition>
+<condition key="ROC_YEARS_S" ignoreEmpty="true" >ROC_YEARS >= ${ROC_YEARS_S}</condition><condition key="ROC_YEARS_E" ignoreEmpty="true" >${ROC_YEARS_E} >= ROC_YEARS</condition>
+<condition key="HANDLING_TYPE_S" ignoreEmpty="true" >HANDLING_TYPE >= ${HANDLING_TYPE_S}</condition><condition key="HANDLING_TYPE_E" ignoreEmpty="true" >${HANDLING_TYPE_E} >= HANDLING_TYPE</condition>
+<condition key="BAG_NO_S" ignoreEmpty="true" >BAG_NO >= ${BAG_NO_S}</condition><condition key="BAG_NO_E" ignoreEmpty="true" >${BAG_NO_E} >= BAG_NO</condition>
+<condition key="BAG_SEQUENCE_NO_S" ignoreEmpty="true" >BAG_SEQUENCE_NO >= ${BAG_SEQUENCE_NO_S}</condition><condition key="BAG_SEQUENCE_NO_E" ignoreEmpty="true" >${BAG_SEQUENCE_NO_E} >= BAG_SEQUENCE_NO</condition>
+
+//理單關別
+//pageBean.setHandlingCustoms(randomBean.getHandlingCustoms());
+//民國年度
+//pageBean.setRocYears(randomBean.getRocYears());
+//理單類別
+//pageBean.setHandlingType(randomBean.getHandlingType());
+//編袋號碼
+//pageBean.setBagNo(randomBean.getBagNo());
+//編袋序號
+//pageBean.setBagSequenceNo(randomBean.getBagSequenceNo());
+
+$('#pageBean_handlingCustoms').attr('value',rowData.HANDLING_CUSTOMS);
+$('#pageBean_rocYears').attr('value',rowData.ROC_YEARS);
+$('#pageBean_handlingType').attr('value',rowData.HANDLING_TYPE);
+$('#pageBean_bagNo').attr('value',rowData.BAG_NO);
+$('#pageBean_bagSequenceNo').attr('value',rowData.BAG_SEQUENCE_NO);
+
+$('#pageBean_handlingCustoms').attr("value", "");
+$('#pageBean_rocYears').attr("value", "");
+$('#pageBean_handlingType').attr("value", "");
+$('#pageBean_bagNo').attr("value", "");
+$('#pageBean_bagSequenceNo').attr("value", "");
+
+HANDLING_CUSTOMS:$('#pageBean_handlingCustoms').val(),//理單關別
+ROC_YEARS:$('#pageBean_rocYears').val(),//民國年度
+HANDLING_TYPE:$('#pageBean_handlingType').val(),//理單類別
+BAG_NO:$('#pageBean_bagNo').val(),//編袋號碼
+BAG_SEQUENCE_NO:$('#pageBean_bagSequenceNo').val(),//編袋序號
+
+//理單關別
+//pageBean.setHandlingCustoms(dataObjects.getString("HANDLING_CUSTOMS"));
+//民國年度
+//pageBean.setRocYears(dataObjects.getString("ROC_YEARS"));
+//理單類別
+//pageBean.setHandlingType(dataObjects.getString("HANDLING_TYPE"));
+//編袋號碼
+//pageBean.setBagNo(dataObjects.getString("BAG_NO"));
+//編袋序號
+//pageBean.setBagSequenceNo(dataObjects.getString("BAG_SEQUENCE_NO"));
+
+private String handlingCustoms;//理單關別
+private String rocYears;//民國年度
+private String handlingType;//理單類別
+private String bagNo;//編袋號碼
+private String bagSequenceNo;//編袋序號
+
+setHandlingCustoms(pageBean.getHandlingCustoms());//理單關別
+setRocYears(pageBean.getRocYears());//民國年度
+setHandlingType(pageBean.getHandlingType());//理單類別
+setBagNo(pageBean.getBagNo());//編袋號碼
+setBagSequenceNo(pageBean.getBagSequenceNo());//編袋序號
+
+setHandlingCustoms(handlingCustoms);//理單關別
+setRocYears(rocYears);//民國年度
+setHandlingType(handlingType);//理單類別
+setBagNo(bagNo);//編袋號碼
+setBagSequenceNo(bagSequenceNo);//編袋序號
+
+pageBean.getHandlingCustoms(),//理單關別
+pageBean.getRocYears(),//民國年度
+pageBean.getHandlingType(),//理單類別
+pageBean.getBagNo(),//編袋號碼
+pageBean.getBagSequenceNo(),//編袋序號
+
+",理單關別"+"(handlingCustoms)="+pageBean.getHandlingCustoms()+
+",民國年度"+"(rocYears)="+pageBean.getRocYears()+
+",理單類別"+"(handlingType)="+pageBean.getHandlingType()+
+",編袋號碼"+"(bagNo)="+pageBean.getBagNo()+
+",編袋序號"+"(bagSequenceNo)="+pageBean.getBagSequenceNo()+

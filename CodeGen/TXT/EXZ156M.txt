@@ -1,0 +1,259 @@
+pageBean.declDate=報關日期
+pageBean.voyageFlightNo=船舶航機班次
+pageBean.onBoardCourierBan=快遞專差統一編號
+pageBean.mawb=託運單主號
+pageBean.totPackQty=總件數
+pageBean.packUnit=件數單位
+pageBean.totTwdFob=總離岸價格(台幣)
+pageBean.currencyRate=當旬匯率
+pageBean.totUsdFob=總離岸價格(美金)
+
+pageBean.declDate=declDate
+pageBean.voyageFlightNo=voyageFlightNo
+pageBean.onBoardCourierBan=onBoardCourierBan
+pageBean.mawb=mawb
+pageBean.totPackQty=totPackQty
+pageBean.packUnit=packUnit
+pageBean.totTwdFob=totTwdFob
+pageBean.currencyRate=currencyRate
+pageBean.totUsdFob=totUsdFob
+
+<!--declDate:報關日期-->
+<tr>
+<td>
+	<s:text name="declDate"/>
+	<s:textfield name="pageBean.declDate" />
+</td>
+</tr>
+
+<!--voyageFlightNo:船舶航機班次-->
+<tr>
+<td>
+	<s:text name="voyageFlightNo"/>
+	<s:textfield name="pageBean.voyageFlightNo" />
+</td>
+</tr>
+
+<!--onBoardCourierBan:快遞專差統一編號-->
+<tr>
+<td>
+	<s:text name="onBoardCourierBan"/>
+	<s:textfield name="pageBean.onBoardCourierBan" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--totPackQty:總件數-->
+<tr>
+<td>
+	<s:text name="totPackQty"/>
+	<s:textfield name="pageBean.totPackQty" />
+</td>
+</tr>
+
+<!--packUnit:件數單位-->
+<tr>
+<td>
+	<s:text name="packUnit"/>
+	<s:textfield name="pageBean.packUnit" />
+</td>
+</tr>
+
+<!--totTwdFob:總離岸價格(台幣)-->
+<tr>
+<td>
+	<s:text name="totTwdFob"/>
+	<s:textfield name="pageBean.totTwdFob" />
+</td>
+</tr>
+
+<!--currencyRate:當旬匯率-->
+<tr>
+<td>
+	<s:text name="currencyRate"/>
+	<s:textfield name="pageBean.currencyRate" />
+</td>
+</tr>
+
+<!--totUsdFob:總離岸價格(美金)-->
+<tr>
+<td>
+	<s:text name="totUsdFob"/>
+	<s:textfield name="pageBean.totUsdFob" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="DECL_DATE" index="DECL_DATE" title="%{getText('declDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_DATE:報關日期:declDate--%>
+<sjg:gridColumn name="VOYAGE_FLIGHT_NO" index="VOYAGE_FLIGHT_NO" title="%{getText('voyageFlightNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VOYAGE_FLIGHT_NO:船舶航機班次:voyageFlightNo--%>
+<sjg:gridColumn name="ON_BOARD_COURIER_BAN" index="ON_BOARD_COURIER_BAN" title="%{getText('onBoardCourierBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ON_BOARD_COURIER_BAN:快遞專差統一編號:onBoardCourierBan--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="TOT_PACK_QTY" index="TOT_PACK_QTY" title="%{getText('totPackQty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_PACK_QTY:總件數:totPackQty--%>
+<sjg:gridColumn name="PACK_UNIT" index="PACK_UNIT" title="%{getText('packUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PACK_UNIT:件數單位:packUnit--%>
+<sjg:gridColumn name="TOT_TWD_FOB" index="TOT_TWD_FOB" title="%{getText('totTwdFob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_TWD_FOB:總離岸價格(台幣):totTwdFob--%>
+<sjg:gridColumn name="CURRENCY_RATE" index="CURRENCY_RATE" title="%{getText('currencyRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CURRENCY_RATE:當旬匯率:currencyRate--%>
+<sjg:gridColumn name="TOT_USD_FOB" index="TOT_USD_FOB" title="%{getText('totUsdFob')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_USD_FOB:總離岸價格(美金):totUsdFob--%>
+
+,A.DECL_DATE
+,A.VOYAGE_FLIGHT_NO
+,A.ON_BOARD_COURIER_BAN
+,A.MAWB
+,A.TOT_PACK_QTY
+,A.PACK_UNIT
+,A.TOT_TWD_FOB
+,A.CURRENCY_RATE
+,A.TOT_USD_FOB
+
+<condition key="DECL_DATE" ignoreEmpty="true" >DECL_DATE like ${DECL_DATE}</condition>
+<condition key="VOYAGE_FLIGHT_NO" ignoreEmpty="true" >VOYAGE_FLIGHT_NO like ${VOYAGE_FLIGHT_NO}</condition>
+<condition key="ON_BOARD_COURIER_BAN" ignoreEmpty="true" >ON_BOARD_COURIER_BAN like ${ON_BOARD_COURIER_BAN}</condition>
+<condition key="MAWB" ignoreEmpty="true" >MAWB like ${MAWB}</condition>
+<condition key="TOT_PACK_QTY" ignoreEmpty="true" >TOT_PACK_QTY like ${TOT_PACK_QTY}</condition>
+<condition key="PACK_UNIT" ignoreEmpty="true" >PACK_UNIT like ${PACK_UNIT}</condition>
+<condition key="TOT_TWD_FOB" ignoreEmpty="true" >TOT_TWD_FOB like ${TOT_TWD_FOB}</condition>
+<condition key="CURRENCY_RATE" ignoreEmpty="true" >CURRENCY_RATE like ${CURRENCY_RATE}</condition>
+<condition key="TOT_USD_FOB" ignoreEmpty="true" >TOT_USD_FOB like ${TOT_USD_FOB}</condition>
+
+<condition key="DECL_DATE_S" ignoreEmpty="true" >DECL_DATE >= ${DECL_DATE_S}</condition><condition key="DECL_DATE_E" ignoreEmpty="true" >${DECL_DATE_E} >= DECL_DATE</condition>
+<condition key="VOYAGE_FLIGHT_NO_S" ignoreEmpty="true" >VOYAGE_FLIGHT_NO >= ${VOYAGE_FLIGHT_NO_S}</condition><condition key="VOYAGE_FLIGHT_NO_E" ignoreEmpty="true" >${VOYAGE_FLIGHT_NO_E} >= VOYAGE_FLIGHT_NO</condition>
+<condition key="ON_BOARD_COURIER_BAN_S" ignoreEmpty="true" >ON_BOARD_COURIER_BAN >= ${ON_BOARD_COURIER_BAN_S}</condition><condition key="ON_BOARD_COURIER_BAN_E" ignoreEmpty="true" >${ON_BOARD_COURIER_BAN_E} >= ON_BOARD_COURIER_BAN</condition>
+<condition key="MAWB_S" ignoreEmpty="true" >MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true" >${MAWB_E} >= MAWB</condition>
+<condition key="TOT_PACK_QTY_S" ignoreEmpty="true" >TOT_PACK_QTY >= ${TOT_PACK_QTY_S}</condition><condition key="TOT_PACK_QTY_E" ignoreEmpty="true" >${TOT_PACK_QTY_E} >= TOT_PACK_QTY</condition>
+<condition key="PACK_UNIT_S" ignoreEmpty="true" >PACK_UNIT >= ${PACK_UNIT_S}</condition><condition key="PACK_UNIT_E" ignoreEmpty="true" >${PACK_UNIT_E} >= PACK_UNIT</condition>
+<condition key="TOT_TWD_FOB_S" ignoreEmpty="true" >TOT_TWD_FOB >= ${TOT_TWD_FOB_S}</condition><condition key="TOT_TWD_FOB_E" ignoreEmpty="true" >${TOT_TWD_FOB_E} >= TOT_TWD_FOB</condition>
+<condition key="CURRENCY_RATE_S" ignoreEmpty="true" >CURRENCY_RATE >= ${CURRENCY_RATE_S}</condition><condition key="CURRENCY_RATE_E" ignoreEmpty="true" >${CURRENCY_RATE_E} >= CURRENCY_RATE</condition>
+<condition key="TOT_USD_FOB_S" ignoreEmpty="true" >TOT_USD_FOB >= ${TOT_USD_FOB_S}</condition><condition key="TOT_USD_FOB_E" ignoreEmpty="true" >${TOT_USD_FOB_E} >= TOT_USD_FOB</condition>
+
+//報關日期
+//pageBean.setDeclDate(randomBean.getDeclDate());
+//船舶航機班次
+//pageBean.setVoyageFlightNo(randomBean.getVoyageFlightNo());
+//快遞專差統一編號
+//pageBean.setOnBoardCourierBan(randomBean.getOnBoardCourierBan());
+//託運單主號
+//pageBean.setMawb(randomBean.getMawb());
+//總件數
+//pageBean.setTotPackQty(randomBean.getTotPackQty());
+//件數單位
+//pageBean.setPackUnit(randomBean.getPackUnit());
+//總離岸價格(台幣)
+//pageBean.setTotTwdFob(randomBean.getTotTwdFob());
+//當旬匯率
+//pageBean.setCurrencyRate(randomBean.getCurrencyRate());
+//總離岸價格(美金)
+//pageBean.setTotUsdFob(randomBean.getTotUsdFob());
+
+$('#pageBean_declDate').attr('value',rowData.DECL_DATE);
+$('#pageBean_voyageFlightNo').attr('value',rowData.VOYAGE_FLIGHT_NO);
+$('#pageBean_onBoardCourierBan').attr('value',rowData.ON_BOARD_COURIER_BAN);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_totPackQty').attr('value',rowData.TOT_PACK_QTY);
+$('#pageBean_packUnit').attr('value',rowData.PACK_UNIT);
+$('#pageBean_totTwdFob').attr('value',rowData.TOT_TWD_FOB);
+$('#pageBean_currencyRate').attr('value',rowData.CURRENCY_RATE);
+$('#pageBean_totUsdFob').attr('value',rowData.TOT_USD_FOB);
+
+$('#pageBean_declDate').attr("value", "");
+$('#pageBean_voyageFlightNo').attr("value", "");
+$('#pageBean_onBoardCourierBan').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_totPackQty').attr("value", "");
+$('#pageBean_packUnit').attr("value", "");
+$('#pageBean_totTwdFob').attr("value", "");
+$('#pageBean_currencyRate').attr("value", "");
+$('#pageBean_totUsdFob').attr("value", "");
+
+DECL_DATE:$('#pageBean_declDate').val(),//報關日期
+VOYAGE_FLIGHT_NO:$('#pageBean_voyageFlightNo').val(),//船舶航機班次
+ON_BOARD_COURIER_BAN:$('#pageBean_onBoardCourierBan').val(),//快遞專差統一編號
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+TOT_PACK_QTY:$('#pageBean_totPackQty').val(),//總件數
+PACK_UNIT:$('#pageBean_packUnit').val(),//件數單位
+TOT_TWD_FOB:$('#pageBean_totTwdFob').val(),//總離岸價格(台幣)
+CURRENCY_RATE:$('#pageBean_currencyRate').val(),//當旬匯率
+TOT_USD_FOB:$('#pageBean_totUsdFob').val(),//總離岸價格(美金)
+
+//報關日期
+//pageBean.setDeclDate(dataObjects.getString("DECL_DATE"));
+//船舶航機班次
+//pageBean.setVoyageFlightNo(dataObjects.getString("VOYAGE_FLIGHT_NO"));
+//快遞專差統一編號
+//pageBean.setOnBoardCourierBan(dataObjects.getString("ON_BOARD_COURIER_BAN"));
+//託運單主號
+//pageBean.setMawb(dataObjects.getString("MAWB"));
+//總件數
+//pageBean.setTotPackQty(dataObjects.getString("TOT_PACK_QTY"));
+//件數單位
+//pageBean.setPackUnit(dataObjects.getString("PACK_UNIT"));
+//總離岸價格(台幣)
+//pageBean.setTotTwdFob(dataObjects.getString("TOT_TWD_FOB"));
+//當旬匯率
+//pageBean.setCurrencyRate(dataObjects.getString("CURRENCY_RATE"));
+//總離岸價格(美金)
+//pageBean.setTotUsdFob(dataObjects.getString("TOT_USD_FOB"));
+
+private Timestamp declDate;//報關日期
+private String voyageFlightNo;//船舶航機班次
+private String onBoardCourierBan;//快遞專差統一編號
+private String mawb;//託運單主號
+private BigDecimal totPackQty;//總件數
+private String packUnit;//件數單位
+private String totTwdFob;//總離岸價格(台幣)
+private BigDecimal currencyRate;//當旬匯率
+private String totUsdFob;//總離岸價格(美金)
+
+setDeclDate(pageBean.getDeclDate());//報關日期
+setVoyageFlightNo(pageBean.getVoyageFlightNo());//船舶航機班次
+setOnBoardCourierBan(pageBean.getOnBoardCourierBan());//快遞專差統一編號
+setMawb(pageBean.getMawb());//託運單主號
+setTotPackQty(pageBean.getTotPackQty());//總件數
+setPackUnit(pageBean.getPackUnit());//件數單位
+setTotTwdFob(pageBean.getTotTwdFob());//總離岸價格(台幣)
+setCurrencyRate(pageBean.getCurrencyRate());//當旬匯率
+setTotUsdFob(pageBean.getTotUsdFob());//總離岸價格(美金)
+
+setDeclDate(declDate);//報關日期
+setVoyageFlightNo(voyageFlightNo);//船舶航機班次
+setOnBoardCourierBan(onBoardCourierBan);//快遞專差統一編號
+setMawb(mawb);//託運單主號
+setTotPackQty(totPackQty);//總件數
+setPackUnit(packUnit);//件數單位
+setTotTwdFob(totTwdFob);//總離岸價格(台幣)
+setCurrencyRate(currencyRate);//當旬匯率
+setTotUsdFob(totUsdFob);//總離岸價格(美金)
+
+pageBean.getDeclDate(),//報關日期
+pageBean.getVoyageFlightNo(),//船舶航機班次
+pageBean.getOnBoardCourierBan(),//快遞專差統一編號
+pageBean.getMawb(),//託運單主號
+pageBean.getTotPackQty(),//總件數
+pageBean.getPackUnit(),//件數單位
+pageBean.getTotTwdFob(),//總離岸價格(台幣)
+pageBean.getCurrencyRate(),//當旬匯率
+pageBean.getTotUsdFob(),//總離岸價格(美金)
+
+",報關日期"+"(declDate)="+pageBean.getDeclDate()+
+",船舶航機班次"+"(voyageFlightNo)="+pageBean.getVoyageFlightNo()+
+",快遞專差統一編號"+"(onBoardCourierBan)="+pageBean.getOnBoardCourierBan()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",總件數"+"(totPackQty)="+pageBean.getTotPackQty()+
+",件數單位"+"(packUnit)="+pageBean.getPackUnit()+
+",總離岸價格(台幣)"+"(totTwdFob)="+pageBean.getTotTwdFob()+
+",當旬匯率"+"(currencyRate)="+pageBean.getCurrencyRate()+
+",總離岸價格(美金)"+"(totUsdFob)="+pageBean.getTotUsdFob()+

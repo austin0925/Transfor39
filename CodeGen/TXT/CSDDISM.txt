@@ -1,0 +1,533 @@
+pageBean.custCd=承辦員-關別
+pageBean.tfType=作業別
+pageBean.tfDocNo=案件編號
+pageBean.tfDocKind=疑義複核案件註記
+pageBean.tfPerson=承辦員編號
+pageBean.tfSclsDate=實際辦結日期
+pageBean.tfAclsDate=實際辦結日期
+pageBean.tfComm=承辦員簽註意見(預審總局:本案簽復)
+pageBean.tfCommChk=簽註陳核完成
+pageBean.tfImp=四關進口紀錄
+pageBean.tfSecond=總局複核註記
+pageBean.tfFlag=總局特殊註記
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+pageBean.aiSampleCase=預審_總局_分類案例簡述
+pageBean.aiComm=預審_總局_本處分類意見
+
+pageBean.custCd=custCd
+pageBean.tfType=tfType
+pageBean.tfDocNo=tfDocNo
+pageBean.tfDocKind=tfDocKind
+pageBean.tfPerson=tfPerson
+pageBean.tfSclsDate=tfSclsDate
+pageBean.tfAclsDate=tfAclsDate
+pageBean.tfComm=tfComm
+pageBean.tfCommChk=tfCommChk
+pageBean.tfImp=tfImp
+pageBean.tfSecond=tfSecond
+pageBean.tfFlag=tfFlag
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+pageBean.aiSampleCase=aiSampleCase
+pageBean.aiComm=aiComm
+
+<tr>
+	<td>
+		<!--custCd:承辦員-關別-->
+		<s:text name="pageBean.custCd"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.custCd"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfType:作業別-->
+		<s:text name="pageBean.tfType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfType"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDocNo:案件編號-->
+		<s:text name="pageBean.tfDocNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDocKind:疑義複核案件註記-->
+		<s:text name="pageBean.tfDocKind"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocKind"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPerson:承辦員編號-->
+		<s:text name="pageBean.tfPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSclsDate:實際辦結日期-->
+		<s:text name="pageBean.tfSclsDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSclsDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAclsDate:實際辦結日期-->
+		<s:text name="pageBean.tfAclsDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAclsDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfComm:承辦員簽註意見(預審總局:本案簽復)-->
+		<s:text name="pageBean.tfComm"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfComm"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfCommChk:簽註陳核完成-->
+		<s:text name="pageBean.tfCommChk"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCommChk"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfImp:四關進口紀錄-->
+		<s:text name="pageBean.tfImp"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfImp"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecond:總局複核註記-->
+		<s:text name="pageBean.tfSecond"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecond"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFlag:總局特殊註記-->
+		<s:text name="pageBean.tfFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--aiSampleCase:預審_總局_分類案例簡述-->
+		<s:text name="pageBean.aiSampleCase"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.aiSampleCase"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--aiComm:預審_總局_本處分類意見-->
+		<s:text name="pageBean.aiComm"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.aiComm"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.custCd"/><!--custCd:承辦員-關別-->
+<s:hidden name="pageBean.tfType"/><!--tfType:作業別-->
+<s:hidden name="pageBean.tfDocNo"/><!--tfDocNo:案件編號-->
+<s:hidden name="pageBean.tfDocKind"/><!--tfDocKind:疑義複核案件註記-->
+<s:hidden name="pageBean.tfPerson"/><!--tfPerson:承辦員編號-->
+<s:hidden name="pageBean.tfSclsDate"/><!--tfSclsDate:實際辦結日期-->
+<s:hidden name="pageBean.tfAclsDate"/><!--tfAclsDate:實際辦結日期-->
+<s:hidden name="pageBean.tfComm"/><!--tfComm:承辦員簽註意見(預審總局:本案簽復)-->
+<s:hidden name="pageBean.tfCommChk"/><!--tfCommChk:簽註陳核完成-->
+<s:hidden name="pageBean.tfImp"/><!--tfImp:四關進口紀錄-->
+<s:hidden name="pageBean.tfSecond"/><!--tfSecond:總局複核註記-->
+<s:hidden name="pageBean.tfFlag"/><!--tfFlag:總局特殊註記-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.aiSampleCase"/><!--aiSampleCase:預審_總局_分類案例簡述-->
+<s:hidden name="pageBean.aiComm"/><!--aiComm:預審_總局_本處分類意見-->
+
+<%--CUST_CD:承辦員-關別:custCd--%>
+<sjg:gridColumn name="CUST_CD" index="CUST_CD" title="%{getText('custCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_TYPE:作業別:tfType--%>
+<sjg:gridColumn name="TF_TYPE" index="TF_TYPE" title="%{getText('tfType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DOC_NO:案件編號:tfDocNo--%>
+<sjg:gridColumn name="TF_DOC_NO" index="TF_DOC_NO" title="%{getText('tfDocNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DOC_KIND:疑義複核案件註記:tfDocKind--%>
+<sjg:gridColumn name="TF_DOC_KIND" index="TF_DOC_KIND" title="%{getText('tfDocKind')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON:承辦員編號:tfPerson--%>
+<sjg:gridColumn name="TF_PERSON" index="TF_PERSON" title="%{getText('tfPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SCLS_DATE:實際辦結日期:tfSclsDate--%>
+<sjg:gridColumn name="TF_SCLS_DATE" index="TF_SCLS_DATE" title="%{getText('tfSclsDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ACLS_DATE:實際辦結日期:tfAclsDate--%>
+<sjg:gridColumn name="TF_ACLS_DATE" index="TF_ACLS_DATE" title="%{getText('tfAclsDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_COMM:承辦員簽註意見(預審總局:本案簽復):tfComm--%>
+<sjg:gridColumn name="TF_COMM" index="TF_COMM" title="%{getText('tfComm')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_COMM_CHK:簽註陳核完成:tfCommChk--%>
+<sjg:gridColumn name="TF_COMM_CHK" index="TF_COMM_CHK" title="%{getText('tfCommChk')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_IMP:四關進口紀錄:tfImp--%>
+<sjg:gridColumn name="TF_IMP" index="TF_IMP" title="%{getText('tfImp')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND:總局複核註記:tfSecond--%>
+<sjg:gridColumn name="TF_SECOND" index="TF_SECOND" title="%{getText('tfSecond')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FLAG:總局特殊註記:tfFlag--%>
+<sjg:gridColumn name="TF_FLAG" index="TF_FLAG" title="%{getText('tfFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AI_SAMPLE_CASE:預審_總局_分類案例簡述:aiSampleCase--%>
+<sjg:gridColumn name="AI_SAMPLE_CASE" index="AI_SAMPLE_CASE" title="%{getText('aiSampleCase')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AI_COMM:預審_總局_本處分類意見:aiComm--%>
+<sjg:gridColumn name="AI_COMM" index="AI_COMM" title="%{getText('aiComm')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.CUST_CD
+,A.TF_TYPE
+,A.TF_DOC_NO
+,A.TF_DOC_KIND
+,A.TF_PERSON
+,A.TF_SCLS_DATE
+,A.TF_ACLS_DATE
+,A.TF_COMM
+,A.TF_COMM_CHK
+,A.TF_IMP
+,A.TF_SECOND
+,A.TF_FLAG
+,A.UP_PERSON
+,A.UP_DATE
+,A.AI_SAMPLE_CASE
+,A.AI_COMM
+
+<condition key="CUST_CD" ignoreEmpty="true">CUST_CD = ${CUST_CD}</condition>
+<condition key="TF_TYPE" ignoreEmpty="true">TF_TYPE = ${TF_TYPE}</condition>
+<condition key="TF_DOC_NO" ignoreEmpty="true">TF_DOC_NO = ${TF_DOC_NO}</condition>
+<condition key="TF_DOC_KIND" ignoreEmpty="true">TF_DOC_KIND = ${TF_DOC_KIND}</condition>
+<condition key="TF_PERSON" ignoreEmpty="true">TF_PERSON = ${TF_PERSON}</condition>
+<condition key="TF_SCLS_DATE" ignoreEmpty="true">TF_SCLS_DATE = ${TF_SCLS_DATE}</condition>
+<condition key="TF_ACLS_DATE" ignoreEmpty="true">TF_ACLS_DATE = ${TF_ACLS_DATE}</condition>
+<condition key="TF_COMM" ignoreEmpty="true">TF_COMM = ${TF_COMM}</condition>
+<condition key="TF_COMM_CHK" ignoreEmpty="true">TF_COMM_CHK = ${TF_COMM_CHK}</condition>
+<condition key="TF_IMP" ignoreEmpty="true">TF_IMP = ${TF_IMP}</condition>
+<condition key="TF_SECOND" ignoreEmpty="true">TF_SECOND = ${TF_SECOND}</condition>
+<condition key="TF_FLAG" ignoreEmpty="true">TF_FLAG = ${TF_FLAG}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="AI_SAMPLE_CASE" ignoreEmpty="true">AI_SAMPLE_CASE = ${AI_SAMPLE_CASE}</condition>
+<condition key="AI_COMM" ignoreEmpty="true">AI_COMM = ${AI_COMM}</condition>
+
+<condition key="CUST_CD_S" ignoreEmpty="true">CUST_CD >= ${CUST_CD_S}</condition><condition key="CUST_CD_E" ignoreEmpty="true">${CUST_CD_E} >= CUST_CD</condition><condition key="CUST_CD_L" ignoreEmpty="true">CUST_CD like ${CUST_CD_L}</condition>
+<condition key="TF_TYPE_S" ignoreEmpty="true">TF_TYPE >= ${TF_TYPE_S}</condition><condition key="TF_TYPE_E" ignoreEmpty="true">${TF_TYPE_E} >= TF_TYPE</condition><condition key="TF_TYPE_L" ignoreEmpty="true">TF_TYPE like ${TF_TYPE_L}</condition>
+<condition key="TF_DOC_NO_S" ignoreEmpty="true">TF_DOC_NO >= ${TF_DOC_NO_S}</condition><condition key="TF_DOC_NO_E" ignoreEmpty="true">${TF_DOC_NO_E} >= TF_DOC_NO</condition><condition key="TF_DOC_NO_L" ignoreEmpty="true">TF_DOC_NO like ${TF_DOC_NO_L}</condition>
+<condition key="TF_DOC_KIND_S" ignoreEmpty="true">TF_DOC_KIND >= ${TF_DOC_KIND_S}</condition><condition key="TF_DOC_KIND_E" ignoreEmpty="true">${TF_DOC_KIND_E} >= TF_DOC_KIND</condition><condition key="TF_DOC_KIND_L" ignoreEmpty="true">TF_DOC_KIND like ${TF_DOC_KIND_L}</condition>
+<condition key="TF_PERSON_S" ignoreEmpty="true">TF_PERSON >= ${TF_PERSON_S}</condition><condition key="TF_PERSON_E" ignoreEmpty="true">${TF_PERSON_E} >= TF_PERSON</condition><condition key="TF_PERSON_L" ignoreEmpty="true">TF_PERSON like ${TF_PERSON_L}</condition>
+<condition key="TF_SCLS_DATE_S" ignoreEmpty="true">TF_SCLS_DATE >= ${TF_SCLS_DATE_S}</condition><condition key="TF_SCLS_DATE_E" ignoreEmpty="true">${TF_SCLS_DATE_E} >= TF_SCLS_DATE</condition><condition key="TF_SCLS_DATE_L" ignoreEmpty="true">TF_SCLS_DATE like ${TF_SCLS_DATE_L}</condition>
+<condition key="TF_ACLS_DATE_S" ignoreEmpty="true">TF_ACLS_DATE >= ${TF_ACLS_DATE_S}</condition><condition key="TF_ACLS_DATE_E" ignoreEmpty="true">${TF_ACLS_DATE_E} >= TF_ACLS_DATE</condition><condition key="TF_ACLS_DATE_L" ignoreEmpty="true">TF_ACLS_DATE like ${TF_ACLS_DATE_L}</condition>
+<condition key="TF_COMM_S" ignoreEmpty="true">TF_COMM >= ${TF_COMM_S}</condition><condition key="TF_COMM_E" ignoreEmpty="true">${TF_COMM_E} >= TF_COMM</condition><condition key="TF_COMM_L" ignoreEmpty="true">TF_COMM like ${TF_COMM_L}</condition>
+<condition key="TF_COMM_CHK_S" ignoreEmpty="true">TF_COMM_CHK >= ${TF_COMM_CHK_S}</condition><condition key="TF_COMM_CHK_E" ignoreEmpty="true">${TF_COMM_CHK_E} >= TF_COMM_CHK</condition><condition key="TF_COMM_CHK_L" ignoreEmpty="true">TF_COMM_CHK like ${TF_COMM_CHK_L}</condition>
+<condition key="TF_IMP_S" ignoreEmpty="true">TF_IMP >= ${TF_IMP_S}</condition><condition key="TF_IMP_E" ignoreEmpty="true">${TF_IMP_E} >= TF_IMP</condition><condition key="TF_IMP_L" ignoreEmpty="true">TF_IMP like ${TF_IMP_L}</condition>
+<condition key="TF_SECOND_S" ignoreEmpty="true">TF_SECOND >= ${TF_SECOND_S}</condition><condition key="TF_SECOND_E" ignoreEmpty="true">${TF_SECOND_E} >= TF_SECOND</condition><condition key="TF_SECOND_L" ignoreEmpty="true">TF_SECOND like ${TF_SECOND_L}</condition>
+<condition key="TF_FLAG_S" ignoreEmpty="true">TF_FLAG >= ${TF_FLAG_S}</condition><condition key="TF_FLAG_E" ignoreEmpty="true">${TF_FLAG_E} >= TF_FLAG</condition><condition key="TF_FLAG_L" ignoreEmpty="true">TF_FLAG like ${TF_FLAG_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="AI_SAMPLE_CASE_S" ignoreEmpty="true">AI_SAMPLE_CASE >= ${AI_SAMPLE_CASE_S}</condition><condition key="AI_SAMPLE_CASE_E" ignoreEmpty="true">${AI_SAMPLE_CASE_E} >= AI_SAMPLE_CASE</condition><condition key="AI_SAMPLE_CASE_L" ignoreEmpty="true">AI_SAMPLE_CASE like ${AI_SAMPLE_CASE_L}</condition>
+<condition key="AI_COMM_S" ignoreEmpty="true">AI_COMM >= ${AI_COMM_S}</condition><condition key="AI_COMM_E" ignoreEmpty="true">${AI_COMM_E} >= AI_COMM</condition><condition key="AI_COMM_L" ignoreEmpty="true">AI_COMM like ${AI_COMM_L}</condition>
+
+<field key="CUST_CD" name="CUST_CD" ignoreEmpty="true"/>
+<field key="TF_TYPE" name="TF_TYPE" ignoreEmpty="true"/>
+<field key="TF_DOC_NO" name="TF_DOC_NO" ignoreEmpty="true"/>
+<field key="TF_DOC_KIND" name="TF_DOC_KIND" ignoreEmpty="true"/>
+<field key="TF_PERSON" name="TF_PERSON" ignoreEmpty="true"/>
+<field key="TF_SCLS_DATE" name="TF_SCLS_DATE" ignoreEmpty="true"/>
+<field key="TF_ACLS_DATE" name="TF_ACLS_DATE" ignoreEmpty="true"/>
+<field key="TF_COMM" name="TF_COMM" ignoreEmpty="true"/>
+<field key="TF_COMM_CHK" name="TF_COMM_CHK" ignoreEmpty="true"/>
+<field key="TF_IMP" name="TF_IMP" ignoreEmpty="true"/>
+<field key="TF_SECOND" name="TF_SECOND" ignoreEmpty="true"/>
+<field key="TF_FLAG" name="TF_FLAG" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="AI_SAMPLE_CASE" name="AI_SAMPLE_CASE" ignoreEmpty="true"/>
+<field key="AI_COMM" name="AI_COMM" ignoreEmpty="true"/>
+
+$('#pageBean_custCd').attr('value',rowData.CUST_CD);
+$('#pageBean_tfType').attr('value',rowData.TF_TYPE);
+$('#pageBean_tfDocNo').attr('value',rowData.TF_DOC_NO);
+$('#pageBean_tfDocKind').attr('value',rowData.TF_DOC_KIND);
+$('#pageBean_tfPerson').attr('value',rowData.TF_PERSON);
+$('#pageBean_tfSclsDate').attr('value',rowData.TF_SCLS_DATE);
+$('#pageBean_tfAclsDate').attr('value',rowData.TF_ACLS_DATE);
+$('#pageBean_tfComm').attr('value',rowData.TF_COMM);
+$('#pageBean_tfCommChk').attr('value',rowData.TF_COMM_CHK);
+$('#pageBean_tfImp').attr('value',rowData.TF_IMP);
+$('#pageBean_tfSecond').attr('value',rowData.TF_SECOND);
+$('#pageBean_tfFlag').attr('value',rowData.TF_FLAG);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_aiSampleCase').attr('value',rowData.AI_SAMPLE_CASE);
+$('#pageBean_aiComm').attr('value',rowData.AI_COMM);
+
+$('#pageBean_custCd').attr("value", "");
+$('#pageBean_tfType').attr("value", "");
+$('#pageBean_tfDocNo').attr("value", "");
+$('#pageBean_tfDocKind').attr("value", "");
+$('#pageBean_tfPerson').attr("value", "");
+$('#pageBean_tfSclsDate').attr("value", "");
+$('#pageBean_tfAclsDate').attr("value", "");
+$('#pageBean_tfComm').attr("value", "");
+$('#pageBean_tfCommChk').attr("value", "");
+$('#pageBean_tfImp').attr("value", "");
+$('#pageBean_tfSecond').attr("value", "");
+$('#pageBean_tfFlag').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_aiSampleCase').attr("value", "");
+$('#pageBean_aiComm').attr("value", "");
+
+CUST_CD:$('#pageBean_custCd').val(),//承辦員-關別
+TF_TYPE:$('#pageBean_tfType').val(),//作業別
+TF_DOC_NO:$('#pageBean_tfDocNo').val(),//案件編號
+TF_DOC_KIND:$('#pageBean_tfDocKind').val(),//疑義複核案件註記
+TF_PERSON:$('#pageBean_tfPerson').val(),//承辦員編號
+TF_SCLS_DATE:$('#pageBean_tfSclsDate').val(),//實際辦結日期
+TF_ACLS_DATE:$('#pageBean_tfAclsDate').val(),//實際辦結日期
+TF_COMM:$('#pageBean_tfComm').val(),//承辦員簽註意見(預審總局:本案簽復)
+TF_COMM_CHK:$('#pageBean_tfCommChk').val(),//簽註陳核完成
+TF_IMP:$('#pageBean_tfImp').val(),//四關進口紀錄
+TF_SECOND:$('#pageBean_tfSecond').val(),//總局複核註記
+TF_FLAG:$('#pageBean_tfFlag').val(),//總局特殊註記
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+AI_SAMPLE_CASE:$('#pageBean_aiSampleCase').val(),//預審_總局_分類案例簡述
+AI_COMM:$('#pageBean_aiComm').val(),//預審_總局_本處分類意見
+
+pageBean.setCustCd(dataObjects.getString("CUST_CD"));//承辦員-關別
+pageBean.setTfType(dataObjects.getString("TF_TYPE"));//作業別
+pageBean.setTfDocNo(dataObjects.getString("TF_DOC_NO"));//案件編號
+pageBean.setTfDocKind(dataObjects.getString("TF_DOC_KIND"));//疑義複核案件註記
+pageBean.setTfPerson(dataObjects.getString("TF_PERSON"));//承辦員編號
+pageBean.setTfSclsDate((Date)dataObjects.getValue("TF_SCLS_DATE"));//實際辦結日期
+pageBean.setTfAclsDate((Date)dataObjects.getValue("TF_ACLS_DATE"));//實際辦結日期
+pageBean.setTfComm(dataObjects.getString("TF_COMM"));//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setTfCommChk(dataObjects.getString("TF_COMM_CHK"));//簽註陳核完成
+pageBean.setTfImp(dataObjects.getString("TF_IMP"));//四關進口紀錄
+pageBean.setTfSecond(dataObjects.getString("TF_SECOND"));//總局複核註記
+pageBean.setTfFlag(dataObjects.getString("TF_FLAG"));//總局特殊註記
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setAiSampleCase(dataObjects.getString("AI_SAMPLE_CASE"));//預審_總局_分類案例簡述
+pageBean.setAiComm(dataObjects.getString("AI_COMM"));//預審_總局_本處分類意見
+
+private String custCd = null;//承辦員-關別
+private String tfType = null;//作業別
+private String tfDocNo = null;//案件編號
+private String tfDocKind = null;//疑義複核案件註記
+private String tfPerson = null;//承辦員編號
+private Date tfSclsDate = null;//實際辦結日期
+private Date tfAclsDate = null;//實際辦結日期
+private String tfComm = null;//承辦員簽註意見(預審總局:本案簽復)
+private String tfCommChk = null;//簽註陳核完成
+private String tfImp = null;//四關進口紀錄
+private String tfSecond = null;//總局複核註記
+private String tfFlag = null;//總局特殊註記
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+private String aiSampleCase = null;//預審_總局_分類案例簡述
+private String aiComm = null;//預審_總局_本處分類意見
+
+pageBean.setCustCd("承辦員-關別");//承辦員-關別
+pageBean.setTfType("作業別");//作業別
+pageBean.setTfDocNo("案件編號");//案件編號
+pageBean.setTfDocKind("疑義複核案件註記");//疑義複核案件註記
+pageBean.setTfPerson("承辦員編號");//承辦員編號
+pageBean.setTfSclsDate("實際辦結日期");//實際辦結日期
+pageBean.setTfAclsDate("實際辦結日期");//實際辦結日期
+pageBean.setTfComm("承辦員簽註意見(預審總局:本案簽復)");//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setTfCommChk("簽註陳核完成");//簽註陳核完成
+pageBean.setTfImp("四關進口紀錄");//四關進口紀錄
+pageBean.setTfSecond("總局複核註記");//總局複核註記
+pageBean.setTfFlag("總局特殊註記");//總局特殊註記
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setAiSampleCase("預審_總局_分類案例簡述");//預審_總局_分類案例簡述
+pageBean.setAiComm("預審_總局_本處分類意見");//預審_總局_本處分類意見
+
+pageBean.setCustCd(custCd);//承辦員-關別
+pageBean.setTfType(tfType);//作業別
+pageBean.setTfDocNo(tfDocNo);//案件編號
+pageBean.setTfDocKind(tfDocKind);//疑義複核案件註記
+pageBean.setTfPerson(tfPerson);//承辦員編號
+pageBean.setTfSclsDate(tfSclsDate);//實際辦結日期
+pageBean.setTfAclsDate(tfAclsDate);//實際辦結日期
+pageBean.setTfComm(tfComm);//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setTfCommChk(tfCommChk);//簽註陳核完成
+pageBean.setTfImp(tfImp);//四關進口紀錄
+pageBean.setTfSecond(tfSecond);//總局複核註記
+pageBean.setTfFlag(tfFlag);//總局特殊註記
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setAiSampleCase(aiSampleCase);//預審_總局_分類案例簡述
+pageBean.setAiComm(aiComm);//預審_總局_本處分類意見
+
+pageBean.setCustCd(randomBean.getCustCd());//承辦員-關別
+pageBean.setTfType(randomBean.getTfType());//作業別
+pageBean.setTfDocNo(randomBean.getTfDocNo());//案件編號
+pageBean.setTfDocKind(randomBean.getTfDocKind());//疑義複核案件註記
+pageBean.setTfPerson(randomBean.getTfPerson());//承辦員編號
+pageBean.setTfSclsDate(randomBean.getTfSclsDate());//實際辦結日期
+pageBean.setTfAclsDate(randomBean.getTfAclsDate());//實際辦結日期
+pageBean.setTfComm(randomBean.getTfComm());//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setTfCommChk(randomBean.getTfCommChk());//簽註陳核完成
+pageBean.setTfImp(randomBean.getTfImp());//四關進口紀錄
+pageBean.setTfSecond(randomBean.getTfSecond());//總局複核註記
+pageBean.setTfFlag(randomBean.getTfFlag());//總局特殊註記
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setAiSampleCase(randomBean.getAiSampleCase());//預審_總局_分類案例簡述
+pageBean.setAiComm(randomBean.getAiComm());//預審_總局_本處分類意見
+
+setCustCd(custCd);//承辦員-關別
+setTfType(tfType);//作業別
+setTfDocNo(tfDocNo);//案件編號
+setTfDocKind(tfDocKind);//疑義複核案件註記
+setTfPerson(tfPerson);//承辦員編號
+setTfSclsDate(tfSclsDate);//實際辦結日期
+setTfAclsDate(tfAclsDate);//實際辦結日期
+setTfComm(tfComm);//承辦員簽註意見(預審總局:本案簽復)
+setTfCommChk(tfCommChk);//簽註陳核完成
+setTfImp(tfImp);//四關進口紀錄
+setTfSecond(tfSecond);//總局複核註記
+setTfFlag(tfFlag);//總局特殊註記
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+setAiSampleCase(aiSampleCase);//預審_總局_分類案例簡述
+setAiComm(aiComm);//預審_總局_本處分類意見
+
+pageBean.getCustCd(),//承辦員-關別
+pageBean.getTfType(),//作業別
+pageBean.getTfDocNo(),//案件編號
+pageBean.getTfDocKind(),//疑義複核案件註記
+pageBean.getTfPerson(),//承辦員編號
+pageBean.getTfSclsDate(),//實際辦結日期
+pageBean.getTfAclsDate(),//實際辦結日期
+pageBean.getTfComm(),//承辦員簽註意見(預審總局:本案簽復)
+pageBean.getTfCommChk(),//簽註陳核完成
+pageBean.getTfImp(),//四關進口紀錄
+pageBean.getTfSecond(),//總局複核註記
+pageBean.getTfFlag(),//總局特殊註記
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+pageBean.getAiSampleCase(),//預審_總局_分類案例簡述
+pageBean.getAiComm(),//預審_總局_本處分類意見
+
+pageBean.setValue("CUST_CD", this.getCustCd());//承辦員-關別
+pageBean.setValue("TF_TYPE", this.getTfType());//作業別
+pageBean.setValue("TF_DOC_NO", this.getTfDocNo());//案件編號
+pageBean.setValue("TF_DOC_KIND", this.getTfDocKind());//疑義複核案件註記
+pageBean.setValue("TF_PERSON", this.getTfPerson());//承辦員編號
+pageBean.setValue("TF_SCLS_DATE", this.getTfSclsDate());//實際辦結日期
+pageBean.setValue("TF_ACLS_DATE", this.getTfAclsDate());//實際辦結日期
+pageBean.setValue("TF_COMM", this.getTfComm());//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setValue("TF_COMM_CHK", this.getTfCommChk());//簽註陳核完成
+pageBean.setValue("TF_IMP", this.getTfImp());//四關進口紀錄
+pageBean.setValue("TF_SECOND", this.getTfSecond());//總局複核註記
+pageBean.setValue("TF_FLAG", this.getTfFlag());//總局特殊註記
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("AI_SAMPLE_CASE", this.getAiSampleCase());//預審_總局_分類案例簡述
+pageBean.setValue("AI_COMM", this.getAiComm());//預審_總局_本處分類意見
+
+pageBean.setValue("CUST_CD", "承辦員-關別");//承辦員-關別
+pageBean.setValue("TF_TYPE", "作業別");//作業別
+pageBean.setValue("TF_DOC_NO", "案件編號");//案件編號
+pageBean.setValue("TF_DOC_KIND", "疑義複核案件註記");//疑義複核案件註記
+pageBean.setValue("TF_PERSON", "承辦員編號");//承辦員編號
+pageBean.setValue("TF_SCLS_DATE", "實際辦結日期");//實際辦結日期
+pageBean.setValue("TF_ACLS_DATE", "實際辦結日期");//實際辦結日期
+pageBean.setValue("TF_COMM", "承辦員簽註意見(預審總局:本案簽復)");//承辦員簽註意見(預審總局:本案簽復)
+pageBean.setValue("TF_COMM_CHK", "簽註陳核完成");//簽註陳核完成
+pageBean.setValue("TF_IMP", "四關進口紀錄");//四關進口紀錄
+pageBean.setValue("TF_SECOND", "總局複核註記");//總局複核註記
+pageBean.setValue("TF_FLAG", "總局特殊註記");//總局特殊註記
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("AI_SAMPLE_CASE", "預審_總局_分類案例簡述");//預審_總局_分類案例簡述
+pageBean.setValue("AI_COMM", "預審_總局_本處分類意見");//預審_總局_本處分類意見
+
+",承辦員-關別"+"(custCd)="+pageBean.getCustCd()+
+",作業別"+"(tfType)="+pageBean.getTfType()+
+",案件編號"+"(tfDocNo)="+pageBean.getTfDocNo()+
+",疑義複核案件註記"+"(tfDocKind)="+pageBean.getTfDocKind()+
+",承辦員編號"+"(tfPerson)="+pageBean.getTfPerson()+
+",實際辦結日期"+"(tfSclsDate)="+pageBean.getTfSclsDate()+
+",實際辦結日期"+"(tfAclsDate)="+pageBean.getTfAclsDate()+
+",承辦員簽註意見(預審總局:本案簽復)"+"(tfComm)="+pageBean.getTfComm()+
+",簽註陳核完成"+"(tfCommChk)="+pageBean.getTfCommChk()+
+",四關進口紀錄"+"(tfImp)="+pageBean.getTfImp()+
+",總局複核註記"+"(tfSecond)="+pageBean.getTfSecond()+
+",總局特殊註記"+"(tfFlag)="+pageBean.getTfFlag()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+",預審_總局_分類案例簡述"+"(aiSampleCase)="+pageBean.getAiSampleCase()+
+",預審_總局_本處分類意見"+"(aiComm)="+pageBean.getAiComm()+

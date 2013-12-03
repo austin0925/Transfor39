@@ -1,0 +1,405 @@
+pageBean.tfType=作業別
+pageBean.tfDocNo=案件編號
+pageBean.tfDocType=上傳類別
+pageBean.tfSeqNo=附件序號
+pageBean.tfPicKind=附件種類
+pageBean.tfContext=附件說明
+pageBean.tfPicPath=附件圖檔存檔路徑
+pageBean.tfOpenFlag=開放使用註記
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+pageBean.tfFileName=附件名稱(FOR USER)
+pageBean.tfPicType=圖檔類型
+
+pageBean.tfType=tfType
+pageBean.tfDocNo=tfDocNo
+pageBean.tfDocType=tfDocType
+pageBean.tfSeqNo=tfSeqNo
+pageBean.tfPicKind=tfPicKind
+pageBean.tfContext=tfContext
+pageBean.tfPicPath=tfPicPath
+pageBean.tfOpenFlag=tfOpenFlag
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+pageBean.tfFileName=tfFileName
+pageBean.tfPicType=tfPicType
+
+<tr>
+	<td>
+		<!--tfType:作業別-->
+		<s:text name="pageBean.tfType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfType"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDocNo:案件編號-->
+		<s:text name="pageBean.tfDocNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDocType:上傳類別-->
+		<s:text name="pageBean.tfDocType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocType"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSeqNo:附件序號-->
+		<s:text name="pageBean.tfSeqNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSeqNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPicKind:附件種類-->
+		<s:text name="pageBean.tfPicKind"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPicKind"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfContext:附件說明-->
+		<s:text name="pageBean.tfContext"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfContext"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPicPath:附件圖檔存檔路徑-->
+		<s:text name="pageBean.tfPicPath"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPicPath"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfOpenFlag:開放使用註記-->
+		<s:text name="pageBean.tfOpenFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfOpenFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFileName:附件名稱(FOR USER)-->
+		<s:text name="pageBean.tfFileName"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFileName"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPicType:圖檔類型-->
+		<s:text name="pageBean.tfPicType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPicType"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.tfType"/><!--tfType:作業別-->
+<s:hidden name="pageBean.tfDocNo"/><!--tfDocNo:案件編號-->
+<s:hidden name="pageBean.tfDocType"/><!--tfDocType:上傳類別-->
+<s:hidden name="pageBean.tfSeqNo"/><!--tfSeqNo:附件序號-->
+<s:hidden name="pageBean.tfPicKind"/><!--tfPicKind:附件種類-->
+<s:hidden name="pageBean.tfContext"/><!--tfContext:附件說明-->
+<s:hidden name="pageBean.tfPicPath"/><!--tfPicPath:附件圖檔存檔路徑-->
+<s:hidden name="pageBean.tfOpenFlag"/><!--tfOpenFlag:開放使用註記-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.tfFileName"/><!--tfFileName:附件名稱(FOR USER)-->
+<s:hidden name="pageBean.tfPicType"/><!--tfPicType:圖檔類型-->
+
+<%--TF_TYPE:作業別:tfType--%>
+<sjg:gridColumn name="TF_TYPE" index="TF_TYPE" title="%{getText('tfType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DOC_NO:案件編號:tfDocNo--%>
+<sjg:gridColumn name="TF_DOC_NO" index="TF_DOC_NO" title="%{getText('tfDocNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DOC_TYPE:上傳類別:tfDocType--%>
+<sjg:gridColumn name="TF_DOC_TYPE" index="TF_DOC_TYPE" title="%{getText('tfDocType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SEQ_NO:附件序號:tfSeqNo--%>
+<sjg:gridColumn name="TF_SEQ_NO" index="TF_SEQ_NO" title="%{getText('tfSeqNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PIC_KIND:附件種類:tfPicKind--%>
+<sjg:gridColumn name="TF_PIC_KIND" index="TF_PIC_KIND" title="%{getText('tfPicKind')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CONTEXT:附件說明:tfContext--%>
+<sjg:gridColumn name="TF_CONTEXT" index="TF_CONTEXT" title="%{getText('tfContext')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PIC_PATH:附件圖檔存檔路徑:tfPicPath--%>
+<sjg:gridColumn name="TF_PIC_PATH" index="TF_PIC_PATH" title="%{getText('tfPicPath')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_OPEN_FLAG:開放使用註記:tfOpenFlag--%>
+<sjg:gridColumn name="TF_OPEN_FLAG" index="TF_OPEN_FLAG" title="%{getText('tfOpenFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FILE_NAME:附件名稱(FOR USER):tfFileName--%>
+<sjg:gridColumn name="TF_FILE_NAME" index="TF_FILE_NAME" title="%{getText('tfFileName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PIC_TYPE:圖檔類型:tfPicType--%>
+<sjg:gridColumn name="TF_PIC_TYPE" index="TF_PIC_TYPE" title="%{getText('tfPicType')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TF_TYPE
+,A.TF_DOC_NO
+,A.TF_DOC_TYPE
+,A.TF_SEQ_NO
+,A.TF_PIC_KIND
+,A.TF_CONTEXT
+,A.TF_PIC_PATH
+,A.TF_OPEN_FLAG
+,A.UP_PERSON
+,A.UP_DATE
+,A.TF_FILE_NAME
+,A.TF_PIC_TYPE
+
+<condition key="TF_TYPE" ignoreEmpty="true">TF_TYPE = ${TF_TYPE}</condition>
+<condition key="TF_DOC_NO" ignoreEmpty="true">TF_DOC_NO = ${TF_DOC_NO}</condition>
+<condition key="TF_DOC_TYPE" ignoreEmpty="true">TF_DOC_TYPE = ${TF_DOC_TYPE}</condition>
+<condition key="TF_SEQ_NO" ignoreEmpty="true">TF_SEQ_NO = ${TF_SEQ_NO}</condition>
+<condition key="TF_PIC_KIND" ignoreEmpty="true">TF_PIC_KIND = ${TF_PIC_KIND}</condition>
+<condition key="TF_CONTEXT" ignoreEmpty="true">TF_CONTEXT = ${TF_CONTEXT}</condition>
+<condition key="TF_PIC_PATH" ignoreEmpty="true">TF_PIC_PATH = ${TF_PIC_PATH}</condition>
+<condition key="TF_OPEN_FLAG" ignoreEmpty="true">TF_OPEN_FLAG = ${TF_OPEN_FLAG}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="TF_FILE_NAME" ignoreEmpty="true">TF_FILE_NAME = ${TF_FILE_NAME}</condition>
+<condition key="TF_PIC_TYPE" ignoreEmpty="true">TF_PIC_TYPE = ${TF_PIC_TYPE}</condition>
+
+<condition key="TF_TYPE_S" ignoreEmpty="true">TF_TYPE >= ${TF_TYPE_S}</condition><condition key="TF_TYPE_E" ignoreEmpty="true">${TF_TYPE_E} >= TF_TYPE</condition><condition key="TF_TYPE_L" ignoreEmpty="true">TF_TYPE like ${TF_TYPE_L}</condition>
+<condition key="TF_DOC_NO_S" ignoreEmpty="true">TF_DOC_NO >= ${TF_DOC_NO_S}</condition><condition key="TF_DOC_NO_E" ignoreEmpty="true">${TF_DOC_NO_E} >= TF_DOC_NO</condition><condition key="TF_DOC_NO_L" ignoreEmpty="true">TF_DOC_NO like ${TF_DOC_NO_L}</condition>
+<condition key="TF_DOC_TYPE_S" ignoreEmpty="true">TF_DOC_TYPE >= ${TF_DOC_TYPE_S}</condition><condition key="TF_DOC_TYPE_E" ignoreEmpty="true">${TF_DOC_TYPE_E} >= TF_DOC_TYPE</condition><condition key="TF_DOC_TYPE_L" ignoreEmpty="true">TF_DOC_TYPE like ${TF_DOC_TYPE_L}</condition>
+<condition key="TF_SEQ_NO_S" ignoreEmpty="true">TF_SEQ_NO >= ${TF_SEQ_NO_S}</condition><condition key="TF_SEQ_NO_E" ignoreEmpty="true">${TF_SEQ_NO_E} >= TF_SEQ_NO</condition><condition key="TF_SEQ_NO_L" ignoreEmpty="true">TF_SEQ_NO like ${TF_SEQ_NO_L}</condition>
+<condition key="TF_PIC_KIND_S" ignoreEmpty="true">TF_PIC_KIND >= ${TF_PIC_KIND_S}</condition><condition key="TF_PIC_KIND_E" ignoreEmpty="true">${TF_PIC_KIND_E} >= TF_PIC_KIND</condition><condition key="TF_PIC_KIND_L" ignoreEmpty="true">TF_PIC_KIND like ${TF_PIC_KIND_L}</condition>
+<condition key="TF_CONTEXT_S" ignoreEmpty="true">TF_CONTEXT >= ${TF_CONTEXT_S}</condition><condition key="TF_CONTEXT_E" ignoreEmpty="true">${TF_CONTEXT_E} >= TF_CONTEXT</condition><condition key="TF_CONTEXT_L" ignoreEmpty="true">TF_CONTEXT like ${TF_CONTEXT_L}</condition>
+<condition key="TF_PIC_PATH_S" ignoreEmpty="true">TF_PIC_PATH >= ${TF_PIC_PATH_S}</condition><condition key="TF_PIC_PATH_E" ignoreEmpty="true">${TF_PIC_PATH_E} >= TF_PIC_PATH</condition><condition key="TF_PIC_PATH_L" ignoreEmpty="true">TF_PIC_PATH like ${TF_PIC_PATH_L}</condition>
+<condition key="TF_OPEN_FLAG_S" ignoreEmpty="true">TF_OPEN_FLAG >= ${TF_OPEN_FLAG_S}</condition><condition key="TF_OPEN_FLAG_E" ignoreEmpty="true">${TF_OPEN_FLAG_E} >= TF_OPEN_FLAG</condition><condition key="TF_OPEN_FLAG_L" ignoreEmpty="true">TF_OPEN_FLAG like ${TF_OPEN_FLAG_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="TF_FILE_NAME_S" ignoreEmpty="true">TF_FILE_NAME >= ${TF_FILE_NAME_S}</condition><condition key="TF_FILE_NAME_E" ignoreEmpty="true">${TF_FILE_NAME_E} >= TF_FILE_NAME</condition><condition key="TF_FILE_NAME_L" ignoreEmpty="true">TF_FILE_NAME like ${TF_FILE_NAME_L}</condition>
+<condition key="TF_PIC_TYPE_S" ignoreEmpty="true">TF_PIC_TYPE >= ${TF_PIC_TYPE_S}</condition><condition key="TF_PIC_TYPE_E" ignoreEmpty="true">${TF_PIC_TYPE_E} >= TF_PIC_TYPE</condition><condition key="TF_PIC_TYPE_L" ignoreEmpty="true">TF_PIC_TYPE like ${TF_PIC_TYPE_L}</condition>
+
+<field key="TF_TYPE" name="TF_TYPE" ignoreEmpty="true"/>
+<field key="TF_DOC_NO" name="TF_DOC_NO" ignoreEmpty="true"/>
+<field key="TF_DOC_TYPE" name="TF_DOC_TYPE" ignoreEmpty="true"/>
+<field key="TF_SEQ_NO" name="TF_SEQ_NO" ignoreEmpty="true"/>
+<field key="TF_PIC_KIND" name="TF_PIC_KIND" ignoreEmpty="true"/>
+<field key="TF_CONTEXT" name="TF_CONTEXT" ignoreEmpty="true"/>
+<field key="TF_PIC_PATH" name="TF_PIC_PATH" ignoreEmpty="true"/>
+<field key="TF_OPEN_FLAG" name="TF_OPEN_FLAG" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="TF_FILE_NAME" name="TF_FILE_NAME" ignoreEmpty="true"/>
+<field key="TF_PIC_TYPE" name="TF_PIC_TYPE" ignoreEmpty="true"/>
+
+$('#pageBean_tfType').attr('value',rowData.TF_TYPE);
+$('#pageBean_tfDocNo').attr('value',rowData.TF_DOC_NO);
+$('#pageBean_tfDocType').attr('value',rowData.TF_DOC_TYPE);
+$('#pageBean_tfSeqNo').attr('value',rowData.TF_SEQ_NO);
+$('#pageBean_tfPicKind').attr('value',rowData.TF_PIC_KIND);
+$('#pageBean_tfContext').attr('value',rowData.TF_CONTEXT);
+$('#pageBean_tfPicPath').attr('value',rowData.TF_PIC_PATH);
+$('#pageBean_tfOpenFlag').attr('value',rowData.TF_OPEN_FLAG);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_tfFileName').attr('value',rowData.TF_FILE_NAME);
+$('#pageBean_tfPicType').attr('value',rowData.TF_PIC_TYPE);
+
+$('#pageBean_tfType').attr("value", "");
+$('#pageBean_tfDocNo').attr("value", "");
+$('#pageBean_tfDocType').attr("value", "");
+$('#pageBean_tfSeqNo').attr("value", "");
+$('#pageBean_tfPicKind').attr("value", "");
+$('#pageBean_tfContext').attr("value", "");
+$('#pageBean_tfPicPath').attr("value", "");
+$('#pageBean_tfOpenFlag').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_tfFileName').attr("value", "");
+$('#pageBean_tfPicType').attr("value", "");
+
+TF_TYPE:$('#pageBean_tfType').val(),//作業別
+TF_DOC_NO:$('#pageBean_tfDocNo').val(),//案件編號
+TF_DOC_TYPE:$('#pageBean_tfDocType').val(),//上傳類別
+TF_SEQ_NO:$('#pageBean_tfSeqNo').val(),//附件序號
+TF_PIC_KIND:$('#pageBean_tfPicKind').val(),//附件種類
+TF_CONTEXT:$('#pageBean_tfContext').val(),//附件說明
+TF_PIC_PATH:$('#pageBean_tfPicPath').val(),//附件圖檔存檔路徑
+TF_OPEN_FLAG:$('#pageBean_tfOpenFlag').val(),//開放使用註記
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+TF_FILE_NAME:$('#pageBean_tfFileName').val(),//附件名稱(FOR USER)
+TF_PIC_TYPE:$('#pageBean_tfPicType').val(),//圖檔類型
+
+pageBean.setTfType(dataObjects.getString("TF_TYPE"));//作業別
+pageBean.setTfDocNo(dataObjects.getString("TF_DOC_NO"));//案件編號
+pageBean.setTfDocType(dataObjects.getString("TF_DOC_TYPE"));//上傳類別
+pageBean.setTfSeqNo(dataObjects.getString("TF_SEQ_NO"));//附件序號
+pageBean.setTfPicKind(dataObjects.getString("TF_PIC_KIND"));//附件種類
+pageBean.setTfContext(dataObjects.getString("TF_CONTEXT"));//附件說明
+pageBean.setTfPicPath(dataObjects.getString("TF_PIC_PATH"));//附件圖檔存檔路徑
+pageBean.setTfOpenFlag(dataObjects.getString("TF_OPEN_FLAG"));//開放使用註記
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setTfFileName(dataObjects.getString("TF_FILE_NAME"));//附件名稱(FOR USER)
+pageBean.setTfPicType(dataObjects.getString("TF_PIC_TYPE"));//圖檔類型
+
+private String tfType = null;//作業別
+private String tfDocNo = null;//案件編號
+private String tfDocType = null;//上傳類別
+private String tfSeqNo = null;//附件序號
+private String tfPicKind = null;//附件種類
+private String tfContext = null;//附件說明
+private String tfPicPath = null;//附件圖檔存檔路徑
+private String tfOpenFlag = null;//開放使用註記
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+private String tfFileName = null;//附件名稱(FOR USER)
+private String tfPicType = null;//圖檔類型
+
+pageBean.setTfType("作業別");//作業別
+pageBean.setTfDocNo("案件編號");//案件編號
+pageBean.setTfDocType("上傳類別");//上傳類別
+pageBean.setTfSeqNo("附件序號");//附件序號
+pageBean.setTfPicKind("附件種類");//附件種類
+pageBean.setTfContext("附件說明");//附件說明
+pageBean.setTfPicPath("附件圖檔存檔路徑");//附件圖檔存檔路徑
+pageBean.setTfOpenFlag("開放使用註記");//開放使用註記
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setTfFileName("附件名稱(FOR USER)");//附件名稱(FOR USER)
+pageBean.setTfPicType("圖檔類型");//圖檔類型
+
+pageBean.setTfType(tfType);//作業別
+pageBean.setTfDocNo(tfDocNo);//案件編號
+pageBean.setTfDocType(tfDocType);//上傳類別
+pageBean.setTfSeqNo(tfSeqNo);//附件序號
+pageBean.setTfPicKind(tfPicKind);//附件種類
+pageBean.setTfContext(tfContext);//附件說明
+pageBean.setTfPicPath(tfPicPath);//附件圖檔存檔路徑
+pageBean.setTfOpenFlag(tfOpenFlag);//開放使用註記
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setTfFileName(tfFileName);//附件名稱(FOR USER)
+pageBean.setTfPicType(tfPicType);//圖檔類型
+
+pageBean.setTfType(randomBean.getTfType());//作業別
+pageBean.setTfDocNo(randomBean.getTfDocNo());//案件編號
+pageBean.setTfDocType(randomBean.getTfDocType());//上傳類別
+pageBean.setTfSeqNo(randomBean.getTfSeqNo());//附件序號
+pageBean.setTfPicKind(randomBean.getTfPicKind());//附件種類
+pageBean.setTfContext(randomBean.getTfContext());//附件說明
+pageBean.setTfPicPath(randomBean.getTfPicPath());//附件圖檔存檔路徑
+pageBean.setTfOpenFlag(randomBean.getTfOpenFlag());//開放使用註記
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setTfFileName(randomBean.getTfFileName());//附件名稱(FOR USER)
+pageBean.setTfPicType(randomBean.getTfPicType());//圖檔類型
+
+setTfType(tfType);//作業別
+setTfDocNo(tfDocNo);//案件編號
+setTfDocType(tfDocType);//上傳類別
+setTfSeqNo(tfSeqNo);//附件序號
+setTfPicKind(tfPicKind);//附件種類
+setTfContext(tfContext);//附件說明
+setTfPicPath(tfPicPath);//附件圖檔存檔路徑
+setTfOpenFlag(tfOpenFlag);//開放使用註記
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+setTfFileName(tfFileName);//附件名稱(FOR USER)
+setTfPicType(tfPicType);//圖檔類型
+
+pageBean.getTfType(),//作業別
+pageBean.getTfDocNo(),//案件編號
+pageBean.getTfDocType(),//上傳類別
+pageBean.getTfSeqNo(),//附件序號
+pageBean.getTfPicKind(),//附件種類
+pageBean.getTfContext(),//附件說明
+pageBean.getTfPicPath(),//附件圖檔存檔路徑
+pageBean.getTfOpenFlag(),//開放使用註記
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+pageBean.getTfFileName(),//附件名稱(FOR USER)
+pageBean.getTfPicType(),//圖檔類型
+
+pageBean.setValue("TF_TYPE", this.getTfType());//作業別
+pageBean.setValue("TF_DOC_NO", this.getTfDocNo());//案件編號
+pageBean.setValue("TF_DOC_TYPE", this.getTfDocType());//上傳類別
+pageBean.setValue("TF_SEQ_NO", this.getTfSeqNo());//附件序號
+pageBean.setValue("TF_PIC_KIND", this.getTfPicKind());//附件種類
+pageBean.setValue("TF_CONTEXT", this.getTfContext());//附件說明
+pageBean.setValue("TF_PIC_PATH", this.getTfPicPath());//附件圖檔存檔路徑
+pageBean.setValue("TF_OPEN_FLAG", this.getTfOpenFlag());//開放使用註記
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("TF_FILE_NAME", this.getTfFileName());//附件名稱(FOR USER)
+pageBean.setValue("TF_PIC_TYPE", this.getTfPicType());//圖檔類型
+
+pageBean.setValue("TF_TYPE", "作業別");//作業別
+pageBean.setValue("TF_DOC_NO", "案件編號");//案件編號
+pageBean.setValue("TF_DOC_TYPE", "上傳類別");//上傳類別
+pageBean.setValue("TF_SEQ_NO", "附件序號");//附件序號
+pageBean.setValue("TF_PIC_KIND", "附件種類");//附件種類
+pageBean.setValue("TF_CONTEXT", "附件說明");//附件說明
+pageBean.setValue("TF_PIC_PATH", "附件圖檔存檔路徑");//附件圖檔存檔路徑
+pageBean.setValue("TF_OPEN_FLAG", "開放使用註記");//開放使用註記
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("TF_FILE_NAME", "附件名稱(FOR USER)");//附件名稱(FOR USER)
+pageBean.setValue("TF_PIC_TYPE", "圖檔類型");//圖檔類型
+
+",作業別"+"(tfType)="+pageBean.getTfType()+
+",案件編號"+"(tfDocNo)="+pageBean.getTfDocNo()+
+",上傳類別"+"(tfDocType)="+pageBean.getTfDocType()+
+",附件序號"+"(tfSeqNo)="+pageBean.getTfSeqNo()+
+",附件種類"+"(tfPicKind)="+pageBean.getTfPicKind()+
+",附件說明"+"(tfContext)="+pageBean.getTfContext()+
+",附件圖檔存檔路徑"+"(tfPicPath)="+pageBean.getTfPicPath()+
+",開放使用註記"+"(tfOpenFlag)="+pageBean.getTfOpenFlag()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+",附件名稱(FOR USER)"+"(tfFileName)="+pageBean.getTfFileName()+
+",圖檔類型"+"(tfPicType)="+pageBean.getTfPicType()+

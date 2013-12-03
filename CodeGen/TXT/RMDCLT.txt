@@ -1,0 +1,772 @@
+pageBean.proUser=使用者代號
+pageBean.pick=選取註記
+pageBean.keep=保留註記
+pageBean.ban=廠商統編
+pageBean.irNo=調查案號
+pageBean.adtAsnNo=稽核案號/交查文號
+pageBean.dutyRefundRequest=申請沖退稅註記
+pageBean.reserveMark=已備查註記
+pageBean.exIm=進出口別
+pageBean.declNo=報單號碼
+pageBean.declType=報單類別
+pageBean.brokerBoxNo=報關箱號
+pageBean.inspectType=通關方式
+pageBean.seller=賣方名稱
+pageBean.releaseDate=放行日期/報關日期
+pageBean.itemCnt=報單項數
+pageBean.countryCode=國別
+pageBean.hsCode=稅則號別
+pageBean.qty=數量
+pageBean.wt=重量
+pageBean.dpv=價格
+pageBean.smDt=納辦/統計方式
+pageBean.szbigno=緝私案號
+pageBean.szcrdate=處分書繕製日期
+pageBean.szdate=處分書送達日期
+pageBean.unitPrice=單價
+pageBean.dpvRate=乖離率
+pageBean.serNo=流水號
+
+pageBean.proUser=proUser
+pageBean.pick=pick
+pageBean.keep=keep
+pageBean.ban=ban
+pageBean.irNo=irNo
+pageBean.adtAsnNo=adtAsnNo
+pageBean.dutyRefundRequest=dutyRefundRequest
+pageBean.reserveMark=reserveMark
+pageBean.exIm=exIm
+pageBean.declNo=declNo
+pageBean.declType=declType
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.inspectType=inspectType
+pageBean.seller=seller
+pageBean.releaseDate=releaseDate
+pageBean.itemCnt=itemCnt
+pageBean.countryCode=countryCode
+pageBean.hsCode=hsCode
+pageBean.qty=qty
+pageBean.wt=wt
+pageBean.dpv=dpv
+pageBean.smDt=smDt
+pageBean.szbigno=szbigno
+pageBean.szcrdate=szcrdate
+pageBean.szdate=szdate
+pageBean.unitPrice=unitPrice
+pageBean.dpvRate=dpvRate
+pageBean.serNo=serNo
+
+<!--proUser:使用者代號-->
+<tr>
+<td>
+	<s:text name="proUser"/>
+	<s:textfield name="pageBean.proUser" />
+</td>
+</tr>
+
+<!--pick:選取註記-->
+<tr>
+<td>
+	<s:text name="pick"/>
+	<s:textfield name="pageBean.pick" />
+</td>
+</tr>
+
+<!--keep:保留註記-->
+<tr>
+<td>
+	<s:text name="keep"/>
+	<s:textfield name="pageBean.keep" />
+</td>
+</tr>
+
+<!--ban:廠商統編-->
+<tr>
+<td>
+	<s:text name="ban"/>
+	<s:textfield name="pageBean.ban" />
+</td>
+</tr>
+
+<!--irNo:調查案號-->
+<tr>
+<td>
+	<s:text name="irNo"/>
+	<s:textfield name="pageBean.irNo" />
+</td>
+</tr>
+
+<!--adtAsnNo:稽核案號/交查文號-->
+<tr>
+<td>
+	<s:text name="adtAsnNo"/>
+	<s:textfield name="pageBean.adtAsnNo" />
+</td>
+</tr>
+
+<!--dutyRefundRequest:申請沖退稅註記-->
+<tr>
+<td>
+	<s:text name="dutyRefundRequest"/>
+	<s:textfield name="pageBean.dutyRefundRequest" />
+</td>
+</tr>
+
+<!--reserveMark:已備查註記-->
+<tr>
+<td>
+	<s:text name="reserveMark"/>
+	<s:textfield name="pageBean.reserveMark" />
+</td>
+</tr>
+
+<!--exIm:進出口別-->
+<tr>
+<td>
+	<s:text name="exIm"/>
+	<s:textfield name="pageBean.exIm" />
+</td>
+</tr>
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--declType:報單類別-->
+<tr>
+<td>
+	<s:text name="declType"/>
+	<s:textfield name="pageBean.declType" />
+</td>
+</tr>
+
+<!--brokerBoxNo:報關箱號-->
+<tr>
+<td>
+	<s:text name="brokerBoxNo"/>
+	<s:textfield name="pageBean.brokerBoxNo" />
+</td>
+</tr>
+
+<!--inspectType:通關方式-->
+<tr>
+<td>
+	<s:text name="inspectType"/>
+	<s:textfield name="pageBean.inspectType" />
+</td>
+</tr>
+
+<!--seller:賣方名稱-->
+<tr>
+<td>
+	<s:text name="seller"/>
+	<s:textfield name="pageBean.seller" />
+</td>
+</tr>
+
+<!--releaseDate:放行日期/報關日期-->
+<tr>
+<td>
+	<s:text name="releaseDate"/>
+	<s:textfield name="pageBean.releaseDate" />
+</td>
+</tr>
+
+<!--itemCnt:報單項數-->
+<tr>
+<td>
+	<s:text name="itemCnt"/>
+	<s:textfield name="pageBean.itemCnt" />
+</td>
+</tr>
+
+<!--countryCode:國別-->
+<tr>
+<td>
+	<s:text name="countryCode"/>
+	<s:textfield name="pageBean.countryCode" />
+</td>
+</tr>
+
+<!--hsCode:稅則號別-->
+<tr>
+<td>
+	<s:text name="hsCode"/>
+	<s:textfield name="pageBean.hsCode" />
+</td>
+</tr>
+
+<!--qty:數量-->
+<tr>
+<td>
+	<s:text name="qty"/>
+	<s:textfield name="pageBean.qty" />
+</td>
+</tr>
+
+<!--wt:重量-->
+<tr>
+<td>
+	<s:text name="wt"/>
+	<s:textfield name="pageBean.wt" />
+</td>
+</tr>
+
+<!--dpv:價格-->
+<tr>
+<td>
+	<s:text name="dpv"/>
+	<s:textfield name="pageBean.dpv" />
+</td>
+</tr>
+
+<!--smDt:納辦/統計方式-->
+<tr>
+<td>
+	<s:text name="smDt"/>
+	<s:textfield name="pageBean.smDt" />
+</td>
+</tr>
+
+<!--szbigno:緝私案號-->
+<tr>
+<td>
+	<s:text name="szbigno"/>
+	<s:textfield name="pageBean.szbigno" />
+</td>
+</tr>
+
+<!--szcrdate:處分書繕製日期-->
+<tr>
+<td>
+	<s:text name="szcrdate"/>
+	<s:textfield name="pageBean.szcrdate" />
+</td>
+</tr>
+
+<!--szdate:處分書送達日期-->
+<tr>
+<td>
+	<s:text name="szdate"/>
+	<s:textfield name="pageBean.szdate" />
+</td>
+</tr>
+
+<!--unitPrice:單價-->
+<tr>
+<td>
+	<s:text name="unitPrice"/>
+	<s:textfield name="pageBean.unitPrice" />
+</td>
+</tr>
+
+<!--dpvRate:乖離率-->
+<tr>
+<td>
+	<s:text name="dpvRate"/>
+	<s:textfield name="pageBean.dpvRate" />
+</td>
+</tr>
+
+<!--serNo:流水號-->
+<tr>
+<td>
+	<s:text name="serNo"/>
+	<s:textfield name="pageBean.serNo" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="PRO_USER" index="PRO_USER" title="%{getText('proUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PRO_USER:使用者代號:proUser--%>
+<sjg:gridColumn name="PICK" index="PICK" title="%{getText('pick')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PICK:選取註記:pick--%>
+<sjg:gridColumn name="KEEP" index="KEEP" title="%{getText('keep')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--KEEP:保留註記:keep--%>
+<sjg:gridColumn name="BAN" index="BAN" title="%{getText('ban')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAN:廠商統編:ban--%>
+<sjg:gridColumn name="IR_NO" index="IR_NO" title="%{getText('irNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--IR_NO:調查案號:irNo--%>
+<sjg:gridColumn name="ADT_ASN_NO" index="ADT_ASN_NO" title="%{getText('adtAsnNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ADT_ASN_NO:稽核案號/交查文號:adtAsnNo--%>
+<sjg:gridColumn name="DUTY_REFUND_REQUEST" index="DUTY_REFUND_REQUEST" title="%{getText('dutyRefundRequest')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DUTY_REFUND_REQUEST:申請沖退稅註記:dutyRefundRequest--%>
+<sjg:gridColumn name="RESERVE_MARK" index="RESERVE_MARK" title="%{getText('reserveMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RESERVE_MARK:已備查註記:reserveMark--%>
+<sjg:gridColumn name="EX_IM" index="EX_IM" title="%{getText('exIm')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EX_IM:進出口別:exIm--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_TYPE" index="DECL_TYPE" title="%{getText('declType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_TYPE:報單類別:declType--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關箱號:brokerBoxNo--%>
+<sjg:gridColumn name="INSPECT_TYPE" index="INSPECT_TYPE" title="%{getText('inspectType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--INSPECT_TYPE:通關方式:inspectType--%>
+<sjg:gridColumn name="SELLER" index="SELLER" title="%{getText('seller')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SELLER:賣方名稱:seller--%>
+<sjg:gridColumn name="RELEASE_DATE" index="RELEASE_DATE" title="%{getText('releaseDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RELEASE_DATE:放行日期/報關日期:releaseDate--%>
+<sjg:gridColumn name="ITEM_CNT" index="ITEM_CNT" title="%{getText('itemCnt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ITEM_CNT:報單項數:itemCnt--%>
+<sjg:gridColumn name="COUNTRY_CODE" index="COUNTRY_CODE" title="%{getText('countryCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--COUNTRY_CODE:國別:countryCode--%>
+<sjg:gridColumn name="HS_CODE" index="HS_CODE" title="%{getText('hsCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HS_CODE:稅則號別:hsCode--%>
+<sjg:gridColumn name="QTY" index="QTY" title="%{getText('qty')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QTY:數量:qty--%>
+<sjg:gridColumn name="WT" index="WT" title="%{getText('wt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--WT:重量:wt--%>
+<sjg:gridColumn name="DPV" index="DPV" title="%{getText('dpv')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DPV:價格:dpv--%>
+<sjg:gridColumn name="SM_DT" index="SM_DT" title="%{getText('smDt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SM_DT:納辦/統計方式:smDt--%>
+<sjg:gridColumn name="SZBIGNO" index="SZBIGNO" title="%{getText('szbigno')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SZBIGNO:緝私案號:szbigno--%>
+<sjg:gridColumn name="SZCRDATE" index="SZCRDATE" title="%{getText('szcrdate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SZCRDATE:處分書繕製日期:szcrdate--%>
+<sjg:gridColumn name="SZDATE" index="SZDATE" title="%{getText('szdate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SZDATE:處分書送達日期:szdate--%>
+<sjg:gridColumn name="UNIT_PRICE" index="UNIT_PRICE" title="%{getText('unitPrice')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UNIT_PRICE:單價:unitPrice--%>
+<sjg:gridColumn name="DPV_RATE" index="DPV_RATE" title="%{getText('dpvRate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DPV_RATE:乖離率:dpvRate--%>
+<sjg:gridColumn name="SER_NO" index="SER_NO" title="%{getText('serNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SER_NO:流水號:serNo--%>
+
+,A.PRO_USER
+,A.PICK
+,A.KEEP
+,A.BAN
+,A.IR_NO
+,A.ADT_ASN_NO
+,A.DUTY_REFUND_REQUEST
+,A.RESERVE_MARK
+,A.EX_IM
+,A.DECL_NO
+,A.DECL_TYPE
+,A.BROKER_BOX_NO
+,A.INSPECT_TYPE
+,A.SELLER
+,A.RELEASE_DATE
+,A.ITEM_CNT
+,A.COUNTRY_CODE
+,A.HS_CODE
+,A.QTY
+,A.WT
+,A.DPV
+,A.SM_DT
+,A.SZBIGNO
+,A.SZCRDATE
+,A.SZDATE
+,A.UNIT_PRICE
+,A.DPV_RATE
+,A.SER_NO
+
+<condition key="PRO_USER" ignoreEmpty="true" >PRO_USER like ${PRO_USER}</condition>
+<condition key="PICK" ignoreEmpty="true" >PICK like ${PICK}</condition>
+<condition key="KEEP" ignoreEmpty="true" >KEEP like ${KEEP}</condition>
+<condition key="BAN" ignoreEmpty="true" >BAN like ${BAN}</condition>
+<condition key="IR_NO" ignoreEmpty="true" >IR_NO like ${IR_NO}</condition>
+<condition key="ADT_ASN_NO" ignoreEmpty="true" >ADT_ASN_NO like ${ADT_ASN_NO}</condition>
+<condition key="DUTY_REFUND_REQUEST" ignoreEmpty="true" >DUTY_REFUND_REQUEST like ${DUTY_REFUND_REQUEST}</condition>
+<condition key="RESERVE_MARK" ignoreEmpty="true" >RESERVE_MARK like ${RESERVE_MARK}</condition>
+<condition key="EX_IM" ignoreEmpty="true" >EX_IM like ${EX_IM}</condition>
+<condition key="DECL_NO" ignoreEmpty="true" >DECL_NO like ${DECL_NO}</condition>
+<condition key="DECL_TYPE" ignoreEmpty="true" >DECL_TYPE like ${DECL_TYPE}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true" >BROKER_BOX_NO like ${BROKER_BOX_NO}</condition>
+<condition key="INSPECT_TYPE" ignoreEmpty="true" >INSPECT_TYPE like ${INSPECT_TYPE}</condition>
+<condition key="SELLER" ignoreEmpty="true" >SELLER like ${SELLER}</condition>
+<condition key="RELEASE_DATE" ignoreEmpty="true" >RELEASE_DATE like ${RELEASE_DATE}</condition>
+<condition key="ITEM_CNT" ignoreEmpty="true" >ITEM_CNT like ${ITEM_CNT}</condition>
+<condition key="COUNTRY_CODE" ignoreEmpty="true" >COUNTRY_CODE like ${COUNTRY_CODE}</condition>
+<condition key="HS_CODE" ignoreEmpty="true" >HS_CODE like ${HS_CODE}</condition>
+<condition key="QTY" ignoreEmpty="true" >QTY like ${QTY}</condition>
+<condition key="WT" ignoreEmpty="true" >WT like ${WT}</condition>
+<condition key="DPV" ignoreEmpty="true" >DPV like ${DPV}</condition>
+<condition key="SM_DT" ignoreEmpty="true" >SM_DT like ${SM_DT}</condition>
+<condition key="SZBIGNO" ignoreEmpty="true" >SZBIGNO like ${SZBIGNO}</condition>
+<condition key="SZCRDATE" ignoreEmpty="true" >SZCRDATE like ${SZCRDATE}</condition>
+<condition key="SZDATE" ignoreEmpty="true" >SZDATE like ${SZDATE}</condition>
+<condition key="UNIT_PRICE" ignoreEmpty="true" >UNIT_PRICE like ${UNIT_PRICE}</condition>
+<condition key="DPV_RATE" ignoreEmpty="true" >DPV_RATE like ${DPV_RATE}</condition>
+<condition key="SER_NO" ignoreEmpty="true" >SER_NO like ${SER_NO}</condition>
+
+<condition key="PRO_USER_S" ignoreEmpty="true" >PRO_USER >= ${PRO_USER_S}</condition><condition key="PRO_USER_E" ignoreEmpty="true" >${PRO_USER_E} >= PRO_USER</condition>
+<condition key="PICK_S" ignoreEmpty="true" >PICK >= ${PICK_S}</condition><condition key="PICK_E" ignoreEmpty="true" >${PICK_E} >= PICK</condition>
+<condition key="KEEP_S" ignoreEmpty="true" >KEEP >= ${KEEP_S}</condition><condition key="KEEP_E" ignoreEmpty="true" >${KEEP_E} >= KEEP</condition>
+<condition key="BAN_S" ignoreEmpty="true" >BAN >= ${BAN_S}</condition><condition key="BAN_E" ignoreEmpty="true" >${BAN_E} >= BAN</condition>
+<condition key="IR_NO_S" ignoreEmpty="true" >IR_NO >= ${IR_NO_S}</condition><condition key="IR_NO_E" ignoreEmpty="true" >${IR_NO_E} >= IR_NO</condition>
+<condition key="ADT_ASN_NO_S" ignoreEmpty="true" >ADT_ASN_NO >= ${ADT_ASN_NO_S}</condition><condition key="ADT_ASN_NO_E" ignoreEmpty="true" >${ADT_ASN_NO_E} >= ADT_ASN_NO</condition>
+<condition key="DUTY_REFUND_REQUEST_S" ignoreEmpty="true" >DUTY_REFUND_REQUEST >= ${DUTY_REFUND_REQUEST_S}</condition><condition key="DUTY_REFUND_REQUEST_E" ignoreEmpty="true" >${DUTY_REFUND_REQUEST_E} >= DUTY_REFUND_REQUEST</condition>
+<condition key="RESERVE_MARK_S" ignoreEmpty="true" >RESERVE_MARK >= ${RESERVE_MARK_S}</condition><condition key="RESERVE_MARK_E" ignoreEmpty="true" >${RESERVE_MARK_E} >= RESERVE_MARK</condition>
+<condition key="EX_IM_S" ignoreEmpty="true" >EX_IM >= ${EX_IM_S}</condition><condition key="EX_IM_E" ignoreEmpty="true" >${EX_IM_E} >= EX_IM</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true" >DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true" >${DECL_NO_E} >= DECL_NO</condition>
+<condition key="DECL_TYPE_S" ignoreEmpty="true" >DECL_TYPE >= ${DECL_TYPE_S}</condition><condition key="DECL_TYPE_E" ignoreEmpty="true" >${DECL_TYPE_E} >= DECL_TYPE</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true" >BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true" >${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition>
+<condition key="INSPECT_TYPE_S" ignoreEmpty="true" >INSPECT_TYPE >= ${INSPECT_TYPE_S}</condition><condition key="INSPECT_TYPE_E" ignoreEmpty="true" >${INSPECT_TYPE_E} >= INSPECT_TYPE</condition>
+<condition key="SELLER_S" ignoreEmpty="true" >SELLER >= ${SELLER_S}</condition><condition key="SELLER_E" ignoreEmpty="true" >${SELLER_E} >= SELLER</condition>
+<condition key="RELEASE_DATE_S" ignoreEmpty="true" >RELEASE_DATE >= ${RELEASE_DATE_S}</condition><condition key="RELEASE_DATE_E" ignoreEmpty="true" >${RELEASE_DATE_E} >= RELEASE_DATE</condition>
+<condition key="ITEM_CNT_S" ignoreEmpty="true" >ITEM_CNT >= ${ITEM_CNT_S}</condition><condition key="ITEM_CNT_E" ignoreEmpty="true" >${ITEM_CNT_E} >= ITEM_CNT</condition>
+<condition key="COUNTRY_CODE_S" ignoreEmpty="true" >COUNTRY_CODE >= ${COUNTRY_CODE_S}</condition><condition key="COUNTRY_CODE_E" ignoreEmpty="true" >${COUNTRY_CODE_E} >= COUNTRY_CODE</condition>
+<condition key="HS_CODE_S" ignoreEmpty="true" >HS_CODE >= ${HS_CODE_S}</condition><condition key="HS_CODE_E" ignoreEmpty="true" >${HS_CODE_E} >= HS_CODE</condition>
+<condition key="QTY_S" ignoreEmpty="true" >QTY >= ${QTY_S}</condition><condition key="QTY_E" ignoreEmpty="true" >${QTY_E} >= QTY</condition>
+<condition key="WT_S" ignoreEmpty="true" >WT >= ${WT_S}</condition><condition key="WT_E" ignoreEmpty="true" >${WT_E} >= WT</condition>
+<condition key="DPV_S" ignoreEmpty="true" >DPV >= ${DPV_S}</condition><condition key="DPV_E" ignoreEmpty="true" >${DPV_E} >= DPV</condition>
+<condition key="SM_DT_S" ignoreEmpty="true" >SM_DT >= ${SM_DT_S}</condition><condition key="SM_DT_E" ignoreEmpty="true" >${SM_DT_E} >= SM_DT</condition>
+<condition key="SZBIGNO_S" ignoreEmpty="true" >SZBIGNO >= ${SZBIGNO_S}</condition><condition key="SZBIGNO_E" ignoreEmpty="true" >${SZBIGNO_E} >= SZBIGNO</condition>
+<condition key="SZCRDATE_S" ignoreEmpty="true" >SZCRDATE >= ${SZCRDATE_S}</condition><condition key="SZCRDATE_E" ignoreEmpty="true" >${SZCRDATE_E} >= SZCRDATE</condition>
+<condition key="SZDATE_S" ignoreEmpty="true" >SZDATE >= ${SZDATE_S}</condition><condition key="SZDATE_E" ignoreEmpty="true" >${SZDATE_E} >= SZDATE</condition>
+<condition key="UNIT_PRICE_S" ignoreEmpty="true" >UNIT_PRICE >= ${UNIT_PRICE_S}</condition><condition key="UNIT_PRICE_E" ignoreEmpty="true" >${UNIT_PRICE_E} >= UNIT_PRICE</condition>
+<condition key="DPV_RATE_S" ignoreEmpty="true" >DPV_RATE >= ${DPV_RATE_S}</condition><condition key="DPV_RATE_E" ignoreEmpty="true" >${DPV_RATE_E} >= DPV_RATE</condition>
+<condition key="SER_NO_S" ignoreEmpty="true" >SER_NO >= ${SER_NO_S}</condition><condition key="SER_NO_E" ignoreEmpty="true" >${SER_NO_E} >= SER_NO</condition>
+
+//使用者代號
+//pageBean.setProUser(randomBean.getProUser());
+//選取註記
+//pageBean.setPick(randomBean.getPick());
+//保留註記
+//pageBean.setKeep(randomBean.getKeep());
+//廠商統編
+//pageBean.setBan(randomBean.getBan());
+//調查案號
+//pageBean.setIrNo(randomBean.getIrNo());
+//稽核案號/交查文號
+//pageBean.setAdtAsnNo(randomBean.getAdtAsnNo());
+//申請沖退稅註記
+//pageBean.setDutyRefundRequest(randomBean.getDutyRefundRequest());
+//已備查註記
+//pageBean.setReserveMark(randomBean.getReserveMark());
+//進出口別
+//pageBean.setExIm(randomBean.getExIm());
+//報單號碼
+//pageBean.setDeclNo(randomBean.getDeclNo());
+//報單類別
+//pageBean.setDeclType(randomBean.getDeclType());
+//報關箱號
+//pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());
+//通關方式
+//pageBean.setInspectType(randomBean.getInspectType());
+//賣方名稱
+//pageBean.setSeller(randomBean.getSeller());
+//放行日期/報關日期
+//pageBean.setReleaseDate(randomBean.getReleaseDate());
+//報單項數
+//pageBean.setItemCnt(randomBean.getItemCnt());
+//國別
+//pageBean.setCountryCode(randomBean.getCountryCode());
+//稅則號別
+//pageBean.setHsCode(randomBean.getHsCode());
+//數量
+//pageBean.setQty(randomBean.getQty());
+//重量
+//pageBean.setWt(randomBean.getWt());
+//價格
+//pageBean.setDpv(randomBean.getDpv());
+//納辦/統計方式
+//pageBean.setSmDt(randomBean.getSmDt());
+//緝私案號
+//pageBean.setSzbigno(randomBean.getSzbigno());
+//處分書繕製日期
+//pageBean.setSzcrdate(randomBean.getSzcrdate());
+//處分書送達日期
+//pageBean.setSzdate(randomBean.getSzdate());
+//單價
+//pageBean.setUnitPrice(randomBean.getUnitPrice());
+//乖離率
+//pageBean.setDpvRate(randomBean.getDpvRate());
+//流水號
+//pageBean.setSerNo(randomBean.getSerNo());
+
+$('#pageBean_proUser').attr('value',rowData.PRO_USER);
+$('#pageBean_pick').attr('value',rowData.PICK);
+$('#pageBean_keep').attr('value',rowData.KEEP);
+$('#pageBean_ban').attr('value',rowData.BAN);
+$('#pageBean_irNo').attr('value',rowData.IR_NO);
+$('#pageBean_adtAsnNo').attr('value',rowData.ADT_ASN_NO);
+$('#pageBean_dutyRefundRequest').attr('value',rowData.DUTY_REFUND_REQUEST);
+$('#pageBean_reserveMark').attr('value',rowData.RESERVE_MARK);
+$('#pageBean_exIm').attr('value',rowData.EX_IM);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_declType').attr('value',rowData.DECL_TYPE);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_inspectType').attr('value',rowData.INSPECT_TYPE);
+$('#pageBean_seller').attr('value',rowData.SELLER);
+$('#pageBean_releaseDate').attr('value',rowData.RELEASE_DATE);
+$('#pageBean_itemCnt').attr('value',rowData.ITEM_CNT);
+$('#pageBean_countryCode').attr('value',rowData.COUNTRY_CODE);
+$('#pageBean_hsCode').attr('value',rowData.HS_CODE);
+$('#pageBean_qty').attr('value',rowData.QTY);
+$('#pageBean_wt').attr('value',rowData.WT);
+$('#pageBean_dpv').attr('value',rowData.DPV);
+$('#pageBean_smDt').attr('value',rowData.SM_DT);
+$('#pageBean_szbigno').attr('value',rowData.SZBIGNO);
+$('#pageBean_szcrdate').attr('value',rowData.SZCRDATE);
+$('#pageBean_szdate').attr('value',rowData.SZDATE);
+$('#pageBean_unitPrice').attr('value',rowData.UNIT_PRICE);
+$('#pageBean_dpvRate').attr('value',rowData.DPV_RATE);
+$('#pageBean_serNo').attr('value',rowData.SER_NO);
+
+$('#pageBean_proUser').attr("value", "");
+$('#pageBean_pick').attr("value", "");
+$('#pageBean_keep').attr("value", "");
+$('#pageBean_ban').attr("value", "");
+$('#pageBean_irNo').attr("value", "");
+$('#pageBean_adtAsnNo').attr("value", "");
+$('#pageBean_dutyRefundRequest').attr("value", "");
+$('#pageBean_reserveMark').attr("value", "");
+$('#pageBean_exIm').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_declType').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_inspectType').attr("value", "");
+$('#pageBean_seller').attr("value", "");
+$('#pageBean_releaseDate').attr("value", "");
+$('#pageBean_itemCnt').attr("value", "");
+$('#pageBean_countryCode').attr("value", "");
+$('#pageBean_hsCode').attr("value", "");
+$('#pageBean_qty').attr("value", "");
+$('#pageBean_wt').attr("value", "");
+$('#pageBean_dpv').attr("value", "");
+$('#pageBean_smDt').attr("value", "");
+$('#pageBean_szbigno').attr("value", "");
+$('#pageBean_szcrdate').attr("value", "");
+$('#pageBean_szdate').attr("value", "");
+$('#pageBean_unitPrice').attr("value", "");
+$('#pageBean_dpvRate').attr("value", "");
+$('#pageBean_serNo').attr("value", "");
+
+PRO_USER:$('#pageBean_proUser').val(),//使用者代號
+PICK:$('#pageBean_pick').val(),//選取註記
+KEEP:$('#pageBean_keep').val(),//保留註記
+BAN:$('#pageBean_ban').val(),//廠商統編
+IR_NO:$('#pageBean_irNo').val(),//調查案號
+ADT_ASN_NO:$('#pageBean_adtAsnNo').val(),//稽核案號/交查文號
+DUTY_REFUND_REQUEST:$('#pageBean_dutyRefundRequest').val(),//申請沖退稅註記
+RESERVE_MARK:$('#pageBean_reserveMark').val(),//已備查註記
+EX_IM:$('#pageBean_exIm').val(),//進出口別
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+DECL_TYPE:$('#pageBean_declType').val(),//報單類別
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關箱號
+INSPECT_TYPE:$('#pageBean_inspectType').val(),//通關方式
+SELLER:$('#pageBean_seller').val(),//賣方名稱
+RELEASE_DATE:$('#pageBean_releaseDate').val(),//放行日期/報關日期
+ITEM_CNT:$('#pageBean_itemCnt').val(),//報單項數
+COUNTRY_CODE:$('#pageBean_countryCode').val(),//國別
+HS_CODE:$('#pageBean_hsCode').val(),//稅則號別
+QTY:$('#pageBean_qty').val(),//數量
+WT:$('#pageBean_wt').val(),//重量
+DPV:$('#pageBean_dpv').val(),//價格
+SM_DT:$('#pageBean_smDt').val(),//納辦/統計方式
+SZBIGNO:$('#pageBean_szbigno').val(),//緝私案號
+SZCRDATE:$('#pageBean_szcrdate').val(),//處分書繕製日期
+SZDATE:$('#pageBean_szdate').val(),//處分書送達日期
+UNIT_PRICE:$('#pageBean_unitPrice').val(),//單價
+DPV_RATE:$('#pageBean_dpvRate').val(),//乖離率
+SER_NO:$('#pageBean_serNo').val(),//流水號
+
+//使用者代號
+//pageBean.setProUser(dataObjects.getString("PRO_USER"));
+//選取註記
+//pageBean.setPick(dataObjects.getString("PICK"));
+//保留註記
+//pageBean.setKeep(dataObjects.getString("KEEP"));
+//廠商統編
+//pageBean.setBan(dataObjects.getString("BAN"));
+//調查案號
+//pageBean.setIrNo(dataObjects.getString("IR_NO"));
+//稽核案號/交查文號
+//pageBean.setAdtAsnNo(dataObjects.getString("ADT_ASN_NO"));
+//申請沖退稅註記
+//pageBean.setDutyRefundRequest(dataObjects.getString("DUTY_REFUND_REQUEST"));
+//已備查註記
+//pageBean.setReserveMark(dataObjects.getString("RESERVE_MARK"));
+//進出口別
+//pageBean.setExIm(dataObjects.getString("EX_IM"));
+//報單號碼
+//pageBean.setDeclNo(dataObjects.getString("DECL_NO"));
+//報單類別
+//pageBean.setDeclType(dataObjects.getString("DECL_TYPE"));
+//報關箱號
+//pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));
+//通關方式
+//pageBean.setInspectType(dataObjects.getString("INSPECT_TYPE"));
+//賣方名稱
+//pageBean.setSeller(dataObjects.getString("SELLER"));
+//放行日期/報關日期
+//pageBean.setReleaseDate(dataObjects.getString("RELEASE_DATE"));
+//報單項數
+//pageBean.setItemCnt(dataObjects.getString("ITEM_CNT"));
+//國別
+//pageBean.setCountryCode(dataObjects.getString("COUNTRY_CODE"));
+//稅則號別
+//pageBean.setHsCode(dataObjects.getString("HS_CODE"));
+//數量
+//pageBean.setQty(dataObjects.getString("QTY"));
+//重量
+//pageBean.setWt(dataObjects.getString("WT"));
+//價格
+//pageBean.setDpv(dataObjects.getString("DPV"));
+//納辦/統計方式
+//pageBean.setSmDt(dataObjects.getString("SM_DT"));
+//緝私案號
+//pageBean.setSzbigno(dataObjects.getString("SZBIGNO"));
+//處分書繕製日期
+//pageBean.setSzcrdate(dataObjects.getString("SZCRDATE"));
+//處分書送達日期
+//pageBean.setSzdate(dataObjects.getString("SZDATE"));
+//單價
+//pageBean.setUnitPrice(dataObjects.getString("UNIT_PRICE"));
+//乖離率
+//pageBean.setDpvRate(dataObjects.getString("DPV_RATE"));
+//流水號
+//pageBean.setSerNo(dataObjects.getString("SER_NO"));
+
+private String proUser;//使用者代號
+private String pick;//選取註記
+private String keep;//保留註記
+private String ban;//廠商統編
+private String irNo;//調查案號
+private String adtAsnNo;//稽核案號/交查文號
+private String dutyRefundRequest;//申請沖退稅註記
+private String reserveMark;//已備查註記
+private String exIm;//進出口別
+private String declNo;//報單號碼
+private String declType;//報單類別
+private String brokerBoxNo;//報關箱號
+private String inspectType;//通關方式
+private String seller;//賣方名稱
+private Timestamp releaseDate;//放行日期/報關日期
+private BigDecimal itemCnt;//報單項數
+private String countryCode;//國別
+private String hsCode;//稅則號別
+private BigDecimal qty;//數量
+private String wt;//重量
+private String dpv;//價格
+private String smDt;//納辦/統計方式
+private String szbigno;//緝私案號
+private Timestamp szcrdate;//處分書繕製日期
+private Timestamp szdate;//處分書送達日期
+private BigDecimal unitPrice;//單價
+private BigDecimal dpvRate;//乖離率
+private String serNo;//流水號
+
+setProUser(pageBean.getProUser());//使用者代號
+setPick(pageBean.getPick());//選取註記
+setKeep(pageBean.getKeep());//保留註記
+setBan(pageBean.getBan());//廠商統編
+setIrNo(pageBean.getIrNo());//調查案號
+setAdtAsnNo(pageBean.getAdtAsnNo());//稽核案號/交查文號
+setDutyRefundRequest(pageBean.getDutyRefundRequest());//申請沖退稅註記
+setReserveMark(pageBean.getReserveMark());//已備查註記
+setExIm(pageBean.getExIm());//進出口別
+setDeclNo(pageBean.getDeclNo());//報單號碼
+setDeclType(pageBean.getDeclType());//報單類別
+setBrokerBoxNo(pageBean.getBrokerBoxNo());//報關箱號
+setInspectType(pageBean.getInspectType());//通關方式
+setSeller(pageBean.getSeller());//賣方名稱
+setReleaseDate(pageBean.getReleaseDate());//放行日期/報關日期
+setItemCnt(pageBean.getItemCnt());//報單項數
+setCountryCode(pageBean.getCountryCode());//國別
+setHsCode(pageBean.getHsCode());//稅則號別
+setQty(pageBean.getQty());//數量
+setWt(pageBean.getWt());//重量
+setDpv(pageBean.getDpv());//價格
+setSmDt(pageBean.getSmDt());//納辦/統計方式
+setSzbigno(pageBean.getSzbigno());//緝私案號
+setSzcrdate(pageBean.getSzcrdate());//處分書繕製日期
+setSzdate(pageBean.getSzdate());//處分書送達日期
+setUnitPrice(pageBean.getUnitPrice());//單價
+setDpvRate(pageBean.getDpvRate());//乖離率
+setSerNo(pageBean.getSerNo());//流水號
+
+setProUser(proUser);//使用者代號
+setPick(pick);//選取註記
+setKeep(keep);//保留註記
+setBan(ban);//廠商統編
+setIrNo(irNo);//調查案號
+setAdtAsnNo(adtAsnNo);//稽核案號/交查文號
+setDutyRefundRequest(dutyRefundRequest);//申請沖退稅註記
+setReserveMark(reserveMark);//已備查註記
+setExIm(exIm);//進出口別
+setDeclNo(declNo);//報單號碼
+setDeclType(declType);//報單類別
+setBrokerBoxNo(brokerBoxNo);//報關箱號
+setInspectType(inspectType);//通關方式
+setSeller(seller);//賣方名稱
+setReleaseDate(releaseDate);//放行日期/報關日期
+setItemCnt(itemCnt);//報單項數
+setCountryCode(countryCode);//國別
+setHsCode(hsCode);//稅則號別
+setQty(qty);//數量
+setWt(wt);//重量
+setDpv(dpv);//價格
+setSmDt(smDt);//納辦/統計方式
+setSzbigno(szbigno);//緝私案號
+setSzcrdate(szcrdate);//處分書繕製日期
+setSzdate(szdate);//處分書送達日期
+setUnitPrice(unitPrice);//單價
+setDpvRate(dpvRate);//乖離率
+setSerNo(serNo);//流水號
+
+pageBean.getProUser(),//使用者代號
+pageBean.getPick(),//選取註記
+pageBean.getKeep(),//保留註記
+pageBean.getBan(),//廠商統編
+pageBean.getIrNo(),//調查案號
+pageBean.getAdtAsnNo(),//稽核案號/交查文號
+pageBean.getDutyRefundRequest(),//申請沖退稅註記
+pageBean.getReserveMark(),//已備查註記
+pageBean.getExIm(),//進出口別
+pageBean.getDeclNo(),//報單號碼
+pageBean.getDeclType(),//報單類別
+pageBean.getBrokerBoxNo(),//報關箱號
+pageBean.getInspectType(),//通關方式
+pageBean.getSeller(),//賣方名稱
+pageBean.getReleaseDate(),//放行日期/報關日期
+pageBean.getItemCnt(),//報單項數
+pageBean.getCountryCode(),//國別
+pageBean.getHsCode(),//稅則號別
+pageBean.getQty(),//數量
+pageBean.getWt(),//重量
+pageBean.getDpv(),//價格
+pageBean.getSmDt(),//納辦/統計方式
+pageBean.getSzbigno(),//緝私案號
+pageBean.getSzcrdate(),//處分書繕製日期
+pageBean.getSzdate(),//處分書送達日期
+pageBean.getUnitPrice(),//單價
+pageBean.getDpvRate(),//乖離率
+pageBean.getSerNo(),//流水號
+
+",使用者代號"+"(proUser)="+pageBean.getProUser()+
+",選取註記"+"(pick)="+pageBean.getPick()+
+",保留註記"+"(keep)="+pageBean.getKeep()+
+",廠商統編"+"(ban)="+pageBean.getBan()+
+",調查案號"+"(irNo)="+pageBean.getIrNo()+
+",稽核案號/交查文號"+"(adtAsnNo)="+pageBean.getAdtAsnNo()+
+",申請沖退稅註記"+"(dutyRefundRequest)="+pageBean.getDutyRefundRequest()+
+",已備查註記"+"(reserveMark)="+pageBean.getReserveMark()+
+",進出口別"+"(exIm)="+pageBean.getExIm()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",報單類別"+"(declType)="+pageBean.getDeclType()+
+",報關箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",通關方式"+"(inspectType)="+pageBean.getInspectType()+
+",賣方名稱"+"(seller)="+pageBean.getSeller()+
+",放行日期/報關日期"+"(releaseDate)="+pageBean.getReleaseDate()+
+",報單項數"+"(itemCnt)="+pageBean.getItemCnt()+
+",國別"+"(countryCode)="+pageBean.getCountryCode()+
+",稅則號別"+"(hsCode)="+pageBean.getHsCode()+
+",數量"+"(qty)="+pageBean.getQty()+
+",重量"+"(wt)="+pageBean.getWt()+
+",價格"+"(dpv)="+pageBean.getDpv()+
+",納辦/統計方式"+"(smDt)="+pageBean.getSmDt()+
+",緝私案號"+"(szbigno)="+pageBean.getSzbigno()+
+",處分書繕製日期"+"(szcrdate)="+pageBean.getSzcrdate()+
+",處分書送達日期"+"(szdate)="+pageBean.getSzdate()+
+",單價"+"(unitPrice)="+pageBean.getUnitPrice()+
+",乖離率"+"(dpvRate)="+pageBean.getDpvRate()+
+",流水號"+"(serNo)="+pageBean.getSerNo()+

@@ -1,0 +1,355 @@
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.declNo=報單號碼
+pageBean.handlingCustoms=理單關別
+pageBean.rocYears=民國年度
+pageBean.handlingType=理單類別
+pageBean.bagNo=編袋號碼
+pageBean.bagSequenceNo=編袋序號
+pageBean.handlingBagNo=理單號碼
+pageBean.handlingBagDate=編袋日期
+pageBean.handlingBagOfficerId=編袋關員代碼
+pageBean.handlingBagOfficerName=編袋關員姓名
+
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.declNo=declNo
+pageBean.handlingCustoms=handlingCustoms
+pageBean.rocYears=rocYears
+pageBean.handlingType=handlingType
+pageBean.bagNo=bagNo
+pageBean.bagSequenceNo=bagSequenceNo
+pageBean.handlingBagNo=handlingBagNo
+pageBean.handlingBagDate=handlingBagDate
+pageBean.handlingBagOfficerId=handlingBagOfficerId
+pageBean.handlingBagOfficerName=handlingBagOfficerName
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--handlingCustoms:理單關別-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingCustoms"/>
+	<s:textfield name="pageBean.handlingCustoms" />
+</td>
+</tr>
+
+<!--rocYears:民國年度-->
+<tr>
+<td>
+	<s:text name="pageBean.rocYears"/>
+	<s:textfield name="pageBean.rocYears" />
+</td>
+</tr>
+
+<!--handlingType:理單類別-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingType"/>
+	<s:textfield name="pageBean.handlingType" />
+</td>
+</tr>
+
+<!--bagNo:編袋號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.bagNo"/>
+	<s:textfield name="pageBean.bagNo" />
+</td>
+</tr>
+
+<!--bagSequenceNo:編袋序號-->
+<tr>
+<td>
+	<s:text name="pageBean.bagSequenceNo"/>
+	<s:textfield name="pageBean.bagSequenceNo" />
+</td>
+</tr>
+
+<!--handlingBagNo:理單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingBagNo"/>
+	<s:textfield name="pageBean.handlingBagNo" />
+</td>
+</tr>
+
+<!--handlingBagDate:編袋日期-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingBagDate"/>
+	<s:textfield name="pageBean.handlingBagDate" />
+</td>
+</tr>
+
+<!--handlingBagOfficerId:編袋關員代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingBagOfficerId"/>
+	<s:textfield name="pageBean.handlingBagOfficerId" />
+</td>
+</tr>
+
+<!--handlingBagOfficerName:編袋關員姓名-->
+<tr>
+<td>
+	<s:text name="pageBean.handlingBagOfficerName"/>
+	<s:textfield name="pageBean.handlingBagOfficerName" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.handlingCustoms"/><!--handlingCustoms:理單關別-->
+<s:hidden name="pageBean.rocYears"/><!--rocYears:民國年度-->
+<s:hidden name="pageBean.handlingType"/><!--handlingType:理單類別-->
+<s:hidden name="pageBean.bagNo"/><!--bagNo:編袋號碼-->
+<s:hidden name="pageBean.bagSequenceNo"/><!--bagSequenceNo:編袋序號-->
+<s:hidden name="pageBean.handlingBagNo"/><!--handlingBagNo:理單號碼-->
+<s:hidden name="pageBean.handlingBagDate"/><!--handlingBagDate:編袋日期-->
+<s:hidden name="pageBean.handlingBagOfficerId"/><!--handlingBagOfficerId:編袋關員代碼-->
+<s:hidden name="pageBean.handlingBagOfficerName"/><!--handlingBagOfficerName:編袋關員姓名-->
+
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_CUSTOMS:理單關別:handlingCustoms--%>
+<sjg:gridColumn name="HANDLING_CUSTOMS" index="HANDLING_CUSTOMS" title="%{getText('handlingCustoms')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ROC_YEARS:民國年度:rocYears--%>
+<sjg:gridColumn name="ROC_YEARS" index="ROC_YEARS" title="%{getText('rocYears')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_TYPE:理單類別:handlingType--%>
+<sjg:gridColumn name="HANDLING_TYPE" index="HANDLING_TYPE" title="%{getText('handlingType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAG_NO:編袋號碼:bagNo--%>
+<sjg:gridColumn name="BAG_NO" index="BAG_NO" title="%{getText('bagNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAG_SEQUENCE_NO:編袋序號:bagSequenceNo--%>
+<sjg:gridColumn name="BAG_SEQUENCE_NO" index="BAG_SEQUENCE_NO" title="%{getText('bagSequenceNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_BAG_NO:理單號碼:handlingBagNo--%>
+<sjg:gridColumn name="HANDLING_BAG_NO" index="HANDLING_BAG_NO" title="%{getText('handlingBagNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_BAG_DATE:編袋日期:handlingBagDate--%>
+<sjg:gridColumn name="HANDLING_BAG_DATE" index="HANDLING_BAG_DATE" title="%{getText('handlingBagDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_BAG_OFFICER_ID:編袋關員代碼:handlingBagOfficerId--%>
+<sjg:gridColumn name="HANDLING_BAG_OFFICER_ID" index="HANDLING_BAG_OFFICER_ID" title="%{getText('handlingBagOfficerId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HANDLING_BAG_OFFICER_NAME:編袋關員姓名:handlingBagOfficerName--%>
+<sjg:gridColumn name="HANDLING_BAG_OFFICER_NAME" index="HANDLING_BAG_OFFICER_NAME" title="%{getText('handlingBagOfficerName')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.MAWB
+,A.HAWB
+,A.DECL_NO
+,A.HANDLING_CUSTOMS
+,A.ROC_YEARS
+,A.HANDLING_TYPE
+,A.BAG_NO
+,A.BAG_SEQUENCE_NO
+,A.HANDLING_BAG_NO
+,A.HANDLING_BAG_DATE
+,A.HANDLING_BAG_OFFICER_ID
+,A.HANDLING_BAG_OFFICER_NAME
+
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="HANDLING_CUSTOMS" ignoreEmpty="true">HANDLING_CUSTOMS = ${HANDLING_CUSTOMS}</condition>
+<condition key="ROC_YEARS" ignoreEmpty="true">ROC_YEARS = ${ROC_YEARS}</condition>
+<condition key="HANDLING_TYPE" ignoreEmpty="true">HANDLING_TYPE = ${HANDLING_TYPE}</condition>
+<condition key="BAG_NO" ignoreEmpty="true">BAG_NO = ${BAG_NO}</condition>
+<condition key="BAG_SEQUENCE_NO" ignoreEmpty="true">BAG_SEQUENCE_NO = ${BAG_SEQUENCE_NO}</condition>
+<condition key="HANDLING_BAG_NO" ignoreEmpty="true">HANDLING_BAG_NO = ${HANDLING_BAG_NO}</condition>
+<condition key="HANDLING_BAG_DATE" ignoreEmpty="true">HANDLING_BAG_DATE = ${HANDLING_BAG_DATE}</condition>
+<condition key="HANDLING_BAG_OFFICER_ID" ignoreEmpty="true">HANDLING_BAG_OFFICER_ID = ${HANDLING_BAG_OFFICER_ID}</condition>
+<condition key="HANDLING_BAG_OFFICER_NAME" ignoreEmpty="true">HANDLING_BAG_OFFICER_NAME = ${HANDLING_BAG_OFFICER_NAME}</condition>
+
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="HANDLING_CUSTOMS_S" ignoreEmpty="true">HANDLING_CUSTOMS >= ${HANDLING_CUSTOMS_S}</condition><condition key="HANDLING_CUSTOMS_E" ignoreEmpty="true">${HANDLING_CUSTOMS_E} >= HANDLING_CUSTOMS</condition><condition key="HANDLING_CUSTOMS_L" ignoreEmpty="true">HANDLING_CUSTOMS like ${HANDLING_CUSTOMS_L}</condition>
+<condition key="ROC_YEARS_S" ignoreEmpty="true">ROC_YEARS >= ${ROC_YEARS_S}</condition><condition key="ROC_YEARS_E" ignoreEmpty="true">${ROC_YEARS_E} >= ROC_YEARS</condition><condition key="ROC_YEARS_L" ignoreEmpty="true">ROC_YEARS like ${ROC_YEARS_L}</condition>
+<condition key="HANDLING_TYPE_S" ignoreEmpty="true">HANDLING_TYPE >= ${HANDLING_TYPE_S}</condition><condition key="HANDLING_TYPE_E" ignoreEmpty="true">${HANDLING_TYPE_E} >= HANDLING_TYPE</condition><condition key="HANDLING_TYPE_L" ignoreEmpty="true">HANDLING_TYPE like ${HANDLING_TYPE_L}</condition>
+<condition key="BAG_NO_S" ignoreEmpty="true">BAG_NO >= ${BAG_NO_S}</condition><condition key="BAG_NO_E" ignoreEmpty="true">${BAG_NO_E} >= BAG_NO</condition><condition key="BAG_NO_L" ignoreEmpty="true">BAG_NO like ${BAG_NO_L}</condition>
+<condition key="BAG_SEQUENCE_NO_S" ignoreEmpty="true">BAG_SEQUENCE_NO >= ${BAG_SEQUENCE_NO_S}</condition><condition key="BAG_SEQUENCE_NO_E" ignoreEmpty="true">${BAG_SEQUENCE_NO_E} >= BAG_SEQUENCE_NO</condition><condition key="BAG_SEQUENCE_NO_L" ignoreEmpty="true">BAG_SEQUENCE_NO like ${BAG_SEQUENCE_NO_L}</condition>
+<condition key="HANDLING_BAG_NO_S" ignoreEmpty="true">HANDLING_BAG_NO >= ${HANDLING_BAG_NO_S}</condition><condition key="HANDLING_BAG_NO_E" ignoreEmpty="true">${HANDLING_BAG_NO_E} >= HANDLING_BAG_NO</condition><condition key="HANDLING_BAG_NO_L" ignoreEmpty="true">HANDLING_BAG_NO like ${HANDLING_BAG_NO_L}</condition>
+<condition key="HANDLING_BAG_DATE_S" ignoreEmpty="true">HANDLING_BAG_DATE >= ${HANDLING_BAG_DATE_S}</condition><condition key="HANDLING_BAG_DATE_E" ignoreEmpty="true">${HANDLING_BAG_DATE_E} >= HANDLING_BAG_DATE</condition><condition key="HANDLING_BAG_DATE_L" ignoreEmpty="true">HANDLING_BAG_DATE like ${HANDLING_BAG_DATE_L}</condition>
+<condition key="HANDLING_BAG_OFFICER_ID_S" ignoreEmpty="true">HANDLING_BAG_OFFICER_ID >= ${HANDLING_BAG_OFFICER_ID_S}</condition><condition key="HANDLING_BAG_OFFICER_ID_E" ignoreEmpty="true">${HANDLING_BAG_OFFICER_ID_E} >= HANDLING_BAG_OFFICER_ID</condition><condition key="HANDLING_BAG_OFFICER_ID_L" ignoreEmpty="true">HANDLING_BAG_OFFICER_ID like ${HANDLING_BAG_OFFICER_ID_L}</condition>
+<condition key="HANDLING_BAG_OFFICER_NAME_S" ignoreEmpty="true">HANDLING_BAG_OFFICER_NAME >= ${HANDLING_BAG_OFFICER_NAME_S}</condition><condition key="HANDLING_BAG_OFFICER_NAME_E" ignoreEmpty="true">${HANDLING_BAG_OFFICER_NAME_E} >= HANDLING_BAG_OFFICER_NAME</condition><condition key="HANDLING_BAG_OFFICER_NAME_L" ignoreEmpty="true">HANDLING_BAG_OFFICER_NAME like ${HANDLING_BAG_OFFICER_NAME_L}</condition>
+
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="HANDLING_CUSTOMS" name="HANDLING_CUSTOMS" ignoreEmpty="true"/>
+<field key="ROC_YEARS" name="ROC_YEARS" ignoreEmpty="true"/>
+<field key="HANDLING_TYPE" name="HANDLING_TYPE" ignoreEmpty="true"/>
+<field key="BAG_NO" name="BAG_NO" ignoreEmpty="true"/>
+<field key="BAG_SEQUENCE_NO" name="BAG_SEQUENCE_NO" ignoreEmpty="true"/>
+<field key="HANDLING_BAG_NO" name="HANDLING_BAG_NO" ignoreEmpty="true"/>
+<field key="HANDLING_BAG_DATE" name="HANDLING_BAG_DATE" ignoreEmpty="true"/>
+<field key="HANDLING_BAG_OFFICER_ID" name="HANDLING_BAG_OFFICER_ID" ignoreEmpty="true"/>
+<field key="HANDLING_BAG_OFFICER_NAME" name="HANDLING_BAG_OFFICER_NAME" ignoreEmpty="true"/>
+
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_handlingCustoms').attr('value',rowData.HANDLING_CUSTOMS);
+$('#pageBean_rocYears').attr('value',rowData.ROC_YEARS);
+$('#pageBean_handlingType').attr('value',rowData.HANDLING_TYPE);
+$('#pageBean_bagNo').attr('value',rowData.BAG_NO);
+$('#pageBean_bagSequenceNo').attr('value',rowData.BAG_SEQUENCE_NO);
+$('#pageBean_handlingBagNo').attr('value',rowData.HANDLING_BAG_NO);
+$('#pageBean_handlingBagDate').attr('value',rowData.HANDLING_BAG_DATE);
+$('#pageBean_handlingBagOfficerId').attr('value',rowData.HANDLING_BAG_OFFICER_ID);
+$('#pageBean_handlingBagOfficerName').attr('value',rowData.HANDLING_BAG_OFFICER_NAME);
+
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_handlingCustoms').attr("value", "");
+$('#pageBean_rocYears').attr("value", "");
+$('#pageBean_handlingType').attr("value", "");
+$('#pageBean_bagNo').attr("value", "");
+$('#pageBean_bagSequenceNo').attr("value", "");
+$('#pageBean_handlingBagNo').attr("value", "");
+$('#pageBean_handlingBagDate').attr("value", "");
+$('#pageBean_handlingBagOfficerId').attr("value", "");
+$('#pageBean_handlingBagOfficerName').attr("value", "");
+
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+HANDLING_CUSTOMS:$('#pageBean_handlingCustoms').val(),//理單關別
+ROC_YEARS:$('#pageBean_rocYears').val(),//民國年度
+HANDLING_TYPE:$('#pageBean_handlingType').val(),//理單類別
+BAG_NO:$('#pageBean_bagNo').val(),//編袋號碼
+BAG_SEQUENCE_NO:$('#pageBean_bagSequenceNo').val(),//編袋序號
+HANDLING_BAG_NO:$('#pageBean_handlingBagNo').val(),//理單號碼
+HANDLING_BAG_DATE:$('#pageBean_handlingBagDate').val(),//編袋日期
+HANDLING_BAG_OFFICER_ID:$('#pageBean_handlingBagOfficerId').val(),//編袋關員代碼
+HANDLING_BAG_OFFICER_NAME:$('#pageBean_handlingBagOfficerName').val(),//編袋關員姓名
+
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setHandlingCustoms(dataObjects.getString("HANDLING_CUSTOMS"));//理單關別
+pageBean.setRocYears(dataObjects.getString("ROC_YEARS"));//民國年度
+pageBean.setHandlingType(dataObjects.getString("HANDLING_TYPE"));//理單類別
+pageBean.setBagNo(dataObjects.getString("BAG_NO"));//編袋號碼
+pageBean.setBagSequenceNo(dataObjects.getString("BAG_SEQUENCE_NO"));//編袋序號
+pageBean.setHandlingBagNo(dataObjects.getString("HANDLING_BAG_NO"));//理單號碼
+pageBean.setHandlingBagDate((Date)dataObjects.getValue("HANDLING_BAG_DATE"));//編袋日期
+pageBean.setHandlingBagOfficerId(dataObjects.getString("HANDLING_BAG_OFFICER_ID"));//編袋關員代碼
+pageBean.setHandlingBagOfficerName(dataObjects.getString("HANDLING_BAG_OFFICER_NAME"));//編袋關員姓名
+
+private String mawb = null;//託運單主號
+private String hawb = null;//託運單分號
+private String declNo = null;//報單號碼
+private String handlingCustoms = null;//理單關別
+private String rocYears = null;//民國年度
+private String handlingType = null;//理單類別
+private String bagNo = null;//編袋號碼
+private String bagSequenceNo = null;//編袋序號
+private String handlingBagNo = null;//理單號碼
+private Date handlingBagDate = null;//編袋日期
+private String handlingBagOfficerId = null;//編袋關員代碼
+private String handlingBagOfficerName = null;//編袋關員姓名
+
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setHandlingCustoms(handlingCustoms);//理單關別
+pageBean.setRocYears(rocYears);//民國年度
+pageBean.setHandlingType(handlingType);//理單類別
+pageBean.setBagNo(bagNo);//編袋號碼
+pageBean.setBagSequenceNo(bagSequenceNo);//編袋序號
+pageBean.setHandlingBagNo(handlingBagNo);//理單號碼
+pageBean.setHandlingBagDate(handlingBagDate);//編袋日期
+pageBean.setHandlingBagOfficerId(handlingBagOfficerId);//編袋關員代碼
+pageBean.setHandlingBagOfficerName(handlingBagOfficerName);//編袋關員姓名
+
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setHandlingCustoms(randomBean.getHandlingCustoms());//理單關別
+pageBean.setRocYears(randomBean.getRocYears());//民國年度
+pageBean.setHandlingType(randomBean.getHandlingType());//理單類別
+pageBean.setBagNo(randomBean.getBagNo());//編袋號碼
+pageBean.setBagSequenceNo(randomBean.getBagSequenceNo());//編袋序號
+pageBean.setHandlingBagNo(randomBean.getHandlingBagNo());//理單號碼
+pageBean.setHandlingBagDate(randomBean.getHandlingBagDate());//編袋日期
+pageBean.setHandlingBagOfficerId(randomBean.getHandlingBagOfficerId());//編袋關員代碼
+pageBean.setHandlingBagOfficerName(randomBean.getHandlingBagOfficerName());//編袋關員姓名
+
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setDeclNo(declNo);//報單號碼
+setHandlingCustoms(handlingCustoms);//理單關別
+setRocYears(rocYears);//民國年度
+setHandlingType(handlingType);//理單類別
+setBagNo(bagNo);//編袋號碼
+setBagSequenceNo(bagSequenceNo);//編袋序號
+setHandlingBagNo(handlingBagNo);//理單號碼
+setHandlingBagDate(handlingBagDate);//編袋日期
+setHandlingBagOfficerId(handlingBagOfficerId);//編袋關員代碼
+setHandlingBagOfficerName(handlingBagOfficerName);//編袋關員姓名
+
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getDeclNo(),//報單號碼
+pageBean.getHandlingCustoms(),//理單關別
+pageBean.getRocYears(),//民國年度
+pageBean.getHandlingType(),//理單類別
+pageBean.getBagNo(),//編袋號碼
+pageBean.getBagSequenceNo(),//編袋序號
+pageBean.getHandlingBagNo(),//理單號碼
+pageBean.getHandlingBagDate(),//編袋日期
+pageBean.getHandlingBagOfficerId(),//編袋關員代碼
+pageBean.getHandlingBagOfficerName(),//編袋關員姓名
+
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("HANDLING_CUSTOMS", this.getHandlingCustoms());//理單關別
+pageBean.setValue("ROC_YEARS", this.getRocYears());//民國年度
+pageBean.setValue("HANDLING_TYPE", this.getHandlingType());//理單類別
+pageBean.setValue("BAG_NO", this.getBagNo());//編袋號碼
+pageBean.setValue("BAG_SEQUENCE_NO", this.getBagSequenceNo());//編袋序號
+pageBean.setValue("HANDLING_BAG_NO", this.getHandlingBagNo());//理單號碼
+pageBean.setValue("HANDLING_BAG_DATE", this.getHandlingBagDate());//編袋日期
+pageBean.setValue("HANDLING_BAG_OFFICER_ID", this.getHandlingBagOfficerId());//編袋關員代碼
+pageBean.setValue("HANDLING_BAG_OFFICER_NAME", this.getHandlingBagOfficerName());//編袋關員姓名
+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",理單關別"+"(handlingCustoms)="+pageBean.getHandlingCustoms()+
+",民國年度"+"(rocYears)="+pageBean.getRocYears()+
+",理單類別"+"(handlingType)="+pageBean.getHandlingType()+
+",編袋號碼"+"(bagNo)="+pageBean.getBagNo()+
+",編袋序號"+"(bagSequenceNo)="+pageBean.getBagSequenceNo()+
+",理單號碼"+"(handlingBagNo)="+pageBean.getHandlingBagNo()+
+",編袋日期"+"(handlingBagDate)="+pageBean.getHandlingBagDate()+
+",編袋關員代碼"+"(handlingBagOfficerId)="+pageBean.getHandlingBagOfficerId()+
+",編袋關員姓名"+"(handlingBagOfficerName)="+pageBean.getHandlingBagOfficerName()+

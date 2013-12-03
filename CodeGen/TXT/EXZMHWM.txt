@@ -1,0 +1,97 @@
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.declDate=報關日期
+
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.declDate=declDate
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--declDate:報關日期-->
+<tr>
+<td>
+	<s:text name="declDate"/>
+	<s:textfield name="pageBean.declDate" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="DECL_DATE" index="DECL_DATE" title="%{getText('declDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_DATE:報關日期:declDate--%>
+
+,A.MAWB
+,A.HAWB
+,A.DECL_DATE
+
+<condition key="MAWB" ignoreEmpty="true" >MAWB like ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true" >HAWB like ${HAWB}</condition>
+<condition key="DECL_DATE" ignoreEmpty="true" >DECL_DATE like ${DECL_DATE}</condition>
+
+<condition key="MAWB_S" ignoreEmpty="true" >MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true" >${MAWB_E} >= MAWB</condition>
+<condition key="HAWB_S" ignoreEmpty="true" >HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true" >${HAWB_E} >= HAWB</condition>
+<condition key="DECL_DATE_S" ignoreEmpty="true" >DECL_DATE >= ${DECL_DATE_S}</condition><condition key="DECL_DATE_E" ignoreEmpty="true" >${DECL_DATE_E} >= DECL_DATE</condition>
+
+//託運單主號
+//pageBean.setMawb(randomBean.getMawb());
+//託運單分號
+//pageBean.setHawb(randomBean.getHawb());
+//報關日期
+//pageBean.setDeclDate(randomBean.getDeclDate());
+
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_declDate').attr('value',rowData.DECL_DATE);
+
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_declDate').attr("value", "");
+
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+DECL_DATE:$('#pageBean_declDate').val(),//報關日期
+
+//託運單主號
+//pageBean.setMawb(dataObjects.getString("MAWB"));
+//託運單分號
+//pageBean.setHawb(dataObjects.getString("HAWB"));
+//報關日期
+//pageBean.setDeclDate(dataObjects.getString("DECL_DATE"));
+
+private String mawb;//託運單主號
+private String hawb;//託運單分號
+private Timestamp declDate;//報關日期
+
+setMawb(pageBean.getMawb());//託運單主號
+setHawb(pageBean.getHawb());//託運單分號
+setDeclDate(pageBean.getDeclDate());//報關日期
+
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setDeclDate(declDate);//報關日期
+
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getDeclDate(),//報關日期
+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",報關日期"+"(declDate)="+pageBean.getDeclDate()+

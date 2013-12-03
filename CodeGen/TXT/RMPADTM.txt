@@ -1,0 +1,2284 @@
+pageBean.paReserveNo=備查文號
+pageBean.paReserveDate=備查日期
+pageBean.paMfgCode=廠商統編
+pageBean.paMfgName=廠商名稱
+pageBean.paAuditSource=案件來源
+pageBean.paRecvNoP=關務署收件編號
+pageBean.paRecvDateP=關務署收件日期
+pageBean.paRsvUser=承辦員編號
+pageBean.paRsvName=承辦員姓名
+pageBean.paAuditAbst=案情摘要
+pageBean.paAssignDate=交查日期
+pageBean.paAssignNo=交查文號
+pageBean.paAssignUser=交辦員編號
+pageBean.paAssignName=交辦員姓名
+pageBean.paAssignCus=交辦關區
+pageBean.paPunauditDate=關務署免稽核日期
+pageBean.paPunauditMemo=關務署免稽核原因
+pageBean.paPmemo=關務署備註
+pageBean.paRecvNoAbcd=關區收件編號
+pageBean.paRecvDateAbcd=關區收件日期
+pageBean.paAuditUnit=承辦課
+pageBean.paUserUnit=稽核人員所屬單位
+pageBean.paMainAuditor=主辦稽核員編號
+pageBean.paMainName=主辦稽核員姓名
+pageBean.paAsstAuditor1=協辦稽核員編號1
+pageBean.paAsstName1=協辦稽核員姓名1
+pageBean.paAsstAuditor2=協辦稽核員編號2
+pageBean.paAsstName2=協辦稽核員姓名2
+pageBean.paAsstAuditor3=協辦稽核員編號3
+pageBean.paAsstName3=協辦稽核員姓名3
+pageBean.paPrefinishDate=預定完成期限
+pageBean.paBunauditDate=關區免稽核日期
+pageBean.paBunauditMemo=關區免稽核原因
+pageBean.paAbcdmemo=備註
+pageBean.paAppointDate=派案日期
+pageBean.paAuditNo=稽核案號
+pageBean.paAuditDate=稽核日期
+pageBean.paInfoDate=發通知函日期
+pageBean.paBustripDate=出差日期
+pageBean.paInterviewDate=來關訪談日期
+pageBean.paInfoCbankDate=函中央銀行日期
+pageBean.paInfoEbankDate=函結匯銀行日期
+pageBean.paInfoOunitDate=函駐外單位日期
+pageBean.paNationalTax=
+pageBean.paInfo=
+pageBean.paAuditProcess=稽核過程簡述
+pageBean.paAuditConclsn=結論與擬辦
+pageBean.paAuditResult=稽核結果
+pageBean.paAuditTax=預估補稅金額
+pageBean.paAuditFine=預估罰鍰金額
+pageBean.paAuditType1=稽核結果類型-虛報貨名
+pageBean.paAuditType2=稽核結果類型-虛報產地
+pageBean.paAuditType3=稽核結果類型-虛報數量
+pageBean.paAuditType4=稽核結果類型-虛報貨價
+pageBean.paAuditType5=稽核結果類型-高價低報
+pageBean.paAuditType6=稽核結果類型-低價高報
+pageBean.paAuditType7=稽核結果類型-追繳貨價
+pageBean.paAuditType8=稽核結果類型-稅則申報不實
+pageBean.paAuditType9=稽核結果類型-溢沖退稅捐
+pageBean.paAuditType10=稽核結果類型-冒退營業稅
+pageBean.paAuditType11=
+pageBean.paAuditType12=稽核結果類型-其他違規事項
+pageBean.paAuditWriteDate=稽核報告陳核日期
+pageBean.paSignUnit=會簽單位
+pageBean.paSendDate=送會日期
+pageBean.paAuditOkDate=稽核報告核定日期
+pageBean.paShiftUnit=移辦單位
+pageBean.paShiftDate=移辦日期
+pageBean.paFileDate=歸檔日期
+pageBean.paFileNo=歸檔編號
+pageBean.paLoanDate=借出日期
+pageBean.paLoanUnit=借出單位
+pageBean.paLoanUser=借出人編號
+pageBean.paLoanName=借出人姓名
+pageBean.paReturnDate=歸還日期
+pageBean.proUser=處理人員
+pageBean.transCode=程式代碼
+pageBean.paLawSource=行政救濟種類
+pageBean.paSlzChk=是否行政救濟
+pageBean.paSlzOk=行政救濟是否已確認
+pageBean.paSlzDate1=行政救濟復查日期
+pageBean.paSlzDate2=行政救濟訴願日期
+pageBean.paSlzDate3=行政救濟高等行政法院日期
+pageBean.paSlzDate4=行政救濟最高行政法院日期
+
+pageBean.paReserveNo=paReserveNo
+pageBean.paReserveDate=paReserveDate
+pageBean.paMfgCode=paMfgCode
+pageBean.paMfgName=paMfgName
+pageBean.paAuditSource=paAuditSource
+pageBean.paRecvNoP=paRecvNoP
+pageBean.paRecvDateP=paRecvDateP
+pageBean.paRsvUser=paRsvUser
+pageBean.paRsvName=paRsvName
+pageBean.paAuditAbst=paAuditAbst
+pageBean.paAssignDate=paAssignDate
+pageBean.paAssignNo=paAssignNo
+pageBean.paAssignUser=paAssignUser
+pageBean.paAssignName=paAssignName
+pageBean.paAssignCus=paAssignCus
+pageBean.paPunauditDate=paPunauditDate
+pageBean.paPunauditMemo=paPunauditMemo
+pageBean.paPmemo=paPmemo
+pageBean.paRecvNoAbcd=paRecvNoAbcd
+pageBean.paRecvDateAbcd=paRecvDateAbcd
+pageBean.paAuditUnit=paAuditUnit
+pageBean.paUserUnit=paUserUnit
+pageBean.paMainAuditor=paMainAuditor
+pageBean.paMainName=paMainName
+pageBean.paAsstAuditor1=paAsstAuditor1
+pageBean.paAsstName1=paAsstName1
+pageBean.paAsstAuditor2=paAsstAuditor2
+pageBean.paAsstName2=paAsstName2
+pageBean.paAsstAuditor3=paAsstAuditor3
+pageBean.paAsstName3=paAsstName3
+pageBean.paPrefinishDate=paPrefinishDate
+pageBean.paBunauditDate=paBunauditDate
+pageBean.paBunauditMemo=paBunauditMemo
+pageBean.paAbcdmemo=paAbcdmemo
+pageBean.paAppointDate=paAppointDate
+pageBean.paAuditNo=paAuditNo
+pageBean.paAuditDate=paAuditDate
+pageBean.paInfoDate=paInfoDate
+pageBean.paBustripDate=paBustripDate
+pageBean.paInterviewDate=paInterviewDate
+pageBean.paInfoCbankDate=paInfoCbankDate
+pageBean.paInfoEbankDate=paInfoEbankDate
+pageBean.paInfoOunitDate=paInfoOunitDate
+pageBean.paNationalTax=paNationalTax
+pageBean.paInfo=paInfo
+pageBean.paAuditProcess=paAuditProcess
+pageBean.paAuditConclsn=paAuditConclsn
+pageBean.paAuditResult=paAuditResult
+pageBean.paAuditTax=paAuditTax
+pageBean.paAuditFine=paAuditFine
+pageBean.paAuditType1=paAuditType1
+pageBean.paAuditType2=paAuditType2
+pageBean.paAuditType3=paAuditType3
+pageBean.paAuditType4=paAuditType4
+pageBean.paAuditType5=paAuditType5
+pageBean.paAuditType6=paAuditType6
+pageBean.paAuditType7=paAuditType7
+pageBean.paAuditType8=paAuditType8
+pageBean.paAuditType9=paAuditType9
+pageBean.paAuditType10=paAuditType10
+pageBean.paAuditType11=paAuditType11
+pageBean.paAuditType12=paAuditType12
+pageBean.paAuditWriteDate=paAuditWriteDate
+pageBean.paSignUnit=paSignUnit
+pageBean.paSendDate=paSendDate
+pageBean.paAuditOkDate=paAuditOkDate
+pageBean.paShiftUnit=paShiftUnit
+pageBean.paShiftDate=paShiftDate
+pageBean.paFileDate=paFileDate
+pageBean.paFileNo=paFileNo
+pageBean.paLoanDate=paLoanDate
+pageBean.paLoanUnit=paLoanUnit
+pageBean.paLoanUser=paLoanUser
+pageBean.paLoanName=paLoanName
+pageBean.paReturnDate=paReturnDate
+pageBean.proUser=proUser
+pageBean.transCode=transCode
+pageBean.paLawSource=paLawSource
+pageBean.paSlzChk=paSlzChk
+pageBean.paSlzOk=paSlzOk
+pageBean.paSlzDate1=paSlzDate1
+pageBean.paSlzDate2=paSlzDate2
+pageBean.paSlzDate3=paSlzDate3
+pageBean.paSlzDate4=paSlzDate4
+
+<!--paReserveNo:備查文號-->
+<tr>
+<td>
+	<s:text name="paReserveNo"/>
+	<s:textfield name="pageBean.paReserveNo" />
+</td>
+</tr>
+
+<!--paReserveDate:備查日期-->
+<tr>
+<td>
+	<s:text name="paReserveDate"/>
+	<s:textfield name="pageBean.paReserveDate" />
+</td>
+</tr>
+
+<!--paMfgCode:廠商統編-->
+<tr>
+<td>
+	<s:text name="paMfgCode"/>
+	<s:textfield name="pageBean.paMfgCode" />
+</td>
+</tr>
+
+<!--paMfgName:廠商名稱-->
+<tr>
+<td>
+	<s:text name="paMfgName"/>
+	<s:textfield name="pageBean.paMfgName" />
+</td>
+</tr>
+
+<!--paAuditSource:案件來源-->
+<tr>
+<td>
+	<s:text name="paAuditSource"/>
+	<s:textfield name="pageBean.paAuditSource" />
+</td>
+</tr>
+
+<!--paRecvNoP:關務署收件編號-->
+<tr>
+<td>
+	<s:text name="paRecvNoP"/>
+	<s:textfield name="pageBean.paRecvNoP" />
+</td>
+</tr>
+
+<!--paRecvDateP:關務署收件日期-->
+<tr>
+<td>
+	<s:text name="paRecvDateP"/>
+	<s:textfield name="pageBean.paRecvDateP" />
+</td>
+</tr>
+
+<!--paRsvUser:承辦員編號-->
+<tr>
+<td>
+	<s:text name="paRsvUser"/>
+	<s:textfield name="pageBean.paRsvUser" />
+</td>
+</tr>
+
+<!--paRsvName:承辦員姓名-->
+<tr>
+<td>
+	<s:text name="paRsvName"/>
+	<s:textfield name="pageBean.paRsvName" />
+</td>
+</tr>
+
+<!--paAuditAbst:案情摘要-->
+<tr>
+<td>
+	<s:text name="paAuditAbst"/>
+	<s:textfield name="pageBean.paAuditAbst" />
+</td>
+</tr>
+
+<!--paAssignDate:交查日期-->
+<tr>
+<td>
+	<s:text name="paAssignDate"/>
+	<s:textfield name="pageBean.paAssignDate" />
+</td>
+</tr>
+
+<!--paAssignNo:交查文號-->
+<tr>
+<td>
+	<s:text name="paAssignNo"/>
+	<s:textfield name="pageBean.paAssignNo" />
+</td>
+</tr>
+
+<!--paAssignUser:交辦員編號-->
+<tr>
+<td>
+	<s:text name="paAssignUser"/>
+	<s:textfield name="pageBean.paAssignUser" />
+</td>
+</tr>
+
+<!--paAssignName:交辦員姓名-->
+<tr>
+<td>
+	<s:text name="paAssignName"/>
+	<s:textfield name="pageBean.paAssignName" />
+</td>
+</tr>
+
+<!--paAssignCus:交辦關區-->
+<tr>
+<td>
+	<s:text name="paAssignCus"/>
+	<s:textfield name="pageBean.paAssignCus" />
+</td>
+</tr>
+
+<!--paPunauditDate:關務署免稽核日期-->
+<tr>
+<td>
+	<s:text name="paPunauditDate"/>
+	<s:textfield name="pageBean.paPunauditDate" />
+</td>
+</tr>
+
+<!--paPunauditMemo:關務署免稽核原因-->
+<tr>
+<td>
+	<s:text name="paPunauditMemo"/>
+	<s:textfield name="pageBean.paPunauditMemo" />
+</td>
+</tr>
+
+<!--paPmemo:關務署備註-->
+<tr>
+<td>
+	<s:text name="paPmemo"/>
+	<s:textfield name="pageBean.paPmemo" />
+</td>
+</tr>
+
+<!--paRecvNoAbcd:關區收件編號-->
+<tr>
+<td>
+	<s:text name="paRecvNoAbcd"/>
+	<s:textfield name="pageBean.paRecvNoAbcd" />
+</td>
+</tr>
+
+<!--paRecvDateAbcd:關區收件日期-->
+<tr>
+<td>
+	<s:text name="paRecvDateAbcd"/>
+	<s:textfield name="pageBean.paRecvDateAbcd" />
+</td>
+</tr>
+
+<!--paAuditUnit:承辦課-->
+<tr>
+<td>
+	<s:text name="paAuditUnit"/>
+	<s:textfield name="pageBean.paAuditUnit" />
+</td>
+</tr>
+
+<!--paUserUnit:稽核人員所屬單位-->
+<tr>
+<td>
+	<s:text name="paUserUnit"/>
+	<s:textfield name="pageBean.paUserUnit" />
+</td>
+</tr>
+
+<!--paMainAuditor:主辦稽核員編號-->
+<tr>
+<td>
+	<s:text name="paMainAuditor"/>
+	<s:textfield name="pageBean.paMainAuditor" />
+</td>
+</tr>
+
+<!--paMainName:主辦稽核員姓名-->
+<tr>
+<td>
+	<s:text name="paMainName"/>
+	<s:textfield name="pageBean.paMainName" />
+</td>
+</tr>
+
+<!--paAsstAuditor1:協辦稽核員編號1-->
+<tr>
+<td>
+	<s:text name="paAsstAuditor1"/>
+	<s:textfield name="pageBean.paAsstAuditor1" />
+</td>
+</tr>
+
+<!--paAsstName1:協辦稽核員姓名1-->
+<tr>
+<td>
+	<s:text name="paAsstName1"/>
+	<s:textfield name="pageBean.paAsstName1" />
+</td>
+</tr>
+
+<!--paAsstAuditor2:協辦稽核員編號2-->
+<tr>
+<td>
+	<s:text name="paAsstAuditor2"/>
+	<s:textfield name="pageBean.paAsstAuditor2" />
+</td>
+</tr>
+
+<!--paAsstName2:協辦稽核員姓名2-->
+<tr>
+<td>
+	<s:text name="paAsstName2"/>
+	<s:textfield name="pageBean.paAsstName2" />
+</td>
+</tr>
+
+<!--paAsstAuditor3:協辦稽核員編號3-->
+<tr>
+<td>
+	<s:text name="paAsstAuditor3"/>
+	<s:textfield name="pageBean.paAsstAuditor3" />
+</td>
+</tr>
+
+<!--paAsstName3:協辦稽核員姓名3-->
+<tr>
+<td>
+	<s:text name="paAsstName3"/>
+	<s:textfield name="pageBean.paAsstName3" />
+</td>
+</tr>
+
+<!--paPrefinishDate:預定完成期限-->
+<tr>
+<td>
+	<s:text name="paPrefinishDate"/>
+	<s:textfield name="pageBean.paPrefinishDate" />
+</td>
+</tr>
+
+<!--paBunauditDate:關區免稽核日期-->
+<tr>
+<td>
+	<s:text name="paBunauditDate"/>
+	<s:textfield name="pageBean.paBunauditDate" />
+</td>
+</tr>
+
+<!--paBunauditMemo:關區免稽核原因-->
+<tr>
+<td>
+	<s:text name="paBunauditMemo"/>
+	<s:textfield name="pageBean.paBunauditMemo" />
+</td>
+</tr>
+
+<!--paAbcdmemo:備註-->
+<tr>
+<td>
+	<s:text name="paAbcdmemo"/>
+	<s:textfield name="pageBean.paAbcdmemo" />
+</td>
+</tr>
+
+<!--paAppointDate:派案日期-->
+<tr>
+<td>
+	<s:text name="paAppointDate"/>
+	<s:textfield name="pageBean.paAppointDate" />
+</td>
+</tr>
+
+<!--paAuditNo:稽核案號-->
+<tr>
+<td>
+	<s:text name="paAuditNo"/>
+	<s:textfield name="pageBean.paAuditNo" />
+</td>
+</tr>
+
+<!--paAuditDate:稽核日期-->
+<tr>
+<td>
+	<s:text name="paAuditDate"/>
+	<s:textfield name="pageBean.paAuditDate" />
+</td>
+</tr>
+
+<!--paInfoDate:發通知函日期-->
+<tr>
+<td>
+	<s:text name="paInfoDate"/>
+	<s:textfield name="pageBean.paInfoDate" />
+</td>
+</tr>
+
+<!--paBustripDate:出差日期-->
+<tr>
+<td>
+	<s:text name="paBustripDate"/>
+	<s:textfield name="pageBean.paBustripDate" />
+</td>
+</tr>
+
+<!--paInterviewDate:來關訪談日期-->
+<tr>
+<td>
+	<s:text name="paInterviewDate"/>
+	<s:textfield name="pageBean.paInterviewDate" />
+</td>
+</tr>
+
+<!--paInfoCbankDate:函中央銀行日期-->
+<tr>
+<td>
+	<s:text name="paInfoCbankDate"/>
+	<s:textfield name="pageBean.paInfoCbankDate" />
+</td>
+</tr>
+
+<!--paInfoEbankDate:函結匯銀行日期-->
+<tr>
+<td>
+	<s:text name="paInfoEbankDate"/>
+	<s:textfield name="pageBean.paInfoEbankDate" />
+</td>
+</tr>
+
+<!--paInfoOunitDate:函駐外單位日期-->
+<tr>
+<td>
+	<s:text name="paInfoOunitDate"/>
+	<s:textfield name="pageBean.paInfoOunitDate" />
+</td>
+</tr>
+
+<!--paNationalTax:-->
+<tr>
+<td>
+	<s:text name="paNationalTax"/>
+	<s:textfield name="pageBean.paNationalTax" />
+</td>
+</tr>
+
+<!--paInfo:-->
+<tr>
+<td>
+	<s:text name="paInfo"/>
+	<s:textfield name="pageBean.paInfo" />
+</td>
+</tr>
+
+<!--paAuditProcess:稽核過程簡述-->
+<tr>
+<td>
+	<s:text name="paAuditProcess"/>
+	<s:textfield name="pageBean.paAuditProcess" />
+</td>
+</tr>
+
+<!--paAuditConclsn:結論與擬辦-->
+<tr>
+<td>
+	<s:text name="paAuditConclsn"/>
+	<s:textfield name="pageBean.paAuditConclsn" />
+</td>
+</tr>
+
+<!--paAuditResult:稽核結果-->
+<tr>
+<td>
+	<s:text name="paAuditResult"/>
+	<s:textfield name="pageBean.paAuditResult" />
+</td>
+</tr>
+
+<!--paAuditTax:預估補稅金額-->
+<tr>
+<td>
+	<s:text name="paAuditTax"/>
+	<s:textfield name="pageBean.paAuditTax" />
+</td>
+</tr>
+
+<!--paAuditFine:預估罰鍰金額-->
+<tr>
+<td>
+	<s:text name="paAuditFine"/>
+	<s:textfield name="pageBean.paAuditFine" />
+</td>
+</tr>
+
+<!--paAuditType1:稽核結果類型-虛報貨名-->
+<tr>
+<td>
+	<s:text name="paAuditType1"/>
+	<s:textfield name="pageBean.paAuditType1" />
+</td>
+</tr>
+
+<!--paAuditType2:稽核結果類型-虛報產地-->
+<tr>
+<td>
+	<s:text name="paAuditType2"/>
+	<s:textfield name="pageBean.paAuditType2" />
+</td>
+</tr>
+
+<!--paAuditType3:稽核結果類型-虛報數量-->
+<tr>
+<td>
+	<s:text name="paAuditType3"/>
+	<s:textfield name="pageBean.paAuditType3" />
+</td>
+</tr>
+
+<!--paAuditType4:稽核結果類型-虛報貨價-->
+<tr>
+<td>
+	<s:text name="paAuditType4"/>
+	<s:textfield name="pageBean.paAuditType4" />
+</td>
+</tr>
+
+<!--paAuditType5:稽核結果類型-高價低報-->
+<tr>
+<td>
+	<s:text name="paAuditType5"/>
+	<s:textfield name="pageBean.paAuditType5" />
+</td>
+</tr>
+
+<!--paAuditType6:稽核結果類型-低價高報-->
+<tr>
+<td>
+	<s:text name="paAuditType6"/>
+	<s:textfield name="pageBean.paAuditType6" />
+</td>
+</tr>
+
+<!--paAuditType7:稽核結果類型-追繳貨價-->
+<tr>
+<td>
+	<s:text name="paAuditType7"/>
+	<s:textfield name="pageBean.paAuditType7" />
+</td>
+</tr>
+
+<!--paAuditType8:稽核結果類型-稅則申報不實-->
+<tr>
+<td>
+	<s:text name="paAuditType8"/>
+	<s:textfield name="pageBean.paAuditType8" />
+</td>
+</tr>
+
+<!--paAuditType9:稽核結果類型-溢沖退稅捐-->
+<tr>
+<td>
+	<s:text name="paAuditType9"/>
+	<s:textfield name="pageBean.paAuditType9" />
+</td>
+</tr>
+
+<!--paAuditType10:稽核結果類型-冒退營業稅-->
+<tr>
+<td>
+	<s:text name="paAuditType10"/>
+	<s:textfield name="pageBean.paAuditType10" />
+</td>
+</tr>
+
+<!--paAuditType11:-->
+<tr>
+<td>
+	<s:text name="paAuditType11"/>
+	<s:textfield name="pageBean.paAuditType11" />
+</td>
+</tr>
+
+<!--paAuditType12:稽核結果類型-其他違規事項-->
+<tr>
+<td>
+	<s:text name="paAuditType12"/>
+	<s:textfield name="pageBean.paAuditType12" />
+</td>
+</tr>
+
+<!--paAuditWriteDate:稽核報告陳核日期-->
+<tr>
+<td>
+	<s:text name="paAuditWriteDate"/>
+	<s:textfield name="pageBean.paAuditWriteDate" />
+</td>
+</tr>
+
+<!--paSignUnit:會簽單位-->
+<tr>
+<td>
+	<s:text name="paSignUnit"/>
+	<s:textfield name="pageBean.paSignUnit" />
+</td>
+</tr>
+
+<!--paSendDate:送會日期-->
+<tr>
+<td>
+	<s:text name="paSendDate"/>
+	<s:textfield name="pageBean.paSendDate" />
+</td>
+</tr>
+
+<!--paAuditOkDate:稽核報告核定日期-->
+<tr>
+<td>
+	<s:text name="paAuditOkDate"/>
+	<s:textfield name="pageBean.paAuditOkDate" />
+</td>
+</tr>
+
+<!--paShiftUnit:移辦單位-->
+<tr>
+<td>
+	<s:text name="paShiftUnit"/>
+	<s:textfield name="pageBean.paShiftUnit" />
+</td>
+</tr>
+
+<!--paShiftDate:移辦日期-->
+<tr>
+<td>
+	<s:text name="paShiftDate"/>
+	<s:textfield name="pageBean.paShiftDate" />
+</td>
+</tr>
+
+<!--paFileDate:歸檔日期-->
+<tr>
+<td>
+	<s:text name="paFileDate"/>
+	<s:textfield name="pageBean.paFileDate" />
+</td>
+</tr>
+
+<!--paFileNo:歸檔編號-->
+<tr>
+<td>
+	<s:text name="paFileNo"/>
+	<s:textfield name="pageBean.paFileNo" />
+</td>
+</tr>
+
+<!--paLoanDate:借出日期-->
+<tr>
+<td>
+	<s:text name="paLoanDate"/>
+	<s:textfield name="pageBean.paLoanDate" />
+</td>
+</tr>
+
+<!--paLoanUnit:借出單位-->
+<tr>
+<td>
+	<s:text name="paLoanUnit"/>
+	<s:textfield name="pageBean.paLoanUnit" />
+</td>
+</tr>
+
+<!--paLoanUser:借出人編號-->
+<tr>
+<td>
+	<s:text name="paLoanUser"/>
+	<s:textfield name="pageBean.paLoanUser" />
+</td>
+</tr>
+
+<!--paLoanName:借出人姓名-->
+<tr>
+<td>
+	<s:text name="paLoanName"/>
+	<s:textfield name="pageBean.paLoanName" />
+</td>
+</tr>
+
+<!--paReturnDate:歸還日期-->
+<tr>
+<td>
+	<s:text name="paReturnDate"/>
+	<s:textfield name="pageBean.paReturnDate" />
+</td>
+</tr>
+
+<!--proUser:處理人員-->
+<tr>
+<td>
+	<s:text name="proUser"/>
+	<s:textfield name="pageBean.proUser" />
+</td>
+</tr>
+
+<!--transCode:程式代碼-->
+<tr>
+<td>
+	<s:text name="transCode"/>
+	<s:textfield name="pageBean.transCode" />
+</td>
+</tr>
+
+<!--paLawSource:行政救濟種類-->
+<tr>
+<td>
+	<s:text name="paLawSource"/>
+	<s:textfield name="pageBean.paLawSource" />
+</td>
+</tr>
+
+<!--paSlzChk:是否行政救濟-->
+<tr>
+<td>
+	<s:text name="paSlzChk"/>
+	<s:textfield name="pageBean.paSlzChk" />
+</td>
+</tr>
+
+<!--paSlzOk:行政救濟是否已確認-->
+<tr>
+<td>
+	<s:text name="paSlzOk"/>
+	<s:textfield name="pageBean.paSlzOk" />
+</td>
+</tr>
+
+<!--paSlzDate1:行政救濟復查日期-->
+<tr>
+<td>
+	<s:text name="paSlzDate1"/>
+	<s:textfield name="pageBean.paSlzDate1" />
+</td>
+</tr>
+
+<!--paSlzDate2:行政救濟訴願日期-->
+<tr>
+<td>
+	<s:text name="paSlzDate2"/>
+	<s:textfield name="pageBean.paSlzDate2" />
+</td>
+</tr>
+
+<!--paSlzDate3:行政救濟高等行政法院日期-->
+<tr>
+<td>
+	<s:text name="paSlzDate3"/>
+	<s:textfield name="pageBean.paSlzDate3" />
+</td>
+</tr>
+
+<!--paSlzDate4:行政救濟最高行政法院日期-->
+<tr>
+<td>
+	<s:text name="paSlzDate4"/>
+	<s:textfield name="pageBean.paSlzDate4" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="PA_RESERVE_NO" index="PA_RESERVE_NO" title="%{getText('paReserveNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RESERVE_NO:備查文號:paReserveNo--%>
+<sjg:gridColumn name="PA_RESERVE_DATE" index="PA_RESERVE_DATE" title="%{getText('paReserveDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RESERVE_DATE:備查日期:paReserveDate--%>
+<sjg:gridColumn name="PA_MFG_CODE" index="PA_MFG_CODE" title="%{getText('paMfgCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MFG_CODE:廠商統編:paMfgCode--%>
+<sjg:gridColumn name="PA_MFG_NAME" index="PA_MFG_NAME" title="%{getText('paMfgName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MFG_NAME:廠商名稱:paMfgName--%>
+<sjg:gridColumn name="PA_AUDIT_SOURCE" index="PA_AUDIT_SOURCE" title="%{getText('paAuditSource')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_SOURCE:案件來源:paAuditSource--%>
+<sjg:gridColumn name="PA_RECV_NO_P" index="PA_RECV_NO_P" title="%{getText('paRecvNoP')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_NO_P:關務署收件編號:paRecvNoP--%>
+<sjg:gridColumn name="PA_RECV_DATE_P" index="PA_RECV_DATE_P" title="%{getText('paRecvDateP')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_DATE_P:關務署收件日期:paRecvDateP--%>
+<sjg:gridColumn name="PA_RSV_USER" index="PA_RSV_USER" title="%{getText('paRsvUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RSV_USER:承辦員編號:paRsvUser--%>
+<sjg:gridColumn name="PA_RSV_NAME" index="PA_RSV_NAME" title="%{getText('paRsvName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RSV_NAME:承辦員姓名:paRsvName--%>
+<sjg:gridColumn name="PA_AUDIT_ABST" index="PA_AUDIT_ABST" title="%{getText('paAuditAbst')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_ABST:案情摘要:paAuditAbst--%>
+<sjg:gridColumn name="PA_ASSIGN_DATE" index="PA_ASSIGN_DATE" title="%{getText('paAssignDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASSIGN_DATE:交查日期:paAssignDate--%>
+<sjg:gridColumn name="PA_ASSIGN_NO" index="PA_ASSIGN_NO" title="%{getText('paAssignNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASSIGN_NO:交查文號:paAssignNo--%>
+<sjg:gridColumn name="PA_ASSIGN_USER" index="PA_ASSIGN_USER" title="%{getText('paAssignUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASSIGN_USER:交辦員編號:paAssignUser--%>
+<sjg:gridColumn name="PA_ASSIGN_NAME" index="PA_ASSIGN_NAME" title="%{getText('paAssignName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASSIGN_NAME:交辦員姓名:paAssignName--%>
+<sjg:gridColumn name="PA_ASSIGN_CUS" index="PA_ASSIGN_CUS" title="%{getText('paAssignCus')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASSIGN_CUS:交辦關區:paAssignCus--%>
+<sjg:gridColumn name="PA_PUNAUDIT_DATE" index="PA_PUNAUDIT_DATE" title="%{getText('paPunauditDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_PUNAUDIT_DATE:關務署免稽核日期:paPunauditDate--%>
+<sjg:gridColumn name="PA_PUNAUDIT_MEMO" index="PA_PUNAUDIT_MEMO" title="%{getText('paPunauditMemo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_PUNAUDIT_MEMO:關務署免稽核原因:paPunauditMemo--%>
+<sjg:gridColumn name="PA_PMEMO" index="PA_PMEMO" title="%{getText('paPmemo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_PMEMO:關務署備註:paPmemo--%>
+<sjg:gridColumn name="PA_RECV_NO_ABCD" index="PA_RECV_NO_ABCD" title="%{getText('paRecvNoAbcd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_NO_ABCD:關區收件編號:paRecvNoAbcd--%>
+<sjg:gridColumn name="PA_RECV_DATE_ABCD" index="PA_RECV_DATE_ABCD" title="%{getText('paRecvDateAbcd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RECV_DATE_ABCD:關區收件日期:paRecvDateAbcd--%>
+<sjg:gridColumn name="PA_AUDIT_UNIT" index="PA_AUDIT_UNIT" title="%{getText('paAuditUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_UNIT:承辦課:paAuditUnit--%>
+<sjg:gridColumn name="PA_USER_UNIT" index="PA_USER_UNIT" title="%{getText('paUserUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_USER_UNIT:稽核人員所屬單位:paUserUnit--%>
+<sjg:gridColumn name="PA_MAIN_AUDITOR" index="PA_MAIN_AUDITOR" title="%{getText('paMainAuditor')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MAIN_AUDITOR:主辦稽核員編號:paMainAuditor--%>
+<sjg:gridColumn name="PA_MAIN_NAME" index="PA_MAIN_NAME" title="%{getText('paMainName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_MAIN_NAME:主辦稽核員姓名:paMainName--%>
+<sjg:gridColumn name="PA_ASST_AUDITOR1" index="PA_ASST_AUDITOR1" title="%{getText('paAsstAuditor1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_AUDITOR1:協辦稽核員編號1:paAsstAuditor1--%>
+<sjg:gridColumn name="PA_ASST_NAME1" index="PA_ASST_NAME1" title="%{getText('paAsstName1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_NAME1:協辦稽核員姓名1:paAsstName1--%>
+<sjg:gridColumn name="PA_ASST_AUDITOR2" index="PA_ASST_AUDITOR2" title="%{getText('paAsstAuditor2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_AUDITOR2:協辦稽核員編號2:paAsstAuditor2--%>
+<sjg:gridColumn name="PA_ASST_NAME2" index="PA_ASST_NAME2" title="%{getText('paAsstName2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_NAME2:協辦稽核員姓名2:paAsstName2--%>
+<sjg:gridColumn name="PA_ASST_AUDITOR3" index="PA_ASST_AUDITOR3" title="%{getText('paAsstAuditor3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_AUDITOR3:協辦稽核員編號3:paAsstAuditor3--%>
+<sjg:gridColumn name="PA_ASST_NAME3" index="PA_ASST_NAME3" title="%{getText('paAsstName3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ASST_NAME3:協辦稽核員姓名3:paAsstName3--%>
+<sjg:gridColumn name="PA_PREFINISH_DATE" index="PA_PREFINISH_DATE" title="%{getText('paPrefinishDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_PREFINISH_DATE:預定完成期限:paPrefinishDate--%>
+<sjg:gridColumn name="PA_BUNAUDIT_DATE" index="PA_BUNAUDIT_DATE" title="%{getText('paBunauditDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_BUNAUDIT_DATE:關區免稽核日期:paBunauditDate--%>
+<sjg:gridColumn name="PA_BUNAUDIT_MEMO" index="PA_BUNAUDIT_MEMO" title="%{getText('paBunauditMemo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_BUNAUDIT_MEMO:關區免稽核原因:paBunauditMemo--%>
+<sjg:gridColumn name="PA_ABCDMEMO" index="PA_ABCDMEMO" title="%{getText('paAbcdmemo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_ABCDMEMO:備註:paAbcdmemo--%>
+<sjg:gridColumn name="PA_APPOINT_DATE" index="PA_APPOINT_DATE" title="%{getText('paAppointDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_APPOINT_DATE:派案日期:paAppointDate--%>
+<sjg:gridColumn name="PA_AUDIT_NO" index="PA_AUDIT_NO" title="%{getText('paAuditNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_NO:稽核案號:paAuditNo--%>
+<sjg:gridColumn name="PA_AUDIT_DATE" index="PA_AUDIT_DATE" title="%{getText('paAuditDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_DATE:稽核日期:paAuditDate--%>
+<sjg:gridColumn name="PA_INFO_DATE" index="PA_INFO_DATE" title="%{getText('paInfoDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INFO_DATE:發通知函日期:paInfoDate--%>
+<sjg:gridColumn name="PA_BUSTRIP_DATE" index="PA_BUSTRIP_DATE" title="%{getText('paBustripDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_BUSTRIP_DATE:出差日期:paBustripDate--%>
+<sjg:gridColumn name="PA_INTERVIEW_DATE" index="PA_INTERVIEW_DATE" title="%{getText('paInterviewDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INTERVIEW_DATE:來關訪談日期:paInterviewDate--%>
+<sjg:gridColumn name="PA_INFO_CBANK_DATE" index="PA_INFO_CBANK_DATE" title="%{getText('paInfoCbankDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INFO_CBANK_DATE:函中央銀行日期:paInfoCbankDate--%>
+<sjg:gridColumn name="PA_INFO_EBANK_DATE" index="PA_INFO_EBANK_DATE" title="%{getText('paInfoEbankDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INFO_EBANK_DATE:函結匯銀行日期:paInfoEbankDate--%>
+<sjg:gridColumn name="PA_INFO_OUNIT_DATE" index="PA_INFO_OUNIT_DATE" title="%{getText('paInfoOunitDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INFO_OUNIT_DATE:函駐外單位日期:paInfoOunitDate--%>
+<sjg:gridColumn name="PA_NATIONAL_TAX" index="PA_NATIONAL_TAX" title="%{getText('paNationalTax')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_NATIONAL_TAX::paNationalTax--%>
+<sjg:gridColumn name="PA_INFO" index="PA_INFO" title="%{getText('paInfo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_INFO::paInfo--%>
+<sjg:gridColumn name="PA_AUDIT_PROCESS" index="PA_AUDIT_PROCESS" title="%{getText('paAuditProcess')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_PROCESS:稽核過程簡述:paAuditProcess--%>
+<sjg:gridColumn name="PA_AUDIT_CONCLSN" index="PA_AUDIT_CONCLSN" title="%{getText('paAuditConclsn')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_CONCLSN:結論與擬辦:paAuditConclsn--%>
+<sjg:gridColumn name="PA_AUDIT_RESULT" index="PA_AUDIT_RESULT" title="%{getText('paAuditResult')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_RESULT:稽核結果:paAuditResult--%>
+<sjg:gridColumn name="PA_AUDIT_TAX" index="PA_AUDIT_TAX" title="%{getText('paAuditTax')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TAX:預估補稅金額:paAuditTax--%>
+<sjg:gridColumn name="PA_AUDIT_FINE" index="PA_AUDIT_FINE" title="%{getText('paAuditFine')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_FINE:預估罰鍰金額:paAuditFine--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE1" index="PA_AUDIT_TYPE1" title="%{getText('paAuditType1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE1:稽核結果類型-虛報貨名:paAuditType1--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE2" index="PA_AUDIT_TYPE2" title="%{getText('paAuditType2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE2:稽核結果類型-虛報產地:paAuditType2--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE3" index="PA_AUDIT_TYPE3" title="%{getText('paAuditType3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE3:稽核結果類型-虛報數量:paAuditType3--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE4" index="PA_AUDIT_TYPE4" title="%{getText('paAuditType4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE4:稽核結果類型-虛報貨價:paAuditType4--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE5" index="PA_AUDIT_TYPE5" title="%{getText('paAuditType5')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE5:稽核結果類型-高價低報:paAuditType5--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE6" index="PA_AUDIT_TYPE6" title="%{getText('paAuditType6')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE6:稽核結果類型-低價高報:paAuditType6--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE7" index="PA_AUDIT_TYPE7" title="%{getText('paAuditType7')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE7:稽核結果類型-追繳貨價:paAuditType7--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE8" index="PA_AUDIT_TYPE8" title="%{getText('paAuditType8')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE8:稽核結果類型-稅則申報不實:paAuditType8--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE9" index="PA_AUDIT_TYPE9" title="%{getText('paAuditType9')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE9:稽核結果類型-溢沖退稅捐:paAuditType9--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE10" index="PA_AUDIT_TYPE10" title="%{getText('paAuditType10')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE10:稽核結果類型-冒退營業稅:paAuditType10--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE11" index="PA_AUDIT_TYPE11" title="%{getText('paAuditType11')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE11::paAuditType11--%>
+<sjg:gridColumn name="PA_AUDIT_TYPE12" index="PA_AUDIT_TYPE12" title="%{getText('paAuditType12')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_TYPE12:稽核結果類型-其他違規事項:paAuditType12--%>
+<sjg:gridColumn name="PA_AUDIT_WRITE_DATE" index="PA_AUDIT_WRITE_DATE" title="%{getText('paAuditWriteDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_WRITE_DATE:稽核報告陳核日期:paAuditWriteDate--%>
+<sjg:gridColumn name="PA_SIGN_UNIT" index="PA_SIGN_UNIT" title="%{getText('paSignUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SIGN_UNIT:會簽單位:paSignUnit--%>
+<sjg:gridColumn name="PA_SEND_DATE" index="PA_SEND_DATE" title="%{getText('paSendDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SEND_DATE:送會日期:paSendDate--%>
+<sjg:gridColumn name="PA_AUDIT_OK_DATE" index="PA_AUDIT_OK_DATE" title="%{getText('paAuditOkDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_AUDIT_OK_DATE:稽核報告核定日期:paAuditOkDate--%>
+<sjg:gridColumn name="PA_SHIFT_UNIT" index="PA_SHIFT_UNIT" title="%{getText('paShiftUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SHIFT_UNIT:移辦單位:paShiftUnit--%>
+<sjg:gridColumn name="PA_SHIFT_DATE" index="PA_SHIFT_DATE" title="%{getText('paShiftDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SHIFT_DATE:移辦日期:paShiftDate--%>
+<sjg:gridColumn name="PA_FILE_DATE" index="PA_FILE_DATE" title="%{getText('paFileDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_FILE_DATE:歸檔日期:paFileDate--%>
+<sjg:gridColumn name="PA_FILE_NO" index="PA_FILE_NO" title="%{getText('paFileNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_FILE_NO:歸檔編號:paFileNo--%>
+<sjg:gridColumn name="PA_LOAN_DATE" index="PA_LOAN_DATE" title="%{getText('paLoanDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_LOAN_DATE:借出日期:paLoanDate--%>
+<sjg:gridColumn name="PA_LOAN_UNIT" index="PA_LOAN_UNIT" title="%{getText('paLoanUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_LOAN_UNIT:借出單位:paLoanUnit--%>
+<sjg:gridColumn name="PA_LOAN_USER" index="PA_LOAN_USER" title="%{getText('paLoanUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_LOAN_USER:借出人編號:paLoanUser--%>
+<sjg:gridColumn name="PA_LOAN_NAME" index="PA_LOAN_NAME" title="%{getText('paLoanName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_LOAN_NAME:借出人姓名:paLoanName--%>
+<sjg:gridColumn name="PA_RETURN_DATE" index="PA_RETURN_DATE" title="%{getText('paReturnDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_RETURN_DATE:歸還日期:paReturnDate--%>
+<sjg:gridColumn name="PRO_USER" index="PRO_USER" title="%{getText('proUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PRO_USER:處理人員:proUser--%>
+<sjg:gridColumn name="TRANS_CODE" index="TRANS_CODE" title="%{getText('transCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_CODE:程式代碼:transCode--%>
+<sjg:gridColumn name="PA_LAW_SOURCE" index="PA_LAW_SOURCE" title="%{getText('paLawSource')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_LAW_SOURCE:行政救濟種類:paLawSource--%>
+<sjg:gridColumn name="PA_SLZ_CHK" index="PA_SLZ_CHK" title="%{getText('paSlzChk')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_CHK:是否行政救濟:paSlzChk--%>
+<sjg:gridColumn name="PA_SLZ_OK" index="PA_SLZ_OK" title="%{getText('paSlzOk')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_OK:行政救濟是否已確認:paSlzOk--%>
+<sjg:gridColumn name="PA_SLZ_DATE1" index="PA_SLZ_DATE1" title="%{getText('paSlzDate1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_DATE1:行政救濟復查日期:paSlzDate1--%>
+<sjg:gridColumn name="PA_SLZ_DATE2" index="PA_SLZ_DATE2" title="%{getText('paSlzDate2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_DATE2:行政救濟訴願日期:paSlzDate2--%>
+<sjg:gridColumn name="PA_SLZ_DATE3" index="PA_SLZ_DATE3" title="%{getText('paSlzDate3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_DATE3:行政救濟高等行政法院日期:paSlzDate3--%>
+<sjg:gridColumn name="PA_SLZ_DATE4" index="PA_SLZ_DATE4" title="%{getText('paSlzDate4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PA_SLZ_DATE4:行政救濟最高行政法院日期:paSlzDate4--%>
+
+,A.PA_RESERVE_NO
+,A.PA_RESERVE_DATE
+,A.PA_MFG_CODE
+,A.PA_MFG_NAME
+,A.PA_AUDIT_SOURCE
+,A.PA_RECV_NO_P
+,A.PA_RECV_DATE_P
+,A.PA_RSV_USER
+,A.PA_RSV_NAME
+,A.PA_AUDIT_ABST
+,A.PA_ASSIGN_DATE
+,A.PA_ASSIGN_NO
+,A.PA_ASSIGN_USER
+,A.PA_ASSIGN_NAME
+,A.PA_ASSIGN_CUS
+,A.PA_PUNAUDIT_DATE
+,A.PA_PUNAUDIT_MEMO
+,A.PA_PMEMO
+,A.PA_RECV_NO_ABCD
+,A.PA_RECV_DATE_ABCD
+,A.PA_AUDIT_UNIT
+,A.PA_USER_UNIT
+,A.PA_MAIN_AUDITOR
+,A.PA_MAIN_NAME
+,A.PA_ASST_AUDITOR1
+,A.PA_ASST_NAME1
+,A.PA_ASST_AUDITOR2
+,A.PA_ASST_NAME2
+,A.PA_ASST_AUDITOR3
+,A.PA_ASST_NAME3
+,A.PA_PREFINISH_DATE
+,A.PA_BUNAUDIT_DATE
+,A.PA_BUNAUDIT_MEMO
+,A.PA_ABCDMEMO
+,A.PA_APPOINT_DATE
+,A.PA_AUDIT_NO
+,A.PA_AUDIT_DATE
+,A.PA_INFO_DATE
+,A.PA_BUSTRIP_DATE
+,A.PA_INTERVIEW_DATE
+,A.PA_INFO_CBANK_DATE
+,A.PA_INFO_EBANK_DATE
+,A.PA_INFO_OUNIT_DATE
+,A.PA_NATIONAL_TAX
+,A.PA_INFO
+,A.PA_AUDIT_PROCESS
+,A.PA_AUDIT_CONCLSN
+,A.PA_AUDIT_RESULT
+,A.PA_AUDIT_TAX
+,A.PA_AUDIT_FINE
+,A.PA_AUDIT_TYPE1
+,A.PA_AUDIT_TYPE2
+,A.PA_AUDIT_TYPE3
+,A.PA_AUDIT_TYPE4
+,A.PA_AUDIT_TYPE5
+,A.PA_AUDIT_TYPE6
+,A.PA_AUDIT_TYPE7
+,A.PA_AUDIT_TYPE8
+,A.PA_AUDIT_TYPE9
+,A.PA_AUDIT_TYPE10
+,A.PA_AUDIT_TYPE11
+,A.PA_AUDIT_TYPE12
+,A.PA_AUDIT_WRITE_DATE
+,A.PA_SIGN_UNIT
+,A.PA_SEND_DATE
+,A.PA_AUDIT_OK_DATE
+,A.PA_SHIFT_UNIT
+,A.PA_SHIFT_DATE
+,A.PA_FILE_DATE
+,A.PA_FILE_NO
+,A.PA_LOAN_DATE
+,A.PA_LOAN_UNIT
+,A.PA_LOAN_USER
+,A.PA_LOAN_NAME
+,A.PA_RETURN_DATE
+,A.PRO_USER
+,A.TRANS_CODE
+,A.PA_LAW_SOURCE
+,A.PA_SLZ_CHK
+,A.PA_SLZ_OK
+,A.PA_SLZ_DATE1
+,A.PA_SLZ_DATE2
+,A.PA_SLZ_DATE3
+,A.PA_SLZ_DATE4
+
+<condition key="PA_RESERVE_NO" ignoreEmpty="true" >PA_RESERVE_NO like ${PA_RESERVE_NO}</condition>
+<condition key="PA_RESERVE_DATE" ignoreEmpty="true" >PA_RESERVE_DATE like ${PA_RESERVE_DATE}</condition>
+<condition key="PA_MFG_CODE" ignoreEmpty="true" >PA_MFG_CODE like ${PA_MFG_CODE}</condition>
+<condition key="PA_MFG_NAME" ignoreEmpty="true" >PA_MFG_NAME like ${PA_MFG_NAME}</condition>
+<condition key="PA_AUDIT_SOURCE" ignoreEmpty="true" >PA_AUDIT_SOURCE like ${PA_AUDIT_SOURCE}</condition>
+<condition key="PA_RECV_NO_P" ignoreEmpty="true" >PA_RECV_NO_P like ${PA_RECV_NO_P}</condition>
+<condition key="PA_RECV_DATE_P" ignoreEmpty="true" >PA_RECV_DATE_P like ${PA_RECV_DATE_P}</condition>
+<condition key="PA_RSV_USER" ignoreEmpty="true" >PA_RSV_USER like ${PA_RSV_USER}</condition>
+<condition key="PA_RSV_NAME" ignoreEmpty="true" >PA_RSV_NAME like ${PA_RSV_NAME}</condition>
+<condition key="PA_AUDIT_ABST" ignoreEmpty="true" >PA_AUDIT_ABST like ${PA_AUDIT_ABST}</condition>
+<condition key="PA_ASSIGN_DATE" ignoreEmpty="true" >PA_ASSIGN_DATE like ${PA_ASSIGN_DATE}</condition>
+<condition key="PA_ASSIGN_NO" ignoreEmpty="true" >PA_ASSIGN_NO like ${PA_ASSIGN_NO}</condition>
+<condition key="PA_ASSIGN_USER" ignoreEmpty="true" >PA_ASSIGN_USER like ${PA_ASSIGN_USER}</condition>
+<condition key="PA_ASSIGN_NAME" ignoreEmpty="true" >PA_ASSIGN_NAME like ${PA_ASSIGN_NAME}</condition>
+<condition key="PA_ASSIGN_CUS" ignoreEmpty="true" >PA_ASSIGN_CUS like ${PA_ASSIGN_CUS}</condition>
+<condition key="PA_PUNAUDIT_DATE" ignoreEmpty="true" >PA_PUNAUDIT_DATE like ${PA_PUNAUDIT_DATE}</condition>
+<condition key="PA_PUNAUDIT_MEMO" ignoreEmpty="true" >PA_PUNAUDIT_MEMO like ${PA_PUNAUDIT_MEMO}</condition>
+<condition key="PA_PMEMO" ignoreEmpty="true" >PA_PMEMO like ${PA_PMEMO}</condition>
+<condition key="PA_RECV_NO_ABCD" ignoreEmpty="true" >PA_RECV_NO_ABCD like ${PA_RECV_NO_ABCD}</condition>
+<condition key="PA_RECV_DATE_ABCD" ignoreEmpty="true" >PA_RECV_DATE_ABCD like ${PA_RECV_DATE_ABCD}</condition>
+<condition key="PA_AUDIT_UNIT" ignoreEmpty="true" >PA_AUDIT_UNIT like ${PA_AUDIT_UNIT}</condition>
+<condition key="PA_USER_UNIT" ignoreEmpty="true" >PA_USER_UNIT like ${PA_USER_UNIT}</condition>
+<condition key="PA_MAIN_AUDITOR" ignoreEmpty="true" >PA_MAIN_AUDITOR like ${PA_MAIN_AUDITOR}</condition>
+<condition key="PA_MAIN_NAME" ignoreEmpty="true" >PA_MAIN_NAME like ${PA_MAIN_NAME}</condition>
+<condition key="PA_ASST_AUDITOR1" ignoreEmpty="true" >PA_ASST_AUDITOR1 like ${PA_ASST_AUDITOR1}</condition>
+<condition key="PA_ASST_NAME1" ignoreEmpty="true" >PA_ASST_NAME1 like ${PA_ASST_NAME1}</condition>
+<condition key="PA_ASST_AUDITOR2" ignoreEmpty="true" >PA_ASST_AUDITOR2 like ${PA_ASST_AUDITOR2}</condition>
+<condition key="PA_ASST_NAME2" ignoreEmpty="true" >PA_ASST_NAME2 like ${PA_ASST_NAME2}</condition>
+<condition key="PA_ASST_AUDITOR3" ignoreEmpty="true" >PA_ASST_AUDITOR3 like ${PA_ASST_AUDITOR3}</condition>
+<condition key="PA_ASST_NAME3" ignoreEmpty="true" >PA_ASST_NAME3 like ${PA_ASST_NAME3}</condition>
+<condition key="PA_PREFINISH_DATE" ignoreEmpty="true" >PA_PREFINISH_DATE like ${PA_PREFINISH_DATE}</condition>
+<condition key="PA_BUNAUDIT_DATE" ignoreEmpty="true" >PA_BUNAUDIT_DATE like ${PA_BUNAUDIT_DATE}</condition>
+<condition key="PA_BUNAUDIT_MEMO" ignoreEmpty="true" >PA_BUNAUDIT_MEMO like ${PA_BUNAUDIT_MEMO}</condition>
+<condition key="PA_ABCDMEMO" ignoreEmpty="true" >PA_ABCDMEMO like ${PA_ABCDMEMO}</condition>
+<condition key="PA_APPOINT_DATE" ignoreEmpty="true" >PA_APPOINT_DATE like ${PA_APPOINT_DATE}</condition>
+<condition key="PA_AUDIT_NO" ignoreEmpty="true" >PA_AUDIT_NO like ${PA_AUDIT_NO}</condition>
+<condition key="PA_AUDIT_DATE" ignoreEmpty="true" >PA_AUDIT_DATE like ${PA_AUDIT_DATE}</condition>
+<condition key="PA_INFO_DATE" ignoreEmpty="true" >PA_INFO_DATE like ${PA_INFO_DATE}</condition>
+<condition key="PA_BUSTRIP_DATE" ignoreEmpty="true" >PA_BUSTRIP_DATE like ${PA_BUSTRIP_DATE}</condition>
+<condition key="PA_INTERVIEW_DATE" ignoreEmpty="true" >PA_INTERVIEW_DATE like ${PA_INTERVIEW_DATE}</condition>
+<condition key="PA_INFO_CBANK_DATE" ignoreEmpty="true" >PA_INFO_CBANK_DATE like ${PA_INFO_CBANK_DATE}</condition>
+<condition key="PA_INFO_EBANK_DATE" ignoreEmpty="true" >PA_INFO_EBANK_DATE like ${PA_INFO_EBANK_DATE}</condition>
+<condition key="PA_INFO_OUNIT_DATE" ignoreEmpty="true" >PA_INFO_OUNIT_DATE like ${PA_INFO_OUNIT_DATE}</condition>
+<condition key="PA_NATIONAL_TAX" ignoreEmpty="true" >PA_NATIONAL_TAX like ${PA_NATIONAL_TAX}</condition>
+<condition key="PA_INFO" ignoreEmpty="true" >PA_INFO like ${PA_INFO}</condition>
+<condition key="PA_AUDIT_PROCESS" ignoreEmpty="true" >PA_AUDIT_PROCESS like ${PA_AUDIT_PROCESS}</condition>
+<condition key="PA_AUDIT_CONCLSN" ignoreEmpty="true" >PA_AUDIT_CONCLSN like ${PA_AUDIT_CONCLSN}</condition>
+<condition key="PA_AUDIT_RESULT" ignoreEmpty="true" >PA_AUDIT_RESULT like ${PA_AUDIT_RESULT}</condition>
+<condition key="PA_AUDIT_TAX" ignoreEmpty="true" >PA_AUDIT_TAX like ${PA_AUDIT_TAX}</condition>
+<condition key="PA_AUDIT_FINE" ignoreEmpty="true" >PA_AUDIT_FINE like ${PA_AUDIT_FINE}</condition>
+<condition key="PA_AUDIT_TYPE1" ignoreEmpty="true" >PA_AUDIT_TYPE1 like ${PA_AUDIT_TYPE1}</condition>
+<condition key="PA_AUDIT_TYPE2" ignoreEmpty="true" >PA_AUDIT_TYPE2 like ${PA_AUDIT_TYPE2}</condition>
+<condition key="PA_AUDIT_TYPE3" ignoreEmpty="true" >PA_AUDIT_TYPE3 like ${PA_AUDIT_TYPE3}</condition>
+<condition key="PA_AUDIT_TYPE4" ignoreEmpty="true" >PA_AUDIT_TYPE4 like ${PA_AUDIT_TYPE4}</condition>
+<condition key="PA_AUDIT_TYPE5" ignoreEmpty="true" >PA_AUDIT_TYPE5 like ${PA_AUDIT_TYPE5}</condition>
+<condition key="PA_AUDIT_TYPE6" ignoreEmpty="true" >PA_AUDIT_TYPE6 like ${PA_AUDIT_TYPE6}</condition>
+<condition key="PA_AUDIT_TYPE7" ignoreEmpty="true" >PA_AUDIT_TYPE7 like ${PA_AUDIT_TYPE7}</condition>
+<condition key="PA_AUDIT_TYPE8" ignoreEmpty="true" >PA_AUDIT_TYPE8 like ${PA_AUDIT_TYPE8}</condition>
+<condition key="PA_AUDIT_TYPE9" ignoreEmpty="true" >PA_AUDIT_TYPE9 like ${PA_AUDIT_TYPE9}</condition>
+<condition key="PA_AUDIT_TYPE10" ignoreEmpty="true" >PA_AUDIT_TYPE10 like ${PA_AUDIT_TYPE10}</condition>
+<condition key="PA_AUDIT_TYPE11" ignoreEmpty="true" >PA_AUDIT_TYPE11 like ${PA_AUDIT_TYPE11}</condition>
+<condition key="PA_AUDIT_TYPE12" ignoreEmpty="true" >PA_AUDIT_TYPE12 like ${PA_AUDIT_TYPE12}</condition>
+<condition key="PA_AUDIT_WRITE_DATE" ignoreEmpty="true" >PA_AUDIT_WRITE_DATE like ${PA_AUDIT_WRITE_DATE}</condition>
+<condition key="PA_SIGN_UNIT" ignoreEmpty="true" >PA_SIGN_UNIT like ${PA_SIGN_UNIT}</condition>
+<condition key="PA_SEND_DATE" ignoreEmpty="true" >PA_SEND_DATE like ${PA_SEND_DATE}</condition>
+<condition key="PA_AUDIT_OK_DATE" ignoreEmpty="true" >PA_AUDIT_OK_DATE like ${PA_AUDIT_OK_DATE}</condition>
+<condition key="PA_SHIFT_UNIT" ignoreEmpty="true" >PA_SHIFT_UNIT like ${PA_SHIFT_UNIT}</condition>
+<condition key="PA_SHIFT_DATE" ignoreEmpty="true" >PA_SHIFT_DATE like ${PA_SHIFT_DATE}</condition>
+<condition key="PA_FILE_DATE" ignoreEmpty="true" >PA_FILE_DATE like ${PA_FILE_DATE}</condition>
+<condition key="PA_FILE_NO" ignoreEmpty="true" >PA_FILE_NO like ${PA_FILE_NO}</condition>
+<condition key="PA_LOAN_DATE" ignoreEmpty="true" >PA_LOAN_DATE like ${PA_LOAN_DATE}</condition>
+<condition key="PA_LOAN_UNIT" ignoreEmpty="true" >PA_LOAN_UNIT like ${PA_LOAN_UNIT}</condition>
+<condition key="PA_LOAN_USER" ignoreEmpty="true" >PA_LOAN_USER like ${PA_LOAN_USER}</condition>
+<condition key="PA_LOAN_NAME" ignoreEmpty="true" >PA_LOAN_NAME like ${PA_LOAN_NAME}</condition>
+<condition key="PA_RETURN_DATE" ignoreEmpty="true" >PA_RETURN_DATE like ${PA_RETURN_DATE}</condition>
+<condition key="PRO_USER" ignoreEmpty="true" >PRO_USER like ${PRO_USER}</condition>
+<condition key="TRANS_CODE" ignoreEmpty="true" >TRANS_CODE like ${TRANS_CODE}</condition>
+<condition key="PA_LAW_SOURCE" ignoreEmpty="true" >PA_LAW_SOURCE like ${PA_LAW_SOURCE}</condition>
+<condition key="PA_SLZ_CHK" ignoreEmpty="true" >PA_SLZ_CHK like ${PA_SLZ_CHK}</condition>
+<condition key="PA_SLZ_OK" ignoreEmpty="true" >PA_SLZ_OK like ${PA_SLZ_OK}</condition>
+<condition key="PA_SLZ_DATE1" ignoreEmpty="true" >PA_SLZ_DATE1 like ${PA_SLZ_DATE1}</condition>
+<condition key="PA_SLZ_DATE2" ignoreEmpty="true" >PA_SLZ_DATE2 like ${PA_SLZ_DATE2}</condition>
+<condition key="PA_SLZ_DATE3" ignoreEmpty="true" >PA_SLZ_DATE3 like ${PA_SLZ_DATE3}</condition>
+<condition key="PA_SLZ_DATE4" ignoreEmpty="true" >PA_SLZ_DATE4 like ${PA_SLZ_DATE4}</condition>
+
+<condition key="PA_RESERVE_NO_S" ignoreEmpty="true" >PA_RESERVE_NO >= ${PA_RESERVE_NO_S}</condition><condition key="PA_RESERVE_NO_E" ignoreEmpty="true" >${PA_RESERVE_NO_E} >= PA_RESERVE_NO</condition>
+<condition key="PA_RESERVE_DATE_S" ignoreEmpty="true" >PA_RESERVE_DATE >= ${PA_RESERVE_DATE_S}</condition><condition key="PA_RESERVE_DATE_E" ignoreEmpty="true" >${PA_RESERVE_DATE_E} >= PA_RESERVE_DATE</condition>
+<condition key="PA_MFG_CODE_S" ignoreEmpty="true" >PA_MFG_CODE >= ${PA_MFG_CODE_S}</condition><condition key="PA_MFG_CODE_E" ignoreEmpty="true" >${PA_MFG_CODE_E} >= PA_MFG_CODE</condition>
+<condition key="PA_MFG_NAME_S" ignoreEmpty="true" >PA_MFG_NAME >= ${PA_MFG_NAME_S}</condition><condition key="PA_MFG_NAME_E" ignoreEmpty="true" >${PA_MFG_NAME_E} >= PA_MFG_NAME</condition>
+<condition key="PA_AUDIT_SOURCE_S" ignoreEmpty="true" >PA_AUDIT_SOURCE >= ${PA_AUDIT_SOURCE_S}</condition><condition key="PA_AUDIT_SOURCE_E" ignoreEmpty="true" >${PA_AUDIT_SOURCE_E} >= PA_AUDIT_SOURCE</condition>
+<condition key="PA_RECV_NO_P_S" ignoreEmpty="true" >PA_RECV_NO_P >= ${PA_RECV_NO_P_S}</condition><condition key="PA_RECV_NO_P_E" ignoreEmpty="true" >${PA_RECV_NO_P_E} >= PA_RECV_NO_P</condition>
+<condition key="PA_RECV_DATE_P_S" ignoreEmpty="true" >PA_RECV_DATE_P >= ${PA_RECV_DATE_P_S}</condition><condition key="PA_RECV_DATE_P_E" ignoreEmpty="true" >${PA_RECV_DATE_P_E} >= PA_RECV_DATE_P</condition>
+<condition key="PA_RSV_USER_S" ignoreEmpty="true" >PA_RSV_USER >= ${PA_RSV_USER_S}</condition><condition key="PA_RSV_USER_E" ignoreEmpty="true" >${PA_RSV_USER_E} >= PA_RSV_USER</condition>
+<condition key="PA_RSV_NAME_S" ignoreEmpty="true" >PA_RSV_NAME >= ${PA_RSV_NAME_S}</condition><condition key="PA_RSV_NAME_E" ignoreEmpty="true" >${PA_RSV_NAME_E} >= PA_RSV_NAME</condition>
+<condition key="PA_AUDIT_ABST_S" ignoreEmpty="true" >PA_AUDIT_ABST >= ${PA_AUDIT_ABST_S}</condition><condition key="PA_AUDIT_ABST_E" ignoreEmpty="true" >${PA_AUDIT_ABST_E} >= PA_AUDIT_ABST</condition>
+<condition key="PA_ASSIGN_DATE_S" ignoreEmpty="true" >PA_ASSIGN_DATE >= ${PA_ASSIGN_DATE_S}</condition><condition key="PA_ASSIGN_DATE_E" ignoreEmpty="true" >${PA_ASSIGN_DATE_E} >= PA_ASSIGN_DATE</condition>
+<condition key="PA_ASSIGN_NO_S" ignoreEmpty="true" >PA_ASSIGN_NO >= ${PA_ASSIGN_NO_S}</condition><condition key="PA_ASSIGN_NO_E" ignoreEmpty="true" >${PA_ASSIGN_NO_E} >= PA_ASSIGN_NO</condition>
+<condition key="PA_ASSIGN_USER_S" ignoreEmpty="true" >PA_ASSIGN_USER >= ${PA_ASSIGN_USER_S}</condition><condition key="PA_ASSIGN_USER_E" ignoreEmpty="true" >${PA_ASSIGN_USER_E} >= PA_ASSIGN_USER</condition>
+<condition key="PA_ASSIGN_NAME_S" ignoreEmpty="true" >PA_ASSIGN_NAME >= ${PA_ASSIGN_NAME_S}</condition><condition key="PA_ASSIGN_NAME_E" ignoreEmpty="true" >${PA_ASSIGN_NAME_E} >= PA_ASSIGN_NAME</condition>
+<condition key="PA_ASSIGN_CUS_S" ignoreEmpty="true" >PA_ASSIGN_CUS >= ${PA_ASSIGN_CUS_S}</condition><condition key="PA_ASSIGN_CUS_E" ignoreEmpty="true" >${PA_ASSIGN_CUS_E} >= PA_ASSIGN_CUS</condition>
+<condition key="PA_PUNAUDIT_DATE_S" ignoreEmpty="true" >PA_PUNAUDIT_DATE >= ${PA_PUNAUDIT_DATE_S}</condition><condition key="PA_PUNAUDIT_DATE_E" ignoreEmpty="true" >${PA_PUNAUDIT_DATE_E} >= PA_PUNAUDIT_DATE</condition>
+<condition key="PA_PUNAUDIT_MEMO_S" ignoreEmpty="true" >PA_PUNAUDIT_MEMO >= ${PA_PUNAUDIT_MEMO_S}</condition><condition key="PA_PUNAUDIT_MEMO_E" ignoreEmpty="true" >${PA_PUNAUDIT_MEMO_E} >= PA_PUNAUDIT_MEMO</condition>
+<condition key="PA_PMEMO_S" ignoreEmpty="true" >PA_PMEMO >= ${PA_PMEMO_S}</condition><condition key="PA_PMEMO_E" ignoreEmpty="true" >${PA_PMEMO_E} >= PA_PMEMO</condition>
+<condition key="PA_RECV_NO_ABCD_S" ignoreEmpty="true" >PA_RECV_NO_ABCD >= ${PA_RECV_NO_ABCD_S}</condition><condition key="PA_RECV_NO_ABCD_E" ignoreEmpty="true" >${PA_RECV_NO_ABCD_E} >= PA_RECV_NO_ABCD</condition>
+<condition key="PA_RECV_DATE_ABCD_S" ignoreEmpty="true" >PA_RECV_DATE_ABCD >= ${PA_RECV_DATE_ABCD_S}</condition><condition key="PA_RECV_DATE_ABCD_E" ignoreEmpty="true" >${PA_RECV_DATE_ABCD_E} >= PA_RECV_DATE_ABCD</condition>
+<condition key="PA_AUDIT_UNIT_S" ignoreEmpty="true" >PA_AUDIT_UNIT >= ${PA_AUDIT_UNIT_S}</condition><condition key="PA_AUDIT_UNIT_E" ignoreEmpty="true" >${PA_AUDIT_UNIT_E} >= PA_AUDIT_UNIT</condition>
+<condition key="PA_USER_UNIT_S" ignoreEmpty="true" >PA_USER_UNIT >= ${PA_USER_UNIT_S}</condition><condition key="PA_USER_UNIT_E" ignoreEmpty="true" >${PA_USER_UNIT_E} >= PA_USER_UNIT</condition>
+<condition key="PA_MAIN_AUDITOR_S" ignoreEmpty="true" >PA_MAIN_AUDITOR >= ${PA_MAIN_AUDITOR_S}</condition><condition key="PA_MAIN_AUDITOR_E" ignoreEmpty="true" >${PA_MAIN_AUDITOR_E} >= PA_MAIN_AUDITOR</condition>
+<condition key="PA_MAIN_NAME_S" ignoreEmpty="true" >PA_MAIN_NAME >= ${PA_MAIN_NAME_S}</condition><condition key="PA_MAIN_NAME_E" ignoreEmpty="true" >${PA_MAIN_NAME_E} >= PA_MAIN_NAME</condition>
+<condition key="PA_ASST_AUDITOR1_S" ignoreEmpty="true" >PA_ASST_AUDITOR1 >= ${PA_ASST_AUDITOR1_S}</condition><condition key="PA_ASST_AUDITOR1_E" ignoreEmpty="true" >${PA_ASST_AUDITOR1_E} >= PA_ASST_AUDITOR1</condition>
+<condition key="PA_ASST_NAME1_S" ignoreEmpty="true" >PA_ASST_NAME1 >= ${PA_ASST_NAME1_S}</condition><condition key="PA_ASST_NAME1_E" ignoreEmpty="true" >${PA_ASST_NAME1_E} >= PA_ASST_NAME1</condition>
+<condition key="PA_ASST_AUDITOR2_S" ignoreEmpty="true" >PA_ASST_AUDITOR2 >= ${PA_ASST_AUDITOR2_S}</condition><condition key="PA_ASST_AUDITOR2_E" ignoreEmpty="true" >${PA_ASST_AUDITOR2_E} >= PA_ASST_AUDITOR2</condition>
+<condition key="PA_ASST_NAME2_S" ignoreEmpty="true" >PA_ASST_NAME2 >= ${PA_ASST_NAME2_S}</condition><condition key="PA_ASST_NAME2_E" ignoreEmpty="true" >${PA_ASST_NAME2_E} >= PA_ASST_NAME2</condition>
+<condition key="PA_ASST_AUDITOR3_S" ignoreEmpty="true" >PA_ASST_AUDITOR3 >= ${PA_ASST_AUDITOR3_S}</condition><condition key="PA_ASST_AUDITOR3_E" ignoreEmpty="true" >${PA_ASST_AUDITOR3_E} >= PA_ASST_AUDITOR3</condition>
+<condition key="PA_ASST_NAME3_S" ignoreEmpty="true" >PA_ASST_NAME3 >= ${PA_ASST_NAME3_S}</condition><condition key="PA_ASST_NAME3_E" ignoreEmpty="true" >${PA_ASST_NAME3_E} >= PA_ASST_NAME3</condition>
+<condition key="PA_PREFINISH_DATE_S" ignoreEmpty="true" >PA_PREFINISH_DATE >= ${PA_PREFINISH_DATE_S}</condition><condition key="PA_PREFINISH_DATE_E" ignoreEmpty="true" >${PA_PREFINISH_DATE_E} >= PA_PREFINISH_DATE</condition>
+<condition key="PA_BUNAUDIT_DATE_S" ignoreEmpty="true" >PA_BUNAUDIT_DATE >= ${PA_BUNAUDIT_DATE_S}</condition><condition key="PA_BUNAUDIT_DATE_E" ignoreEmpty="true" >${PA_BUNAUDIT_DATE_E} >= PA_BUNAUDIT_DATE</condition>
+<condition key="PA_BUNAUDIT_MEMO_S" ignoreEmpty="true" >PA_BUNAUDIT_MEMO >= ${PA_BUNAUDIT_MEMO_S}</condition><condition key="PA_BUNAUDIT_MEMO_E" ignoreEmpty="true" >${PA_BUNAUDIT_MEMO_E} >= PA_BUNAUDIT_MEMO</condition>
+<condition key="PA_ABCDMEMO_S" ignoreEmpty="true" >PA_ABCDMEMO >= ${PA_ABCDMEMO_S}</condition><condition key="PA_ABCDMEMO_E" ignoreEmpty="true" >${PA_ABCDMEMO_E} >= PA_ABCDMEMO</condition>
+<condition key="PA_APPOINT_DATE_S" ignoreEmpty="true" >PA_APPOINT_DATE >= ${PA_APPOINT_DATE_S}</condition><condition key="PA_APPOINT_DATE_E" ignoreEmpty="true" >${PA_APPOINT_DATE_E} >= PA_APPOINT_DATE</condition>
+<condition key="PA_AUDIT_NO_S" ignoreEmpty="true" >PA_AUDIT_NO >= ${PA_AUDIT_NO_S}</condition><condition key="PA_AUDIT_NO_E" ignoreEmpty="true" >${PA_AUDIT_NO_E} >= PA_AUDIT_NO</condition>
+<condition key="PA_AUDIT_DATE_S" ignoreEmpty="true" >PA_AUDIT_DATE >= ${PA_AUDIT_DATE_S}</condition><condition key="PA_AUDIT_DATE_E" ignoreEmpty="true" >${PA_AUDIT_DATE_E} >= PA_AUDIT_DATE</condition>
+<condition key="PA_INFO_DATE_S" ignoreEmpty="true" >PA_INFO_DATE >= ${PA_INFO_DATE_S}</condition><condition key="PA_INFO_DATE_E" ignoreEmpty="true" >${PA_INFO_DATE_E} >= PA_INFO_DATE</condition>
+<condition key="PA_BUSTRIP_DATE_S" ignoreEmpty="true" >PA_BUSTRIP_DATE >= ${PA_BUSTRIP_DATE_S}</condition><condition key="PA_BUSTRIP_DATE_E" ignoreEmpty="true" >${PA_BUSTRIP_DATE_E} >= PA_BUSTRIP_DATE</condition>
+<condition key="PA_INTERVIEW_DATE_S" ignoreEmpty="true" >PA_INTERVIEW_DATE >= ${PA_INTERVIEW_DATE_S}</condition><condition key="PA_INTERVIEW_DATE_E" ignoreEmpty="true" >${PA_INTERVIEW_DATE_E} >= PA_INTERVIEW_DATE</condition>
+<condition key="PA_INFO_CBANK_DATE_S" ignoreEmpty="true" >PA_INFO_CBANK_DATE >= ${PA_INFO_CBANK_DATE_S}</condition><condition key="PA_INFO_CBANK_DATE_E" ignoreEmpty="true" >${PA_INFO_CBANK_DATE_E} >= PA_INFO_CBANK_DATE</condition>
+<condition key="PA_INFO_EBANK_DATE_S" ignoreEmpty="true" >PA_INFO_EBANK_DATE >= ${PA_INFO_EBANK_DATE_S}</condition><condition key="PA_INFO_EBANK_DATE_E" ignoreEmpty="true" >${PA_INFO_EBANK_DATE_E} >= PA_INFO_EBANK_DATE</condition>
+<condition key="PA_INFO_OUNIT_DATE_S" ignoreEmpty="true" >PA_INFO_OUNIT_DATE >= ${PA_INFO_OUNIT_DATE_S}</condition><condition key="PA_INFO_OUNIT_DATE_E" ignoreEmpty="true" >${PA_INFO_OUNIT_DATE_E} >= PA_INFO_OUNIT_DATE</condition>
+<condition key="PA_NATIONAL_TAX_S" ignoreEmpty="true" >PA_NATIONAL_TAX >= ${PA_NATIONAL_TAX_S}</condition><condition key="PA_NATIONAL_TAX_E" ignoreEmpty="true" >${PA_NATIONAL_TAX_E} >= PA_NATIONAL_TAX</condition>
+<condition key="PA_INFO_S" ignoreEmpty="true" >PA_INFO >= ${PA_INFO_S}</condition><condition key="PA_INFO_E" ignoreEmpty="true" >${PA_INFO_E} >= PA_INFO</condition>
+<condition key="PA_AUDIT_PROCESS_S" ignoreEmpty="true" >PA_AUDIT_PROCESS >= ${PA_AUDIT_PROCESS_S}</condition><condition key="PA_AUDIT_PROCESS_E" ignoreEmpty="true" >${PA_AUDIT_PROCESS_E} >= PA_AUDIT_PROCESS</condition>
+<condition key="PA_AUDIT_CONCLSN_S" ignoreEmpty="true" >PA_AUDIT_CONCLSN >= ${PA_AUDIT_CONCLSN_S}</condition><condition key="PA_AUDIT_CONCLSN_E" ignoreEmpty="true" >${PA_AUDIT_CONCLSN_E} >= PA_AUDIT_CONCLSN</condition>
+<condition key="PA_AUDIT_RESULT_S" ignoreEmpty="true" >PA_AUDIT_RESULT >= ${PA_AUDIT_RESULT_S}</condition><condition key="PA_AUDIT_RESULT_E" ignoreEmpty="true" >${PA_AUDIT_RESULT_E} >= PA_AUDIT_RESULT</condition>
+<condition key="PA_AUDIT_TAX_S" ignoreEmpty="true" >PA_AUDIT_TAX >= ${PA_AUDIT_TAX_S}</condition><condition key="PA_AUDIT_TAX_E" ignoreEmpty="true" >${PA_AUDIT_TAX_E} >= PA_AUDIT_TAX</condition>
+<condition key="PA_AUDIT_FINE_S" ignoreEmpty="true" >PA_AUDIT_FINE >= ${PA_AUDIT_FINE_S}</condition><condition key="PA_AUDIT_FINE_E" ignoreEmpty="true" >${PA_AUDIT_FINE_E} >= PA_AUDIT_FINE</condition>
+<condition key="PA_AUDIT_TYPE1_S" ignoreEmpty="true" >PA_AUDIT_TYPE1 >= ${PA_AUDIT_TYPE1_S}</condition><condition key="PA_AUDIT_TYPE1_E" ignoreEmpty="true" >${PA_AUDIT_TYPE1_E} >= PA_AUDIT_TYPE1</condition>
+<condition key="PA_AUDIT_TYPE2_S" ignoreEmpty="true" >PA_AUDIT_TYPE2 >= ${PA_AUDIT_TYPE2_S}</condition><condition key="PA_AUDIT_TYPE2_E" ignoreEmpty="true" >${PA_AUDIT_TYPE2_E} >= PA_AUDIT_TYPE2</condition>
+<condition key="PA_AUDIT_TYPE3_S" ignoreEmpty="true" >PA_AUDIT_TYPE3 >= ${PA_AUDIT_TYPE3_S}</condition><condition key="PA_AUDIT_TYPE3_E" ignoreEmpty="true" >${PA_AUDIT_TYPE3_E} >= PA_AUDIT_TYPE3</condition>
+<condition key="PA_AUDIT_TYPE4_S" ignoreEmpty="true" >PA_AUDIT_TYPE4 >= ${PA_AUDIT_TYPE4_S}</condition><condition key="PA_AUDIT_TYPE4_E" ignoreEmpty="true" >${PA_AUDIT_TYPE4_E} >= PA_AUDIT_TYPE4</condition>
+<condition key="PA_AUDIT_TYPE5_S" ignoreEmpty="true" >PA_AUDIT_TYPE5 >= ${PA_AUDIT_TYPE5_S}</condition><condition key="PA_AUDIT_TYPE5_E" ignoreEmpty="true" >${PA_AUDIT_TYPE5_E} >= PA_AUDIT_TYPE5</condition>
+<condition key="PA_AUDIT_TYPE6_S" ignoreEmpty="true" >PA_AUDIT_TYPE6 >= ${PA_AUDIT_TYPE6_S}</condition><condition key="PA_AUDIT_TYPE6_E" ignoreEmpty="true" >${PA_AUDIT_TYPE6_E} >= PA_AUDIT_TYPE6</condition>
+<condition key="PA_AUDIT_TYPE7_S" ignoreEmpty="true" >PA_AUDIT_TYPE7 >= ${PA_AUDIT_TYPE7_S}</condition><condition key="PA_AUDIT_TYPE7_E" ignoreEmpty="true" >${PA_AUDIT_TYPE7_E} >= PA_AUDIT_TYPE7</condition>
+<condition key="PA_AUDIT_TYPE8_S" ignoreEmpty="true" >PA_AUDIT_TYPE8 >= ${PA_AUDIT_TYPE8_S}</condition><condition key="PA_AUDIT_TYPE8_E" ignoreEmpty="true" >${PA_AUDIT_TYPE8_E} >= PA_AUDIT_TYPE8</condition>
+<condition key="PA_AUDIT_TYPE9_S" ignoreEmpty="true" >PA_AUDIT_TYPE9 >= ${PA_AUDIT_TYPE9_S}</condition><condition key="PA_AUDIT_TYPE9_E" ignoreEmpty="true" >${PA_AUDIT_TYPE9_E} >= PA_AUDIT_TYPE9</condition>
+<condition key="PA_AUDIT_TYPE10_S" ignoreEmpty="true" >PA_AUDIT_TYPE10 >= ${PA_AUDIT_TYPE10_S}</condition><condition key="PA_AUDIT_TYPE10_E" ignoreEmpty="true" >${PA_AUDIT_TYPE10_E} >= PA_AUDIT_TYPE10</condition>
+<condition key="PA_AUDIT_TYPE11_S" ignoreEmpty="true" >PA_AUDIT_TYPE11 >= ${PA_AUDIT_TYPE11_S}</condition><condition key="PA_AUDIT_TYPE11_E" ignoreEmpty="true" >${PA_AUDIT_TYPE11_E} >= PA_AUDIT_TYPE11</condition>
+<condition key="PA_AUDIT_TYPE12_S" ignoreEmpty="true" >PA_AUDIT_TYPE12 >= ${PA_AUDIT_TYPE12_S}</condition><condition key="PA_AUDIT_TYPE12_E" ignoreEmpty="true" >${PA_AUDIT_TYPE12_E} >= PA_AUDIT_TYPE12</condition>
+<condition key="PA_AUDIT_WRITE_DATE_S" ignoreEmpty="true" >PA_AUDIT_WRITE_DATE >= ${PA_AUDIT_WRITE_DATE_S}</condition><condition key="PA_AUDIT_WRITE_DATE_E" ignoreEmpty="true" >${PA_AUDIT_WRITE_DATE_E} >= PA_AUDIT_WRITE_DATE</condition>
+<condition key="PA_SIGN_UNIT_S" ignoreEmpty="true" >PA_SIGN_UNIT >= ${PA_SIGN_UNIT_S}</condition><condition key="PA_SIGN_UNIT_E" ignoreEmpty="true" >${PA_SIGN_UNIT_E} >= PA_SIGN_UNIT</condition>
+<condition key="PA_SEND_DATE_S" ignoreEmpty="true" >PA_SEND_DATE >= ${PA_SEND_DATE_S}</condition><condition key="PA_SEND_DATE_E" ignoreEmpty="true" >${PA_SEND_DATE_E} >= PA_SEND_DATE</condition>
+<condition key="PA_AUDIT_OK_DATE_S" ignoreEmpty="true" >PA_AUDIT_OK_DATE >= ${PA_AUDIT_OK_DATE_S}</condition><condition key="PA_AUDIT_OK_DATE_E" ignoreEmpty="true" >${PA_AUDIT_OK_DATE_E} >= PA_AUDIT_OK_DATE</condition>
+<condition key="PA_SHIFT_UNIT_S" ignoreEmpty="true" >PA_SHIFT_UNIT >= ${PA_SHIFT_UNIT_S}</condition><condition key="PA_SHIFT_UNIT_E" ignoreEmpty="true" >${PA_SHIFT_UNIT_E} >= PA_SHIFT_UNIT</condition>
+<condition key="PA_SHIFT_DATE_S" ignoreEmpty="true" >PA_SHIFT_DATE >= ${PA_SHIFT_DATE_S}</condition><condition key="PA_SHIFT_DATE_E" ignoreEmpty="true" >${PA_SHIFT_DATE_E} >= PA_SHIFT_DATE</condition>
+<condition key="PA_FILE_DATE_S" ignoreEmpty="true" >PA_FILE_DATE >= ${PA_FILE_DATE_S}</condition><condition key="PA_FILE_DATE_E" ignoreEmpty="true" >${PA_FILE_DATE_E} >= PA_FILE_DATE</condition>
+<condition key="PA_FILE_NO_S" ignoreEmpty="true" >PA_FILE_NO >= ${PA_FILE_NO_S}</condition><condition key="PA_FILE_NO_E" ignoreEmpty="true" >${PA_FILE_NO_E} >= PA_FILE_NO</condition>
+<condition key="PA_LOAN_DATE_S" ignoreEmpty="true" >PA_LOAN_DATE >= ${PA_LOAN_DATE_S}</condition><condition key="PA_LOAN_DATE_E" ignoreEmpty="true" >${PA_LOAN_DATE_E} >= PA_LOAN_DATE</condition>
+<condition key="PA_LOAN_UNIT_S" ignoreEmpty="true" >PA_LOAN_UNIT >= ${PA_LOAN_UNIT_S}</condition><condition key="PA_LOAN_UNIT_E" ignoreEmpty="true" >${PA_LOAN_UNIT_E} >= PA_LOAN_UNIT</condition>
+<condition key="PA_LOAN_USER_S" ignoreEmpty="true" >PA_LOAN_USER >= ${PA_LOAN_USER_S}</condition><condition key="PA_LOAN_USER_E" ignoreEmpty="true" >${PA_LOAN_USER_E} >= PA_LOAN_USER</condition>
+<condition key="PA_LOAN_NAME_S" ignoreEmpty="true" >PA_LOAN_NAME >= ${PA_LOAN_NAME_S}</condition><condition key="PA_LOAN_NAME_E" ignoreEmpty="true" >${PA_LOAN_NAME_E} >= PA_LOAN_NAME</condition>
+<condition key="PA_RETURN_DATE_S" ignoreEmpty="true" >PA_RETURN_DATE >= ${PA_RETURN_DATE_S}</condition><condition key="PA_RETURN_DATE_E" ignoreEmpty="true" >${PA_RETURN_DATE_E} >= PA_RETURN_DATE</condition>
+<condition key="PRO_USER_S" ignoreEmpty="true" >PRO_USER >= ${PRO_USER_S}</condition><condition key="PRO_USER_E" ignoreEmpty="true" >${PRO_USER_E} >= PRO_USER</condition>
+<condition key="TRANS_CODE_S" ignoreEmpty="true" >TRANS_CODE >= ${TRANS_CODE_S}</condition><condition key="TRANS_CODE_E" ignoreEmpty="true" >${TRANS_CODE_E} >= TRANS_CODE</condition>
+<condition key="PA_LAW_SOURCE_S" ignoreEmpty="true" >PA_LAW_SOURCE >= ${PA_LAW_SOURCE_S}</condition><condition key="PA_LAW_SOURCE_E" ignoreEmpty="true" >${PA_LAW_SOURCE_E} >= PA_LAW_SOURCE</condition>
+<condition key="PA_SLZ_CHK_S" ignoreEmpty="true" >PA_SLZ_CHK >= ${PA_SLZ_CHK_S}</condition><condition key="PA_SLZ_CHK_E" ignoreEmpty="true" >${PA_SLZ_CHK_E} >= PA_SLZ_CHK</condition>
+<condition key="PA_SLZ_OK_S" ignoreEmpty="true" >PA_SLZ_OK >= ${PA_SLZ_OK_S}</condition><condition key="PA_SLZ_OK_E" ignoreEmpty="true" >${PA_SLZ_OK_E} >= PA_SLZ_OK</condition>
+<condition key="PA_SLZ_DATE1_S" ignoreEmpty="true" >PA_SLZ_DATE1 >= ${PA_SLZ_DATE1_S}</condition><condition key="PA_SLZ_DATE1_E" ignoreEmpty="true" >${PA_SLZ_DATE1_E} >= PA_SLZ_DATE1</condition>
+<condition key="PA_SLZ_DATE2_S" ignoreEmpty="true" >PA_SLZ_DATE2 >= ${PA_SLZ_DATE2_S}</condition><condition key="PA_SLZ_DATE2_E" ignoreEmpty="true" >${PA_SLZ_DATE2_E} >= PA_SLZ_DATE2</condition>
+<condition key="PA_SLZ_DATE3_S" ignoreEmpty="true" >PA_SLZ_DATE3 >= ${PA_SLZ_DATE3_S}</condition><condition key="PA_SLZ_DATE3_E" ignoreEmpty="true" >${PA_SLZ_DATE3_E} >= PA_SLZ_DATE3</condition>
+<condition key="PA_SLZ_DATE4_S" ignoreEmpty="true" >PA_SLZ_DATE4 >= ${PA_SLZ_DATE4_S}</condition><condition key="PA_SLZ_DATE4_E" ignoreEmpty="true" >${PA_SLZ_DATE4_E} >= PA_SLZ_DATE4</condition>
+
+//備查文號
+//pageBean.setPaReserveNo(randomBean.getPaReserveNo());
+//備查日期
+//pageBean.setPaReserveDate(randomBean.getPaReserveDate());
+//廠商統編
+//pageBean.setPaMfgCode(randomBean.getPaMfgCode());
+//廠商名稱
+//pageBean.setPaMfgName(randomBean.getPaMfgName());
+//案件來源
+//pageBean.setPaAuditSource(randomBean.getPaAuditSource());
+//關務署收件編號
+//pageBean.setPaRecvNoP(randomBean.getPaRecvNoP());
+//關務署收件日期
+//pageBean.setPaRecvDateP(randomBean.getPaRecvDateP());
+//承辦員編號
+//pageBean.setPaRsvUser(randomBean.getPaRsvUser());
+//承辦員姓名
+//pageBean.setPaRsvName(randomBean.getPaRsvName());
+//案情摘要
+//pageBean.setPaAuditAbst(randomBean.getPaAuditAbst());
+//交查日期
+//pageBean.setPaAssignDate(randomBean.getPaAssignDate());
+//交查文號
+//pageBean.setPaAssignNo(randomBean.getPaAssignNo());
+//交辦員編號
+//pageBean.setPaAssignUser(randomBean.getPaAssignUser());
+//交辦員姓名
+//pageBean.setPaAssignName(randomBean.getPaAssignName());
+//交辦關區
+//pageBean.setPaAssignCus(randomBean.getPaAssignCus());
+//關務署免稽核日期
+//pageBean.setPaPunauditDate(randomBean.getPaPunauditDate());
+//關務署免稽核原因
+//pageBean.setPaPunauditMemo(randomBean.getPaPunauditMemo());
+//關務署備註
+//pageBean.setPaPmemo(randomBean.getPaPmemo());
+//關區收件編號
+//pageBean.setPaRecvNoAbcd(randomBean.getPaRecvNoAbcd());
+//關區收件日期
+//pageBean.setPaRecvDateAbcd(randomBean.getPaRecvDateAbcd());
+//承辦課
+//pageBean.setPaAuditUnit(randomBean.getPaAuditUnit());
+//稽核人員所屬單位
+//pageBean.setPaUserUnit(randomBean.getPaUserUnit());
+//主辦稽核員編號
+//pageBean.setPaMainAuditor(randomBean.getPaMainAuditor());
+//主辦稽核員姓名
+//pageBean.setPaMainName(randomBean.getPaMainName());
+//協辦稽核員編號1
+//pageBean.setPaAsstAuditor1(randomBean.getPaAsstAuditor1());
+//協辦稽核員姓名1
+//pageBean.setPaAsstName1(randomBean.getPaAsstName1());
+//協辦稽核員編號2
+//pageBean.setPaAsstAuditor2(randomBean.getPaAsstAuditor2());
+//協辦稽核員姓名2
+//pageBean.setPaAsstName2(randomBean.getPaAsstName2());
+//協辦稽核員編號3
+//pageBean.setPaAsstAuditor3(randomBean.getPaAsstAuditor3());
+//協辦稽核員姓名3
+//pageBean.setPaAsstName3(randomBean.getPaAsstName3());
+//預定完成期限
+//pageBean.setPaPrefinishDate(randomBean.getPaPrefinishDate());
+//關區免稽核日期
+//pageBean.setPaBunauditDate(randomBean.getPaBunauditDate());
+//關區免稽核原因
+//pageBean.setPaBunauditMemo(randomBean.getPaBunauditMemo());
+//備註
+//pageBean.setPaAbcdmemo(randomBean.getPaAbcdmemo());
+//派案日期
+//pageBean.setPaAppointDate(randomBean.getPaAppointDate());
+//稽核案號
+//pageBean.setPaAuditNo(randomBean.getPaAuditNo());
+//稽核日期
+//pageBean.setPaAuditDate(randomBean.getPaAuditDate());
+//發通知函日期
+//pageBean.setPaInfoDate(randomBean.getPaInfoDate());
+//出差日期
+//pageBean.setPaBustripDate(randomBean.getPaBustripDate());
+//來關訪談日期
+//pageBean.setPaInterviewDate(randomBean.getPaInterviewDate());
+//函中央銀行日期
+//pageBean.setPaInfoCbankDate(randomBean.getPaInfoCbankDate());
+//函結匯銀行日期
+//pageBean.setPaInfoEbankDate(randomBean.getPaInfoEbankDate());
+//函駐外單位日期
+//pageBean.setPaInfoOunitDate(randomBean.getPaInfoOunitDate());
+//
+//pageBean.setPaNationalTax(randomBean.getPaNationalTax());
+//
+//pageBean.setPaInfo(randomBean.getPaInfo());
+//稽核過程簡述
+//pageBean.setPaAuditProcess(randomBean.getPaAuditProcess());
+//結論與擬辦
+//pageBean.setPaAuditConclsn(randomBean.getPaAuditConclsn());
+//稽核結果
+//pageBean.setPaAuditResult(randomBean.getPaAuditResult());
+//預估補稅金額
+//pageBean.setPaAuditTax(randomBean.getPaAuditTax());
+//預估罰鍰金額
+//pageBean.setPaAuditFine(randomBean.getPaAuditFine());
+//稽核結果類型-虛報貨名
+//pageBean.setPaAuditType1(randomBean.getPaAuditType1());
+//稽核結果類型-虛報產地
+//pageBean.setPaAuditType2(randomBean.getPaAuditType2());
+//稽核結果類型-虛報數量
+//pageBean.setPaAuditType3(randomBean.getPaAuditType3());
+//稽核結果類型-虛報貨價
+//pageBean.setPaAuditType4(randomBean.getPaAuditType4());
+//稽核結果類型-高價低報
+//pageBean.setPaAuditType5(randomBean.getPaAuditType5());
+//稽核結果類型-低價高報
+//pageBean.setPaAuditType6(randomBean.getPaAuditType6());
+//稽核結果類型-追繳貨價
+//pageBean.setPaAuditType7(randomBean.getPaAuditType7());
+//稽核結果類型-稅則申報不實
+//pageBean.setPaAuditType8(randomBean.getPaAuditType8());
+//稽核結果類型-溢沖退稅捐
+//pageBean.setPaAuditType9(randomBean.getPaAuditType9());
+//稽核結果類型-冒退營業稅
+//pageBean.setPaAuditType10(randomBean.getPaAuditType10());
+//
+//pageBean.setPaAuditType11(randomBean.getPaAuditType11());
+//稽核結果類型-其他違規事項
+//pageBean.setPaAuditType12(randomBean.getPaAuditType12());
+//稽核報告陳核日期
+//pageBean.setPaAuditWriteDate(randomBean.getPaAuditWriteDate());
+//會簽單位
+//pageBean.setPaSignUnit(randomBean.getPaSignUnit());
+//送會日期
+//pageBean.setPaSendDate(randomBean.getPaSendDate());
+//稽核報告核定日期
+//pageBean.setPaAuditOkDate(randomBean.getPaAuditOkDate());
+//移辦單位
+//pageBean.setPaShiftUnit(randomBean.getPaShiftUnit());
+//移辦日期
+//pageBean.setPaShiftDate(randomBean.getPaShiftDate());
+//歸檔日期
+//pageBean.setPaFileDate(randomBean.getPaFileDate());
+//歸檔編號
+//pageBean.setPaFileNo(randomBean.getPaFileNo());
+//借出日期
+//pageBean.setPaLoanDate(randomBean.getPaLoanDate());
+//借出單位
+//pageBean.setPaLoanUnit(randomBean.getPaLoanUnit());
+//借出人編號
+//pageBean.setPaLoanUser(randomBean.getPaLoanUser());
+//借出人姓名
+//pageBean.setPaLoanName(randomBean.getPaLoanName());
+//歸還日期
+//pageBean.setPaReturnDate(randomBean.getPaReturnDate());
+//處理人員
+//pageBean.setProUser(randomBean.getProUser());
+//程式代碼
+//pageBean.setTransCode(randomBean.getTransCode());
+//行政救濟種類
+//pageBean.setPaLawSource(randomBean.getPaLawSource());
+//是否行政救濟
+//pageBean.setPaSlzChk(randomBean.getPaSlzChk());
+//行政救濟是否已確認
+//pageBean.setPaSlzOk(randomBean.getPaSlzOk());
+//行政救濟復查日期
+//pageBean.setPaSlzDate1(randomBean.getPaSlzDate1());
+//行政救濟訴願日期
+//pageBean.setPaSlzDate2(randomBean.getPaSlzDate2());
+//行政救濟高等行政法院日期
+//pageBean.setPaSlzDate3(randomBean.getPaSlzDate3());
+//行政救濟最高行政法院日期
+//pageBean.setPaSlzDate4(randomBean.getPaSlzDate4());
+
+$('#pageBean_paReserveNo').attr('value',rowData.PA_RESERVE_NO);
+$('#pageBean_paReserveDate').attr('value',rowData.PA_RESERVE_DATE);
+$('#pageBean_paMfgCode').attr('value',rowData.PA_MFG_CODE);
+$('#pageBean_paMfgName').attr('value',rowData.PA_MFG_NAME);
+$('#pageBean_paAuditSource').attr('value',rowData.PA_AUDIT_SOURCE);
+$('#pageBean_paRecvNoP').attr('value',rowData.PA_RECV_NO_P);
+$('#pageBean_paRecvDateP').attr('value',rowData.PA_RECV_DATE_P);
+$('#pageBean_paRsvUser').attr('value',rowData.PA_RSV_USER);
+$('#pageBean_paRsvName').attr('value',rowData.PA_RSV_NAME);
+$('#pageBean_paAuditAbst').attr('value',rowData.PA_AUDIT_ABST);
+$('#pageBean_paAssignDate').attr('value',rowData.PA_ASSIGN_DATE);
+$('#pageBean_paAssignNo').attr('value',rowData.PA_ASSIGN_NO);
+$('#pageBean_paAssignUser').attr('value',rowData.PA_ASSIGN_USER);
+$('#pageBean_paAssignName').attr('value',rowData.PA_ASSIGN_NAME);
+$('#pageBean_paAssignCus').attr('value',rowData.PA_ASSIGN_CUS);
+$('#pageBean_paPunauditDate').attr('value',rowData.PA_PUNAUDIT_DATE);
+$('#pageBean_paPunauditMemo').attr('value',rowData.PA_PUNAUDIT_MEMO);
+$('#pageBean_paPmemo').attr('value',rowData.PA_PMEMO);
+$('#pageBean_paRecvNoAbcd').attr('value',rowData.PA_RECV_NO_ABCD);
+$('#pageBean_paRecvDateAbcd').attr('value',rowData.PA_RECV_DATE_ABCD);
+$('#pageBean_paAuditUnit').attr('value',rowData.PA_AUDIT_UNIT);
+$('#pageBean_paUserUnit').attr('value',rowData.PA_USER_UNIT);
+$('#pageBean_paMainAuditor').attr('value',rowData.PA_MAIN_AUDITOR);
+$('#pageBean_paMainName').attr('value',rowData.PA_MAIN_NAME);
+$('#pageBean_paAsstAuditor1').attr('value',rowData.PA_ASST_AUDITOR1);
+$('#pageBean_paAsstName1').attr('value',rowData.PA_ASST_NAME1);
+$('#pageBean_paAsstAuditor2').attr('value',rowData.PA_ASST_AUDITOR2);
+$('#pageBean_paAsstName2').attr('value',rowData.PA_ASST_NAME2);
+$('#pageBean_paAsstAuditor3').attr('value',rowData.PA_ASST_AUDITOR3);
+$('#pageBean_paAsstName3').attr('value',rowData.PA_ASST_NAME3);
+$('#pageBean_paPrefinishDate').attr('value',rowData.PA_PREFINISH_DATE);
+$('#pageBean_paBunauditDate').attr('value',rowData.PA_BUNAUDIT_DATE);
+$('#pageBean_paBunauditMemo').attr('value',rowData.PA_BUNAUDIT_MEMO);
+$('#pageBean_paAbcdmemo').attr('value',rowData.PA_ABCDMEMO);
+$('#pageBean_paAppointDate').attr('value',rowData.PA_APPOINT_DATE);
+$('#pageBean_paAuditNo').attr('value',rowData.PA_AUDIT_NO);
+$('#pageBean_paAuditDate').attr('value',rowData.PA_AUDIT_DATE);
+$('#pageBean_paInfoDate').attr('value',rowData.PA_INFO_DATE);
+$('#pageBean_paBustripDate').attr('value',rowData.PA_BUSTRIP_DATE);
+$('#pageBean_paInterviewDate').attr('value',rowData.PA_INTERVIEW_DATE);
+$('#pageBean_paInfoCbankDate').attr('value',rowData.PA_INFO_CBANK_DATE);
+$('#pageBean_paInfoEbankDate').attr('value',rowData.PA_INFO_EBANK_DATE);
+$('#pageBean_paInfoOunitDate').attr('value',rowData.PA_INFO_OUNIT_DATE);
+$('#pageBean_paNationalTax').attr('value',rowData.PA_NATIONAL_TAX);
+$('#pageBean_paInfo').attr('value',rowData.PA_INFO);
+$('#pageBean_paAuditProcess').attr('value',rowData.PA_AUDIT_PROCESS);
+$('#pageBean_paAuditConclsn').attr('value',rowData.PA_AUDIT_CONCLSN);
+$('#pageBean_paAuditResult').attr('value',rowData.PA_AUDIT_RESULT);
+$('#pageBean_paAuditTax').attr('value',rowData.PA_AUDIT_TAX);
+$('#pageBean_paAuditFine').attr('value',rowData.PA_AUDIT_FINE);
+$('#pageBean_paAuditType1').attr('value',rowData.PA_AUDIT_TYPE1);
+$('#pageBean_paAuditType2').attr('value',rowData.PA_AUDIT_TYPE2);
+$('#pageBean_paAuditType3').attr('value',rowData.PA_AUDIT_TYPE3);
+$('#pageBean_paAuditType4').attr('value',rowData.PA_AUDIT_TYPE4);
+$('#pageBean_paAuditType5').attr('value',rowData.PA_AUDIT_TYPE5);
+$('#pageBean_paAuditType6').attr('value',rowData.PA_AUDIT_TYPE6);
+$('#pageBean_paAuditType7').attr('value',rowData.PA_AUDIT_TYPE7);
+$('#pageBean_paAuditType8').attr('value',rowData.PA_AUDIT_TYPE8);
+$('#pageBean_paAuditType9').attr('value',rowData.PA_AUDIT_TYPE9);
+$('#pageBean_paAuditType10').attr('value',rowData.PA_AUDIT_TYPE10);
+$('#pageBean_paAuditType11').attr('value',rowData.PA_AUDIT_TYPE11);
+$('#pageBean_paAuditType12').attr('value',rowData.PA_AUDIT_TYPE12);
+$('#pageBean_paAuditWriteDate').attr('value',rowData.PA_AUDIT_WRITE_DATE);
+$('#pageBean_paSignUnit').attr('value',rowData.PA_SIGN_UNIT);
+$('#pageBean_paSendDate').attr('value',rowData.PA_SEND_DATE);
+$('#pageBean_paAuditOkDate').attr('value',rowData.PA_AUDIT_OK_DATE);
+$('#pageBean_paShiftUnit').attr('value',rowData.PA_SHIFT_UNIT);
+$('#pageBean_paShiftDate').attr('value',rowData.PA_SHIFT_DATE);
+$('#pageBean_paFileDate').attr('value',rowData.PA_FILE_DATE);
+$('#pageBean_paFileNo').attr('value',rowData.PA_FILE_NO);
+$('#pageBean_paLoanDate').attr('value',rowData.PA_LOAN_DATE);
+$('#pageBean_paLoanUnit').attr('value',rowData.PA_LOAN_UNIT);
+$('#pageBean_paLoanUser').attr('value',rowData.PA_LOAN_USER);
+$('#pageBean_paLoanName').attr('value',rowData.PA_LOAN_NAME);
+$('#pageBean_paReturnDate').attr('value',rowData.PA_RETURN_DATE);
+$('#pageBean_proUser').attr('value',rowData.PRO_USER);
+$('#pageBean_transCode').attr('value',rowData.TRANS_CODE);
+$('#pageBean_paLawSource').attr('value',rowData.PA_LAW_SOURCE);
+$('#pageBean_paSlzChk').attr('value',rowData.PA_SLZ_CHK);
+$('#pageBean_paSlzOk').attr('value',rowData.PA_SLZ_OK);
+$('#pageBean_paSlzDate1').attr('value',rowData.PA_SLZ_DATE1);
+$('#pageBean_paSlzDate2').attr('value',rowData.PA_SLZ_DATE2);
+$('#pageBean_paSlzDate3').attr('value',rowData.PA_SLZ_DATE3);
+$('#pageBean_paSlzDate4').attr('value',rowData.PA_SLZ_DATE4);
+
+$('#pageBean_paReserveNo').attr("value", "");
+$('#pageBean_paReserveDate').attr("value", "");
+$('#pageBean_paMfgCode').attr("value", "");
+$('#pageBean_paMfgName').attr("value", "");
+$('#pageBean_paAuditSource').attr("value", "");
+$('#pageBean_paRecvNoP').attr("value", "");
+$('#pageBean_paRecvDateP').attr("value", "");
+$('#pageBean_paRsvUser').attr("value", "");
+$('#pageBean_paRsvName').attr("value", "");
+$('#pageBean_paAuditAbst').attr("value", "");
+$('#pageBean_paAssignDate').attr("value", "");
+$('#pageBean_paAssignNo').attr("value", "");
+$('#pageBean_paAssignUser').attr("value", "");
+$('#pageBean_paAssignName').attr("value", "");
+$('#pageBean_paAssignCus').attr("value", "");
+$('#pageBean_paPunauditDate').attr("value", "");
+$('#pageBean_paPunauditMemo').attr("value", "");
+$('#pageBean_paPmemo').attr("value", "");
+$('#pageBean_paRecvNoAbcd').attr("value", "");
+$('#pageBean_paRecvDateAbcd').attr("value", "");
+$('#pageBean_paAuditUnit').attr("value", "");
+$('#pageBean_paUserUnit').attr("value", "");
+$('#pageBean_paMainAuditor').attr("value", "");
+$('#pageBean_paMainName').attr("value", "");
+$('#pageBean_paAsstAuditor1').attr("value", "");
+$('#pageBean_paAsstName1').attr("value", "");
+$('#pageBean_paAsstAuditor2').attr("value", "");
+$('#pageBean_paAsstName2').attr("value", "");
+$('#pageBean_paAsstAuditor3').attr("value", "");
+$('#pageBean_paAsstName3').attr("value", "");
+$('#pageBean_paPrefinishDate').attr("value", "");
+$('#pageBean_paBunauditDate').attr("value", "");
+$('#pageBean_paBunauditMemo').attr("value", "");
+$('#pageBean_paAbcdmemo').attr("value", "");
+$('#pageBean_paAppointDate').attr("value", "");
+$('#pageBean_paAuditNo').attr("value", "");
+$('#pageBean_paAuditDate').attr("value", "");
+$('#pageBean_paInfoDate').attr("value", "");
+$('#pageBean_paBustripDate').attr("value", "");
+$('#pageBean_paInterviewDate').attr("value", "");
+$('#pageBean_paInfoCbankDate').attr("value", "");
+$('#pageBean_paInfoEbankDate').attr("value", "");
+$('#pageBean_paInfoOunitDate').attr("value", "");
+$('#pageBean_paNationalTax').attr("value", "");
+$('#pageBean_paInfo').attr("value", "");
+$('#pageBean_paAuditProcess').attr("value", "");
+$('#pageBean_paAuditConclsn').attr("value", "");
+$('#pageBean_paAuditResult').attr("value", "");
+$('#pageBean_paAuditTax').attr("value", "");
+$('#pageBean_paAuditFine').attr("value", "");
+$('#pageBean_paAuditType1').attr("value", "");
+$('#pageBean_paAuditType2').attr("value", "");
+$('#pageBean_paAuditType3').attr("value", "");
+$('#pageBean_paAuditType4').attr("value", "");
+$('#pageBean_paAuditType5').attr("value", "");
+$('#pageBean_paAuditType6').attr("value", "");
+$('#pageBean_paAuditType7').attr("value", "");
+$('#pageBean_paAuditType8').attr("value", "");
+$('#pageBean_paAuditType9').attr("value", "");
+$('#pageBean_paAuditType10').attr("value", "");
+$('#pageBean_paAuditType11').attr("value", "");
+$('#pageBean_paAuditType12').attr("value", "");
+$('#pageBean_paAuditWriteDate').attr("value", "");
+$('#pageBean_paSignUnit').attr("value", "");
+$('#pageBean_paSendDate').attr("value", "");
+$('#pageBean_paAuditOkDate').attr("value", "");
+$('#pageBean_paShiftUnit').attr("value", "");
+$('#pageBean_paShiftDate').attr("value", "");
+$('#pageBean_paFileDate').attr("value", "");
+$('#pageBean_paFileNo').attr("value", "");
+$('#pageBean_paLoanDate').attr("value", "");
+$('#pageBean_paLoanUnit').attr("value", "");
+$('#pageBean_paLoanUser').attr("value", "");
+$('#pageBean_paLoanName').attr("value", "");
+$('#pageBean_paReturnDate').attr("value", "");
+$('#pageBean_proUser').attr("value", "");
+$('#pageBean_transCode').attr("value", "");
+$('#pageBean_paLawSource').attr("value", "");
+$('#pageBean_paSlzChk').attr("value", "");
+$('#pageBean_paSlzOk').attr("value", "");
+$('#pageBean_paSlzDate1').attr("value", "");
+$('#pageBean_paSlzDate2').attr("value", "");
+$('#pageBean_paSlzDate3').attr("value", "");
+$('#pageBean_paSlzDate4').attr("value", "");
+
+PA_RESERVE_NO:$('#pageBean_paReserveNo').val(),//備查文號
+PA_RESERVE_DATE:$('#pageBean_paReserveDate').val(),//備查日期
+PA_MFG_CODE:$('#pageBean_paMfgCode').val(),//廠商統編
+PA_MFG_NAME:$('#pageBean_paMfgName').val(),//廠商名稱
+PA_AUDIT_SOURCE:$('#pageBean_paAuditSource').val(),//案件來源
+PA_RECV_NO_P:$('#pageBean_paRecvNoP').val(),//關務署收件編號
+PA_RECV_DATE_P:$('#pageBean_paRecvDateP').val(),//關務署收件日期
+PA_RSV_USER:$('#pageBean_paRsvUser').val(),//承辦員編號
+PA_RSV_NAME:$('#pageBean_paRsvName').val(),//承辦員姓名
+PA_AUDIT_ABST:$('#pageBean_paAuditAbst').val(),//案情摘要
+PA_ASSIGN_DATE:$('#pageBean_paAssignDate').val(),//交查日期
+PA_ASSIGN_NO:$('#pageBean_paAssignNo').val(),//交查文號
+PA_ASSIGN_USER:$('#pageBean_paAssignUser').val(),//交辦員編號
+PA_ASSIGN_NAME:$('#pageBean_paAssignName').val(),//交辦員姓名
+PA_ASSIGN_CUS:$('#pageBean_paAssignCus').val(),//交辦關區
+PA_PUNAUDIT_DATE:$('#pageBean_paPunauditDate').val(),//關務署免稽核日期
+PA_PUNAUDIT_MEMO:$('#pageBean_paPunauditMemo').val(),//關務署免稽核原因
+PA_PMEMO:$('#pageBean_paPmemo').val(),//關務署備註
+PA_RECV_NO_ABCD:$('#pageBean_paRecvNoAbcd').val(),//關區收件編號
+PA_RECV_DATE_ABCD:$('#pageBean_paRecvDateAbcd').val(),//關區收件日期
+PA_AUDIT_UNIT:$('#pageBean_paAuditUnit').val(),//承辦課
+PA_USER_UNIT:$('#pageBean_paUserUnit').val(),//稽核人員所屬單位
+PA_MAIN_AUDITOR:$('#pageBean_paMainAuditor').val(),//主辦稽核員編號
+PA_MAIN_NAME:$('#pageBean_paMainName').val(),//主辦稽核員姓名
+PA_ASST_AUDITOR1:$('#pageBean_paAsstAuditor1').val(),//協辦稽核員編號1
+PA_ASST_NAME1:$('#pageBean_paAsstName1').val(),//協辦稽核員姓名1
+PA_ASST_AUDITOR2:$('#pageBean_paAsstAuditor2').val(),//協辦稽核員編號2
+PA_ASST_NAME2:$('#pageBean_paAsstName2').val(),//協辦稽核員姓名2
+PA_ASST_AUDITOR3:$('#pageBean_paAsstAuditor3').val(),//協辦稽核員編號3
+PA_ASST_NAME3:$('#pageBean_paAsstName3').val(),//協辦稽核員姓名3
+PA_PREFINISH_DATE:$('#pageBean_paPrefinishDate').val(),//預定完成期限
+PA_BUNAUDIT_DATE:$('#pageBean_paBunauditDate').val(),//關區免稽核日期
+PA_BUNAUDIT_MEMO:$('#pageBean_paBunauditMemo').val(),//關區免稽核原因
+PA_ABCDMEMO:$('#pageBean_paAbcdmemo').val(),//備註
+PA_APPOINT_DATE:$('#pageBean_paAppointDate').val(),//派案日期
+PA_AUDIT_NO:$('#pageBean_paAuditNo').val(),//稽核案號
+PA_AUDIT_DATE:$('#pageBean_paAuditDate').val(),//稽核日期
+PA_INFO_DATE:$('#pageBean_paInfoDate').val(),//發通知函日期
+PA_BUSTRIP_DATE:$('#pageBean_paBustripDate').val(),//出差日期
+PA_INTERVIEW_DATE:$('#pageBean_paInterviewDate').val(),//來關訪談日期
+PA_INFO_CBANK_DATE:$('#pageBean_paInfoCbankDate').val(),//函中央銀行日期
+PA_INFO_EBANK_DATE:$('#pageBean_paInfoEbankDate').val(),//函結匯銀行日期
+PA_INFO_OUNIT_DATE:$('#pageBean_paInfoOunitDate').val(),//函駐外單位日期
+PA_NATIONAL_TAX:$('#pageBean_paNationalTax').val(),//
+PA_INFO:$('#pageBean_paInfo').val(),//
+PA_AUDIT_PROCESS:$('#pageBean_paAuditProcess').val(),//稽核過程簡述
+PA_AUDIT_CONCLSN:$('#pageBean_paAuditConclsn').val(),//結論與擬辦
+PA_AUDIT_RESULT:$('#pageBean_paAuditResult').val(),//稽核結果
+PA_AUDIT_TAX:$('#pageBean_paAuditTax').val(),//預估補稅金額
+PA_AUDIT_FINE:$('#pageBean_paAuditFine').val(),//預估罰鍰金額
+PA_AUDIT_TYPE1:$('#pageBean_paAuditType1').val(),//稽核結果類型-虛報貨名
+PA_AUDIT_TYPE2:$('#pageBean_paAuditType2').val(),//稽核結果類型-虛報產地
+PA_AUDIT_TYPE3:$('#pageBean_paAuditType3').val(),//稽核結果類型-虛報數量
+PA_AUDIT_TYPE4:$('#pageBean_paAuditType4').val(),//稽核結果類型-虛報貨價
+PA_AUDIT_TYPE5:$('#pageBean_paAuditType5').val(),//稽核結果類型-高價低報
+PA_AUDIT_TYPE6:$('#pageBean_paAuditType6').val(),//稽核結果類型-低價高報
+PA_AUDIT_TYPE7:$('#pageBean_paAuditType7').val(),//稽核結果類型-追繳貨價
+PA_AUDIT_TYPE8:$('#pageBean_paAuditType8').val(),//稽核結果類型-稅則申報不實
+PA_AUDIT_TYPE9:$('#pageBean_paAuditType9').val(),//稽核結果類型-溢沖退稅捐
+PA_AUDIT_TYPE10:$('#pageBean_paAuditType10').val(),//稽核結果類型-冒退營業稅
+PA_AUDIT_TYPE11:$('#pageBean_paAuditType11').val(),//
+PA_AUDIT_TYPE12:$('#pageBean_paAuditType12').val(),//稽核結果類型-其他違規事項
+PA_AUDIT_WRITE_DATE:$('#pageBean_paAuditWriteDate').val(),//稽核報告陳核日期
+PA_SIGN_UNIT:$('#pageBean_paSignUnit').val(),//會簽單位
+PA_SEND_DATE:$('#pageBean_paSendDate').val(),//送會日期
+PA_AUDIT_OK_DATE:$('#pageBean_paAuditOkDate').val(),//稽核報告核定日期
+PA_SHIFT_UNIT:$('#pageBean_paShiftUnit').val(),//移辦單位
+PA_SHIFT_DATE:$('#pageBean_paShiftDate').val(),//移辦日期
+PA_FILE_DATE:$('#pageBean_paFileDate').val(),//歸檔日期
+PA_FILE_NO:$('#pageBean_paFileNo').val(),//歸檔編號
+PA_LOAN_DATE:$('#pageBean_paLoanDate').val(),//借出日期
+PA_LOAN_UNIT:$('#pageBean_paLoanUnit').val(),//借出單位
+PA_LOAN_USER:$('#pageBean_paLoanUser').val(),//借出人編號
+PA_LOAN_NAME:$('#pageBean_paLoanName').val(),//借出人姓名
+PA_RETURN_DATE:$('#pageBean_paReturnDate').val(),//歸還日期
+PRO_USER:$('#pageBean_proUser').val(),//處理人員
+TRANS_CODE:$('#pageBean_transCode').val(),//程式代碼
+PA_LAW_SOURCE:$('#pageBean_paLawSource').val(),//行政救濟種類
+PA_SLZ_CHK:$('#pageBean_paSlzChk').val(),//是否行政救濟
+PA_SLZ_OK:$('#pageBean_paSlzOk').val(),//行政救濟是否已確認
+PA_SLZ_DATE1:$('#pageBean_paSlzDate1').val(),//行政救濟復查日期
+PA_SLZ_DATE2:$('#pageBean_paSlzDate2').val(),//行政救濟訴願日期
+PA_SLZ_DATE3:$('#pageBean_paSlzDate3').val(),//行政救濟高等行政法院日期
+PA_SLZ_DATE4:$('#pageBean_paSlzDate4').val(),//行政救濟最高行政法院日期
+
+//備查文號
+//pageBean.setPaReserveNo(dataObjects.getString("PA_RESERVE_NO"));
+//備查日期
+//pageBean.setPaReserveDate(dataObjects.getString("PA_RESERVE_DATE"));
+//廠商統編
+//pageBean.setPaMfgCode(dataObjects.getString("PA_MFG_CODE"));
+//廠商名稱
+//pageBean.setPaMfgName(dataObjects.getString("PA_MFG_NAME"));
+//案件來源
+//pageBean.setPaAuditSource(dataObjects.getString("PA_AUDIT_SOURCE"));
+//關務署收件編號
+//pageBean.setPaRecvNoP(dataObjects.getString("PA_RECV_NO_P"));
+//關務署收件日期
+//pageBean.setPaRecvDateP(dataObjects.getString("PA_RECV_DATE_P"));
+//承辦員編號
+//pageBean.setPaRsvUser(dataObjects.getString("PA_RSV_USER"));
+//承辦員姓名
+//pageBean.setPaRsvName(dataObjects.getString("PA_RSV_NAME"));
+//案情摘要
+//pageBean.setPaAuditAbst(dataObjects.getString("PA_AUDIT_ABST"));
+//交查日期
+//pageBean.setPaAssignDate(dataObjects.getString("PA_ASSIGN_DATE"));
+//交查文號
+//pageBean.setPaAssignNo(dataObjects.getString("PA_ASSIGN_NO"));
+//交辦員編號
+//pageBean.setPaAssignUser(dataObjects.getString("PA_ASSIGN_USER"));
+//交辦員姓名
+//pageBean.setPaAssignName(dataObjects.getString("PA_ASSIGN_NAME"));
+//交辦關區
+//pageBean.setPaAssignCus(dataObjects.getString("PA_ASSIGN_CUS"));
+//關務署免稽核日期
+//pageBean.setPaPunauditDate(dataObjects.getString("PA_PUNAUDIT_DATE"));
+//關務署免稽核原因
+//pageBean.setPaPunauditMemo(dataObjects.getString("PA_PUNAUDIT_MEMO"));
+//關務署備註
+//pageBean.setPaPmemo(dataObjects.getString("PA_PMEMO"));
+//關區收件編號
+//pageBean.setPaRecvNoAbcd(dataObjects.getString("PA_RECV_NO_ABCD"));
+//關區收件日期
+//pageBean.setPaRecvDateAbcd(dataObjects.getString("PA_RECV_DATE_ABCD"));
+//承辦課
+//pageBean.setPaAuditUnit(dataObjects.getString("PA_AUDIT_UNIT"));
+//稽核人員所屬單位
+//pageBean.setPaUserUnit(dataObjects.getString("PA_USER_UNIT"));
+//主辦稽核員編號
+//pageBean.setPaMainAuditor(dataObjects.getString("PA_MAIN_AUDITOR"));
+//主辦稽核員姓名
+//pageBean.setPaMainName(dataObjects.getString("PA_MAIN_NAME"));
+//協辦稽核員編號1
+//pageBean.setPaAsstAuditor1(dataObjects.getString("PA_ASST_AUDITOR1"));
+//協辦稽核員姓名1
+//pageBean.setPaAsstName1(dataObjects.getString("PA_ASST_NAME1"));
+//協辦稽核員編號2
+//pageBean.setPaAsstAuditor2(dataObjects.getString("PA_ASST_AUDITOR2"));
+//協辦稽核員姓名2
+//pageBean.setPaAsstName2(dataObjects.getString("PA_ASST_NAME2"));
+//協辦稽核員編號3
+//pageBean.setPaAsstAuditor3(dataObjects.getString("PA_ASST_AUDITOR3"));
+//協辦稽核員姓名3
+//pageBean.setPaAsstName3(dataObjects.getString("PA_ASST_NAME3"));
+//預定完成期限
+//pageBean.setPaPrefinishDate(dataObjects.getString("PA_PREFINISH_DATE"));
+//關區免稽核日期
+//pageBean.setPaBunauditDate(dataObjects.getString("PA_BUNAUDIT_DATE"));
+//關區免稽核原因
+//pageBean.setPaBunauditMemo(dataObjects.getString("PA_BUNAUDIT_MEMO"));
+//備註
+//pageBean.setPaAbcdmemo(dataObjects.getString("PA_ABCDMEMO"));
+//派案日期
+//pageBean.setPaAppointDate(dataObjects.getString("PA_APPOINT_DATE"));
+//稽核案號
+//pageBean.setPaAuditNo(dataObjects.getString("PA_AUDIT_NO"));
+//稽核日期
+//pageBean.setPaAuditDate(dataObjects.getString("PA_AUDIT_DATE"));
+//發通知函日期
+//pageBean.setPaInfoDate(dataObjects.getString("PA_INFO_DATE"));
+//出差日期
+//pageBean.setPaBustripDate(dataObjects.getString("PA_BUSTRIP_DATE"));
+//來關訪談日期
+//pageBean.setPaInterviewDate(dataObjects.getString("PA_INTERVIEW_DATE"));
+//函中央銀行日期
+//pageBean.setPaInfoCbankDate(dataObjects.getString("PA_INFO_CBANK_DATE"));
+//函結匯銀行日期
+//pageBean.setPaInfoEbankDate(dataObjects.getString("PA_INFO_EBANK_DATE"));
+//函駐外單位日期
+//pageBean.setPaInfoOunitDate(dataObjects.getString("PA_INFO_OUNIT_DATE"));
+//
+//pageBean.setPaNationalTax(dataObjects.getString("PA_NATIONAL_TAX"));
+//
+//pageBean.setPaInfo(dataObjects.getString("PA_INFO"));
+//稽核過程簡述
+//pageBean.setPaAuditProcess(dataObjects.getString("PA_AUDIT_PROCESS"));
+//結論與擬辦
+//pageBean.setPaAuditConclsn(dataObjects.getString("PA_AUDIT_CONCLSN"));
+//稽核結果
+//pageBean.setPaAuditResult(dataObjects.getString("PA_AUDIT_RESULT"));
+//預估補稅金額
+//pageBean.setPaAuditTax(dataObjects.getString("PA_AUDIT_TAX"));
+//預估罰鍰金額
+//pageBean.setPaAuditFine(dataObjects.getString("PA_AUDIT_FINE"));
+//稽核結果類型-虛報貨名
+//pageBean.setPaAuditType1(dataObjects.getString("PA_AUDIT_TYPE1"));
+//稽核結果類型-虛報產地
+//pageBean.setPaAuditType2(dataObjects.getString("PA_AUDIT_TYPE2"));
+//稽核結果類型-虛報數量
+//pageBean.setPaAuditType3(dataObjects.getString("PA_AUDIT_TYPE3"));
+//稽核結果類型-虛報貨價
+//pageBean.setPaAuditType4(dataObjects.getString("PA_AUDIT_TYPE4"));
+//稽核結果類型-高價低報
+//pageBean.setPaAuditType5(dataObjects.getString("PA_AUDIT_TYPE5"));
+//稽核結果類型-低價高報
+//pageBean.setPaAuditType6(dataObjects.getString("PA_AUDIT_TYPE6"));
+//稽核結果類型-追繳貨價
+//pageBean.setPaAuditType7(dataObjects.getString("PA_AUDIT_TYPE7"));
+//稽核結果類型-稅則申報不實
+//pageBean.setPaAuditType8(dataObjects.getString("PA_AUDIT_TYPE8"));
+//稽核結果類型-溢沖退稅捐
+//pageBean.setPaAuditType9(dataObjects.getString("PA_AUDIT_TYPE9"));
+//稽核結果類型-冒退營業稅
+//pageBean.setPaAuditType10(dataObjects.getString("PA_AUDIT_TYPE10"));
+//
+//pageBean.setPaAuditType11(dataObjects.getString("PA_AUDIT_TYPE11"));
+//稽核結果類型-其他違規事項
+//pageBean.setPaAuditType12(dataObjects.getString("PA_AUDIT_TYPE12"));
+//稽核報告陳核日期
+//pageBean.setPaAuditWriteDate(dataObjects.getString("PA_AUDIT_WRITE_DATE"));
+//會簽單位
+//pageBean.setPaSignUnit(dataObjects.getString("PA_SIGN_UNIT"));
+//送會日期
+//pageBean.setPaSendDate(dataObjects.getString("PA_SEND_DATE"));
+//稽核報告核定日期
+//pageBean.setPaAuditOkDate(dataObjects.getString("PA_AUDIT_OK_DATE"));
+//移辦單位
+//pageBean.setPaShiftUnit(dataObjects.getString("PA_SHIFT_UNIT"));
+//移辦日期
+//pageBean.setPaShiftDate(dataObjects.getString("PA_SHIFT_DATE"));
+//歸檔日期
+//pageBean.setPaFileDate(dataObjects.getString("PA_FILE_DATE"));
+//歸檔編號
+//pageBean.setPaFileNo(dataObjects.getString("PA_FILE_NO"));
+//借出日期
+//pageBean.setPaLoanDate(dataObjects.getString("PA_LOAN_DATE"));
+//借出單位
+//pageBean.setPaLoanUnit(dataObjects.getString("PA_LOAN_UNIT"));
+//借出人編號
+//pageBean.setPaLoanUser(dataObjects.getString("PA_LOAN_USER"));
+//借出人姓名
+//pageBean.setPaLoanName(dataObjects.getString("PA_LOAN_NAME"));
+//歸還日期
+//pageBean.setPaReturnDate(dataObjects.getString("PA_RETURN_DATE"));
+//處理人員
+//pageBean.setProUser(dataObjects.getString("PRO_USER"));
+//程式代碼
+//pageBean.setTransCode(dataObjects.getString("TRANS_CODE"));
+//行政救濟種類
+//pageBean.setPaLawSource(dataObjects.getString("PA_LAW_SOURCE"));
+//是否行政救濟
+//pageBean.setPaSlzChk(dataObjects.getString("PA_SLZ_CHK"));
+//行政救濟是否已確認
+//pageBean.setPaSlzOk(dataObjects.getString("PA_SLZ_OK"));
+//行政救濟復查日期
+//pageBean.setPaSlzDate1(dataObjects.getString("PA_SLZ_DATE1"));
+//行政救濟訴願日期
+//pageBean.setPaSlzDate2(dataObjects.getString("PA_SLZ_DATE2"));
+//行政救濟高等行政法院日期
+//pageBean.setPaSlzDate3(dataObjects.getString("PA_SLZ_DATE3"));
+//行政救濟最高行政法院日期
+//pageBean.setPaSlzDate4(dataObjects.getString("PA_SLZ_DATE4"));
+
+private String paReserveNo;//備查文號
+private Timestamp paReserveDate;//備查日期
+private String paMfgCode;//廠商統編
+private String paMfgName;//廠商名稱
+private String paAuditSource;//案件來源
+private String paRecvNoP;//關務署收件編號
+private Timestamp paRecvDateP;//關務署收件日期
+private String paRsvUser;//承辦員編號
+private String paRsvName;//承辦員姓名
+private String paAuditAbst;//案情摘要
+private Timestamp paAssignDate;//交查日期
+private String paAssignNo;//交查文號
+private String paAssignUser;//交辦員編號
+private String paAssignName;//交辦員姓名
+private String paAssignCus;//交辦關區
+private Timestamp paPunauditDate;//關務署免稽核日期
+private String paPunauditMemo;//關務署免稽核原因
+private String paPmemo;//關務署備註
+private String paRecvNoAbcd;//關區收件編號
+private Timestamp paRecvDateAbcd;//關區收件日期
+private String paAuditUnit;//承辦課
+private String paUserUnit;//稽核人員所屬單位
+private String paMainAuditor;//主辦稽核員編號
+private String paMainName;//主辦稽核員姓名
+private String paAsstAuditor1;//協辦稽核員編號1
+private String paAsstName1;//協辦稽核員姓名1
+private String paAsstAuditor2;//協辦稽核員編號2
+private String paAsstName2;//協辦稽核員姓名2
+private String paAsstAuditor3;//協辦稽核員編號3
+private String paAsstName3;//協辦稽核員姓名3
+private Timestamp paPrefinishDate;//預定完成期限
+private Timestamp paBunauditDate;//關區免稽核日期
+private String paBunauditMemo;//關區免稽核原因
+private String paAbcdmemo;//備註
+private Timestamp paAppointDate;//派案日期
+private String paAuditNo;//稽核案號
+private Timestamp paAuditDate;//稽核日期
+private Timestamp paInfoDate;//發通知函日期
+private Timestamp paBustripDate;//出差日期
+private Timestamp paInterviewDate;//來關訪談日期
+private Timestamp paInfoCbankDate;//函中央銀行日期
+private Timestamp paInfoEbankDate;//函結匯銀行日期
+private Timestamp paInfoOunitDate;//函駐外單位日期
+private String paNationalTax;//
+private String paInfo;//
+private String paAuditProcess;//稽核過程簡述
+private String paAuditConclsn;//結論與擬辦
+private String paAuditResult;//稽核結果
+private String paAuditTax;//預估補稅金額
+private String paAuditFine;//預估罰鍰金額
+private String paAuditType1;//稽核結果類型-虛報貨名
+private String paAuditType2;//稽核結果類型-虛報產地
+private String paAuditType3;//稽核結果類型-虛報數量
+private String paAuditType4;//稽核結果類型-虛報貨價
+private String paAuditType5;//稽核結果類型-高價低報
+private String paAuditType6;//稽核結果類型-低價高報
+private String paAuditType7;//稽核結果類型-追繳貨價
+private String paAuditType8;//稽核結果類型-稅則申報不實
+private String paAuditType9;//稽核結果類型-溢沖退稅捐
+private String paAuditType10;//稽核結果類型-冒退營業稅
+private String paAuditType11;//
+private String paAuditType12;//稽核結果類型-其他違規事項
+private Timestamp paAuditWriteDate;//稽核報告陳核日期
+private String paSignUnit;//會簽單位
+private Timestamp paSendDate;//送會日期
+private Timestamp paAuditOkDate;//稽核報告核定日期
+private String paShiftUnit;//移辦單位
+private Timestamp paShiftDate;//移辦日期
+private Timestamp paFileDate;//歸檔日期
+private String paFileNo;//歸檔編號
+private Timestamp paLoanDate;//借出日期
+private String paLoanUnit;//借出單位
+private String paLoanUser;//借出人編號
+private String paLoanName;//借出人姓名
+private Timestamp paReturnDate;//歸還日期
+private String proUser;//處理人員
+private String transCode;//程式代碼
+private String paLawSource;//行政救濟種類
+private String paSlzChk;//是否行政救濟
+private String paSlzOk;//行政救濟是否已確認
+private Timestamp paSlzDate1;//行政救濟復查日期
+private Timestamp paSlzDate2;//行政救濟訴願日期
+private Timestamp paSlzDate3;//行政救濟高等行政法院日期
+private Timestamp paSlzDate4;//行政救濟最高行政法院日期
+
+setPaReserveNo(pageBean.getPaReserveNo());//備查文號
+setPaReserveDate(pageBean.getPaReserveDate());//備查日期
+setPaMfgCode(pageBean.getPaMfgCode());//廠商統編
+setPaMfgName(pageBean.getPaMfgName());//廠商名稱
+setPaAuditSource(pageBean.getPaAuditSource());//案件來源
+setPaRecvNoP(pageBean.getPaRecvNoP());//關務署收件編號
+setPaRecvDateP(pageBean.getPaRecvDateP());//關務署收件日期
+setPaRsvUser(pageBean.getPaRsvUser());//承辦員編號
+setPaRsvName(pageBean.getPaRsvName());//承辦員姓名
+setPaAuditAbst(pageBean.getPaAuditAbst());//案情摘要
+setPaAssignDate(pageBean.getPaAssignDate());//交查日期
+setPaAssignNo(pageBean.getPaAssignNo());//交查文號
+setPaAssignUser(pageBean.getPaAssignUser());//交辦員編號
+setPaAssignName(pageBean.getPaAssignName());//交辦員姓名
+setPaAssignCus(pageBean.getPaAssignCus());//交辦關區
+setPaPunauditDate(pageBean.getPaPunauditDate());//關務署免稽核日期
+setPaPunauditMemo(pageBean.getPaPunauditMemo());//關務署免稽核原因
+setPaPmemo(pageBean.getPaPmemo());//關務署備註
+setPaRecvNoAbcd(pageBean.getPaRecvNoAbcd());//關區收件編號
+setPaRecvDateAbcd(pageBean.getPaRecvDateAbcd());//關區收件日期
+setPaAuditUnit(pageBean.getPaAuditUnit());//承辦課
+setPaUserUnit(pageBean.getPaUserUnit());//稽核人員所屬單位
+setPaMainAuditor(pageBean.getPaMainAuditor());//主辦稽核員編號
+setPaMainName(pageBean.getPaMainName());//主辦稽核員姓名
+setPaAsstAuditor1(pageBean.getPaAsstAuditor1());//協辦稽核員編號1
+setPaAsstName1(pageBean.getPaAsstName1());//協辦稽核員姓名1
+setPaAsstAuditor2(pageBean.getPaAsstAuditor2());//協辦稽核員編號2
+setPaAsstName2(pageBean.getPaAsstName2());//協辦稽核員姓名2
+setPaAsstAuditor3(pageBean.getPaAsstAuditor3());//協辦稽核員編號3
+setPaAsstName3(pageBean.getPaAsstName3());//協辦稽核員姓名3
+setPaPrefinishDate(pageBean.getPaPrefinishDate());//預定完成期限
+setPaBunauditDate(pageBean.getPaBunauditDate());//關區免稽核日期
+setPaBunauditMemo(pageBean.getPaBunauditMemo());//關區免稽核原因
+setPaAbcdmemo(pageBean.getPaAbcdmemo());//備註
+setPaAppointDate(pageBean.getPaAppointDate());//派案日期
+setPaAuditNo(pageBean.getPaAuditNo());//稽核案號
+setPaAuditDate(pageBean.getPaAuditDate());//稽核日期
+setPaInfoDate(pageBean.getPaInfoDate());//發通知函日期
+setPaBustripDate(pageBean.getPaBustripDate());//出差日期
+setPaInterviewDate(pageBean.getPaInterviewDate());//來關訪談日期
+setPaInfoCbankDate(pageBean.getPaInfoCbankDate());//函中央銀行日期
+setPaInfoEbankDate(pageBean.getPaInfoEbankDate());//函結匯銀行日期
+setPaInfoOunitDate(pageBean.getPaInfoOunitDate());//函駐外單位日期
+setPaNationalTax(pageBean.getPaNationalTax());//
+setPaInfo(pageBean.getPaInfo());//
+setPaAuditProcess(pageBean.getPaAuditProcess());//稽核過程簡述
+setPaAuditConclsn(pageBean.getPaAuditConclsn());//結論與擬辦
+setPaAuditResult(pageBean.getPaAuditResult());//稽核結果
+setPaAuditTax(pageBean.getPaAuditTax());//預估補稅金額
+setPaAuditFine(pageBean.getPaAuditFine());//預估罰鍰金額
+setPaAuditType1(pageBean.getPaAuditType1());//稽核結果類型-虛報貨名
+setPaAuditType2(pageBean.getPaAuditType2());//稽核結果類型-虛報產地
+setPaAuditType3(pageBean.getPaAuditType3());//稽核結果類型-虛報數量
+setPaAuditType4(pageBean.getPaAuditType4());//稽核結果類型-虛報貨價
+setPaAuditType5(pageBean.getPaAuditType5());//稽核結果類型-高價低報
+setPaAuditType6(pageBean.getPaAuditType6());//稽核結果類型-低價高報
+setPaAuditType7(pageBean.getPaAuditType7());//稽核結果類型-追繳貨價
+setPaAuditType8(pageBean.getPaAuditType8());//稽核結果類型-稅則申報不實
+setPaAuditType9(pageBean.getPaAuditType9());//稽核結果類型-溢沖退稅捐
+setPaAuditType10(pageBean.getPaAuditType10());//稽核結果類型-冒退營業稅
+setPaAuditType11(pageBean.getPaAuditType11());//
+setPaAuditType12(pageBean.getPaAuditType12());//稽核結果類型-其他違規事項
+setPaAuditWriteDate(pageBean.getPaAuditWriteDate());//稽核報告陳核日期
+setPaSignUnit(pageBean.getPaSignUnit());//會簽單位
+setPaSendDate(pageBean.getPaSendDate());//送會日期
+setPaAuditOkDate(pageBean.getPaAuditOkDate());//稽核報告核定日期
+setPaShiftUnit(pageBean.getPaShiftUnit());//移辦單位
+setPaShiftDate(pageBean.getPaShiftDate());//移辦日期
+setPaFileDate(pageBean.getPaFileDate());//歸檔日期
+setPaFileNo(pageBean.getPaFileNo());//歸檔編號
+setPaLoanDate(pageBean.getPaLoanDate());//借出日期
+setPaLoanUnit(pageBean.getPaLoanUnit());//借出單位
+setPaLoanUser(pageBean.getPaLoanUser());//借出人編號
+setPaLoanName(pageBean.getPaLoanName());//借出人姓名
+setPaReturnDate(pageBean.getPaReturnDate());//歸還日期
+setProUser(pageBean.getProUser());//處理人員
+setTransCode(pageBean.getTransCode());//程式代碼
+setPaLawSource(pageBean.getPaLawSource());//行政救濟種類
+setPaSlzChk(pageBean.getPaSlzChk());//是否行政救濟
+setPaSlzOk(pageBean.getPaSlzOk());//行政救濟是否已確認
+setPaSlzDate1(pageBean.getPaSlzDate1());//行政救濟復查日期
+setPaSlzDate2(pageBean.getPaSlzDate2());//行政救濟訴願日期
+setPaSlzDate3(pageBean.getPaSlzDate3());//行政救濟高等行政法院日期
+setPaSlzDate4(pageBean.getPaSlzDate4());//行政救濟最高行政法院日期
+
+setPaReserveNo(paReserveNo);//備查文號
+setPaReserveDate(paReserveDate);//備查日期
+setPaMfgCode(paMfgCode);//廠商統編
+setPaMfgName(paMfgName);//廠商名稱
+setPaAuditSource(paAuditSource);//案件來源
+setPaRecvNoP(paRecvNoP);//關務署收件編號
+setPaRecvDateP(paRecvDateP);//關務署收件日期
+setPaRsvUser(paRsvUser);//承辦員編號
+setPaRsvName(paRsvName);//承辦員姓名
+setPaAuditAbst(paAuditAbst);//案情摘要
+setPaAssignDate(paAssignDate);//交查日期
+setPaAssignNo(paAssignNo);//交查文號
+setPaAssignUser(paAssignUser);//交辦員編號
+setPaAssignName(paAssignName);//交辦員姓名
+setPaAssignCus(paAssignCus);//交辦關區
+setPaPunauditDate(paPunauditDate);//關務署免稽核日期
+setPaPunauditMemo(paPunauditMemo);//關務署免稽核原因
+setPaPmemo(paPmemo);//關務署備註
+setPaRecvNoAbcd(paRecvNoAbcd);//關區收件編號
+setPaRecvDateAbcd(paRecvDateAbcd);//關區收件日期
+setPaAuditUnit(paAuditUnit);//承辦課
+setPaUserUnit(paUserUnit);//稽核人員所屬單位
+setPaMainAuditor(paMainAuditor);//主辦稽核員編號
+setPaMainName(paMainName);//主辦稽核員姓名
+setPaAsstAuditor1(paAsstAuditor1);//協辦稽核員編號1
+setPaAsstName1(paAsstName1);//協辦稽核員姓名1
+setPaAsstAuditor2(paAsstAuditor2);//協辦稽核員編號2
+setPaAsstName2(paAsstName2);//協辦稽核員姓名2
+setPaAsstAuditor3(paAsstAuditor3);//協辦稽核員編號3
+setPaAsstName3(paAsstName3);//協辦稽核員姓名3
+setPaPrefinishDate(paPrefinishDate);//預定完成期限
+setPaBunauditDate(paBunauditDate);//關區免稽核日期
+setPaBunauditMemo(paBunauditMemo);//關區免稽核原因
+setPaAbcdmemo(paAbcdmemo);//備註
+setPaAppointDate(paAppointDate);//派案日期
+setPaAuditNo(paAuditNo);//稽核案號
+setPaAuditDate(paAuditDate);//稽核日期
+setPaInfoDate(paInfoDate);//發通知函日期
+setPaBustripDate(paBustripDate);//出差日期
+setPaInterviewDate(paInterviewDate);//來關訪談日期
+setPaInfoCbankDate(paInfoCbankDate);//函中央銀行日期
+setPaInfoEbankDate(paInfoEbankDate);//函結匯銀行日期
+setPaInfoOunitDate(paInfoOunitDate);//函駐外單位日期
+setPaNationalTax(paNationalTax);//
+setPaInfo(paInfo);//
+setPaAuditProcess(paAuditProcess);//稽核過程簡述
+setPaAuditConclsn(paAuditConclsn);//結論與擬辦
+setPaAuditResult(paAuditResult);//稽核結果
+setPaAuditTax(paAuditTax);//預估補稅金額
+setPaAuditFine(paAuditFine);//預估罰鍰金額
+setPaAuditType1(paAuditType1);//稽核結果類型-虛報貨名
+setPaAuditType2(paAuditType2);//稽核結果類型-虛報產地
+setPaAuditType3(paAuditType3);//稽核結果類型-虛報數量
+setPaAuditType4(paAuditType4);//稽核結果類型-虛報貨價
+setPaAuditType5(paAuditType5);//稽核結果類型-高價低報
+setPaAuditType6(paAuditType6);//稽核結果類型-低價高報
+setPaAuditType7(paAuditType7);//稽核結果類型-追繳貨價
+setPaAuditType8(paAuditType8);//稽核結果類型-稅則申報不實
+setPaAuditType9(paAuditType9);//稽核結果類型-溢沖退稅捐
+setPaAuditType10(paAuditType10);//稽核結果類型-冒退營業稅
+setPaAuditType11(paAuditType11);//
+setPaAuditType12(paAuditType12);//稽核結果類型-其他違規事項
+setPaAuditWriteDate(paAuditWriteDate);//稽核報告陳核日期
+setPaSignUnit(paSignUnit);//會簽單位
+setPaSendDate(paSendDate);//送會日期
+setPaAuditOkDate(paAuditOkDate);//稽核報告核定日期
+setPaShiftUnit(paShiftUnit);//移辦單位
+setPaShiftDate(paShiftDate);//移辦日期
+setPaFileDate(paFileDate);//歸檔日期
+setPaFileNo(paFileNo);//歸檔編號
+setPaLoanDate(paLoanDate);//借出日期
+setPaLoanUnit(paLoanUnit);//借出單位
+setPaLoanUser(paLoanUser);//借出人編號
+setPaLoanName(paLoanName);//借出人姓名
+setPaReturnDate(paReturnDate);//歸還日期
+setProUser(proUser);//處理人員
+setTransCode(transCode);//程式代碼
+setPaLawSource(paLawSource);//行政救濟種類
+setPaSlzChk(paSlzChk);//是否行政救濟
+setPaSlzOk(paSlzOk);//行政救濟是否已確認
+setPaSlzDate1(paSlzDate1);//行政救濟復查日期
+setPaSlzDate2(paSlzDate2);//行政救濟訴願日期
+setPaSlzDate3(paSlzDate3);//行政救濟高等行政法院日期
+setPaSlzDate4(paSlzDate4);//行政救濟最高行政法院日期
+
+pageBean.getPaReserveNo(),//備查文號
+pageBean.getPaReserveDate(),//備查日期
+pageBean.getPaMfgCode(),//廠商統編
+pageBean.getPaMfgName(),//廠商名稱
+pageBean.getPaAuditSource(),//案件來源
+pageBean.getPaRecvNoP(),//關務署收件編號
+pageBean.getPaRecvDateP(),//關務署收件日期
+pageBean.getPaRsvUser(),//承辦員編號
+pageBean.getPaRsvName(),//承辦員姓名
+pageBean.getPaAuditAbst(),//案情摘要
+pageBean.getPaAssignDate(),//交查日期
+pageBean.getPaAssignNo(),//交查文號
+pageBean.getPaAssignUser(),//交辦員編號
+pageBean.getPaAssignName(),//交辦員姓名
+pageBean.getPaAssignCus(),//交辦關區
+pageBean.getPaPunauditDate(),//關務署免稽核日期
+pageBean.getPaPunauditMemo(),//關務署免稽核原因
+pageBean.getPaPmemo(),//關務署備註
+pageBean.getPaRecvNoAbcd(),//關區收件編號
+pageBean.getPaRecvDateAbcd(),//關區收件日期
+pageBean.getPaAuditUnit(),//承辦課
+pageBean.getPaUserUnit(),//稽核人員所屬單位
+pageBean.getPaMainAuditor(),//主辦稽核員編號
+pageBean.getPaMainName(),//主辦稽核員姓名
+pageBean.getPaAsstAuditor1(),//協辦稽核員編號1
+pageBean.getPaAsstName1(),//協辦稽核員姓名1
+pageBean.getPaAsstAuditor2(),//協辦稽核員編號2
+pageBean.getPaAsstName2(),//協辦稽核員姓名2
+pageBean.getPaAsstAuditor3(),//協辦稽核員編號3
+pageBean.getPaAsstName3(),//協辦稽核員姓名3
+pageBean.getPaPrefinishDate(),//預定完成期限
+pageBean.getPaBunauditDate(),//關區免稽核日期
+pageBean.getPaBunauditMemo(),//關區免稽核原因
+pageBean.getPaAbcdmemo(),//備註
+pageBean.getPaAppointDate(),//派案日期
+pageBean.getPaAuditNo(),//稽核案號
+pageBean.getPaAuditDate(),//稽核日期
+pageBean.getPaInfoDate(),//發通知函日期
+pageBean.getPaBustripDate(),//出差日期
+pageBean.getPaInterviewDate(),//來關訪談日期
+pageBean.getPaInfoCbankDate(),//函中央銀行日期
+pageBean.getPaInfoEbankDate(),//函結匯銀行日期
+pageBean.getPaInfoOunitDate(),//函駐外單位日期
+pageBean.getPaNationalTax(),//
+pageBean.getPaInfo(),//
+pageBean.getPaAuditProcess(),//稽核過程簡述
+pageBean.getPaAuditConclsn(),//結論與擬辦
+pageBean.getPaAuditResult(),//稽核結果
+pageBean.getPaAuditTax(),//預估補稅金額
+pageBean.getPaAuditFine(),//預估罰鍰金額
+pageBean.getPaAuditType1(),//稽核結果類型-虛報貨名
+pageBean.getPaAuditType2(),//稽核結果類型-虛報產地
+pageBean.getPaAuditType3(),//稽核結果類型-虛報數量
+pageBean.getPaAuditType4(),//稽核結果類型-虛報貨價
+pageBean.getPaAuditType5(),//稽核結果類型-高價低報
+pageBean.getPaAuditType6(),//稽核結果類型-低價高報
+pageBean.getPaAuditType7(),//稽核結果類型-追繳貨價
+pageBean.getPaAuditType8(),//稽核結果類型-稅則申報不實
+pageBean.getPaAuditType9(),//稽核結果類型-溢沖退稅捐
+pageBean.getPaAuditType10(),//稽核結果類型-冒退營業稅
+pageBean.getPaAuditType11(),//
+pageBean.getPaAuditType12(),//稽核結果類型-其他違規事項
+pageBean.getPaAuditWriteDate(),//稽核報告陳核日期
+pageBean.getPaSignUnit(),//會簽單位
+pageBean.getPaSendDate(),//送會日期
+pageBean.getPaAuditOkDate(),//稽核報告核定日期
+pageBean.getPaShiftUnit(),//移辦單位
+pageBean.getPaShiftDate(),//移辦日期
+pageBean.getPaFileDate(),//歸檔日期
+pageBean.getPaFileNo(),//歸檔編號
+pageBean.getPaLoanDate(),//借出日期
+pageBean.getPaLoanUnit(),//借出單位
+pageBean.getPaLoanUser(),//借出人編號
+pageBean.getPaLoanName(),//借出人姓名
+pageBean.getPaReturnDate(),//歸還日期
+pageBean.getProUser(),//處理人員
+pageBean.getTransCode(),//程式代碼
+pageBean.getPaLawSource(),//行政救濟種類
+pageBean.getPaSlzChk(),//是否行政救濟
+pageBean.getPaSlzOk(),//行政救濟是否已確認
+pageBean.getPaSlzDate1(),//行政救濟復查日期
+pageBean.getPaSlzDate2(),//行政救濟訴願日期
+pageBean.getPaSlzDate3(),//行政救濟高等行政法院日期
+pageBean.getPaSlzDate4(),//行政救濟最高行政法院日期
+
+",備查文號"+"(paReserveNo)="+pageBean.getPaReserveNo()+
+",備查日期"+"(paReserveDate)="+pageBean.getPaReserveDate()+
+",廠商統編"+"(paMfgCode)="+pageBean.getPaMfgCode()+
+",廠商名稱"+"(paMfgName)="+pageBean.getPaMfgName()+
+",案件來源"+"(paAuditSource)="+pageBean.getPaAuditSource()+
+",關務署收件編號"+"(paRecvNoP)="+pageBean.getPaRecvNoP()+
+",關務署收件日期"+"(paRecvDateP)="+pageBean.getPaRecvDateP()+
+",承辦員編號"+"(paRsvUser)="+pageBean.getPaRsvUser()+
+",承辦員姓名"+"(paRsvName)="+pageBean.getPaRsvName()+
+",案情摘要"+"(paAuditAbst)="+pageBean.getPaAuditAbst()+
+",交查日期"+"(paAssignDate)="+pageBean.getPaAssignDate()+
+",交查文號"+"(paAssignNo)="+pageBean.getPaAssignNo()+
+",交辦員編號"+"(paAssignUser)="+pageBean.getPaAssignUser()+
+",交辦員姓名"+"(paAssignName)="+pageBean.getPaAssignName()+
+",交辦關區"+"(paAssignCus)="+pageBean.getPaAssignCus()+
+",關務署免稽核日期"+"(paPunauditDate)="+pageBean.getPaPunauditDate()+
+",關務署免稽核原因"+"(paPunauditMemo)="+pageBean.getPaPunauditMemo()+
+",關務署備註"+"(paPmemo)="+pageBean.getPaPmemo()+
+",關區收件編號"+"(paRecvNoAbcd)="+pageBean.getPaRecvNoAbcd()+
+",關區收件日期"+"(paRecvDateAbcd)="+pageBean.getPaRecvDateAbcd()+
+",承辦課"+"(paAuditUnit)="+pageBean.getPaAuditUnit()+
+",稽核人員所屬單位"+"(paUserUnit)="+pageBean.getPaUserUnit()+
+",主辦稽核員編號"+"(paMainAuditor)="+pageBean.getPaMainAuditor()+
+",主辦稽核員姓名"+"(paMainName)="+pageBean.getPaMainName()+
+",協辦稽核員編號1"+"(paAsstAuditor1)="+pageBean.getPaAsstAuditor1()+
+",協辦稽核員姓名1"+"(paAsstName1)="+pageBean.getPaAsstName1()+
+",協辦稽核員編號2"+"(paAsstAuditor2)="+pageBean.getPaAsstAuditor2()+
+",協辦稽核員姓名2"+"(paAsstName2)="+pageBean.getPaAsstName2()+
+",協辦稽核員編號3"+"(paAsstAuditor3)="+pageBean.getPaAsstAuditor3()+
+",協辦稽核員姓名3"+"(paAsstName3)="+pageBean.getPaAsstName3()+
+",預定完成期限"+"(paPrefinishDate)="+pageBean.getPaPrefinishDate()+
+",關區免稽核日期"+"(paBunauditDate)="+pageBean.getPaBunauditDate()+
+",關區免稽核原因"+"(paBunauditMemo)="+pageBean.getPaBunauditMemo()+
+",備註"+"(paAbcdmemo)="+pageBean.getPaAbcdmemo()+
+",派案日期"+"(paAppointDate)="+pageBean.getPaAppointDate()+
+",稽核案號"+"(paAuditNo)="+pageBean.getPaAuditNo()+
+",稽核日期"+"(paAuditDate)="+pageBean.getPaAuditDate()+
+",發通知函日期"+"(paInfoDate)="+pageBean.getPaInfoDate()+
+",出差日期"+"(paBustripDate)="+pageBean.getPaBustripDate()+
+",來關訪談日期"+"(paInterviewDate)="+pageBean.getPaInterviewDate()+
+",函中央銀行日期"+"(paInfoCbankDate)="+pageBean.getPaInfoCbankDate()+
+",函結匯銀行日期"+"(paInfoEbankDate)="+pageBean.getPaInfoEbankDate()+
+",函駐外單位日期"+"(paInfoOunitDate)="+pageBean.getPaInfoOunitDate()+
+","+"(paNationalTax)="+pageBean.getPaNationalTax()+
+","+"(paInfo)="+pageBean.getPaInfo()+
+",稽核過程簡述"+"(paAuditProcess)="+pageBean.getPaAuditProcess()+
+",結論與擬辦"+"(paAuditConclsn)="+pageBean.getPaAuditConclsn()+
+",稽核結果"+"(paAuditResult)="+pageBean.getPaAuditResult()+
+",預估補稅金額"+"(paAuditTax)="+pageBean.getPaAuditTax()+
+",預估罰鍰金額"+"(paAuditFine)="+pageBean.getPaAuditFine()+
+",稽核結果類型-虛報貨名"+"(paAuditType1)="+pageBean.getPaAuditType1()+
+",稽核結果類型-虛報產地"+"(paAuditType2)="+pageBean.getPaAuditType2()+
+",稽核結果類型-虛報數量"+"(paAuditType3)="+pageBean.getPaAuditType3()+
+",稽核結果類型-虛報貨價"+"(paAuditType4)="+pageBean.getPaAuditType4()+
+",稽核結果類型-高價低報"+"(paAuditType5)="+pageBean.getPaAuditType5()+
+",稽核結果類型-低價高報"+"(paAuditType6)="+pageBean.getPaAuditType6()+
+",稽核結果類型-追繳貨價"+"(paAuditType7)="+pageBean.getPaAuditType7()+
+",稽核結果類型-稅則申報不實"+"(paAuditType8)="+pageBean.getPaAuditType8()+
+",稽核結果類型-溢沖退稅捐"+"(paAuditType9)="+pageBean.getPaAuditType9()+
+",稽核結果類型-冒退營業稅"+"(paAuditType10)="+pageBean.getPaAuditType10()+
+","+"(paAuditType11)="+pageBean.getPaAuditType11()+
+",稽核結果類型-其他違規事項"+"(paAuditType12)="+pageBean.getPaAuditType12()+
+",稽核報告陳核日期"+"(paAuditWriteDate)="+pageBean.getPaAuditWriteDate()+
+",會簽單位"+"(paSignUnit)="+pageBean.getPaSignUnit()+
+",送會日期"+"(paSendDate)="+pageBean.getPaSendDate()+
+",稽核報告核定日期"+"(paAuditOkDate)="+pageBean.getPaAuditOkDate()+
+",移辦單位"+"(paShiftUnit)="+pageBean.getPaShiftUnit()+
+",移辦日期"+"(paShiftDate)="+pageBean.getPaShiftDate()+
+",歸檔日期"+"(paFileDate)="+pageBean.getPaFileDate()+
+",歸檔編號"+"(paFileNo)="+pageBean.getPaFileNo()+
+",借出日期"+"(paLoanDate)="+pageBean.getPaLoanDate()+
+",借出單位"+"(paLoanUnit)="+pageBean.getPaLoanUnit()+
+",借出人編號"+"(paLoanUser)="+pageBean.getPaLoanUser()+
+",借出人姓名"+"(paLoanName)="+pageBean.getPaLoanName()+
+",歸還日期"+"(paReturnDate)="+pageBean.getPaReturnDate()+
+",處理人員"+"(proUser)="+pageBean.getProUser()+
+",程式代碼"+"(transCode)="+pageBean.getTransCode()+
+",行政救濟種類"+"(paLawSource)="+pageBean.getPaLawSource()+
+",是否行政救濟"+"(paSlzChk)="+pageBean.getPaSlzChk()+
+",行政救濟是否已確認"+"(paSlzOk)="+pageBean.getPaSlzOk()+
+",行政救濟復查日期"+"(paSlzDate1)="+pageBean.getPaSlzDate1()+
+",行政救濟訴願日期"+"(paSlzDate2)="+pageBean.getPaSlzDate2()+
+",行政救濟高等行政法院日期"+"(paSlzDate3)="+pageBean.getPaSlzDate3()+
+",行政救濟最高行政法院日期"+"(paSlzDate4)="+pageBean.getPaSlzDate4()+

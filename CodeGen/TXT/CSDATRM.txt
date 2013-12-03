@@ -1,0 +1,1813 @@
+pageBean.tfCustomSerialNo=收文編號
+pageBean.tfFlag=特殊註記(徹案)
+pageBean.ban=統一編號
+pageBean.cccCode=商品標準分類號列
+pageBean.tfIssueDate=發文日期
+pageBean.tfIssueDocuNo=發文文號
+pageBean.tfEnglishCommodity=貨品名稱型號規格
+pageBean.tfMBNation=製造廠商廠牌生產國別
+pageBean.tfFactorMaterial=材質成分
+pageBean.tfReproduceSummary=加工製程概述
+pageBean.tfFunction=用途
+pageBean.tfPackWay=包裝方式
+pageBean.tfOtherExplain=其他說明
+pageBean.tfHsEReason=稅則分類理由
+pageBean.tfRemark=備註
+pageBean.tfReceiveDate=受理日期
+pageBean.tfPerson=承辦人代碼
+pageBean.tfHsEReason0=分類理由_總局
+pageBean.tfHsEReasonA=分類理由_基隆關
+pageBean.tfHsEReasonB=分類理由_高雄關
+pageBean.tfHsEReasonC=分類理由_台北關
+pageBean.tfHsEReasonD=分類理由_台中關
+pageBean.tf0dt=分類理由異動日期_總局
+pageBean.tfAdt=分類理由異動日期_基隆關
+pageBean.tfBdt=分類理由異動日期_高雄關
+pageBean.tfCdt=分類理由異動日期_台北關
+pageBean.tfDdt=分類理由異動日期_台中關
+pageBean.tf0id=分類理由職員編號_總局
+pageBean.tfAid=分類理由職員編號_基隆關
+pageBean.tfBid=分類理由職員編號_高雄關
+pageBean.tfCid=分類理由職員編號_台北關
+pageBean.tfDid=分類理由職員編號_台中關
+pageBean.tfAimport=進口紀錄_基隆關
+pageBean.tfBimport=進口紀錄_高雄關
+pageBean.tfCimport=進口紀錄_台北關
+pageBean.tfDimport=進口紀錄_台中關
+pageBean.bcUser0=承辦人員_總局
+pageBean.bcUserA=承辦人員_基隆
+pageBean.bcUserB=承辦人員_高雄
+pageBean.bcUserC=承辦人員_台北
+pageBean.bcUserD=承辦人員_台中
+pageBean.tfSendmark=傳送註記
+pageBean.tfSendDate=傳送註記日期
+pageBean.tfStatus=案件處理流程代碼
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+pageBean.tfReasonMark0=分類理由完成註記_總局
+pageBean.tfReasonMarkA=分類理由完成註記_基隆關
+pageBean.tfReasonMarkB=分類理由完成註記_高雄關
+pageBean.tfReasonMarkC=分類理由完成註記_台北關
+pageBean.tfReasonMarkD=分類理由完成註記_台中關
+pageBean.tfRenewDate=補件日期
+pageBean.tfHsEMark=稅則分類理由_完成註記
+pageBean.tfAppName=申請廠商名稱
+pageBean.tfAppTel=申請廠商電話
+pageBean.tfAppAddress=申請廠商地址
+
+pageBean.tfCustomSerialNo=tfCustomSerialNo
+pageBean.tfFlag=tfFlag
+pageBean.ban=ban
+pageBean.cccCode=cccCode
+pageBean.tfIssueDate=tfIssueDate
+pageBean.tfIssueDocuNo=tfIssueDocuNo
+pageBean.tfEnglishCommodity=tfEnglishCommodity
+pageBean.tfMBNation=tfMBNation
+pageBean.tfFactorMaterial=tfFactorMaterial
+pageBean.tfReproduceSummary=tfReproduceSummary
+pageBean.tfFunction=tfFunction
+pageBean.tfPackWay=tfPackWay
+pageBean.tfOtherExplain=tfOtherExplain
+pageBean.tfHsEReason=tfHsEReason
+pageBean.tfRemark=tfRemark
+pageBean.tfReceiveDate=tfReceiveDate
+pageBean.tfPerson=tfPerson
+pageBean.tfHsEReason0=tfHsEReason0
+pageBean.tfHsEReasonA=tfHsEReasonA
+pageBean.tfHsEReasonB=tfHsEReasonB
+pageBean.tfHsEReasonC=tfHsEReasonC
+pageBean.tfHsEReasonD=tfHsEReasonD
+pageBean.tf0dt=tf0dt
+pageBean.tfAdt=tfAdt
+pageBean.tfBdt=tfBdt
+pageBean.tfCdt=tfCdt
+pageBean.tfDdt=tfDdt
+pageBean.tf0id=tf0id
+pageBean.tfAid=tfAid
+pageBean.tfBid=tfBid
+pageBean.tfCid=tfCid
+pageBean.tfDid=tfDid
+pageBean.tfAimport=tfAimport
+pageBean.tfBimport=tfBimport
+pageBean.tfCimport=tfCimport
+pageBean.tfDimport=tfDimport
+pageBean.bcUser0=bcUser0
+pageBean.bcUserA=bcUserA
+pageBean.bcUserB=bcUserB
+pageBean.bcUserC=bcUserC
+pageBean.bcUserD=bcUserD
+pageBean.tfSendmark=tfSendmark
+pageBean.tfSendDate=tfSendDate
+pageBean.tfStatus=tfStatus
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+pageBean.tfReasonMark0=tfReasonMark0
+pageBean.tfReasonMarkA=tfReasonMarkA
+pageBean.tfReasonMarkB=tfReasonMarkB
+pageBean.tfReasonMarkC=tfReasonMarkC
+pageBean.tfReasonMarkD=tfReasonMarkD
+pageBean.tfRenewDate=tfRenewDate
+pageBean.tfHsEMark=tfHsEMark
+pageBean.tfAppName=tfAppName
+pageBean.tfAppTel=tfAppTel
+pageBean.tfAppAddress=tfAppAddress
+
+<tr>
+	<td>
+		<!--tfCustomSerialNo:收文編號-->
+		<s:text name="pageBean.tfCustomSerialNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCustomSerialNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFlag:特殊註記(徹案)-->
+		<s:text name="pageBean.tfFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--ban:統一編號-->
+		<s:text name="pageBean.ban"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.ban"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--cccCode:商品標準分類號列-->
+		<s:text name="pageBean.cccCode"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.cccCode"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfIssueDate:發文日期-->
+		<s:text name="pageBean.tfIssueDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfIssueDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfIssueDocuNo:發文文號-->
+		<s:text name="pageBean.tfIssueDocuNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfIssueDocuNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfEnglishCommodity:貨品名稱型號規格-->
+		<s:text name="pageBean.tfEnglishCommodity"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfEnglishCommodity"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMBNation:製造廠商廠牌生產國別-->
+		<s:text name="pageBean.tfMBNation"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMBNation"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFactorMaterial:材質成分-->
+		<s:text name="pageBean.tfFactorMaterial"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFactorMaterial"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReproduceSummary:加工製程概述-->
+		<s:text name="pageBean.tfReproduceSummary"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReproduceSummary"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFunction:用途-->
+		<s:text name="pageBean.tfFunction"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFunction"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPackWay:包裝方式-->
+		<s:text name="pageBean.tfPackWay"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPackWay"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfOtherExplain:其他說明-->
+		<s:text name="pageBean.tfOtherExplain"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfOtherExplain"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReason:稅則分類理由-->
+		<s:text name="pageBean.tfHsEReason"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReason"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfRemark:備註-->
+		<s:text name="pageBean.tfRemark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfRemark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReceiveDate:受理日期-->
+		<s:text name="pageBean.tfReceiveDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReceiveDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPerson:承辦人代碼-->
+		<s:text name="pageBean.tfPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReason0:分類理由_總局-->
+		<s:text name="pageBean.tfHsEReason0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReason0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReasonA:分類理由_基隆關-->
+		<s:text name="pageBean.tfHsEReasonA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReasonA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReasonB:分類理由_高雄關-->
+		<s:text name="pageBean.tfHsEReasonB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReasonB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReasonC:分類理由_台北關-->
+		<s:text name="pageBean.tfHsEReasonC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReasonC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReasonD:分類理由_台中關-->
+		<s:text name="pageBean.tfHsEReasonD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReasonD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tf0dt:分類理由異動日期_總局-->
+		<s:text name="pageBean.tf0dt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tf0dt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAdt:分類理由異動日期_基隆關-->
+		<s:text name="pageBean.tfAdt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAdt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfBdt:分類理由異動日期_高雄關-->
+		<s:text name="pageBean.tfBdt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfBdt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfCdt:分類理由異動日期_台北關-->
+		<s:text name="pageBean.tfCdt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCdt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDdt:分類理由異動日期_台中關-->
+		<s:text name="pageBean.tfDdt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDdt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tf0id:分類理由職員編號_總局-->
+		<s:text name="pageBean.tf0id"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tf0id"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAid:分類理由職員編號_基隆關-->
+		<s:text name="pageBean.tfAid"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAid"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfBid:分類理由職員編號_高雄關-->
+		<s:text name="pageBean.tfBid"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfBid"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfCid:分類理由職員編號_台北關-->
+		<s:text name="pageBean.tfCid"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCid"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDid:分類理由職員編號_台中關-->
+		<s:text name="pageBean.tfDid"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDid"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAimport:進口紀錄_基隆關-->
+		<s:text name="pageBean.tfAimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfBimport:進口紀錄_高雄關-->
+		<s:text name="pageBean.tfBimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfBimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfCimport:進口紀錄_台北關-->
+		<s:text name="pageBean.tfCimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDimport:進口紀錄_台中關-->
+		<s:text name="pageBean.tfDimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--bcUser0:承辦人員_總局-->
+		<s:text name="pageBean.bcUser0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.bcUser0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--bcUserA:承辦人員_基隆-->
+		<s:text name="pageBean.bcUserA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.bcUserA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--bcUserB:承辦人員_高雄-->
+		<s:text name="pageBean.bcUserB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.bcUserB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--bcUserC:承辦人員_台北-->
+		<s:text name="pageBean.bcUserC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.bcUserC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--bcUserD:承辦人員_台中-->
+		<s:text name="pageBean.bcUserD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.bcUserD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSendmark:傳送註記-->
+		<s:text name="pageBean.tfSendmark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSendmark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSendDate:傳送註記日期-->
+		<s:text name="pageBean.tfSendDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSendDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfStatus:案件處理流程代碼-->
+		<s:text name="pageBean.tfStatus"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfStatus"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonMark0:分類理由完成註記_總局-->
+		<s:text name="pageBean.tfReasonMark0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonMark0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonMarkA:分類理由完成註記_基隆關-->
+		<s:text name="pageBean.tfReasonMarkA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonMarkA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonMarkB:分類理由完成註記_高雄關-->
+		<s:text name="pageBean.tfReasonMarkB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonMarkB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonMarkC:分類理由完成註記_台北關-->
+		<s:text name="pageBean.tfReasonMarkC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonMarkC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonMarkD:分類理由完成註記_台中關-->
+		<s:text name="pageBean.tfReasonMarkD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonMarkD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfRenewDate:補件日期-->
+		<s:text name="pageBean.tfRenewDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfRenewDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEMark:稅則分類理由_完成註記-->
+		<s:text name="pageBean.tfHsEMark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEMark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppName:申請廠商名稱-->
+		<s:text name="pageBean.tfAppName"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppName"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppTel:申請廠商電話-->
+		<s:text name="pageBean.tfAppTel"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppTel"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppAddress:申請廠商地址-->
+		<s:text name="pageBean.tfAppAddress"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppAddress"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.tfCustomSerialNo"/><!--tfCustomSerialNo:收文編號-->
+<s:hidden name="pageBean.tfFlag"/><!--tfFlag:特殊註記(徹案)-->
+<s:hidden name="pageBean.ban"/><!--ban:統一編號-->
+<s:hidden name="pageBean.cccCode"/><!--cccCode:商品標準分類號列-->
+<s:hidden name="pageBean.tfIssueDate"/><!--tfIssueDate:發文日期-->
+<s:hidden name="pageBean.tfIssueDocuNo"/><!--tfIssueDocuNo:發文文號-->
+<s:hidden name="pageBean.tfEnglishCommodity"/><!--tfEnglishCommodity:貨品名稱型號規格-->
+<s:hidden name="pageBean.tfMBNation"/><!--tfMBNation:製造廠商廠牌生產國別-->
+<s:hidden name="pageBean.tfFactorMaterial"/><!--tfFactorMaterial:材質成分-->
+<s:hidden name="pageBean.tfReproduceSummary"/><!--tfReproduceSummary:加工製程概述-->
+<s:hidden name="pageBean.tfFunction"/><!--tfFunction:用途-->
+<s:hidden name="pageBean.tfPackWay"/><!--tfPackWay:包裝方式-->
+<s:hidden name="pageBean.tfOtherExplain"/><!--tfOtherExplain:其他說明-->
+<s:hidden name="pageBean.tfHsEReason"/><!--tfHsEReason:稅則分類理由-->
+<s:hidden name="pageBean.tfRemark"/><!--tfRemark:備註-->
+<s:hidden name="pageBean.tfReceiveDate"/><!--tfReceiveDate:受理日期-->
+<s:hidden name="pageBean.tfPerson"/><!--tfPerson:承辦人代碼-->
+<s:hidden name="pageBean.tfHsEReason0"/><!--tfHsEReason0:分類理由_總局-->
+<s:hidden name="pageBean.tfHsEReasonA"/><!--tfHsEReasonA:分類理由_基隆關-->
+<s:hidden name="pageBean.tfHsEReasonB"/><!--tfHsEReasonB:分類理由_高雄關-->
+<s:hidden name="pageBean.tfHsEReasonC"/><!--tfHsEReasonC:分類理由_台北關-->
+<s:hidden name="pageBean.tfHsEReasonD"/><!--tfHsEReasonD:分類理由_台中關-->
+<s:hidden name="pageBean.tf0dt"/><!--tf0dt:分類理由異動日期_總局-->
+<s:hidden name="pageBean.tfAdt"/><!--tfAdt:分類理由異動日期_基隆關-->
+<s:hidden name="pageBean.tfBdt"/><!--tfBdt:分類理由異動日期_高雄關-->
+<s:hidden name="pageBean.tfCdt"/><!--tfCdt:分類理由異動日期_台北關-->
+<s:hidden name="pageBean.tfDdt"/><!--tfDdt:分類理由異動日期_台中關-->
+<s:hidden name="pageBean.tf0id"/><!--tf0id:分類理由職員編號_總局-->
+<s:hidden name="pageBean.tfAid"/><!--tfAid:分類理由職員編號_基隆關-->
+<s:hidden name="pageBean.tfBid"/><!--tfBid:分類理由職員編號_高雄關-->
+<s:hidden name="pageBean.tfCid"/><!--tfCid:分類理由職員編號_台北關-->
+<s:hidden name="pageBean.tfDid"/><!--tfDid:分類理由職員編號_台中關-->
+<s:hidden name="pageBean.tfAimport"/><!--tfAimport:進口紀錄_基隆關-->
+<s:hidden name="pageBean.tfBimport"/><!--tfBimport:進口紀錄_高雄關-->
+<s:hidden name="pageBean.tfCimport"/><!--tfCimport:進口紀錄_台北關-->
+<s:hidden name="pageBean.tfDimport"/><!--tfDimport:進口紀錄_台中關-->
+<s:hidden name="pageBean.bcUser0"/><!--bcUser0:承辦人員_總局-->
+<s:hidden name="pageBean.bcUserA"/><!--bcUserA:承辦人員_基隆-->
+<s:hidden name="pageBean.bcUserB"/><!--bcUserB:承辦人員_高雄-->
+<s:hidden name="pageBean.bcUserC"/><!--bcUserC:承辦人員_台北-->
+<s:hidden name="pageBean.bcUserD"/><!--bcUserD:承辦人員_台中-->
+<s:hidden name="pageBean.tfSendmark"/><!--tfSendmark:傳送註記-->
+<s:hidden name="pageBean.tfSendDate"/><!--tfSendDate:傳送註記日期-->
+<s:hidden name="pageBean.tfStatus"/><!--tfStatus:案件處理流程代碼-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.tfReasonMark0"/><!--tfReasonMark0:分類理由完成註記_總局-->
+<s:hidden name="pageBean.tfReasonMarkA"/><!--tfReasonMarkA:分類理由完成註記_基隆關-->
+<s:hidden name="pageBean.tfReasonMarkB"/><!--tfReasonMarkB:分類理由完成註記_高雄關-->
+<s:hidden name="pageBean.tfReasonMarkC"/><!--tfReasonMarkC:分類理由完成註記_台北關-->
+<s:hidden name="pageBean.tfReasonMarkD"/><!--tfReasonMarkD:分類理由完成註記_台中關-->
+<s:hidden name="pageBean.tfRenewDate"/><!--tfRenewDate:補件日期-->
+<s:hidden name="pageBean.tfHsEMark"/><!--tfHsEMark:稅則分類理由_完成註記-->
+<s:hidden name="pageBean.tfAppName"/><!--tfAppName:申請廠商名稱-->
+<s:hidden name="pageBean.tfAppTel"/><!--tfAppTel:申請廠商電話-->
+<s:hidden name="pageBean.tfAppAddress"/><!--tfAppAddress:申請廠商地址-->
+
+<%--TF_CUSTOM_SERIAL_NO:收文編號:tfCustomSerialNo--%>
+<sjg:gridColumn name="TF_CUSTOM_SERIAL_NO" index="TF_CUSTOM_SERIAL_NO" title="%{getText('tfCustomSerialNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FLAG:特殊註記(徹案):tfFlag--%>
+<sjg:gridColumn name="TF_FLAG" index="TF_FLAG" title="%{getText('tfFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAN:統一編號:ban--%>
+<sjg:gridColumn name="BAN" index="BAN" title="%{getText('ban')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CCC_CODE:商品標準分類號列:cccCode--%>
+<sjg:gridColumn name="CCC_CODE" index="CCC_CODE" title="%{getText('cccCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ISSUE_DATE:發文日期:tfIssueDate--%>
+<sjg:gridColumn name="TF_ISSUE_DATE" index="TF_ISSUE_DATE" title="%{getText('tfIssueDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ISSUE_DOCU_NO:發文文號:tfIssueDocuNo--%>
+<sjg:gridColumn name="TF_ISSUE_DOCU_NO" index="TF_ISSUE_DOCU_NO" title="%{getText('tfIssueDocuNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ENGLISH_COMMODITY:貨品名稱型號規格:tfEnglishCommodity--%>
+<sjg:gridColumn name="TF_ENGLISH_COMMODITY" index="TF_ENGLISH_COMMODITY" title="%{getText('tfEnglishCommodity')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_B_NATION:製造廠商廠牌生產國別:tfMBNation--%>
+<sjg:gridColumn name="TF_M_B_NATION" index="TF_M_B_NATION" title="%{getText('tfMBNation')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FACTOR_MATERIAL:材質成分:tfFactorMaterial--%>
+<sjg:gridColumn name="TF_FACTOR_MATERIAL" index="TF_FACTOR_MATERIAL" title="%{getText('tfFactorMaterial')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REPRODUCE_SUMMARY:加工製程概述:tfReproduceSummary--%>
+<sjg:gridColumn name="TF_REPRODUCE_SUMMARY" index="TF_REPRODUCE_SUMMARY" title="%{getText('tfReproduceSummary')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FUNCTION:用途:tfFunction--%>
+<sjg:gridColumn name="TF_FUNCTION" index="TF_FUNCTION" title="%{getText('tfFunction')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PACK_WAY:包裝方式:tfPackWay--%>
+<sjg:gridColumn name="TF_PACK_WAY" index="TF_PACK_WAY" title="%{getText('tfPackWay')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_OTHER_EXPLAIN:其他說明:tfOtherExplain--%>
+<sjg:gridColumn name="TF_OTHER_EXPLAIN" index="TF_OTHER_EXPLAIN" title="%{getText('tfOtherExplain')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON:稅則分類理由:tfHsEReason--%>
+<sjg:gridColumn name="TF_HS_E_REASON" index="TF_HS_E_REASON" title="%{getText('tfHsEReason')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REMARK:備註:tfRemark--%>
+<sjg:gridColumn name="TF_REMARK" index="TF_REMARK" title="%{getText('tfRemark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RECEIVE_DATE:受理日期:tfReceiveDate--%>
+<sjg:gridColumn name="TF_RECEIVE_DATE" index="TF_RECEIVE_DATE" title="%{getText('tfReceiveDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON:承辦人代碼:tfPerson--%>
+<sjg:gridColumn name="TF_PERSON" index="TF_PERSON" title="%{getText('tfPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON_0:分類理由_總局:tfHsEReason0--%>
+<sjg:gridColumn name="TF_HS_E_REASON_0" index="TF_HS_E_REASON_0" title="%{getText('tfHsEReason0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON_A:分類理由_基隆關:tfHsEReasonA--%>
+<sjg:gridColumn name="TF_HS_E_REASON_A" index="TF_HS_E_REASON_A" title="%{getText('tfHsEReasonA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON_B:分類理由_高雄關:tfHsEReasonB--%>
+<sjg:gridColumn name="TF_HS_E_REASON_B" index="TF_HS_E_REASON_B" title="%{getText('tfHsEReasonB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON_C:分類理由_台北關:tfHsEReasonC--%>
+<sjg:gridColumn name="TF_HS_E_REASON_C" index="TF_HS_E_REASON_C" title="%{getText('tfHsEReasonC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON_D:分類理由_台中關:tfHsEReasonD--%>
+<sjg:gridColumn name="TF_HS_E_REASON_D" index="TF_HS_E_REASON_D" title="%{getText('tfHsEReasonD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_0DT:分類理由異動日期_總局:tf0dt--%>
+<sjg:gridColumn name="TF_0DT" index="TF_0DT" title="%{getText('tf0dt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ADT:分類理由異動日期_基隆關:tfAdt--%>
+<sjg:gridColumn name="TF_ADT" index="TF_ADT" title="%{getText('tfAdt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_BDT:分類理由異動日期_高雄關:tfBdt--%>
+<sjg:gridColumn name="TF_BDT" index="TF_BDT" title="%{getText('tfBdt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CDT:分類理由異動日期_台北關:tfCdt--%>
+<sjg:gridColumn name="TF_CDT" index="TF_CDT" title="%{getText('tfCdt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DDT:分類理由異動日期_台中關:tfDdt--%>
+<sjg:gridColumn name="TF_DDT" index="TF_DDT" title="%{getText('tfDdt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_0ID:分類理由職員編號_總局:tf0id--%>
+<sjg:gridColumn name="TF_0ID" index="TF_0ID" title="%{getText('tf0id')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_AID:分類理由職員編號_基隆關:tfAid--%>
+<sjg:gridColumn name="TF_AID" index="TF_AID" title="%{getText('tfAid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_BID:分類理由職員編號_高雄關:tfBid--%>
+<sjg:gridColumn name="TF_BID" index="TF_BID" title="%{getText('tfBid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CID:分類理由職員編號_台北關:tfCid--%>
+<sjg:gridColumn name="TF_CID" index="TF_CID" title="%{getText('tfCid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DID:分類理由職員編號_台中關:tfDid--%>
+<sjg:gridColumn name="TF_DID" index="TF_DID" title="%{getText('tfDid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_AIMPORT:進口紀錄_基隆關:tfAimport--%>
+<sjg:gridColumn name="TF_AIMPORT" index="TF_AIMPORT" title="%{getText('tfAimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_BIMPORT:進口紀錄_高雄關:tfBimport--%>
+<sjg:gridColumn name="TF_BIMPORT" index="TF_BIMPORT" title="%{getText('tfBimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CIMPORT:進口紀錄_台北關:tfCimport--%>
+<sjg:gridColumn name="TF_CIMPORT" index="TF_CIMPORT" title="%{getText('tfCimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DIMPORT:進口紀錄_台中關:tfDimport--%>
+<sjg:gridColumn name="TF_DIMPORT" index="TF_DIMPORT" title="%{getText('tfDimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BC_USER_0:承辦人員_總局:bcUser0--%>
+<sjg:gridColumn name="BC_USER_0" index="BC_USER_0" title="%{getText('bcUser0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BC_USER_A:承辦人員_基隆:bcUserA--%>
+<sjg:gridColumn name="BC_USER_A" index="BC_USER_A" title="%{getText('bcUserA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BC_USER_B:承辦人員_高雄:bcUserB--%>
+<sjg:gridColumn name="BC_USER_B" index="BC_USER_B" title="%{getText('bcUserB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BC_USER_C:承辦人員_台北:bcUserC--%>
+<sjg:gridColumn name="BC_USER_C" index="BC_USER_C" title="%{getText('bcUserC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BC_USER_D:承辦人員_台中:bcUserD--%>
+<sjg:gridColumn name="BC_USER_D" index="BC_USER_D" title="%{getText('bcUserD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SENDMARK:傳送註記:tfSendmark--%>
+<sjg:gridColumn name="TF_SENDMARK" index="TF_SENDMARK" title="%{getText('tfSendmark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SEND_DATE:傳送註記日期:tfSendDate--%>
+<sjg:gridColumn name="TF_SEND_DATE" index="TF_SEND_DATE" title="%{getText('tfSendDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_STATUS:案件處理流程代碼:tfStatus--%>
+<sjg:gridColumn name="TF_STATUS" index="TF_STATUS" title="%{getText('tfStatus')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_MARK_0:分類理由完成註記_總局:tfReasonMark0--%>
+<sjg:gridColumn name="TF_REASON_MARK_0" index="TF_REASON_MARK_0" title="%{getText('tfReasonMark0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_MARK_A:分類理由完成註記_基隆關:tfReasonMarkA--%>
+<sjg:gridColumn name="TF_REASON_MARK_A" index="TF_REASON_MARK_A" title="%{getText('tfReasonMarkA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_MARK_B:分類理由完成註記_高雄關:tfReasonMarkB--%>
+<sjg:gridColumn name="TF_REASON_MARK_B" index="TF_REASON_MARK_B" title="%{getText('tfReasonMarkB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_MARK_C:分類理由完成註記_台北關:tfReasonMarkC--%>
+<sjg:gridColumn name="TF_REASON_MARK_C" index="TF_REASON_MARK_C" title="%{getText('tfReasonMarkC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_MARK_D:分類理由完成註記_台中關:tfReasonMarkD--%>
+<sjg:gridColumn name="TF_REASON_MARK_D" index="TF_REASON_MARK_D" title="%{getText('tfReasonMarkD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RENEW_DATE:補件日期:tfRenewDate--%>
+<sjg:gridColumn name="TF_RENEW_DATE" index="TF_RENEW_DATE" title="%{getText('tfRenewDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_MARK:稅則分類理由_完成註記:tfHsEMark--%>
+<sjg:gridColumn name="TF_HS_E_MARK" index="TF_HS_E_MARK" title="%{getText('tfHsEMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_NAME:申請廠商名稱:tfAppName--%>
+<sjg:gridColumn name="TF_APP_NAME" index="TF_APP_NAME" title="%{getText('tfAppName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_TEL:申請廠商電話:tfAppTel--%>
+<sjg:gridColumn name="TF_APP_TEL" index="TF_APP_TEL" title="%{getText('tfAppTel')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_ADDRESS:申請廠商地址:tfAppAddress--%>
+<sjg:gridColumn name="TF_APP_ADDRESS" index="TF_APP_ADDRESS" title="%{getText('tfAppAddress')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TF_CUSTOM_SERIAL_NO
+,A.TF_FLAG
+,A.BAN
+,A.CCC_CODE
+,A.TF_ISSUE_DATE
+,A.TF_ISSUE_DOCU_NO
+,A.TF_ENGLISH_COMMODITY
+,A.TF_M_B_NATION
+,A.TF_FACTOR_MATERIAL
+,A.TF_REPRODUCE_SUMMARY
+,A.TF_FUNCTION
+,A.TF_PACK_WAY
+,A.TF_OTHER_EXPLAIN
+,A.TF_HS_E_REASON
+,A.TF_REMARK
+,A.TF_RECEIVE_DATE
+,A.TF_PERSON
+,A.TF_HS_E_REASON_0
+,A.TF_HS_E_REASON_A
+,A.TF_HS_E_REASON_B
+,A.TF_HS_E_REASON_C
+,A.TF_HS_E_REASON_D
+,A.TF_0DT
+,A.TF_ADT
+,A.TF_BDT
+,A.TF_CDT
+,A.TF_DDT
+,A.TF_0ID
+,A.TF_AID
+,A.TF_BID
+,A.TF_CID
+,A.TF_DID
+,A.TF_AIMPORT
+,A.TF_BIMPORT
+,A.TF_CIMPORT
+,A.TF_DIMPORT
+,A.BC_USER_0
+,A.BC_USER_A
+,A.BC_USER_B
+,A.BC_USER_C
+,A.BC_USER_D
+,A.TF_SENDMARK
+,A.TF_SEND_DATE
+,A.TF_STATUS
+,A.UP_PERSON
+,A.UP_DATE
+,A.TF_REASON_MARK_0
+,A.TF_REASON_MARK_A
+,A.TF_REASON_MARK_B
+,A.TF_REASON_MARK_C
+,A.TF_REASON_MARK_D
+,A.TF_RENEW_DATE
+,A.TF_HS_E_MARK
+,A.TF_APP_NAME
+,A.TF_APP_TEL
+,A.TF_APP_ADDRESS
+
+<condition key="TF_CUSTOM_SERIAL_NO" ignoreEmpty="true">TF_CUSTOM_SERIAL_NO = ${TF_CUSTOM_SERIAL_NO}</condition>
+<condition key="TF_FLAG" ignoreEmpty="true">TF_FLAG = ${TF_FLAG}</condition>
+<condition key="BAN" ignoreEmpty="true">BAN = ${BAN}</condition>
+<condition key="CCC_CODE" ignoreEmpty="true">CCC_CODE = ${CCC_CODE}</condition>
+<condition key="TF_ISSUE_DATE" ignoreEmpty="true">TF_ISSUE_DATE = ${TF_ISSUE_DATE}</condition>
+<condition key="TF_ISSUE_DOCU_NO" ignoreEmpty="true">TF_ISSUE_DOCU_NO = ${TF_ISSUE_DOCU_NO}</condition>
+<condition key="TF_ENGLISH_COMMODITY" ignoreEmpty="true">TF_ENGLISH_COMMODITY = ${TF_ENGLISH_COMMODITY}</condition>
+<condition key="TF_M_B_NATION" ignoreEmpty="true">TF_M_B_NATION = ${TF_M_B_NATION}</condition>
+<condition key="TF_FACTOR_MATERIAL" ignoreEmpty="true">TF_FACTOR_MATERIAL = ${TF_FACTOR_MATERIAL}</condition>
+<condition key="TF_REPRODUCE_SUMMARY" ignoreEmpty="true">TF_REPRODUCE_SUMMARY = ${TF_REPRODUCE_SUMMARY}</condition>
+<condition key="TF_FUNCTION" ignoreEmpty="true">TF_FUNCTION = ${TF_FUNCTION}</condition>
+<condition key="TF_PACK_WAY" ignoreEmpty="true">TF_PACK_WAY = ${TF_PACK_WAY}</condition>
+<condition key="TF_OTHER_EXPLAIN" ignoreEmpty="true">TF_OTHER_EXPLAIN = ${TF_OTHER_EXPLAIN}</condition>
+<condition key="TF_HS_E_REASON" ignoreEmpty="true">TF_HS_E_REASON = ${TF_HS_E_REASON}</condition>
+<condition key="TF_REMARK" ignoreEmpty="true">TF_REMARK = ${TF_REMARK}</condition>
+<condition key="TF_RECEIVE_DATE" ignoreEmpty="true">TF_RECEIVE_DATE = ${TF_RECEIVE_DATE}</condition>
+<condition key="TF_PERSON" ignoreEmpty="true">TF_PERSON = ${TF_PERSON}</condition>
+<condition key="TF_HS_E_REASON_0" ignoreEmpty="true">TF_HS_E_REASON_0 = ${TF_HS_E_REASON_0}</condition>
+<condition key="TF_HS_E_REASON_A" ignoreEmpty="true">TF_HS_E_REASON_A = ${TF_HS_E_REASON_A}</condition>
+<condition key="TF_HS_E_REASON_B" ignoreEmpty="true">TF_HS_E_REASON_B = ${TF_HS_E_REASON_B}</condition>
+<condition key="TF_HS_E_REASON_C" ignoreEmpty="true">TF_HS_E_REASON_C = ${TF_HS_E_REASON_C}</condition>
+<condition key="TF_HS_E_REASON_D" ignoreEmpty="true">TF_HS_E_REASON_D = ${TF_HS_E_REASON_D}</condition>
+<condition key="TF_0DT" ignoreEmpty="true">TF_0DT = ${TF_0DT}</condition>
+<condition key="TF_ADT" ignoreEmpty="true">TF_ADT = ${TF_ADT}</condition>
+<condition key="TF_BDT" ignoreEmpty="true">TF_BDT = ${TF_BDT}</condition>
+<condition key="TF_CDT" ignoreEmpty="true">TF_CDT = ${TF_CDT}</condition>
+<condition key="TF_DDT" ignoreEmpty="true">TF_DDT = ${TF_DDT}</condition>
+<condition key="TF_0ID" ignoreEmpty="true">TF_0ID = ${TF_0ID}</condition>
+<condition key="TF_AID" ignoreEmpty="true">TF_AID = ${TF_AID}</condition>
+<condition key="TF_BID" ignoreEmpty="true">TF_BID = ${TF_BID}</condition>
+<condition key="TF_CID" ignoreEmpty="true">TF_CID = ${TF_CID}</condition>
+<condition key="TF_DID" ignoreEmpty="true">TF_DID = ${TF_DID}</condition>
+<condition key="TF_AIMPORT" ignoreEmpty="true">TF_AIMPORT = ${TF_AIMPORT}</condition>
+<condition key="TF_BIMPORT" ignoreEmpty="true">TF_BIMPORT = ${TF_BIMPORT}</condition>
+<condition key="TF_CIMPORT" ignoreEmpty="true">TF_CIMPORT = ${TF_CIMPORT}</condition>
+<condition key="TF_DIMPORT" ignoreEmpty="true">TF_DIMPORT = ${TF_DIMPORT}</condition>
+<condition key="BC_USER_0" ignoreEmpty="true">BC_USER_0 = ${BC_USER_0}</condition>
+<condition key="BC_USER_A" ignoreEmpty="true">BC_USER_A = ${BC_USER_A}</condition>
+<condition key="BC_USER_B" ignoreEmpty="true">BC_USER_B = ${BC_USER_B}</condition>
+<condition key="BC_USER_C" ignoreEmpty="true">BC_USER_C = ${BC_USER_C}</condition>
+<condition key="BC_USER_D" ignoreEmpty="true">BC_USER_D = ${BC_USER_D}</condition>
+<condition key="TF_SENDMARK" ignoreEmpty="true">TF_SENDMARK = ${TF_SENDMARK}</condition>
+<condition key="TF_SEND_DATE" ignoreEmpty="true">TF_SEND_DATE = ${TF_SEND_DATE}</condition>
+<condition key="TF_STATUS" ignoreEmpty="true">TF_STATUS = ${TF_STATUS}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="TF_REASON_MARK_0" ignoreEmpty="true">TF_REASON_MARK_0 = ${TF_REASON_MARK_0}</condition>
+<condition key="TF_REASON_MARK_A" ignoreEmpty="true">TF_REASON_MARK_A = ${TF_REASON_MARK_A}</condition>
+<condition key="TF_REASON_MARK_B" ignoreEmpty="true">TF_REASON_MARK_B = ${TF_REASON_MARK_B}</condition>
+<condition key="TF_REASON_MARK_C" ignoreEmpty="true">TF_REASON_MARK_C = ${TF_REASON_MARK_C}</condition>
+<condition key="TF_REASON_MARK_D" ignoreEmpty="true">TF_REASON_MARK_D = ${TF_REASON_MARK_D}</condition>
+<condition key="TF_RENEW_DATE" ignoreEmpty="true">TF_RENEW_DATE = ${TF_RENEW_DATE}</condition>
+<condition key="TF_HS_E_MARK" ignoreEmpty="true">TF_HS_E_MARK = ${TF_HS_E_MARK}</condition>
+<condition key="TF_APP_NAME" ignoreEmpty="true">TF_APP_NAME = ${TF_APP_NAME}</condition>
+<condition key="TF_APP_TEL" ignoreEmpty="true">TF_APP_TEL = ${TF_APP_TEL}</condition>
+<condition key="TF_APP_ADDRESS" ignoreEmpty="true">TF_APP_ADDRESS = ${TF_APP_ADDRESS}</condition>
+
+<condition key="TF_CUSTOM_SERIAL_NO_S" ignoreEmpty="true">TF_CUSTOM_SERIAL_NO >= ${TF_CUSTOM_SERIAL_NO_S}</condition><condition key="TF_CUSTOM_SERIAL_NO_E" ignoreEmpty="true">${TF_CUSTOM_SERIAL_NO_E} >= TF_CUSTOM_SERIAL_NO</condition><condition key="TF_CUSTOM_SERIAL_NO_L" ignoreEmpty="true">TF_CUSTOM_SERIAL_NO like ${TF_CUSTOM_SERIAL_NO_L}</condition>
+<condition key="TF_FLAG_S" ignoreEmpty="true">TF_FLAG >= ${TF_FLAG_S}</condition><condition key="TF_FLAG_E" ignoreEmpty="true">${TF_FLAG_E} >= TF_FLAG</condition><condition key="TF_FLAG_L" ignoreEmpty="true">TF_FLAG like ${TF_FLAG_L}</condition>
+<condition key="BAN_S" ignoreEmpty="true">BAN >= ${BAN_S}</condition><condition key="BAN_E" ignoreEmpty="true">${BAN_E} >= BAN</condition><condition key="BAN_L" ignoreEmpty="true">BAN like ${BAN_L}</condition>
+<condition key="CCC_CODE_S" ignoreEmpty="true">CCC_CODE >= ${CCC_CODE_S}</condition><condition key="CCC_CODE_E" ignoreEmpty="true">${CCC_CODE_E} >= CCC_CODE</condition><condition key="CCC_CODE_L" ignoreEmpty="true">CCC_CODE like ${CCC_CODE_L}</condition>
+<condition key="TF_ISSUE_DATE_S" ignoreEmpty="true">TF_ISSUE_DATE >= ${TF_ISSUE_DATE_S}</condition><condition key="TF_ISSUE_DATE_E" ignoreEmpty="true">${TF_ISSUE_DATE_E} >= TF_ISSUE_DATE</condition><condition key="TF_ISSUE_DATE_L" ignoreEmpty="true">TF_ISSUE_DATE like ${TF_ISSUE_DATE_L}</condition>
+<condition key="TF_ISSUE_DOCU_NO_S" ignoreEmpty="true">TF_ISSUE_DOCU_NO >= ${TF_ISSUE_DOCU_NO_S}</condition><condition key="TF_ISSUE_DOCU_NO_E" ignoreEmpty="true">${TF_ISSUE_DOCU_NO_E} >= TF_ISSUE_DOCU_NO</condition><condition key="TF_ISSUE_DOCU_NO_L" ignoreEmpty="true">TF_ISSUE_DOCU_NO like ${TF_ISSUE_DOCU_NO_L}</condition>
+<condition key="TF_ENGLISH_COMMODITY_S" ignoreEmpty="true">TF_ENGLISH_COMMODITY >= ${TF_ENGLISH_COMMODITY_S}</condition><condition key="TF_ENGLISH_COMMODITY_E" ignoreEmpty="true">${TF_ENGLISH_COMMODITY_E} >= TF_ENGLISH_COMMODITY</condition><condition key="TF_ENGLISH_COMMODITY_L" ignoreEmpty="true">TF_ENGLISH_COMMODITY like ${TF_ENGLISH_COMMODITY_L}</condition>
+<condition key="TF_M_B_NATION_S" ignoreEmpty="true">TF_M_B_NATION >= ${TF_M_B_NATION_S}</condition><condition key="TF_M_B_NATION_E" ignoreEmpty="true">${TF_M_B_NATION_E} >= TF_M_B_NATION</condition><condition key="TF_M_B_NATION_L" ignoreEmpty="true">TF_M_B_NATION like ${TF_M_B_NATION_L}</condition>
+<condition key="TF_FACTOR_MATERIAL_S" ignoreEmpty="true">TF_FACTOR_MATERIAL >= ${TF_FACTOR_MATERIAL_S}</condition><condition key="TF_FACTOR_MATERIAL_E" ignoreEmpty="true">${TF_FACTOR_MATERIAL_E} >= TF_FACTOR_MATERIAL</condition><condition key="TF_FACTOR_MATERIAL_L" ignoreEmpty="true">TF_FACTOR_MATERIAL like ${TF_FACTOR_MATERIAL_L}</condition>
+<condition key="TF_REPRODUCE_SUMMARY_S" ignoreEmpty="true">TF_REPRODUCE_SUMMARY >= ${TF_REPRODUCE_SUMMARY_S}</condition><condition key="TF_REPRODUCE_SUMMARY_E" ignoreEmpty="true">${TF_REPRODUCE_SUMMARY_E} >= TF_REPRODUCE_SUMMARY</condition><condition key="TF_REPRODUCE_SUMMARY_L" ignoreEmpty="true">TF_REPRODUCE_SUMMARY like ${TF_REPRODUCE_SUMMARY_L}</condition>
+<condition key="TF_FUNCTION_S" ignoreEmpty="true">TF_FUNCTION >= ${TF_FUNCTION_S}</condition><condition key="TF_FUNCTION_E" ignoreEmpty="true">${TF_FUNCTION_E} >= TF_FUNCTION</condition><condition key="TF_FUNCTION_L" ignoreEmpty="true">TF_FUNCTION like ${TF_FUNCTION_L}</condition>
+<condition key="TF_PACK_WAY_S" ignoreEmpty="true">TF_PACK_WAY >= ${TF_PACK_WAY_S}</condition><condition key="TF_PACK_WAY_E" ignoreEmpty="true">${TF_PACK_WAY_E} >= TF_PACK_WAY</condition><condition key="TF_PACK_WAY_L" ignoreEmpty="true">TF_PACK_WAY like ${TF_PACK_WAY_L}</condition>
+<condition key="TF_OTHER_EXPLAIN_S" ignoreEmpty="true">TF_OTHER_EXPLAIN >= ${TF_OTHER_EXPLAIN_S}</condition><condition key="TF_OTHER_EXPLAIN_E" ignoreEmpty="true">${TF_OTHER_EXPLAIN_E} >= TF_OTHER_EXPLAIN</condition><condition key="TF_OTHER_EXPLAIN_L" ignoreEmpty="true">TF_OTHER_EXPLAIN like ${TF_OTHER_EXPLAIN_L}</condition>
+<condition key="TF_HS_E_REASON_S" ignoreEmpty="true">TF_HS_E_REASON >= ${TF_HS_E_REASON_S}</condition><condition key="TF_HS_E_REASON_E" ignoreEmpty="true">${TF_HS_E_REASON_E} >= TF_HS_E_REASON</condition><condition key="TF_HS_E_REASON_L" ignoreEmpty="true">TF_HS_E_REASON like ${TF_HS_E_REASON_L}</condition>
+<condition key="TF_REMARK_S" ignoreEmpty="true">TF_REMARK >= ${TF_REMARK_S}</condition><condition key="TF_REMARK_E" ignoreEmpty="true">${TF_REMARK_E} >= TF_REMARK</condition><condition key="TF_REMARK_L" ignoreEmpty="true">TF_REMARK like ${TF_REMARK_L}</condition>
+<condition key="TF_RECEIVE_DATE_S" ignoreEmpty="true">TF_RECEIVE_DATE >= ${TF_RECEIVE_DATE_S}</condition><condition key="TF_RECEIVE_DATE_E" ignoreEmpty="true">${TF_RECEIVE_DATE_E} >= TF_RECEIVE_DATE</condition><condition key="TF_RECEIVE_DATE_L" ignoreEmpty="true">TF_RECEIVE_DATE like ${TF_RECEIVE_DATE_L}</condition>
+<condition key="TF_PERSON_S" ignoreEmpty="true">TF_PERSON >= ${TF_PERSON_S}</condition><condition key="TF_PERSON_E" ignoreEmpty="true">${TF_PERSON_E} >= TF_PERSON</condition><condition key="TF_PERSON_L" ignoreEmpty="true">TF_PERSON like ${TF_PERSON_L}</condition>
+<condition key="TF_HS_E_REASON_0_S" ignoreEmpty="true">TF_HS_E_REASON_0 >= ${TF_HS_E_REASON_0_S}</condition><condition key="TF_HS_E_REASON_0_E" ignoreEmpty="true">${TF_HS_E_REASON_0_E} >= TF_HS_E_REASON_0</condition><condition key="TF_HS_E_REASON_0_L" ignoreEmpty="true">TF_HS_E_REASON_0 like ${TF_HS_E_REASON_0_L}</condition>
+<condition key="TF_HS_E_REASON_A_S" ignoreEmpty="true">TF_HS_E_REASON_A >= ${TF_HS_E_REASON_A_S}</condition><condition key="TF_HS_E_REASON_A_E" ignoreEmpty="true">${TF_HS_E_REASON_A_E} >= TF_HS_E_REASON_A</condition><condition key="TF_HS_E_REASON_A_L" ignoreEmpty="true">TF_HS_E_REASON_A like ${TF_HS_E_REASON_A_L}</condition>
+<condition key="TF_HS_E_REASON_B_S" ignoreEmpty="true">TF_HS_E_REASON_B >= ${TF_HS_E_REASON_B_S}</condition><condition key="TF_HS_E_REASON_B_E" ignoreEmpty="true">${TF_HS_E_REASON_B_E} >= TF_HS_E_REASON_B</condition><condition key="TF_HS_E_REASON_B_L" ignoreEmpty="true">TF_HS_E_REASON_B like ${TF_HS_E_REASON_B_L}</condition>
+<condition key="TF_HS_E_REASON_C_S" ignoreEmpty="true">TF_HS_E_REASON_C >= ${TF_HS_E_REASON_C_S}</condition><condition key="TF_HS_E_REASON_C_E" ignoreEmpty="true">${TF_HS_E_REASON_C_E} >= TF_HS_E_REASON_C</condition><condition key="TF_HS_E_REASON_C_L" ignoreEmpty="true">TF_HS_E_REASON_C like ${TF_HS_E_REASON_C_L}</condition>
+<condition key="TF_HS_E_REASON_D_S" ignoreEmpty="true">TF_HS_E_REASON_D >= ${TF_HS_E_REASON_D_S}</condition><condition key="TF_HS_E_REASON_D_E" ignoreEmpty="true">${TF_HS_E_REASON_D_E} >= TF_HS_E_REASON_D</condition><condition key="TF_HS_E_REASON_D_L" ignoreEmpty="true">TF_HS_E_REASON_D like ${TF_HS_E_REASON_D_L}</condition>
+<condition key="TF_0DT_S" ignoreEmpty="true">TF_0DT >= ${TF_0DT_S}</condition><condition key="TF_0DT_E" ignoreEmpty="true">${TF_0DT_E} >= TF_0DT</condition><condition key="TF_0DT_L" ignoreEmpty="true">TF_0DT like ${TF_0DT_L}</condition>
+<condition key="TF_ADT_S" ignoreEmpty="true">TF_ADT >= ${TF_ADT_S}</condition><condition key="TF_ADT_E" ignoreEmpty="true">${TF_ADT_E} >= TF_ADT</condition><condition key="TF_ADT_L" ignoreEmpty="true">TF_ADT like ${TF_ADT_L}</condition>
+<condition key="TF_BDT_S" ignoreEmpty="true">TF_BDT >= ${TF_BDT_S}</condition><condition key="TF_BDT_E" ignoreEmpty="true">${TF_BDT_E} >= TF_BDT</condition><condition key="TF_BDT_L" ignoreEmpty="true">TF_BDT like ${TF_BDT_L}</condition>
+<condition key="TF_CDT_S" ignoreEmpty="true">TF_CDT >= ${TF_CDT_S}</condition><condition key="TF_CDT_E" ignoreEmpty="true">${TF_CDT_E} >= TF_CDT</condition><condition key="TF_CDT_L" ignoreEmpty="true">TF_CDT like ${TF_CDT_L}</condition>
+<condition key="TF_DDT_S" ignoreEmpty="true">TF_DDT >= ${TF_DDT_S}</condition><condition key="TF_DDT_E" ignoreEmpty="true">${TF_DDT_E} >= TF_DDT</condition><condition key="TF_DDT_L" ignoreEmpty="true">TF_DDT like ${TF_DDT_L}</condition>
+<condition key="TF_0ID_S" ignoreEmpty="true">TF_0ID >= ${TF_0ID_S}</condition><condition key="TF_0ID_E" ignoreEmpty="true">${TF_0ID_E} >= TF_0ID</condition><condition key="TF_0ID_L" ignoreEmpty="true">TF_0ID like ${TF_0ID_L}</condition>
+<condition key="TF_AID_S" ignoreEmpty="true">TF_AID >= ${TF_AID_S}</condition><condition key="TF_AID_E" ignoreEmpty="true">${TF_AID_E} >= TF_AID</condition><condition key="TF_AID_L" ignoreEmpty="true">TF_AID like ${TF_AID_L}</condition>
+<condition key="TF_BID_S" ignoreEmpty="true">TF_BID >= ${TF_BID_S}</condition><condition key="TF_BID_E" ignoreEmpty="true">${TF_BID_E} >= TF_BID</condition><condition key="TF_BID_L" ignoreEmpty="true">TF_BID like ${TF_BID_L}</condition>
+<condition key="TF_CID_S" ignoreEmpty="true">TF_CID >= ${TF_CID_S}</condition><condition key="TF_CID_E" ignoreEmpty="true">${TF_CID_E} >= TF_CID</condition><condition key="TF_CID_L" ignoreEmpty="true">TF_CID like ${TF_CID_L}</condition>
+<condition key="TF_DID_S" ignoreEmpty="true">TF_DID >= ${TF_DID_S}</condition><condition key="TF_DID_E" ignoreEmpty="true">${TF_DID_E} >= TF_DID</condition><condition key="TF_DID_L" ignoreEmpty="true">TF_DID like ${TF_DID_L}</condition>
+<condition key="TF_AIMPORT_S" ignoreEmpty="true">TF_AIMPORT >= ${TF_AIMPORT_S}</condition><condition key="TF_AIMPORT_E" ignoreEmpty="true">${TF_AIMPORT_E} >= TF_AIMPORT</condition><condition key="TF_AIMPORT_L" ignoreEmpty="true">TF_AIMPORT like ${TF_AIMPORT_L}</condition>
+<condition key="TF_BIMPORT_S" ignoreEmpty="true">TF_BIMPORT >= ${TF_BIMPORT_S}</condition><condition key="TF_BIMPORT_E" ignoreEmpty="true">${TF_BIMPORT_E} >= TF_BIMPORT</condition><condition key="TF_BIMPORT_L" ignoreEmpty="true">TF_BIMPORT like ${TF_BIMPORT_L}</condition>
+<condition key="TF_CIMPORT_S" ignoreEmpty="true">TF_CIMPORT >= ${TF_CIMPORT_S}</condition><condition key="TF_CIMPORT_E" ignoreEmpty="true">${TF_CIMPORT_E} >= TF_CIMPORT</condition><condition key="TF_CIMPORT_L" ignoreEmpty="true">TF_CIMPORT like ${TF_CIMPORT_L}</condition>
+<condition key="TF_DIMPORT_S" ignoreEmpty="true">TF_DIMPORT >= ${TF_DIMPORT_S}</condition><condition key="TF_DIMPORT_E" ignoreEmpty="true">${TF_DIMPORT_E} >= TF_DIMPORT</condition><condition key="TF_DIMPORT_L" ignoreEmpty="true">TF_DIMPORT like ${TF_DIMPORT_L}</condition>
+<condition key="BC_USER_0_S" ignoreEmpty="true">BC_USER_0 >= ${BC_USER_0_S}</condition><condition key="BC_USER_0_E" ignoreEmpty="true">${BC_USER_0_E} >= BC_USER_0</condition><condition key="BC_USER_0_L" ignoreEmpty="true">BC_USER_0 like ${BC_USER_0_L}</condition>
+<condition key="BC_USER_A_S" ignoreEmpty="true">BC_USER_A >= ${BC_USER_A_S}</condition><condition key="BC_USER_A_E" ignoreEmpty="true">${BC_USER_A_E} >= BC_USER_A</condition><condition key="BC_USER_A_L" ignoreEmpty="true">BC_USER_A like ${BC_USER_A_L}</condition>
+<condition key="BC_USER_B_S" ignoreEmpty="true">BC_USER_B >= ${BC_USER_B_S}</condition><condition key="BC_USER_B_E" ignoreEmpty="true">${BC_USER_B_E} >= BC_USER_B</condition><condition key="BC_USER_B_L" ignoreEmpty="true">BC_USER_B like ${BC_USER_B_L}</condition>
+<condition key="BC_USER_C_S" ignoreEmpty="true">BC_USER_C >= ${BC_USER_C_S}</condition><condition key="BC_USER_C_E" ignoreEmpty="true">${BC_USER_C_E} >= BC_USER_C</condition><condition key="BC_USER_C_L" ignoreEmpty="true">BC_USER_C like ${BC_USER_C_L}</condition>
+<condition key="BC_USER_D_S" ignoreEmpty="true">BC_USER_D >= ${BC_USER_D_S}</condition><condition key="BC_USER_D_E" ignoreEmpty="true">${BC_USER_D_E} >= BC_USER_D</condition><condition key="BC_USER_D_L" ignoreEmpty="true">BC_USER_D like ${BC_USER_D_L}</condition>
+<condition key="TF_SENDMARK_S" ignoreEmpty="true">TF_SENDMARK >= ${TF_SENDMARK_S}</condition><condition key="TF_SENDMARK_E" ignoreEmpty="true">${TF_SENDMARK_E} >= TF_SENDMARK</condition><condition key="TF_SENDMARK_L" ignoreEmpty="true">TF_SENDMARK like ${TF_SENDMARK_L}</condition>
+<condition key="TF_SEND_DATE_S" ignoreEmpty="true">TF_SEND_DATE >= ${TF_SEND_DATE_S}</condition><condition key="TF_SEND_DATE_E" ignoreEmpty="true">${TF_SEND_DATE_E} >= TF_SEND_DATE</condition><condition key="TF_SEND_DATE_L" ignoreEmpty="true">TF_SEND_DATE like ${TF_SEND_DATE_L}</condition>
+<condition key="TF_STATUS_S" ignoreEmpty="true">TF_STATUS >= ${TF_STATUS_S}</condition><condition key="TF_STATUS_E" ignoreEmpty="true">${TF_STATUS_E} >= TF_STATUS</condition><condition key="TF_STATUS_L" ignoreEmpty="true">TF_STATUS like ${TF_STATUS_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="TF_REASON_MARK_0_S" ignoreEmpty="true">TF_REASON_MARK_0 >= ${TF_REASON_MARK_0_S}</condition><condition key="TF_REASON_MARK_0_E" ignoreEmpty="true">${TF_REASON_MARK_0_E} >= TF_REASON_MARK_0</condition><condition key="TF_REASON_MARK_0_L" ignoreEmpty="true">TF_REASON_MARK_0 like ${TF_REASON_MARK_0_L}</condition>
+<condition key="TF_REASON_MARK_A_S" ignoreEmpty="true">TF_REASON_MARK_A >= ${TF_REASON_MARK_A_S}</condition><condition key="TF_REASON_MARK_A_E" ignoreEmpty="true">${TF_REASON_MARK_A_E} >= TF_REASON_MARK_A</condition><condition key="TF_REASON_MARK_A_L" ignoreEmpty="true">TF_REASON_MARK_A like ${TF_REASON_MARK_A_L}</condition>
+<condition key="TF_REASON_MARK_B_S" ignoreEmpty="true">TF_REASON_MARK_B >= ${TF_REASON_MARK_B_S}</condition><condition key="TF_REASON_MARK_B_E" ignoreEmpty="true">${TF_REASON_MARK_B_E} >= TF_REASON_MARK_B</condition><condition key="TF_REASON_MARK_B_L" ignoreEmpty="true">TF_REASON_MARK_B like ${TF_REASON_MARK_B_L}</condition>
+<condition key="TF_REASON_MARK_C_S" ignoreEmpty="true">TF_REASON_MARK_C >= ${TF_REASON_MARK_C_S}</condition><condition key="TF_REASON_MARK_C_E" ignoreEmpty="true">${TF_REASON_MARK_C_E} >= TF_REASON_MARK_C</condition><condition key="TF_REASON_MARK_C_L" ignoreEmpty="true">TF_REASON_MARK_C like ${TF_REASON_MARK_C_L}</condition>
+<condition key="TF_REASON_MARK_D_S" ignoreEmpty="true">TF_REASON_MARK_D >= ${TF_REASON_MARK_D_S}</condition><condition key="TF_REASON_MARK_D_E" ignoreEmpty="true">${TF_REASON_MARK_D_E} >= TF_REASON_MARK_D</condition><condition key="TF_REASON_MARK_D_L" ignoreEmpty="true">TF_REASON_MARK_D like ${TF_REASON_MARK_D_L}</condition>
+<condition key="TF_RENEW_DATE_S" ignoreEmpty="true">TF_RENEW_DATE >= ${TF_RENEW_DATE_S}</condition><condition key="TF_RENEW_DATE_E" ignoreEmpty="true">${TF_RENEW_DATE_E} >= TF_RENEW_DATE</condition><condition key="TF_RENEW_DATE_L" ignoreEmpty="true">TF_RENEW_DATE like ${TF_RENEW_DATE_L}</condition>
+<condition key="TF_HS_E_MARK_S" ignoreEmpty="true">TF_HS_E_MARK >= ${TF_HS_E_MARK_S}</condition><condition key="TF_HS_E_MARK_E" ignoreEmpty="true">${TF_HS_E_MARK_E} >= TF_HS_E_MARK</condition><condition key="TF_HS_E_MARK_L" ignoreEmpty="true">TF_HS_E_MARK like ${TF_HS_E_MARK_L}</condition>
+<condition key="TF_APP_NAME_S" ignoreEmpty="true">TF_APP_NAME >= ${TF_APP_NAME_S}</condition><condition key="TF_APP_NAME_E" ignoreEmpty="true">${TF_APP_NAME_E} >= TF_APP_NAME</condition><condition key="TF_APP_NAME_L" ignoreEmpty="true">TF_APP_NAME like ${TF_APP_NAME_L}</condition>
+<condition key="TF_APP_TEL_S" ignoreEmpty="true">TF_APP_TEL >= ${TF_APP_TEL_S}</condition><condition key="TF_APP_TEL_E" ignoreEmpty="true">${TF_APP_TEL_E} >= TF_APP_TEL</condition><condition key="TF_APP_TEL_L" ignoreEmpty="true">TF_APP_TEL like ${TF_APP_TEL_L}</condition>
+<condition key="TF_APP_ADDRESS_S" ignoreEmpty="true">TF_APP_ADDRESS >= ${TF_APP_ADDRESS_S}</condition><condition key="TF_APP_ADDRESS_E" ignoreEmpty="true">${TF_APP_ADDRESS_E} >= TF_APP_ADDRESS</condition><condition key="TF_APP_ADDRESS_L" ignoreEmpty="true">TF_APP_ADDRESS like ${TF_APP_ADDRESS_L}</condition>
+
+<field key="TF_CUSTOM_SERIAL_NO" name="TF_CUSTOM_SERIAL_NO" ignoreEmpty="true"/>
+<field key="TF_FLAG" name="TF_FLAG" ignoreEmpty="true"/>
+<field key="BAN" name="BAN" ignoreEmpty="true"/>
+<field key="CCC_CODE" name="CCC_CODE" ignoreEmpty="true"/>
+<field key="TF_ISSUE_DATE" name="TF_ISSUE_DATE" ignoreEmpty="true"/>
+<field key="TF_ISSUE_DOCU_NO" name="TF_ISSUE_DOCU_NO" ignoreEmpty="true"/>
+<field key="TF_ENGLISH_COMMODITY" name="TF_ENGLISH_COMMODITY" ignoreEmpty="true"/>
+<field key="TF_M_B_NATION" name="TF_M_B_NATION" ignoreEmpty="true"/>
+<field key="TF_FACTOR_MATERIAL" name="TF_FACTOR_MATERIAL" ignoreEmpty="true"/>
+<field key="TF_REPRODUCE_SUMMARY" name="TF_REPRODUCE_SUMMARY" ignoreEmpty="true"/>
+<field key="TF_FUNCTION" name="TF_FUNCTION" ignoreEmpty="true"/>
+<field key="TF_PACK_WAY" name="TF_PACK_WAY" ignoreEmpty="true"/>
+<field key="TF_OTHER_EXPLAIN" name="TF_OTHER_EXPLAIN" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON" name="TF_HS_E_REASON" ignoreEmpty="true"/>
+<field key="TF_REMARK" name="TF_REMARK" ignoreEmpty="true"/>
+<field key="TF_RECEIVE_DATE" name="TF_RECEIVE_DATE" ignoreEmpty="true"/>
+<field key="TF_PERSON" name="TF_PERSON" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON_0" name="TF_HS_E_REASON_0" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON_A" name="TF_HS_E_REASON_A" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON_B" name="TF_HS_E_REASON_B" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON_C" name="TF_HS_E_REASON_C" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON_D" name="TF_HS_E_REASON_D" ignoreEmpty="true"/>
+<field key="TF_0DT" name="TF_0DT" ignoreEmpty="true"/>
+<field key="TF_ADT" name="TF_ADT" ignoreEmpty="true"/>
+<field key="TF_BDT" name="TF_BDT" ignoreEmpty="true"/>
+<field key="TF_CDT" name="TF_CDT" ignoreEmpty="true"/>
+<field key="TF_DDT" name="TF_DDT" ignoreEmpty="true"/>
+<field key="TF_0ID" name="TF_0ID" ignoreEmpty="true"/>
+<field key="TF_AID" name="TF_AID" ignoreEmpty="true"/>
+<field key="TF_BID" name="TF_BID" ignoreEmpty="true"/>
+<field key="TF_CID" name="TF_CID" ignoreEmpty="true"/>
+<field key="TF_DID" name="TF_DID" ignoreEmpty="true"/>
+<field key="TF_AIMPORT" name="TF_AIMPORT" ignoreEmpty="true"/>
+<field key="TF_BIMPORT" name="TF_BIMPORT" ignoreEmpty="true"/>
+<field key="TF_CIMPORT" name="TF_CIMPORT" ignoreEmpty="true"/>
+<field key="TF_DIMPORT" name="TF_DIMPORT" ignoreEmpty="true"/>
+<field key="BC_USER_0" name="BC_USER_0" ignoreEmpty="true"/>
+<field key="BC_USER_A" name="BC_USER_A" ignoreEmpty="true"/>
+<field key="BC_USER_B" name="BC_USER_B" ignoreEmpty="true"/>
+<field key="BC_USER_C" name="BC_USER_C" ignoreEmpty="true"/>
+<field key="BC_USER_D" name="BC_USER_D" ignoreEmpty="true"/>
+<field key="TF_SENDMARK" name="TF_SENDMARK" ignoreEmpty="true"/>
+<field key="TF_SEND_DATE" name="TF_SEND_DATE" ignoreEmpty="true"/>
+<field key="TF_STATUS" name="TF_STATUS" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="TF_REASON_MARK_0" name="TF_REASON_MARK_0" ignoreEmpty="true"/>
+<field key="TF_REASON_MARK_A" name="TF_REASON_MARK_A" ignoreEmpty="true"/>
+<field key="TF_REASON_MARK_B" name="TF_REASON_MARK_B" ignoreEmpty="true"/>
+<field key="TF_REASON_MARK_C" name="TF_REASON_MARK_C" ignoreEmpty="true"/>
+<field key="TF_REASON_MARK_D" name="TF_REASON_MARK_D" ignoreEmpty="true"/>
+<field key="TF_RENEW_DATE" name="TF_RENEW_DATE" ignoreEmpty="true"/>
+<field key="TF_HS_E_MARK" name="TF_HS_E_MARK" ignoreEmpty="true"/>
+<field key="TF_APP_NAME" name="TF_APP_NAME" ignoreEmpty="true"/>
+<field key="TF_APP_TEL" name="TF_APP_TEL" ignoreEmpty="true"/>
+<field key="TF_APP_ADDRESS" name="TF_APP_ADDRESS" ignoreEmpty="true"/>
+
+$('#pageBean_tfCustomSerialNo').attr('value',rowData.TF_CUSTOM_SERIAL_NO);
+$('#pageBean_tfFlag').attr('value',rowData.TF_FLAG);
+$('#pageBean_ban').attr('value',rowData.BAN);
+$('#pageBean_cccCode').attr('value',rowData.CCC_CODE);
+$('#pageBean_tfIssueDate').attr('value',rowData.TF_ISSUE_DATE);
+$('#pageBean_tfIssueDocuNo').attr('value',rowData.TF_ISSUE_DOCU_NO);
+$('#pageBean_tfEnglishCommodity').attr('value',rowData.TF_ENGLISH_COMMODITY);
+$('#pageBean_tfMBNation').attr('value',rowData.TF_M_B_NATION);
+$('#pageBean_tfFactorMaterial').attr('value',rowData.TF_FACTOR_MATERIAL);
+$('#pageBean_tfReproduceSummary').attr('value',rowData.TF_REPRODUCE_SUMMARY);
+$('#pageBean_tfFunction').attr('value',rowData.TF_FUNCTION);
+$('#pageBean_tfPackWay').attr('value',rowData.TF_PACK_WAY);
+$('#pageBean_tfOtherExplain').attr('value',rowData.TF_OTHER_EXPLAIN);
+$('#pageBean_tfHsEReason').attr('value',rowData.TF_HS_E_REASON);
+$('#pageBean_tfRemark').attr('value',rowData.TF_REMARK);
+$('#pageBean_tfReceiveDate').attr('value',rowData.TF_RECEIVE_DATE);
+$('#pageBean_tfPerson').attr('value',rowData.TF_PERSON);
+$('#pageBean_tfHsEReason0').attr('value',rowData.TF_HS_E_REASON_0);
+$('#pageBean_tfHsEReasonA').attr('value',rowData.TF_HS_E_REASON_A);
+$('#pageBean_tfHsEReasonB').attr('value',rowData.TF_HS_E_REASON_B);
+$('#pageBean_tfHsEReasonC').attr('value',rowData.TF_HS_E_REASON_C);
+$('#pageBean_tfHsEReasonD').attr('value',rowData.TF_HS_E_REASON_D);
+$('#pageBean_tf0dt').attr('value',rowData.TF_0DT);
+$('#pageBean_tfAdt').attr('value',rowData.TF_ADT);
+$('#pageBean_tfBdt').attr('value',rowData.TF_BDT);
+$('#pageBean_tfCdt').attr('value',rowData.TF_CDT);
+$('#pageBean_tfDdt').attr('value',rowData.TF_DDT);
+$('#pageBean_tf0id').attr('value',rowData.TF_0ID);
+$('#pageBean_tfAid').attr('value',rowData.TF_AID);
+$('#pageBean_tfBid').attr('value',rowData.TF_BID);
+$('#pageBean_tfCid').attr('value',rowData.TF_CID);
+$('#pageBean_tfDid').attr('value',rowData.TF_DID);
+$('#pageBean_tfAimport').attr('value',rowData.TF_AIMPORT);
+$('#pageBean_tfBimport').attr('value',rowData.TF_BIMPORT);
+$('#pageBean_tfCimport').attr('value',rowData.TF_CIMPORT);
+$('#pageBean_tfDimport').attr('value',rowData.TF_DIMPORT);
+$('#pageBean_bcUser0').attr('value',rowData.BC_USER_0);
+$('#pageBean_bcUserA').attr('value',rowData.BC_USER_A);
+$('#pageBean_bcUserB').attr('value',rowData.BC_USER_B);
+$('#pageBean_bcUserC').attr('value',rowData.BC_USER_C);
+$('#pageBean_bcUserD').attr('value',rowData.BC_USER_D);
+$('#pageBean_tfSendmark').attr('value',rowData.TF_SENDMARK);
+$('#pageBean_tfSendDate').attr('value',rowData.TF_SEND_DATE);
+$('#pageBean_tfStatus').attr('value',rowData.TF_STATUS);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_tfReasonMark0').attr('value',rowData.TF_REASON_MARK_0);
+$('#pageBean_tfReasonMarkA').attr('value',rowData.TF_REASON_MARK_A);
+$('#pageBean_tfReasonMarkB').attr('value',rowData.TF_REASON_MARK_B);
+$('#pageBean_tfReasonMarkC').attr('value',rowData.TF_REASON_MARK_C);
+$('#pageBean_tfReasonMarkD').attr('value',rowData.TF_REASON_MARK_D);
+$('#pageBean_tfRenewDate').attr('value',rowData.TF_RENEW_DATE);
+$('#pageBean_tfHsEMark').attr('value',rowData.TF_HS_E_MARK);
+$('#pageBean_tfAppName').attr('value',rowData.TF_APP_NAME);
+$('#pageBean_tfAppTel').attr('value',rowData.TF_APP_TEL);
+$('#pageBean_tfAppAddress').attr('value',rowData.TF_APP_ADDRESS);
+
+$('#pageBean_tfCustomSerialNo').attr("value", "");
+$('#pageBean_tfFlag').attr("value", "");
+$('#pageBean_ban').attr("value", "");
+$('#pageBean_cccCode').attr("value", "");
+$('#pageBean_tfIssueDate').attr("value", "");
+$('#pageBean_tfIssueDocuNo').attr("value", "");
+$('#pageBean_tfEnglishCommodity').attr("value", "");
+$('#pageBean_tfMBNation').attr("value", "");
+$('#pageBean_tfFactorMaterial').attr("value", "");
+$('#pageBean_tfReproduceSummary').attr("value", "");
+$('#pageBean_tfFunction').attr("value", "");
+$('#pageBean_tfPackWay').attr("value", "");
+$('#pageBean_tfOtherExplain').attr("value", "");
+$('#pageBean_tfHsEReason').attr("value", "");
+$('#pageBean_tfRemark').attr("value", "");
+$('#pageBean_tfReceiveDate').attr("value", "");
+$('#pageBean_tfPerson').attr("value", "");
+$('#pageBean_tfHsEReason0').attr("value", "");
+$('#pageBean_tfHsEReasonA').attr("value", "");
+$('#pageBean_tfHsEReasonB').attr("value", "");
+$('#pageBean_tfHsEReasonC').attr("value", "");
+$('#pageBean_tfHsEReasonD').attr("value", "");
+$('#pageBean_tf0dt').attr("value", "");
+$('#pageBean_tfAdt').attr("value", "");
+$('#pageBean_tfBdt').attr("value", "");
+$('#pageBean_tfCdt').attr("value", "");
+$('#pageBean_tfDdt').attr("value", "");
+$('#pageBean_tf0id').attr("value", "");
+$('#pageBean_tfAid').attr("value", "");
+$('#pageBean_tfBid').attr("value", "");
+$('#pageBean_tfCid').attr("value", "");
+$('#pageBean_tfDid').attr("value", "");
+$('#pageBean_tfAimport').attr("value", "");
+$('#pageBean_tfBimport').attr("value", "");
+$('#pageBean_tfCimport').attr("value", "");
+$('#pageBean_tfDimport').attr("value", "");
+$('#pageBean_bcUser0').attr("value", "");
+$('#pageBean_bcUserA').attr("value", "");
+$('#pageBean_bcUserB').attr("value", "");
+$('#pageBean_bcUserC').attr("value", "");
+$('#pageBean_bcUserD').attr("value", "");
+$('#pageBean_tfSendmark').attr("value", "");
+$('#pageBean_tfSendDate').attr("value", "");
+$('#pageBean_tfStatus').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_tfReasonMark0').attr("value", "");
+$('#pageBean_tfReasonMarkA').attr("value", "");
+$('#pageBean_tfReasonMarkB').attr("value", "");
+$('#pageBean_tfReasonMarkC').attr("value", "");
+$('#pageBean_tfReasonMarkD').attr("value", "");
+$('#pageBean_tfRenewDate').attr("value", "");
+$('#pageBean_tfHsEMark').attr("value", "");
+$('#pageBean_tfAppName').attr("value", "");
+$('#pageBean_tfAppTel').attr("value", "");
+$('#pageBean_tfAppAddress').attr("value", "");
+
+TF_CUSTOM_SERIAL_NO:$('#pageBean_tfCustomSerialNo').val(),//收文編號
+TF_FLAG:$('#pageBean_tfFlag').val(),//特殊註記(徹案)
+BAN:$('#pageBean_ban').val(),//統一編號
+CCC_CODE:$('#pageBean_cccCode').val(),//商品標準分類號列
+TF_ISSUE_DATE:$('#pageBean_tfIssueDate').val(),//發文日期
+TF_ISSUE_DOCU_NO:$('#pageBean_tfIssueDocuNo').val(),//發文文號
+TF_ENGLISH_COMMODITY:$('#pageBean_tfEnglishCommodity').val(),//貨品名稱型號規格
+TF_M_B_NATION:$('#pageBean_tfMBNation').val(),//製造廠商廠牌生產國別
+TF_FACTOR_MATERIAL:$('#pageBean_tfFactorMaterial').val(),//材質成分
+TF_REPRODUCE_SUMMARY:$('#pageBean_tfReproduceSummary').val(),//加工製程概述
+TF_FUNCTION:$('#pageBean_tfFunction').val(),//用途
+TF_PACK_WAY:$('#pageBean_tfPackWay').val(),//包裝方式
+TF_OTHER_EXPLAIN:$('#pageBean_tfOtherExplain').val(),//其他說明
+TF_HS_E_REASON:$('#pageBean_tfHsEReason').val(),//稅則分類理由
+TF_REMARK:$('#pageBean_tfRemark').val(),//備註
+TF_RECEIVE_DATE:$('#pageBean_tfReceiveDate').val(),//受理日期
+TF_PERSON:$('#pageBean_tfPerson').val(),//承辦人代碼
+TF_HS_E_REASON_0:$('#pageBean_tfHsEReason0').val(),//分類理由_總局
+TF_HS_E_REASON_A:$('#pageBean_tfHsEReasonA').val(),//分類理由_基隆關
+TF_HS_E_REASON_B:$('#pageBean_tfHsEReasonB').val(),//分類理由_高雄關
+TF_HS_E_REASON_C:$('#pageBean_tfHsEReasonC').val(),//分類理由_台北關
+TF_HS_E_REASON_D:$('#pageBean_tfHsEReasonD').val(),//分類理由_台中關
+TF_0DT:$('#pageBean_tf0dt').val(),//分類理由異動日期_總局
+TF_ADT:$('#pageBean_tfAdt').val(),//分類理由異動日期_基隆關
+TF_BDT:$('#pageBean_tfBdt').val(),//分類理由異動日期_高雄關
+TF_CDT:$('#pageBean_tfCdt').val(),//分類理由異動日期_台北關
+TF_DDT:$('#pageBean_tfDdt').val(),//分類理由異動日期_台中關
+TF_0ID:$('#pageBean_tf0id').val(),//分類理由職員編號_總局
+TF_AID:$('#pageBean_tfAid').val(),//分類理由職員編號_基隆關
+TF_BID:$('#pageBean_tfBid').val(),//分類理由職員編號_高雄關
+TF_CID:$('#pageBean_tfCid').val(),//分類理由職員編號_台北關
+TF_DID:$('#pageBean_tfDid').val(),//分類理由職員編號_台中關
+TF_AIMPORT:$('#pageBean_tfAimport').val(),//進口紀錄_基隆關
+TF_BIMPORT:$('#pageBean_tfBimport').val(),//進口紀錄_高雄關
+TF_CIMPORT:$('#pageBean_tfCimport').val(),//進口紀錄_台北關
+TF_DIMPORT:$('#pageBean_tfDimport').val(),//進口紀錄_台中關
+BC_USER_0:$('#pageBean_bcUser0').val(),//承辦人員_總局
+BC_USER_A:$('#pageBean_bcUserA').val(),//承辦人員_基隆
+BC_USER_B:$('#pageBean_bcUserB').val(),//承辦人員_高雄
+BC_USER_C:$('#pageBean_bcUserC').val(),//承辦人員_台北
+BC_USER_D:$('#pageBean_bcUserD').val(),//承辦人員_台中
+TF_SENDMARK:$('#pageBean_tfSendmark').val(),//傳送註記
+TF_SEND_DATE:$('#pageBean_tfSendDate').val(),//傳送註記日期
+TF_STATUS:$('#pageBean_tfStatus').val(),//案件處理流程代碼
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+TF_REASON_MARK_0:$('#pageBean_tfReasonMark0').val(),//分類理由完成註記_總局
+TF_REASON_MARK_A:$('#pageBean_tfReasonMarkA').val(),//分類理由完成註記_基隆關
+TF_REASON_MARK_B:$('#pageBean_tfReasonMarkB').val(),//分類理由完成註記_高雄關
+TF_REASON_MARK_C:$('#pageBean_tfReasonMarkC').val(),//分類理由完成註記_台北關
+TF_REASON_MARK_D:$('#pageBean_tfReasonMarkD').val(),//分類理由完成註記_台中關
+TF_RENEW_DATE:$('#pageBean_tfRenewDate').val(),//補件日期
+TF_HS_E_MARK:$('#pageBean_tfHsEMark').val(),//稅則分類理由_完成註記
+TF_APP_NAME:$('#pageBean_tfAppName').val(),//申請廠商名稱
+TF_APP_TEL:$('#pageBean_tfAppTel').val(),//申請廠商電話
+TF_APP_ADDRESS:$('#pageBean_tfAppAddress').val(),//申請廠商地址
+
+pageBean.setTfCustomSerialNo(dataObjects.getString("TF_CUSTOM_SERIAL_NO"));//收文編號
+pageBean.setTfFlag(dataObjects.getString("TF_FLAG"));//特殊註記(徹案)
+pageBean.setBan(dataObjects.getString("BAN"));//統一編號
+pageBean.setCccCode(dataObjects.getString("CCC_CODE"));//商品標準分類號列
+pageBean.setTfIssueDate((Date)dataObjects.getValue("TF_ISSUE_DATE"));//發文日期
+pageBean.setTfIssueDocuNo(dataObjects.getString("TF_ISSUE_DOCU_NO"));//發文文號
+pageBean.setTfEnglishCommodity(dataObjects.getString("TF_ENGLISH_COMMODITY"));//貨品名稱型號規格
+pageBean.setTfMBNation(dataObjects.getString("TF_M_B_NATION"));//製造廠商廠牌生產國別
+pageBean.setTfFactorMaterial(dataObjects.getString("TF_FACTOR_MATERIAL"));//材質成分
+pageBean.setTfReproduceSummary(dataObjects.getString("TF_REPRODUCE_SUMMARY"));//加工製程概述
+pageBean.setTfFunction(dataObjects.getString("TF_FUNCTION"));//用途
+pageBean.setTfPackWay(dataObjects.getString("TF_PACK_WAY"));//包裝方式
+pageBean.setTfOtherExplain(dataObjects.getString("TF_OTHER_EXPLAIN"));//其他說明
+pageBean.setTfHsEReason(dataObjects.getString("TF_HS_E_REASON"));//稅則分類理由
+pageBean.setTfRemark(dataObjects.getString("TF_REMARK"));//備註
+pageBean.setTfReceiveDate((Date)dataObjects.getValue("TF_RECEIVE_DATE"));//受理日期
+pageBean.setTfPerson(dataObjects.getString("TF_PERSON"));//承辦人代碼
+pageBean.setTfHsEReason0(dataObjects.getString("TF_HS_E_REASON_0"));//分類理由_總局
+pageBean.setTfHsEReasonA(dataObjects.getString("TF_HS_E_REASON_A"));//分類理由_基隆關
+pageBean.setTfHsEReasonB(dataObjects.getString("TF_HS_E_REASON_B"));//分類理由_高雄關
+pageBean.setTfHsEReasonC(dataObjects.getString("TF_HS_E_REASON_C"));//分類理由_台北關
+pageBean.setTfHsEReasonD(dataObjects.getString("TF_HS_E_REASON_D"));//分類理由_台中關
+pageBean.setTf0dt(dataObjects.getString("TF_0DT"));//分類理由異動日期_總局
+pageBean.setTfAdt(dataObjects.getString("TF_ADT"));//分類理由異動日期_基隆關
+pageBean.setTfBdt(dataObjects.getString("TF_BDT"));//分類理由異動日期_高雄關
+pageBean.setTfCdt(dataObjects.getString("TF_CDT"));//分類理由異動日期_台北關
+pageBean.setTfDdt(dataObjects.getString("TF_DDT"));//分類理由異動日期_台中關
+pageBean.setTf0id(dataObjects.getString("TF_0ID"));//分類理由職員編號_總局
+pageBean.setTfAid(dataObjects.getString("TF_AID"));//分類理由職員編號_基隆關
+pageBean.setTfBid(dataObjects.getString("TF_BID"));//分類理由職員編號_高雄關
+pageBean.setTfCid(dataObjects.getString("TF_CID"));//分類理由職員編號_台北關
+pageBean.setTfDid(dataObjects.getString("TF_DID"));//分類理由職員編號_台中關
+pageBean.setTfAimport(dataObjects.getString("TF_AIMPORT"));//進口紀錄_基隆關
+pageBean.setTfBimport(dataObjects.getString("TF_BIMPORT"));//進口紀錄_高雄關
+pageBean.setTfCimport(dataObjects.getString("TF_CIMPORT"));//進口紀錄_台北關
+pageBean.setTfDimport(dataObjects.getString("TF_DIMPORT"));//進口紀錄_台中關
+pageBean.setBcUser0(dataObjects.getString("BC_USER_0"));//承辦人員_總局
+pageBean.setBcUserA(dataObjects.getString("BC_USER_A"));//承辦人員_基隆
+pageBean.setBcUserB(dataObjects.getString("BC_USER_B"));//承辦人員_高雄
+pageBean.setBcUserC(dataObjects.getString("BC_USER_C"));//承辦人員_台北
+pageBean.setBcUserD(dataObjects.getString("BC_USER_D"));//承辦人員_台中
+pageBean.setTfSendmark(dataObjects.getString("TF_SENDMARK"));//傳送註記
+pageBean.setTfSendDate((Date)dataObjects.getValue("TF_SEND_DATE"));//傳送註記日期
+pageBean.setTfStatus(dataObjects.getString("TF_STATUS"));//案件處理流程代碼
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setTfReasonMark0(dataObjects.getString("TF_REASON_MARK_0"));//分類理由完成註記_總局
+pageBean.setTfReasonMarkA(dataObjects.getString("TF_REASON_MARK_A"));//分類理由完成註記_基隆關
+pageBean.setTfReasonMarkB(dataObjects.getString("TF_REASON_MARK_B"));//分類理由完成註記_高雄關
+pageBean.setTfReasonMarkC(dataObjects.getString("TF_REASON_MARK_C"));//分類理由完成註記_台北關
+pageBean.setTfReasonMarkD(dataObjects.getString("TF_REASON_MARK_D"));//分類理由完成註記_台中關
+pageBean.setTfRenewDate((Date)dataObjects.getValue("TF_RENEW_DATE"));//補件日期
+pageBean.setTfHsEMark(dataObjects.getString("TF_HS_E_MARK"));//稅則分類理由_完成註記
+pageBean.setTfAppName(dataObjects.getString("TF_APP_NAME"));//申請廠商名稱
+pageBean.setTfAppTel(dataObjects.getString("TF_APP_TEL"));//申請廠商電話
+pageBean.setTfAppAddress(dataObjects.getString("TF_APP_ADDRESS"));//申請廠商地址
+
+private String tfCustomSerialNo = null;//收文編號
+private String tfFlag = null;//特殊註記(徹案)
+private String ban = null;//統一編號
+private String cccCode = null;//商品標準分類號列
+private Date tfIssueDate = null;//發文日期
+private String tfIssueDocuNo = null;//發文文號
+private String tfEnglishCommodity = null;//貨品名稱型號規格
+private String tfMBNation = null;//製造廠商廠牌生產國別
+private String tfFactorMaterial = null;//材質成分
+private String tfReproduceSummary = null;//加工製程概述
+private String tfFunction = null;//用途
+private String tfPackWay = null;//包裝方式
+private String tfOtherExplain = null;//其他說明
+private String tfHsEReason = null;//稅則分類理由
+private String tfRemark = null;//備註
+private Date tfReceiveDate = null;//受理日期
+private String tfPerson = null;//承辦人代碼
+private String tfHsEReason0 = null;//分類理由_總局
+private String tfHsEReasonA = null;//分類理由_基隆關
+private String tfHsEReasonB = null;//分類理由_高雄關
+private String tfHsEReasonC = null;//分類理由_台北關
+private String tfHsEReasonD = null;//分類理由_台中關
+private String tf0dt = null;//分類理由異動日期_總局
+private String tfAdt = null;//分類理由異動日期_基隆關
+private String tfBdt = null;//分類理由異動日期_高雄關
+private String tfCdt = null;//分類理由異動日期_台北關
+private String tfDdt = null;//分類理由異動日期_台中關
+private String tf0id = null;//分類理由職員編號_總局
+private String tfAid = null;//分類理由職員編號_基隆關
+private String tfBid = null;//分類理由職員編號_高雄關
+private String tfCid = null;//分類理由職員編號_台北關
+private String tfDid = null;//分類理由職員編號_台中關
+private String tfAimport = null;//進口紀錄_基隆關
+private String tfBimport = null;//進口紀錄_高雄關
+private String tfCimport = null;//進口紀錄_台北關
+private String tfDimport = null;//進口紀錄_台中關
+private String bcUser0 = null;//承辦人員_總局
+private String bcUserA = null;//承辦人員_基隆
+private String bcUserB = null;//承辦人員_高雄
+private String bcUserC = null;//承辦人員_台北
+private String bcUserD = null;//承辦人員_台中
+private String tfSendmark = null;//傳送註記
+private Date tfSendDate = null;//傳送註記日期
+private String tfStatus = null;//案件處理流程代碼
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+private String tfReasonMark0 = null;//分類理由完成註記_總局
+private String tfReasonMarkA = null;//分類理由完成註記_基隆關
+private String tfReasonMarkB = null;//分類理由完成註記_高雄關
+private String tfReasonMarkC = null;//分類理由完成註記_台北關
+private String tfReasonMarkD = null;//分類理由完成註記_台中關
+private Date tfRenewDate = null;//補件日期
+private String tfHsEMark = null;//稅則分類理由_完成註記
+private String tfAppName = null;//申請廠商名稱
+private String tfAppTel = null;//申請廠商電話
+private String tfAppAddress = null;//申請廠商地址
+
+pageBean.setTfCustomSerialNo("收文編號");//收文編號
+pageBean.setTfFlag("特殊註記(徹案)");//特殊註記(徹案)
+pageBean.setBan("統一編號");//統一編號
+pageBean.setCccCode("商品標準分類號列");//商品標準分類號列
+pageBean.setTfIssueDate("發文日期");//發文日期
+pageBean.setTfIssueDocuNo("發文文號");//發文文號
+pageBean.setTfEnglishCommodity("貨品名稱型號規格");//貨品名稱型號規格
+pageBean.setTfMBNation("製造廠商廠牌生產國別");//製造廠商廠牌生產國別
+pageBean.setTfFactorMaterial("材質成分");//材質成分
+pageBean.setTfReproduceSummary("加工製程概述");//加工製程概述
+pageBean.setTfFunction("用途");//用途
+pageBean.setTfPackWay("包裝方式");//包裝方式
+pageBean.setTfOtherExplain("其他說明");//其他說明
+pageBean.setTfHsEReason("稅則分類理由");//稅則分類理由
+pageBean.setTfRemark("備註");//備註
+pageBean.setTfReceiveDate("受理日期");//受理日期
+pageBean.setTfPerson("承辦人代碼");//承辦人代碼
+pageBean.setTfHsEReason0("分類理由_總局");//分類理由_總局
+pageBean.setTfHsEReasonA("分類理由_基隆關");//分類理由_基隆關
+pageBean.setTfHsEReasonB("分類理由_高雄關");//分類理由_高雄關
+pageBean.setTfHsEReasonC("分類理由_台北關");//分類理由_台北關
+pageBean.setTfHsEReasonD("分類理由_台中關");//分類理由_台中關
+pageBean.setTf0dt("分類理由異動日期_總局");//分類理由異動日期_總局
+pageBean.setTfAdt("分類理由異動日期_基隆關");//分類理由異動日期_基隆關
+pageBean.setTfBdt("分類理由異動日期_高雄關");//分類理由異動日期_高雄關
+pageBean.setTfCdt("分類理由異動日期_台北關");//分類理由異動日期_台北關
+pageBean.setTfDdt("分類理由異動日期_台中關");//分類理由異動日期_台中關
+pageBean.setTf0id("分類理由職員編號_總局");//分類理由職員編號_總局
+pageBean.setTfAid("分類理由職員編號_基隆關");//分類理由職員編號_基隆關
+pageBean.setTfBid("分類理由職員編號_高雄關");//分類理由職員編號_高雄關
+pageBean.setTfCid("分類理由職員編號_台北關");//分類理由職員編號_台北關
+pageBean.setTfDid("分類理由職員編號_台中關");//分類理由職員編號_台中關
+pageBean.setTfAimport("進口紀錄_基隆關");//進口紀錄_基隆關
+pageBean.setTfBimport("進口紀錄_高雄關");//進口紀錄_高雄關
+pageBean.setTfCimport("進口紀錄_台北關");//進口紀錄_台北關
+pageBean.setTfDimport("進口紀錄_台中關");//進口紀錄_台中關
+pageBean.setBcUser0("承辦人員_總局");//承辦人員_總局
+pageBean.setBcUserA("承辦人員_基隆");//承辦人員_基隆
+pageBean.setBcUserB("承辦人員_高雄");//承辦人員_高雄
+pageBean.setBcUserC("承辦人員_台北");//承辦人員_台北
+pageBean.setBcUserD("承辦人員_台中");//承辦人員_台中
+pageBean.setTfSendmark("傳送註記");//傳送註記
+pageBean.setTfSendDate("傳送註記日期");//傳送註記日期
+pageBean.setTfStatus("案件處理流程代碼");//案件處理流程代碼
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setTfReasonMark0("分類理由完成註記_總局");//分類理由完成註記_總局
+pageBean.setTfReasonMarkA("分類理由完成註記_基隆關");//分類理由完成註記_基隆關
+pageBean.setTfReasonMarkB("分類理由完成註記_高雄關");//分類理由完成註記_高雄關
+pageBean.setTfReasonMarkC("分類理由完成註記_台北關");//分類理由完成註記_台北關
+pageBean.setTfReasonMarkD("分類理由完成註記_台中關");//分類理由完成註記_台中關
+pageBean.setTfRenewDate("補件日期");//補件日期
+pageBean.setTfHsEMark("稅則分類理由_完成註記");//稅則分類理由_完成註記
+pageBean.setTfAppName("申請廠商名稱");//申請廠商名稱
+pageBean.setTfAppTel("申請廠商電話");//申請廠商電話
+pageBean.setTfAppAddress("申請廠商地址");//申請廠商地址
+
+pageBean.setTfCustomSerialNo(tfCustomSerialNo);//收文編號
+pageBean.setTfFlag(tfFlag);//特殊註記(徹案)
+pageBean.setBan(ban);//統一編號
+pageBean.setCccCode(cccCode);//商品標準分類號列
+pageBean.setTfIssueDate(tfIssueDate);//發文日期
+pageBean.setTfIssueDocuNo(tfIssueDocuNo);//發文文號
+pageBean.setTfEnglishCommodity(tfEnglishCommodity);//貨品名稱型號規格
+pageBean.setTfMBNation(tfMBNation);//製造廠商廠牌生產國別
+pageBean.setTfFactorMaterial(tfFactorMaterial);//材質成分
+pageBean.setTfReproduceSummary(tfReproduceSummary);//加工製程概述
+pageBean.setTfFunction(tfFunction);//用途
+pageBean.setTfPackWay(tfPackWay);//包裝方式
+pageBean.setTfOtherExplain(tfOtherExplain);//其他說明
+pageBean.setTfHsEReason(tfHsEReason);//稅則分類理由
+pageBean.setTfRemark(tfRemark);//備註
+pageBean.setTfReceiveDate(tfReceiveDate);//受理日期
+pageBean.setTfPerson(tfPerson);//承辦人代碼
+pageBean.setTfHsEReason0(tfHsEReason0);//分類理由_總局
+pageBean.setTfHsEReasonA(tfHsEReasonA);//分類理由_基隆關
+pageBean.setTfHsEReasonB(tfHsEReasonB);//分類理由_高雄關
+pageBean.setTfHsEReasonC(tfHsEReasonC);//分類理由_台北關
+pageBean.setTfHsEReasonD(tfHsEReasonD);//分類理由_台中關
+pageBean.setTf0dt(tf0dt);//分類理由異動日期_總局
+pageBean.setTfAdt(tfAdt);//分類理由異動日期_基隆關
+pageBean.setTfBdt(tfBdt);//分類理由異動日期_高雄關
+pageBean.setTfCdt(tfCdt);//分類理由異動日期_台北關
+pageBean.setTfDdt(tfDdt);//分類理由異動日期_台中關
+pageBean.setTf0id(tf0id);//分類理由職員編號_總局
+pageBean.setTfAid(tfAid);//分類理由職員編號_基隆關
+pageBean.setTfBid(tfBid);//分類理由職員編號_高雄關
+pageBean.setTfCid(tfCid);//分類理由職員編號_台北關
+pageBean.setTfDid(tfDid);//分類理由職員編號_台中關
+pageBean.setTfAimport(tfAimport);//進口紀錄_基隆關
+pageBean.setTfBimport(tfBimport);//進口紀錄_高雄關
+pageBean.setTfCimport(tfCimport);//進口紀錄_台北關
+pageBean.setTfDimport(tfDimport);//進口紀錄_台中關
+pageBean.setBcUser0(bcUser0);//承辦人員_總局
+pageBean.setBcUserA(bcUserA);//承辦人員_基隆
+pageBean.setBcUserB(bcUserB);//承辦人員_高雄
+pageBean.setBcUserC(bcUserC);//承辦人員_台北
+pageBean.setBcUserD(bcUserD);//承辦人員_台中
+pageBean.setTfSendmark(tfSendmark);//傳送註記
+pageBean.setTfSendDate(tfSendDate);//傳送註記日期
+pageBean.setTfStatus(tfStatus);//案件處理流程代碼
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setTfReasonMark0(tfReasonMark0);//分類理由完成註記_總局
+pageBean.setTfReasonMarkA(tfReasonMarkA);//分類理由完成註記_基隆關
+pageBean.setTfReasonMarkB(tfReasonMarkB);//分類理由完成註記_高雄關
+pageBean.setTfReasonMarkC(tfReasonMarkC);//分類理由完成註記_台北關
+pageBean.setTfReasonMarkD(tfReasonMarkD);//分類理由完成註記_台中關
+pageBean.setTfRenewDate(tfRenewDate);//補件日期
+pageBean.setTfHsEMark(tfHsEMark);//稅則分類理由_完成註記
+pageBean.setTfAppName(tfAppName);//申請廠商名稱
+pageBean.setTfAppTel(tfAppTel);//申請廠商電話
+pageBean.setTfAppAddress(tfAppAddress);//申請廠商地址
+
+pageBean.setTfCustomSerialNo(randomBean.getTfCustomSerialNo());//收文編號
+pageBean.setTfFlag(randomBean.getTfFlag());//特殊註記(徹案)
+pageBean.setBan(randomBean.getBan());//統一編號
+pageBean.setCccCode(randomBean.getCccCode());//商品標準分類號列
+pageBean.setTfIssueDate(randomBean.getTfIssueDate());//發文日期
+pageBean.setTfIssueDocuNo(randomBean.getTfIssueDocuNo());//發文文號
+pageBean.setTfEnglishCommodity(randomBean.getTfEnglishCommodity());//貨品名稱型號規格
+pageBean.setTfMBNation(randomBean.getTfMBNation());//製造廠商廠牌生產國別
+pageBean.setTfFactorMaterial(randomBean.getTfFactorMaterial());//材質成分
+pageBean.setTfReproduceSummary(randomBean.getTfReproduceSummary());//加工製程概述
+pageBean.setTfFunction(randomBean.getTfFunction());//用途
+pageBean.setTfPackWay(randomBean.getTfPackWay());//包裝方式
+pageBean.setTfOtherExplain(randomBean.getTfOtherExplain());//其他說明
+pageBean.setTfHsEReason(randomBean.getTfHsEReason());//稅則分類理由
+pageBean.setTfRemark(randomBean.getTfRemark());//備註
+pageBean.setTfReceiveDate(randomBean.getTfReceiveDate());//受理日期
+pageBean.setTfPerson(randomBean.getTfPerson());//承辦人代碼
+pageBean.setTfHsEReason0(randomBean.getTfHsEReason0());//分類理由_總局
+pageBean.setTfHsEReasonA(randomBean.getTfHsEReasonA());//分類理由_基隆關
+pageBean.setTfHsEReasonB(randomBean.getTfHsEReasonB());//分類理由_高雄關
+pageBean.setTfHsEReasonC(randomBean.getTfHsEReasonC());//分類理由_台北關
+pageBean.setTfHsEReasonD(randomBean.getTfHsEReasonD());//分類理由_台中關
+pageBean.setTf0dt(randomBean.getTf0dt());//分類理由異動日期_總局
+pageBean.setTfAdt(randomBean.getTfAdt());//分類理由異動日期_基隆關
+pageBean.setTfBdt(randomBean.getTfBdt());//分類理由異動日期_高雄關
+pageBean.setTfCdt(randomBean.getTfCdt());//分類理由異動日期_台北關
+pageBean.setTfDdt(randomBean.getTfDdt());//分類理由異動日期_台中關
+pageBean.setTf0id(randomBean.getTf0id());//分類理由職員編號_總局
+pageBean.setTfAid(randomBean.getTfAid());//分類理由職員編號_基隆關
+pageBean.setTfBid(randomBean.getTfBid());//分類理由職員編號_高雄關
+pageBean.setTfCid(randomBean.getTfCid());//分類理由職員編號_台北關
+pageBean.setTfDid(randomBean.getTfDid());//分類理由職員編號_台中關
+pageBean.setTfAimport(randomBean.getTfAimport());//進口紀錄_基隆關
+pageBean.setTfBimport(randomBean.getTfBimport());//進口紀錄_高雄關
+pageBean.setTfCimport(randomBean.getTfCimport());//進口紀錄_台北關
+pageBean.setTfDimport(randomBean.getTfDimport());//進口紀錄_台中關
+pageBean.setBcUser0(randomBean.getBcUser0());//承辦人員_總局
+pageBean.setBcUserA(randomBean.getBcUserA());//承辦人員_基隆
+pageBean.setBcUserB(randomBean.getBcUserB());//承辦人員_高雄
+pageBean.setBcUserC(randomBean.getBcUserC());//承辦人員_台北
+pageBean.setBcUserD(randomBean.getBcUserD());//承辦人員_台中
+pageBean.setTfSendmark(randomBean.getTfSendmark());//傳送註記
+pageBean.setTfSendDate(randomBean.getTfSendDate());//傳送註記日期
+pageBean.setTfStatus(randomBean.getTfStatus());//案件處理流程代碼
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setTfReasonMark0(randomBean.getTfReasonMark0());//分類理由完成註記_總局
+pageBean.setTfReasonMarkA(randomBean.getTfReasonMarkA());//分類理由完成註記_基隆關
+pageBean.setTfReasonMarkB(randomBean.getTfReasonMarkB());//分類理由完成註記_高雄關
+pageBean.setTfReasonMarkC(randomBean.getTfReasonMarkC());//分類理由完成註記_台北關
+pageBean.setTfReasonMarkD(randomBean.getTfReasonMarkD());//分類理由完成註記_台中關
+pageBean.setTfRenewDate(randomBean.getTfRenewDate());//補件日期
+pageBean.setTfHsEMark(randomBean.getTfHsEMark());//稅則分類理由_完成註記
+pageBean.setTfAppName(randomBean.getTfAppName());//申請廠商名稱
+pageBean.setTfAppTel(randomBean.getTfAppTel());//申請廠商電話
+pageBean.setTfAppAddress(randomBean.getTfAppAddress());//申請廠商地址
+
+setTfCustomSerialNo(tfCustomSerialNo);//收文編號
+setTfFlag(tfFlag);//特殊註記(徹案)
+setBan(ban);//統一編號
+setCccCode(cccCode);//商品標準分類號列
+setTfIssueDate(tfIssueDate);//發文日期
+setTfIssueDocuNo(tfIssueDocuNo);//發文文號
+setTfEnglishCommodity(tfEnglishCommodity);//貨品名稱型號規格
+setTfMBNation(tfMBNation);//製造廠商廠牌生產國別
+setTfFactorMaterial(tfFactorMaterial);//材質成分
+setTfReproduceSummary(tfReproduceSummary);//加工製程概述
+setTfFunction(tfFunction);//用途
+setTfPackWay(tfPackWay);//包裝方式
+setTfOtherExplain(tfOtherExplain);//其他說明
+setTfHsEReason(tfHsEReason);//稅則分類理由
+setTfRemark(tfRemark);//備註
+setTfReceiveDate(tfReceiveDate);//受理日期
+setTfPerson(tfPerson);//承辦人代碼
+setTfHsEReason0(tfHsEReason0);//分類理由_總局
+setTfHsEReasonA(tfHsEReasonA);//分類理由_基隆關
+setTfHsEReasonB(tfHsEReasonB);//分類理由_高雄關
+setTfHsEReasonC(tfHsEReasonC);//分類理由_台北關
+setTfHsEReasonD(tfHsEReasonD);//分類理由_台中關
+setTf0dt(tf0dt);//分類理由異動日期_總局
+setTfAdt(tfAdt);//分類理由異動日期_基隆關
+setTfBdt(tfBdt);//分類理由異動日期_高雄關
+setTfCdt(tfCdt);//分類理由異動日期_台北關
+setTfDdt(tfDdt);//分類理由異動日期_台中關
+setTf0id(tf0id);//分類理由職員編號_總局
+setTfAid(tfAid);//分類理由職員編號_基隆關
+setTfBid(tfBid);//分類理由職員編號_高雄關
+setTfCid(tfCid);//分類理由職員編號_台北關
+setTfDid(tfDid);//分類理由職員編號_台中關
+setTfAimport(tfAimport);//進口紀錄_基隆關
+setTfBimport(tfBimport);//進口紀錄_高雄關
+setTfCimport(tfCimport);//進口紀錄_台北關
+setTfDimport(tfDimport);//進口紀錄_台中關
+setBcUser0(bcUser0);//承辦人員_總局
+setBcUserA(bcUserA);//承辦人員_基隆
+setBcUserB(bcUserB);//承辦人員_高雄
+setBcUserC(bcUserC);//承辦人員_台北
+setBcUserD(bcUserD);//承辦人員_台中
+setTfSendmark(tfSendmark);//傳送註記
+setTfSendDate(tfSendDate);//傳送註記日期
+setTfStatus(tfStatus);//案件處理流程代碼
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+setTfReasonMark0(tfReasonMark0);//分類理由完成註記_總局
+setTfReasonMarkA(tfReasonMarkA);//分類理由完成註記_基隆關
+setTfReasonMarkB(tfReasonMarkB);//分類理由完成註記_高雄關
+setTfReasonMarkC(tfReasonMarkC);//分類理由完成註記_台北關
+setTfReasonMarkD(tfReasonMarkD);//分類理由完成註記_台中關
+setTfRenewDate(tfRenewDate);//補件日期
+setTfHsEMark(tfHsEMark);//稅則分類理由_完成註記
+setTfAppName(tfAppName);//申請廠商名稱
+setTfAppTel(tfAppTel);//申請廠商電話
+setTfAppAddress(tfAppAddress);//申請廠商地址
+
+pageBean.getTfCustomSerialNo(),//收文編號
+pageBean.getTfFlag(),//特殊註記(徹案)
+pageBean.getBan(),//統一編號
+pageBean.getCccCode(),//商品標準分類號列
+pageBean.getTfIssueDate(),//發文日期
+pageBean.getTfIssueDocuNo(),//發文文號
+pageBean.getTfEnglishCommodity(),//貨品名稱型號規格
+pageBean.getTfMBNation(),//製造廠商廠牌生產國別
+pageBean.getTfFactorMaterial(),//材質成分
+pageBean.getTfReproduceSummary(),//加工製程概述
+pageBean.getTfFunction(),//用途
+pageBean.getTfPackWay(),//包裝方式
+pageBean.getTfOtherExplain(),//其他說明
+pageBean.getTfHsEReason(),//稅則分類理由
+pageBean.getTfRemark(),//備註
+pageBean.getTfReceiveDate(),//受理日期
+pageBean.getTfPerson(),//承辦人代碼
+pageBean.getTfHsEReason0(),//分類理由_總局
+pageBean.getTfHsEReasonA(),//分類理由_基隆關
+pageBean.getTfHsEReasonB(),//分類理由_高雄關
+pageBean.getTfHsEReasonC(),//分類理由_台北關
+pageBean.getTfHsEReasonD(),//分類理由_台中關
+pageBean.getTf0dt(),//分類理由異動日期_總局
+pageBean.getTfAdt(),//分類理由異動日期_基隆關
+pageBean.getTfBdt(),//分類理由異動日期_高雄關
+pageBean.getTfCdt(),//分類理由異動日期_台北關
+pageBean.getTfDdt(),//分類理由異動日期_台中關
+pageBean.getTf0id(),//分類理由職員編號_總局
+pageBean.getTfAid(),//分類理由職員編號_基隆關
+pageBean.getTfBid(),//分類理由職員編號_高雄關
+pageBean.getTfCid(),//分類理由職員編號_台北關
+pageBean.getTfDid(),//分類理由職員編號_台中關
+pageBean.getTfAimport(),//進口紀錄_基隆關
+pageBean.getTfBimport(),//進口紀錄_高雄關
+pageBean.getTfCimport(),//進口紀錄_台北關
+pageBean.getTfDimport(),//進口紀錄_台中關
+pageBean.getBcUser0(),//承辦人員_總局
+pageBean.getBcUserA(),//承辦人員_基隆
+pageBean.getBcUserB(),//承辦人員_高雄
+pageBean.getBcUserC(),//承辦人員_台北
+pageBean.getBcUserD(),//承辦人員_台中
+pageBean.getTfSendmark(),//傳送註記
+pageBean.getTfSendDate(),//傳送註記日期
+pageBean.getTfStatus(),//案件處理流程代碼
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+pageBean.getTfReasonMark0(),//分類理由完成註記_總局
+pageBean.getTfReasonMarkA(),//分類理由完成註記_基隆關
+pageBean.getTfReasonMarkB(),//分類理由完成註記_高雄關
+pageBean.getTfReasonMarkC(),//分類理由完成註記_台北關
+pageBean.getTfReasonMarkD(),//分類理由完成註記_台中關
+pageBean.getTfRenewDate(),//補件日期
+pageBean.getTfHsEMark(),//稅則分類理由_完成註記
+pageBean.getTfAppName(),//申請廠商名稱
+pageBean.getTfAppTel(),//申請廠商電話
+pageBean.getTfAppAddress(),//申請廠商地址
+
+pageBean.setValue("TF_CUSTOM_SERIAL_NO", this.getTfCustomSerialNo());//收文編號
+pageBean.setValue("TF_FLAG", this.getTfFlag());//特殊註記(徹案)
+pageBean.setValue("BAN", this.getBan());//統一編號
+pageBean.setValue("CCC_CODE", this.getCccCode());//商品標準分類號列
+pageBean.setValue("TF_ISSUE_DATE", this.getTfIssueDate());//發文日期
+pageBean.setValue("TF_ISSUE_DOCU_NO", this.getTfIssueDocuNo());//發文文號
+pageBean.setValue("TF_ENGLISH_COMMODITY", this.getTfEnglishCommodity());//貨品名稱型號規格
+pageBean.setValue("TF_M_B_NATION", this.getTfMBNation());//製造廠商廠牌生產國別
+pageBean.setValue("TF_FACTOR_MATERIAL", this.getTfFactorMaterial());//材質成分
+pageBean.setValue("TF_REPRODUCE_SUMMARY", this.getTfReproduceSummary());//加工製程概述
+pageBean.setValue("TF_FUNCTION", this.getTfFunction());//用途
+pageBean.setValue("TF_PACK_WAY", this.getTfPackWay());//包裝方式
+pageBean.setValue("TF_OTHER_EXPLAIN", this.getTfOtherExplain());//其他說明
+pageBean.setValue("TF_HS_E_REASON", this.getTfHsEReason());//稅則分類理由
+pageBean.setValue("TF_REMARK", this.getTfRemark());//備註
+pageBean.setValue("TF_RECEIVE_DATE", this.getTfReceiveDate());//受理日期
+pageBean.setValue("TF_PERSON", this.getTfPerson());//承辦人代碼
+pageBean.setValue("TF_HS_E_REASON_0", this.getTfHsEReason0());//分類理由_總局
+pageBean.setValue("TF_HS_E_REASON_A", this.getTfHsEReasonA());//分類理由_基隆關
+pageBean.setValue("TF_HS_E_REASON_B", this.getTfHsEReasonB());//分類理由_高雄關
+pageBean.setValue("TF_HS_E_REASON_C", this.getTfHsEReasonC());//分類理由_台北關
+pageBean.setValue("TF_HS_E_REASON_D", this.getTfHsEReasonD());//分類理由_台中關
+pageBean.setValue("TF_0DT", this.getTf0dt());//分類理由異動日期_總局
+pageBean.setValue("TF_ADT", this.getTfAdt());//分類理由異動日期_基隆關
+pageBean.setValue("TF_BDT", this.getTfBdt());//分類理由異動日期_高雄關
+pageBean.setValue("TF_CDT", this.getTfCdt());//分類理由異動日期_台北關
+pageBean.setValue("TF_DDT", this.getTfDdt());//分類理由異動日期_台中關
+pageBean.setValue("TF_0ID", this.getTf0id());//分類理由職員編號_總局
+pageBean.setValue("TF_AID", this.getTfAid());//分類理由職員編號_基隆關
+pageBean.setValue("TF_BID", this.getTfBid());//分類理由職員編號_高雄關
+pageBean.setValue("TF_CID", this.getTfCid());//分類理由職員編號_台北關
+pageBean.setValue("TF_DID", this.getTfDid());//分類理由職員編號_台中關
+pageBean.setValue("TF_AIMPORT", this.getTfAimport());//進口紀錄_基隆關
+pageBean.setValue("TF_BIMPORT", this.getTfBimport());//進口紀錄_高雄關
+pageBean.setValue("TF_CIMPORT", this.getTfCimport());//進口紀錄_台北關
+pageBean.setValue("TF_DIMPORT", this.getTfDimport());//進口紀錄_台中關
+pageBean.setValue("BC_USER_0", this.getBcUser0());//承辦人員_總局
+pageBean.setValue("BC_USER_A", this.getBcUserA());//承辦人員_基隆
+pageBean.setValue("BC_USER_B", this.getBcUserB());//承辦人員_高雄
+pageBean.setValue("BC_USER_C", this.getBcUserC());//承辦人員_台北
+pageBean.setValue("BC_USER_D", this.getBcUserD());//承辦人員_台中
+pageBean.setValue("TF_SENDMARK", this.getTfSendmark());//傳送註記
+pageBean.setValue("TF_SEND_DATE", this.getTfSendDate());//傳送註記日期
+pageBean.setValue("TF_STATUS", this.getTfStatus());//案件處理流程代碼
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("TF_REASON_MARK_0", this.getTfReasonMark0());//分類理由完成註記_總局
+pageBean.setValue("TF_REASON_MARK_A", this.getTfReasonMarkA());//分類理由完成註記_基隆關
+pageBean.setValue("TF_REASON_MARK_B", this.getTfReasonMarkB());//分類理由完成註記_高雄關
+pageBean.setValue("TF_REASON_MARK_C", this.getTfReasonMarkC());//分類理由完成註記_台北關
+pageBean.setValue("TF_REASON_MARK_D", this.getTfReasonMarkD());//分類理由完成註記_台中關
+pageBean.setValue("TF_RENEW_DATE", this.getTfRenewDate());//補件日期
+pageBean.setValue("TF_HS_E_MARK", this.getTfHsEMark());//稅則分類理由_完成註記
+pageBean.setValue("TF_APP_NAME", this.getTfAppName());//申請廠商名稱
+pageBean.setValue("TF_APP_TEL", this.getTfAppTel());//申請廠商電話
+pageBean.setValue("TF_APP_ADDRESS", this.getTfAppAddress());//申請廠商地址
+
+pageBean.setValue("TF_CUSTOM_SERIAL_NO", "收文編號");//收文編號
+pageBean.setValue("TF_FLAG", "特殊註記(徹案)");//特殊註記(徹案)
+pageBean.setValue("BAN", "統一編號");//統一編號
+pageBean.setValue("CCC_CODE", "商品標準分類號列");//商品標準分類號列
+pageBean.setValue("TF_ISSUE_DATE", "發文日期");//發文日期
+pageBean.setValue("TF_ISSUE_DOCU_NO", "發文文號");//發文文號
+pageBean.setValue("TF_ENGLISH_COMMODITY", "貨品名稱型號規格");//貨品名稱型號規格
+pageBean.setValue("TF_M_B_NATION", "製造廠商廠牌生產國別");//製造廠商廠牌生產國別
+pageBean.setValue("TF_FACTOR_MATERIAL", "材質成分");//材質成分
+pageBean.setValue("TF_REPRODUCE_SUMMARY", "加工製程概述");//加工製程概述
+pageBean.setValue("TF_FUNCTION", "用途");//用途
+pageBean.setValue("TF_PACK_WAY", "包裝方式");//包裝方式
+pageBean.setValue("TF_OTHER_EXPLAIN", "其他說明");//其他說明
+pageBean.setValue("TF_HS_E_REASON", "稅則分類理由");//稅則分類理由
+pageBean.setValue("TF_REMARK", "備註");//備註
+pageBean.setValue("TF_RECEIVE_DATE", "受理日期");//受理日期
+pageBean.setValue("TF_PERSON", "承辦人代碼");//承辦人代碼
+pageBean.setValue("TF_HS_E_REASON_0", "分類理由_總局");//分類理由_總局
+pageBean.setValue("TF_HS_E_REASON_A", "分類理由_基隆關");//分類理由_基隆關
+pageBean.setValue("TF_HS_E_REASON_B", "分類理由_高雄關");//分類理由_高雄關
+pageBean.setValue("TF_HS_E_REASON_C", "分類理由_台北關");//分類理由_台北關
+pageBean.setValue("TF_HS_E_REASON_D", "分類理由_台中關");//分類理由_台中關
+pageBean.setValue("TF_0DT", "分類理由異動日期_總局");//分類理由異動日期_總局
+pageBean.setValue("TF_ADT", "分類理由異動日期_基隆關");//分類理由異動日期_基隆關
+pageBean.setValue("TF_BDT", "分類理由異動日期_高雄關");//分類理由異動日期_高雄關
+pageBean.setValue("TF_CDT", "分類理由異動日期_台北關");//分類理由異動日期_台北關
+pageBean.setValue("TF_DDT", "分類理由異動日期_台中關");//分類理由異動日期_台中關
+pageBean.setValue("TF_0ID", "分類理由職員編號_總局");//分類理由職員編號_總局
+pageBean.setValue("TF_AID", "分類理由職員編號_基隆關");//分類理由職員編號_基隆關
+pageBean.setValue("TF_BID", "分類理由職員編號_高雄關");//分類理由職員編號_高雄關
+pageBean.setValue("TF_CID", "分類理由職員編號_台北關");//分類理由職員編號_台北關
+pageBean.setValue("TF_DID", "分類理由職員編號_台中關");//分類理由職員編號_台中關
+pageBean.setValue("TF_AIMPORT", "進口紀錄_基隆關");//進口紀錄_基隆關
+pageBean.setValue("TF_BIMPORT", "進口紀錄_高雄關");//進口紀錄_高雄關
+pageBean.setValue("TF_CIMPORT", "進口紀錄_台北關");//進口紀錄_台北關
+pageBean.setValue("TF_DIMPORT", "進口紀錄_台中關");//進口紀錄_台中關
+pageBean.setValue("BC_USER_0", "承辦人員_總局");//承辦人員_總局
+pageBean.setValue("BC_USER_A", "承辦人員_基隆");//承辦人員_基隆
+pageBean.setValue("BC_USER_B", "承辦人員_高雄");//承辦人員_高雄
+pageBean.setValue("BC_USER_C", "承辦人員_台北");//承辦人員_台北
+pageBean.setValue("BC_USER_D", "承辦人員_台中");//承辦人員_台中
+pageBean.setValue("TF_SENDMARK", "傳送註記");//傳送註記
+pageBean.setValue("TF_SEND_DATE", "傳送註記日期");//傳送註記日期
+pageBean.setValue("TF_STATUS", "案件處理流程代碼");//案件處理流程代碼
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("TF_REASON_MARK_0", "分類理由完成註記_總局");//分類理由完成註記_總局
+pageBean.setValue("TF_REASON_MARK_A", "分類理由完成註記_基隆關");//分類理由完成註記_基隆關
+pageBean.setValue("TF_REASON_MARK_B", "分類理由完成註記_高雄關");//分類理由完成註記_高雄關
+pageBean.setValue("TF_REASON_MARK_C", "分類理由完成註記_台北關");//分類理由完成註記_台北關
+pageBean.setValue("TF_REASON_MARK_D", "分類理由完成註記_台中關");//分類理由完成註記_台中關
+pageBean.setValue("TF_RENEW_DATE", "補件日期");//補件日期
+pageBean.setValue("TF_HS_E_MARK", "稅則分類理由_完成註記");//稅則分類理由_完成註記
+pageBean.setValue("TF_APP_NAME", "申請廠商名稱");//申請廠商名稱
+pageBean.setValue("TF_APP_TEL", "申請廠商電話");//申請廠商電話
+pageBean.setValue("TF_APP_ADDRESS", "申請廠商地址");//申請廠商地址
+
+",收文編號"+"(tfCustomSerialNo)="+pageBean.getTfCustomSerialNo()+
+",特殊註記(徹案)"+"(tfFlag)="+pageBean.getTfFlag()+
+",統一編號"+"(ban)="+pageBean.getBan()+
+",商品標準分類號列"+"(cccCode)="+pageBean.getCccCode()+
+",發文日期"+"(tfIssueDate)="+pageBean.getTfIssueDate()+
+",發文文號"+"(tfIssueDocuNo)="+pageBean.getTfIssueDocuNo()+
+",貨品名稱型號規格"+"(tfEnglishCommodity)="+pageBean.getTfEnglishCommodity()+
+",製造廠商廠牌生產國別"+"(tfMBNation)="+pageBean.getTfMBNation()+
+",材質成分"+"(tfFactorMaterial)="+pageBean.getTfFactorMaterial()+
+",加工製程概述"+"(tfReproduceSummary)="+pageBean.getTfReproduceSummary()+
+",用途"+"(tfFunction)="+pageBean.getTfFunction()+
+",包裝方式"+"(tfPackWay)="+pageBean.getTfPackWay()+
+",其他說明"+"(tfOtherExplain)="+pageBean.getTfOtherExplain()+
+",稅則分類理由"+"(tfHsEReason)="+pageBean.getTfHsEReason()+
+",備註"+"(tfRemark)="+pageBean.getTfRemark()+
+",受理日期"+"(tfReceiveDate)="+pageBean.getTfReceiveDate()+
+",承辦人代碼"+"(tfPerson)="+pageBean.getTfPerson()+
+",分類理由_總局"+"(tfHsEReason0)="+pageBean.getTfHsEReason0()+
+",分類理由_基隆關"+"(tfHsEReasonA)="+pageBean.getTfHsEReasonA()+
+",分類理由_高雄關"+"(tfHsEReasonB)="+pageBean.getTfHsEReasonB()+
+",分類理由_台北關"+"(tfHsEReasonC)="+pageBean.getTfHsEReasonC()+
+",分類理由_台中關"+"(tfHsEReasonD)="+pageBean.getTfHsEReasonD()+
+",分類理由異動日期_總局"+"(tf0dt)="+pageBean.getTf0dt()+
+",分類理由異動日期_基隆關"+"(tfAdt)="+pageBean.getTfAdt()+
+",分類理由異動日期_高雄關"+"(tfBdt)="+pageBean.getTfBdt()+
+",分類理由異動日期_台北關"+"(tfCdt)="+pageBean.getTfCdt()+
+",分類理由異動日期_台中關"+"(tfDdt)="+pageBean.getTfDdt()+
+",分類理由職員編號_總局"+"(tf0id)="+pageBean.getTf0id()+
+",分類理由職員編號_基隆關"+"(tfAid)="+pageBean.getTfAid()+
+",分類理由職員編號_高雄關"+"(tfBid)="+pageBean.getTfBid()+
+",分類理由職員編號_台北關"+"(tfCid)="+pageBean.getTfCid()+
+",分類理由職員編號_台中關"+"(tfDid)="+pageBean.getTfDid()+
+",進口紀錄_基隆關"+"(tfAimport)="+pageBean.getTfAimport()+
+",進口紀錄_高雄關"+"(tfBimport)="+pageBean.getTfBimport()+
+",進口紀錄_台北關"+"(tfCimport)="+pageBean.getTfCimport()+
+",進口紀錄_台中關"+"(tfDimport)="+pageBean.getTfDimport()+
+",承辦人員_總局"+"(bcUser0)="+pageBean.getBcUser0()+
+",承辦人員_基隆"+"(bcUserA)="+pageBean.getBcUserA()+
+",承辦人員_高雄"+"(bcUserB)="+pageBean.getBcUserB()+
+",承辦人員_台北"+"(bcUserC)="+pageBean.getBcUserC()+
+",承辦人員_台中"+"(bcUserD)="+pageBean.getBcUserD()+
+",傳送註記"+"(tfSendmark)="+pageBean.getTfSendmark()+
+",傳送註記日期"+"(tfSendDate)="+pageBean.getTfSendDate()+
+",案件處理流程代碼"+"(tfStatus)="+pageBean.getTfStatus()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+",分類理由完成註記_總局"+"(tfReasonMark0)="+pageBean.getTfReasonMark0()+
+",分類理由完成註記_基隆關"+"(tfReasonMarkA)="+pageBean.getTfReasonMarkA()+
+",分類理由完成註記_高雄關"+"(tfReasonMarkB)="+pageBean.getTfReasonMarkB()+
+",分類理由完成註記_台北關"+"(tfReasonMarkC)="+pageBean.getTfReasonMarkC()+
+",分類理由完成註記_台中關"+"(tfReasonMarkD)="+pageBean.getTfReasonMarkD()+
+",補件日期"+"(tfRenewDate)="+pageBean.getTfRenewDate()+
+",稅則分類理由_完成註記"+"(tfHsEMark)="+pageBean.getTfHsEMark()+
+",申請廠商名稱"+"(tfAppName)="+pageBean.getTfAppName()+
+",申請廠商電話"+"(tfAppTel)="+pageBean.getTfAppTel()+
+",申請廠商地址"+"(tfAppAddress)="+pageBean.getTfAppAddress()+

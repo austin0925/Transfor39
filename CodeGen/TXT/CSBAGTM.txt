@@ -1,0 +1,341 @@
+pageBean.custCd=關區代號
+pageBean.agentType=委任類別
+pageBean.agentCd=委任代號
+pageBean.brokerBoxNo=報關行箱號
+pageBean.contEndDate=常年委任迄日
+pageBean.contBegDate=常年委任始日
+pageBean.crDate=建檔日期
+pageBean.postTaxNote=先放後核註記
+pageBean.asgnAprvRefNo=委任核准文號
+pageBean.permitDate=核准日期
+pageBean.bfNoMark=委任保稅註記
+pageBean.remark=備註
+pageBean.webCreateNote=網路建檔註記
+pageBean.airlineCode=(空運)航空公司代碼
+
+pageBean.custCd=custCd
+pageBean.agentType=agentType
+pageBean.agentCd=agentCd
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.contEndDate=contEndDate
+pageBean.contBegDate=contBegDate
+pageBean.crDate=crDate
+pageBean.postTaxNote=postTaxNote
+pageBean.asgnAprvRefNo=asgnAprvRefNo
+pageBean.permitDate=permitDate
+pageBean.bfNoMark=bfNoMark
+pageBean.remark=remark
+pageBean.webCreateNote=webCreateNote
+pageBean.airlineCode=airlineCode
+
+<!--custCd:關區代號-->
+<s:text name="pageBean.custCd"/>
+<s:textfield name="pageBean.custCd"/>
+<!--agentType:委任類別-->
+<s:text name="pageBean.agentType"/>
+<s:textfield name="pageBean.agentType"/>
+<!--agentCd:委任代號-->
+<s:text name="pageBean.agentCd"/>
+<s:textfield name="pageBean.agentCd"/>
+<!--brokerBoxNo:報關行箱號-->
+<s:text name="pageBean.brokerBoxNo"/>
+<s:textfield name="pageBean.brokerBoxNo"/>
+<!--contEndDate:常年委任迄日-->
+<s:text name="pageBean.contEndDate"/>
+<s:textfield name="pageBean.contEndDate"/>
+<!--contBegDate:常年委任始日-->
+<s:text name="pageBean.contBegDate"/>
+<s:textfield name="pageBean.contBegDate"/>
+<!--crDate:建檔日期-->
+<s:text name="pageBean.crDate"/>
+<s:textfield name="pageBean.crDate"/>
+<!--postTaxNote:先放後核註記-->
+<s:text name="pageBean.postTaxNote"/>
+<s:textfield name="pageBean.postTaxNote"/>
+<!--asgnAprvRefNo:委任核准文號-->
+<s:text name="pageBean.asgnAprvRefNo"/>
+<s:textfield name="pageBean.asgnAprvRefNo"/>
+<!--permitDate:核准日期-->
+<s:text name="pageBean.permitDate"/>
+<s:textfield name="pageBean.permitDate"/>
+<!--bfNoMark:委任保稅註記-->
+<s:text name="pageBean.bfNoMark"/>
+<s:textfield name="pageBean.bfNoMark"/>
+<!--remark:備註-->
+<s:text name="pageBean.remark"/>
+<s:textfield name="pageBean.remark"/>
+<!--webCreateNote:網路建檔註記-->
+<s:text name="pageBean.webCreateNote"/>
+<s:textfield name="pageBean.webCreateNote"/>
+<!--airlineCode:(空運)航空公司代碼-->
+<s:text name="pageBean.airlineCode"/>
+<s:textfield name="pageBean.airlineCode"/>
+
+<s:hidden name="pageBean.custCd"/><!--custCd:關區代號-->
+<s:hidden name="pageBean.agentType"/><!--agentType:委任類別-->
+<s:hidden name="pageBean.agentCd"/><!--agentCd:委任代號-->
+<s:hidden name="pageBean.brokerBoxNo"/><!--brokerBoxNo:報關行箱號-->
+<s:hidden name="pageBean.contEndDate"/><!--contEndDate:常年委任迄日-->
+<s:hidden name="pageBean.contBegDate"/><!--contBegDate:常年委任始日-->
+<s:hidden name="pageBean.crDate"/><!--crDate:建檔日期-->
+<s:hidden name="pageBean.postTaxNote"/><!--postTaxNote:先放後核註記-->
+<s:hidden name="pageBean.asgnAprvRefNo"/><!--asgnAprvRefNo:委任核准文號-->
+<s:hidden name="pageBean.permitDate"/><!--permitDate:核准日期-->
+<s:hidden name="pageBean.bfNoMark"/><!--bfNoMark:委任保稅註記-->
+<s:hidden name="pageBean.remark"/><!--remark:備註-->
+<s:hidden name="pageBean.webCreateNote"/><!--webCreateNote:網路建檔註記-->
+<s:hidden name="pageBean.airlineCode"/><!--airlineCode:(空運)航空公司代碼-->
+
+<%--CUST_CD:關區代號:custCd--%>
+<sjg:gridColumn name="CUST_CD" index="CUST_CD" title="%{getText('custCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_TYPE:委任類別:agentType--%>
+<sjg:gridColumn name="AGENT_TYPE" index="AGENT_TYPE" title="%{getText('agentType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_CD:委任代號:agentCd--%>
+<sjg:gridColumn name="AGENT_CD" index="AGENT_CD" title="%{getText('agentCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關行箱號:brokerBoxNo--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONT_END_DATE:常年委任迄日:contEndDate--%>
+<sjg:gridColumn name="CONT_END_DATE" index="CONT_END_DATE" title="%{getText('contEndDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONT_BEG_DATE:常年委任始日:contBegDate--%>
+<sjg:gridColumn name="CONT_BEG_DATE" index="CONT_BEG_DATE" title="%{getText('contBegDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CR_DATE:建檔日期:crDate--%>
+<sjg:gridColumn name="CR_DATE" index="CR_DATE" title="%{getText('crDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--POST_TAX_NOTE:先放後核註記:postTaxNote--%>
+<sjg:gridColumn name="POST_TAX_NOTE" index="POST_TAX_NOTE" title="%{getText('postTaxNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASGN_APRV_REF_NO:委任核准文號:asgnAprvRefNo--%>
+<sjg:gridColumn name="ASGN_APRV_REF_NO" index="ASGN_APRV_REF_NO" title="%{getText('asgnAprvRefNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERMIT_DATE:核准日期:permitDate--%>
+<sjg:gridColumn name="PERMIT_DATE" index="PERMIT_DATE" title="%{getText('permitDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BF_NO_MARK:委任保稅註記:bfNoMark--%>
+<sjg:gridColumn name="BF_NO_MARK" index="BF_NO_MARK" title="%{getText('bfNoMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REMARK:備註:remark--%>
+<sjg:gridColumn name="REMARK" index="REMARK" title="%{getText('remark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--WEB_CREATE_NOTE:網路建檔註記:webCreateNote--%>
+<sjg:gridColumn name="WEB_CREATE_NOTE" index="WEB_CREATE_NOTE" title="%{getText('webCreateNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AIRLINE_CODE:(空運)航空公司代碼:airlineCode--%>
+<sjg:gridColumn name="AIRLINE_CODE" index="AIRLINE_CODE" title="%{getText('airlineCode')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.CUST_CD
+,A.AGENT_TYPE
+,A.AGENT_CD
+,A.BROKER_BOX_NO
+,A.CONT_END_DATE
+,A.CONT_BEG_DATE
+,A.CR_DATE
+,A.POST_TAX_NOTE
+,A.ASGN_APRV_REF_NO
+,A.PERMIT_DATE
+,A.BF_NO_MARK
+,A.REMARK
+,A.WEB_CREATE_NOTE
+,A.AIRLINE_CODE
+
+<condition key="CUST_CD" ignoreEmpty="true">CUST_CD = ${CUST_CD}</condition>
+<condition key="AGENT_TYPE" ignoreEmpty="true">AGENT_TYPE = ${AGENT_TYPE}</condition>
+<condition key="AGENT_CD" ignoreEmpty="true">AGENT_CD = ${AGENT_CD}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true">BROKER_BOX_NO = ${BROKER_BOX_NO}</condition>
+<condition key="CONT_END_DATE" ignoreEmpty="true">CONT_END_DATE = ${CONT_END_DATE}</condition>
+<condition key="CONT_BEG_DATE" ignoreEmpty="true">CONT_BEG_DATE = ${CONT_BEG_DATE}</condition>
+<condition key="CR_DATE" ignoreEmpty="true">CR_DATE = ${CR_DATE}</condition>
+<condition key="POST_TAX_NOTE" ignoreEmpty="true">POST_TAX_NOTE = ${POST_TAX_NOTE}</condition>
+<condition key="ASGN_APRV_REF_NO" ignoreEmpty="true">ASGN_APRV_REF_NO = ${ASGN_APRV_REF_NO}</condition>
+<condition key="PERMIT_DATE" ignoreEmpty="true">PERMIT_DATE = ${PERMIT_DATE}</condition>
+<condition key="BF_NO_MARK" ignoreEmpty="true">BF_NO_MARK = ${BF_NO_MARK}</condition>
+<condition key="REMARK" ignoreEmpty="true">REMARK = ${REMARK}</condition>
+<condition key="WEB_CREATE_NOTE" ignoreEmpty="true">WEB_CREATE_NOTE = ${WEB_CREATE_NOTE}</condition>
+<condition key="AIRLINE_CODE" ignoreEmpty="true">AIRLINE_CODE = ${AIRLINE_CODE}</condition>
+
+<condition key="CUST_CD_S" ignoreEmpty="true">CUST_CD >= ${CUST_CD_S}</condition><condition key="CUST_CD_E" ignoreEmpty="true">${CUST_CD_E} >= CUST_CD</condition><condition key="CUST_CD_L" ignoreEmpty="true">CUST_CD like ${CUST_CD_L}</condition>
+<condition key="AGENT_TYPE_S" ignoreEmpty="true">AGENT_TYPE >= ${AGENT_TYPE_S}</condition><condition key="AGENT_TYPE_E" ignoreEmpty="true">${AGENT_TYPE_E} >= AGENT_TYPE</condition><condition key="AGENT_TYPE_L" ignoreEmpty="true">AGENT_TYPE like ${AGENT_TYPE_L}</condition>
+<condition key="AGENT_CD_S" ignoreEmpty="true">AGENT_CD >= ${AGENT_CD_S}</condition><condition key="AGENT_CD_E" ignoreEmpty="true">${AGENT_CD_E} >= AGENT_CD</condition><condition key="AGENT_CD_L" ignoreEmpty="true">AGENT_CD like ${AGENT_CD_L}</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true">BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true">${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition><condition key="BROKER_BOX_NO_L" ignoreEmpty="true">BROKER_BOX_NO like ${BROKER_BOX_NO_L}</condition>
+<condition key="CONT_END_DATE_S" ignoreEmpty="true">CONT_END_DATE >= ${CONT_END_DATE_S}</condition><condition key="CONT_END_DATE_E" ignoreEmpty="true">${CONT_END_DATE_E} >= CONT_END_DATE</condition><condition key="CONT_END_DATE_L" ignoreEmpty="true">CONT_END_DATE like ${CONT_END_DATE_L}</condition>
+<condition key="CONT_BEG_DATE_S" ignoreEmpty="true">CONT_BEG_DATE >= ${CONT_BEG_DATE_S}</condition><condition key="CONT_BEG_DATE_E" ignoreEmpty="true">${CONT_BEG_DATE_E} >= CONT_BEG_DATE</condition><condition key="CONT_BEG_DATE_L" ignoreEmpty="true">CONT_BEG_DATE like ${CONT_BEG_DATE_L}</condition>
+<condition key="CR_DATE_S" ignoreEmpty="true">CR_DATE >= ${CR_DATE_S}</condition><condition key="CR_DATE_E" ignoreEmpty="true">${CR_DATE_E} >= CR_DATE</condition><condition key="CR_DATE_L" ignoreEmpty="true">CR_DATE like ${CR_DATE_L}</condition>
+<condition key="POST_TAX_NOTE_S" ignoreEmpty="true">POST_TAX_NOTE >= ${POST_TAX_NOTE_S}</condition><condition key="POST_TAX_NOTE_E" ignoreEmpty="true">${POST_TAX_NOTE_E} >= POST_TAX_NOTE</condition><condition key="POST_TAX_NOTE_L" ignoreEmpty="true">POST_TAX_NOTE like ${POST_TAX_NOTE_L}</condition>
+<condition key="ASGN_APRV_REF_NO_S" ignoreEmpty="true">ASGN_APRV_REF_NO >= ${ASGN_APRV_REF_NO_S}</condition><condition key="ASGN_APRV_REF_NO_E" ignoreEmpty="true">${ASGN_APRV_REF_NO_E} >= ASGN_APRV_REF_NO</condition><condition key="ASGN_APRV_REF_NO_L" ignoreEmpty="true">ASGN_APRV_REF_NO like ${ASGN_APRV_REF_NO_L}</condition>
+<condition key="PERMIT_DATE_S" ignoreEmpty="true">PERMIT_DATE >= ${PERMIT_DATE_S}</condition><condition key="PERMIT_DATE_E" ignoreEmpty="true">${PERMIT_DATE_E} >= PERMIT_DATE</condition><condition key="PERMIT_DATE_L" ignoreEmpty="true">PERMIT_DATE like ${PERMIT_DATE_L}</condition>
+<condition key="BF_NO_MARK_S" ignoreEmpty="true">BF_NO_MARK >= ${BF_NO_MARK_S}</condition><condition key="BF_NO_MARK_E" ignoreEmpty="true">${BF_NO_MARK_E} >= BF_NO_MARK</condition><condition key="BF_NO_MARK_L" ignoreEmpty="true">BF_NO_MARK like ${BF_NO_MARK_L}</condition>
+<condition key="REMARK_S" ignoreEmpty="true">REMARK >= ${REMARK_S}</condition><condition key="REMARK_E" ignoreEmpty="true">${REMARK_E} >= REMARK</condition><condition key="REMARK_L" ignoreEmpty="true">REMARK like ${REMARK_L}</condition>
+<condition key="WEB_CREATE_NOTE_S" ignoreEmpty="true">WEB_CREATE_NOTE >= ${WEB_CREATE_NOTE_S}</condition><condition key="WEB_CREATE_NOTE_E" ignoreEmpty="true">${WEB_CREATE_NOTE_E} >= WEB_CREATE_NOTE</condition><condition key="WEB_CREATE_NOTE_L" ignoreEmpty="true">WEB_CREATE_NOTE like ${WEB_CREATE_NOTE_L}</condition>
+<condition key="AIRLINE_CODE_S" ignoreEmpty="true">AIRLINE_CODE >= ${AIRLINE_CODE_S}</condition><condition key="AIRLINE_CODE_E" ignoreEmpty="true">${AIRLINE_CODE_E} >= AIRLINE_CODE</condition><condition key="AIRLINE_CODE_L" ignoreEmpty="true">AIRLINE_CODE like ${AIRLINE_CODE_L}</condition>
+
+<field key="CUST_CD" name="CUST_CD" ignoreEmpty="true"/>
+<field key="AGENT_TYPE" name="AGENT_TYPE" ignoreEmpty="true"/>
+<field key="AGENT_CD" name="AGENT_CD" ignoreEmpty="true"/>
+<field key="BROKER_BOX_NO" name="BROKER_BOX_NO" ignoreEmpty="true"/>
+<field key="CONT_END_DATE" name="CONT_END_DATE" ignoreEmpty="true"/>
+<field key="CONT_BEG_DATE" name="CONT_BEG_DATE" ignoreEmpty="true"/>
+<field key="CR_DATE" name="CR_DATE" ignoreEmpty="true"/>
+<field key="POST_TAX_NOTE" name="POST_TAX_NOTE" ignoreEmpty="true"/>
+<field key="ASGN_APRV_REF_NO" name="ASGN_APRV_REF_NO" ignoreEmpty="true"/>
+<field key="PERMIT_DATE" name="PERMIT_DATE" ignoreEmpty="true"/>
+<field key="BF_NO_MARK" name="BF_NO_MARK" ignoreEmpty="true"/>
+<field key="REMARK" name="REMARK" ignoreEmpty="true"/>
+<field key="WEB_CREATE_NOTE" name="WEB_CREATE_NOTE" ignoreEmpty="true"/>
+<field key="AIRLINE_CODE" name="AIRLINE_CODE" ignoreEmpty="true"/>
+
+$('#pageBean_custCd').attr('value',rowData.CUST_CD);
+$('#pageBean_agentType').attr('value',rowData.AGENT_TYPE);
+$('#pageBean_agentCd').attr('value',rowData.AGENT_CD);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_contEndDate').attr('value',rowData.CONT_END_DATE);
+$('#pageBean_contBegDate').attr('value',rowData.CONT_BEG_DATE);
+$('#pageBean_crDate').attr('value',rowData.CR_DATE);
+$('#pageBean_postTaxNote').attr('value',rowData.POST_TAX_NOTE);
+$('#pageBean_asgnAprvRefNo').attr('value',rowData.ASGN_APRV_REF_NO);
+$('#pageBean_permitDate').attr('value',rowData.PERMIT_DATE);
+$('#pageBean_bfNoMark').attr('value',rowData.BF_NO_MARK);
+$('#pageBean_remark').attr('value',rowData.REMARK);
+$('#pageBean_webCreateNote').attr('value',rowData.WEB_CREATE_NOTE);
+$('#pageBean_airlineCode').attr('value',rowData.AIRLINE_CODE);
+
+$('#pageBean_custCd').attr("value", "");
+$('#pageBean_agentType').attr("value", "");
+$('#pageBean_agentCd').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_contEndDate').attr("value", "");
+$('#pageBean_contBegDate').attr("value", "");
+$('#pageBean_crDate').attr("value", "");
+$('#pageBean_postTaxNote').attr("value", "");
+$('#pageBean_asgnAprvRefNo').attr("value", "");
+$('#pageBean_permitDate').attr("value", "");
+$('#pageBean_bfNoMark').attr("value", "");
+$('#pageBean_remark').attr("value", "");
+$('#pageBean_webCreateNote').attr("value", "");
+$('#pageBean_airlineCode').attr("value", "");
+
+CUST_CD:$('#pageBean_custCd').val(),//關區代號
+AGENT_TYPE:$('#pageBean_agentType').val(),//委任類別
+AGENT_CD:$('#pageBean_agentCd').val(),//委任代號
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關行箱號
+CONT_END_DATE:$('#pageBean_contEndDate').val(),//常年委任迄日
+CONT_BEG_DATE:$('#pageBean_contBegDate').val(),//常年委任始日
+CR_DATE:$('#pageBean_crDate').val(),//建檔日期
+POST_TAX_NOTE:$('#pageBean_postTaxNote').val(),//先放後核註記
+ASGN_APRV_REF_NO:$('#pageBean_asgnAprvRefNo').val(),//委任核准文號
+PERMIT_DATE:$('#pageBean_permitDate').val(),//核准日期
+BF_NO_MARK:$('#pageBean_bfNoMark').val(),//委任保稅註記
+REMARK:$('#pageBean_remark').val(),//備註
+WEB_CREATE_NOTE:$('#pageBean_webCreateNote').val(),//網路建檔註記
+AIRLINE_CODE:$('#pageBean_airlineCode').val(),//(空運)航空公司代碼
+
+pageBean.setCustCd(dataObjects.getString("CUST_CD"));//關區代號
+pageBean.setAgentType(dataObjects.getString("AGENT_TYPE"));//委任類別
+pageBean.setAgentCd(dataObjects.getString("AGENT_CD"));//委任代號
+pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));//報關行箱號
+pageBean.setContEndDate((Date)dataObjects.getValue("CONT_END_DATE"));//常年委任迄日
+pageBean.setContBegDate((Date)dataObjects.getValue("CONT_BEG_DATE"));//常年委任始日
+pageBean.setCrDate((Date)dataObjects.getValue("CR_DATE"));//建檔日期
+pageBean.setPostTaxNote((BigDecimal)dataObjects.getValue("POST_TAX_NOTE"));//先放後核註記
+pageBean.setAsgnAprvRefNo(dataObjects.getString("ASGN_APRV_REF_NO"));//委任核准文號
+pageBean.setPermitDate((Date)dataObjects.getValue("PERMIT_DATE"));//核准日期
+pageBean.setBfNoMark(dataObjects.getString("BF_NO_MARK"));//委任保稅註記
+pageBean.setRemark(dataObjects.getString("REMARK"));//備註
+pageBean.setWebCreateNote(dataObjects.getString("WEB_CREATE_NOTE"));//網路建檔註記
+pageBean.setAirlineCode(dataObjects.getString("AIRLINE_CODE"));//(空運)航空公司代碼
+
+private String custCd = null;//關區代號
+private String agentType = null;//委任類別
+private String agentCd = null;//委任代號
+private String brokerBoxNo = null;//報關行箱號
+private Date contEndDate = null;//常年委任迄日
+private Date contBegDate = null;//常年委任始日
+private Date crDate = null;//建檔日期
+private BigDecimal postTaxNote = null;//先放後核註記
+private String asgnAprvRefNo = null;//委任核准文號
+private Date permitDate = null;//核准日期
+private String bfNoMark = null;//委任保稅註記
+private String remark = null;//備註
+private String webCreateNote = null;//網路建檔註記
+private String airlineCode = null;//(空運)航空公司代碼
+
+pageBean.setCustCd(custCd);//關區代號
+pageBean.setAgentType(agentType);//委任類別
+pageBean.setAgentCd(agentCd);//委任代號
+pageBean.setBrokerBoxNo(brokerBoxNo);//報關行箱號
+pageBean.setContEndDate(contEndDate);//常年委任迄日
+pageBean.setContBegDate(contBegDate);//常年委任始日
+pageBean.setCrDate(crDate);//建檔日期
+pageBean.setPostTaxNote(postTaxNote);//先放後核註記
+pageBean.setAsgnAprvRefNo(asgnAprvRefNo);//委任核准文號
+pageBean.setPermitDate(permitDate);//核准日期
+pageBean.setBfNoMark(bfNoMark);//委任保稅註記
+pageBean.setRemark(remark);//備註
+pageBean.setWebCreateNote(webCreateNote);//網路建檔註記
+pageBean.setAirlineCode(airlineCode);//(空運)航空公司代碼
+
+pageBean.setCustCd(randomBean.getCustCd());//關區代號
+pageBean.setAgentType(randomBean.getAgentType());//委任類別
+pageBean.setAgentCd(randomBean.getAgentCd());//委任代號
+pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());//報關行箱號
+pageBean.setContEndDate(randomBean.getContEndDate());//常年委任迄日
+pageBean.setContBegDate(randomBean.getContBegDate());//常年委任始日
+pageBean.setCrDate(randomBean.getCrDate());//建檔日期
+pageBean.setPostTaxNote(randomBean.getPostTaxNote());//先放後核註記
+pageBean.setAsgnAprvRefNo(randomBean.getAsgnAprvRefNo());//委任核准文號
+pageBean.setPermitDate(randomBean.getPermitDate());//核准日期
+pageBean.setBfNoMark(randomBean.getBfNoMark());//委任保稅註記
+pageBean.setRemark(randomBean.getRemark());//備註
+pageBean.setWebCreateNote(randomBean.getWebCreateNote());//網路建檔註記
+pageBean.setAirlineCode(randomBean.getAirlineCode());//(空運)航空公司代碼
+
+setCustCd(custCd);//關區代號
+setAgentType(agentType);//委任類別
+setAgentCd(agentCd);//委任代號
+setBrokerBoxNo(brokerBoxNo);//報關行箱號
+setContEndDate(contEndDate);//常年委任迄日
+setContBegDate(contBegDate);//常年委任始日
+setCrDate(crDate);//建檔日期
+setPostTaxNote(postTaxNote);//先放後核註記
+setAsgnAprvRefNo(asgnAprvRefNo);//委任核准文號
+setPermitDate(permitDate);//核准日期
+setBfNoMark(bfNoMark);//委任保稅註記
+setRemark(remark);//備註
+setWebCreateNote(webCreateNote);//網路建檔註記
+setAirlineCode(airlineCode);//(空運)航空公司代碼
+
+pageBean.getCustCd(),//關區代號
+pageBean.getAgentType(),//委任類別
+pageBean.getAgentCd(),//委任代號
+pageBean.getBrokerBoxNo(),//報關行箱號
+pageBean.getContEndDate(),//常年委任迄日
+pageBean.getContBegDate(),//常年委任始日
+pageBean.getCrDate(),//建檔日期
+pageBean.getPostTaxNote(),//先放後核註記
+pageBean.getAsgnAprvRefNo(),//委任核准文號
+pageBean.getPermitDate(),//核准日期
+pageBean.getBfNoMark(),//委任保稅註記
+pageBean.getRemark(),//備註
+pageBean.getWebCreateNote(),//網路建檔註記
+pageBean.getAirlineCode(),//(空運)航空公司代碼
+
+pageBean.setValue("CUST_CD", this.getCustCd());//關區代號
+pageBean.setValue("AGENT_TYPE", this.getAgentType());//委任類別
+pageBean.setValue("AGENT_CD", this.getAgentCd());//委任代號
+pageBean.setValue("BROKER_BOX_NO", this.getBrokerBoxNo());//報關行箱號
+pageBean.setValue("CONT_END_DATE", this.getContEndDate());//常年委任迄日
+pageBean.setValue("CONT_BEG_DATE", this.getContBegDate());//常年委任始日
+pageBean.setValue("CR_DATE", this.getCrDate());//建檔日期
+pageBean.setValue("POST_TAX_NOTE", this.getPostTaxNote());//先放後核註記
+pageBean.setValue("ASGN_APRV_REF_NO", this.getAsgnAprvRefNo());//委任核准文號
+pageBean.setValue("PERMIT_DATE", this.getPermitDate());//核准日期
+pageBean.setValue("BF_NO_MARK", this.getBfNoMark());//委任保稅註記
+pageBean.setValue("REMARK", this.getRemark());//備註
+pageBean.setValue("WEB_CREATE_NOTE", this.getWebCreateNote());//網路建檔註記
+pageBean.setValue("AIRLINE_CODE", this.getAirlineCode());//(空運)航空公司代碼
+
+",關區代號"+"(custCd)="+pageBean.getCustCd()+
+",委任類別"+"(agentType)="+pageBean.getAgentType()+
+",委任代號"+"(agentCd)="+pageBean.getAgentCd()+
+",報關行箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",常年委任迄日"+"(contEndDate)="+pageBean.getContEndDate()+
+",常年委任始日"+"(contBegDate)="+pageBean.getContBegDate()+
+",建檔日期"+"(crDate)="+pageBean.getCrDate()+
+",先放後核註記"+"(postTaxNote)="+pageBean.getPostTaxNote()+
+",委任核准文號"+"(asgnAprvRefNo)="+pageBean.getAsgnAprvRefNo()+
+",核准日期"+"(permitDate)="+pageBean.getPermitDate()+
+",委任保稅註記"+"(bfNoMark)="+pageBean.getBfNoMark()+
+",備註"+"(remark)="+pageBean.getRemark()+
+",網路建檔註記"+"(webCreateNote)="+pageBean.getWebCreateNote()+
+",(空運)航空公司代碼"+"(airlineCode)="+pageBean.getAirlineCode()+

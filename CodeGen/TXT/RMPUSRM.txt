@@ -1,0 +1,340 @@
+pageBean.customs=隸屬單位代碼
+pageBean.customsName=隸屬單位名稱
+pageBean.mainId=承辦/主稽核員編號
+pageBean.mainName=承辦/主稽核員姓名
+pageBean.asstId=代理/協辦稽核員編號
+pageBean.asstName=代理/協辦稽核員姓名
+pageBean.pauseMark=暫停接案註記
+pageBean.lastAssignDate=最後分派日期
+pageBean.lastAuditNo=最後稽核案號
+pageBean.proUser=處理人員
+pageBean.proDate=處理日期
+pageBean.position=身份別
+
+pageBean.customs=customs
+pageBean.customsName=customsName
+pageBean.mainId=mainId
+pageBean.mainName=mainName
+pageBean.asstId=asstId
+pageBean.asstName=asstName
+pageBean.pauseMark=pauseMark
+pageBean.lastAssignDate=lastAssignDate
+pageBean.lastAuditNo=lastAuditNo
+pageBean.proUser=proUser
+pageBean.proDate=proDate
+pageBean.position=position
+
+<!--customs:隸屬單位代碼-->
+<tr>
+<td>
+	<s:text name="customs"/>
+	<s:textfield name="pageBean.customs" />
+</td>
+</tr>
+
+<!--customsName:隸屬單位名稱-->
+<tr>
+<td>
+	<s:text name="customsName"/>
+	<s:textfield name="pageBean.customsName" />
+</td>
+</tr>
+
+<!--mainId:承辦/主稽核員編號-->
+<tr>
+<td>
+	<s:text name="mainId"/>
+	<s:textfield name="pageBean.mainId" />
+</td>
+</tr>
+
+<!--mainName:承辦/主稽核員姓名-->
+<tr>
+<td>
+	<s:text name="mainName"/>
+	<s:textfield name="pageBean.mainName" />
+</td>
+</tr>
+
+<!--asstId:代理/協辦稽核員編號-->
+<tr>
+<td>
+	<s:text name="asstId"/>
+	<s:textfield name="pageBean.asstId" />
+</td>
+</tr>
+
+<!--asstName:代理/協辦稽核員姓名-->
+<tr>
+<td>
+	<s:text name="asstName"/>
+	<s:textfield name="pageBean.asstName" />
+</td>
+</tr>
+
+<!--pauseMark:暫停接案註記-->
+<tr>
+<td>
+	<s:text name="pauseMark"/>
+	<s:textfield name="pageBean.pauseMark" />
+</td>
+</tr>
+
+<!--lastAssignDate:最後分派日期-->
+<tr>
+<td>
+	<s:text name="lastAssignDate"/>
+	<s:textfield name="pageBean.lastAssignDate" />
+</td>
+</tr>
+
+<!--lastAuditNo:最後稽核案號-->
+<tr>
+<td>
+	<s:text name="lastAuditNo"/>
+	<s:textfield name="pageBean.lastAuditNo" />
+</td>
+</tr>
+
+<!--proUser:處理人員-->
+<tr>
+<td>
+	<s:text name="proUser"/>
+	<s:textfield name="pageBean.proUser" />
+</td>
+</tr>
+
+<!--proDate:處理日期-->
+<tr>
+<td>
+	<s:text name="proDate"/>
+	<s:textfield name="pageBean.proDate" />
+</td>
+</tr>
+
+<!--position:身份別-->
+<tr>
+<td>
+	<s:text name="position"/>
+	<s:textfield name="pageBean.position" />
+</td>
+</tr>
+
+
+<sjg:gridColumn name="CUSTOMS" index="CUSTOMS" title="%{getText('customs')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS:隸屬單位代碼:customs--%>
+<sjg:gridColumn name="CUSTOMS_NAME" index="CUSTOMS_NAME" title="%{getText('customsName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CUSTOMS_NAME:隸屬單位名稱:customsName--%>
+<sjg:gridColumn name="MAIN_ID" index="MAIN_ID" title="%{getText('mainId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAIN_ID:承辦/主稽核員編號:mainId--%>
+<sjg:gridColumn name="MAIN_NAME" index="MAIN_NAME" title="%{getText('mainName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAIN_NAME:承辦/主稽核員姓名:mainName--%>
+<sjg:gridColumn name="ASST_ID" index="ASST_ID" title="%{getText('asstId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASST_ID:代理/協辦稽核員編號:asstId--%>
+<sjg:gridColumn name="ASST_NAME" index="ASST_NAME" title="%{getText('asstName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--ASST_NAME:代理/協辦稽核員姓名:asstName--%>
+<sjg:gridColumn name="PAUSE_MARK" index="PAUSE_MARK" title="%{getText('pauseMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PAUSE_MARK:暫停接案註記:pauseMark--%>
+<sjg:gridColumn name="LAST_ASSIGN_DATE" index="LAST_ASSIGN_DATE" title="%{getText('lastAssignDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_ASSIGN_DATE:最後分派日期:lastAssignDate--%>
+<sjg:gridColumn name="LAST_AUDIT_NO" index="LAST_AUDIT_NO" title="%{getText('lastAuditNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--LAST_AUDIT_NO:最後稽核案號:lastAuditNo--%>
+<sjg:gridColumn name="PRO_USER" index="PRO_USER" title="%{getText('proUser')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PRO_USER:處理人員:proUser--%>
+<sjg:gridColumn name="PRO_DATE" index="PRO_DATE" title="%{getText('proDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PRO_DATE:處理日期:proDate--%>
+<sjg:gridColumn name="POSITION" index="POSITION" title="%{getText('position')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--POSITION:身份別:position--%>
+
+,A.CUSTOMS
+,A.CUSTOMS_NAME
+,A.MAIN_ID
+,A.MAIN_NAME
+,A.ASST_ID
+,A.ASST_NAME
+,A.PAUSE_MARK
+,A.LAST_ASSIGN_DATE
+,A.LAST_AUDIT_NO
+,A.PRO_USER
+,A.PRO_DATE
+,A.POSITION
+
+<condition key="CUSTOMS" ignoreEmpty="true" >CUSTOMS like ${CUSTOMS}</condition>
+<condition key="CUSTOMS_NAME" ignoreEmpty="true" >CUSTOMS_NAME like ${CUSTOMS_NAME}</condition>
+<condition key="MAIN_ID" ignoreEmpty="true" >MAIN_ID like ${MAIN_ID}</condition>
+<condition key="MAIN_NAME" ignoreEmpty="true" >MAIN_NAME like ${MAIN_NAME}</condition>
+<condition key="ASST_ID" ignoreEmpty="true" >ASST_ID like ${ASST_ID}</condition>
+<condition key="ASST_NAME" ignoreEmpty="true" >ASST_NAME like ${ASST_NAME}</condition>
+<condition key="PAUSE_MARK" ignoreEmpty="true" >PAUSE_MARK like ${PAUSE_MARK}</condition>
+<condition key="LAST_ASSIGN_DATE" ignoreEmpty="true" >LAST_ASSIGN_DATE like ${LAST_ASSIGN_DATE}</condition>
+<condition key="LAST_AUDIT_NO" ignoreEmpty="true" >LAST_AUDIT_NO like ${LAST_AUDIT_NO}</condition>
+<condition key="PRO_USER" ignoreEmpty="true" >PRO_USER like ${PRO_USER}</condition>
+<condition key="PRO_DATE" ignoreEmpty="true" >PRO_DATE like ${PRO_DATE}</condition>
+<condition key="POSITION" ignoreEmpty="true" >POSITION like ${POSITION}</condition>
+
+<condition key="CUSTOMS_S" ignoreEmpty="true" >CUSTOMS >= ${CUSTOMS_S}</condition><condition key="CUSTOMS_E" ignoreEmpty="true" >${CUSTOMS_E} >= CUSTOMS</condition>
+<condition key="CUSTOMS_NAME_S" ignoreEmpty="true" >CUSTOMS_NAME >= ${CUSTOMS_NAME_S}</condition><condition key="CUSTOMS_NAME_E" ignoreEmpty="true" >${CUSTOMS_NAME_E} >= CUSTOMS_NAME</condition>
+<condition key="MAIN_ID_S" ignoreEmpty="true" >MAIN_ID >= ${MAIN_ID_S}</condition><condition key="MAIN_ID_E" ignoreEmpty="true" >${MAIN_ID_E} >= MAIN_ID</condition>
+<condition key="MAIN_NAME_S" ignoreEmpty="true" >MAIN_NAME >= ${MAIN_NAME_S}</condition><condition key="MAIN_NAME_E" ignoreEmpty="true" >${MAIN_NAME_E} >= MAIN_NAME</condition>
+<condition key="ASST_ID_S" ignoreEmpty="true" >ASST_ID >= ${ASST_ID_S}</condition><condition key="ASST_ID_E" ignoreEmpty="true" >${ASST_ID_E} >= ASST_ID</condition>
+<condition key="ASST_NAME_S" ignoreEmpty="true" >ASST_NAME >= ${ASST_NAME_S}</condition><condition key="ASST_NAME_E" ignoreEmpty="true" >${ASST_NAME_E} >= ASST_NAME</condition>
+<condition key="PAUSE_MARK_S" ignoreEmpty="true" >PAUSE_MARK >= ${PAUSE_MARK_S}</condition><condition key="PAUSE_MARK_E" ignoreEmpty="true" >${PAUSE_MARK_E} >= PAUSE_MARK</condition>
+<condition key="LAST_ASSIGN_DATE_S" ignoreEmpty="true" >LAST_ASSIGN_DATE >= ${LAST_ASSIGN_DATE_S}</condition><condition key="LAST_ASSIGN_DATE_E" ignoreEmpty="true" >${LAST_ASSIGN_DATE_E} >= LAST_ASSIGN_DATE</condition>
+<condition key="LAST_AUDIT_NO_S" ignoreEmpty="true" >LAST_AUDIT_NO >= ${LAST_AUDIT_NO_S}</condition><condition key="LAST_AUDIT_NO_E" ignoreEmpty="true" >${LAST_AUDIT_NO_E} >= LAST_AUDIT_NO</condition>
+<condition key="PRO_USER_S" ignoreEmpty="true" >PRO_USER >= ${PRO_USER_S}</condition><condition key="PRO_USER_E" ignoreEmpty="true" >${PRO_USER_E} >= PRO_USER</condition>
+<condition key="PRO_DATE_S" ignoreEmpty="true" >PRO_DATE >= ${PRO_DATE_S}</condition><condition key="PRO_DATE_E" ignoreEmpty="true" >${PRO_DATE_E} >= PRO_DATE</condition>
+<condition key="POSITION_S" ignoreEmpty="true" >POSITION >= ${POSITION_S}</condition><condition key="POSITION_E" ignoreEmpty="true" >${POSITION_E} >= POSITION</condition>
+
+//隸屬單位代碼
+//pageBean.setCustoms(randomBean.getCustoms());
+//隸屬單位名稱
+//pageBean.setCustomsName(randomBean.getCustomsName());
+//承辦/主稽核員編號
+//pageBean.setMainId(randomBean.getMainId());
+//承辦/主稽核員姓名
+//pageBean.setMainName(randomBean.getMainName());
+//代理/協辦稽核員編號
+//pageBean.setAsstId(randomBean.getAsstId());
+//代理/協辦稽核員姓名
+//pageBean.setAsstName(randomBean.getAsstName());
+//暫停接案註記
+//pageBean.setPauseMark(randomBean.getPauseMark());
+//最後分派日期
+//pageBean.setLastAssignDate(randomBean.getLastAssignDate());
+//最後稽核案號
+//pageBean.setLastAuditNo(randomBean.getLastAuditNo());
+//處理人員
+//pageBean.setProUser(randomBean.getProUser());
+//處理日期
+//pageBean.setProDate(randomBean.getProDate());
+//身份別
+//pageBean.setPosition(randomBean.getPosition());
+
+$('#pageBean_customs').attr('value',rowData.CUSTOMS);
+$('#pageBean_customsName').attr('value',rowData.CUSTOMS_NAME);
+$('#pageBean_mainId').attr('value',rowData.MAIN_ID);
+$('#pageBean_mainName').attr('value',rowData.MAIN_NAME);
+$('#pageBean_asstId').attr('value',rowData.ASST_ID);
+$('#pageBean_asstName').attr('value',rowData.ASST_NAME);
+$('#pageBean_pauseMark').attr('value',rowData.PAUSE_MARK);
+$('#pageBean_lastAssignDate').attr('value',rowData.LAST_ASSIGN_DATE);
+$('#pageBean_lastAuditNo').attr('value',rowData.LAST_AUDIT_NO);
+$('#pageBean_proUser').attr('value',rowData.PRO_USER);
+$('#pageBean_proDate').attr('value',rowData.PRO_DATE);
+$('#pageBean_position').attr('value',rowData.POSITION);
+
+$('#pageBean_customs').attr("value", "");
+$('#pageBean_customsName').attr("value", "");
+$('#pageBean_mainId').attr("value", "");
+$('#pageBean_mainName').attr("value", "");
+$('#pageBean_asstId').attr("value", "");
+$('#pageBean_asstName').attr("value", "");
+$('#pageBean_pauseMark').attr("value", "");
+$('#pageBean_lastAssignDate').attr("value", "");
+$('#pageBean_lastAuditNo').attr("value", "");
+$('#pageBean_proUser').attr("value", "");
+$('#pageBean_proDate').attr("value", "");
+$('#pageBean_position').attr("value", "");
+
+CUSTOMS:$('#pageBean_customs').val(),//隸屬單位代碼
+CUSTOMS_NAME:$('#pageBean_customsName').val(),//隸屬單位名稱
+MAIN_ID:$('#pageBean_mainId').val(),//承辦/主稽核員編號
+MAIN_NAME:$('#pageBean_mainName').val(),//承辦/主稽核員姓名
+ASST_ID:$('#pageBean_asstId').val(),//代理/協辦稽核員編號
+ASST_NAME:$('#pageBean_asstName').val(),//代理/協辦稽核員姓名
+PAUSE_MARK:$('#pageBean_pauseMark').val(),//暫停接案註記
+LAST_ASSIGN_DATE:$('#pageBean_lastAssignDate').val(),//最後分派日期
+LAST_AUDIT_NO:$('#pageBean_lastAuditNo').val(),//最後稽核案號
+PRO_USER:$('#pageBean_proUser').val(),//處理人員
+PRO_DATE:$('#pageBean_proDate').val(),//處理日期
+POSITION:$('#pageBean_position').val(),//身份別
+
+//隸屬單位代碼
+//pageBean.setCustoms(dataObjects.getString("CUSTOMS"));
+//隸屬單位名稱
+//pageBean.setCustomsName(dataObjects.getString("CUSTOMS_NAME"));
+//承辦/主稽核員編號
+//pageBean.setMainId(dataObjects.getString("MAIN_ID"));
+//承辦/主稽核員姓名
+//pageBean.setMainName(dataObjects.getString("MAIN_NAME"));
+//代理/協辦稽核員編號
+//pageBean.setAsstId(dataObjects.getString("ASST_ID"));
+//代理/協辦稽核員姓名
+//pageBean.setAsstName(dataObjects.getString("ASST_NAME"));
+//暫停接案註記
+//pageBean.setPauseMark(dataObjects.getString("PAUSE_MARK"));
+//最後分派日期
+//pageBean.setLastAssignDate(dataObjects.getString("LAST_ASSIGN_DATE"));
+//最後稽核案號
+//pageBean.setLastAuditNo(dataObjects.getString("LAST_AUDIT_NO"));
+//處理人員
+//pageBean.setProUser(dataObjects.getString("PRO_USER"));
+//處理日期
+//pageBean.setProDate(dataObjects.getString("PRO_DATE"));
+//身份別
+//pageBean.setPosition(dataObjects.getString("POSITION"));
+
+private String customs;//隸屬單位代碼
+private String customsName;//隸屬單位名稱
+private String mainId;//承辦/主稽核員編號
+private String mainName;//承辦/主稽核員姓名
+private String asstId;//代理/協辦稽核員編號
+private String asstName;//代理/協辦稽核員姓名
+private String pauseMark;//暫停接案註記
+private Timestamp lastAssignDate;//最後分派日期
+private String lastAuditNo;//最後稽核案號
+private String proUser;//處理人員
+private Timestamp proDate;//處理日期
+private String position;//身份別
+
+setCustoms(pageBean.getCustoms());//隸屬單位代碼
+setCustomsName(pageBean.getCustomsName());//隸屬單位名稱
+setMainId(pageBean.getMainId());//承辦/主稽核員編號
+setMainName(pageBean.getMainName());//承辦/主稽核員姓名
+setAsstId(pageBean.getAsstId());//代理/協辦稽核員編號
+setAsstName(pageBean.getAsstName());//代理/協辦稽核員姓名
+setPauseMark(pageBean.getPauseMark());//暫停接案註記
+setLastAssignDate(pageBean.getLastAssignDate());//最後分派日期
+setLastAuditNo(pageBean.getLastAuditNo());//最後稽核案號
+setProUser(pageBean.getProUser());//處理人員
+setProDate(pageBean.getProDate());//處理日期
+setPosition(pageBean.getPosition());//身份別
+
+setCustoms(customs);//隸屬單位代碼
+setCustomsName(customsName);//隸屬單位名稱
+setMainId(mainId);//承辦/主稽核員編號
+setMainName(mainName);//承辦/主稽核員姓名
+setAsstId(asstId);//代理/協辦稽核員編號
+setAsstName(asstName);//代理/協辦稽核員姓名
+setPauseMark(pauseMark);//暫停接案註記
+setLastAssignDate(lastAssignDate);//最後分派日期
+setLastAuditNo(lastAuditNo);//最後稽核案號
+setProUser(proUser);//處理人員
+setProDate(proDate);//處理日期
+setPosition(position);//身份別
+
+pageBean.getCustoms(),//隸屬單位代碼
+pageBean.getCustomsName(),//隸屬單位名稱
+pageBean.getMainId(),//承辦/主稽核員編號
+pageBean.getMainName(),//承辦/主稽核員姓名
+pageBean.getAsstId(),//代理/協辦稽核員編號
+pageBean.getAsstName(),//代理/協辦稽核員姓名
+pageBean.getPauseMark(),//暫停接案註記
+pageBean.getLastAssignDate(),//最後分派日期
+pageBean.getLastAuditNo(),//最後稽核案號
+pageBean.getProUser(),//處理人員
+pageBean.getProDate(),//處理日期
+pageBean.getPosition(),//身份別
+
+",隸屬單位代碼"+"(customs)="+pageBean.getCustoms()+
+",隸屬單位名稱"+"(customsName)="+pageBean.getCustomsName()+
+",承辦/主稽核員編號"+"(mainId)="+pageBean.getMainId()+
+",承辦/主稽核員姓名"+"(mainName)="+pageBean.getMainName()+
+",代理/協辦稽核員編號"+"(asstId)="+pageBean.getAsstId()+
+",代理/協辦稽核員姓名"+"(asstName)="+pageBean.getAsstName()+
+",暫停接案註記"+"(pauseMark)="+pageBean.getPauseMark()+
+",最後分派日期"+"(lastAssignDate)="+pageBean.getLastAssignDate()+
+",最後稽核案號"+"(lastAuditNo)="+pageBean.getLastAuditNo()+
+",處理人員"+"(proUser)="+pageBean.getProUser()+
+",處理日期"+"(proDate)="+pageBean.getProDate()+
+",身份別"+"(position)="+pageBean.getPosition()+

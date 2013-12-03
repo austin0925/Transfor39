@@ -1,0 +1,1307 @@
+pageBean.transId=TRANS_ID
+pageBean.senderId=傳送方代碼
+pageBean.receiverId=接收方代碼
+pageBean.ccList=副本通知對象
+pageBean.controlNumber=交換控制碼
+pageBean.vanId=網路別
+pageBean.dlvrDate=傳送時間
+pageBean.dealDate=內部應用系統處理時間
+pageBean.msgFuncCd=訊息功能代碼
+pageBean.transTypeCd=海空運別
+pageBean.brokerBoxNo=報關業者箱號
+pageBean.brokerBoxSubNo=報關業者箱號
+pageBean.declNo=報單號碼
+pageBean.declType=報單類別
+pageBean.vslRegNo=海關通關號碼
+pageBean.soNo=裝貨單號碼
+pageBean.mawb=託運單主號
+pageBean.hawb=託運單分號
+pageBean.transportId=出口船（機）代碼
+pageBean.vslName=出口船舶名稱
+pageBean.vslSign=船舶呼號
+pageBean.voyageFlightNo=船舶航次（海）/航機班次（空）
+pageBean.storWareCd=卸存地點代碼
+pageBean.carrierAgencyCd=運輸業者/代理行代碼
+pageBean.relPack=放行件數
+pageBean.relPackUnit=放行件數單位
+pageBean.unrelPack=未放行件數
+pageBean.notRelPackUnit=未放行件數單位
+pageBean.totGrossWeight=總毛重
+pageBean.extraRqCd1=放行附帶條件代碼1
+pageBean.extraRqCd2=放行附帶條件代碼2
+pageBean.extraRqCd3=放行附帶條件代碼3
+pageBean.extraRqCd4=放行附帶條件代碼4
+pageBean.extraRqCd5=放行附帶條件代碼5
+pageBean.extraRqCd6=放行附帶條件代碼6
+pageBean.extraRqCd7=放行附帶條件代碼7
+pageBean.extraRqCd8=放行附帶條件代碼8
+pageBean.extraRqCd9=放行附帶條件代碼9
+pageBean.relDate=放行日期與時間
+pageBean.cccCode=貨品分類號列
+pageBean.salBan=出口人(貨物輸出人)統一編號
+pageBean.banId=身分識別代碼
+pageBean.salEname=出口人(貨物輸出人)英文名稱
+pageBean.shippingMark=標記
+pageBean.clearType=通關方式
+pageBean.prevDeclNo=原報單號碼
+
+pageBean.transId=transId
+pageBean.senderId=senderId
+pageBean.receiverId=receiverId
+pageBean.ccList=ccList
+pageBean.controlNumber=controlNumber
+pageBean.vanId=vanId
+pageBean.dlvrDate=dlvrDate
+pageBean.dealDate=dealDate
+pageBean.msgFuncCd=msgFuncCd
+pageBean.transTypeCd=transTypeCd
+pageBean.brokerBoxNo=brokerBoxNo
+pageBean.brokerBoxSubNo=brokerBoxSubNo
+pageBean.declNo=declNo
+pageBean.declType=declType
+pageBean.vslRegNo=vslRegNo
+pageBean.soNo=soNo
+pageBean.mawb=mawb
+pageBean.hawb=hawb
+pageBean.transportId=transportId
+pageBean.vslName=vslName
+pageBean.vslSign=vslSign
+pageBean.voyageFlightNo=voyageFlightNo
+pageBean.storWareCd=storWareCd
+pageBean.carrierAgencyCd=carrierAgencyCd
+pageBean.relPack=relPack
+pageBean.relPackUnit=relPackUnit
+pageBean.unrelPack=unrelPack
+pageBean.notRelPackUnit=notRelPackUnit
+pageBean.totGrossWeight=totGrossWeight
+pageBean.extraRqCd1=extraRqCd1
+pageBean.extraRqCd2=extraRqCd2
+pageBean.extraRqCd3=extraRqCd3
+pageBean.extraRqCd4=extraRqCd4
+pageBean.extraRqCd5=extraRqCd5
+pageBean.extraRqCd6=extraRqCd6
+pageBean.extraRqCd7=extraRqCd7
+pageBean.extraRqCd8=extraRqCd8
+pageBean.extraRqCd9=extraRqCd9
+pageBean.relDate=relDate
+pageBean.cccCode=cccCode
+pageBean.salBan=salBan
+pageBean.banId=banId
+pageBean.salEname=salEname
+pageBean.shippingMark=shippingMark
+pageBean.clearType=clearType
+pageBean.prevDeclNo=prevDeclNo
+
+<!--transId:TRANS_ID-->
+<tr>
+<td>
+	<s:text name="pageBean.transId"/>
+	<s:textfield name="pageBean.transId" />
+</td>
+</tr>
+
+<!--senderId:傳送方代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.senderId"/>
+	<s:textfield name="pageBean.senderId" />
+</td>
+</tr>
+
+<!--receiverId:接收方代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.receiverId"/>
+	<s:textfield name="pageBean.receiverId" />
+</td>
+</tr>
+
+<!--ccList:副本通知對象-->
+<tr>
+<td>
+	<s:text name="pageBean.ccList"/>
+	<s:textfield name="pageBean.ccList" />
+</td>
+</tr>
+
+<!--controlNumber:交換控制碼-->
+<tr>
+<td>
+	<s:text name="pageBean.controlNumber"/>
+	<s:textfield name="pageBean.controlNumber" />
+</td>
+</tr>
+
+<!--vanId:網路別-->
+<tr>
+<td>
+	<s:text name="pageBean.vanId"/>
+	<s:textfield name="pageBean.vanId" />
+</td>
+</tr>
+
+<!--dlvrDate:傳送時間-->
+<tr>
+<td>
+	<s:text name="pageBean.dlvrDate"/>
+	<s:textfield name="pageBean.dlvrDate" />
+</td>
+</tr>
+
+<!--dealDate:內部應用系統處理時間-->
+<tr>
+<td>
+	<s:text name="pageBean.dealDate"/>
+	<s:textfield name="pageBean.dealDate" />
+</td>
+</tr>
+
+<!--msgFuncCd:訊息功能代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.msgFuncCd"/>
+	<s:textfield name="pageBean.msgFuncCd" />
+</td>
+</tr>
+
+<!--transTypeCd:海空運別-->
+<tr>
+<td>
+	<s:text name="pageBean.transTypeCd"/>
+	<s:textfield name="pageBean.transTypeCd" />
+</td>
+</tr>
+
+<!--brokerBoxNo:報關業者箱號-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerBoxNo"/>
+	<s:textfield name="pageBean.brokerBoxNo" />
+</td>
+</tr>
+
+<!--brokerBoxSubNo:報關業者箱號-->
+<tr>
+<td>
+	<s:text name="pageBean.brokerBoxSubNo"/>
+	<s:textfield name="pageBean.brokerBoxSubNo" />
+</td>
+</tr>
+
+<!--declNo:報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.declNo"/>
+	<s:textfield name="pageBean.declNo" />
+</td>
+</tr>
+
+<!--declType:報單類別-->
+<tr>
+<td>
+	<s:text name="pageBean.declType"/>
+	<s:textfield name="pageBean.declType" />
+</td>
+</tr>
+
+<!--vslRegNo:海關通關號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.vslRegNo"/>
+	<s:textfield name="pageBean.vslRegNo" />
+</td>
+</tr>
+
+<!--soNo:裝貨單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.soNo"/>
+	<s:textfield name="pageBean.soNo" />
+</td>
+</tr>
+
+<!--mawb:託運單主號-->
+<tr>
+<td>
+	<s:text name="pageBean.mawb"/>
+	<s:textfield name="pageBean.mawb" />
+</td>
+</tr>
+
+<!--hawb:託運單分號-->
+<tr>
+<td>
+	<s:text name="pageBean.hawb"/>
+	<s:textfield name="pageBean.hawb" />
+</td>
+</tr>
+
+<!--transportId:出口船（機）代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.transportId"/>
+	<s:textfield name="pageBean.transportId" />
+</td>
+</tr>
+
+<!--vslName:出口船舶名稱-->
+<tr>
+<td>
+	<s:text name="pageBean.vslName"/>
+	<s:textfield name="pageBean.vslName" />
+</td>
+</tr>
+
+<!--vslSign:船舶呼號-->
+<tr>
+<td>
+	<s:text name="pageBean.vslSign"/>
+	<s:textfield name="pageBean.vslSign" />
+</td>
+</tr>
+
+<!--voyageFlightNo:船舶航次（海）/航機班次（空）-->
+<tr>
+<td>
+	<s:text name="pageBean.voyageFlightNo"/>
+	<s:textfield name="pageBean.voyageFlightNo" />
+</td>
+</tr>
+
+<!--storWareCd:卸存地點代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.storWareCd"/>
+	<s:textfield name="pageBean.storWareCd" />
+</td>
+</tr>
+
+<!--carrierAgencyCd:運輸業者/代理行代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.carrierAgencyCd"/>
+	<s:textfield name="pageBean.carrierAgencyCd" />
+</td>
+</tr>
+
+<!--relPack:放行件數-->
+<tr>
+<td>
+	<s:text name="pageBean.relPack"/>
+	<s:textfield name="pageBean.relPack" />
+</td>
+</tr>
+
+<!--relPackUnit:放行件數單位-->
+<tr>
+<td>
+	<s:text name="pageBean.relPackUnit"/>
+	<s:textfield name="pageBean.relPackUnit" />
+</td>
+</tr>
+
+<!--unrelPack:未放行件數-->
+<tr>
+<td>
+	<s:text name="pageBean.unrelPack"/>
+	<s:textfield name="pageBean.unrelPack" />
+</td>
+</tr>
+
+<!--notRelPackUnit:未放行件數單位-->
+<tr>
+<td>
+	<s:text name="pageBean.notRelPackUnit"/>
+	<s:textfield name="pageBean.notRelPackUnit" />
+</td>
+</tr>
+
+<!--totGrossWeight:總毛重-->
+<tr>
+<td>
+	<s:text name="pageBean.totGrossWeight"/>
+	<s:textfield name="pageBean.totGrossWeight" />
+</td>
+</tr>
+
+<!--extraRqCd1:放行附帶條件代碼1-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd1"/>
+	<s:textfield name="pageBean.extraRqCd1" />
+</td>
+</tr>
+
+<!--extraRqCd2:放行附帶條件代碼2-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd2"/>
+	<s:textfield name="pageBean.extraRqCd2" />
+</td>
+</tr>
+
+<!--extraRqCd3:放行附帶條件代碼3-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd3"/>
+	<s:textfield name="pageBean.extraRqCd3" />
+</td>
+</tr>
+
+<!--extraRqCd4:放行附帶條件代碼4-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd4"/>
+	<s:textfield name="pageBean.extraRqCd4" />
+</td>
+</tr>
+
+<!--extraRqCd5:放行附帶條件代碼5-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd5"/>
+	<s:textfield name="pageBean.extraRqCd5" />
+</td>
+</tr>
+
+<!--extraRqCd6:放行附帶條件代碼6-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd6"/>
+	<s:textfield name="pageBean.extraRqCd6" />
+</td>
+</tr>
+
+<!--extraRqCd7:放行附帶條件代碼7-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd7"/>
+	<s:textfield name="pageBean.extraRqCd7" />
+</td>
+</tr>
+
+<!--extraRqCd8:放行附帶條件代碼8-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd8"/>
+	<s:textfield name="pageBean.extraRqCd8" />
+</td>
+</tr>
+
+<!--extraRqCd9:放行附帶條件代碼9-->
+<tr>
+<td>
+	<s:text name="pageBean.extraRqCd9"/>
+	<s:textfield name="pageBean.extraRqCd9" />
+</td>
+</tr>
+
+<!--relDate:放行日期與時間-->
+<tr>
+<td>
+	<s:text name="pageBean.relDate"/>
+	<s:textfield name="pageBean.relDate" />
+</td>
+</tr>
+
+<!--cccCode:貨品分類號列-->
+<tr>
+<td>
+	<s:text name="pageBean.cccCode"/>
+	<s:textfield name="pageBean.cccCode" />
+</td>
+</tr>
+
+<!--salBan:出口人(貨物輸出人)統一編號-->
+<tr>
+<td>
+	<s:text name="pageBean.salBan"/>
+	<s:textfield name="pageBean.salBan" />
+</td>
+</tr>
+
+<!--banId:身分識別代碼-->
+<tr>
+<td>
+	<s:text name="pageBean.banId"/>
+	<s:textfield name="pageBean.banId" />
+</td>
+</tr>
+
+<!--salEname:出口人(貨物輸出人)英文名稱-->
+<tr>
+<td>
+	<s:text name="pageBean.salEname"/>
+	<s:textfield name="pageBean.salEname" />
+</td>
+</tr>
+
+<!--shippingMark:標記-->
+<tr>
+<td>
+	<s:text name="pageBean.shippingMark"/>
+	<s:textfield name="pageBean.shippingMark" />
+</td>
+</tr>
+
+<!--clearType:通關方式-->
+<tr>
+<td>
+	<s:text name="pageBean.clearType"/>
+	<s:textfield name="pageBean.clearType" />
+</td>
+</tr>
+
+<!--prevDeclNo:原報單號碼-->
+<tr>
+<td>
+	<s:text name="pageBean.prevDeclNo"/>
+	<s:textfield name="pageBean.prevDeclNo" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.transId"/><!--transId:TRANS_ID-->
+<s:hidden name="pageBean.senderId"/><!--senderId:傳送方代碼-->
+<s:hidden name="pageBean.receiverId"/><!--receiverId:接收方代碼-->
+<s:hidden name="pageBean.ccList"/><!--ccList:副本通知對象-->
+<s:hidden name="pageBean.controlNumber"/><!--controlNumber:交換控制碼-->
+<s:hidden name="pageBean.vanId"/><!--vanId:網路別-->
+<s:hidden name="pageBean.dlvrDate"/><!--dlvrDate:傳送時間-->
+<s:hidden name="pageBean.dealDate"/><!--dealDate:內部應用系統處理時間-->
+<s:hidden name="pageBean.msgFuncCd"/><!--msgFuncCd:訊息功能代碼-->
+<s:hidden name="pageBean.transTypeCd"/><!--transTypeCd:海空運別-->
+<s:hidden name="pageBean.brokerBoxNo"/><!--brokerBoxNo:報關業者箱號-->
+<s:hidden name="pageBean.brokerBoxSubNo"/><!--brokerBoxSubNo:報關業者箱號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
+<s:hidden name="pageBean.declType"/><!--declType:報單類別-->
+<s:hidden name="pageBean.vslRegNo"/><!--vslRegNo:海關通關號碼-->
+<s:hidden name="pageBean.soNo"/><!--soNo:裝貨單號碼-->
+<s:hidden name="pageBean.mawb"/><!--mawb:託運單主號-->
+<s:hidden name="pageBean.hawb"/><!--hawb:託運單分號-->
+<s:hidden name="pageBean.transportId"/><!--transportId:出口船（機）代碼-->
+<s:hidden name="pageBean.vslName"/><!--vslName:出口船舶名稱-->
+<s:hidden name="pageBean.vslSign"/><!--vslSign:船舶呼號-->
+<s:hidden name="pageBean.voyageFlightNo"/><!--voyageFlightNo:船舶航次（海）/航機班次（空）-->
+<s:hidden name="pageBean.storWareCd"/><!--storWareCd:卸存地點代碼-->
+<s:hidden name="pageBean.carrierAgencyCd"/><!--carrierAgencyCd:運輸業者/代理行代碼-->
+<s:hidden name="pageBean.relPack"/><!--relPack:放行件數-->
+<s:hidden name="pageBean.relPackUnit"/><!--relPackUnit:放行件數單位-->
+<s:hidden name="pageBean.unrelPack"/><!--unrelPack:未放行件數-->
+<s:hidden name="pageBean.notRelPackUnit"/><!--notRelPackUnit:未放行件數單位-->
+<s:hidden name="pageBean.totGrossWeight"/><!--totGrossWeight:總毛重-->
+<s:hidden name="pageBean.extraRqCd1"/><!--extraRqCd1:放行附帶條件代碼1-->
+<s:hidden name="pageBean.extraRqCd2"/><!--extraRqCd2:放行附帶條件代碼2-->
+<s:hidden name="pageBean.extraRqCd3"/><!--extraRqCd3:放行附帶條件代碼3-->
+<s:hidden name="pageBean.extraRqCd4"/><!--extraRqCd4:放行附帶條件代碼4-->
+<s:hidden name="pageBean.extraRqCd5"/><!--extraRqCd5:放行附帶條件代碼5-->
+<s:hidden name="pageBean.extraRqCd6"/><!--extraRqCd6:放行附帶條件代碼6-->
+<s:hidden name="pageBean.extraRqCd7"/><!--extraRqCd7:放行附帶條件代碼7-->
+<s:hidden name="pageBean.extraRqCd8"/><!--extraRqCd8:放行附帶條件代碼8-->
+<s:hidden name="pageBean.extraRqCd9"/><!--extraRqCd9:放行附帶條件代碼9-->
+<s:hidden name="pageBean.relDate"/><!--relDate:放行日期與時間-->
+<s:hidden name="pageBean.cccCode"/><!--cccCode:貨品分類號列-->
+<s:hidden name="pageBean.salBan"/><!--salBan:出口人(貨物輸出人)統一編號-->
+<s:hidden name="pageBean.banId"/><!--banId:身分識別代碼-->
+<s:hidden name="pageBean.salEname"/><!--salEname:出口人(貨物輸出人)英文名稱-->
+<s:hidden name="pageBean.shippingMark"/><!--shippingMark:標記-->
+<s:hidden name="pageBean.clearType"/><!--clearType:通關方式-->
+<s:hidden name="pageBean.prevDeclNo"/><!--prevDeclNo:原報單號碼-->
+
+<%--TRANS_ID:TRANS_ID:transId--%>
+<sjg:gridColumn name="TRANS_ID" index="TRANS_ID" title="%{getText('transId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SENDER_ID:傳送方代碼:senderId--%>
+<sjg:gridColumn name="SENDER_ID" index="SENDER_ID" title="%{getText('senderId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--RECEIVER_ID:接收方代碼:receiverId--%>
+<sjg:gridColumn name="RECEIVER_ID" index="RECEIVER_ID" title="%{getText('receiverId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CC_LIST:副本通知對象:ccList--%>
+<sjg:gridColumn name="CC_LIST" index="CC_LIST" title="%{getText('ccList')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CONTROL_NUMBER:交換控制碼:controlNumber--%>
+<sjg:gridColumn name="CONTROL_NUMBER" index="CONTROL_NUMBER" title="%{getText('controlNumber')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VAN_ID:網路別:vanId--%>
+<sjg:gridColumn name="VAN_ID" index="VAN_ID" title="%{getText('vanId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DLVR_DATE:傳送時間:dlvrDate--%>
+<sjg:gridColumn name="DLVR_DATE" index="DLVR_DATE" title="%{getText('dlvrDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DEAL_DATE:內部應用系統處理時間:dealDate--%>
+<sjg:gridColumn name="DEAL_DATE" index="DEAL_DATE" title="%{getText('dealDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MSG_FUNC_CD:訊息功能代碼:msgFuncCd--%>
+<sjg:gridColumn name="MSG_FUNC_CD" index="MSG_FUNC_CD" title="%{getText('msgFuncCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANS_TYPE_CD:海空運別:transTypeCd--%>
+<sjg:gridColumn name="TRANS_TYPE_CD" index="TRANS_TYPE_CD" title="%{getText('transTypeCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_NO:報關業者箱號:brokerBoxNo--%>
+<sjg:gridColumn name="BROKER_BOX_NO" index="BROKER_BOX_NO" title="%{getText('brokerBoxNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BROKER_BOX_SUB_NO:報關業者箱號:brokerBoxSubNo--%>
+<sjg:gridColumn name="BROKER_BOX_SUB_NO" index="BROKER_BOX_SUB_NO" title="%{getText('brokerBoxSubNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單號碼:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_TYPE:報單類別:declType--%>
+<sjg:gridColumn name="DECL_TYPE" index="DECL_TYPE" title="%{getText('declType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VSL_REG_NO:海關通關號碼:vslRegNo--%>
+<sjg:gridColumn name="VSL_REG_NO" index="VSL_REG_NO" title="%{getText('vslRegNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SO_NO:裝貨單號碼:soNo--%>
+<sjg:gridColumn name="SO_NO" index="SO_NO" title="%{getText('soNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MAWB:託運單主號:mawb--%>
+<sjg:gridColumn name="MAWB" index="MAWB" title="%{getText('mawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--HAWB:託運單分號:hawb--%>
+<sjg:gridColumn name="HAWB" index="HAWB" title="%{getText('hawb')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TRANSPORT_ID:出口船（機）代碼:transportId--%>
+<sjg:gridColumn name="TRANSPORT_ID" index="TRANSPORT_ID" title="%{getText('transportId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VSL_NAME:出口船舶名稱:vslName--%>
+<sjg:gridColumn name="VSL_NAME" index="VSL_NAME" title="%{getText('vslName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VSL_SIGN:船舶呼號:vslSign--%>
+<sjg:gridColumn name="VSL_SIGN" index="VSL_SIGN" title="%{getText('vslSign')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--VOYAGE_FLIGHT_NO:船舶航次（海）/航機班次（空）:voyageFlightNo--%>
+<sjg:gridColumn name="VOYAGE_FLIGHT_NO" index="VOYAGE_FLIGHT_NO" title="%{getText('voyageFlightNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STOR_WARE_CD:卸存地點代碼:storWareCd--%>
+<sjg:gridColumn name="STOR_WARE_CD" index="STOR_WARE_CD" title="%{getText('storWareCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CARRIER_AGENCY_CD:運輸業者/代理行代碼:carrierAgencyCd--%>
+<sjg:gridColumn name="CARRIER_AGENCY_CD" index="CARRIER_AGENCY_CD" title="%{getText('carrierAgencyCd')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_PACK:放行件數:relPack--%>
+<sjg:gridColumn name="REL_PACK" index="REL_PACK" title="%{getText('relPack')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_PACK_UNIT:放行件數單位:relPackUnit--%>
+<sjg:gridColumn name="REL_PACK_UNIT" index="REL_PACK_UNIT" title="%{getText('relPackUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UNREL_PACK:未放行件數:unrelPack--%>
+<sjg:gridColumn name="UNREL_PACK" index="UNREL_PACK" title="%{getText('unrelPack')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--NOT_REL_PACK_UNIT:未放行件數單位:notRelPackUnit--%>
+<sjg:gridColumn name="NOT_REL_PACK_UNIT" index="NOT_REL_PACK_UNIT" title="%{getText('notRelPackUnit')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TOT_GROSS_WEIGHT:總毛重:totGrossWeight--%>
+<sjg:gridColumn name="TOT_GROSS_WEIGHT" index="TOT_GROSS_WEIGHT" title="%{getText('totGrossWeight')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD1:放行附帶條件代碼1:extraRqCd1--%>
+<sjg:gridColumn name="EXTRA_RQ_CD1" index="EXTRA_RQ_CD1" title="%{getText('extraRqCd1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD2:放行附帶條件代碼2:extraRqCd2--%>
+<sjg:gridColumn name="EXTRA_RQ_CD2" index="EXTRA_RQ_CD2" title="%{getText('extraRqCd2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD3:放行附帶條件代碼3:extraRqCd3--%>
+<sjg:gridColumn name="EXTRA_RQ_CD3" index="EXTRA_RQ_CD3" title="%{getText('extraRqCd3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD4:放行附帶條件代碼4:extraRqCd4--%>
+<sjg:gridColumn name="EXTRA_RQ_CD4" index="EXTRA_RQ_CD4" title="%{getText('extraRqCd4')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD5:放行附帶條件代碼5:extraRqCd5--%>
+<sjg:gridColumn name="EXTRA_RQ_CD5" index="EXTRA_RQ_CD5" title="%{getText('extraRqCd5')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD6:放行附帶條件代碼6:extraRqCd6--%>
+<sjg:gridColumn name="EXTRA_RQ_CD6" index="EXTRA_RQ_CD6" title="%{getText('extraRqCd6')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD7:放行附帶條件代碼7:extraRqCd7--%>
+<sjg:gridColumn name="EXTRA_RQ_CD7" index="EXTRA_RQ_CD7" title="%{getText('extraRqCd7')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD8:放行附帶條件代碼8:extraRqCd8--%>
+<sjg:gridColumn name="EXTRA_RQ_CD8" index="EXTRA_RQ_CD8" title="%{getText('extraRqCd8')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--EXTRA_RQ_CD9:放行附帶條件代碼9:extraRqCd9--%>
+<sjg:gridColumn name="EXTRA_RQ_CD9" index="EXTRA_RQ_CD9" title="%{getText('extraRqCd9')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--REL_DATE:放行日期與時間:relDate--%>
+<sjg:gridColumn name="REL_DATE" index="REL_DATE" title="%{getText('relDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CCC_CODE:貨品分類號列:cccCode--%>
+<sjg:gridColumn name="CCC_CODE" index="CCC_CODE" title="%{getText('cccCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_BAN:出口人(貨物輸出人)統一編號:salBan--%>
+<sjg:gridColumn name="SAL_BAN" index="SAL_BAN" title="%{getText('salBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BAN_ID:身分識別代碼:banId--%>
+<sjg:gridColumn name="BAN_ID" index="BAN_ID" title="%{getText('banId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SAL_ENAME:出口人(貨物輸出人)英文名稱:salEname--%>
+<sjg:gridColumn name="SAL_ENAME" index="SAL_ENAME" title="%{getText('salEname')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SHIPPING_MARK:標記:shippingMark--%>
+<sjg:gridColumn name="SHIPPING_MARK" index="SHIPPING_MARK" title="%{getText('shippingMark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CLEAR_TYPE:通關方式:clearType--%>
+<sjg:gridColumn name="CLEAR_TYPE" index="CLEAR_TYPE" title="%{getText('clearType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PREV_DECL_NO:原報單號碼:prevDeclNo--%>
+<sjg:gridColumn name="PREV_DECL_NO" index="PREV_DECL_NO" title="%{getText('prevDeclNo')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TRANS_ID
+,A.SENDER_ID
+,A.RECEIVER_ID
+,A.CC_LIST
+,A.CONTROL_NUMBER
+,A.VAN_ID
+,A.DLVR_DATE
+,A.DEAL_DATE
+,A.MSG_FUNC_CD
+,A.TRANS_TYPE_CD
+,A.BROKER_BOX_NO
+,A.BROKER_BOX_SUB_NO
+,A.DECL_NO
+,A.DECL_TYPE
+,A.VSL_REG_NO
+,A.SO_NO
+,A.MAWB
+,A.HAWB
+,A.TRANSPORT_ID
+,A.VSL_NAME
+,A.VSL_SIGN
+,A.VOYAGE_FLIGHT_NO
+,A.STOR_WARE_CD
+,A.CARRIER_AGENCY_CD
+,A.REL_PACK
+,A.REL_PACK_UNIT
+,A.UNREL_PACK
+,A.NOT_REL_PACK_UNIT
+,A.TOT_GROSS_WEIGHT
+,A.EXTRA_RQ_CD1
+,A.EXTRA_RQ_CD2
+,A.EXTRA_RQ_CD3
+,A.EXTRA_RQ_CD4
+,A.EXTRA_RQ_CD5
+,A.EXTRA_RQ_CD6
+,A.EXTRA_RQ_CD7
+,A.EXTRA_RQ_CD8
+,A.EXTRA_RQ_CD9
+,A.REL_DATE
+,A.CCC_CODE
+,A.SAL_BAN
+,A.BAN_ID
+,A.SAL_ENAME
+,A.SHIPPING_MARK
+,A.CLEAR_TYPE
+,A.PREV_DECL_NO
+
+<condition key="TRANS_ID" ignoreEmpty="true">TRANS_ID = ${TRANS_ID}</condition>
+<condition key="SENDER_ID" ignoreEmpty="true">SENDER_ID = ${SENDER_ID}</condition>
+<condition key="RECEIVER_ID" ignoreEmpty="true">RECEIVER_ID = ${RECEIVER_ID}</condition>
+<condition key="CC_LIST" ignoreEmpty="true">CC_LIST = ${CC_LIST}</condition>
+<condition key="CONTROL_NUMBER" ignoreEmpty="true">CONTROL_NUMBER = ${CONTROL_NUMBER}</condition>
+<condition key="VAN_ID" ignoreEmpty="true">VAN_ID = ${VAN_ID}</condition>
+<condition key="DLVR_DATE" ignoreEmpty="true">DLVR_DATE = ${DLVR_DATE}</condition>
+<condition key="DEAL_DATE" ignoreEmpty="true">DEAL_DATE = ${DEAL_DATE}</condition>
+<condition key="MSG_FUNC_CD" ignoreEmpty="true">MSG_FUNC_CD = ${MSG_FUNC_CD}</condition>
+<condition key="TRANS_TYPE_CD" ignoreEmpty="true">TRANS_TYPE_CD = ${TRANS_TYPE_CD}</condition>
+<condition key="BROKER_BOX_NO" ignoreEmpty="true">BROKER_BOX_NO = ${BROKER_BOX_NO}</condition>
+<condition key="BROKER_BOX_SUB_NO" ignoreEmpty="true">BROKER_BOX_SUB_NO = ${BROKER_BOX_SUB_NO}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="DECL_TYPE" ignoreEmpty="true">DECL_TYPE = ${DECL_TYPE}</condition>
+<condition key="VSL_REG_NO" ignoreEmpty="true">VSL_REG_NO = ${VSL_REG_NO}</condition>
+<condition key="SO_NO" ignoreEmpty="true">SO_NO = ${SO_NO}</condition>
+<condition key="MAWB" ignoreEmpty="true">MAWB = ${MAWB}</condition>
+<condition key="HAWB" ignoreEmpty="true">HAWB = ${HAWB}</condition>
+<condition key="TRANSPORT_ID" ignoreEmpty="true">TRANSPORT_ID = ${TRANSPORT_ID}</condition>
+<condition key="VSL_NAME" ignoreEmpty="true">VSL_NAME = ${VSL_NAME}</condition>
+<condition key="VSL_SIGN" ignoreEmpty="true">VSL_SIGN = ${VSL_SIGN}</condition>
+<condition key="VOYAGE_FLIGHT_NO" ignoreEmpty="true">VOYAGE_FLIGHT_NO = ${VOYAGE_FLIGHT_NO}</condition>
+<condition key="STOR_WARE_CD" ignoreEmpty="true">STOR_WARE_CD = ${STOR_WARE_CD}</condition>
+<condition key="CARRIER_AGENCY_CD" ignoreEmpty="true">CARRIER_AGENCY_CD = ${CARRIER_AGENCY_CD}</condition>
+<condition key="REL_PACK" ignoreEmpty="true">REL_PACK = ${REL_PACK}</condition>
+<condition key="REL_PACK_UNIT" ignoreEmpty="true">REL_PACK_UNIT = ${REL_PACK_UNIT}</condition>
+<condition key="UNREL_PACK" ignoreEmpty="true">UNREL_PACK = ${UNREL_PACK}</condition>
+<condition key="NOT_REL_PACK_UNIT" ignoreEmpty="true">NOT_REL_PACK_UNIT = ${NOT_REL_PACK_UNIT}</condition>
+<condition key="TOT_GROSS_WEIGHT" ignoreEmpty="true">TOT_GROSS_WEIGHT = ${TOT_GROSS_WEIGHT}</condition>
+<condition key="EXTRA_RQ_CD1" ignoreEmpty="true">EXTRA_RQ_CD1 = ${EXTRA_RQ_CD1}</condition>
+<condition key="EXTRA_RQ_CD2" ignoreEmpty="true">EXTRA_RQ_CD2 = ${EXTRA_RQ_CD2}</condition>
+<condition key="EXTRA_RQ_CD3" ignoreEmpty="true">EXTRA_RQ_CD3 = ${EXTRA_RQ_CD3}</condition>
+<condition key="EXTRA_RQ_CD4" ignoreEmpty="true">EXTRA_RQ_CD4 = ${EXTRA_RQ_CD4}</condition>
+<condition key="EXTRA_RQ_CD5" ignoreEmpty="true">EXTRA_RQ_CD5 = ${EXTRA_RQ_CD5}</condition>
+<condition key="EXTRA_RQ_CD6" ignoreEmpty="true">EXTRA_RQ_CD6 = ${EXTRA_RQ_CD6}</condition>
+<condition key="EXTRA_RQ_CD7" ignoreEmpty="true">EXTRA_RQ_CD7 = ${EXTRA_RQ_CD7}</condition>
+<condition key="EXTRA_RQ_CD8" ignoreEmpty="true">EXTRA_RQ_CD8 = ${EXTRA_RQ_CD8}</condition>
+<condition key="EXTRA_RQ_CD9" ignoreEmpty="true">EXTRA_RQ_CD9 = ${EXTRA_RQ_CD9}</condition>
+<condition key="REL_DATE" ignoreEmpty="true">REL_DATE = ${REL_DATE}</condition>
+<condition key="CCC_CODE" ignoreEmpty="true">CCC_CODE = ${CCC_CODE}</condition>
+<condition key="SAL_BAN" ignoreEmpty="true">SAL_BAN = ${SAL_BAN}</condition>
+<condition key="BAN_ID" ignoreEmpty="true">BAN_ID = ${BAN_ID}</condition>
+<condition key="SAL_ENAME" ignoreEmpty="true">SAL_ENAME = ${SAL_ENAME}</condition>
+<condition key="SHIPPING_MARK" ignoreEmpty="true">SHIPPING_MARK = ${SHIPPING_MARK}</condition>
+<condition key="CLEAR_TYPE" ignoreEmpty="true">CLEAR_TYPE = ${CLEAR_TYPE}</condition>
+<condition key="PREV_DECL_NO" ignoreEmpty="true">PREV_DECL_NO = ${PREV_DECL_NO}</condition>
+
+<condition key="TRANS_ID_S" ignoreEmpty="true">TRANS_ID >= ${TRANS_ID_S}</condition><condition key="TRANS_ID_E" ignoreEmpty="true">${TRANS_ID_E} >= TRANS_ID</condition><condition key="TRANS_ID_L" ignoreEmpty="true">TRANS_ID like ${TRANS_ID_L}</condition>
+<condition key="SENDER_ID_S" ignoreEmpty="true">SENDER_ID >= ${SENDER_ID_S}</condition><condition key="SENDER_ID_E" ignoreEmpty="true">${SENDER_ID_E} >= SENDER_ID</condition><condition key="SENDER_ID_L" ignoreEmpty="true">SENDER_ID like ${SENDER_ID_L}</condition>
+<condition key="RECEIVER_ID_S" ignoreEmpty="true">RECEIVER_ID >= ${RECEIVER_ID_S}</condition><condition key="RECEIVER_ID_E" ignoreEmpty="true">${RECEIVER_ID_E} >= RECEIVER_ID</condition><condition key="RECEIVER_ID_L" ignoreEmpty="true">RECEIVER_ID like ${RECEIVER_ID_L}</condition>
+<condition key="CC_LIST_S" ignoreEmpty="true">CC_LIST >= ${CC_LIST_S}</condition><condition key="CC_LIST_E" ignoreEmpty="true">${CC_LIST_E} >= CC_LIST</condition><condition key="CC_LIST_L" ignoreEmpty="true">CC_LIST like ${CC_LIST_L}</condition>
+<condition key="CONTROL_NUMBER_S" ignoreEmpty="true">CONTROL_NUMBER >= ${CONTROL_NUMBER_S}</condition><condition key="CONTROL_NUMBER_E" ignoreEmpty="true">${CONTROL_NUMBER_E} >= CONTROL_NUMBER</condition><condition key="CONTROL_NUMBER_L" ignoreEmpty="true">CONTROL_NUMBER like ${CONTROL_NUMBER_L}</condition>
+<condition key="VAN_ID_S" ignoreEmpty="true">VAN_ID >= ${VAN_ID_S}</condition><condition key="VAN_ID_E" ignoreEmpty="true">${VAN_ID_E} >= VAN_ID</condition><condition key="VAN_ID_L" ignoreEmpty="true">VAN_ID like ${VAN_ID_L}</condition>
+<condition key="DLVR_DATE_S" ignoreEmpty="true">DLVR_DATE >= ${DLVR_DATE_S}</condition><condition key="DLVR_DATE_E" ignoreEmpty="true">${DLVR_DATE_E} >= DLVR_DATE</condition><condition key="DLVR_DATE_L" ignoreEmpty="true">DLVR_DATE like ${DLVR_DATE_L}</condition>
+<condition key="DEAL_DATE_S" ignoreEmpty="true">DEAL_DATE >= ${DEAL_DATE_S}</condition><condition key="DEAL_DATE_E" ignoreEmpty="true">${DEAL_DATE_E} >= DEAL_DATE</condition><condition key="DEAL_DATE_L" ignoreEmpty="true">DEAL_DATE like ${DEAL_DATE_L}</condition>
+<condition key="MSG_FUNC_CD_S" ignoreEmpty="true">MSG_FUNC_CD >= ${MSG_FUNC_CD_S}</condition><condition key="MSG_FUNC_CD_E" ignoreEmpty="true">${MSG_FUNC_CD_E} >= MSG_FUNC_CD</condition><condition key="MSG_FUNC_CD_L" ignoreEmpty="true">MSG_FUNC_CD like ${MSG_FUNC_CD_L}</condition>
+<condition key="TRANS_TYPE_CD_S" ignoreEmpty="true">TRANS_TYPE_CD >= ${TRANS_TYPE_CD_S}</condition><condition key="TRANS_TYPE_CD_E" ignoreEmpty="true">${TRANS_TYPE_CD_E} >= TRANS_TYPE_CD</condition><condition key="TRANS_TYPE_CD_L" ignoreEmpty="true">TRANS_TYPE_CD like ${TRANS_TYPE_CD_L}</condition>
+<condition key="BROKER_BOX_NO_S" ignoreEmpty="true">BROKER_BOX_NO >= ${BROKER_BOX_NO_S}</condition><condition key="BROKER_BOX_NO_E" ignoreEmpty="true">${BROKER_BOX_NO_E} >= BROKER_BOX_NO</condition><condition key="BROKER_BOX_NO_L" ignoreEmpty="true">BROKER_BOX_NO like ${BROKER_BOX_NO_L}</condition>
+<condition key="BROKER_BOX_SUB_NO_S" ignoreEmpty="true">BROKER_BOX_SUB_NO >= ${BROKER_BOX_SUB_NO_S}</condition><condition key="BROKER_BOX_SUB_NO_E" ignoreEmpty="true">${BROKER_BOX_SUB_NO_E} >= BROKER_BOX_SUB_NO</condition><condition key="BROKER_BOX_SUB_NO_L" ignoreEmpty="true">BROKER_BOX_SUB_NO like ${BROKER_BOX_SUB_NO_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="DECL_TYPE_S" ignoreEmpty="true">DECL_TYPE >= ${DECL_TYPE_S}</condition><condition key="DECL_TYPE_E" ignoreEmpty="true">${DECL_TYPE_E} >= DECL_TYPE</condition><condition key="DECL_TYPE_L" ignoreEmpty="true">DECL_TYPE like ${DECL_TYPE_L}</condition>
+<condition key="VSL_REG_NO_S" ignoreEmpty="true">VSL_REG_NO >= ${VSL_REG_NO_S}</condition><condition key="VSL_REG_NO_E" ignoreEmpty="true">${VSL_REG_NO_E} >= VSL_REG_NO</condition><condition key="VSL_REG_NO_L" ignoreEmpty="true">VSL_REG_NO like ${VSL_REG_NO_L}</condition>
+<condition key="SO_NO_S" ignoreEmpty="true">SO_NO >= ${SO_NO_S}</condition><condition key="SO_NO_E" ignoreEmpty="true">${SO_NO_E} >= SO_NO</condition><condition key="SO_NO_L" ignoreEmpty="true">SO_NO like ${SO_NO_L}</condition>
+<condition key="MAWB_S" ignoreEmpty="true">MAWB >= ${MAWB_S}</condition><condition key="MAWB_E" ignoreEmpty="true">${MAWB_E} >= MAWB</condition><condition key="MAWB_L" ignoreEmpty="true">MAWB like ${MAWB_L}</condition>
+<condition key="HAWB_S" ignoreEmpty="true">HAWB >= ${HAWB_S}</condition><condition key="HAWB_E" ignoreEmpty="true">${HAWB_E} >= HAWB</condition><condition key="HAWB_L" ignoreEmpty="true">HAWB like ${HAWB_L}</condition>
+<condition key="TRANSPORT_ID_S" ignoreEmpty="true">TRANSPORT_ID >= ${TRANSPORT_ID_S}</condition><condition key="TRANSPORT_ID_E" ignoreEmpty="true">${TRANSPORT_ID_E} >= TRANSPORT_ID</condition><condition key="TRANSPORT_ID_L" ignoreEmpty="true">TRANSPORT_ID like ${TRANSPORT_ID_L}</condition>
+<condition key="VSL_NAME_S" ignoreEmpty="true">VSL_NAME >= ${VSL_NAME_S}</condition><condition key="VSL_NAME_E" ignoreEmpty="true">${VSL_NAME_E} >= VSL_NAME</condition><condition key="VSL_NAME_L" ignoreEmpty="true">VSL_NAME like ${VSL_NAME_L}</condition>
+<condition key="VSL_SIGN_S" ignoreEmpty="true">VSL_SIGN >= ${VSL_SIGN_S}</condition><condition key="VSL_SIGN_E" ignoreEmpty="true">${VSL_SIGN_E} >= VSL_SIGN</condition><condition key="VSL_SIGN_L" ignoreEmpty="true">VSL_SIGN like ${VSL_SIGN_L}</condition>
+<condition key="VOYAGE_FLIGHT_NO_S" ignoreEmpty="true">VOYAGE_FLIGHT_NO >= ${VOYAGE_FLIGHT_NO_S}</condition><condition key="VOYAGE_FLIGHT_NO_E" ignoreEmpty="true">${VOYAGE_FLIGHT_NO_E} >= VOYAGE_FLIGHT_NO</condition><condition key="VOYAGE_FLIGHT_NO_L" ignoreEmpty="true">VOYAGE_FLIGHT_NO like ${VOYAGE_FLIGHT_NO_L}</condition>
+<condition key="STOR_WARE_CD_S" ignoreEmpty="true">STOR_WARE_CD >= ${STOR_WARE_CD_S}</condition><condition key="STOR_WARE_CD_E" ignoreEmpty="true">${STOR_WARE_CD_E} >= STOR_WARE_CD</condition><condition key="STOR_WARE_CD_L" ignoreEmpty="true">STOR_WARE_CD like ${STOR_WARE_CD_L}</condition>
+<condition key="CARRIER_AGENCY_CD_S" ignoreEmpty="true">CARRIER_AGENCY_CD >= ${CARRIER_AGENCY_CD_S}</condition><condition key="CARRIER_AGENCY_CD_E" ignoreEmpty="true">${CARRIER_AGENCY_CD_E} >= CARRIER_AGENCY_CD</condition><condition key="CARRIER_AGENCY_CD_L" ignoreEmpty="true">CARRIER_AGENCY_CD like ${CARRIER_AGENCY_CD_L}</condition>
+<condition key="REL_PACK_S" ignoreEmpty="true">REL_PACK >= ${REL_PACK_S}</condition><condition key="REL_PACK_E" ignoreEmpty="true">${REL_PACK_E} >= REL_PACK</condition><condition key="REL_PACK_L" ignoreEmpty="true">REL_PACK like ${REL_PACK_L}</condition>
+<condition key="REL_PACK_UNIT_S" ignoreEmpty="true">REL_PACK_UNIT >= ${REL_PACK_UNIT_S}</condition><condition key="REL_PACK_UNIT_E" ignoreEmpty="true">${REL_PACK_UNIT_E} >= REL_PACK_UNIT</condition><condition key="REL_PACK_UNIT_L" ignoreEmpty="true">REL_PACK_UNIT like ${REL_PACK_UNIT_L}</condition>
+<condition key="UNREL_PACK_S" ignoreEmpty="true">UNREL_PACK >= ${UNREL_PACK_S}</condition><condition key="UNREL_PACK_E" ignoreEmpty="true">${UNREL_PACK_E} >= UNREL_PACK</condition><condition key="UNREL_PACK_L" ignoreEmpty="true">UNREL_PACK like ${UNREL_PACK_L}</condition>
+<condition key="NOT_REL_PACK_UNIT_S" ignoreEmpty="true">NOT_REL_PACK_UNIT >= ${NOT_REL_PACK_UNIT_S}</condition><condition key="NOT_REL_PACK_UNIT_E" ignoreEmpty="true">${NOT_REL_PACK_UNIT_E} >= NOT_REL_PACK_UNIT</condition><condition key="NOT_REL_PACK_UNIT_L" ignoreEmpty="true">NOT_REL_PACK_UNIT like ${NOT_REL_PACK_UNIT_L}</condition>
+<condition key="TOT_GROSS_WEIGHT_S" ignoreEmpty="true">TOT_GROSS_WEIGHT >= ${TOT_GROSS_WEIGHT_S}</condition><condition key="TOT_GROSS_WEIGHT_E" ignoreEmpty="true">${TOT_GROSS_WEIGHT_E} >= TOT_GROSS_WEIGHT</condition><condition key="TOT_GROSS_WEIGHT_L" ignoreEmpty="true">TOT_GROSS_WEIGHT like ${TOT_GROSS_WEIGHT_L}</condition>
+<condition key="EXTRA_RQ_CD1_S" ignoreEmpty="true">EXTRA_RQ_CD1 >= ${EXTRA_RQ_CD1_S}</condition><condition key="EXTRA_RQ_CD1_E" ignoreEmpty="true">${EXTRA_RQ_CD1_E} >= EXTRA_RQ_CD1</condition><condition key="EXTRA_RQ_CD1_L" ignoreEmpty="true">EXTRA_RQ_CD1 like ${EXTRA_RQ_CD1_L}</condition>
+<condition key="EXTRA_RQ_CD2_S" ignoreEmpty="true">EXTRA_RQ_CD2 >= ${EXTRA_RQ_CD2_S}</condition><condition key="EXTRA_RQ_CD2_E" ignoreEmpty="true">${EXTRA_RQ_CD2_E} >= EXTRA_RQ_CD2</condition><condition key="EXTRA_RQ_CD2_L" ignoreEmpty="true">EXTRA_RQ_CD2 like ${EXTRA_RQ_CD2_L}</condition>
+<condition key="EXTRA_RQ_CD3_S" ignoreEmpty="true">EXTRA_RQ_CD3 >= ${EXTRA_RQ_CD3_S}</condition><condition key="EXTRA_RQ_CD3_E" ignoreEmpty="true">${EXTRA_RQ_CD3_E} >= EXTRA_RQ_CD3</condition><condition key="EXTRA_RQ_CD3_L" ignoreEmpty="true">EXTRA_RQ_CD3 like ${EXTRA_RQ_CD3_L}</condition>
+<condition key="EXTRA_RQ_CD4_S" ignoreEmpty="true">EXTRA_RQ_CD4 >= ${EXTRA_RQ_CD4_S}</condition><condition key="EXTRA_RQ_CD4_E" ignoreEmpty="true">${EXTRA_RQ_CD4_E} >= EXTRA_RQ_CD4</condition><condition key="EXTRA_RQ_CD4_L" ignoreEmpty="true">EXTRA_RQ_CD4 like ${EXTRA_RQ_CD4_L}</condition>
+<condition key="EXTRA_RQ_CD5_S" ignoreEmpty="true">EXTRA_RQ_CD5 >= ${EXTRA_RQ_CD5_S}</condition><condition key="EXTRA_RQ_CD5_E" ignoreEmpty="true">${EXTRA_RQ_CD5_E} >= EXTRA_RQ_CD5</condition><condition key="EXTRA_RQ_CD5_L" ignoreEmpty="true">EXTRA_RQ_CD5 like ${EXTRA_RQ_CD5_L}</condition>
+<condition key="EXTRA_RQ_CD6_S" ignoreEmpty="true">EXTRA_RQ_CD6 >= ${EXTRA_RQ_CD6_S}</condition><condition key="EXTRA_RQ_CD6_E" ignoreEmpty="true">${EXTRA_RQ_CD6_E} >= EXTRA_RQ_CD6</condition><condition key="EXTRA_RQ_CD6_L" ignoreEmpty="true">EXTRA_RQ_CD6 like ${EXTRA_RQ_CD6_L}</condition>
+<condition key="EXTRA_RQ_CD7_S" ignoreEmpty="true">EXTRA_RQ_CD7 >= ${EXTRA_RQ_CD7_S}</condition><condition key="EXTRA_RQ_CD7_E" ignoreEmpty="true">${EXTRA_RQ_CD7_E} >= EXTRA_RQ_CD7</condition><condition key="EXTRA_RQ_CD7_L" ignoreEmpty="true">EXTRA_RQ_CD7 like ${EXTRA_RQ_CD7_L}</condition>
+<condition key="EXTRA_RQ_CD8_S" ignoreEmpty="true">EXTRA_RQ_CD8 >= ${EXTRA_RQ_CD8_S}</condition><condition key="EXTRA_RQ_CD8_E" ignoreEmpty="true">${EXTRA_RQ_CD8_E} >= EXTRA_RQ_CD8</condition><condition key="EXTRA_RQ_CD8_L" ignoreEmpty="true">EXTRA_RQ_CD8 like ${EXTRA_RQ_CD8_L}</condition>
+<condition key="EXTRA_RQ_CD9_S" ignoreEmpty="true">EXTRA_RQ_CD9 >= ${EXTRA_RQ_CD9_S}</condition><condition key="EXTRA_RQ_CD9_E" ignoreEmpty="true">${EXTRA_RQ_CD9_E} >= EXTRA_RQ_CD9</condition><condition key="EXTRA_RQ_CD9_L" ignoreEmpty="true">EXTRA_RQ_CD9 like ${EXTRA_RQ_CD9_L}</condition>
+<condition key="REL_DATE_S" ignoreEmpty="true">REL_DATE >= ${REL_DATE_S}</condition><condition key="REL_DATE_E" ignoreEmpty="true">${REL_DATE_E} >= REL_DATE</condition><condition key="REL_DATE_L" ignoreEmpty="true">REL_DATE like ${REL_DATE_L}</condition>
+<condition key="CCC_CODE_S" ignoreEmpty="true">CCC_CODE >= ${CCC_CODE_S}</condition><condition key="CCC_CODE_E" ignoreEmpty="true">${CCC_CODE_E} >= CCC_CODE</condition><condition key="CCC_CODE_L" ignoreEmpty="true">CCC_CODE like ${CCC_CODE_L}</condition>
+<condition key="SAL_BAN_S" ignoreEmpty="true">SAL_BAN >= ${SAL_BAN_S}</condition><condition key="SAL_BAN_E" ignoreEmpty="true">${SAL_BAN_E} >= SAL_BAN</condition><condition key="SAL_BAN_L" ignoreEmpty="true">SAL_BAN like ${SAL_BAN_L}</condition>
+<condition key="BAN_ID_S" ignoreEmpty="true">BAN_ID >= ${BAN_ID_S}</condition><condition key="BAN_ID_E" ignoreEmpty="true">${BAN_ID_E} >= BAN_ID</condition><condition key="BAN_ID_L" ignoreEmpty="true">BAN_ID like ${BAN_ID_L}</condition>
+<condition key="SAL_ENAME_S" ignoreEmpty="true">SAL_ENAME >= ${SAL_ENAME_S}</condition><condition key="SAL_ENAME_E" ignoreEmpty="true">${SAL_ENAME_E} >= SAL_ENAME</condition><condition key="SAL_ENAME_L" ignoreEmpty="true">SAL_ENAME like ${SAL_ENAME_L}</condition>
+<condition key="SHIPPING_MARK_S" ignoreEmpty="true">SHIPPING_MARK >= ${SHIPPING_MARK_S}</condition><condition key="SHIPPING_MARK_E" ignoreEmpty="true">${SHIPPING_MARK_E} >= SHIPPING_MARK</condition><condition key="SHIPPING_MARK_L" ignoreEmpty="true">SHIPPING_MARK like ${SHIPPING_MARK_L}</condition>
+<condition key="CLEAR_TYPE_S" ignoreEmpty="true">CLEAR_TYPE >= ${CLEAR_TYPE_S}</condition><condition key="CLEAR_TYPE_E" ignoreEmpty="true">${CLEAR_TYPE_E} >= CLEAR_TYPE</condition><condition key="CLEAR_TYPE_L" ignoreEmpty="true">CLEAR_TYPE like ${CLEAR_TYPE_L}</condition>
+<condition key="PREV_DECL_NO_S" ignoreEmpty="true">PREV_DECL_NO >= ${PREV_DECL_NO_S}</condition><condition key="PREV_DECL_NO_E" ignoreEmpty="true">${PREV_DECL_NO_E} >= PREV_DECL_NO</condition><condition key="PREV_DECL_NO_L" ignoreEmpty="true">PREV_DECL_NO like ${PREV_DECL_NO_L}</condition>
+
+<field key="TRANS_ID" name="TRANS_ID" ignoreEmpty="true"/>
+<field key="SENDER_ID" name="SENDER_ID" ignoreEmpty="true"/>
+<field key="RECEIVER_ID" name="RECEIVER_ID" ignoreEmpty="true"/>
+<field key="CC_LIST" name="CC_LIST" ignoreEmpty="true"/>
+<field key="CONTROL_NUMBER" name="CONTROL_NUMBER" ignoreEmpty="true"/>
+<field key="VAN_ID" name="VAN_ID" ignoreEmpty="true"/>
+<field key="DLVR_DATE" name="DLVR_DATE" ignoreEmpty="true"/>
+<field key="DEAL_DATE" name="DEAL_DATE" ignoreEmpty="true"/>
+<field key="MSG_FUNC_CD" name="MSG_FUNC_CD" ignoreEmpty="true"/>
+<field key="TRANS_TYPE_CD" name="TRANS_TYPE_CD" ignoreEmpty="true"/>
+<field key="BROKER_BOX_NO" name="BROKER_BOX_NO" ignoreEmpty="true"/>
+<field key="BROKER_BOX_SUB_NO" name="BROKER_BOX_SUB_NO" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="DECL_TYPE" name="DECL_TYPE" ignoreEmpty="true"/>
+<field key="VSL_REG_NO" name="VSL_REG_NO" ignoreEmpty="true"/>
+<field key="SO_NO" name="SO_NO" ignoreEmpty="true"/>
+<field key="MAWB" name="MAWB" ignoreEmpty="true"/>
+<field key="HAWB" name="HAWB" ignoreEmpty="true"/>
+<field key="TRANSPORT_ID" name="TRANSPORT_ID" ignoreEmpty="true"/>
+<field key="VSL_NAME" name="VSL_NAME" ignoreEmpty="true"/>
+<field key="VSL_SIGN" name="VSL_SIGN" ignoreEmpty="true"/>
+<field key="VOYAGE_FLIGHT_NO" name="VOYAGE_FLIGHT_NO" ignoreEmpty="true"/>
+<field key="STOR_WARE_CD" name="STOR_WARE_CD" ignoreEmpty="true"/>
+<field key="CARRIER_AGENCY_CD" name="CARRIER_AGENCY_CD" ignoreEmpty="true"/>
+<field key="REL_PACK" name="REL_PACK" ignoreEmpty="true"/>
+<field key="REL_PACK_UNIT" name="REL_PACK_UNIT" ignoreEmpty="true"/>
+<field key="UNREL_PACK" name="UNREL_PACK" ignoreEmpty="true"/>
+<field key="NOT_REL_PACK_UNIT" name="NOT_REL_PACK_UNIT" ignoreEmpty="true"/>
+<field key="TOT_GROSS_WEIGHT" name="TOT_GROSS_WEIGHT" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD1" name="EXTRA_RQ_CD1" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD2" name="EXTRA_RQ_CD2" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD3" name="EXTRA_RQ_CD3" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD4" name="EXTRA_RQ_CD4" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD5" name="EXTRA_RQ_CD5" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD6" name="EXTRA_RQ_CD6" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD7" name="EXTRA_RQ_CD7" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD8" name="EXTRA_RQ_CD8" ignoreEmpty="true"/>
+<field key="EXTRA_RQ_CD9" name="EXTRA_RQ_CD9" ignoreEmpty="true"/>
+<field key="REL_DATE" name="REL_DATE" ignoreEmpty="true"/>
+<field key="CCC_CODE" name="CCC_CODE" ignoreEmpty="true"/>
+<field key="SAL_BAN" name="SAL_BAN" ignoreEmpty="true"/>
+<field key="BAN_ID" name="BAN_ID" ignoreEmpty="true"/>
+<field key="SAL_ENAME" name="SAL_ENAME" ignoreEmpty="true"/>
+<field key="SHIPPING_MARK" name="SHIPPING_MARK" ignoreEmpty="true"/>
+<field key="CLEAR_TYPE" name="CLEAR_TYPE" ignoreEmpty="true"/>
+<field key="PREV_DECL_NO" name="PREV_DECL_NO" ignoreEmpty="true"/>
+
+$('#pageBean_transId').attr('value',rowData.TRANS_ID);
+$('#pageBean_senderId').attr('value',rowData.SENDER_ID);
+$('#pageBean_receiverId').attr('value',rowData.RECEIVER_ID);
+$('#pageBean_ccList').attr('value',rowData.CC_LIST);
+$('#pageBean_controlNumber').attr('value',rowData.CONTROL_NUMBER);
+$('#pageBean_vanId').attr('value',rowData.VAN_ID);
+$('#pageBean_dlvrDate').attr('value',rowData.DLVR_DATE);
+$('#pageBean_dealDate').attr('value',rowData.DEAL_DATE);
+$('#pageBean_msgFuncCd').attr('value',rowData.MSG_FUNC_CD);
+$('#pageBean_transTypeCd').attr('value',rowData.TRANS_TYPE_CD);
+$('#pageBean_brokerBoxNo').attr('value',rowData.BROKER_BOX_NO);
+$('#pageBean_brokerBoxSubNo').attr('value',rowData.BROKER_BOX_SUB_NO);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_declType').attr('value',rowData.DECL_TYPE);
+$('#pageBean_vslRegNo').attr('value',rowData.VSL_REG_NO);
+$('#pageBean_soNo').attr('value',rowData.SO_NO);
+$('#pageBean_mawb').attr('value',rowData.MAWB);
+$('#pageBean_hawb').attr('value',rowData.HAWB);
+$('#pageBean_transportId').attr('value',rowData.TRANSPORT_ID);
+$('#pageBean_vslName').attr('value',rowData.VSL_NAME);
+$('#pageBean_vslSign').attr('value',rowData.VSL_SIGN);
+$('#pageBean_voyageFlightNo').attr('value',rowData.VOYAGE_FLIGHT_NO);
+$('#pageBean_storWareCd').attr('value',rowData.STOR_WARE_CD);
+$('#pageBean_carrierAgencyCd').attr('value',rowData.CARRIER_AGENCY_CD);
+$('#pageBean_relPack').attr('value',rowData.REL_PACK);
+$('#pageBean_relPackUnit').attr('value',rowData.REL_PACK_UNIT);
+$('#pageBean_unrelPack').attr('value',rowData.UNREL_PACK);
+$('#pageBean_notRelPackUnit').attr('value',rowData.NOT_REL_PACK_UNIT);
+$('#pageBean_totGrossWeight').attr('value',rowData.TOT_GROSS_WEIGHT);
+$('#pageBean_extraRqCd1').attr('value',rowData.EXTRA_RQ_CD1);
+$('#pageBean_extraRqCd2').attr('value',rowData.EXTRA_RQ_CD2);
+$('#pageBean_extraRqCd3').attr('value',rowData.EXTRA_RQ_CD3);
+$('#pageBean_extraRqCd4').attr('value',rowData.EXTRA_RQ_CD4);
+$('#pageBean_extraRqCd5').attr('value',rowData.EXTRA_RQ_CD5);
+$('#pageBean_extraRqCd6').attr('value',rowData.EXTRA_RQ_CD6);
+$('#pageBean_extraRqCd7').attr('value',rowData.EXTRA_RQ_CD7);
+$('#pageBean_extraRqCd8').attr('value',rowData.EXTRA_RQ_CD8);
+$('#pageBean_extraRqCd9').attr('value',rowData.EXTRA_RQ_CD9);
+$('#pageBean_relDate').attr('value',rowData.REL_DATE);
+$('#pageBean_cccCode').attr('value',rowData.CCC_CODE);
+$('#pageBean_salBan').attr('value',rowData.SAL_BAN);
+$('#pageBean_banId').attr('value',rowData.BAN_ID);
+$('#pageBean_salEname').attr('value',rowData.SAL_ENAME);
+$('#pageBean_shippingMark').attr('value',rowData.SHIPPING_MARK);
+$('#pageBean_clearType').attr('value',rowData.CLEAR_TYPE);
+$('#pageBean_prevDeclNo').attr('value',rowData.PREV_DECL_NO);
+
+$('#pageBean_transId').attr("value", "");
+$('#pageBean_senderId').attr("value", "");
+$('#pageBean_receiverId').attr("value", "");
+$('#pageBean_ccList').attr("value", "");
+$('#pageBean_controlNumber').attr("value", "");
+$('#pageBean_vanId').attr("value", "");
+$('#pageBean_dlvrDate').attr("value", "");
+$('#pageBean_dealDate').attr("value", "");
+$('#pageBean_msgFuncCd').attr("value", "");
+$('#pageBean_transTypeCd').attr("value", "");
+$('#pageBean_brokerBoxNo').attr("value", "");
+$('#pageBean_brokerBoxSubNo').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_declType').attr("value", "");
+$('#pageBean_vslRegNo').attr("value", "");
+$('#pageBean_soNo').attr("value", "");
+$('#pageBean_mawb').attr("value", "");
+$('#pageBean_hawb').attr("value", "");
+$('#pageBean_transportId').attr("value", "");
+$('#pageBean_vslName').attr("value", "");
+$('#pageBean_vslSign').attr("value", "");
+$('#pageBean_voyageFlightNo').attr("value", "");
+$('#pageBean_storWareCd').attr("value", "");
+$('#pageBean_carrierAgencyCd').attr("value", "");
+$('#pageBean_relPack').attr("value", "");
+$('#pageBean_relPackUnit').attr("value", "");
+$('#pageBean_unrelPack').attr("value", "");
+$('#pageBean_notRelPackUnit').attr("value", "");
+$('#pageBean_totGrossWeight').attr("value", "");
+$('#pageBean_extraRqCd1').attr("value", "");
+$('#pageBean_extraRqCd2').attr("value", "");
+$('#pageBean_extraRqCd3').attr("value", "");
+$('#pageBean_extraRqCd4').attr("value", "");
+$('#pageBean_extraRqCd5').attr("value", "");
+$('#pageBean_extraRqCd6').attr("value", "");
+$('#pageBean_extraRqCd7').attr("value", "");
+$('#pageBean_extraRqCd8').attr("value", "");
+$('#pageBean_extraRqCd9').attr("value", "");
+$('#pageBean_relDate').attr("value", "");
+$('#pageBean_cccCode').attr("value", "");
+$('#pageBean_salBan').attr("value", "");
+$('#pageBean_banId').attr("value", "");
+$('#pageBean_salEname').attr("value", "");
+$('#pageBean_shippingMark').attr("value", "");
+$('#pageBean_clearType').attr("value", "");
+$('#pageBean_prevDeclNo').attr("value", "");
+
+TRANS_ID:$('#pageBean_transId').val(),//TRANS_ID
+SENDER_ID:$('#pageBean_senderId').val(),//傳送方代碼
+RECEIVER_ID:$('#pageBean_receiverId').val(),//接收方代碼
+CC_LIST:$('#pageBean_ccList').val(),//副本通知對象
+CONTROL_NUMBER:$('#pageBean_controlNumber').val(),//交換控制碼
+VAN_ID:$('#pageBean_vanId').val(),//網路別
+DLVR_DATE:$('#pageBean_dlvrDate').val(),//傳送時間
+DEAL_DATE:$('#pageBean_dealDate').val(),//內部應用系統處理時間
+MSG_FUNC_CD:$('#pageBean_msgFuncCd').val(),//訊息功能代碼
+TRANS_TYPE_CD:$('#pageBean_transTypeCd').val(),//海空運別
+BROKER_BOX_NO:$('#pageBean_brokerBoxNo').val(),//報關業者箱號
+BROKER_BOX_SUB_NO:$('#pageBean_brokerBoxSubNo').val(),//報關業者箱號
+DECL_NO:$('#pageBean_declNo').val(),//報單號碼
+DECL_TYPE:$('#pageBean_declType').val(),//報單類別
+VSL_REG_NO:$('#pageBean_vslRegNo').val(),//海關通關號碼
+SO_NO:$('#pageBean_soNo').val(),//裝貨單號碼
+MAWB:$('#pageBean_mawb').val(),//託運單主號
+HAWB:$('#pageBean_hawb').val(),//託運單分號
+TRANSPORT_ID:$('#pageBean_transportId').val(),//出口船（機）代碼
+VSL_NAME:$('#pageBean_vslName').val(),//出口船舶名稱
+VSL_SIGN:$('#pageBean_vslSign').val(),//船舶呼號
+VOYAGE_FLIGHT_NO:$('#pageBean_voyageFlightNo').val(),//船舶航次（海）/航機班次（空）
+STOR_WARE_CD:$('#pageBean_storWareCd').val(),//卸存地點代碼
+CARRIER_AGENCY_CD:$('#pageBean_carrierAgencyCd').val(),//運輸業者/代理行代碼
+REL_PACK:$('#pageBean_relPack').val(),//放行件數
+REL_PACK_UNIT:$('#pageBean_relPackUnit').val(),//放行件數單位
+UNREL_PACK:$('#pageBean_unrelPack').val(),//未放行件數
+NOT_REL_PACK_UNIT:$('#pageBean_notRelPackUnit').val(),//未放行件數單位
+TOT_GROSS_WEIGHT:$('#pageBean_totGrossWeight').val(),//總毛重
+EXTRA_RQ_CD1:$('#pageBean_extraRqCd1').val(),//放行附帶條件代碼1
+EXTRA_RQ_CD2:$('#pageBean_extraRqCd2').val(),//放行附帶條件代碼2
+EXTRA_RQ_CD3:$('#pageBean_extraRqCd3').val(),//放行附帶條件代碼3
+EXTRA_RQ_CD4:$('#pageBean_extraRqCd4').val(),//放行附帶條件代碼4
+EXTRA_RQ_CD5:$('#pageBean_extraRqCd5').val(),//放行附帶條件代碼5
+EXTRA_RQ_CD6:$('#pageBean_extraRqCd6').val(),//放行附帶條件代碼6
+EXTRA_RQ_CD7:$('#pageBean_extraRqCd7').val(),//放行附帶條件代碼7
+EXTRA_RQ_CD8:$('#pageBean_extraRqCd8').val(),//放行附帶條件代碼8
+EXTRA_RQ_CD9:$('#pageBean_extraRqCd9').val(),//放行附帶條件代碼9
+REL_DATE:$('#pageBean_relDate').val(),//放行日期與時間
+CCC_CODE:$('#pageBean_cccCode').val(),//貨品分類號列
+SAL_BAN:$('#pageBean_salBan').val(),//出口人(貨物輸出人)統一編號
+BAN_ID:$('#pageBean_banId').val(),//身分識別代碼
+SAL_ENAME:$('#pageBean_salEname').val(),//出口人(貨物輸出人)英文名稱
+SHIPPING_MARK:$('#pageBean_shippingMark').val(),//標記
+CLEAR_TYPE:$('#pageBean_clearType').val(),//通關方式
+PREV_DECL_NO:$('#pageBean_prevDeclNo').val(),//原報單號碼
+
+pageBean.setTransId(dataObjects.getString("TRANS_ID"));//TRANS_ID
+pageBean.setSenderId(dataObjects.getString("SENDER_ID"));//傳送方代碼
+pageBean.setReceiverId(dataObjects.getString("RECEIVER_ID"));//接收方代碼
+pageBean.setCcList(dataObjects.getString("CC_LIST"));//副本通知對象
+pageBean.setControlNumber(dataObjects.getString("CONTROL_NUMBER"));//交換控制碼
+pageBean.setVanId(dataObjects.getString("VAN_ID"));//網路別
+pageBean.setDlvrDate((Date)dataObjects.getValue("DLVR_DATE"));//傳送時間
+pageBean.setDealDate((Date)dataObjects.getValue("DEAL_DATE"));//內部應用系統處理時間
+pageBean.setMsgFuncCd(dataObjects.getString("MSG_FUNC_CD"));//訊息功能代碼
+pageBean.setTransTypeCd(dataObjects.getString("TRANS_TYPE_CD"));//海空運別
+pageBean.setBrokerBoxNo(dataObjects.getString("BROKER_BOX_NO"));//報關業者箱號
+pageBean.setBrokerBoxSubNo(dataObjects.getString("BROKER_BOX_SUB_NO"));//報關業者箱號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
+pageBean.setDeclType(dataObjects.getString("DECL_TYPE"));//報單類別
+pageBean.setVslRegNo(dataObjects.getString("VSL_REG_NO"));//海關通關號碼
+pageBean.setSoNo(dataObjects.getString("SO_NO"));//裝貨單號碼
+pageBean.setMawb(dataObjects.getString("MAWB"));//託運單主號
+pageBean.setHawb(dataObjects.getString("HAWB"));//託運單分號
+pageBean.setTransportId(dataObjects.getString("TRANSPORT_ID"));//出口船（機）代碼
+pageBean.setVslName(dataObjects.getString("VSL_NAME"));//出口船舶名稱
+pageBean.setVslSign(dataObjects.getString("VSL_SIGN"));//船舶呼號
+pageBean.setVoyageFlightNo(dataObjects.getString("VOYAGE_FLIGHT_NO"));//船舶航次（海）/航機班次（空）
+pageBean.setStorWareCd(dataObjects.getString("STOR_WARE_CD"));//卸存地點代碼
+pageBean.setCarrierAgencyCd(dataObjects.getString("CARRIER_AGENCY_CD"));//運輸業者/代理行代碼
+pageBean.setRelPack(dataObjects.getString("REL_PACK"));//放行件數
+pageBean.setRelPackUnit(dataObjects.getString("REL_PACK_UNIT"));//放行件數單位
+pageBean.setUnrelPack(dataObjects.getString("UNREL_PACK"));//未放行件數
+pageBean.setNotRelPackUnit(dataObjects.getString("NOT_REL_PACK_UNIT"));//未放行件數單位
+pageBean.setTotGrossWeight((BigDecimal)dataObjects.getValue("TOT_GROSS_WEIGHT"));//總毛重
+pageBean.setExtraRqCd1(dataObjects.getString("EXTRA_RQ_CD1"));//放行附帶條件代碼1
+pageBean.setExtraRqCd2(dataObjects.getString("EXTRA_RQ_CD2"));//放行附帶條件代碼2
+pageBean.setExtraRqCd3(dataObjects.getString("EXTRA_RQ_CD3"));//放行附帶條件代碼3
+pageBean.setExtraRqCd4(dataObjects.getString("EXTRA_RQ_CD4"));//放行附帶條件代碼4
+pageBean.setExtraRqCd5(dataObjects.getString("EXTRA_RQ_CD5"));//放行附帶條件代碼5
+pageBean.setExtraRqCd6(dataObjects.getString("EXTRA_RQ_CD6"));//放行附帶條件代碼6
+pageBean.setExtraRqCd7(dataObjects.getString("EXTRA_RQ_CD7"));//放行附帶條件代碼7
+pageBean.setExtraRqCd8(dataObjects.getString("EXTRA_RQ_CD8"));//放行附帶條件代碼8
+pageBean.setExtraRqCd9(dataObjects.getString("EXTRA_RQ_CD9"));//放行附帶條件代碼9
+pageBean.setRelDate((Date)dataObjects.getValue("REL_DATE"));//放行日期與時間
+pageBean.setCccCode(dataObjects.getString("CCC_CODE"));//貨品分類號列
+pageBean.setSalBan(dataObjects.getString("SAL_BAN"));//出口人(貨物輸出人)統一編號
+pageBean.setBanId(dataObjects.getString("BAN_ID"));//身分識別代碼
+pageBean.setSalEname(dataObjects.getString("SAL_ENAME"));//出口人(貨物輸出人)英文名稱
+pageBean.setShippingMark(dataObjects.getString("SHIPPING_MARK"));//標記
+pageBean.setClearType(dataObjects.getString("CLEAR_TYPE"));//通關方式
+pageBean.setPrevDeclNo(dataObjects.getString("PREV_DECL_NO"));//原報單號碼
+
+private String transId = null;//TRANS_ID
+private String senderId = null;//傳送方代碼
+private String receiverId = null;//接收方代碼
+private String ccList = null;//副本通知對象
+private String controlNumber = null;//交換控制碼
+private String vanId = null;//網路別
+private Date dlvrDate = null;//傳送時間
+private Date dealDate = null;//內部應用系統處理時間
+private String msgFuncCd = null;//訊息功能代碼
+private String transTypeCd = null;//海空運別
+private String brokerBoxNo = null;//報關業者箱號
+private String brokerBoxSubNo = null;//報關業者箱號
+private String declNo = null;//報單號碼
+private String declType = null;//報單類別
+private String vslRegNo = null;//海關通關號碼
+private String soNo = null;//裝貨單號碼
+private String mawb = null;//託運單主號
+private String hawb = null;//託運單分號
+private String transportId = null;//出口船（機）代碼
+private String vslName = null;//出口船舶名稱
+private String vslSign = null;//船舶呼號
+private String voyageFlightNo = null;//船舶航次（海）/航機班次（空）
+private String storWareCd = null;//卸存地點代碼
+private String carrierAgencyCd = null;//運輸業者/代理行代碼
+private String relPack = null;//放行件數
+private String relPackUnit = null;//放行件數單位
+private String unrelPack = null;//未放行件數
+private String notRelPackUnit = null;//未放行件數單位
+private BigDecimal totGrossWeight = null;//總毛重
+private String extraRqCd1 = null;//放行附帶條件代碼1
+private String extraRqCd2 = null;//放行附帶條件代碼2
+private String extraRqCd3 = null;//放行附帶條件代碼3
+private String extraRqCd4 = null;//放行附帶條件代碼4
+private String extraRqCd5 = null;//放行附帶條件代碼5
+private String extraRqCd6 = null;//放行附帶條件代碼6
+private String extraRqCd7 = null;//放行附帶條件代碼7
+private String extraRqCd8 = null;//放行附帶條件代碼8
+private String extraRqCd9 = null;//放行附帶條件代碼9
+private Date relDate = null;//放行日期與時間
+private String cccCode = null;//貨品分類號列
+private String salBan = null;//出口人(貨物輸出人)統一編號
+private String banId = null;//身分識別代碼
+private String salEname = null;//出口人(貨物輸出人)英文名稱
+private String shippingMark = null;//標記
+private String clearType = null;//通關方式
+private String prevDeclNo = null;//原報單號碼
+
+pageBean.setTransId(transId);//TRANS_ID
+pageBean.setSenderId(senderId);//傳送方代碼
+pageBean.setReceiverId(receiverId);//接收方代碼
+pageBean.setCcList(ccList);//副本通知對象
+pageBean.setControlNumber(controlNumber);//交換控制碼
+pageBean.setVanId(vanId);//網路別
+pageBean.setDlvrDate(dlvrDate);//傳送時間
+pageBean.setDealDate(dealDate);//內部應用系統處理時間
+pageBean.setMsgFuncCd(msgFuncCd);//訊息功能代碼
+pageBean.setTransTypeCd(transTypeCd);//海空運別
+pageBean.setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+pageBean.setBrokerBoxSubNo(brokerBoxSubNo);//報關業者箱號
+pageBean.setDeclNo(declNo);//報單號碼
+pageBean.setDeclType(declType);//報單類別
+pageBean.setVslRegNo(vslRegNo);//海關通關號碼
+pageBean.setSoNo(soNo);//裝貨單號碼
+pageBean.setMawb(mawb);//託運單主號
+pageBean.setHawb(hawb);//託運單分號
+pageBean.setTransportId(transportId);//出口船（機）代碼
+pageBean.setVslName(vslName);//出口船舶名稱
+pageBean.setVslSign(vslSign);//船舶呼號
+pageBean.setVoyageFlightNo(voyageFlightNo);//船舶航次（海）/航機班次（空）
+pageBean.setStorWareCd(storWareCd);//卸存地點代碼
+pageBean.setCarrierAgencyCd(carrierAgencyCd);//運輸業者/代理行代碼
+pageBean.setRelPack(relPack);//放行件數
+pageBean.setRelPackUnit(relPackUnit);//放行件數單位
+pageBean.setUnrelPack(unrelPack);//未放行件數
+pageBean.setNotRelPackUnit(notRelPackUnit);//未放行件數單位
+pageBean.setTotGrossWeight(totGrossWeight);//總毛重
+pageBean.setExtraRqCd1(extraRqCd1);//放行附帶條件代碼1
+pageBean.setExtraRqCd2(extraRqCd2);//放行附帶條件代碼2
+pageBean.setExtraRqCd3(extraRqCd3);//放行附帶條件代碼3
+pageBean.setExtraRqCd4(extraRqCd4);//放行附帶條件代碼4
+pageBean.setExtraRqCd5(extraRqCd5);//放行附帶條件代碼5
+pageBean.setExtraRqCd6(extraRqCd6);//放行附帶條件代碼6
+pageBean.setExtraRqCd7(extraRqCd7);//放行附帶條件代碼7
+pageBean.setExtraRqCd8(extraRqCd8);//放行附帶條件代碼8
+pageBean.setExtraRqCd9(extraRqCd9);//放行附帶條件代碼9
+pageBean.setRelDate(relDate);//放行日期與時間
+pageBean.setCccCode(cccCode);//貨品分類號列
+pageBean.setSalBan(salBan);//出口人(貨物輸出人)統一編號
+pageBean.setBanId(banId);//身分識別代碼
+pageBean.setSalEname(salEname);//出口人(貨物輸出人)英文名稱
+pageBean.setShippingMark(shippingMark);//標記
+pageBean.setClearType(clearType);//通關方式
+pageBean.setPrevDeclNo(prevDeclNo);//原報單號碼
+
+pageBean.setTransId(randomBean.getTransId());//TRANS_ID
+pageBean.setSenderId(randomBean.getSenderId());//傳送方代碼
+pageBean.setReceiverId(randomBean.getReceiverId());//接收方代碼
+pageBean.setCcList(randomBean.getCcList());//副本通知對象
+pageBean.setControlNumber(randomBean.getControlNumber());//交換控制碼
+pageBean.setVanId(randomBean.getVanId());//網路別
+pageBean.setDlvrDate(randomBean.getDlvrDate());//傳送時間
+pageBean.setDealDate(randomBean.getDealDate());//內部應用系統處理時間
+pageBean.setMsgFuncCd(randomBean.getMsgFuncCd());//訊息功能代碼
+pageBean.setTransTypeCd(randomBean.getTransTypeCd());//海空運別
+pageBean.setBrokerBoxNo(randomBean.getBrokerBoxNo());//報關業者箱號
+pageBean.setBrokerBoxSubNo(randomBean.getBrokerBoxSubNo());//報關業者箱號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
+pageBean.setDeclType(randomBean.getDeclType());//報單類別
+pageBean.setVslRegNo(randomBean.getVslRegNo());//海關通關號碼
+pageBean.setSoNo(randomBean.getSoNo());//裝貨單號碼
+pageBean.setMawb(randomBean.getMawb());//託運單主號
+pageBean.setHawb(randomBean.getHawb());//託運單分號
+pageBean.setTransportId(randomBean.getTransportId());//出口船（機）代碼
+pageBean.setVslName(randomBean.getVslName());//出口船舶名稱
+pageBean.setVslSign(randomBean.getVslSign());//船舶呼號
+pageBean.setVoyageFlightNo(randomBean.getVoyageFlightNo());//船舶航次（海）/航機班次（空）
+pageBean.setStorWareCd(randomBean.getStorWareCd());//卸存地點代碼
+pageBean.setCarrierAgencyCd(randomBean.getCarrierAgencyCd());//運輸業者/代理行代碼
+pageBean.setRelPack(randomBean.getRelPack());//放行件數
+pageBean.setRelPackUnit(randomBean.getRelPackUnit());//放行件數單位
+pageBean.setUnrelPack(randomBean.getUnrelPack());//未放行件數
+pageBean.setNotRelPackUnit(randomBean.getNotRelPackUnit());//未放行件數單位
+pageBean.setTotGrossWeight(randomBean.getTotGrossWeight());//總毛重
+pageBean.setExtraRqCd1(randomBean.getExtraRqCd1());//放行附帶條件代碼1
+pageBean.setExtraRqCd2(randomBean.getExtraRqCd2());//放行附帶條件代碼2
+pageBean.setExtraRqCd3(randomBean.getExtraRqCd3());//放行附帶條件代碼3
+pageBean.setExtraRqCd4(randomBean.getExtraRqCd4());//放行附帶條件代碼4
+pageBean.setExtraRqCd5(randomBean.getExtraRqCd5());//放行附帶條件代碼5
+pageBean.setExtraRqCd6(randomBean.getExtraRqCd6());//放行附帶條件代碼6
+pageBean.setExtraRqCd7(randomBean.getExtraRqCd7());//放行附帶條件代碼7
+pageBean.setExtraRqCd8(randomBean.getExtraRqCd8());//放行附帶條件代碼8
+pageBean.setExtraRqCd9(randomBean.getExtraRqCd9());//放行附帶條件代碼9
+pageBean.setRelDate(randomBean.getRelDate());//放行日期與時間
+pageBean.setCccCode(randomBean.getCccCode());//貨品分類號列
+pageBean.setSalBan(randomBean.getSalBan());//出口人(貨物輸出人)統一編號
+pageBean.setBanId(randomBean.getBanId());//身分識別代碼
+pageBean.setSalEname(randomBean.getSalEname());//出口人(貨物輸出人)英文名稱
+pageBean.setShippingMark(randomBean.getShippingMark());//標記
+pageBean.setClearType(randomBean.getClearType());//通關方式
+pageBean.setPrevDeclNo(randomBean.getPrevDeclNo());//原報單號碼
+
+setTransId(transId);//TRANS_ID
+setSenderId(senderId);//傳送方代碼
+setReceiverId(receiverId);//接收方代碼
+setCcList(ccList);//副本通知對象
+setControlNumber(controlNumber);//交換控制碼
+setVanId(vanId);//網路別
+setDlvrDate(dlvrDate);//傳送時間
+setDealDate(dealDate);//內部應用系統處理時間
+setMsgFuncCd(msgFuncCd);//訊息功能代碼
+setTransTypeCd(transTypeCd);//海空運別
+setBrokerBoxNo(brokerBoxNo);//報關業者箱號
+setBrokerBoxSubNo(brokerBoxSubNo);//報關業者箱號
+setDeclNo(declNo);//報單號碼
+setDeclType(declType);//報單類別
+setVslRegNo(vslRegNo);//海關通關號碼
+setSoNo(soNo);//裝貨單號碼
+setMawb(mawb);//託運單主號
+setHawb(hawb);//託運單分號
+setTransportId(transportId);//出口船（機）代碼
+setVslName(vslName);//出口船舶名稱
+setVslSign(vslSign);//船舶呼號
+setVoyageFlightNo(voyageFlightNo);//船舶航次（海）/航機班次（空）
+setStorWareCd(storWareCd);//卸存地點代碼
+setCarrierAgencyCd(carrierAgencyCd);//運輸業者/代理行代碼
+setRelPack(relPack);//放行件數
+setRelPackUnit(relPackUnit);//放行件數單位
+setUnrelPack(unrelPack);//未放行件數
+setNotRelPackUnit(notRelPackUnit);//未放行件數單位
+setTotGrossWeight(totGrossWeight);//總毛重
+setExtraRqCd1(extraRqCd1);//放行附帶條件代碼1
+setExtraRqCd2(extraRqCd2);//放行附帶條件代碼2
+setExtraRqCd3(extraRqCd3);//放行附帶條件代碼3
+setExtraRqCd4(extraRqCd4);//放行附帶條件代碼4
+setExtraRqCd5(extraRqCd5);//放行附帶條件代碼5
+setExtraRqCd6(extraRqCd6);//放行附帶條件代碼6
+setExtraRqCd7(extraRqCd7);//放行附帶條件代碼7
+setExtraRqCd8(extraRqCd8);//放行附帶條件代碼8
+setExtraRqCd9(extraRqCd9);//放行附帶條件代碼9
+setRelDate(relDate);//放行日期與時間
+setCccCode(cccCode);//貨品分類號列
+setSalBan(salBan);//出口人(貨物輸出人)統一編號
+setBanId(banId);//身分識別代碼
+setSalEname(salEname);//出口人(貨物輸出人)英文名稱
+setShippingMark(shippingMark);//標記
+setClearType(clearType);//通關方式
+setPrevDeclNo(prevDeclNo);//原報單號碼
+
+pageBean.getTransId(),//TRANS_ID
+pageBean.getSenderId(),//傳送方代碼
+pageBean.getReceiverId(),//接收方代碼
+pageBean.getCcList(),//副本通知對象
+pageBean.getControlNumber(),//交換控制碼
+pageBean.getVanId(),//網路別
+pageBean.getDlvrDate(),//傳送時間
+pageBean.getDealDate(),//內部應用系統處理時間
+pageBean.getMsgFuncCd(),//訊息功能代碼
+pageBean.getTransTypeCd(),//海空運別
+pageBean.getBrokerBoxNo(),//報關業者箱號
+pageBean.getBrokerBoxSubNo(),//報關業者箱號
+pageBean.getDeclNo(),//報單號碼
+pageBean.getDeclType(),//報單類別
+pageBean.getVslRegNo(),//海關通關號碼
+pageBean.getSoNo(),//裝貨單號碼
+pageBean.getMawb(),//託運單主號
+pageBean.getHawb(),//託運單分號
+pageBean.getTransportId(),//出口船（機）代碼
+pageBean.getVslName(),//出口船舶名稱
+pageBean.getVslSign(),//船舶呼號
+pageBean.getVoyageFlightNo(),//船舶航次（海）/航機班次（空）
+pageBean.getStorWareCd(),//卸存地點代碼
+pageBean.getCarrierAgencyCd(),//運輸業者/代理行代碼
+pageBean.getRelPack(),//放行件數
+pageBean.getRelPackUnit(),//放行件數單位
+pageBean.getUnrelPack(),//未放行件數
+pageBean.getNotRelPackUnit(),//未放行件數單位
+pageBean.getTotGrossWeight(),//總毛重
+pageBean.getExtraRqCd1(),//放行附帶條件代碼1
+pageBean.getExtraRqCd2(),//放行附帶條件代碼2
+pageBean.getExtraRqCd3(),//放行附帶條件代碼3
+pageBean.getExtraRqCd4(),//放行附帶條件代碼4
+pageBean.getExtraRqCd5(),//放行附帶條件代碼5
+pageBean.getExtraRqCd6(),//放行附帶條件代碼6
+pageBean.getExtraRqCd7(),//放行附帶條件代碼7
+pageBean.getExtraRqCd8(),//放行附帶條件代碼8
+pageBean.getExtraRqCd9(),//放行附帶條件代碼9
+pageBean.getRelDate(),//放行日期與時間
+pageBean.getCccCode(),//貨品分類號列
+pageBean.getSalBan(),//出口人(貨物輸出人)統一編號
+pageBean.getBanId(),//身分識別代碼
+pageBean.getSalEname(),//出口人(貨物輸出人)英文名稱
+pageBean.getShippingMark(),//標記
+pageBean.getClearType(),//通關方式
+pageBean.getPrevDeclNo(),//原報單號碼
+
+pageBean.setValue("TRANS_ID", this.getTransId());//TRANS_ID
+pageBean.setValue("SENDER_ID", this.getSenderId());//傳送方代碼
+pageBean.setValue("RECEIVER_ID", this.getReceiverId());//接收方代碼
+pageBean.setValue("CC_LIST", this.getCcList());//副本通知對象
+pageBean.setValue("CONTROL_NUMBER", this.getControlNumber());//交換控制碼
+pageBean.setValue("VAN_ID", this.getVanId());//網路別
+pageBean.setValue("DLVR_DATE", this.getDlvrDate());//傳送時間
+pageBean.setValue("DEAL_DATE", this.getDealDate());//內部應用系統處理時間
+pageBean.setValue("MSG_FUNC_CD", this.getMsgFuncCd());//訊息功能代碼
+pageBean.setValue("TRANS_TYPE_CD", this.getTransTypeCd());//海空運別
+pageBean.setValue("BROKER_BOX_NO", this.getBrokerBoxNo());//報關業者箱號
+pageBean.setValue("BROKER_BOX_SUB_NO", this.getBrokerBoxSubNo());//報關業者箱號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
+pageBean.setValue("DECL_TYPE", this.getDeclType());//報單類別
+pageBean.setValue("VSL_REG_NO", this.getVslRegNo());//海關通關號碼
+pageBean.setValue("SO_NO", this.getSoNo());//裝貨單號碼
+pageBean.setValue("MAWB", this.getMawb());//託運單主號
+pageBean.setValue("HAWB", this.getHawb());//託運單分號
+pageBean.setValue("TRANSPORT_ID", this.getTransportId());//出口船（機）代碼
+pageBean.setValue("VSL_NAME", this.getVslName());//出口船舶名稱
+pageBean.setValue("VSL_SIGN", this.getVslSign());//船舶呼號
+pageBean.setValue("VOYAGE_FLIGHT_NO", this.getVoyageFlightNo());//船舶航次（海）/航機班次（空）
+pageBean.setValue("STOR_WARE_CD", this.getStorWareCd());//卸存地點代碼
+pageBean.setValue("CARRIER_AGENCY_CD", this.getCarrierAgencyCd());//運輸業者/代理行代碼
+pageBean.setValue("REL_PACK", this.getRelPack());//放行件數
+pageBean.setValue("REL_PACK_UNIT", this.getRelPackUnit());//放行件數單位
+pageBean.setValue("UNREL_PACK", this.getUnrelPack());//未放行件數
+pageBean.setValue("NOT_REL_PACK_UNIT", this.getNotRelPackUnit());//未放行件數單位
+pageBean.setValue("TOT_GROSS_WEIGHT", this.getTotGrossWeight());//總毛重
+pageBean.setValue("EXTRA_RQ_CD1", this.getExtraRqCd1());//放行附帶條件代碼1
+pageBean.setValue("EXTRA_RQ_CD2", this.getExtraRqCd2());//放行附帶條件代碼2
+pageBean.setValue("EXTRA_RQ_CD3", this.getExtraRqCd3());//放行附帶條件代碼3
+pageBean.setValue("EXTRA_RQ_CD4", this.getExtraRqCd4());//放行附帶條件代碼4
+pageBean.setValue("EXTRA_RQ_CD5", this.getExtraRqCd5());//放行附帶條件代碼5
+pageBean.setValue("EXTRA_RQ_CD6", this.getExtraRqCd6());//放行附帶條件代碼6
+pageBean.setValue("EXTRA_RQ_CD7", this.getExtraRqCd7());//放行附帶條件代碼7
+pageBean.setValue("EXTRA_RQ_CD8", this.getExtraRqCd8());//放行附帶條件代碼8
+pageBean.setValue("EXTRA_RQ_CD9", this.getExtraRqCd9());//放行附帶條件代碼9
+pageBean.setValue("REL_DATE", this.getRelDate());//放行日期與時間
+pageBean.setValue("CCC_CODE", this.getCccCode());//貨品分類號列
+pageBean.setValue("SAL_BAN", this.getSalBan());//出口人(貨物輸出人)統一編號
+pageBean.setValue("BAN_ID", this.getBanId());//身分識別代碼
+pageBean.setValue("SAL_ENAME", this.getSalEname());//出口人(貨物輸出人)英文名稱
+pageBean.setValue("SHIPPING_MARK", this.getShippingMark());//標記
+pageBean.setValue("CLEAR_TYPE", this.getClearType());//通關方式
+pageBean.setValue("PREV_DECL_NO", this.getPrevDeclNo());//原報單號碼
+
+",TRANS_ID"+"(transId)="+pageBean.getTransId()+
+",傳送方代碼"+"(senderId)="+pageBean.getSenderId()+
+",接收方代碼"+"(receiverId)="+pageBean.getReceiverId()+
+",副本通知對象"+"(ccList)="+pageBean.getCcList()+
+",交換控制碼"+"(controlNumber)="+pageBean.getControlNumber()+
+",網路別"+"(vanId)="+pageBean.getVanId()+
+",傳送時間"+"(dlvrDate)="+pageBean.getDlvrDate()+
+",內部應用系統處理時間"+"(dealDate)="+pageBean.getDealDate()+
+",訊息功能代碼"+"(msgFuncCd)="+pageBean.getMsgFuncCd()+
+",海空運別"+"(transTypeCd)="+pageBean.getTransTypeCd()+
+",報關業者箱號"+"(brokerBoxNo)="+pageBean.getBrokerBoxNo()+
+",報關業者箱號"+"(brokerBoxSubNo)="+pageBean.getBrokerBoxSubNo()+
+",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
+",報單類別"+"(declType)="+pageBean.getDeclType()+
+",海關通關號碼"+"(vslRegNo)="+pageBean.getVslRegNo()+
+",裝貨單號碼"+"(soNo)="+pageBean.getSoNo()+
+",託運單主號"+"(mawb)="+pageBean.getMawb()+
+",託運單分號"+"(hawb)="+pageBean.getHawb()+
+",出口船（機）代碼"+"(transportId)="+pageBean.getTransportId()+
+",出口船舶名稱"+"(vslName)="+pageBean.getVslName()+
+",船舶呼號"+"(vslSign)="+pageBean.getVslSign()+
+",船舶航次（海）/航機班次（空）"+"(voyageFlightNo)="+pageBean.getVoyageFlightNo()+
+",卸存地點代碼"+"(storWareCd)="+pageBean.getStorWareCd()+
+",運輸業者/代理行代碼"+"(carrierAgencyCd)="+pageBean.getCarrierAgencyCd()+
+",放行件數"+"(relPack)="+pageBean.getRelPack()+
+",放行件數單位"+"(relPackUnit)="+pageBean.getRelPackUnit()+
+",未放行件數"+"(unrelPack)="+pageBean.getUnrelPack()+
+",未放行件數單位"+"(notRelPackUnit)="+pageBean.getNotRelPackUnit()+
+",總毛重"+"(totGrossWeight)="+pageBean.getTotGrossWeight()+
+",放行附帶條件代碼1"+"(extraRqCd1)="+pageBean.getExtraRqCd1()+
+",放行附帶條件代碼2"+"(extraRqCd2)="+pageBean.getExtraRqCd2()+
+",放行附帶條件代碼3"+"(extraRqCd3)="+pageBean.getExtraRqCd3()+
+",放行附帶條件代碼4"+"(extraRqCd4)="+pageBean.getExtraRqCd4()+
+",放行附帶條件代碼5"+"(extraRqCd5)="+pageBean.getExtraRqCd5()+
+",放行附帶條件代碼6"+"(extraRqCd6)="+pageBean.getExtraRqCd6()+
+",放行附帶條件代碼7"+"(extraRqCd7)="+pageBean.getExtraRqCd7()+
+",放行附帶條件代碼8"+"(extraRqCd8)="+pageBean.getExtraRqCd8()+
+",放行附帶條件代碼9"+"(extraRqCd9)="+pageBean.getExtraRqCd9()+
+",放行日期與時間"+"(relDate)="+pageBean.getRelDate()+
+",貨品分類號列"+"(cccCode)="+pageBean.getCccCode()+
+",出口人(貨物輸出人)統一編號"+"(salBan)="+pageBean.getSalBan()+
+",身分識別代碼"+"(banId)="+pageBean.getBanId()+
+",出口人(貨物輸出人)英文名稱"+"(salEname)="+pageBean.getSalEname()+
+",標記"+"(shippingMark)="+pageBean.getShippingMark()+
+",通關方式"+"(clearType)="+pageBean.getClearType()+
+",原報單號碼"+"(prevDeclNo)="+pageBean.getPrevDeclNo()+

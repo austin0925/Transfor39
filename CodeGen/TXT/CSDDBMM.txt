@@ -1,0 +1,2069 @@
+pageBean.tfDocNo=發文文號
+pageBean.declNo=報單編號
+pageBean.declNoSeq=報單號碼-重申請序號
+pageBean.tfIssueDate=發文日期
+pageBean.tfSendmark=傳送註記
+pageBean.tfFlag=特殊註記
+pageBean.tfBan=統一編號
+pageBean.tfAppName=申請廠商名稱
+pageBean.tfAppTel=申請廠商電話
+pageBean.tfLawOrReason=查核依據
+pageBean.tfOtherExplain=進口人意見
+pageBean.tfHsEReason=稅則分類疑義
+pageBean.tfRemark=備註
+pageBean.tfPerson=異動人員代碼-案件資料
+pageBean.tfUpdateDt=最後異動日期-案件資料
+pageBean.tfReasonA=基隆關意見
+pageBean.tfReasonB=高雄關意見
+pageBean.tfReasonC=台北關意見
+pageBean.tfReasonD=台中關意見
+pageBean.tfReason0=稅則處解答
+pageBean.tfStatus=案件處理狀態
+pageBean.tfPersonA=異動人員代碼-基隆關意見
+pageBean.tfDtA=最後異動日期-基隆關意見
+pageBean.tfPersonB=異動人員代碼-高雄關意見
+pageBean.tfDtB=最後異動日期-高雄關意見
+pageBean.tfPersonC=異動人員代碼-台北關意見
+pageBean.tfDtC=最後異動日期-台北關意見
+pageBean.tfPersonD=異動人員代碼-台中關意見
+pageBean.tfDtD=最後異動日期-台中關意見
+pageBean.tfPerson0=異動人員代碼:稅則處意見
+pageBean.tfDt0=最後異動日期-稅則處意見
+pageBean.tfSecondResult=複核結果
+pageBean.tfSecondPerson=複核異動人員代號
+pageBean.tfSecondUpdateDt=複核最後異動日期
+pageBean.tfAimport=基隆關進口紀錄
+pageBean.tfBimport=高雄關進口紀錄
+pageBean.tfCimport=台北關進口紀錄
+pageBean.tfDimport=台中關進口紀錄
+pageBean.acUser0=承辦人員_總局
+pageBean.acUserA=承辦人員_基隆
+pageBean.acUserB=承辦人員_高雄
+pageBean.acUserC=承辦人員_台北
+pageBean.acUserD=承辦人員_台中
+pageBean.tfReSendmark=分估-傳送註記
+pageBean.tfRePerson=分估人員代號
+pageBean.tfReUpdDt=分估異動日期
+pageBean.tfReReject=分估-案件退案理由
+pageBean.tfReSample=分估-實體樣品後送
+pageBean.upPerson=異動人員
+pageBean.upDate=異動時間
+pageBean.tfAppAddress=申請廠商地址
+pageBean.tfSecondNote=複核案件註記
+pageBean.tfReasonANote=基隆關意見_完成註記
+pageBean.tfReasonBNote=高雄關意見_完成註記
+pageBean.tfReasonCNote=台北關意見_完成註記
+pageBean.tfReasonDNote=台中關意見_完成註記
+pageBean.tfReason0Note=稅則處解答_完成註記
+pageBean.tfMReasonNote=主辦關整合意見_完成註記
+pageBean.tfMReason=主辦關整合意見
+pageBean.tfMPerson=主辦關整合意見_異動人員
+pageBean.tfMDt=主辦關整合意見_異動時間
+pageBean.tfMSugsend=主辦關建議送稅則處註記
+pageBean.tfSecondRnote=複核結果_完成註記
+pageBean.tfMMeno=送稅則法制組說明
+
+pageBean.tfDocNo=tfDocNo
+pageBean.declNo=declNo
+pageBean.declNoSeq=declNoSeq
+pageBean.tfIssueDate=tfIssueDate
+pageBean.tfSendmark=tfSendmark
+pageBean.tfFlag=tfFlag
+pageBean.tfBan=tfBan
+pageBean.tfAppName=tfAppName
+pageBean.tfAppTel=tfAppTel
+pageBean.tfLawOrReason=tfLawOrReason
+pageBean.tfOtherExplain=tfOtherExplain
+pageBean.tfHsEReason=tfHsEReason
+pageBean.tfRemark=tfRemark
+pageBean.tfPerson=tfPerson
+pageBean.tfUpdateDt=tfUpdateDt
+pageBean.tfReasonA=tfReasonA
+pageBean.tfReasonB=tfReasonB
+pageBean.tfReasonC=tfReasonC
+pageBean.tfReasonD=tfReasonD
+pageBean.tfReason0=tfReason0
+pageBean.tfStatus=tfStatus
+pageBean.tfPersonA=tfPersonA
+pageBean.tfDtA=tfDtA
+pageBean.tfPersonB=tfPersonB
+pageBean.tfDtB=tfDtB
+pageBean.tfPersonC=tfPersonC
+pageBean.tfDtC=tfDtC
+pageBean.tfPersonD=tfPersonD
+pageBean.tfDtD=tfDtD
+pageBean.tfPerson0=tfPerson0
+pageBean.tfDt0=tfDt0
+pageBean.tfSecondResult=tfSecondResult
+pageBean.tfSecondPerson=tfSecondPerson
+pageBean.tfSecondUpdateDt=tfSecondUpdateDt
+pageBean.tfAimport=tfAimport
+pageBean.tfBimport=tfBimport
+pageBean.tfCimport=tfCimport
+pageBean.tfDimport=tfDimport
+pageBean.acUser0=acUser0
+pageBean.acUserA=acUserA
+pageBean.acUserB=acUserB
+pageBean.acUserC=acUserC
+pageBean.acUserD=acUserD
+pageBean.tfReSendmark=tfReSendmark
+pageBean.tfRePerson=tfRePerson
+pageBean.tfReUpdDt=tfReUpdDt
+pageBean.tfReReject=tfReReject
+pageBean.tfReSample=tfReSample
+pageBean.upPerson=upPerson
+pageBean.upDate=upDate
+pageBean.tfAppAddress=tfAppAddress
+pageBean.tfSecondNote=tfSecondNote
+pageBean.tfReasonANote=tfReasonANote
+pageBean.tfReasonBNote=tfReasonBNote
+pageBean.tfReasonCNote=tfReasonCNote
+pageBean.tfReasonDNote=tfReasonDNote
+pageBean.tfReason0Note=tfReason0Note
+pageBean.tfMReasonNote=tfMReasonNote
+pageBean.tfMReason=tfMReason
+pageBean.tfMPerson=tfMPerson
+pageBean.tfMDt=tfMDt
+pageBean.tfMSugsend=tfMSugsend
+pageBean.tfSecondRnote=tfSecondRnote
+pageBean.tfMMeno=tfMMeno
+
+<tr>
+	<td>
+		<!--tfDocNo:發文文號-->
+		<s:text name="pageBean.tfDocNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDocNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--declNo:報單編號-->
+		<s:text name="pageBean.declNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--declNoSeq:報單號碼-重申請序號-->
+		<s:text name="pageBean.declNoSeq"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.declNoSeq"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfIssueDate:發文日期-->
+		<s:text name="pageBean.tfIssueDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfIssueDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSendmark:傳送註記-->
+		<s:text name="pageBean.tfSendmark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSendmark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfFlag:特殊註記-->
+		<s:text name="pageBean.tfFlag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfFlag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfBan:統一編號-->
+		<s:text name="pageBean.tfBan"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfBan"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppName:申請廠商名稱-->
+		<s:text name="pageBean.tfAppName"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppName"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppTel:申請廠商電話-->
+		<s:text name="pageBean.tfAppTel"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppTel"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfLawOrReason:查核依據-->
+		<s:text name="pageBean.tfLawOrReason"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfLawOrReason"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfOtherExplain:進口人意見-->
+		<s:text name="pageBean.tfOtherExplain"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfOtherExplain"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfHsEReason:稅則分類疑義-->
+		<s:text name="pageBean.tfHsEReason"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfHsEReason"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfRemark:備註-->
+		<s:text name="pageBean.tfRemark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfRemark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPerson:異動人員代碼-案件資料-->
+		<s:text name="pageBean.tfPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfUpdateDt:最後異動日期-案件資料-->
+		<s:text name="pageBean.tfUpdateDt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfUpdateDt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonA:基隆關意見-->
+		<s:text name="pageBean.tfReasonA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonB:高雄關意見-->
+		<s:text name="pageBean.tfReasonB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonC:台北關意見-->
+		<s:text name="pageBean.tfReasonC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonD:台中關意見-->
+		<s:text name="pageBean.tfReasonD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReason0:稅則處解答-->
+		<s:text name="pageBean.tfReason0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReason0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfStatus:案件處理狀態-->
+		<s:text name="pageBean.tfStatus"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfStatus"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPersonA:異動人員代碼-基隆關意見-->
+		<s:text name="pageBean.tfPersonA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPersonA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDtA:最後異動日期-基隆關意見-->
+		<s:text name="pageBean.tfDtA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDtA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPersonB:異動人員代碼-高雄關意見-->
+		<s:text name="pageBean.tfPersonB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPersonB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDtB:最後異動日期-高雄關意見-->
+		<s:text name="pageBean.tfDtB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDtB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPersonC:異動人員代碼-台北關意見-->
+		<s:text name="pageBean.tfPersonC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPersonC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDtC:最後異動日期-台北關意見-->
+		<s:text name="pageBean.tfDtC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDtC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPersonD:異動人員代碼-台中關意見-->
+		<s:text name="pageBean.tfPersonD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPersonD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDtD:最後異動日期-台中關意見-->
+		<s:text name="pageBean.tfDtD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDtD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfPerson0:異動人員代碼:稅則處意見-->
+		<s:text name="pageBean.tfPerson0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfPerson0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDt0:最後異動日期-稅則處意見-->
+		<s:text name="pageBean.tfDt0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDt0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecondResult:複核結果-->
+		<s:text name="pageBean.tfSecondResult"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecondResult"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecondPerson:複核異動人員代號-->
+		<s:text name="pageBean.tfSecondPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecondPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecondUpdateDt:複核最後異動日期-->
+		<s:text name="pageBean.tfSecondUpdateDt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecondUpdateDt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAimport:基隆關進口紀錄-->
+		<s:text name="pageBean.tfAimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfBimport:高雄關進口紀錄-->
+		<s:text name="pageBean.tfBimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfBimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfCimport:台北關進口紀錄-->
+		<s:text name="pageBean.tfCimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfCimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfDimport:台中關進口紀錄-->
+		<s:text name="pageBean.tfDimport"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfDimport"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--acUser0:承辦人員_總局-->
+		<s:text name="pageBean.acUser0"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.acUser0"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--acUserA:承辦人員_基隆-->
+		<s:text name="pageBean.acUserA"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.acUserA"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--acUserB:承辦人員_高雄-->
+		<s:text name="pageBean.acUserB"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.acUserB"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--acUserC:承辦人員_台北-->
+		<s:text name="pageBean.acUserC"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.acUserC"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--acUserD:承辦人員_台中-->
+		<s:text name="pageBean.acUserD"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.acUserD"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReSendmark:分估-傳送註記-->
+		<s:text name="pageBean.tfReSendmark"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReSendmark"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfRePerson:分估人員代號-->
+		<s:text name="pageBean.tfRePerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfRePerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReUpdDt:分估異動日期-->
+		<s:text name="pageBean.tfReUpdDt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReUpdDt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReReject:分估-案件退案理由-->
+		<s:text name="pageBean.tfReReject"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReReject"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReSample:分估-實體樣品後送-->
+		<s:text name="pageBean.tfReSample"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReSample"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upPerson:異動人員-->
+		<s:text name="pageBean.upPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--upDate:異動時間-->
+		<s:text name="pageBean.upDate"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.upDate"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfAppAddress:申請廠商地址-->
+		<s:text name="pageBean.tfAppAddress"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfAppAddress"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecondNote:複核案件註記-->
+		<s:text name="pageBean.tfSecondNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecondNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonANote:基隆關意見_完成註記-->
+		<s:text name="pageBean.tfReasonANote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonANote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonBNote:高雄關意見_完成註記-->
+		<s:text name="pageBean.tfReasonBNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonBNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonCNote:台北關意見_完成註記-->
+		<s:text name="pageBean.tfReasonCNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonCNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReasonDNote:台中關意見_完成註記-->
+		<s:text name="pageBean.tfReasonDNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReasonDNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfReason0Note:稅則處解答_完成註記-->
+		<s:text name="pageBean.tfReason0Note"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfReason0Note"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMReasonNote:主辦關整合意見_完成註記-->
+		<s:text name="pageBean.tfMReasonNote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMReasonNote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMReason:主辦關整合意見-->
+		<s:text name="pageBean.tfMReason"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMReason"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMPerson:主辦關整合意見_異動人員-->
+		<s:text name="pageBean.tfMPerson"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMPerson"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMDt:主辦關整合意見_異動時間-->
+		<s:text name="pageBean.tfMDt"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMDt"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMSugsend:主辦關建議送稅則處註記-->
+		<s:text name="pageBean.tfMSugsend"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMSugsend"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfSecondRnote:複核結果_完成註記-->
+		<s:text name="pageBean.tfSecondRnote"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfSecondRnote"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--tfMMeno:送稅則法制組說明-->
+		<s:text name="pageBean.tfMMeno"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.tfMMeno"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.tfDocNo"/><!--tfDocNo:發文文號-->
+<s:hidden name="pageBean.declNo"/><!--declNo:報單編號-->
+<s:hidden name="pageBean.declNoSeq"/><!--declNoSeq:報單號碼-重申請序號-->
+<s:hidden name="pageBean.tfIssueDate"/><!--tfIssueDate:發文日期-->
+<s:hidden name="pageBean.tfSendmark"/><!--tfSendmark:傳送註記-->
+<s:hidden name="pageBean.tfFlag"/><!--tfFlag:特殊註記-->
+<s:hidden name="pageBean.tfBan"/><!--tfBan:統一編號-->
+<s:hidden name="pageBean.tfAppName"/><!--tfAppName:申請廠商名稱-->
+<s:hidden name="pageBean.tfAppTel"/><!--tfAppTel:申請廠商電話-->
+<s:hidden name="pageBean.tfLawOrReason"/><!--tfLawOrReason:查核依據-->
+<s:hidden name="pageBean.tfOtherExplain"/><!--tfOtherExplain:進口人意見-->
+<s:hidden name="pageBean.tfHsEReason"/><!--tfHsEReason:稅則分類疑義-->
+<s:hidden name="pageBean.tfRemark"/><!--tfRemark:備註-->
+<s:hidden name="pageBean.tfPerson"/><!--tfPerson:異動人員代碼-案件資料-->
+<s:hidden name="pageBean.tfUpdateDt"/><!--tfUpdateDt:最後異動日期-案件資料-->
+<s:hidden name="pageBean.tfReasonA"/><!--tfReasonA:基隆關意見-->
+<s:hidden name="pageBean.tfReasonB"/><!--tfReasonB:高雄關意見-->
+<s:hidden name="pageBean.tfReasonC"/><!--tfReasonC:台北關意見-->
+<s:hidden name="pageBean.tfReasonD"/><!--tfReasonD:台中關意見-->
+<s:hidden name="pageBean.tfReason0"/><!--tfReason0:稅則處解答-->
+<s:hidden name="pageBean.tfStatus"/><!--tfStatus:案件處理狀態-->
+<s:hidden name="pageBean.tfPersonA"/><!--tfPersonA:異動人員代碼-基隆關意見-->
+<s:hidden name="pageBean.tfDtA"/><!--tfDtA:最後異動日期-基隆關意見-->
+<s:hidden name="pageBean.tfPersonB"/><!--tfPersonB:異動人員代碼-高雄關意見-->
+<s:hidden name="pageBean.tfDtB"/><!--tfDtB:最後異動日期-高雄關意見-->
+<s:hidden name="pageBean.tfPersonC"/><!--tfPersonC:異動人員代碼-台北關意見-->
+<s:hidden name="pageBean.tfDtC"/><!--tfDtC:最後異動日期-台北關意見-->
+<s:hidden name="pageBean.tfPersonD"/><!--tfPersonD:異動人員代碼-台中關意見-->
+<s:hidden name="pageBean.tfDtD"/><!--tfDtD:最後異動日期-台中關意見-->
+<s:hidden name="pageBean.tfPerson0"/><!--tfPerson0:異動人員代碼:稅則處意見-->
+<s:hidden name="pageBean.tfDt0"/><!--tfDt0:最後異動日期-稅則處意見-->
+<s:hidden name="pageBean.tfSecondResult"/><!--tfSecondResult:複核結果-->
+<s:hidden name="pageBean.tfSecondPerson"/><!--tfSecondPerson:複核異動人員代號-->
+<s:hidden name="pageBean.tfSecondUpdateDt"/><!--tfSecondUpdateDt:複核最後異動日期-->
+<s:hidden name="pageBean.tfAimport"/><!--tfAimport:基隆關進口紀錄-->
+<s:hidden name="pageBean.tfBimport"/><!--tfBimport:高雄關進口紀錄-->
+<s:hidden name="pageBean.tfCimport"/><!--tfCimport:台北關進口紀錄-->
+<s:hidden name="pageBean.tfDimport"/><!--tfDimport:台中關進口紀錄-->
+<s:hidden name="pageBean.acUser0"/><!--acUser0:承辦人員_總局-->
+<s:hidden name="pageBean.acUserA"/><!--acUserA:承辦人員_基隆-->
+<s:hidden name="pageBean.acUserB"/><!--acUserB:承辦人員_高雄-->
+<s:hidden name="pageBean.acUserC"/><!--acUserC:承辦人員_台北-->
+<s:hidden name="pageBean.acUserD"/><!--acUserD:承辦人員_台中-->
+<s:hidden name="pageBean.tfReSendmark"/><!--tfReSendmark:分估-傳送註記-->
+<s:hidden name="pageBean.tfRePerson"/><!--tfRePerson:分估人員代號-->
+<s:hidden name="pageBean.tfReUpdDt"/><!--tfReUpdDt:分估異動日期-->
+<s:hidden name="pageBean.tfReReject"/><!--tfReReject:分估-案件退案理由-->
+<s:hidden name="pageBean.tfReSample"/><!--tfReSample:分估-實體樣品後送-->
+<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
+<s:hidden name="pageBean.tfAppAddress"/><!--tfAppAddress:申請廠商地址-->
+<s:hidden name="pageBean.tfSecondNote"/><!--tfSecondNote:複核案件註記-->
+<s:hidden name="pageBean.tfReasonANote"/><!--tfReasonANote:基隆關意見_完成註記-->
+<s:hidden name="pageBean.tfReasonBNote"/><!--tfReasonBNote:高雄關意見_完成註記-->
+<s:hidden name="pageBean.tfReasonCNote"/><!--tfReasonCNote:台北關意見_完成註記-->
+<s:hidden name="pageBean.tfReasonDNote"/><!--tfReasonDNote:台中關意見_完成註記-->
+<s:hidden name="pageBean.tfReason0Note"/><!--tfReason0Note:稅則處解答_完成註記-->
+<s:hidden name="pageBean.tfMReasonNote"/><!--tfMReasonNote:主辦關整合意見_完成註記-->
+<s:hidden name="pageBean.tfMReason"/><!--tfMReason:主辦關整合意見-->
+<s:hidden name="pageBean.tfMPerson"/><!--tfMPerson:主辦關整合意見_異動人員-->
+<s:hidden name="pageBean.tfMDt"/><!--tfMDt:主辦關整合意見_異動時間-->
+<s:hidden name="pageBean.tfMSugsend"/><!--tfMSugsend:主辦關建議送稅則處註記-->
+<s:hidden name="pageBean.tfSecondRnote"/><!--tfSecondRnote:複核結果_完成註記-->
+<s:hidden name="pageBean.tfMMeno"/><!--tfMMeno:送稅則法制組說明-->
+
+<%--TF_DOC_NO:發文文號:tfDocNo--%>
+<sjg:gridColumn name="TF_DOC_NO" index="TF_DOC_NO" title="%{getText('tfDocNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO:報單編號:declNo--%>
+<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--DECL_NO_SEQ:報單號碼-重申請序號:declNoSeq--%>
+<sjg:gridColumn name="DECL_NO_SEQ" index="DECL_NO_SEQ" title="%{getText('declNoSeq')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_ISSUE_DATE:發文日期:tfIssueDate--%>
+<sjg:gridColumn name="TF_ISSUE_DATE" index="TF_ISSUE_DATE" title="%{getText('tfIssueDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SENDMARK:傳送註記:tfSendmark--%>
+<sjg:gridColumn name="TF_SENDMARK" index="TF_SENDMARK" title="%{getText('tfSendmark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_FLAG:特殊註記:tfFlag--%>
+<sjg:gridColumn name="TF_FLAG" index="TF_FLAG" title="%{getText('tfFlag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_BAN:統一編號:tfBan--%>
+<sjg:gridColumn name="TF_BAN" index="TF_BAN" title="%{getText('tfBan')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_NAME:申請廠商名稱:tfAppName--%>
+<sjg:gridColumn name="TF_APP_NAME" index="TF_APP_NAME" title="%{getText('tfAppName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_TEL:申請廠商電話:tfAppTel--%>
+<sjg:gridColumn name="TF_APP_TEL" index="TF_APP_TEL" title="%{getText('tfAppTel')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_LAW_OR_REASON:查核依據:tfLawOrReason--%>
+<sjg:gridColumn name="TF_LAW_OR_REASON" index="TF_LAW_OR_REASON" title="%{getText('tfLawOrReason')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_OTHER_EXPLAIN:進口人意見:tfOtherExplain--%>
+<sjg:gridColumn name="TF_OTHER_EXPLAIN" index="TF_OTHER_EXPLAIN" title="%{getText('tfOtherExplain')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_HS_E_REASON:稅則分類疑義:tfHsEReason--%>
+<sjg:gridColumn name="TF_HS_E_REASON" index="TF_HS_E_REASON" title="%{getText('tfHsEReason')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REMARK:備註:tfRemark--%>
+<sjg:gridColumn name="TF_REMARK" index="TF_REMARK" title="%{getText('tfRemark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON:異動人員代碼-案件資料:tfPerson--%>
+<sjg:gridColumn name="TF_PERSON" index="TF_PERSON" title="%{getText('tfPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_UPDATE_DT:最後異動日期-案件資料:tfUpdateDt--%>
+<sjg:gridColumn name="TF_UPDATE_DT" index="TF_UPDATE_DT" title="%{getText('tfUpdateDt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_A:基隆關意見:tfReasonA--%>
+<sjg:gridColumn name="TF_REASON_A" index="TF_REASON_A" title="%{getText('tfReasonA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_B:高雄關意見:tfReasonB--%>
+<sjg:gridColumn name="TF_REASON_B" index="TF_REASON_B" title="%{getText('tfReasonB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_C:台北關意見:tfReasonC--%>
+<sjg:gridColumn name="TF_REASON_C" index="TF_REASON_C" title="%{getText('tfReasonC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_D:台中關意見:tfReasonD--%>
+<sjg:gridColumn name="TF_REASON_D" index="TF_REASON_D" title="%{getText('tfReasonD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_0:稅則處解答:tfReason0--%>
+<sjg:gridColumn name="TF_REASON_0" index="TF_REASON_0" title="%{getText('tfReason0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_STATUS:案件處理狀態:tfStatus--%>
+<sjg:gridColumn name="TF_STATUS" index="TF_STATUS" title="%{getText('tfStatus')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON_A:異動人員代碼-基隆關意見:tfPersonA--%>
+<sjg:gridColumn name="TF_PERSON_A" index="TF_PERSON_A" title="%{getText('tfPersonA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DT_A:最後異動日期-基隆關意見:tfDtA--%>
+<sjg:gridColumn name="TF_DT_A" index="TF_DT_A" title="%{getText('tfDtA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON_B:異動人員代碼-高雄關意見:tfPersonB--%>
+<sjg:gridColumn name="TF_PERSON_B" index="TF_PERSON_B" title="%{getText('tfPersonB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DT_B:最後異動日期-高雄關意見:tfDtB--%>
+<sjg:gridColumn name="TF_DT_B" index="TF_DT_B" title="%{getText('tfDtB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON_C:異動人員代碼-台北關意見:tfPersonC--%>
+<sjg:gridColumn name="TF_PERSON_C" index="TF_PERSON_C" title="%{getText('tfPersonC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DT_C:最後異動日期-台北關意見:tfDtC--%>
+<sjg:gridColumn name="TF_DT_C" index="TF_DT_C" title="%{getText('tfDtC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON_D:異動人員代碼-台中關意見:tfPersonD--%>
+<sjg:gridColumn name="TF_PERSON_D" index="TF_PERSON_D" title="%{getText('tfPersonD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DT_D:最後異動日期-台中關意見:tfDtD--%>
+<sjg:gridColumn name="TF_DT_D" index="TF_DT_D" title="%{getText('tfDtD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_PERSON_0:異動人員代碼:稅則處意見:tfPerson0--%>
+<sjg:gridColumn name="TF_PERSON_0" index="TF_PERSON_0" title="%{getText('tfPerson0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DT_0:最後異動日期-稅則處意見:tfDt0--%>
+<sjg:gridColumn name="TF_DT_0" index="TF_DT_0" title="%{getText('tfDt0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND_RESULT:複核結果:tfSecondResult--%>
+<sjg:gridColumn name="TF_SECOND_RESULT" index="TF_SECOND_RESULT" title="%{getText('tfSecondResult')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND_PERSON:複核異動人員代號:tfSecondPerson--%>
+<sjg:gridColumn name="TF_SECOND_PERSON" index="TF_SECOND_PERSON" title="%{getText('tfSecondPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND_UPDATE_DT:複核最後異動日期:tfSecondUpdateDt--%>
+<sjg:gridColumn name="TF_SECOND_UPDATE_DT" index="TF_SECOND_UPDATE_DT" title="%{getText('tfSecondUpdateDt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_AIMPORT:基隆關進口紀錄:tfAimport--%>
+<sjg:gridColumn name="TF_AIMPORT" index="TF_AIMPORT" title="%{getText('tfAimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_BIMPORT:高雄關進口紀錄:tfBimport--%>
+<sjg:gridColumn name="TF_BIMPORT" index="TF_BIMPORT" title="%{getText('tfBimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_CIMPORT:台北關進口紀錄:tfCimport--%>
+<sjg:gridColumn name="TF_CIMPORT" index="TF_CIMPORT" title="%{getText('tfCimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_DIMPORT:台中關進口紀錄:tfDimport--%>
+<sjg:gridColumn name="TF_DIMPORT" index="TF_DIMPORT" title="%{getText('tfDimport')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AC_USER_0:承辦人員_總局:acUser0--%>
+<sjg:gridColumn name="AC_USER_0" index="AC_USER_0" title="%{getText('acUser0')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AC_USER_A:承辦人員_基隆:acUserA--%>
+<sjg:gridColumn name="AC_USER_A" index="AC_USER_A" title="%{getText('acUserA')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AC_USER_B:承辦人員_高雄:acUserB--%>
+<sjg:gridColumn name="AC_USER_B" index="AC_USER_B" title="%{getText('acUserB')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AC_USER_C:承辦人員_台北:acUserC--%>
+<sjg:gridColumn name="AC_USER_C" index="AC_USER_C" title="%{getText('acUserC')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AC_USER_D:承辦人員_台中:acUserD--%>
+<sjg:gridColumn name="AC_USER_D" index="AC_USER_D" title="%{getText('acUserD')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RE_SENDMARK:分估-傳送註記:tfReSendmark--%>
+<sjg:gridColumn name="TF_RE_SENDMARK" index="TF_RE_SENDMARK" title="%{getText('tfReSendmark')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RE_PERSON:分估人員代號:tfRePerson--%>
+<sjg:gridColumn name="TF_RE_PERSON" index="TF_RE_PERSON" title="%{getText('tfRePerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RE_UPD_DT:分估異動日期:tfReUpdDt--%>
+<sjg:gridColumn name="TF_RE_UPD_DT" index="TF_RE_UPD_DT" title="%{getText('tfReUpdDt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RE_REJECT:分估-案件退案理由:tfReReject--%>
+<sjg:gridColumn name="TF_RE_REJECT" index="TF_RE_REJECT" title="%{getText('tfReReject')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_RE_SAMPLE:分估-實體樣品後送:tfReSample--%>
+<sjg:gridColumn name="TF_RE_SAMPLE" index="TF_RE_SAMPLE" title="%{getText('tfReSample')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_PERSON:異動人員:upPerson--%>
+<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_APP_ADDRESS:申請廠商地址:tfAppAddress--%>
+<sjg:gridColumn name="TF_APP_ADDRESS" index="TF_APP_ADDRESS" title="%{getText('tfAppAddress')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND_NOTE:複核案件註記:tfSecondNote--%>
+<sjg:gridColumn name="TF_SECOND_NOTE" index="TF_SECOND_NOTE" title="%{getText('tfSecondNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_A_NOTE:基隆關意見_完成註記:tfReasonANote--%>
+<sjg:gridColumn name="TF_REASON_A_NOTE" index="TF_REASON_A_NOTE" title="%{getText('tfReasonANote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_B_NOTE:高雄關意見_完成註記:tfReasonBNote--%>
+<sjg:gridColumn name="TF_REASON_B_NOTE" index="TF_REASON_B_NOTE" title="%{getText('tfReasonBNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_C_NOTE:台北關意見_完成註記:tfReasonCNote--%>
+<sjg:gridColumn name="TF_REASON_C_NOTE" index="TF_REASON_C_NOTE" title="%{getText('tfReasonCNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_D_NOTE:台中關意見_完成註記:tfReasonDNote--%>
+<sjg:gridColumn name="TF_REASON_D_NOTE" index="TF_REASON_D_NOTE" title="%{getText('tfReasonDNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_REASON_0_NOTE:稅則處解答_完成註記:tfReason0Note--%>
+<sjg:gridColumn name="TF_REASON_0_NOTE" index="TF_REASON_0_NOTE" title="%{getText('tfReason0Note')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_REASON_NOTE:主辦關整合意見_完成註記:tfMReasonNote--%>
+<sjg:gridColumn name="TF_M_REASON_NOTE" index="TF_M_REASON_NOTE" title="%{getText('tfMReasonNote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_REASON:主辦關整合意見:tfMReason--%>
+<sjg:gridColumn name="TF_M_REASON" index="TF_M_REASON" title="%{getText('tfMReason')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_PERSON:主辦關整合意見_異動人員:tfMPerson--%>
+<sjg:gridColumn name="TF_M_PERSON" index="TF_M_PERSON" title="%{getText('tfMPerson')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_DT:主辦關整合意見_異動時間:tfMDt--%>
+<sjg:gridColumn name="TF_M_DT" index="TF_M_DT" title="%{getText('tfMDt')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_SUGSEND:主辦關建議送稅則處註記:tfMSugsend--%>
+<sjg:gridColumn name="TF_M_SUGSEND" index="TF_M_SUGSEND" title="%{getText('tfMSugsend')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_SECOND_RNOTE:複核結果_完成註記:tfSecondRnote--%>
+<sjg:gridColumn name="TF_SECOND_RNOTE" index="TF_SECOND_RNOTE" title="%{getText('tfSecondRnote')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--TF_M_MENO:送稅則法制組說明:tfMMeno--%>
+<sjg:gridColumn name="TF_M_MENO" index="TF_M_MENO" title="%{getText('tfMMeno')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.TF_DOC_NO
+,A.DECL_NO
+,A.DECL_NO_SEQ
+,A.TF_ISSUE_DATE
+,A.TF_SENDMARK
+,A.TF_FLAG
+,A.TF_BAN
+,A.TF_APP_NAME
+,A.TF_APP_TEL
+,A.TF_LAW_OR_REASON
+,A.TF_OTHER_EXPLAIN
+,A.TF_HS_E_REASON
+,A.TF_REMARK
+,A.TF_PERSON
+,A.TF_UPDATE_DT
+,A.TF_REASON_A
+,A.TF_REASON_B
+,A.TF_REASON_C
+,A.TF_REASON_D
+,A.TF_REASON_0
+,A.TF_STATUS
+,A.TF_PERSON_A
+,A.TF_DT_A
+,A.TF_PERSON_B
+,A.TF_DT_B
+,A.TF_PERSON_C
+,A.TF_DT_C
+,A.TF_PERSON_D
+,A.TF_DT_D
+,A.TF_PERSON_0
+,A.TF_DT_0
+,A.TF_SECOND_RESULT
+,A.TF_SECOND_PERSON
+,A.TF_SECOND_UPDATE_DT
+,A.TF_AIMPORT
+,A.TF_BIMPORT
+,A.TF_CIMPORT
+,A.TF_DIMPORT
+,A.AC_USER_0
+,A.AC_USER_A
+,A.AC_USER_B
+,A.AC_USER_C
+,A.AC_USER_D
+,A.TF_RE_SENDMARK
+,A.TF_RE_PERSON
+,A.TF_RE_UPD_DT
+,A.TF_RE_REJECT
+,A.TF_RE_SAMPLE
+,A.UP_PERSON
+,A.UP_DATE
+,A.TF_APP_ADDRESS
+,A.TF_SECOND_NOTE
+,A.TF_REASON_A_NOTE
+,A.TF_REASON_B_NOTE
+,A.TF_REASON_C_NOTE
+,A.TF_REASON_D_NOTE
+,A.TF_REASON_0_NOTE
+,A.TF_M_REASON_NOTE
+,A.TF_M_REASON
+,A.TF_M_PERSON
+,A.TF_M_DT
+,A.TF_M_SUGSEND
+,A.TF_SECOND_RNOTE
+,A.TF_M_MENO
+
+<condition key="TF_DOC_NO" ignoreEmpty="true">TF_DOC_NO = ${TF_DOC_NO}</condition>
+<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
+<condition key="DECL_NO_SEQ" ignoreEmpty="true">DECL_NO_SEQ = ${DECL_NO_SEQ}</condition>
+<condition key="TF_ISSUE_DATE" ignoreEmpty="true">TF_ISSUE_DATE = ${TF_ISSUE_DATE}</condition>
+<condition key="TF_SENDMARK" ignoreEmpty="true">TF_SENDMARK = ${TF_SENDMARK}</condition>
+<condition key="TF_FLAG" ignoreEmpty="true">TF_FLAG = ${TF_FLAG}</condition>
+<condition key="TF_BAN" ignoreEmpty="true">TF_BAN = ${TF_BAN}</condition>
+<condition key="TF_APP_NAME" ignoreEmpty="true">TF_APP_NAME = ${TF_APP_NAME}</condition>
+<condition key="TF_APP_TEL" ignoreEmpty="true">TF_APP_TEL = ${TF_APP_TEL}</condition>
+<condition key="TF_LAW_OR_REASON" ignoreEmpty="true">TF_LAW_OR_REASON = ${TF_LAW_OR_REASON}</condition>
+<condition key="TF_OTHER_EXPLAIN" ignoreEmpty="true">TF_OTHER_EXPLAIN = ${TF_OTHER_EXPLAIN}</condition>
+<condition key="TF_HS_E_REASON" ignoreEmpty="true">TF_HS_E_REASON = ${TF_HS_E_REASON}</condition>
+<condition key="TF_REMARK" ignoreEmpty="true">TF_REMARK = ${TF_REMARK}</condition>
+<condition key="TF_PERSON" ignoreEmpty="true">TF_PERSON = ${TF_PERSON}</condition>
+<condition key="TF_UPDATE_DT" ignoreEmpty="true">TF_UPDATE_DT = ${TF_UPDATE_DT}</condition>
+<condition key="TF_REASON_A" ignoreEmpty="true">TF_REASON_A = ${TF_REASON_A}</condition>
+<condition key="TF_REASON_B" ignoreEmpty="true">TF_REASON_B = ${TF_REASON_B}</condition>
+<condition key="TF_REASON_C" ignoreEmpty="true">TF_REASON_C = ${TF_REASON_C}</condition>
+<condition key="TF_REASON_D" ignoreEmpty="true">TF_REASON_D = ${TF_REASON_D}</condition>
+<condition key="TF_REASON_0" ignoreEmpty="true">TF_REASON_0 = ${TF_REASON_0}</condition>
+<condition key="TF_STATUS" ignoreEmpty="true">TF_STATUS = ${TF_STATUS}</condition>
+<condition key="TF_PERSON_A" ignoreEmpty="true">TF_PERSON_A = ${TF_PERSON_A}</condition>
+<condition key="TF_DT_A" ignoreEmpty="true">TF_DT_A = ${TF_DT_A}</condition>
+<condition key="TF_PERSON_B" ignoreEmpty="true">TF_PERSON_B = ${TF_PERSON_B}</condition>
+<condition key="TF_DT_B" ignoreEmpty="true">TF_DT_B = ${TF_DT_B}</condition>
+<condition key="TF_PERSON_C" ignoreEmpty="true">TF_PERSON_C = ${TF_PERSON_C}</condition>
+<condition key="TF_DT_C" ignoreEmpty="true">TF_DT_C = ${TF_DT_C}</condition>
+<condition key="TF_PERSON_D" ignoreEmpty="true">TF_PERSON_D = ${TF_PERSON_D}</condition>
+<condition key="TF_DT_D" ignoreEmpty="true">TF_DT_D = ${TF_DT_D}</condition>
+<condition key="TF_PERSON_0" ignoreEmpty="true">TF_PERSON_0 = ${TF_PERSON_0}</condition>
+<condition key="TF_DT_0" ignoreEmpty="true">TF_DT_0 = ${TF_DT_0}</condition>
+<condition key="TF_SECOND_RESULT" ignoreEmpty="true">TF_SECOND_RESULT = ${TF_SECOND_RESULT}</condition>
+<condition key="TF_SECOND_PERSON" ignoreEmpty="true">TF_SECOND_PERSON = ${TF_SECOND_PERSON}</condition>
+<condition key="TF_SECOND_UPDATE_DT" ignoreEmpty="true">TF_SECOND_UPDATE_DT = ${TF_SECOND_UPDATE_DT}</condition>
+<condition key="TF_AIMPORT" ignoreEmpty="true">TF_AIMPORT = ${TF_AIMPORT}</condition>
+<condition key="TF_BIMPORT" ignoreEmpty="true">TF_BIMPORT = ${TF_BIMPORT}</condition>
+<condition key="TF_CIMPORT" ignoreEmpty="true">TF_CIMPORT = ${TF_CIMPORT}</condition>
+<condition key="TF_DIMPORT" ignoreEmpty="true">TF_DIMPORT = ${TF_DIMPORT}</condition>
+<condition key="AC_USER_0" ignoreEmpty="true">AC_USER_0 = ${AC_USER_0}</condition>
+<condition key="AC_USER_A" ignoreEmpty="true">AC_USER_A = ${AC_USER_A}</condition>
+<condition key="AC_USER_B" ignoreEmpty="true">AC_USER_B = ${AC_USER_B}</condition>
+<condition key="AC_USER_C" ignoreEmpty="true">AC_USER_C = ${AC_USER_C}</condition>
+<condition key="AC_USER_D" ignoreEmpty="true">AC_USER_D = ${AC_USER_D}</condition>
+<condition key="TF_RE_SENDMARK" ignoreEmpty="true">TF_RE_SENDMARK = ${TF_RE_SENDMARK}</condition>
+<condition key="TF_RE_PERSON" ignoreEmpty="true">TF_RE_PERSON = ${TF_RE_PERSON}</condition>
+<condition key="TF_RE_UPD_DT" ignoreEmpty="true">TF_RE_UPD_DT = ${TF_RE_UPD_DT}</condition>
+<condition key="TF_RE_REJECT" ignoreEmpty="true">TF_RE_REJECT = ${TF_RE_REJECT}</condition>
+<condition key="TF_RE_SAMPLE" ignoreEmpty="true">TF_RE_SAMPLE = ${TF_RE_SAMPLE}</condition>
+<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+<condition key="TF_APP_ADDRESS" ignoreEmpty="true">TF_APP_ADDRESS = ${TF_APP_ADDRESS}</condition>
+<condition key="TF_SECOND_NOTE" ignoreEmpty="true">TF_SECOND_NOTE = ${TF_SECOND_NOTE}</condition>
+<condition key="TF_REASON_A_NOTE" ignoreEmpty="true">TF_REASON_A_NOTE = ${TF_REASON_A_NOTE}</condition>
+<condition key="TF_REASON_B_NOTE" ignoreEmpty="true">TF_REASON_B_NOTE = ${TF_REASON_B_NOTE}</condition>
+<condition key="TF_REASON_C_NOTE" ignoreEmpty="true">TF_REASON_C_NOTE = ${TF_REASON_C_NOTE}</condition>
+<condition key="TF_REASON_D_NOTE" ignoreEmpty="true">TF_REASON_D_NOTE = ${TF_REASON_D_NOTE}</condition>
+<condition key="TF_REASON_0_NOTE" ignoreEmpty="true">TF_REASON_0_NOTE = ${TF_REASON_0_NOTE}</condition>
+<condition key="TF_M_REASON_NOTE" ignoreEmpty="true">TF_M_REASON_NOTE = ${TF_M_REASON_NOTE}</condition>
+<condition key="TF_M_REASON" ignoreEmpty="true">TF_M_REASON = ${TF_M_REASON}</condition>
+<condition key="TF_M_PERSON" ignoreEmpty="true">TF_M_PERSON = ${TF_M_PERSON}</condition>
+<condition key="TF_M_DT" ignoreEmpty="true">TF_M_DT = ${TF_M_DT}</condition>
+<condition key="TF_M_SUGSEND" ignoreEmpty="true">TF_M_SUGSEND = ${TF_M_SUGSEND}</condition>
+<condition key="TF_SECOND_RNOTE" ignoreEmpty="true">TF_SECOND_RNOTE = ${TF_SECOND_RNOTE}</condition>
+<condition key="TF_M_MENO" ignoreEmpty="true">TF_M_MENO = ${TF_M_MENO}</condition>
+
+<condition key="TF_DOC_NO_S" ignoreEmpty="true">TF_DOC_NO >= ${TF_DOC_NO_S}</condition><condition key="TF_DOC_NO_E" ignoreEmpty="true">${TF_DOC_NO_E} >= TF_DOC_NO</condition><condition key="TF_DOC_NO_L" ignoreEmpty="true">TF_DOC_NO like ${TF_DOC_NO_L}</condition>
+<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
+<condition key="DECL_NO_SEQ_S" ignoreEmpty="true">DECL_NO_SEQ >= ${DECL_NO_SEQ_S}</condition><condition key="DECL_NO_SEQ_E" ignoreEmpty="true">${DECL_NO_SEQ_E} >= DECL_NO_SEQ</condition><condition key="DECL_NO_SEQ_L" ignoreEmpty="true">DECL_NO_SEQ like ${DECL_NO_SEQ_L}</condition>
+<condition key="TF_ISSUE_DATE_S" ignoreEmpty="true">TF_ISSUE_DATE >= ${TF_ISSUE_DATE_S}</condition><condition key="TF_ISSUE_DATE_E" ignoreEmpty="true">${TF_ISSUE_DATE_E} >= TF_ISSUE_DATE</condition><condition key="TF_ISSUE_DATE_L" ignoreEmpty="true">TF_ISSUE_DATE like ${TF_ISSUE_DATE_L}</condition>
+<condition key="TF_SENDMARK_S" ignoreEmpty="true">TF_SENDMARK >= ${TF_SENDMARK_S}</condition><condition key="TF_SENDMARK_E" ignoreEmpty="true">${TF_SENDMARK_E} >= TF_SENDMARK</condition><condition key="TF_SENDMARK_L" ignoreEmpty="true">TF_SENDMARK like ${TF_SENDMARK_L}</condition>
+<condition key="TF_FLAG_S" ignoreEmpty="true">TF_FLAG >= ${TF_FLAG_S}</condition><condition key="TF_FLAG_E" ignoreEmpty="true">${TF_FLAG_E} >= TF_FLAG</condition><condition key="TF_FLAG_L" ignoreEmpty="true">TF_FLAG like ${TF_FLAG_L}</condition>
+<condition key="TF_BAN_S" ignoreEmpty="true">TF_BAN >= ${TF_BAN_S}</condition><condition key="TF_BAN_E" ignoreEmpty="true">${TF_BAN_E} >= TF_BAN</condition><condition key="TF_BAN_L" ignoreEmpty="true">TF_BAN like ${TF_BAN_L}</condition>
+<condition key="TF_APP_NAME_S" ignoreEmpty="true">TF_APP_NAME >= ${TF_APP_NAME_S}</condition><condition key="TF_APP_NAME_E" ignoreEmpty="true">${TF_APP_NAME_E} >= TF_APP_NAME</condition><condition key="TF_APP_NAME_L" ignoreEmpty="true">TF_APP_NAME like ${TF_APP_NAME_L}</condition>
+<condition key="TF_APP_TEL_S" ignoreEmpty="true">TF_APP_TEL >= ${TF_APP_TEL_S}</condition><condition key="TF_APP_TEL_E" ignoreEmpty="true">${TF_APP_TEL_E} >= TF_APP_TEL</condition><condition key="TF_APP_TEL_L" ignoreEmpty="true">TF_APP_TEL like ${TF_APP_TEL_L}</condition>
+<condition key="TF_LAW_OR_REASON_S" ignoreEmpty="true">TF_LAW_OR_REASON >= ${TF_LAW_OR_REASON_S}</condition><condition key="TF_LAW_OR_REASON_E" ignoreEmpty="true">${TF_LAW_OR_REASON_E} >= TF_LAW_OR_REASON</condition><condition key="TF_LAW_OR_REASON_L" ignoreEmpty="true">TF_LAW_OR_REASON like ${TF_LAW_OR_REASON_L}</condition>
+<condition key="TF_OTHER_EXPLAIN_S" ignoreEmpty="true">TF_OTHER_EXPLAIN >= ${TF_OTHER_EXPLAIN_S}</condition><condition key="TF_OTHER_EXPLAIN_E" ignoreEmpty="true">${TF_OTHER_EXPLAIN_E} >= TF_OTHER_EXPLAIN</condition><condition key="TF_OTHER_EXPLAIN_L" ignoreEmpty="true">TF_OTHER_EXPLAIN like ${TF_OTHER_EXPLAIN_L}</condition>
+<condition key="TF_HS_E_REASON_S" ignoreEmpty="true">TF_HS_E_REASON >= ${TF_HS_E_REASON_S}</condition><condition key="TF_HS_E_REASON_E" ignoreEmpty="true">${TF_HS_E_REASON_E} >= TF_HS_E_REASON</condition><condition key="TF_HS_E_REASON_L" ignoreEmpty="true">TF_HS_E_REASON like ${TF_HS_E_REASON_L}</condition>
+<condition key="TF_REMARK_S" ignoreEmpty="true">TF_REMARK >= ${TF_REMARK_S}</condition><condition key="TF_REMARK_E" ignoreEmpty="true">${TF_REMARK_E} >= TF_REMARK</condition><condition key="TF_REMARK_L" ignoreEmpty="true">TF_REMARK like ${TF_REMARK_L}</condition>
+<condition key="TF_PERSON_S" ignoreEmpty="true">TF_PERSON >= ${TF_PERSON_S}</condition><condition key="TF_PERSON_E" ignoreEmpty="true">${TF_PERSON_E} >= TF_PERSON</condition><condition key="TF_PERSON_L" ignoreEmpty="true">TF_PERSON like ${TF_PERSON_L}</condition>
+<condition key="TF_UPDATE_DT_S" ignoreEmpty="true">TF_UPDATE_DT >= ${TF_UPDATE_DT_S}</condition><condition key="TF_UPDATE_DT_E" ignoreEmpty="true">${TF_UPDATE_DT_E} >= TF_UPDATE_DT</condition><condition key="TF_UPDATE_DT_L" ignoreEmpty="true">TF_UPDATE_DT like ${TF_UPDATE_DT_L}</condition>
+<condition key="TF_REASON_A_S" ignoreEmpty="true">TF_REASON_A >= ${TF_REASON_A_S}</condition><condition key="TF_REASON_A_E" ignoreEmpty="true">${TF_REASON_A_E} >= TF_REASON_A</condition><condition key="TF_REASON_A_L" ignoreEmpty="true">TF_REASON_A like ${TF_REASON_A_L}</condition>
+<condition key="TF_REASON_B_S" ignoreEmpty="true">TF_REASON_B >= ${TF_REASON_B_S}</condition><condition key="TF_REASON_B_E" ignoreEmpty="true">${TF_REASON_B_E} >= TF_REASON_B</condition><condition key="TF_REASON_B_L" ignoreEmpty="true">TF_REASON_B like ${TF_REASON_B_L}</condition>
+<condition key="TF_REASON_C_S" ignoreEmpty="true">TF_REASON_C >= ${TF_REASON_C_S}</condition><condition key="TF_REASON_C_E" ignoreEmpty="true">${TF_REASON_C_E} >= TF_REASON_C</condition><condition key="TF_REASON_C_L" ignoreEmpty="true">TF_REASON_C like ${TF_REASON_C_L}</condition>
+<condition key="TF_REASON_D_S" ignoreEmpty="true">TF_REASON_D >= ${TF_REASON_D_S}</condition><condition key="TF_REASON_D_E" ignoreEmpty="true">${TF_REASON_D_E} >= TF_REASON_D</condition><condition key="TF_REASON_D_L" ignoreEmpty="true">TF_REASON_D like ${TF_REASON_D_L}</condition>
+<condition key="TF_REASON_0_S" ignoreEmpty="true">TF_REASON_0 >= ${TF_REASON_0_S}</condition><condition key="TF_REASON_0_E" ignoreEmpty="true">${TF_REASON_0_E} >= TF_REASON_0</condition><condition key="TF_REASON_0_L" ignoreEmpty="true">TF_REASON_0 like ${TF_REASON_0_L}</condition>
+<condition key="TF_STATUS_S" ignoreEmpty="true">TF_STATUS >= ${TF_STATUS_S}</condition><condition key="TF_STATUS_E" ignoreEmpty="true">${TF_STATUS_E} >= TF_STATUS</condition><condition key="TF_STATUS_L" ignoreEmpty="true">TF_STATUS like ${TF_STATUS_L}</condition>
+<condition key="TF_PERSON_A_S" ignoreEmpty="true">TF_PERSON_A >= ${TF_PERSON_A_S}</condition><condition key="TF_PERSON_A_E" ignoreEmpty="true">${TF_PERSON_A_E} >= TF_PERSON_A</condition><condition key="TF_PERSON_A_L" ignoreEmpty="true">TF_PERSON_A like ${TF_PERSON_A_L}</condition>
+<condition key="TF_DT_A_S" ignoreEmpty="true">TF_DT_A >= ${TF_DT_A_S}</condition><condition key="TF_DT_A_E" ignoreEmpty="true">${TF_DT_A_E} >= TF_DT_A</condition><condition key="TF_DT_A_L" ignoreEmpty="true">TF_DT_A like ${TF_DT_A_L}</condition>
+<condition key="TF_PERSON_B_S" ignoreEmpty="true">TF_PERSON_B >= ${TF_PERSON_B_S}</condition><condition key="TF_PERSON_B_E" ignoreEmpty="true">${TF_PERSON_B_E} >= TF_PERSON_B</condition><condition key="TF_PERSON_B_L" ignoreEmpty="true">TF_PERSON_B like ${TF_PERSON_B_L}</condition>
+<condition key="TF_DT_B_S" ignoreEmpty="true">TF_DT_B >= ${TF_DT_B_S}</condition><condition key="TF_DT_B_E" ignoreEmpty="true">${TF_DT_B_E} >= TF_DT_B</condition><condition key="TF_DT_B_L" ignoreEmpty="true">TF_DT_B like ${TF_DT_B_L}</condition>
+<condition key="TF_PERSON_C_S" ignoreEmpty="true">TF_PERSON_C >= ${TF_PERSON_C_S}</condition><condition key="TF_PERSON_C_E" ignoreEmpty="true">${TF_PERSON_C_E} >= TF_PERSON_C</condition><condition key="TF_PERSON_C_L" ignoreEmpty="true">TF_PERSON_C like ${TF_PERSON_C_L}</condition>
+<condition key="TF_DT_C_S" ignoreEmpty="true">TF_DT_C >= ${TF_DT_C_S}</condition><condition key="TF_DT_C_E" ignoreEmpty="true">${TF_DT_C_E} >= TF_DT_C</condition><condition key="TF_DT_C_L" ignoreEmpty="true">TF_DT_C like ${TF_DT_C_L}</condition>
+<condition key="TF_PERSON_D_S" ignoreEmpty="true">TF_PERSON_D >= ${TF_PERSON_D_S}</condition><condition key="TF_PERSON_D_E" ignoreEmpty="true">${TF_PERSON_D_E} >= TF_PERSON_D</condition><condition key="TF_PERSON_D_L" ignoreEmpty="true">TF_PERSON_D like ${TF_PERSON_D_L}</condition>
+<condition key="TF_DT_D_S" ignoreEmpty="true">TF_DT_D >= ${TF_DT_D_S}</condition><condition key="TF_DT_D_E" ignoreEmpty="true">${TF_DT_D_E} >= TF_DT_D</condition><condition key="TF_DT_D_L" ignoreEmpty="true">TF_DT_D like ${TF_DT_D_L}</condition>
+<condition key="TF_PERSON_0_S" ignoreEmpty="true">TF_PERSON_0 >= ${TF_PERSON_0_S}</condition><condition key="TF_PERSON_0_E" ignoreEmpty="true">${TF_PERSON_0_E} >= TF_PERSON_0</condition><condition key="TF_PERSON_0_L" ignoreEmpty="true">TF_PERSON_0 like ${TF_PERSON_0_L}</condition>
+<condition key="TF_DT_0_S" ignoreEmpty="true">TF_DT_0 >= ${TF_DT_0_S}</condition><condition key="TF_DT_0_E" ignoreEmpty="true">${TF_DT_0_E} >= TF_DT_0</condition><condition key="TF_DT_0_L" ignoreEmpty="true">TF_DT_0 like ${TF_DT_0_L}</condition>
+<condition key="TF_SECOND_RESULT_S" ignoreEmpty="true">TF_SECOND_RESULT >= ${TF_SECOND_RESULT_S}</condition><condition key="TF_SECOND_RESULT_E" ignoreEmpty="true">${TF_SECOND_RESULT_E} >= TF_SECOND_RESULT</condition><condition key="TF_SECOND_RESULT_L" ignoreEmpty="true">TF_SECOND_RESULT like ${TF_SECOND_RESULT_L}</condition>
+<condition key="TF_SECOND_PERSON_S" ignoreEmpty="true">TF_SECOND_PERSON >= ${TF_SECOND_PERSON_S}</condition><condition key="TF_SECOND_PERSON_E" ignoreEmpty="true">${TF_SECOND_PERSON_E} >= TF_SECOND_PERSON</condition><condition key="TF_SECOND_PERSON_L" ignoreEmpty="true">TF_SECOND_PERSON like ${TF_SECOND_PERSON_L}</condition>
+<condition key="TF_SECOND_UPDATE_DT_S" ignoreEmpty="true">TF_SECOND_UPDATE_DT >= ${TF_SECOND_UPDATE_DT_S}</condition><condition key="TF_SECOND_UPDATE_DT_E" ignoreEmpty="true">${TF_SECOND_UPDATE_DT_E} >= TF_SECOND_UPDATE_DT</condition><condition key="TF_SECOND_UPDATE_DT_L" ignoreEmpty="true">TF_SECOND_UPDATE_DT like ${TF_SECOND_UPDATE_DT_L}</condition>
+<condition key="TF_AIMPORT_S" ignoreEmpty="true">TF_AIMPORT >= ${TF_AIMPORT_S}</condition><condition key="TF_AIMPORT_E" ignoreEmpty="true">${TF_AIMPORT_E} >= TF_AIMPORT</condition><condition key="TF_AIMPORT_L" ignoreEmpty="true">TF_AIMPORT like ${TF_AIMPORT_L}</condition>
+<condition key="TF_BIMPORT_S" ignoreEmpty="true">TF_BIMPORT >= ${TF_BIMPORT_S}</condition><condition key="TF_BIMPORT_E" ignoreEmpty="true">${TF_BIMPORT_E} >= TF_BIMPORT</condition><condition key="TF_BIMPORT_L" ignoreEmpty="true">TF_BIMPORT like ${TF_BIMPORT_L}</condition>
+<condition key="TF_CIMPORT_S" ignoreEmpty="true">TF_CIMPORT >= ${TF_CIMPORT_S}</condition><condition key="TF_CIMPORT_E" ignoreEmpty="true">${TF_CIMPORT_E} >= TF_CIMPORT</condition><condition key="TF_CIMPORT_L" ignoreEmpty="true">TF_CIMPORT like ${TF_CIMPORT_L}</condition>
+<condition key="TF_DIMPORT_S" ignoreEmpty="true">TF_DIMPORT >= ${TF_DIMPORT_S}</condition><condition key="TF_DIMPORT_E" ignoreEmpty="true">${TF_DIMPORT_E} >= TF_DIMPORT</condition><condition key="TF_DIMPORT_L" ignoreEmpty="true">TF_DIMPORT like ${TF_DIMPORT_L}</condition>
+<condition key="AC_USER_0_S" ignoreEmpty="true">AC_USER_0 >= ${AC_USER_0_S}</condition><condition key="AC_USER_0_E" ignoreEmpty="true">${AC_USER_0_E} >= AC_USER_0</condition><condition key="AC_USER_0_L" ignoreEmpty="true">AC_USER_0 like ${AC_USER_0_L}</condition>
+<condition key="AC_USER_A_S" ignoreEmpty="true">AC_USER_A >= ${AC_USER_A_S}</condition><condition key="AC_USER_A_E" ignoreEmpty="true">${AC_USER_A_E} >= AC_USER_A</condition><condition key="AC_USER_A_L" ignoreEmpty="true">AC_USER_A like ${AC_USER_A_L}</condition>
+<condition key="AC_USER_B_S" ignoreEmpty="true">AC_USER_B >= ${AC_USER_B_S}</condition><condition key="AC_USER_B_E" ignoreEmpty="true">${AC_USER_B_E} >= AC_USER_B</condition><condition key="AC_USER_B_L" ignoreEmpty="true">AC_USER_B like ${AC_USER_B_L}</condition>
+<condition key="AC_USER_C_S" ignoreEmpty="true">AC_USER_C >= ${AC_USER_C_S}</condition><condition key="AC_USER_C_E" ignoreEmpty="true">${AC_USER_C_E} >= AC_USER_C</condition><condition key="AC_USER_C_L" ignoreEmpty="true">AC_USER_C like ${AC_USER_C_L}</condition>
+<condition key="AC_USER_D_S" ignoreEmpty="true">AC_USER_D >= ${AC_USER_D_S}</condition><condition key="AC_USER_D_E" ignoreEmpty="true">${AC_USER_D_E} >= AC_USER_D</condition><condition key="AC_USER_D_L" ignoreEmpty="true">AC_USER_D like ${AC_USER_D_L}</condition>
+<condition key="TF_RE_SENDMARK_S" ignoreEmpty="true">TF_RE_SENDMARK >= ${TF_RE_SENDMARK_S}</condition><condition key="TF_RE_SENDMARK_E" ignoreEmpty="true">${TF_RE_SENDMARK_E} >= TF_RE_SENDMARK</condition><condition key="TF_RE_SENDMARK_L" ignoreEmpty="true">TF_RE_SENDMARK like ${TF_RE_SENDMARK_L}</condition>
+<condition key="TF_RE_PERSON_S" ignoreEmpty="true">TF_RE_PERSON >= ${TF_RE_PERSON_S}</condition><condition key="TF_RE_PERSON_E" ignoreEmpty="true">${TF_RE_PERSON_E} >= TF_RE_PERSON</condition><condition key="TF_RE_PERSON_L" ignoreEmpty="true">TF_RE_PERSON like ${TF_RE_PERSON_L}</condition>
+<condition key="TF_RE_UPD_DT_S" ignoreEmpty="true">TF_RE_UPD_DT >= ${TF_RE_UPD_DT_S}</condition><condition key="TF_RE_UPD_DT_E" ignoreEmpty="true">${TF_RE_UPD_DT_E} >= TF_RE_UPD_DT</condition><condition key="TF_RE_UPD_DT_L" ignoreEmpty="true">TF_RE_UPD_DT like ${TF_RE_UPD_DT_L}</condition>
+<condition key="TF_RE_REJECT_S" ignoreEmpty="true">TF_RE_REJECT >= ${TF_RE_REJECT_S}</condition><condition key="TF_RE_REJECT_E" ignoreEmpty="true">${TF_RE_REJECT_E} >= TF_RE_REJECT</condition><condition key="TF_RE_REJECT_L" ignoreEmpty="true">TF_RE_REJECT like ${TF_RE_REJECT_L}</condition>
+<condition key="TF_RE_SAMPLE_S" ignoreEmpty="true">TF_RE_SAMPLE >= ${TF_RE_SAMPLE_S}</condition><condition key="TF_RE_SAMPLE_E" ignoreEmpty="true">${TF_RE_SAMPLE_E} >= TF_RE_SAMPLE</condition><condition key="TF_RE_SAMPLE_L" ignoreEmpty="true">TF_RE_SAMPLE like ${TF_RE_SAMPLE_L}</condition>
+<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+<condition key="TF_APP_ADDRESS_S" ignoreEmpty="true">TF_APP_ADDRESS >= ${TF_APP_ADDRESS_S}</condition><condition key="TF_APP_ADDRESS_E" ignoreEmpty="true">${TF_APP_ADDRESS_E} >= TF_APP_ADDRESS</condition><condition key="TF_APP_ADDRESS_L" ignoreEmpty="true">TF_APP_ADDRESS like ${TF_APP_ADDRESS_L}</condition>
+<condition key="TF_SECOND_NOTE_S" ignoreEmpty="true">TF_SECOND_NOTE >= ${TF_SECOND_NOTE_S}</condition><condition key="TF_SECOND_NOTE_E" ignoreEmpty="true">${TF_SECOND_NOTE_E} >= TF_SECOND_NOTE</condition><condition key="TF_SECOND_NOTE_L" ignoreEmpty="true">TF_SECOND_NOTE like ${TF_SECOND_NOTE_L}</condition>
+<condition key="TF_REASON_A_NOTE_S" ignoreEmpty="true">TF_REASON_A_NOTE >= ${TF_REASON_A_NOTE_S}</condition><condition key="TF_REASON_A_NOTE_E" ignoreEmpty="true">${TF_REASON_A_NOTE_E} >= TF_REASON_A_NOTE</condition><condition key="TF_REASON_A_NOTE_L" ignoreEmpty="true">TF_REASON_A_NOTE like ${TF_REASON_A_NOTE_L}</condition>
+<condition key="TF_REASON_B_NOTE_S" ignoreEmpty="true">TF_REASON_B_NOTE >= ${TF_REASON_B_NOTE_S}</condition><condition key="TF_REASON_B_NOTE_E" ignoreEmpty="true">${TF_REASON_B_NOTE_E} >= TF_REASON_B_NOTE</condition><condition key="TF_REASON_B_NOTE_L" ignoreEmpty="true">TF_REASON_B_NOTE like ${TF_REASON_B_NOTE_L}</condition>
+<condition key="TF_REASON_C_NOTE_S" ignoreEmpty="true">TF_REASON_C_NOTE >= ${TF_REASON_C_NOTE_S}</condition><condition key="TF_REASON_C_NOTE_E" ignoreEmpty="true">${TF_REASON_C_NOTE_E} >= TF_REASON_C_NOTE</condition><condition key="TF_REASON_C_NOTE_L" ignoreEmpty="true">TF_REASON_C_NOTE like ${TF_REASON_C_NOTE_L}</condition>
+<condition key="TF_REASON_D_NOTE_S" ignoreEmpty="true">TF_REASON_D_NOTE >= ${TF_REASON_D_NOTE_S}</condition><condition key="TF_REASON_D_NOTE_E" ignoreEmpty="true">${TF_REASON_D_NOTE_E} >= TF_REASON_D_NOTE</condition><condition key="TF_REASON_D_NOTE_L" ignoreEmpty="true">TF_REASON_D_NOTE like ${TF_REASON_D_NOTE_L}</condition>
+<condition key="TF_REASON_0_NOTE_S" ignoreEmpty="true">TF_REASON_0_NOTE >= ${TF_REASON_0_NOTE_S}</condition><condition key="TF_REASON_0_NOTE_E" ignoreEmpty="true">${TF_REASON_0_NOTE_E} >= TF_REASON_0_NOTE</condition><condition key="TF_REASON_0_NOTE_L" ignoreEmpty="true">TF_REASON_0_NOTE like ${TF_REASON_0_NOTE_L}</condition>
+<condition key="TF_M_REASON_NOTE_S" ignoreEmpty="true">TF_M_REASON_NOTE >= ${TF_M_REASON_NOTE_S}</condition><condition key="TF_M_REASON_NOTE_E" ignoreEmpty="true">${TF_M_REASON_NOTE_E} >= TF_M_REASON_NOTE</condition><condition key="TF_M_REASON_NOTE_L" ignoreEmpty="true">TF_M_REASON_NOTE like ${TF_M_REASON_NOTE_L}</condition>
+<condition key="TF_M_REASON_S" ignoreEmpty="true">TF_M_REASON >= ${TF_M_REASON_S}</condition><condition key="TF_M_REASON_E" ignoreEmpty="true">${TF_M_REASON_E} >= TF_M_REASON</condition><condition key="TF_M_REASON_L" ignoreEmpty="true">TF_M_REASON like ${TF_M_REASON_L}</condition>
+<condition key="TF_M_PERSON_S" ignoreEmpty="true">TF_M_PERSON >= ${TF_M_PERSON_S}</condition><condition key="TF_M_PERSON_E" ignoreEmpty="true">${TF_M_PERSON_E} >= TF_M_PERSON</condition><condition key="TF_M_PERSON_L" ignoreEmpty="true">TF_M_PERSON like ${TF_M_PERSON_L}</condition>
+<condition key="TF_M_DT_S" ignoreEmpty="true">TF_M_DT >= ${TF_M_DT_S}</condition><condition key="TF_M_DT_E" ignoreEmpty="true">${TF_M_DT_E} >= TF_M_DT</condition><condition key="TF_M_DT_L" ignoreEmpty="true">TF_M_DT like ${TF_M_DT_L}</condition>
+<condition key="TF_M_SUGSEND_S" ignoreEmpty="true">TF_M_SUGSEND >= ${TF_M_SUGSEND_S}</condition><condition key="TF_M_SUGSEND_E" ignoreEmpty="true">${TF_M_SUGSEND_E} >= TF_M_SUGSEND</condition><condition key="TF_M_SUGSEND_L" ignoreEmpty="true">TF_M_SUGSEND like ${TF_M_SUGSEND_L}</condition>
+<condition key="TF_SECOND_RNOTE_S" ignoreEmpty="true">TF_SECOND_RNOTE >= ${TF_SECOND_RNOTE_S}</condition><condition key="TF_SECOND_RNOTE_E" ignoreEmpty="true">${TF_SECOND_RNOTE_E} >= TF_SECOND_RNOTE</condition><condition key="TF_SECOND_RNOTE_L" ignoreEmpty="true">TF_SECOND_RNOTE like ${TF_SECOND_RNOTE_L}</condition>
+<condition key="TF_M_MENO_S" ignoreEmpty="true">TF_M_MENO >= ${TF_M_MENO_S}</condition><condition key="TF_M_MENO_E" ignoreEmpty="true">${TF_M_MENO_E} >= TF_M_MENO</condition><condition key="TF_M_MENO_L" ignoreEmpty="true">TF_M_MENO like ${TF_M_MENO_L}</condition>
+
+<field key="TF_DOC_NO" name="TF_DOC_NO" ignoreEmpty="true"/>
+<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
+<field key="DECL_NO_SEQ" name="DECL_NO_SEQ" ignoreEmpty="true"/>
+<field key="TF_ISSUE_DATE" name="TF_ISSUE_DATE" ignoreEmpty="true"/>
+<field key="TF_SENDMARK" name="TF_SENDMARK" ignoreEmpty="true"/>
+<field key="TF_FLAG" name="TF_FLAG" ignoreEmpty="true"/>
+<field key="TF_BAN" name="TF_BAN" ignoreEmpty="true"/>
+<field key="TF_APP_NAME" name="TF_APP_NAME" ignoreEmpty="true"/>
+<field key="TF_APP_TEL" name="TF_APP_TEL" ignoreEmpty="true"/>
+<field key="TF_LAW_OR_REASON" name="TF_LAW_OR_REASON" ignoreEmpty="true"/>
+<field key="TF_OTHER_EXPLAIN" name="TF_OTHER_EXPLAIN" ignoreEmpty="true"/>
+<field key="TF_HS_E_REASON" name="TF_HS_E_REASON" ignoreEmpty="true"/>
+<field key="TF_REMARK" name="TF_REMARK" ignoreEmpty="true"/>
+<field key="TF_PERSON" name="TF_PERSON" ignoreEmpty="true"/>
+<field key="TF_UPDATE_DT" name="TF_UPDATE_DT" ignoreEmpty="true"/>
+<field key="TF_REASON_A" name="TF_REASON_A" ignoreEmpty="true"/>
+<field key="TF_REASON_B" name="TF_REASON_B" ignoreEmpty="true"/>
+<field key="TF_REASON_C" name="TF_REASON_C" ignoreEmpty="true"/>
+<field key="TF_REASON_D" name="TF_REASON_D" ignoreEmpty="true"/>
+<field key="TF_REASON_0" name="TF_REASON_0" ignoreEmpty="true"/>
+<field key="TF_STATUS" name="TF_STATUS" ignoreEmpty="true"/>
+<field key="TF_PERSON_A" name="TF_PERSON_A" ignoreEmpty="true"/>
+<field key="TF_DT_A" name="TF_DT_A" ignoreEmpty="true"/>
+<field key="TF_PERSON_B" name="TF_PERSON_B" ignoreEmpty="true"/>
+<field key="TF_DT_B" name="TF_DT_B" ignoreEmpty="true"/>
+<field key="TF_PERSON_C" name="TF_PERSON_C" ignoreEmpty="true"/>
+<field key="TF_DT_C" name="TF_DT_C" ignoreEmpty="true"/>
+<field key="TF_PERSON_D" name="TF_PERSON_D" ignoreEmpty="true"/>
+<field key="TF_DT_D" name="TF_DT_D" ignoreEmpty="true"/>
+<field key="TF_PERSON_0" name="TF_PERSON_0" ignoreEmpty="true"/>
+<field key="TF_DT_0" name="TF_DT_0" ignoreEmpty="true"/>
+<field key="TF_SECOND_RESULT" name="TF_SECOND_RESULT" ignoreEmpty="true"/>
+<field key="TF_SECOND_PERSON" name="TF_SECOND_PERSON" ignoreEmpty="true"/>
+<field key="TF_SECOND_UPDATE_DT" name="TF_SECOND_UPDATE_DT" ignoreEmpty="true"/>
+<field key="TF_AIMPORT" name="TF_AIMPORT" ignoreEmpty="true"/>
+<field key="TF_BIMPORT" name="TF_BIMPORT" ignoreEmpty="true"/>
+<field key="TF_CIMPORT" name="TF_CIMPORT" ignoreEmpty="true"/>
+<field key="TF_DIMPORT" name="TF_DIMPORT" ignoreEmpty="true"/>
+<field key="AC_USER_0" name="AC_USER_0" ignoreEmpty="true"/>
+<field key="AC_USER_A" name="AC_USER_A" ignoreEmpty="true"/>
+<field key="AC_USER_B" name="AC_USER_B" ignoreEmpty="true"/>
+<field key="AC_USER_C" name="AC_USER_C" ignoreEmpty="true"/>
+<field key="AC_USER_D" name="AC_USER_D" ignoreEmpty="true"/>
+<field key="TF_RE_SENDMARK" name="TF_RE_SENDMARK" ignoreEmpty="true"/>
+<field key="TF_RE_PERSON" name="TF_RE_PERSON" ignoreEmpty="true"/>
+<field key="TF_RE_UPD_DT" name="TF_RE_UPD_DT" ignoreEmpty="true"/>
+<field key="TF_RE_REJECT" name="TF_RE_REJECT" ignoreEmpty="true"/>
+<field key="TF_RE_SAMPLE" name="TF_RE_SAMPLE" ignoreEmpty="true"/>
+<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+<field key="TF_APP_ADDRESS" name="TF_APP_ADDRESS" ignoreEmpty="true"/>
+<field key="TF_SECOND_NOTE" name="TF_SECOND_NOTE" ignoreEmpty="true"/>
+<field key="TF_REASON_A_NOTE" name="TF_REASON_A_NOTE" ignoreEmpty="true"/>
+<field key="TF_REASON_B_NOTE" name="TF_REASON_B_NOTE" ignoreEmpty="true"/>
+<field key="TF_REASON_C_NOTE" name="TF_REASON_C_NOTE" ignoreEmpty="true"/>
+<field key="TF_REASON_D_NOTE" name="TF_REASON_D_NOTE" ignoreEmpty="true"/>
+<field key="TF_REASON_0_NOTE" name="TF_REASON_0_NOTE" ignoreEmpty="true"/>
+<field key="TF_M_REASON_NOTE" name="TF_M_REASON_NOTE" ignoreEmpty="true"/>
+<field key="TF_M_REASON" name="TF_M_REASON" ignoreEmpty="true"/>
+<field key="TF_M_PERSON" name="TF_M_PERSON" ignoreEmpty="true"/>
+<field key="TF_M_DT" name="TF_M_DT" ignoreEmpty="true"/>
+<field key="TF_M_SUGSEND" name="TF_M_SUGSEND" ignoreEmpty="true"/>
+<field key="TF_SECOND_RNOTE" name="TF_SECOND_RNOTE" ignoreEmpty="true"/>
+<field key="TF_M_MENO" name="TF_M_MENO" ignoreEmpty="true"/>
+
+$('#pageBean_tfDocNo').attr('value',rowData.TF_DOC_NO);
+$('#pageBean_declNo').attr('value',rowData.DECL_NO);
+$('#pageBean_declNoSeq').attr('value',rowData.DECL_NO_SEQ);
+$('#pageBean_tfIssueDate').attr('value',rowData.TF_ISSUE_DATE);
+$('#pageBean_tfSendmark').attr('value',rowData.TF_SENDMARK);
+$('#pageBean_tfFlag').attr('value',rowData.TF_FLAG);
+$('#pageBean_tfBan').attr('value',rowData.TF_BAN);
+$('#pageBean_tfAppName').attr('value',rowData.TF_APP_NAME);
+$('#pageBean_tfAppTel').attr('value',rowData.TF_APP_TEL);
+$('#pageBean_tfLawOrReason').attr('value',rowData.TF_LAW_OR_REASON);
+$('#pageBean_tfOtherExplain').attr('value',rowData.TF_OTHER_EXPLAIN);
+$('#pageBean_tfHsEReason').attr('value',rowData.TF_HS_E_REASON);
+$('#pageBean_tfRemark').attr('value',rowData.TF_REMARK);
+$('#pageBean_tfPerson').attr('value',rowData.TF_PERSON);
+$('#pageBean_tfUpdateDt').attr('value',rowData.TF_UPDATE_DT);
+$('#pageBean_tfReasonA').attr('value',rowData.TF_REASON_A);
+$('#pageBean_tfReasonB').attr('value',rowData.TF_REASON_B);
+$('#pageBean_tfReasonC').attr('value',rowData.TF_REASON_C);
+$('#pageBean_tfReasonD').attr('value',rowData.TF_REASON_D);
+$('#pageBean_tfReason0').attr('value',rowData.TF_REASON_0);
+$('#pageBean_tfStatus').attr('value',rowData.TF_STATUS);
+$('#pageBean_tfPersonA').attr('value',rowData.TF_PERSON_A);
+$('#pageBean_tfDtA').attr('value',rowData.TF_DT_A);
+$('#pageBean_tfPersonB').attr('value',rowData.TF_PERSON_B);
+$('#pageBean_tfDtB').attr('value',rowData.TF_DT_B);
+$('#pageBean_tfPersonC').attr('value',rowData.TF_PERSON_C);
+$('#pageBean_tfDtC').attr('value',rowData.TF_DT_C);
+$('#pageBean_tfPersonD').attr('value',rowData.TF_PERSON_D);
+$('#pageBean_tfDtD').attr('value',rowData.TF_DT_D);
+$('#pageBean_tfPerson0').attr('value',rowData.TF_PERSON_0);
+$('#pageBean_tfDt0').attr('value',rowData.TF_DT_0);
+$('#pageBean_tfSecondResult').attr('value',rowData.TF_SECOND_RESULT);
+$('#pageBean_tfSecondPerson').attr('value',rowData.TF_SECOND_PERSON);
+$('#pageBean_tfSecondUpdateDt').attr('value',rowData.TF_SECOND_UPDATE_DT);
+$('#pageBean_tfAimport').attr('value',rowData.TF_AIMPORT);
+$('#pageBean_tfBimport').attr('value',rowData.TF_BIMPORT);
+$('#pageBean_tfCimport').attr('value',rowData.TF_CIMPORT);
+$('#pageBean_tfDimport').attr('value',rowData.TF_DIMPORT);
+$('#pageBean_acUser0').attr('value',rowData.AC_USER_0);
+$('#pageBean_acUserA').attr('value',rowData.AC_USER_A);
+$('#pageBean_acUserB').attr('value',rowData.AC_USER_B);
+$('#pageBean_acUserC').attr('value',rowData.AC_USER_C);
+$('#pageBean_acUserD').attr('value',rowData.AC_USER_D);
+$('#pageBean_tfReSendmark').attr('value',rowData.TF_RE_SENDMARK);
+$('#pageBean_tfRePerson').attr('value',rowData.TF_RE_PERSON);
+$('#pageBean_tfReUpdDt').attr('value',rowData.TF_RE_UPD_DT);
+$('#pageBean_tfReReject').attr('value',rowData.TF_RE_REJECT);
+$('#pageBean_tfReSample').attr('value',rowData.TF_RE_SAMPLE);
+$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+$('#pageBean_tfAppAddress').attr('value',rowData.TF_APP_ADDRESS);
+$('#pageBean_tfSecondNote').attr('value',rowData.TF_SECOND_NOTE);
+$('#pageBean_tfReasonANote').attr('value',rowData.TF_REASON_A_NOTE);
+$('#pageBean_tfReasonBNote').attr('value',rowData.TF_REASON_B_NOTE);
+$('#pageBean_tfReasonCNote').attr('value',rowData.TF_REASON_C_NOTE);
+$('#pageBean_tfReasonDNote').attr('value',rowData.TF_REASON_D_NOTE);
+$('#pageBean_tfReason0Note').attr('value',rowData.TF_REASON_0_NOTE);
+$('#pageBean_tfMReasonNote').attr('value',rowData.TF_M_REASON_NOTE);
+$('#pageBean_tfMReason').attr('value',rowData.TF_M_REASON);
+$('#pageBean_tfMPerson').attr('value',rowData.TF_M_PERSON);
+$('#pageBean_tfMDt').attr('value',rowData.TF_M_DT);
+$('#pageBean_tfMSugsend').attr('value',rowData.TF_M_SUGSEND);
+$('#pageBean_tfSecondRnote').attr('value',rowData.TF_SECOND_RNOTE);
+$('#pageBean_tfMMeno').attr('value',rowData.TF_M_MENO);
+
+$('#pageBean_tfDocNo').attr("value", "");
+$('#pageBean_declNo').attr("value", "");
+$('#pageBean_declNoSeq').attr("value", "");
+$('#pageBean_tfIssueDate').attr("value", "");
+$('#pageBean_tfSendmark').attr("value", "");
+$('#pageBean_tfFlag').attr("value", "");
+$('#pageBean_tfBan').attr("value", "");
+$('#pageBean_tfAppName').attr("value", "");
+$('#pageBean_tfAppTel').attr("value", "");
+$('#pageBean_tfLawOrReason').attr("value", "");
+$('#pageBean_tfOtherExplain').attr("value", "");
+$('#pageBean_tfHsEReason').attr("value", "");
+$('#pageBean_tfRemark').attr("value", "");
+$('#pageBean_tfPerson').attr("value", "");
+$('#pageBean_tfUpdateDt').attr("value", "");
+$('#pageBean_tfReasonA').attr("value", "");
+$('#pageBean_tfReasonB').attr("value", "");
+$('#pageBean_tfReasonC').attr("value", "");
+$('#pageBean_tfReasonD').attr("value", "");
+$('#pageBean_tfReason0').attr("value", "");
+$('#pageBean_tfStatus').attr("value", "");
+$('#pageBean_tfPersonA').attr("value", "");
+$('#pageBean_tfDtA').attr("value", "");
+$('#pageBean_tfPersonB').attr("value", "");
+$('#pageBean_tfDtB').attr("value", "");
+$('#pageBean_tfPersonC').attr("value", "");
+$('#pageBean_tfDtC').attr("value", "");
+$('#pageBean_tfPersonD').attr("value", "");
+$('#pageBean_tfDtD').attr("value", "");
+$('#pageBean_tfPerson0').attr("value", "");
+$('#pageBean_tfDt0').attr("value", "");
+$('#pageBean_tfSecondResult').attr("value", "");
+$('#pageBean_tfSecondPerson').attr("value", "");
+$('#pageBean_tfSecondUpdateDt').attr("value", "");
+$('#pageBean_tfAimport').attr("value", "");
+$('#pageBean_tfBimport').attr("value", "");
+$('#pageBean_tfCimport').attr("value", "");
+$('#pageBean_tfDimport').attr("value", "");
+$('#pageBean_acUser0').attr("value", "");
+$('#pageBean_acUserA').attr("value", "");
+$('#pageBean_acUserB').attr("value", "");
+$('#pageBean_acUserC').attr("value", "");
+$('#pageBean_acUserD').attr("value", "");
+$('#pageBean_tfReSendmark').attr("value", "");
+$('#pageBean_tfRePerson').attr("value", "");
+$('#pageBean_tfReUpdDt').attr("value", "");
+$('#pageBean_tfReReject').attr("value", "");
+$('#pageBean_tfReSample').attr("value", "");
+$('#pageBean_upPerson').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+$('#pageBean_tfAppAddress').attr("value", "");
+$('#pageBean_tfSecondNote').attr("value", "");
+$('#pageBean_tfReasonANote').attr("value", "");
+$('#pageBean_tfReasonBNote').attr("value", "");
+$('#pageBean_tfReasonCNote').attr("value", "");
+$('#pageBean_tfReasonDNote').attr("value", "");
+$('#pageBean_tfReason0Note').attr("value", "");
+$('#pageBean_tfMReasonNote').attr("value", "");
+$('#pageBean_tfMReason').attr("value", "");
+$('#pageBean_tfMPerson').attr("value", "");
+$('#pageBean_tfMDt').attr("value", "");
+$('#pageBean_tfMSugsend').attr("value", "");
+$('#pageBean_tfSecondRnote').attr("value", "");
+$('#pageBean_tfMMeno').attr("value", "");
+
+TF_DOC_NO:$('#pageBean_tfDocNo').val(),//發文文號
+DECL_NO:$('#pageBean_declNo').val(),//報單編號
+DECL_NO_SEQ:$('#pageBean_declNoSeq').val(),//報單號碼-重申請序號
+TF_ISSUE_DATE:$('#pageBean_tfIssueDate').val(),//發文日期
+TF_SENDMARK:$('#pageBean_tfSendmark').val(),//傳送註記
+TF_FLAG:$('#pageBean_tfFlag').val(),//特殊註記
+TF_BAN:$('#pageBean_tfBan').val(),//統一編號
+TF_APP_NAME:$('#pageBean_tfAppName').val(),//申請廠商名稱
+TF_APP_TEL:$('#pageBean_tfAppTel').val(),//申請廠商電話
+TF_LAW_OR_REASON:$('#pageBean_tfLawOrReason').val(),//查核依據
+TF_OTHER_EXPLAIN:$('#pageBean_tfOtherExplain').val(),//進口人意見
+TF_HS_E_REASON:$('#pageBean_tfHsEReason').val(),//稅則分類疑義
+TF_REMARK:$('#pageBean_tfRemark').val(),//備註
+TF_PERSON:$('#pageBean_tfPerson').val(),//異動人員代碼-案件資料
+TF_UPDATE_DT:$('#pageBean_tfUpdateDt').val(),//最後異動日期-案件資料
+TF_REASON_A:$('#pageBean_tfReasonA').val(),//基隆關意見
+TF_REASON_B:$('#pageBean_tfReasonB').val(),//高雄關意見
+TF_REASON_C:$('#pageBean_tfReasonC').val(),//台北關意見
+TF_REASON_D:$('#pageBean_tfReasonD').val(),//台中關意見
+TF_REASON_0:$('#pageBean_tfReason0').val(),//稅則處解答
+TF_STATUS:$('#pageBean_tfStatus').val(),//案件處理狀態
+TF_PERSON_A:$('#pageBean_tfPersonA').val(),//異動人員代碼-基隆關意見
+TF_DT_A:$('#pageBean_tfDtA').val(),//最後異動日期-基隆關意見
+TF_PERSON_B:$('#pageBean_tfPersonB').val(),//異動人員代碼-高雄關意見
+TF_DT_B:$('#pageBean_tfDtB').val(),//最後異動日期-高雄關意見
+TF_PERSON_C:$('#pageBean_tfPersonC').val(),//異動人員代碼-台北關意見
+TF_DT_C:$('#pageBean_tfDtC').val(),//最後異動日期-台北關意見
+TF_PERSON_D:$('#pageBean_tfPersonD').val(),//異動人員代碼-台中關意見
+TF_DT_D:$('#pageBean_tfDtD').val(),//最後異動日期-台中關意見
+TF_PERSON_0:$('#pageBean_tfPerson0').val(),//異動人員代碼:稅則處意見
+TF_DT_0:$('#pageBean_tfDt0').val(),//最後異動日期-稅則處意見
+TF_SECOND_RESULT:$('#pageBean_tfSecondResult').val(),//複核結果
+TF_SECOND_PERSON:$('#pageBean_tfSecondPerson').val(),//複核異動人員代號
+TF_SECOND_UPDATE_DT:$('#pageBean_tfSecondUpdateDt').val(),//複核最後異動日期
+TF_AIMPORT:$('#pageBean_tfAimport').val(),//基隆關進口紀錄
+TF_BIMPORT:$('#pageBean_tfBimport').val(),//高雄關進口紀錄
+TF_CIMPORT:$('#pageBean_tfCimport').val(),//台北關進口紀錄
+TF_DIMPORT:$('#pageBean_tfDimport').val(),//台中關進口紀錄
+AC_USER_0:$('#pageBean_acUser0').val(),//承辦人員_總局
+AC_USER_A:$('#pageBean_acUserA').val(),//承辦人員_基隆
+AC_USER_B:$('#pageBean_acUserB').val(),//承辦人員_高雄
+AC_USER_C:$('#pageBean_acUserC').val(),//承辦人員_台北
+AC_USER_D:$('#pageBean_acUserD').val(),//承辦人員_台中
+TF_RE_SENDMARK:$('#pageBean_tfReSendmark').val(),//分估-傳送註記
+TF_RE_PERSON:$('#pageBean_tfRePerson').val(),//分估人員代號
+TF_RE_UPD_DT:$('#pageBean_tfReUpdDt').val(),//分估異動日期
+TF_RE_REJECT:$('#pageBean_tfReReject').val(),//分估-案件退案理由
+TF_RE_SAMPLE:$('#pageBean_tfReSample').val(),//分估-實體樣品後送
+UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
+UP_DATE:$('#pageBean_upDate').val(),//異動時間
+TF_APP_ADDRESS:$('#pageBean_tfAppAddress').val(),//申請廠商地址
+TF_SECOND_NOTE:$('#pageBean_tfSecondNote').val(),//複核案件註記
+TF_REASON_A_NOTE:$('#pageBean_tfReasonANote').val(),//基隆關意見_完成註記
+TF_REASON_B_NOTE:$('#pageBean_tfReasonBNote').val(),//高雄關意見_完成註記
+TF_REASON_C_NOTE:$('#pageBean_tfReasonCNote').val(),//台北關意見_完成註記
+TF_REASON_D_NOTE:$('#pageBean_tfReasonDNote').val(),//台中關意見_完成註記
+TF_REASON_0_NOTE:$('#pageBean_tfReason0Note').val(),//稅則處解答_完成註記
+TF_M_REASON_NOTE:$('#pageBean_tfMReasonNote').val(),//主辦關整合意見_完成註記
+TF_M_REASON:$('#pageBean_tfMReason').val(),//主辦關整合意見
+TF_M_PERSON:$('#pageBean_tfMPerson').val(),//主辦關整合意見_異動人員
+TF_M_DT:$('#pageBean_tfMDt').val(),//主辦關整合意見_異動時間
+TF_M_SUGSEND:$('#pageBean_tfMSugsend').val(),//主辦關建議送稅則處註記
+TF_SECOND_RNOTE:$('#pageBean_tfSecondRnote').val(),//複核結果_完成註記
+TF_M_MENO:$('#pageBean_tfMMeno').val(),//送稅則法制組說明
+
+pageBean.setTfDocNo(dataObjects.getString("TF_DOC_NO"));//發文文號
+pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單編號
+pageBean.setDeclNoSeq(dataObjects.getString("DECL_NO_SEQ"));//報單號碼-重申請序號
+pageBean.setTfIssueDate((Date)dataObjects.getValue("TF_ISSUE_DATE"));//發文日期
+pageBean.setTfSendmark(dataObjects.getString("TF_SENDMARK"));//傳送註記
+pageBean.setTfFlag(dataObjects.getString("TF_FLAG"));//特殊註記
+pageBean.setTfBan(dataObjects.getString("TF_BAN"));//統一編號
+pageBean.setTfAppName(dataObjects.getString("TF_APP_NAME"));//申請廠商名稱
+pageBean.setTfAppTel(dataObjects.getString("TF_APP_TEL"));//申請廠商電話
+pageBean.setTfLawOrReason(dataObjects.getString("TF_LAW_OR_REASON"));//查核依據
+pageBean.setTfOtherExplain(dataObjects.getString("TF_OTHER_EXPLAIN"));//進口人意見
+pageBean.setTfHsEReason(dataObjects.getString("TF_HS_E_REASON"));//稅則分類疑義
+pageBean.setTfRemark(dataObjects.getString("TF_REMARK"));//備註
+pageBean.setTfPerson(dataObjects.getString("TF_PERSON"));//異動人員代碼-案件資料
+pageBean.setTfUpdateDt((Date)dataObjects.getValue("TF_UPDATE_DT"));//最後異動日期-案件資料
+pageBean.setTfReasonA(dataObjects.getString("TF_REASON_A"));//基隆關意見
+pageBean.setTfReasonB(dataObjects.getString("TF_REASON_B"));//高雄關意見
+pageBean.setTfReasonC(dataObjects.getString("TF_REASON_C"));//台北關意見
+pageBean.setTfReasonD(dataObjects.getString("TF_REASON_D"));//台中關意見
+pageBean.setTfReason0(dataObjects.getString("TF_REASON_0"));//稅則處解答
+pageBean.setTfStatus(dataObjects.getString("TF_STATUS"));//案件處理狀態
+pageBean.setTfPersonA(dataObjects.getString("TF_PERSON_A"));//異動人員代碼-基隆關意見
+pageBean.setTfDtA(dataObjects.getString("TF_DT_A"));//最後異動日期-基隆關意見
+pageBean.setTfPersonB(dataObjects.getString("TF_PERSON_B"));//異動人員代碼-高雄關意見
+pageBean.setTfDtB(dataObjects.getString("TF_DT_B"));//最後異動日期-高雄關意見
+pageBean.setTfPersonC(dataObjects.getString("TF_PERSON_C"));//異動人員代碼-台北關意見
+pageBean.setTfDtC(dataObjects.getString("TF_DT_C"));//最後異動日期-台北關意見
+pageBean.setTfPersonD(dataObjects.getString("TF_PERSON_D"));//異動人員代碼-台中關意見
+pageBean.setTfDtD(dataObjects.getString("TF_DT_D"));//最後異動日期-台中關意見
+pageBean.setTfPerson0(dataObjects.getString("TF_PERSON_0"));//異動人員代碼:稅則處意見
+pageBean.setTfDt0(dataObjects.getString("TF_DT_0"));//最後異動日期-稅則處意見
+pageBean.setTfSecondResult(dataObjects.getString("TF_SECOND_RESULT"));//複核結果
+pageBean.setTfSecondPerson(dataObjects.getString("TF_SECOND_PERSON"));//複核異動人員代號
+pageBean.setTfSecondUpdateDt((Date)dataObjects.getValue("TF_SECOND_UPDATE_DT"));//複核最後異動日期
+pageBean.setTfAimport(dataObjects.getString("TF_AIMPORT"));//基隆關進口紀錄
+pageBean.setTfBimport(dataObjects.getString("TF_BIMPORT"));//高雄關進口紀錄
+pageBean.setTfCimport(dataObjects.getString("TF_CIMPORT"));//台北關進口紀錄
+pageBean.setTfDimport(dataObjects.getString("TF_DIMPORT"));//台中關進口紀錄
+pageBean.setAcUser0(dataObjects.getString("AC_USER_0"));//承辦人員_總局
+pageBean.setAcUserA(dataObjects.getString("AC_USER_A"));//承辦人員_基隆
+pageBean.setAcUserB(dataObjects.getString("AC_USER_B"));//承辦人員_高雄
+pageBean.setAcUserC(dataObjects.getString("AC_USER_C"));//承辦人員_台北
+pageBean.setAcUserD(dataObjects.getString("AC_USER_D"));//承辦人員_台中
+pageBean.setTfReSendmark(dataObjects.getString("TF_RE_SENDMARK"));//分估-傳送註記
+pageBean.setTfRePerson(dataObjects.getString("TF_RE_PERSON"));//分估人員代號
+pageBean.setTfReUpdDt(dataObjects.getString("TF_RE_UPD_DT"));//分估異動日期
+pageBean.setTfReReject(dataObjects.getString("TF_RE_REJECT"));//分估-案件退案理由
+pageBean.setTfReSample(dataObjects.getString("TF_RE_SAMPLE"));//分估-實體樣品後送
+pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
+pageBean.setTfAppAddress(dataObjects.getString("TF_APP_ADDRESS"));//申請廠商地址
+pageBean.setTfSecondNote(dataObjects.getString("TF_SECOND_NOTE"));//複核案件註記
+pageBean.setTfReasonANote(dataObjects.getString("TF_REASON_A_NOTE"));//基隆關意見_完成註記
+pageBean.setTfReasonBNote(dataObjects.getString("TF_REASON_B_NOTE"));//高雄關意見_完成註記
+pageBean.setTfReasonCNote(dataObjects.getString("TF_REASON_C_NOTE"));//台北關意見_完成註記
+pageBean.setTfReasonDNote(dataObjects.getString("TF_REASON_D_NOTE"));//台中關意見_完成註記
+pageBean.setTfReason0Note(dataObjects.getString("TF_REASON_0_NOTE"));//稅則處解答_完成註記
+pageBean.setTfMReasonNote(dataObjects.getString("TF_M_REASON_NOTE"));//主辦關整合意見_完成註記
+pageBean.setTfMReason(dataObjects.getString("TF_M_REASON"));//主辦關整合意見
+pageBean.setTfMPerson(dataObjects.getString("TF_M_PERSON"));//主辦關整合意見_異動人員
+pageBean.setTfMDt(dataObjects.getString("TF_M_DT"));//主辦關整合意見_異動時間
+pageBean.setTfMSugsend(dataObjects.getString("TF_M_SUGSEND"));//主辦關建議送稅則處註記
+pageBean.setTfSecondRnote(dataObjects.getString("TF_SECOND_RNOTE"));//複核結果_完成註記
+pageBean.setTfMMeno(dataObjects.getString("TF_M_MENO"));//送稅則法制組說明
+
+private String tfDocNo = null;//發文文號
+private String declNo = null;//報單編號
+private String declNoSeq = null;//報單號碼-重申請序號
+private Date tfIssueDate = null;//發文日期
+private String tfSendmark = null;//傳送註記
+private String tfFlag = null;//特殊註記
+private String tfBan = null;//統一編號
+private String tfAppName = null;//申請廠商名稱
+private String tfAppTel = null;//申請廠商電話
+private String tfLawOrReason = null;//查核依據
+private String tfOtherExplain = null;//進口人意見
+private String tfHsEReason = null;//稅則分類疑義
+private String tfRemark = null;//備註
+private String tfPerson = null;//異動人員代碼-案件資料
+private Date tfUpdateDt = null;//最後異動日期-案件資料
+private String tfReasonA = null;//基隆關意見
+private String tfReasonB = null;//高雄關意見
+private String tfReasonC = null;//台北關意見
+private String tfReasonD = null;//台中關意見
+private String tfReason0 = null;//稅則處解答
+private String tfStatus = null;//案件處理狀態
+private String tfPersonA = null;//異動人員代碼-基隆關意見
+private String tfDtA = null;//最後異動日期-基隆關意見
+private String tfPersonB = null;//異動人員代碼-高雄關意見
+private String tfDtB = null;//最後異動日期-高雄關意見
+private String tfPersonC = null;//異動人員代碼-台北關意見
+private String tfDtC = null;//最後異動日期-台北關意見
+private String tfPersonD = null;//異動人員代碼-台中關意見
+private String tfDtD = null;//最後異動日期-台中關意見
+private String tfPerson0 = null;//異動人員代碼:稅則處意見
+private String tfDt0 = null;//最後異動日期-稅則處意見
+private String tfSecondResult = null;//複核結果
+private String tfSecondPerson = null;//複核異動人員代號
+private Date tfSecondUpdateDt = null;//複核最後異動日期
+private String tfAimport = null;//基隆關進口紀錄
+private String tfBimport = null;//高雄關進口紀錄
+private String tfCimport = null;//台北關進口紀錄
+private String tfDimport = null;//台中關進口紀錄
+private String acUser0 = null;//承辦人員_總局
+private String acUserA = null;//承辦人員_基隆
+private String acUserB = null;//承辦人員_高雄
+private String acUserC = null;//承辦人員_台北
+private String acUserD = null;//承辦人員_台中
+private String tfReSendmark = null;//分估-傳送註記
+private String tfRePerson = null;//分估人員代號
+private String tfReUpdDt = null;//分估異動日期
+private String tfReReject = null;//分估-案件退案理由
+private String tfReSample = null;//分估-實體樣品後送
+private String upPerson = null;//異動人員
+private Date upDate = null;//異動時間
+private String tfAppAddress = null;//申請廠商地址
+private String tfSecondNote = null;//複核案件註記
+private String tfReasonANote = null;//基隆關意見_完成註記
+private String tfReasonBNote = null;//高雄關意見_完成註記
+private String tfReasonCNote = null;//台北關意見_完成註記
+private String tfReasonDNote = null;//台中關意見_完成註記
+private String tfReason0Note = null;//稅則處解答_完成註記
+private String tfMReasonNote = null;//主辦關整合意見_完成註記
+private String tfMReason = null;//主辦關整合意見
+private String tfMPerson = null;//主辦關整合意見_異動人員
+private String tfMDt = null;//主辦關整合意見_異動時間
+private String tfMSugsend = null;//主辦關建議送稅則處註記
+private String tfSecondRnote = null;//複核結果_完成註記
+private String tfMMeno = null;//送稅則法制組說明
+
+pageBean.setTfDocNo("發文文號");//發文文號
+pageBean.setDeclNo("報單編號");//報單編號
+pageBean.setDeclNoSeq("報單號碼-重申請序號");//報單號碼-重申請序號
+pageBean.setTfIssueDate("發文日期");//發文日期
+pageBean.setTfSendmark("傳送註記");//傳送註記
+pageBean.setTfFlag("特殊註記");//特殊註記
+pageBean.setTfBan("統一編號");//統一編號
+pageBean.setTfAppName("申請廠商名稱");//申請廠商名稱
+pageBean.setTfAppTel("申請廠商電話");//申請廠商電話
+pageBean.setTfLawOrReason("查核依據");//查核依據
+pageBean.setTfOtherExplain("進口人意見");//進口人意見
+pageBean.setTfHsEReason("稅則分類疑義");//稅則分類疑義
+pageBean.setTfRemark("備註");//備註
+pageBean.setTfPerson("異動人員代碼-案件資料");//異動人員代碼-案件資料
+pageBean.setTfUpdateDt("最後異動日期-案件資料");//最後異動日期-案件資料
+pageBean.setTfReasonA("基隆關意見");//基隆關意見
+pageBean.setTfReasonB("高雄關意見");//高雄關意見
+pageBean.setTfReasonC("台北關意見");//台北關意見
+pageBean.setTfReasonD("台中關意見");//台中關意見
+pageBean.setTfReason0("稅則處解答");//稅則處解答
+pageBean.setTfStatus("案件處理狀態");//案件處理狀態
+pageBean.setTfPersonA("異動人員代碼-基隆關意見");//異動人員代碼-基隆關意見
+pageBean.setTfDtA("最後異動日期-基隆關意見");//最後異動日期-基隆關意見
+pageBean.setTfPersonB("異動人員代碼-高雄關意見");//異動人員代碼-高雄關意見
+pageBean.setTfDtB("最後異動日期-高雄關意見");//最後異動日期-高雄關意見
+pageBean.setTfPersonC("異動人員代碼-台北關意見");//異動人員代碼-台北關意見
+pageBean.setTfDtC("最後異動日期-台北關意見");//最後異動日期-台北關意見
+pageBean.setTfPersonD("異動人員代碼-台中關意見");//異動人員代碼-台中關意見
+pageBean.setTfDtD("最後異動日期-台中關意見");//最後異動日期-台中關意見
+pageBean.setTfPerson0("異動人員代碼:稅則處意見");//異動人員代碼:稅則處意見
+pageBean.setTfDt0("最後異動日期-稅則處意見");//最後異動日期-稅則處意見
+pageBean.setTfSecondResult("複核結果");//複核結果
+pageBean.setTfSecondPerson("複核異動人員代號");//複核異動人員代號
+pageBean.setTfSecondUpdateDt("複核最後異動日期");//複核最後異動日期
+pageBean.setTfAimport("基隆關進口紀錄");//基隆關進口紀錄
+pageBean.setTfBimport("高雄關進口紀錄");//高雄關進口紀錄
+pageBean.setTfCimport("台北關進口紀錄");//台北關進口紀錄
+pageBean.setTfDimport("台中關進口紀錄");//台中關進口紀錄
+pageBean.setAcUser0("承辦人員_總局");//承辦人員_總局
+pageBean.setAcUserA("承辦人員_基隆");//承辦人員_基隆
+pageBean.setAcUserB("承辦人員_高雄");//承辦人員_高雄
+pageBean.setAcUserC("承辦人員_台北");//承辦人員_台北
+pageBean.setAcUserD("承辦人員_台中");//承辦人員_台中
+pageBean.setTfReSendmark("分估-傳送註記");//分估-傳送註記
+pageBean.setTfRePerson("分估人員代號");//分估人員代號
+pageBean.setTfReUpdDt("分估異動日期");//分估異動日期
+pageBean.setTfReReject("分估-案件退案理由");//分估-案件退案理由
+pageBean.setTfReSample("分估-實體樣品後送");//分估-實體樣品後送
+pageBean.setUpPerson("異動人員");//異動人員
+pageBean.setUpDate("異動時間");//異動時間
+pageBean.setTfAppAddress("申請廠商地址");//申請廠商地址
+pageBean.setTfSecondNote("複核案件註記");//複核案件註記
+pageBean.setTfReasonANote("基隆關意見_完成註記");//基隆關意見_完成註記
+pageBean.setTfReasonBNote("高雄關意見_完成註記");//高雄關意見_完成註記
+pageBean.setTfReasonCNote("台北關意見_完成註記");//台北關意見_完成註記
+pageBean.setTfReasonDNote("台中關意見_完成註記");//台中關意見_完成註記
+pageBean.setTfReason0Note("稅則處解答_完成註記");//稅則處解答_完成註記
+pageBean.setTfMReasonNote("主辦關整合意見_完成註記");//主辦關整合意見_完成註記
+pageBean.setTfMReason("主辦關整合意見");//主辦關整合意見
+pageBean.setTfMPerson("主辦關整合意見_異動人員");//主辦關整合意見_異動人員
+pageBean.setTfMDt("主辦關整合意見_異動時間");//主辦關整合意見_異動時間
+pageBean.setTfMSugsend("主辦關建議送稅則處註記");//主辦關建議送稅則處註記
+pageBean.setTfSecondRnote("複核結果_完成註記");//複核結果_完成註記
+pageBean.setTfMMeno("送稅則法制組說明");//送稅則法制組說明
+
+pageBean.setTfDocNo(tfDocNo);//發文文號
+pageBean.setDeclNo(declNo);//報單編號
+pageBean.setDeclNoSeq(declNoSeq);//報單號碼-重申請序號
+pageBean.setTfIssueDate(tfIssueDate);//發文日期
+pageBean.setTfSendmark(tfSendmark);//傳送註記
+pageBean.setTfFlag(tfFlag);//特殊註記
+pageBean.setTfBan(tfBan);//統一編號
+pageBean.setTfAppName(tfAppName);//申請廠商名稱
+pageBean.setTfAppTel(tfAppTel);//申請廠商電話
+pageBean.setTfLawOrReason(tfLawOrReason);//查核依據
+pageBean.setTfOtherExplain(tfOtherExplain);//進口人意見
+pageBean.setTfHsEReason(tfHsEReason);//稅則分類疑義
+pageBean.setTfRemark(tfRemark);//備註
+pageBean.setTfPerson(tfPerson);//異動人員代碼-案件資料
+pageBean.setTfUpdateDt(tfUpdateDt);//最後異動日期-案件資料
+pageBean.setTfReasonA(tfReasonA);//基隆關意見
+pageBean.setTfReasonB(tfReasonB);//高雄關意見
+pageBean.setTfReasonC(tfReasonC);//台北關意見
+pageBean.setTfReasonD(tfReasonD);//台中關意見
+pageBean.setTfReason0(tfReason0);//稅則處解答
+pageBean.setTfStatus(tfStatus);//案件處理狀態
+pageBean.setTfPersonA(tfPersonA);//異動人員代碼-基隆關意見
+pageBean.setTfDtA(tfDtA);//最後異動日期-基隆關意見
+pageBean.setTfPersonB(tfPersonB);//異動人員代碼-高雄關意見
+pageBean.setTfDtB(tfDtB);//最後異動日期-高雄關意見
+pageBean.setTfPersonC(tfPersonC);//異動人員代碼-台北關意見
+pageBean.setTfDtC(tfDtC);//最後異動日期-台北關意見
+pageBean.setTfPersonD(tfPersonD);//異動人員代碼-台中關意見
+pageBean.setTfDtD(tfDtD);//最後異動日期-台中關意見
+pageBean.setTfPerson0(tfPerson0);//異動人員代碼:稅則處意見
+pageBean.setTfDt0(tfDt0);//最後異動日期-稅則處意見
+pageBean.setTfSecondResult(tfSecondResult);//複核結果
+pageBean.setTfSecondPerson(tfSecondPerson);//複核異動人員代號
+pageBean.setTfSecondUpdateDt(tfSecondUpdateDt);//複核最後異動日期
+pageBean.setTfAimport(tfAimport);//基隆關進口紀錄
+pageBean.setTfBimport(tfBimport);//高雄關進口紀錄
+pageBean.setTfCimport(tfCimport);//台北關進口紀錄
+pageBean.setTfDimport(tfDimport);//台中關進口紀錄
+pageBean.setAcUser0(acUser0);//承辦人員_總局
+pageBean.setAcUserA(acUserA);//承辦人員_基隆
+pageBean.setAcUserB(acUserB);//承辦人員_高雄
+pageBean.setAcUserC(acUserC);//承辦人員_台北
+pageBean.setAcUserD(acUserD);//承辦人員_台中
+pageBean.setTfReSendmark(tfReSendmark);//分估-傳送註記
+pageBean.setTfRePerson(tfRePerson);//分估人員代號
+pageBean.setTfReUpdDt(tfReUpdDt);//分估異動日期
+pageBean.setTfReReject(tfReReject);//分估-案件退案理由
+pageBean.setTfReSample(tfReSample);//分估-實體樣品後送
+pageBean.setUpPerson(upPerson);//異動人員
+pageBean.setUpDate(upDate);//異動時間
+pageBean.setTfAppAddress(tfAppAddress);//申請廠商地址
+pageBean.setTfSecondNote(tfSecondNote);//複核案件註記
+pageBean.setTfReasonANote(tfReasonANote);//基隆關意見_完成註記
+pageBean.setTfReasonBNote(tfReasonBNote);//高雄關意見_完成註記
+pageBean.setTfReasonCNote(tfReasonCNote);//台北關意見_完成註記
+pageBean.setTfReasonDNote(tfReasonDNote);//台中關意見_完成註記
+pageBean.setTfReason0Note(tfReason0Note);//稅則處解答_完成註記
+pageBean.setTfMReasonNote(tfMReasonNote);//主辦關整合意見_完成註記
+pageBean.setTfMReason(tfMReason);//主辦關整合意見
+pageBean.setTfMPerson(tfMPerson);//主辦關整合意見_異動人員
+pageBean.setTfMDt(tfMDt);//主辦關整合意見_異動時間
+pageBean.setTfMSugsend(tfMSugsend);//主辦關建議送稅則處註記
+pageBean.setTfSecondRnote(tfSecondRnote);//複核結果_完成註記
+pageBean.setTfMMeno(tfMMeno);//送稅則法制組說明
+
+pageBean.setTfDocNo(randomBean.getTfDocNo());//發文文號
+pageBean.setDeclNo(randomBean.getDeclNo());//報單編號
+pageBean.setDeclNoSeq(randomBean.getDeclNoSeq());//報單號碼-重申請序號
+pageBean.setTfIssueDate(randomBean.getTfIssueDate());//發文日期
+pageBean.setTfSendmark(randomBean.getTfSendmark());//傳送註記
+pageBean.setTfFlag(randomBean.getTfFlag());//特殊註記
+pageBean.setTfBan(randomBean.getTfBan());//統一編號
+pageBean.setTfAppName(randomBean.getTfAppName());//申請廠商名稱
+pageBean.setTfAppTel(randomBean.getTfAppTel());//申請廠商電話
+pageBean.setTfLawOrReason(randomBean.getTfLawOrReason());//查核依據
+pageBean.setTfOtherExplain(randomBean.getTfOtherExplain());//進口人意見
+pageBean.setTfHsEReason(randomBean.getTfHsEReason());//稅則分類疑義
+pageBean.setTfRemark(randomBean.getTfRemark());//備註
+pageBean.setTfPerson(randomBean.getTfPerson());//異動人員代碼-案件資料
+pageBean.setTfUpdateDt(randomBean.getTfUpdateDt());//最後異動日期-案件資料
+pageBean.setTfReasonA(randomBean.getTfReasonA());//基隆關意見
+pageBean.setTfReasonB(randomBean.getTfReasonB());//高雄關意見
+pageBean.setTfReasonC(randomBean.getTfReasonC());//台北關意見
+pageBean.setTfReasonD(randomBean.getTfReasonD());//台中關意見
+pageBean.setTfReason0(randomBean.getTfReason0());//稅則處解答
+pageBean.setTfStatus(randomBean.getTfStatus());//案件處理狀態
+pageBean.setTfPersonA(randomBean.getTfPersonA());//異動人員代碼-基隆關意見
+pageBean.setTfDtA(randomBean.getTfDtA());//最後異動日期-基隆關意見
+pageBean.setTfPersonB(randomBean.getTfPersonB());//異動人員代碼-高雄關意見
+pageBean.setTfDtB(randomBean.getTfDtB());//最後異動日期-高雄關意見
+pageBean.setTfPersonC(randomBean.getTfPersonC());//異動人員代碼-台北關意見
+pageBean.setTfDtC(randomBean.getTfDtC());//最後異動日期-台北關意見
+pageBean.setTfPersonD(randomBean.getTfPersonD());//異動人員代碼-台中關意見
+pageBean.setTfDtD(randomBean.getTfDtD());//最後異動日期-台中關意見
+pageBean.setTfPerson0(randomBean.getTfPerson0());//異動人員代碼:稅則處意見
+pageBean.setTfDt0(randomBean.getTfDt0());//最後異動日期-稅則處意見
+pageBean.setTfSecondResult(randomBean.getTfSecondResult());//複核結果
+pageBean.setTfSecondPerson(randomBean.getTfSecondPerson());//複核異動人員代號
+pageBean.setTfSecondUpdateDt(randomBean.getTfSecondUpdateDt());//複核最後異動日期
+pageBean.setTfAimport(randomBean.getTfAimport());//基隆關進口紀錄
+pageBean.setTfBimport(randomBean.getTfBimport());//高雄關進口紀錄
+pageBean.setTfCimport(randomBean.getTfCimport());//台北關進口紀錄
+pageBean.setTfDimport(randomBean.getTfDimport());//台中關進口紀錄
+pageBean.setAcUser0(randomBean.getAcUser0());//承辦人員_總局
+pageBean.setAcUserA(randomBean.getAcUserA());//承辦人員_基隆
+pageBean.setAcUserB(randomBean.getAcUserB());//承辦人員_高雄
+pageBean.setAcUserC(randomBean.getAcUserC());//承辦人員_台北
+pageBean.setAcUserD(randomBean.getAcUserD());//承辦人員_台中
+pageBean.setTfReSendmark(randomBean.getTfReSendmark());//分估-傳送註記
+pageBean.setTfRePerson(randomBean.getTfRePerson());//分估人員代號
+pageBean.setTfReUpdDt(randomBean.getTfReUpdDt());//分估異動日期
+pageBean.setTfReReject(randomBean.getTfReReject());//分估-案件退案理由
+pageBean.setTfReSample(randomBean.getTfReSample());//分估-實體樣品後送
+pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
+pageBean.setUpDate(randomBean.getUpDate());//異動時間
+pageBean.setTfAppAddress(randomBean.getTfAppAddress());//申請廠商地址
+pageBean.setTfSecondNote(randomBean.getTfSecondNote());//複核案件註記
+pageBean.setTfReasonANote(randomBean.getTfReasonANote());//基隆關意見_完成註記
+pageBean.setTfReasonBNote(randomBean.getTfReasonBNote());//高雄關意見_完成註記
+pageBean.setTfReasonCNote(randomBean.getTfReasonCNote());//台北關意見_完成註記
+pageBean.setTfReasonDNote(randomBean.getTfReasonDNote());//台中關意見_完成註記
+pageBean.setTfReason0Note(randomBean.getTfReason0Note());//稅則處解答_完成註記
+pageBean.setTfMReasonNote(randomBean.getTfMReasonNote());//主辦關整合意見_完成註記
+pageBean.setTfMReason(randomBean.getTfMReason());//主辦關整合意見
+pageBean.setTfMPerson(randomBean.getTfMPerson());//主辦關整合意見_異動人員
+pageBean.setTfMDt(randomBean.getTfMDt());//主辦關整合意見_異動時間
+pageBean.setTfMSugsend(randomBean.getTfMSugsend());//主辦關建議送稅則處註記
+pageBean.setTfSecondRnote(randomBean.getTfSecondRnote());//複核結果_完成註記
+pageBean.setTfMMeno(randomBean.getTfMMeno());//送稅則法制組說明
+
+setTfDocNo(tfDocNo);//發文文號
+setDeclNo(declNo);//報單編號
+setDeclNoSeq(declNoSeq);//報單號碼-重申請序號
+setTfIssueDate(tfIssueDate);//發文日期
+setTfSendmark(tfSendmark);//傳送註記
+setTfFlag(tfFlag);//特殊註記
+setTfBan(tfBan);//統一編號
+setTfAppName(tfAppName);//申請廠商名稱
+setTfAppTel(tfAppTel);//申請廠商電話
+setTfLawOrReason(tfLawOrReason);//查核依據
+setTfOtherExplain(tfOtherExplain);//進口人意見
+setTfHsEReason(tfHsEReason);//稅則分類疑義
+setTfRemark(tfRemark);//備註
+setTfPerson(tfPerson);//異動人員代碼-案件資料
+setTfUpdateDt(tfUpdateDt);//最後異動日期-案件資料
+setTfReasonA(tfReasonA);//基隆關意見
+setTfReasonB(tfReasonB);//高雄關意見
+setTfReasonC(tfReasonC);//台北關意見
+setTfReasonD(tfReasonD);//台中關意見
+setTfReason0(tfReason0);//稅則處解答
+setTfStatus(tfStatus);//案件處理狀態
+setTfPersonA(tfPersonA);//異動人員代碼-基隆關意見
+setTfDtA(tfDtA);//最後異動日期-基隆關意見
+setTfPersonB(tfPersonB);//異動人員代碼-高雄關意見
+setTfDtB(tfDtB);//最後異動日期-高雄關意見
+setTfPersonC(tfPersonC);//異動人員代碼-台北關意見
+setTfDtC(tfDtC);//最後異動日期-台北關意見
+setTfPersonD(tfPersonD);//異動人員代碼-台中關意見
+setTfDtD(tfDtD);//最後異動日期-台中關意見
+setTfPerson0(tfPerson0);//異動人員代碼:稅則處意見
+setTfDt0(tfDt0);//最後異動日期-稅則處意見
+setTfSecondResult(tfSecondResult);//複核結果
+setTfSecondPerson(tfSecondPerson);//複核異動人員代號
+setTfSecondUpdateDt(tfSecondUpdateDt);//複核最後異動日期
+setTfAimport(tfAimport);//基隆關進口紀錄
+setTfBimport(tfBimport);//高雄關進口紀錄
+setTfCimport(tfCimport);//台北關進口紀錄
+setTfDimport(tfDimport);//台中關進口紀錄
+setAcUser0(acUser0);//承辦人員_總局
+setAcUserA(acUserA);//承辦人員_基隆
+setAcUserB(acUserB);//承辦人員_高雄
+setAcUserC(acUserC);//承辦人員_台北
+setAcUserD(acUserD);//承辦人員_台中
+setTfReSendmark(tfReSendmark);//分估-傳送註記
+setTfRePerson(tfRePerson);//分估人員代號
+setTfReUpdDt(tfReUpdDt);//分估異動日期
+setTfReReject(tfReReject);//分估-案件退案理由
+setTfReSample(tfReSample);//分估-實體樣品後送
+setUpPerson(upPerson);//異動人員
+setUpDate(upDate);//異動時間
+setTfAppAddress(tfAppAddress);//申請廠商地址
+setTfSecondNote(tfSecondNote);//複核案件註記
+setTfReasonANote(tfReasonANote);//基隆關意見_完成註記
+setTfReasonBNote(tfReasonBNote);//高雄關意見_完成註記
+setTfReasonCNote(tfReasonCNote);//台北關意見_完成註記
+setTfReasonDNote(tfReasonDNote);//台中關意見_完成註記
+setTfReason0Note(tfReason0Note);//稅則處解答_完成註記
+setTfMReasonNote(tfMReasonNote);//主辦關整合意見_完成註記
+setTfMReason(tfMReason);//主辦關整合意見
+setTfMPerson(tfMPerson);//主辦關整合意見_異動人員
+setTfMDt(tfMDt);//主辦關整合意見_異動時間
+setTfMSugsend(tfMSugsend);//主辦關建議送稅則處註記
+setTfSecondRnote(tfSecondRnote);//複核結果_完成註記
+setTfMMeno(tfMMeno);//送稅則法制組說明
+
+pageBean.getTfDocNo(),//發文文號
+pageBean.getDeclNo(),//報單編號
+pageBean.getDeclNoSeq(),//報單號碼-重申請序號
+pageBean.getTfIssueDate(),//發文日期
+pageBean.getTfSendmark(),//傳送註記
+pageBean.getTfFlag(),//特殊註記
+pageBean.getTfBan(),//統一編號
+pageBean.getTfAppName(),//申請廠商名稱
+pageBean.getTfAppTel(),//申請廠商電話
+pageBean.getTfLawOrReason(),//查核依據
+pageBean.getTfOtherExplain(),//進口人意見
+pageBean.getTfHsEReason(),//稅則分類疑義
+pageBean.getTfRemark(),//備註
+pageBean.getTfPerson(),//異動人員代碼-案件資料
+pageBean.getTfUpdateDt(),//最後異動日期-案件資料
+pageBean.getTfReasonA(),//基隆關意見
+pageBean.getTfReasonB(),//高雄關意見
+pageBean.getTfReasonC(),//台北關意見
+pageBean.getTfReasonD(),//台中關意見
+pageBean.getTfReason0(),//稅則處解答
+pageBean.getTfStatus(),//案件處理狀態
+pageBean.getTfPersonA(),//異動人員代碼-基隆關意見
+pageBean.getTfDtA(),//最後異動日期-基隆關意見
+pageBean.getTfPersonB(),//異動人員代碼-高雄關意見
+pageBean.getTfDtB(),//最後異動日期-高雄關意見
+pageBean.getTfPersonC(),//異動人員代碼-台北關意見
+pageBean.getTfDtC(),//最後異動日期-台北關意見
+pageBean.getTfPersonD(),//異動人員代碼-台中關意見
+pageBean.getTfDtD(),//最後異動日期-台中關意見
+pageBean.getTfPerson0(),//異動人員代碼:稅則處意見
+pageBean.getTfDt0(),//最後異動日期-稅則處意見
+pageBean.getTfSecondResult(),//複核結果
+pageBean.getTfSecondPerson(),//複核異動人員代號
+pageBean.getTfSecondUpdateDt(),//複核最後異動日期
+pageBean.getTfAimport(),//基隆關進口紀錄
+pageBean.getTfBimport(),//高雄關進口紀錄
+pageBean.getTfCimport(),//台北關進口紀錄
+pageBean.getTfDimport(),//台中關進口紀錄
+pageBean.getAcUser0(),//承辦人員_總局
+pageBean.getAcUserA(),//承辦人員_基隆
+pageBean.getAcUserB(),//承辦人員_高雄
+pageBean.getAcUserC(),//承辦人員_台北
+pageBean.getAcUserD(),//承辦人員_台中
+pageBean.getTfReSendmark(),//分估-傳送註記
+pageBean.getTfRePerson(),//分估人員代號
+pageBean.getTfReUpdDt(),//分估異動日期
+pageBean.getTfReReject(),//分估-案件退案理由
+pageBean.getTfReSample(),//分估-實體樣品後送
+pageBean.getUpPerson(),//異動人員
+pageBean.getUpDate(),//異動時間
+pageBean.getTfAppAddress(),//申請廠商地址
+pageBean.getTfSecondNote(),//複核案件註記
+pageBean.getTfReasonANote(),//基隆關意見_完成註記
+pageBean.getTfReasonBNote(),//高雄關意見_完成註記
+pageBean.getTfReasonCNote(),//台北關意見_完成註記
+pageBean.getTfReasonDNote(),//台中關意見_完成註記
+pageBean.getTfReason0Note(),//稅則處解答_完成註記
+pageBean.getTfMReasonNote(),//主辦關整合意見_完成註記
+pageBean.getTfMReason(),//主辦關整合意見
+pageBean.getTfMPerson(),//主辦關整合意見_異動人員
+pageBean.getTfMDt(),//主辦關整合意見_異動時間
+pageBean.getTfMSugsend(),//主辦關建議送稅則處註記
+pageBean.getTfSecondRnote(),//複核結果_完成註記
+pageBean.getTfMMeno(),//送稅則法制組說明
+
+pageBean.setValue("TF_DOC_NO", this.getTfDocNo());//發文文號
+pageBean.setValue("DECL_NO", this.getDeclNo());//報單編號
+pageBean.setValue("DECL_NO_SEQ", this.getDeclNoSeq());//報單號碼-重申請序號
+pageBean.setValue("TF_ISSUE_DATE", this.getTfIssueDate());//發文日期
+pageBean.setValue("TF_SENDMARK", this.getTfSendmark());//傳送註記
+pageBean.setValue("TF_FLAG", this.getTfFlag());//特殊註記
+pageBean.setValue("TF_BAN", this.getTfBan());//統一編號
+pageBean.setValue("TF_APP_NAME", this.getTfAppName());//申請廠商名稱
+pageBean.setValue("TF_APP_TEL", this.getTfAppTel());//申請廠商電話
+pageBean.setValue("TF_LAW_OR_REASON", this.getTfLawOrReason());//查核依據
+pageBean.setValue("TF_OTHER_EXPLAIN", this.getTfOtherExplain());//進口人意見
+pageBean.setValue("TF_HS_E_REASON", this.getTfHsEReason());//稅則分類疑義
+pageBean.setValue("TF_REMARK", this.getTfRemark());//備註
+pageBean.setValue("TF_PERSON", this.getTfPerson());//異動人員代碼-案件資料
+pageBean.setValue("TF_UPDATE_DT", this.getTfUpdateDt());//最後異動日期-案件資料
+pageBean.setValue("TF_REASON_A", this.getTfReasonA());//基隆關意見
+pageBean.setValue("TF_REASON_B", this.getTfReasonB());//高雄關意見
+pageBean.setValue("TF_REASON_C", this.getTfReasonC());//台北關意見
+pageBean.setValue("TF_REASON_D", this.getTfReasonD());//台中關意見
+pageBean.setValue("TF_REASON_0", this.getTfReason0());//稅則處解答
+pageBean.setValue("TF_STATUS", this.getTfStatus());//案件處理狀態
+pageBean.setValue("TF_PERSON_A", this.getTfPersonA());//異動人員代碼-基隆關意見
+pageBean.setValue("TF_DT_A", this.getTfDtA());//最後異動日期-基隆關意見
+pageBean.setValue("TF_PERSON_B", this.getTfPersonB());//異動人員代碼-高雄關意見
+pageBean.setValue("TF_DT_B", this.getTfDtB());//最後異動日期-高雄關意見
+pageBean.setValue("TF_PERSON_C", this.getTfPersonC());//異動人員代碼-台北關意見
+pageBean.setValue("TF_DT_C", this.getTfDtC());//最後異動日期-台北關意見
+pageBean.setValue("TF_PERSON_D", this.getTfPersonD());//異動人員代碼-台中關意見
+pageBean.setValue("TF_DT_D", this.getTfDtD());//最後異動日期-台中關意見
+pageBean.setValue("TF_PERSON_0", this.getTfPerson0());//異動人員代碼:稅則處意見
+pageBean.setValue("TF_DT_0", this.getTfDt0());//最後異動日期-稅則處意見
+pageBean.setValue("TF_SECOND_RESULT", this.getTfSecondResult());//複核結果
+pageBean.setValue("TF_SECOND_PERSON", this.getTfSecondPerson());//複核異動人員代號
+pageBean.setValue("TF_SECOND_UPDATE_DT", this.getTfSecondUpdateDt());//複核最後異動日期
+pageBean.setValue("TF_AIMPORT", this.getTfAimport());//基隆關進口紀錄
+pageBean.setValue("TF_BIMPORT", this.getTfBimport());//高雄關進口紀錄
+pageBean.setValue("TF_CIMPORT", this.getTfCimport());//台北關進口紀錄
+pageBean.setValue("TF_DIMPORT", this.getTfDimport());//台中關進口紀錄
+pageBean.setValue("AC_USER_0", this.getAcUser0());//承辦人員_總局
+pageBean.setValue("AC_USER_A", this.getAcUserA());//承辦人員_基隆
+pageBean.setValue("AC_USER_B", this.getAcUserB());//承辦人員_高雄
+pageBean.setValue("AC_USER_C", this.getAcUserC());//承辦人員_台北
+pageBean.setValue("AC_USER_D", this.getAcUserD());//承辦人員_台中
+pageBean.setValue("TF_RE_SENDMARK", this.getTfReSendmark());//分估-傳送註記
+pageBean.setValue("TF_RE_PERSON", this.getTfRePerson());//分估人員代號
+pageBean.setValue("TF_RE_UPD_DT", this.getTfReUpdDt());//分估異動日期
+pageBean.setValue("TF_RE_REJECT", this.getTfReReject());//分估-案件退案理由
+pageBean.setValue("TF_RE_SAMPLE", this.getTfReSample());//分估-實體樣品後送
+pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
+pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
+pageBean.setValue("TF_APP_ADDRESS", this.getTfAppAddress());//申請廠商地址
+pageBean.setValue("TF_SECOND_NOTE", this.getTfSecondNote());//複核案件註記
+pageBean.setValue("TF_REASON_A_NOTE", this.getTfReasonANote());//基隆關意見_完成註記
+pageBean.setValue("TF_REASON_B_NOTE", this.getTfReasonBNote());//高雄關意見_完成註記
+pageBean.setValue("TF_REASON_C_NOTE", this.getTfReasonCNote());//台北關意見_完成註記
+pageBean.setValue("TF_REASON_D_NOTE", this.getTfReasonDNote());//台中關意見_完成註記
+pageBean.setValue("TF_REASON_0_NOTE", this.getTfReason0Note());//稅則處解答_完成註記
+pageBean.setValue("TF_M_REASON_NOTE", this.getTfMReasonNote());//主辦關整合意見_完成註記
+pageBean.setValue("TF_M_REASON", this.getTfMReason());//主辦關整合意見
+pageBean.setValue("TF_M_PERSON", this.getTfMPerson());//主辦關整合意見_異動人員
+pageBean.setValue("TF_M_DT", this.getTfMDt());//主辦關整合意見_異動時間
+pageBean.setValue("TF_M_SUGSEND", this.getTfMSugsend());//主辦關建議送稅則處註記
+pageBean.setValue("TF_SECOND_RNOTE", this.getTfSecondRnote());//複核結果_完成註記
+pageBean.setValue("TF_M_MENO", this.getTfMMeno());//送稅則法制組說明
+
+pageBean.setValue("TF_DOC_NO", "發文文號");//發文文號
+pageBean.setValue("DECL_NO", "報單編號");//報單編號
+pageBean.setValue("DECL_NO_SEQ", "報單號碼-重申請序號");//報單號碼-重申請序號
+pageBean.setValue("TF_ISSUE_DATE", "發文日期");//發文日期
+pageBean.setValue("TF_SENDMARK", "傳送註記");//傳送註記
+pageBean.setValue("TF_FLAG", "特殊註記");//特殊註記
+pageBean.setValue("TF_BAN", "統一編號");//統一編號
+pageBean.setValue("TF_APP_NAME", "申請廠商名稱");//申請廠商名稱
+pageBean.setValue("TF_APP_TEL", "申請廠商電話");//申請廠商電話
+pageBean.setValue("TF_LAW_OR_REASON", "查核依據");//查核依據
+pageBean.setValue("TF_OTHER_EXPLAIN", "進口人意見");//進口人意見
+pageBean.setValue("TF_HS_E_REASON", "稅則分類疑義");//稅則分類疑義
+pageBean.setValue("TF_REMARK", "備註");//備註
+pageBean.setValue("TF_PERSON", "異動人員代碼-案件資料");//異動人員代碼-案件資料
+pageBean.setValue("TF_UPDATE_DT", "最後異動日期-案件資料");//最後異動日期-案件資料
+pageBean.setValue("TF_REASON_A", "基隆關意見");//基隆關意見
+pageBean.setValue("TF_REASON_B", "高雄關意見");//高雄關意見
+pageBean.setValue("TF_REASON_C", "台北關意見");//台北關意見
+pageBean.setValue("TF_REASON_D", "台中關意見");//台中關意見
+pageBean.setValue("TF_REASON_0", "稅則處解答");//稅則處解答
+pageBean.setValue("TF_STATUS", "案件處理狀態");//案件處理狀態
+pageBean.setValue("TF_PERSON_A", "異動人員代碼-基隆關意見");//異動人員代碼-基隆關意見
+pageBean.setValue("TF_DT_A", "最後異動日期-基隆關意見");//最後異動日期-基隆關意見
+pageBean.setValue("TF_PERSON_B", "異動人員代碼-高雄關意見");//異動人員代碼-高雄關意見
+pageBean.setValue("TF_DT_B", "最後異動日期-高雄關意見");//最後異動日期-高雄關意見
+pageBean.setValue("TF_PERSON_C", "異動人員代碼-台北關意見");//異動人員代碼-台北關意見
+pageBean.setValue("TF_DT_C", "最後異動日期-台北關意見");//最後異動日期-台北關意見
+pageBean.setValue("TF_PERSON_D", "異動人員代碼-台中關意見");//異動人員代碼-台中關意見
+pageBean.setValue("TF_DT_D", "最後異動日期-台中關意見");//最後異動日期-台中關意見
+pageBean.setValue("TF_PERSON_0", "異動人員代碼:稅則處意見");//異動人員代碼:稅則處意見
+pageBean.setValue("TF_DT_0", "最後異動日期-稅則處意見");//最後異動日期-稅則處意見
+pageBean.setValue("TF_SECOND_RESULT", "複核結果");//複核結果
+pageBean.setValue("TF_SECOND_PERSON", "複核異動人員代號");//複核異動人員代號
+pageBean.setValue("TF_SECOND_UPDATE_DT", "複核最後異動日期");//複核最後異動日期
+pageBean.setValue("TF_AIMPORT", "基隆關進口紀錄");//基隆關進口紀錄
+pageBean.setValue("TF_BIMPORT", "高雄關進口紀錄");//高雄關進口紀錄
+pageBean.setValue("TF_CIMPORT", "台北關進口紀錄");//台北關進口紀錄
+pageBean.setValue("TF_DIMPORT", "台中關進口紀錄");//台中關進口紀錄
+pageBean.setValue("AC_USER_0", "承辦人員_總局");//承辦人員_總局
+pageBean.setValue("AC_USER_A", "承辦人員_基隆");//承辦人員_基隆
+pageBean.setValue("AC_USER_B", "承辦人員_高雄");//承辦人員_高雄
+pageBean.setValue("AC_USER_C", "承辦人員_台北");//承辦人員_台北
+pageBean.setValue("AC_USER_D", "承辦人員_台中");//承辦人員_台中
+pageBean.setValue("TF_RE_SENDMARK", "分估-傳送註記");//分估-傳送註記
+pageBean.setValue("TF_RE_PERSON", "分估人員代號");//分估人員代號
+pageBean.setValue("TF_RE_UPD_DT", "分估異動日期");//分估異動日期
+pageBean.setValue("TF_RE_REJECT", "分估-案件退案理由");//分估-案件退案理由
+pageBean.setValue("TF_RE_SAMPLE", "分估-實體樣品後送");//分估-實體樣品後送
+pageBean.setValue("UP_PERSON", "異動人員");//異動人員
+pageBean.setValue("UP_DATE", "異動時間");//異動時間
+pageBean.setValue("TF_APP_ADDRESS", "申請廠商地址");//申請廠商地址
+pageBean.setValue("TF_SECOND_NOTE", "複核案件註記");//複核案件註記
+pageBean.setValue("TF_REASON_A_NOTE", "基隆關意見_完成註記");//基隆關意見_完成註記
+pageBean.setValue("TF_REASON_B_NOTE", "高雄關意見_完成註記");//高雄關意見_完成註記
+pageBean.setValue("TF_REASON_C_NOTE", "台北關意見_完成註記");//台北關意見_完成註記
+pageBean.setValue("TF_REASON_D_NOTE", "台中關意見_完成註記");//台中關意見_完成註記
+pageBean.setValue("TF_REASON_0_NOTE", "稅則處解答_完成註記");//稅則處解答_完成註記
+pageBean.setValue("TF_M_REASON_NOTE", "主辦關整合意見_完成註記");//主辦關整合意見_完成註記
+pageBean.setValue("TF_M_REASON", "主辦關整合意見");//主辦關整合意見
+pageBean.setValue("TF_M_PERSON", "主辦關整合意見_異動人員");//主辦關整合意見_異動人員
+pageBean.setValue("TF_M_DT", "主辦關整合意見_異動時間");//主辦關整合意見_異動時間
+pageBean.setValue("TF_M_SUGSEND", "主辦關建議送稅則處註記");//主辦關建議送稅則處註記
+pageBean.setValue("TF_SECOND_RNOTE", "複核結果_完成註記");//複核結果_完成註記
+pageBean.setValue("TF_M_MENO", "送稅則法制組說明");//送稅則法制組說明
+
+",發文文號"+"(tfDocNo)="+pageBean.getTfDocNo()+
+",報單編號"+"(declNo)="+pageBean.getDeclNo()+
+",報單號碼-重申請序號"+"(declNoSeq)="+pageBean.getDeclNoSeq()+
+",發文日期"+"(tfIssueDate)="+pageBean.getTfIssueDate()+
+",傳送註記"+"(tfSendmark)="+pageBean.getTfSendmark()+
+",特殊註記"+"(tfFlag)="+pageBean.getTfFlag()+
+",統一編號"+"(tfBan)="+pageBean.getTfBan()+
+",申請廠商名稱"+"(tfAppName)="+pageBean.getTfAppName()+
+",申請廠商電話"+"(tfAppTel)="+pageBean.getTfAppTel()+
+",查核依據"+"(tfLawOrReason)="+pageBean.getTfLawOrReason()+
+",進口人意見"+"(tfOtherExplain)="+pageBean.getTfOtherExplain()+
+",稅則分類疑義"+"(tfHsEReason)="+pageBean.getTfHsEReason()+
+",備註"+"(tfRemark)="+pageBean.getTfRemark()+
+",異動人員代碼-案件資料"+"(tfPerson)="+pageBean.getTfPerson()+
+",最後異動日期-案件資料"+"(tfUpdateDt)="+pageBean.getTfUpdateDt()+
+",基隆關意見"+"(tfReasonA)="+pageBean.getTfReasonA()+
+",高雄關意見"+"(tfReasonB)="+pageBean.getTfReasonB()+
+",台北關意見"+"(tfReasonC)="+pageBean.getTfReasonC()+
+",台中關意見"+"(tfReasonD)="+pageBean.getTfReasonD()+
+",稅則處解答"+"(tfReason0)="+pageBean.getTfReason0()+
+",案件處理狀態"+"(tfStatus)="+pageBean.getTfStatus()+
+",異動人員代碼-基隆關意見"+"(tfPersonA)="+pageBean.getTfPersonA()+
+",最後異動日期-基隆關意見"+"(tfDtA)="+pageBean.getTfDtA()+
+",異動人員代碼-高雄關意見"+"(tfPersonB)="+pageBean.getTfPersonB()+
+",最後異動日期-高雄關意見"+"(tfDtB)="+pageBean.getTfDtB()+
+",異動人員代碼-台北關意見"+"(tfPersonC)="+pageBean.getTfPersonC()+
+",最後異動日期-台北關意見"+"(tfDtC)="+pageBean.getTfDtC()+
+",異動人員代碼-台中關意見"+"(tfPersonD)="+pageBean.getTfPersonD()+
+",最後異動日期-台中關意見"+"(tfDtD)="+pageBean.getTfDtD()+
+",異動人員代碼:稅則處意見"+"(tfPerson0)="+pageBean.getTfPerson0()+
+",最後異動日期-稅則處意見"+"(tfDt0)="+pageBean.getTfDt0()+
+",複核結果"+"(tfSecondResult)="+pageBean.getTfSecondResult()+
+",複核異動人員代號"+"(tfSecondPerson)="+pageBean.getTfSecondPerson()+
+",複核最後異動日期"+"(tfSecondUpdateDt)="+pageBean.getTfSecondUpdateDt()+
+",基隆關進口紀錄"+"(tfAimport)="+pageBean.getTfAimport()+
+",高雄關進口紀錄"+"(tfBimport)="+pageBean.getTfBimport()+
+",台北關進口紀錄"+"(tfCimport)="+pageBean.getTfCimport()+
+",台中關進口紀錄"+"(tfDimport)="+pageBean.getTfDimport()+
+",承辦人員_總局"+"(acUser0)="+pageBean.getAcUser0()+
+",承辦人員_基隆"+"(acUserA)="+pageBean.getAcUserA()+
+",承辦人員_高雄"+"(acUserB)="+pageBean.getAcUserB()+
+",承辦人員_台北"+"(acUserC)="+pageBean.getAcUserC()+
+",承辦人員_台中"+"(acUserD)="+pageBean.getAcUserD()+
+",分估-傳送註記"+"(tfReSendmark)="+pageBean.getTfReSendmark()+
+",分估人員代號"+"(tfRePerson)="+pageBean.getTfRePerson()+
+",分估異動日期"+"(tfReUpdDt)="+pageBean.getTfReUpdDt()+
+",分估-案件退案理由"+"(tfReReject)="+pageBean.getTfReReject()+
+",分估-實體樣品後送"+"(tfReSample)="+pageBean.getTfReSample()+
+",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
+",異動時間"+"(upDate)="+pageBean.getUpDate()+
+",申請廠商地址"+"(tfAppAddress)="+pageBean.getTfAppAddress()+
+",複核案件註記"+"(tfSecondNote)="+pageBean.getTfSecondNote()+
+",基隆關意見_完成註記"+"(tfReasonANote)="+pageBean.getTfReasonANote()+
+",高雄關意見_完成註記"+"(tfReasonBNote)="+pageBean.getTfReasonBNote()+
+",台北關意見_完成註記"+"(tfReasonCNote)="+pageBean.getTfReasonCNote()+
+",台中關意見_完成註記"+"(tfReasonDNote)="+pageBean.getTfReasonDNote()+
+",稅則處解答_完成註記"+"(tfReason0Note)="+pageBean.getTfReason0Note()+
+",主辦關整合意見_完成註記"+"(tfMReasonNote)="+pageBean.getTfMReasonNote()+
+",主辦關整合意見"+"(tfMReason)="+pageBean.getTfMReason()+
+",主辦關整合意見_異動人員"+"(tfMPerson)="+pageBean.getTfMPerson()+
+",主辦關整合意見_異動時間"+"(tfMDt)="+pageBean.getTfMDt()+
+",主辦關建議送稅則處註記"+"(tfMSugsend)="+pageBean.getTfMSugsend()+
+",複核結果_完成註記"+"(tfSecondRnote)="+pageBean.getTfSecondRnote()+
+",送稅則法制組說明"+"(tfMMeno)="+pageBean.getTfMMeno()+

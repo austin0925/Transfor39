@@ -1,0 +1,159 @@
+pageBean.compId=委任人編號
+pageBean.personId=受任人編號
+pageBean.aStatus=委任狀況
+pageBean.crDate=建檔日期時間
+pageBean.upDate=異動日期時間
+
+pageBean.compId=compId
+pageBean.personId=personId
+pageBean.aStatus=aStatus
+pageBean.crDate=crDate
+pageBean.upDate=upDate
+
+<!--compId:委任人編號-->
+<tr>
+<td>
+	<s:text name="pageBean.compId"/>
+	<s:textfield name="pageBean.compId" />
+</td>
+</tr>
+
+<!--personId:受任人編號-->
+<tr>
+<td>
+	<s:text name="pageBean.personId"/>
+	<s:textfield name="pageBean.personId" />
+</td>
+</tr>
+
+<!--aStatus:委任狀況-->
+<tr>
+<td>
+	<s:text name="pageBean.aStatus"/>
+	<s:textfield name="pageBean.aStatus" />
+</td>
+</tr>
+
+<!--crDate:建檔日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.crDate"/>
+	<s:textfield name="pageBean.crDate" />
+</td>
+</tr>
+
+<!--upDate:異動日期時間-->
+<tr>
+<td>
+	<s:text name="pageBean.upDate"/>
+	<s:textfield name="pageBean.upDate" />
+</td>
+</tr>
+
+
+<s:hidden name="pageBean.compId"/><!--compId:委任人編號-->
+<s:hidden name="pageBean.personId"/><!--personId:受任人編號-->
+<s:hidden name="pageBean.aStatus"/><!--aStatus:委任狀況-->
+<s:hidden name="pageBean.crDate"/><!--crDate:建檔日期時間-->
+<s:hidden name="pageBean.upDate"/><!--upDate:異動日期時間-->
+
+<%--COMP_ID:委任人編號:compId--%>
+<sjg:gridColumn name="COMP_ID" index="COMP_ID" title="%{getText('compId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--PERSON_ID:受任人編號:personId--%>
+<sjg:gridColumn name="PERSON_ID" index="PERSON_ID" title="%{getText('personId')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--A_STATUS:委任狀況:aStatus--%>
+<sjg:gridColumn name="A_STATUS" index="A_STATUS" title="%{getText('aStatus')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CR_DATE:建檔日期時間:crDate--%>
+<sjg:gridColumn name="CR_DATE" index="CR_DATE" title="%{getText('crDate')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--UP_DATE:異動日期時間:upDate--%>
+<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.COMP_ID
+,A.PERSON_ID
+,A.A_STATUS
+,A.CR_DATE
+,A.UP_DATE
+
+<condition key="COMP_ID" ignoreEmpty="true">COMP_ID = ${COMP_ID}</condition>
+<condition key="PERSON_ID" ignoreEmpty="true">PERSON_ID = ${PERSON_ID}</condition>
+<condition key="A_STATUS" ignoreEmpty="true">A_STATUS = ${A_STATUS}</condition>
+<condition key="CR_DATE" ignoreEmpty="true">CR_DATE = ${CR_DATE}</condition>
+<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
+
+<condition key="COMP_ID_S" ignoreEmpty="true">COMP_ID >= ${COMP_ID_S}</condition><condition key="COMP_ID_E" ignoreEmpty="true">${COMP_ID_E} >= COMP_ID</condition><condition key="COMP_ID_L" ignoreEmpty="true">COMP_ID like ${COMP_ID_L}</condition>
+<condition key="PERSON_ID_S" ignoreEmpty="true">PERSON_ID >= ${PERSON_ID_S}</condition><condition key="PERSON_ID_E" ignoreEmpty="true">${PERSON_ID_E} >= PERSON_ID</condition><condition key="PERSON_ID_L" ignoreEmpty="true">PERSON_ID like ${PERSON_ID_L}</condition>
+<condition key="A_STATUS_S" ignoreEmpty="true">A_STATUS >= ${A_STATUS_S}</condition><condition key="A_STATUS_E" ignoreEmpty="true">${A_STATUS_E} >= A_STATUS</condition><condition key="A_STATUS_L" ignoreEmpty="true">A_STATUS like ${A_STATUS_L}</condition>
+<condition key="CR_DATE_S" ignoreEmpty="true">CR_DATE >= ${CR_DATE_S}</condition><condition key="CR_DATE_E" ignoreEmpty="true">${CR_DATE_E} >= CR_DATE</condition><condition key="CR_DATE_L" ignoreEmpty="true">CR_DATE like ${CR_DATE_L}</condition>
+<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
+
+<field key="COMP_ID" name="COMP_ID" ignoreEmpty="true"/>
+<field key="PERSON_ID" name="PERSON_ID" ignoreEmpty="true"/>
+<field key="A_STATUS" name="A_STATUS" ignoreEmpty="true"/>
+<field key="CR_DATE" name="CR_DATE" ignoreEmpty="true"/>
+<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
+
+$('#pageBean_compId').attr('value',rowData.COMP_ID);
+$('#pageBean_personId').attr('value',rowData.PERSON_ID);
+$('#pageBean_aStatus').attr('value',rowData.A_STATUS);
+$('#pageBean_crDate').attr('value',rowData.CR_DATE);
+$('#pageBean_upDate').attr('value',rowData.UP_DATE);
+
+$('#pageBean_compId').attr("value", "");
+$('#pageBean_personId').attr("value", "");
+$('#pageBean_aStatus').attr("value", "");
+$('#pageBean_crDate').attr("value", "");
+$('#pageBean_upDate').attr("value", "");
+
+COMP_ID:$('#pageBean_compId').val(),//委任人編號
+PERSON_ID:$('#pageBean_personId').val(),//受任人編號
+A_STATUS:$('#pageBean_aStatus').val(),//委任狀況
+CR_DATE:$('#pageBean_crDate').val(),//建檔日期時間
+UP_DATE:$('#pageBean_upDate').val(),//異動日期時間
+
+pageBean.setCompId(dataObjects.getString("COMP_ID"));//委任人編號
+pageBean.setPersonId(dataObjects.getString("PERSON_ID"));//受任人編號
+pageBean.setAStatus(dataObjects.getString("A_STATUS"));//委任狀況
+pageBean.setCrDate((Date)dataObjects.getValue("CR_DATE"));//建檔日期時間
+pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動日期時間
+
+private String compId = null;//委任人編號
+private String personId = null;//受任人編號
+private String aStatus = null;//委任狀況
+private Date crDate = null;//建檔日期時間
+private Date upDate = null;//異動日期時間
+
+pageBean.setCompId(compId);//委任人編號
+pageBean.setPersonId(personId);//受任人編號
+pageBean.setAStatus(aStatus);//委任狀況
+pageBean.setCrDate(crDate);//建檔日期時間
+pageBean.setUpDate(upDate);//異動日期時間
+
+pageBean.setCompId(randomBean.getCompId());//委任人編號
+pageBean.setPersonId(randomBean.getPersonId());//受任人編號
+pageBean.setAStatus(randomBean.getAStatus());//委任狀況
+pageBean.setCrDate(randomBean.getCrDate());//建檔日期時間
+pageBean.setUpDate(randomBean.getUpDate());//異動日期時間
+
+setCompId(compId);//委任人編號
+setPersonId(personId);//受任人編號
+setAStatus(aStatus);//委任狀況
+setCrDate(crDate);//建檔日期時間
+setUpDate(upDate);//異動日期時間
+
+pageBean.getCompId(),//委任人編號
+pageBean.getPersonId(),//受任人編號
+pageBean.getAStatus(),//委任狀況
+pageBean.getCrDate(),//建檔日期時間
+pageBean.getUpDate(),//異動日期時間
+
+pageBean.setValue("COMP_ID", this.getCompId());//委任人編號
+pageBean.setValue("PERSON_ID", this.getPersonId());//受任人編號
+pageBean.setValue("A_STATUS", this.getAStatus());//委任狀況
+pageBean.setValue("CR_DATE", this.getCrDate());//建檔日期時間
+pageBean.setValue("UP_DATE", this.getUpDate());//異動日期時間
+
+",委任人編號"+"(compId)="+pageBean.getCompId()+
+",受任人編號"+"(personId)="+pageBean.getPersonId()+
+",委任狀況"+"(aStatus)="+pageBean.getAStatus()+
+",建檔日期時間"+"(crDate)="+pageBean.getCrDate()+
+",異動日期時間"+"(upDate)="+pageBean.getUpDate()+
