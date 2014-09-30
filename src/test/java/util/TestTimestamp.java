@@ -19,6 +19,10 @@ public class TestTimestamp {
 		System.out.println(test3);
 		System.out.println(new Timestamp(test3));
 		
+		Long test4 = nowL - test1 - (2L*60L*60L*1000L);
+		System.out.println(test4);
+		System.out.println(new Timestamp(test4));
+		
 		
 		
 	}
