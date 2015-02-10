@@ -16,29 +16,37 @@ public class TestTimestamp {
 		System.out.println("模擬現在時間："+new Timestamp(nowL));
 		System.out.println("三小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 3L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 3L, -8L)));
 		System.out.println("六小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 6L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 6L, -8L)));
 		
 		nowL = System.currentTimeMillis()+(2L * HourLong);
 		System.out.println("模擬現在時間："+new Timestamp(nowL));
 		System.out.println("三小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 3L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 3L, -8L)));
 		System.out.println("六小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 6L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 6L, -8L)));
 		
 		nowL = System.currentTimeMillis()+(8L * HourLong);
 		System.out.println("模擬現在時間："+new Timestamp(nowL));
 		System.out.println("三小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 3L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 3L, -8L)));
 		System.out.println("六小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 6L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 6L, -8L)));
 		
 		nowL = System.currentTimeMillis()+(14L * HourLong);
 		System.out.println("模擬現在時間："+new Timestamp(nowL));
 		System.out.println("三小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 3L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 3L, -8L)));
 		System.out.println("六小時區間");
 		System.out.println("調整-8小時:"+test.getLatestEraPeriod(nowL, 6L, -8L));
+		System.out.println("報次:"+test.getDiffTimes(test.getLatestEraPeriod(nowL, 6L, -8L)));
 		
 		
 	}
@@ -63,6 +71,28 @@ public class TestTimestamp {
 		
 		Long peroidL = standardL + (diffHour*HourLong);
 		return new Timestamp(peroidL);
+	}
+	
+	/**
+	 * 目前提醒的時間皆以30分鐘為主，所以建立多載方法。
+	 * 以30分鐘作為計算的基礎
+	 * @param startTime 傳入需與現在比較的時間。
+	 * @return
+	 */
+	public Long getDiffTimes(Timestamp startTime){
+		return getDiffTimes(startTime, (30L * 60L * 1000L));
+	}
+	
+	/**
+	 * 把傳入的時間和現在時間的差，之後再算出其值和傳入的時間區的商後回傳。
+	 * @param startTime 起始時間
+	 * @param miliSeconds 時間區間
+	 * @return Long 算出的商
+	 */
+	public Long getDiffTimes(Timestamp startTime, Long miliSeconds){
+		Long nowL = System.currentTimeMillis();
+		Long diffL = startTime.getTime() - nowL;
+		return diffL/miliSeconds;
 	}
 
 }
