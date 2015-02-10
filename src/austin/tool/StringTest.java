@@ -10,6 +10,7 @@ public class StringTest {
 		System.out.println("00000".substring(0,3));//000
 		System.out.println("00000".indexOf("00"));
 		System.out.println("12000".indexOf("00"));
+		System.out.println("12000".lastIndexOf("00"));
 		System.out.println("12300".indexOf("00"));
 
 	}
