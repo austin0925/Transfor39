@@ -1,0 +1,397 @@
+pageBean.sn=序號
+pageBean.batch=執行批號
+pageBean.service=服務名稱
+pageBean.flag=執行狀態
+pageBean.query1=條件1
+pageBean.query2=條件2
+pageBean.query3=條件3
+pageBean.createdby=新增者
+pageBean.createdtime=新增時間
+pageBean.modifiedby=修改者
+pageBean.modifiedtime=修改時間
+
+pageBean.sn=sn
+pageBean.batch=batch
+pageBean.service=service
+pageBean.flag=flag
+pageBean.query1=query1
+pageBean.query2=query2
+pageBean.query3=query3
+pageBean.createdby=createdby
+pageBean.createdtime=createdtime
+pageBean.modifiedby=modifiedby
+pageBean.modifiedtime=modifiedtime
+
+<tr>
+	<td>
+		<!--sn:序號-->
+		<s:text name="pageBean.sn"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.sn"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--batch:執行批號-->
+		<s:text name="pageBean.batch"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.batch"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--service:服務名稱-->
+		<s:text name="pageBean.service"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.service"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--flag:執行狀態-->
+		<s:text name="pageBean.flag"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.flag"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--query1:條件1-->
+		<s:text name="pageBean.query1"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.query1"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--query2:條件2-->
+		<s:text name="pageBean.query2"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.query2"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--query3:條件3-->
+		<s:text name="pageBean.query3"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.query3"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdby:新增者-->
+		<s:text name="pageBean.createdby"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdby"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdtime:新增時間-->
+		<s:text name="pageBean.createdtime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdtime"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedby:修改者-->
+		<s:text name="pageBean.modifiedby"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedby"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedtime:修改時間-->
+		<s:text name="pageBean.modifiedtime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedtime"/>
+	</td>
+</tr>
+
+
+<s:hidden name="pageBean.sn"/><!--sn:序號-->
+<s:hidden name="pageBean.batch"/><!--batch:執行批號-->
+<s:hidden name="pageBean.service"/><!--service:服務名稱-->
+<s:hidden name="pageBean.flag"/><!--flag:執行狀態-->
+<s:hidden name="pageBean.query1"/><!--query1:條件1-->
+<s:hidden name="pageBean.query2"/><!--query2:條件2-->
+<s:hidden name="pageBean.query3"/><!--query3:條件3-->
+<s:hidden name="pageBean.createdby"/><!--createdby:新增者-->
+<s:hidden name="pageBean.createdtime"/><!--createdtime:新增時間-->
+<s:hidden name="pageBean.modifiedby"/><!--modifiedby:修改者-->
+<s:hidden name="pageBean.modifiedtime"/><!--modifiedtime:修改時間-->
+
+<%--SN:序號:sn--%>
+<sjg:gridColumn name="SN" index="SN" title="%{getText('sn')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BATCH:執行批號:batch--%>
+<sjg:gridColumn name="BATCH" index="BATCH" title="%{getText('batch')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SERVICE:服務名稱:service--%>
+<sjg:gridColumn name="SERVICE" index="SERVICE" title="%{getText('service')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FLAG:執行狀態:flag--%>
+<sjg:gridColumn name="FLAG" index="FLAG" title="%{getText('flag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY1:條件1:query1--%>
+<sjg:gridColumn name="QUERY1" index="QUERY1" title="%{getText('query1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY2:條件2:query2--%>
+<sjg:gridColumn name="QUERY2" index="QUERY2" title="%{getText('query2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY3:條件3:query3--%>
+<sjg:gridColumn name="QUERY3" index="QUERY3" title="%{getText('query3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATEDBY:新增者:createdby--%>
+<sjg:gridColumn name="CREATEDBY" index="CREATEDBY" title="%{getText('createdby')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATEDTIME:新增時間:createdtime--%>
+<sjg:gridColumn name="CREATEDTIME" index="CREATEDTIME" title="%{getText('createdtime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIEDBY:修改者:modifiedby--%>
+<sjg:gridColumn name="MODIFIEDBY" index="MODIFIEDBY" title="%{getText('modifiedby')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIEDTIME:修改時間:modifiedtime--%>
+<sjg:gridColumn name="MODIFIEDTIME" index="MODIFIEDTIME" title="%{getText('modifiedtime')}" width="80" align="center" hidden="true"  sortable="true" />
+
+,A.SN
+,A.BATCH
+,A.SERVICE
+,A.FLAG
+,A.QUERY1
+,A.QUERY2
+,A.QUERY3
+,A.CREATEDBY
+,A.CREATEDTIME
+,A.MODIFIEDBY
+,A.MODIFIEDTIME
+
+<condition key="SN" ignoreEmpty="true">SN = ${SN}</condition>
+<condition key="BATCH" ignoreEmpty="true">BATCH = ${BATCH}</condition>
+<condition key="SERVICE" ignoreEmpty="true">SERVICE = ${SERVICE}</condition>
+<condition key="FLAG" ignoreEmpty="true">FLAG = ${FLAG}</condition>
+<condition key="QUERY1" ignoreEmpty="true">QUERY1 = ${QUERY1}</condition>
+<condition key="QUERY2" ignoreEmpty="true">QUERY2 = ${QUERY2}</condition>
+<condition key="QUERY3" ignoreEmpty="true">QUERY3 = ${QUERY3}</condition>
+<condition key="CREATEDBY" ignoreEmpty="true">CREATEDBY = ${CREATEDBY}</condition>
+<condition key="CREATEDTIME" ignoreEmpty="true">CREATEDTIME = ${CREATEDTIME}</condition>
+<condition key="MODIFIEDBY" ignoreEmpty="true">MODIFIEDBY = ${MODIFIEDBY}</condition>
+<condition key="MODIFIEDTIME" ignoreEmpty="true">MODIFIEDTIME = ${MODIFIEDTIME}</condition>
+
+<condition key="SN_S" ignoreEmpty="true">SN >= ${SN_S}</condition><condition key="SN_E" ignoreEmpty="true">${SN_E} >= SN</condition><condition key="SN_L" ignoreEmpty="true">SN like ${SN_L}</condition>
+<condition key="BATCH_S" ignoreEmpty="true">BATCH >= ${BATCH_S}</condition><condition key="BATCH_E" ignoreEmpty="true">${BATCH_E} >= BATCH</condition><condition key="BATCH_L" ignoreEmpty="true">BATCH like ${BATCH_L}</condition>
+<condition key="SERVICE_S" ignoreEmpty="true">SERVICE >= ${SERVICE_S}</condition><condition key="SERVICE_E" ignoreEmpty="true">${SERVICE_E} >= SERVICE</condition><condition key="SERVICE_L" ignoreEmpty="true">SERVICE like ${SERVICE_L}</condition>
+<condition key="FLAG_S" ignoreEmpty="true">FLAG >= ${FLAG_S}</condition><condition key="FLAG_E" ignoreEmpty="true">${FLAG_E} >= FLAG</condition><condition key="FLAG_L" ignoreEmpty="true">FLAG like ${FLAG_L}</condition>
+<condition key="QUERY1_S" ignoreEmpty="true">QUERY1 >= ${QUERY1_S}</condition><condition key="QUERY1_E" ignoreEmpty="true">${QUERY1_E} >= QUERY1</condition><condition key="QUERY1_L" ignoreEmpty="true">QUERY1 like ${QUERY1_L}</condition>
+<condition key="QUERY2_S" ignoreEmpty="true">QUERY2 >= ${QUERY2_S}</condition><condition key="QUERY2_E" ignoreEmpty="true">${QUERY2_E} >= QUERY2</condition><condition key="QUERY2_L" ignoreEmpty="true">QUERY2 like ${QUERY2_L}</condition>
+<condition key="QUERY3_S" ignoreEmpty="true">QUERY3 >= ${QUERY3_S}</condition><condition key="QUERY3_E" ignoreEmpty="true">${QUERY3_E} >= QUERY3</condition><condition key="QUERY3_L" ignoreEmpty="true">QUERY3 like ${QUERY3_L}</condition>
+<condition key="CREATEDBY_S" ignoreEmpty="true">CREATEDBY >= ${CREATEDBY_S}</condition><condition key="CREATEDBY_E" ignoreEmpty="true">${CREATEDBY_E} >= CREATEDBY</condition><condition key="CREATEDBY_L" ignoreEmpty="true">CREATEDBY like ${CREATEDBY_L}</condition>
+<condition key="CREATEDTIME_S" ignoreEmpty="true">CREATEDTIME >= ${CREATEDTIME_S}</condition><condition key="CREATEDTIME_E" ignoreEmpty="true">${CREATEDTIME_E} >= CREATEDTIME</condition><condition key="CREATEDTIME_L" ignoreEmpty="true">CREATEDTIME like ${CREATEDTIME_L}</condition>
+<condition key="MODIFIEDBY_S" ignoreEmpty="true">MODIFIEDBY >= ${MODIFIEDBY_S}</condition><condition key="MODIFIEDBY_E" ignoreEmpty="true">${MODIFIEDBY_E} >= MODIFIEDBY</condition><condition key="MODIFIEDBY_L" ignoreEmpty="true">MODIFIEDBY like ${MODIFIEDBY_L}</condition>
+<condition key="MODIFIEDTIME_S" ignoreEmpty="true">MODIFIEDTIME >= ${MODIFIEDTIME_S}</condition><condition key="MODIFIEDTIME_E" ignoreEmpty="true">${MODIFIEDTIME_E} >= MODIFIEDTIME</condition><condition key="MODIFIEDTIME_L" ignoreEmpty="true">MODIFIEDTIME like ${MODIFIEDTIME_L}</condition>
+
+<field key="SN" name="SN" ignoreEmpty="true"/>
+<field key="BATCH" name="BATCH" ignoreEmpty="true"/>
+<field key="SERVICE" name="SERVICE" ignoreEmpty="true"/>
+<field key="FLAG" name="FLAG" ignoreEmpty="true"/>
+<field key="QUERY1" name="QUERY1" ignoreEmpty="true"/>
+<field key="QUERY2" name="QUERY2" ignoreEmpty="true"/>
+<field key="QUERY3" name="QUERY3" ignoreEmpty="true"/>
+<field key="CREATEDBY" name="CREATEDBY" ignoreEmpty="true"/>
+<field key="CREATEDTIME" name="CREATEDTIME" ignoreEmpty="true"/>
+<field key="MODIFIEDBY" name="MODIFIEDBY" ignoreEmpty="true"/>
+<field key="MODIFIEDTIME" name="MODIFIEDTIME" ignoreEmpty="true"/>
+
+$('#pageBean_sn').attr('value',rowData.SN);
+$('#pageBean_batch').attr('value',rowData.BATCH);
+$('#pageBean_service').attr('value',rowData.SERVICE);
+$('#pageBean_flag').attr('value',rowData.FLAG);
+$('#pageBean_query1').attr('value',rowData.QUERY1);
+$('#pageBean_query2').attr('value',rowData.QUERY2);
+$('#pageBean_query3').attr('value',rowData.QUERY3);
+$('#pageBean_createdby').attr('value',rowData.CREATEDBY);
+$('#pageBean_createdtime').attr('value',rowData.CREATEDTIME);
+$('#pageBean_modifiedby').attr('value',rowData.MODIFIEDBY);
+$('#pageBean_modifiedtime').attr('value',rowData.MODIFIEDTIME);
+
+$('#pageBean_sn').attr("value", "");
+$('#pageBean_batch').attr("value", "");
+$('#pageBean_service').attr("value", "");
+$('#pageBean_flag').attr("value", "");
+$('#pageBean_query1').attr("value", "");
+$('#pageBean_query2').attr("value", "");
+$('#pageBean_query3').attr("value", "");
+$('#pageBean_createdby').attr("value", "");
+$('#pageBean_createdtime').attr("value", "");
+$('#pageBean_modifiedby').attr("value", "");
+$('#pageBean_modifiedtime').attr("value", "");
+
+SN:$('#pageBean_sn').val(),//序號
+BATCH:$('#pageBean_batch').val(),//執行批號
+SERVICE:$('#pageBean_service').val(),//服務名稱
+FLAG:$('#pageBean_flag').val(),//執行狀態
+QUERY1:$('#pageBean_query1').val(),//條件1
+QUERY2:$('#pageBean_query2').val(),//條件2
+QUERY3:$('#pageBean_query3').val(),//條件3
+CREATEDBY:$('#pageBean_createdby').val(),//新增者
+CREATEDTIME:$('#pageBean_createdtime').val(),//新增時間
+MODIFIEDBY:$('#pageBean_modifiedby').val(),//修改者
+MODIFIEDTIME:$('#pageBean_modifiedtime').val(),//修改時間
+
+pageBean.setSn(dataObjects.getString("SN"));//序號
+pageBean.setBatch(dataObjects.getString("BATCH"));//執行批號
+pageBean.setService(dataObjects.getString("SERVICE"));//服務名稱
+pageBean.setFlag(dataObjects.getString("FLAG"));//執行狀態
+pageBean.setQuery1(dataObjects.getString("QUERY1"));//條件1
+pageBean.setQuery2(dataObjects.getString("QUERY2"));//條件2
+pageBean.setQuery3(dataObjects.getString("QUERY3"));//條件3
+pageBean.setCreatedby(dataObjects.getString("CREATEDBY"));//新增者
+pageBean.setCreatedtime(dataObjects.getString("CREATEDTIME"));//新增時間
+pageBean.setModifiedby(dataObjects.getString("MODIFIEDBY"));//修改者
+pageBean.setModifiedtime(dataObjects.getString("MODIFIEDTIME"));//修改時間
+
+private String sn = null;//序號
+private String batch = null;//執行批號
+private String service = null;//服務名稱
+private String flag = null;//執行狀態
+private String query1 = null;//條件1
+private String query2 = null;//條件2
+private String query3 = null;//條件3
+private String createdby = null;//新增者
+private String createdtime = null;//新增時間
+private String modifiedby = null;//修改者
+private String modifiedtime = null;//修改時間
+
+pageBean.setSn("序號");//序號
+pageBean.setBatch("執行批號");//執行批號
+pageBean.setService("服務名稱");//服務名稱
+pageBean.setFlag("執行狀態");//執行狀態
+pageBean.setQuery1("條件1");//條件1
+pageBean.setQuery2("條件2");//條件2
+pageBean.setQuery3("條件3");//條件3
+pageBean.setCreatedby("新增者");//新增者
+pageBean.setCreatedtime("新增時間");//新增時間
+pageBean.setModifiedby("修改者");//修改者
+pageBean.setModifiedtime("修改時間");//修改時間
+
+pageBean.setSn(sn);//序號
+pageBean.setBatch(batch);//執行批號
+pageBean.setService(service);//服務名稱
+pageBean.setFlag(flag);//執行狀態
+pageBean.setQuery1(query1);//條件1
+pageBean.setQuery2(query2);//條件2
+pageBean.setQuery3(query3);//條件3
+pageBean.setCreatedby(createdby);//新增者
+pageBean.setCreatedtime(createdtime);//新增時間
+pageBean.setModifiedby(modifiedby);//修改者
+pageBean.setModifiedtime(modifiedtime);//修改時間
+
+pageBean.setSn(randomBean.getSn());//序號
+pageBean.setBatch(randomBean.getBatch());//執行批號
+pageBean.setService(randomBean.getService());//服務名稱
+pageBean.setFlag(randomBean.getFlag());//執行狀態
+pageBean.setQuery1(randomBean.getQuery1());//條件1
+pageBean.setQuery2(randomBean.getQuery2());//條件2
+pageBean.setQuery3(randomBean.getQuery3());//條件3
+pageBean.setCreatedby(randomBean.getCreatedby());//新增者
+pageBean.setCreatedtime(randomBean.getCreatedtime());//新增時間
+pageBean.setModifiedby(randomBean.getModifiedby());//修改者
+pageBean.setModifiedtime(randomBean.getModifiedtime());//修改時間
+
+setSn(sn);//序號
+setBatch(batch);//執行批號
+setService(service);//服務名稱
+setFlag(flag);//執行狀態
+setQuery1(query1);//條件1
+setQuery2(query2);//條件2
+setQuery3(query3);//條件3
+setCreatedby(createdby);//新增者
+setCreatedtime(createdtime);//新增時間
+setModifiedby(modifiedby);//修改者
+setModifiedtime(modifiedtime);//修改時間
+
+pageBean.getSn(),//序號
+pageBean.getBatch(),//執行批號
+pageBean.getService(),//服務名稱
+pageBean.getFlag(),//執行狀態
+pageBean.getQuery1(),//條件1
+pageBean.getQuery2(),//條件2
+pageBean.getQuery3(),//條件3
+pageBean.getCreatedby(),//新增者
+pageBean.getCreatedtime(),//新增時間
+pageBean.getModifiedby(),//修改者
+pageBean.getModifiedtime(),//修改時間
+
+pageBean.setValue("SN", this.getSn());//序號
+pageBean.setValue("BATCH", this.getBatch());//執行批號
+pageBean.setValue("SERVICE", this.getService());//服務名稱
+pageBean.setValue("FLAG", this.getFlag());//執行狀態
+pageBean.setValue("QUERY1", this.getQuery1());//條件1
+pageBean.setValue("QUERY2", this.getQuery2());//條件2
+pageBean.setValue("QUERY3", this.getQuery3());//條件3
+pageBean.setValue("CREATEDBY", this.getCreatedby());//新增者
+pageBean.setValue("CREATEDTIME", this.getCreatedtime());//新增時間
+pageBean.setValue("MODIFIEDBY", this.getModifiedby());//修改者
+pageBean.setValue("MODIFIEDTIME", this.getModifiedtime());//修改時間
+
+pageBean.setValue("SN", "序號");//序號
+pageBean.setValue("BATCH", "執行批號");//執行批號
+pageBean.setValue("SERVICE", "服務名稱");//服務名稱
+pageBean.setValue("FLAG", "執行狀態");//執行狀態
+pageBean.setValue("QUERY1", "條件1");//條件1
+pageBean.setValue("QUERY2", "條件2");//條件2
+pageBean.setValue("QUERY3", "條件3");//條件3
+pageBean.setValue("CREATEDBY", "新增者");//新增者
+pageBean.setValue("CREATEDTIME", "新增時間");//新增時間
+pageBean.setValue("MODIFIEDBY", "修改者");//修改者
+pageBean.setValue("MODIFIEDTIME", "修改時間");//修改時間
+
+",序號"+"(sn)="+pageBean.getSn()+
+",執行批號"+"(batch)="+pageBean.getBatch()+
+",服務名稱"+"(service)="+pageBean.getService()+
+",執行狀態"+"(flag)="+pageBean.getFlag()+
+",條件1"+"(query1)="+pageBean.getQuery1()+
+",條件2"+"(query2)="+pageBean.getQuery2()+
+",條件3"+"(query3)="+pageBean.getQuery3()+
+",新增者"+"(createdby)="+pageBean.getCreatedby()+
+",新增時間"+"(createdtime)="+pageBean.getCreatedtime()+
+",修改者"+"(modifiedby)="+pageBean.getModifiedby()+
+",修改時間"+"(modifiedtime)="+pageBean.getModifiedtime()+
+
++ ", SN"
++ ", BATCH"
++ ", SERVICE"
++ ", FLAG"
++ ", QUERY1"
++ ", QUERY2"
++ ", QUERY3"
++ ", CREATEDBY"
++ ", CREATEDTIME"
++ ", MODIFIEDBY"
++ ", MODIFIEDTIME"
+
++", '"+this.getSn()+"'"//序號
++", '"+this.getBatch()+"'"//執行批號
++", '"+this.getService()+"'"//服務名稱
++", '"+this.getFlag()+"'"//執行狀態
++", '"+this.getQuery1()+"'"//條件1
++", '"+this.getQuery2()+"'"//條件2
++", '"+this.getQuery3()+"'"//條件3
++", '"+this.getCreatedby()+"'"//新增者
++", '"+this.getCreatedtime()+"'"//新增時間
++", '"+this.getModifiedby()+"'"//修改者
++", '"+this.getModifiedtime()+"'"//修改時間

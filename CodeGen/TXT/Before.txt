@@ -1,7 +1,24 @@
-TF_DOC_NO	VARCHAR2(16 CHAR)	No		1	發文文號
-DECL_NO	VARCHAR2(14 CHAR)	No		2	報單號碼
-TF_DOC_SEQNO	VARCHAR2(2 CHAR)	Yes		3	相關文號序號
-TF_ISSUE_DTE	DATE	Yes		4	發文日期
-UP_PERSON	VARCHAR2(20 CHAR)	Yes		5	異動人員
-UP_DATE	DATE	Yes		6	異動時間
-TF_SERIAL_SEQ	VARCHAR2(8 CHAR)	Yes		7	
+SN	NUMBER(10,0)	No		1	序號
+BATCH	NUMBER(10,0)	No		2	執行批號
+SERVICE	VARCHAR2(50 BYTE)	No		3	服務名稱
+FLAG	VARCHAR2(20 BYTE)	Yes		4	執行狀態
+QUERY1	VARCHAR2(30 BYTE)	Yes		5	條件1
+QUERY2	VARCHAR2(30 BYTE)	Yes		6	條件2
+QUERY3	VARCHAR2(30 BYTE)	Yes		7	條件3
+CREATEDBY	VARCHAR2(50 BYTE)	Yes		8	新增者
+CREATEDTIME	DATE	Yes		9	新增時間
+MODIFIEDBY	VARCHAR2(50 BYTE)	Yes		10	修改者
+MODIFIEDTIME	DATE	Yes		11	修改時間
+AGENT_NO	varchar(5)	Unchecked
+AGENT_ADDRESS	varchar(200)	Checked
+AGENT_MK	varchar(1)	Checked
+AGENT_NAME	varchar(60)	Unchecked
+AGENT_OID	varchar(50)	Checked
+AGENT_TEL	varchar(20)	Checked
+CREATED_BY	varchar(50)	Unchecked
+CREATED_TIME	datetime	Unchecked
+INSU_TYPE	varchar(1)	Checked
+MODIFIED_BY	varchar(50)	Unchecked
+MODIFIED_TIME	datetime	Unchecked
+STAFF_CODE	varchar(5)	Checked
+STAFF_NAME	varchar(40)	Checked

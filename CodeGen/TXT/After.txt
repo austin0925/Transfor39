@@ -1,245 +1,839 @@
-pageBean.tfDocNo=發文文號
-pageBean.declNo=報單號碼
-pageBean.tfDocSeqno=相關文號序號
-pageBean.tfIssueDte=發文日期
-pageBean.upPerson=異動人員
-pageBean.upDate=異動時間
-pageBean.tfSerialSeq=
+pageBean.sn=序號
+pageBean.batch=執行批號
+pageBean.service=服務名稱
+pageBean.flag=執行狀態
+pageBean.query1=條件1
+pageBean.query2=條件2
+pageBean.query3=條件3
+pageBean.createdby=新增者
+pageBean.createdtime=新增時間
+pageBean.modifiedby=修改者
+pageBean.modifiedtime=修改時間
+pageBean.agentNo=Unchecked
+pageBean.agentAddress=Checked
+pageBean.agentMk=Checked
+pageBean.agentName=Unchecked
+pageBean.agentOid=Checked
+pageBean.agentTel=Checked
+pageBean.createdBy=Unchecked
+pageBean.createdTime=Unchecked
+pageBean.insuType=Checked
+pageBean.modifiedBy=Unchecked
+pageBean.modifiedTime=Unchecked
+pageBean.staffCode=Checked
+pageBean.staffName=Checked
 
-pageBean.tfDocNo=tfDocNo
-pageBean.declNo=declNo
-pageBean.tfDocSeqno=tfDocSeqno
-pageBean.tfIssueDte=tfIssueDte
-pageBean.upPerson=upPerson
-pageBean.upDate=upDate
-pageBean.tfSerialSeq=tfSerialSeq
+pageBean.sn=sn
+pageBean.batch=batch
+pageBean.service=service
+pageBean.flag=flag
+pageBean.query1=query1
+pageBean.query2=query2
+pageBean.query3=query3
+pageBean.createdby=createdby
+pageBean.createdtime=createdtime
+pageBean.modifiedby=modifiedby
+pageBean.modifiedtime=modifiedtime
+pageBean.agentNo=agentNo
+pageBean.agentAddress=agentAddress
+pageBean.agentMk=agentMk
+pageBean.agentName=agentName
+pageBean.agentOid=agentOid
+pageBean.agentTel=agentTel
+pageBean.createdBy=createdBy
+pageBean.createdTime=createdTime
+pageBean.insuType=insuType
+pageBean.modifiedBy=modifiedBy
+pageBean.modifiedTime=modifiedTime
+pageBean.staffCode=staffCode
+pageBean.staffName=staffName
 
 <tr>
 	<td>
-		<!--tfDocNo:發文文號-->
-		<s:text name="pageBean.tfDocNo"/>
+		<!--sn:序號-->
+		<s:text name="pageBean.sn"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.tfDocNo"/>
+		<s:textfield name="pageBean.sn"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--declNo:報單號碼-->
-		<s:text name="pageBean.declNo"/>
+		<!--batch:執行批號-->
+		<s:text name="pageBean.batch"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.declNo"/>
+		<s:textfield name="pageBean.batch"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--tfDocSeqno:相關文號序號-->
-		<s:text name="pageBean.tfDocSeqno"/>
+		<!--service:服務名稱-->
+		<s:text name="pageBean.service"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.tfDocSeqno"/>
+		<s:textfield name="pageBean.service"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--tfIssueDte:發文日期-->
-		<s:text name="pageBean.tfIssueDte"/>
+		<!--flag:執行狀態-->
+		<s:text name="pageBean.flag"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.tfIssueDte"/>
+		<s:textfield name="pageBean.flag"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--upPerson:異動人員-->
-		<s:text name="pageBean.upPerson"/>
+		<!--query1:條件1-->
+		<s:text name="pageBean.query1"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.upPerson"/>
+		<s:textfield name="pageBean.query1"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--upDate:異動時間-->
-		<s:text name="pageBean.upDate"/>
+		<!--query2:條件2-->
+		<s:text name="pageBean.query2"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.upDate"/>
+		<s:textfield name="pageBean.query2"/>
 	</td>
 </tr>
 
 <tr>
 	<td>
-		<!--tfSerialSeq:-->
-		<s:text name="pageBean.tfSerialSeq"/>
+		<!--query3:條件3-->
+		<s:text name="pageBean.query3"/>
 	</td>
 	<td>
-		<s:textfield name="pageBean.tfSerialSeq"/>
+		<s:textfield name="pageBean.query3"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdby:新增者-->
+		<s:text name="pageBean.createdby"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdby"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdtime:新增時間-->
+		<s:text name="pageBean.createdtime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdtime"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedby:修改者-->
+		<s:text name="pageBean.modifiedby"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedby"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedtime:修改時間-->
+		<s:text name="pageBean.modifiedtime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedtime"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentNo:Unchecked-->
+		<s:text name="pageBean.agentNo"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentNo"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentAddress:Checked-->
+		<s:text name="pageBean.agentAddress"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentAddress"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentMk:Checked-->
+		<s:text name="pageBean.agentMk"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentMk"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentName:Unchecked-->
+		<s:text name="pageBean.agentName"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentName"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentOid:Checked-->
+		<s:text name="pageBean.agentOid"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentOid"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--agentTel:Checked-->
+		<s:text name="pageBean.agentTel"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.agentTel"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdBy:Unchecked-->
+		<s:text name="pageBean.createdBy"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdBy"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--createdTime:Unchecked-->
+		<s:text name="pageBean.createdTime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.createdTime"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--insuType:Checked-->
+		<s:text name="pageBean.insuType"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.insuType"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedBy:Unchecked-->
+		<s:text name="pageBean.modifiedBy"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedBy"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--modifiedTime:Unchecked-->
+		<s:text name="pageBean.modifiedTime"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.modifiedTime"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--staffCode:Checked-->
+		<s:text name="pageBean.staffCode"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.staffCode"/>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<!--staffName:Checked-->
+		<s:text name="pageBean.staffName"/>
+	</td>
+	<td>
+		<s:textfield name="pageBean.staffName"/>
 	</td>
 </tr>
 
 
-<s:hidden name="pageBean.tfDocNo"/><!--tfDocNo:發文文號-->
-<s:hidden name="pageBean.declNo"/><!--declNo:報單號碼-->
-<s:hidden name="pageBean.tfDocSeqno"/><!--tfDocSeqno:相關文號序號-->
-<s:hidden name="pageBean.tfIssueDte"/><!--tfIssueDte:發文日期-->
-<s:hidden name="pageBean.upPerson"/><!--upPerson:異動人員-->
-<s:hidden name="pageBean.upDate"/><!--upDate:異動時間-->
-<s:hidden name="pageBean.tfSerialSeq"/><!--tfSerialSeq:-->
+<s:hidden name="pageBean.sn"/><!--sn:序號-->
+<s:hidden name="pageBean.batch"/><!--batch:執行批號-->
+<s:hidden name="pageBean.service"/><!--service:服務名稱-->
+<s:hidden name="pageBean.flag"/><!--flag:執行狀態-->
+<s:hidden name="pageBean.query1"/><!--query1:條件1-->
+<s:hidden name="pageBean.query2"/><!--query2:條件2-->
+<s:hidden name="pageBean.query3"/><!--query3:條件3-->
+<s:hidden name="pageBean.createdby"/><!--createdby:新增者-->
+<s:hidden name="pageBean.createdtime"/><!--createdtime:新增時間-->
+<s:hidden name="pageBean.modifiedby"/><!--modifiedby:修改者-->
+<s:hidden name="pageBean.modifiedtime"/><!--modifiedtime:修改時間-->
+<s:hidden name="pageBean.agentNo"/><!--agentNo:Unchecked-->
+<s:hidden name="pageBean.agentAddress"/><!--agentAddress:Checked-->
+<s:hidden name="pageBean.agentMk"/><!--agentMk:Checked-->
+<s:hidden name="pageBean.agentName"/><!--agentName:Unchecked-->
+<s:hidden name="pageBean.agentOid"/><!--agentOid:Checked-->
+<s:hidden name="pageBean.agentTel"/><!--agentTel:Checked-->
+<s:hidden name="pageBean.createdBy"/><!--createdBy:Unchecked-->
+<s:hidden name="pageBean.createdTime"/><!--createdTime:Unchecked-->
+<s:hidden name="pageBean.insuType"/><!--insuType:Checked-->
+<s:hidden name="pageBean.modifiedBy"/><!--modifiedBy:Unchecked-->
+<s:hidden name="pageBean.modifiedTime"/><!--modifiedTime:Unchecked-->
+<s:hidden name="pageBean.staffCode"/><!--staffCode:Checked-->
+<s:hidden name="pageBean.staffName"/><!--staffName:Checked-->
 
-<%--TF_DOC_NO:發文文號:tfDocNo--%>
-<sjg:gridColumn name="TF_DOC_NO" index="TF_DOC_NO" title="%{getText('tfDocNo')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--DECL_NO:報單號碼:declNo--%>
-<sjg:gridColumn name="DECL_NO" index="DECL_NO" title="%{getText('declNo')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--TF_DOC_SEQNO:相關文號序號:tfDocSeqno--%>
-<sjg:gridColumn name="TF_DOC_SEQNO" index="TF_DOC_SEQNO" title="%{getText('tfDocSeqno')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--TF_ISSUE_DTE:發文日期:tfIssueDte--%>
-<sjg:gridColumn name="TF_ISSUE_DTE" index="TF_ISSUE_DTE" title="%{getText('tfIssueDte')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--UP_PERSON:異動人員:upPerson--%>
-<sjg:gridColumn name="UP_PERSON" index="UP_PERSON" title="%{getText('upPerson')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--UP_DATE:異動時間:upDate--%>
-<sjg:gridColumn name="UP_DATE" index="UP_DATE" title="%{getText('upDate')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--TF_SERIAL_SEQ::tfSerialSeq--%>
-<sjg:gridColumn name="TF_SERIAL_SEQ" index="TF_SERIAL_SEQ" title="%{getText('tfSerialSeq')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SN:序號:sn--%>
+<sjg:gridColumn name="SN" index="SN" title="%{getText('sn')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--BATCH:執行批號:batch--%>
+<sjg:gridColumn name="BATCH" index="BATCH" title="%{getText('batch')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--SERVICE:服務名稱:service--%>
+<sjg:gridColumn name="SERVICE" index="SERVICE" title="%{getText('service')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--FLAG:執行狀態:flag--%>
+<sjg:gridColumn name="FLAG" index="FLAG" title="%{getText('flag')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY1:條件1:query1--%>
+<sjg:gridColumn name="QUERY1" index="QUERY1" title="%{getText('query1')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY2:條件2:query2--%>
+<sjg:gridColumn name="QUERY2" index="QUERY2" title="%{getText('query2')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--QUERY3:條件3:query3--%>
+<sjg:gridColumn name="QUERY3" index="QUERY3" title="%{getText('query3')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATEDBY:新增者:createdby--%>
+<sjg:gridColumn name="CREATEDBY" index="CREATEDBY" title="%{getText('createdby')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATEDTIME:新增時間:createdtime--%>
+<sjg:gridColumn name="CREATEDTIME" index="CREATEDTIME" title="%{getText('createdtime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIEDBY:修改者:modifiedby--%>
+<sjg:gridColumn name="MODIFIEDBY" index="MODIFIEDBY" title="%{getText('modifiedby')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIEDTIME:修改時間:modifiedtime--%>
+<sjg:gridColumn name="MODIFIEDTIME" index="MODIFIEDTIME" title="%{getText('modifiedtime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_NO:Unchecked:agentNo--%>
+<sjg:gridColumn name="AGENT_NO" index="AGENT_NO" title="%{getText('agentNo')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_ADDRESS:Checked:agentAddress--%>
+<sjg:gridColumn name="AGENT_ADDRESS" index="AGENT_ADDRESS" title="%{getText('agentAddress')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_MK:Checked:agentMk--%>
+<sjg:gridColumn name="AGENT_MK" index="AGENT_MK" title="%{getText('agentMk')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_NAME:Unchecked:agentName--%>
+<sjg:gridColumn name="AGENT_NAME" index="AGENT_NAME" title="%{getText('agentName')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_OID:Checked:agentOid--%>
+<sjg:gridColumn name="AGENT_OID" index="AGENT_OID" title="%{getText('agentOid')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--AGENT_TEL:Checked:agentTel--%>
+<sjg:gridColumn name="AGENT_TEL" index="AGENT_TEL" title="%{getText('agentTel')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATED_BY:Unchecked:createdBy--%>
+<sjg:gridColumn name="CREATED_BY" index="CREATED_BY" title="%{getText('createdBy')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--CREATED_TIME:Unchecked:createdTime--%>
+<sjg:gridColumn name="CREATED_TIME" index="CREATED_TIME" title="%{getText('createdTime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--INSU_TYPE:Checked:insuType--%>
+<sjg:gridColumn name="INSU_TYPE" index="INSU_TYPE" title="%{getText('insuType')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIED_BY:Unchecked:modifiedBy--%>
+<sjg:gridColumn name="MODIFIED_BY" index="MODIFIED_BY" title="%{getText('modifiedBy')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--MODIFIED_TIME:Unchecked:modifiedTime--%>
+<sjg:gridColumn name="MODIFIED_TIME" index="MODIFIED_TIME" title="%{getText('modifiedTime')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STAFF_CODE:Checked:staffCode--%>
+<sjg:gridColumn name="STAFF_CODE" index="STAFF_CODE" title="%{getText('staffCode')}" width="80" align="center" hidden="true"  sortable="true" />
+<%--STAFF_NAME:Checked:staffName--%>
+<sjg:gridColumn name="STAFF_NAME" index="STAFF_NAME" title="%{getText('staffName')}" width="80" align="center" hidden="true"  sortable="true" />
 
-,A.TF_DOC_NO
-,A.DECL_NO
-,A.TF_DOC_SEQNO
-,A.TF_ISSUE_DTE
-,A.UP_PERSON
-,A.UP_DATE
-,A.TF_SERIAL_SEQ
+,A.SN
+,A.BATCH
+,A.SERVICE
+,A.FLAG
+,A.QUERY1
+,A.QUERY2
+,A.QUERY3
+,A.CREATEDBY
+,A.CREATEDTIME
+,A.MODIFIEDBY
+,A.MODIFIEDTIME
+,A.AGENT_NO
+,A.AGENT_ADDRESS
+,A.AGENT_MK
+,A.AGENT_NAME
+,A.AGENT_OID
+,A.AGENT_TEL
+,A.CREATED_BY
+,A.CREATED_TIME
+,A.INSU_TYPE
+,A.MODIFIED_BY
+,A.MODIFIED_TIME
+,A.STAFF_CODE
+,A.STAFF_NAME
 
-<condition key="TF_DOC_NO" ignoreEmpty="true">TF_DOC_NO = ${TF_DOC_NO}</condition>
-<condition key="DECL_NO" ignoreEmpty="true">DECL_NO = ${DECL_NO}</condition>
-<condition key="TF_DOC_SEQNO" ignoreEmpty="true">TF_DOC_SEQNO = ${TF_DOC_SEQNO}</condition>
-<condition key="TF_ISSUE_DTE" ignoreEmpty="true">TF_ISSUE_DTE = ${TF_ISSUE_DTE}</condition>
-<condition key="UP_PERSON" ignoreEmpty="true">UP_PERSON = ${UP_PERSON}</condition>
-<condition key="UP_DATE" ignoreEmpty="true">UP_DATE = ${UP_DATE}</condition>
-<condition key="TF_SERIAL_SEQ" ignoreEmpty="true">TF_SERIAL_SEQ = ${TF_SERIAL_SEQ}</condition>
+<condition key="SN" ignoreEmpty="true">SN = ${SN}</condition>
+<condition key="BATCH" ignoreEmpty="true">BATCH = ${BATCH}</condition>
+<condition key="SERVICE" ignoreEmpty="true">SERVICE = ${SERVICE}</condition>
+<condition key="FLAG" ignoreEmpty="true">FLAG = ${FLAG}</condition>
+<condition key="QUERY1" ignoreEmpty="true">QUERY1 = ${QUERY1}</condition>
+<condition key="QUERY2" ignoreEmpty="true">QUERY2 = ${QUERY2}</condition>
+<condition key="QUERY3" ignoreEmpty="true">QUERY3 = ${QUERY3}</condition>
+<condition key="CREATEDBY" ignoreEmpty="true">CREATEDBY = ${CREATEDBY}</condition>
+<condition key="CREATEDTIME" ignoreEmpty="true">CREATEDTIME = ${CREATEDTIME}</condition>
+<condition key="MODIFIEDBY" ignoreEmpty="true">MODIFIEDBY = ${MODIFIEDBY}</condition>
+<condition key="MODIFIEDTIME" ignoreEmpty="true">MODIFIEDTIME = ${MODIFIEDTIME}</condition>
+<condition key="AGENT_NO" ignoreEmpty="true">AGENT_NO = ${AGENT_NO}</condition>
+<condition key="AGENT_ADDRESS" ignoreEmpty="true">AGENT_ADDRESS = ${AGENT_ADDRESS}</condition>
+<condition key="AGENT_MK" ignoreEmpty="true">AGENT_MK = ${AGENT_MK}</condition>
+<condition key="AGENT_NAME" ignoreEmpty="true">AGENT_NAME = ${AGENT_NAME}</condition>
+<condition key="AGENT_OID" ignoreEmpty="true">AGENT_OID = ${AGENT_OID}</condition>
+<condition key="AGENT_TEL" ignoreEmpty="true">AGENT_TEL = ${AGENT_TEL}</condition>
+<condition key="CREATED_BY" ignoreEmpty="true">CREATED_BY = ${CREATED_BY}</condition>
+<condition key="CREATED_TIME" ignoreEmpty="true">CREATED_TIME = ${CREATED_TIME}</condition>
+<condition key="INSU_TYPE" ignoreEmpty="true">INSU_TYPE = ${INSU_TYPE}</condition>
+<condition key="MODIFIED_BY" ignoreEmpty="true">MODIFIED_BY = ${MODIFIED_BY}</condition>
+<condition key="MODIFIED_TIME" ignoreEmpty="true">MODIFIED_TIME = ${MODIFIED_TIME}</condition>
+<condition key="STAFF_CODE" ignoreEmpty="true">STAFF_CODE = ${STAFF_CODE}</condition>
+<condition key="STAFF_NAME" ignoreEmpty="true">STAFF_NAME = ${STAFF_NAME}</condition>
 
-<condition key="TF_DOC_NO_S" ignoreEmpty="true">TF_DOC_NO >= ${TF_DOC_NO_S}</condition><condition key="TF_DOC_NO_E" ignoreEmpty="true">${TF_DOC_NO_E} >= TF_DOC_NO</condition><condition key="TF_DOC_NO_L" ignoreEmpty="true">TF_DOC_NO like ${TF_DOC_NO_L}</condition>
-<condition key="DECL_NO_S" ignoreEmpty="true">DECL_NO >= ${DECL_NO_S}</condition><condition key="DECL_NO_E" ignoreEmpty="true">${DECL_NO_E} >= DECL_NO</condition><condition key="DECL_NO_L" ignoreEmpty="true">DECL_NO like ${DECL_NO_L}</condition>
-<condition key="TF_DOC_SEQNO_S" ignoreEmpty="true">TF_DOC_SEQNO >= ${TF_DOC_SEQNO_S}</condition><condition key="TF_DOC_SEQNO_E" ignoreEmpty="true">${TF_DOC_SEQNO_E} >= TF_DOC_SEQNO</condition><condition key="TF_DOC_SEQNO_L" ignoreEmpty="true">TF_DOC_SEQNO like ${TF_DOC_SEQNO_L}</condition>
-<condition key="TF_ISSUE_DTE_S" ignoreEmpty="true">TF_ISSUE_DTE >= ${TF_ISSUE_DTE_S}</condition><condition key="TF_ISSUE_DTE_E" ignoreEmpty="true">${TF_ISSUE_DTE_E} >= TF_ISSUE_DTE</condition><condition key="TF_ISSUE_DTE_L" ignoreEmpty="true">TF_ISSUE_DTE like ${TF_ISSUE_DTE_L}</condition>
-<condition key="UP_PERSON_S" ignoreEmpty="true">UP_PERSON >= ${UP_PERSON_S}</condition><condition key="UP_PERSON_E" ignoreEmpty="true">${UP_PERSON_E} >= UP_PERSON</condition><condition key="UP_PERSON_L" ignoreEmpty="true">UP_PERSON like ${UP_PERSON_L}</condition>
-<condition key="UP_DATE_S" ignoreEmpty="true">UP_DATE >= ${UP_DATE_S}</condition><condition key="UP_DATE_E" ignoreEmpty="true">${UP_DATE_E} >= UP_DATE</condition><condition key="UP_DATE_L" ignoreEmpty="true">UP_DATE like ${UP_DATE_L}</condition>
-<condition key="TF_SERIAL_SEQ_S" ignoreEmpty="true">TF_SERIAL_SEQ >= ${TF_SERIAL_SEQ_S}</condition><condition key="TF_SERIAL_SEQ_E" ignoreEmpty="true">${TF_SERIAL_SEQ_E} >= TF_SERIAL_SEQ</condition><condition key="TF_SERIAL_SEQ_L" ignoreEmpty="true">TF_SERIAL_SEQ like ${TF_SERIAL_SEQ_L}</condition>
+<condition key="SN_S" ignoreEmpty="true">SN >= ${SN_S}</condition><condition key="SN_E" ignoreEmpty="true">${SN_E} >= SN</condition><condition key="SN_L" ignoreEmpty="true">SN like ${SN_L}</condition>
+<condition key="BATCH_S" ignoreEmpty="true">BATCH >= ${BATCH_S}</condition><condition key="BATCH_E" ignoreEmpty="true">${BATCH_E} >= BATCH</condition><condition key="BATCH_L" ignoreEmpty="true">BATCH like ${BATCH_L}</condition>
+<condition key="SERVICE_S" ignoreEmpty="true">SERVICE >= ${SERVICE_S}</condition><condition key="SERVICE_E" ignoreEmpty="true">${SERVICE_E} >= SERVICE</condition><condition key="SERVICE_L" ignoreEmpty="true">SERVICE like ${SERVICE_L}</condition>
+<condition key="FLAG_S" ignoreEmpty="true">FLAG >= ${FLAG_S}</condition><condition key="FLAG_E" ignoreEmpty="true">${FLAG_E} >= FLAG</condition><condition key="FLAG_L" ignoreEmpty="true">FLAG like ${FLAG_L}</condition>
+<condition key="QUERY1_S" ignoreEmpty="true">QUERY1 >= ${QUERY1_S}</condition><condition key="QUERY1_E" ignoreEmpty="true">${QUERY1_E} >= QUERY1</condition><condition key="QUERY1_L" ignoreEmpty="true">QUERY1 like ${QUERY1_L}</condition>
+<condition key="QUERY2_S" ignoreEmpty="true">QUERY2 >= ${QUERY2_S}</condition><condition key="QUERY2_E" ignoreEmpty="true">${QUERY2_E} >= QUERY2</condition><condition key="QUERY2_L" ignoreEmpty="true">QUERY2 like ${QUERY2_L}</condition>
+<condition key="QUERY3_S" ignoreEmpty="true">QUERY3 >= ${QUERY3_S}</condition><condition key="QUERY3_E" ignoreEmpty="true">${QUERY3_E} >= QUERY3</condition><condition key="QUERY3_L" ignoreEmpty="true">QUERY3 like ${QUERY3_L}</condition>
+<condition key="CREATEDBY_S" ignoreEmpty="true">CREATEDBY >= ${CREATEDBY_S}</condition><condition key="CREATEDBY_E" ignoreEmpty="true">${CREATEDBY_E} >= CREATEDBY</condition><condition key="CREATEDBY_L" ignoreEmpty="true">CREATEDBY like ${CREATEDBY_L}</condition>
+<condition key="CREATEDTIME_S" ignoreEmpty="true">CREATEDTIME >= ${CREATEDTIME_S}</condition><condition key="CREATEDTIME_E" ignoreEmpty="true">${CREATEDTIME_E} >= CREATEDTIME</condition><condition key="CREATEDTIME_L" ignoreEmpty="true">CREATEDTIME like ${CREATEDTIME_L}</condition>
+<condition key="MODIFIEDBY_S" ignoreEmpty="true">MODIFIEDBY >= ${MODIFIEDBY_S}</condition><condition key="MODIFIEDBY_E" ignoreEmpty="true">${MODIFIEDBY_E} >= MODIFIEDBY</condition><condition key="MODIFIEDBY_L" ignoreEmpty="true">MODIFIEDBY like ${MODIFIEDBY_L}</condition>
+<condition key="MODIFIEDTIME_S" ignoreEmpty="true">MODIFIEDTIME >= ${MODIFIEDTIME_S}</condition><condition key="MODIFIEDTIME_E" ignoreEmpty="true">${MODIFIEDTIME_E} >= MODIFIEDTIME</condition><condition key="MODIFIEDTIME_L" ignoreEmpty="true">MODIFIEDTIME like ${MODIFIEDTIME_L}</condition>
+<condition key="AGENT_NO_S" ignoreEmpty="true">AGENT_NO >= ${AGENT_NO_S}</condition><condition key="AGENT_NO_E" ignoreEmpty="true">${AGENT_NO_E} >= AGENT_NO</condition><condition key="AGENT_NO_L" ignoreEmpty="true">AGENT_NO like ${AGENT_NO_L}</condition>
+<condition key="AGENT_ADDRESS_S" ignoreEmpty="true">AGENT_ADDRESS >= ${AGENT_ADDRESS_S}</condition><condition key="AGENT_ADDRESS_E" ignoreEmpty="true">${AGENT_ADDRESS_E} >= AGENT_ADDRESS</condition><condition key="AGENT_ADDRESS_L" ignoreEmpty="true">AGENT_ADDRESS like ${AGENT_ADDRESS_L}</condition>
+<condition key="AGENT_MK_S" ignoreEmpty="true">AGENT_MK >= ${AGENT_MK_S}</condition><condition key="AGENT_MK_E" ignoreEmpty="true">${AGENT_MK_E} >= AGENT_MK</condition><condition key="AGENT_MK_L" ignoreEmpty="true">AGENT_MK like ${AGENT_MK_L}</condition>
+<condition key="AGENT_NAME_S" ignoreEmpty="true">AGENT_NAME >= ${AGENT_NAME_S}</condition><condition key="AGENT_NAME_E" ignoreEmpty="true">${AGENT_NAME_E} >= AGENT_NAME</condition><condition key="AGENT_NAME_L" ignoreEmpty="true">AGENT_NAME like ${AGENT_NAME_L}</condition>
+<condition key="AGENT_OID_S" ignoreEmpty="true">AGENT_OID >= ${AGENT_OID_S}</condition><condition key="AGENT_OID_E" ignoreEmpty="true">${AGENT_OID_E} >= AGENT_OID</condition><condition key="AGENT_OID_L" ignoreEmpty="true">AGENT_OID like ${AGENT_OID_L}</condition>
+<condition key="AGENT_TEL_S" ignoreEmpty="true">AGENT_TEL >= ${AGENT_TEL_S}</condition><condition key="AGENT_TEL_E" ignoreEmpty="true">${AGENT_TEL_E} >= AGENT_TEL</condition><condition key="AGENT_TEL_L" ignoreEmpty="true">AGENT_TEL like ${AGENT_TEL_L}</condition>
+<condition key="CREATED_BY_S" ignoreEmpty="true">CREATED_BY >= ${CREATED_BY_S}</condition><condition key="CREATED_BY_E" ignoreEmpty="true">${CREATED_BY_E} >= CREATED_BY</condition><condition key="CREATED_BY_L" ignoreEmpty="true">CREATED_BY like ${CREATED_BY_L}</condition>
+<condition key="CREATED_TIME_S" ignoreEmpty="true">CREATED_TIME >= ${CREATED_TIME_S}</condition><condition key="CREATED_TIME_E" ignoreEmpty="true">${CREATED_TIME_E} >= CREATED_TIME</condition><condition key="CREATED_TIME_L" ignoreEmpty="true">CREATED_TIME like ${CREATED_TIME_L}</condition>
+<condition key="INSU_TYPE_S" ignoreEmpty="true">INSU_TYPE >= ${INSU_TYPE_S}</condition><condition key="INSU_TYPE_E" ignoreEmpty="true">${INSU_TYPE_E} >= INSU_TYPE</condition><condition key="INSU_TYPE_L" ignoreEmpty="true">INSU_TYPE like ${INSU_TYPE_L}</condition>
+<condition key="MODIFIED_BY_S" ignoreEmpty="true">MODIFIED_BY >= ${MODIFIED_BY_S}</condition><condition key="MODIFIED_BY_E" ignoreEmpty="true">${MODIFIED_BY_E} >= MODIFIED_BY</condition><condition key="MODIFIED_BY_L" ignoreEmpty="true">MODIFIED_BY like ${MODIFIED_BY_L}</condition>
+<condition key="MODIFIED_TIME_S" ignoreEmpty="true">MODIFIED_TIME >= ${MODIFIED_TIME_S}</condition><condition key="MODIFIED_TIME_E" ignoreEmpty="true">${MODIFIED_TIME_E} >= MODIFIED_TIME</condition><condition key="MODIFIED_TIME_L" ignoreEmpty="true">MODIFIED_TIME like ${MODIFIED_TIME_L}</condition>
+<condition key="STAFF_CODE_S" ignoreEmpty="true">STAFF_CODE >= ${STAFF_CODE_S}</condition><condition key="STAFF_CODE_E" ignoreEmpty="true">${STAFF_CODE_E} >= STAFF_CODE</condition><condition key="STAFF_CODE_L" ignoreEmpty="true">STAFF_CODE like ${STAFF_CODE_L}</condition>
+<condition key="STAFF_NAME_S" ignoreEmpty="true">STAFF_NAME >= ${STAFF_NAME_S}</condition><condition key="STAFF_NAME_E" ignoreEmpty="true">${STAFF_NAME_E} >= STAFF_NAME</condition><condition key="STAFF_NAME_L" ignoreEmpty="true">STAFF_NAME like ${STAFF_NAME_L}</condition>
 
-<field key="TF_DOC_NO" name="TF_DOC_NO" ignoreEmpty="true"/>
-<field key="DECL_NO" name="DECL_NO" ignoreEmpty="true"/>
-<field key="TF_DOC_SEQNO" name="TF_DOC_SEQNO" ignoreEmpty="true"/>
-<field key="TF_ISSUE_DTE" name="TF_ISSUE_DTE" ignoreEmpty="true"/>
-<field key="UP_PERSON" name="UP_PERSON" ignoreEmpty="true"/>
-<field key="UP_DATE" name="UP_DATE" ignoreEmpty="true"/>
-<field key="TF_SERIAL_SEQ" name="TF_SERIAL_SEQ" ignoreEmpty="true"/>
+<field key="SN" name="SN" ignoreEmpty="true"/>
+<field key="BATCH" name="BATCH" ignoreEmpty="true"/>
+<field key="SERVICE" name="SERVICE" ignoreEmpty="true"/>
+<field key="FLAG" name="FLAG" ignoreEmpty="true"/>
+<field key="QUERY1" name="QUERY1" ignoreEmpty="true"/>
+<field key="QUERY2" name="QUERY2" ignoreEmpty="true"/>
+<field key="QUERY3" name="QUERY3" ignoreEmpty="true"/>
+<field key="CREATEDBY" name="CREATEDBY" ignoreEmpty="true"/>
+<field key="CREATEDTIME" name="CREATEDTIME" ignoreEmpty="true"/>
+<field key="MODIFIEDBY" name="MODIFIEDBY" ignoreEmpty="true"/>
+<field key="MODIFIEDTIME" name="MODIFIEDTIME" ignoreEmpty="true"/>
+<field key="AGENT_NO" name="AGENT_NO" ignoreEmpty="true"/>
+<field key="AGENT_ADDRESS" name="AGENT_ADDRESS" ignoreEmpty="true"/>
+<field key="AGENT_MK" name="AGENT_MK" ignoreEmpty="true"/>
+<field key="AGENT_NAME" name="AGENT_NAME" ignoreEmpty="true"/>
+<field key="AGENT_OID" name="AGENT_OID" ignoreEmpty="true"/>
+<field key="AGENT_TEL" name="AGENT_TEL" ignoreEmpty="true"/>
+<field key="CREATED_BY" name="CREATED_BY" ignoreEmpty="true"/>
+<field key="CREATED_TIME" name="CREATED_TIME" ignoreEmpty="true"/>
+<field key="INSU_TYPE" name="INSU_TYPE" ignoreEmpty="true"/>
+<field key="MODIFIED_BY" name="MODIFIED_BY" ignoreEmpty="true"/>
+<field key="MODIFIED_TIME" name="MODIFIED_TIME" ignoreEmpty="true"/>
+<field key="STAFF_CODE" name="STAFF_CODE" ignoreEmpty="true"/>
+<field key="STAFF_NAME" name="STAFF_NAME" ignoreEmpty="true"/>
 
-$('#pageBean_tfDocNo').attr('value',rowData.TF_DOC_NO);
-$('#pageBean_declNo').attr('value',rowData.DECL_NO);
-$('#pageBean_tfDocSeqno').attr('value',rowData.TF_DOC_SEQNO);
-$('#pageBean_tfIssueDte').attr('value',rowData.TF_ISSUE_DTE);
-$('#pageBean_upPerson').attr('value',rowData.UP_PERSON);
-$('#pageBean_upDate').attr('value',rowData.UP_DATE);
-$('#pageBean_tfSerialSeq').attr('value',rowData.TF_SERIAL_SEQ);
+$('#pageBean_sn').attr('value',rowData.SN);
+$('#pageBean_batch').attr('value',rowData.BATCH);
+$('#pageBean_service').attr('value',rowData.SERVICE);
+$('#pageBean_flag').attr('value',rowData.FLAG);
+$('#pageBean_query1').attr('value',rowData.QUERY1);
+$('#pageBean_query2').attr('value',rowData.QUERY2);
+$('#pageBean_query3').attr('value',rowData.QUERY3);
+$('#pageBean_createdby').attr('value',rowData.CREATEDBY);
+$('#pageBean_createdtime').attr('value',rowData.CREATEDTIME);
+$('#pageBean_modifiedby').attr('value',rowData.MODIFIEDBY);
+$('#pageBean_modifiedtime').attr('value',rowData.MODIFIEDTIME);
+$('#pageBean_agentNo').attr('value',rowData.AGENT_NO);
+$('#pageBean_agentAddress').attr('value',rowData.AGENT_ADDRESS);
+$('#pageBean_agentMk').attr('value',rowData.AGENT_MK);
+$('#pageBean_agentName').attr('value',rowData.AGENT_NAME);
+$('#pageBean_agentOid').attr('value',rowData.AGENT_OID);
+$('#pageBean_agentTel').attr('value',rowData.AGENT_TEL);
+$('#pageBean_createdBy').attr('value',rowData.CREATED_BY);
+$('#pageBean_createdTime').attr('value',rowData.CREATED_TIME);
+$('#pageBean_insuType').attr('value',rowData.INSU_TYPE);
+$('#pageBean_modifiedBy').attr('value',rowData.MODIFIED_BY);
+$('#pageBean_modifiedTime').attr('value',rowData.MODIFIED_TIME);
+$('#pageBean_staffCode').attr('value',rowData.STAFF_CODE);
+$('#pageBean_staffName').attr('value',rowData.STAFF_NAME);
 
-$('#pageBean_tfDocNo').attr("value", "");
-$('#pageBean_declNo').attr("value", "");
-$('#pageBean_tfDocSeqno').attr("value", "");
-$('#pageBean_tfIssueDte').attr("value", "");
-$('#pageBean_upPerson').attr("value", "");
-$('#pageBean_upDate').attr("value", "");
-$('#pageBean_tfSerialSeq').attr("value", "");
+$('#pageBean_sn').attr("value", "");
+$('#pageBean_batch').attr("value", "");
+$('#pageBean_service').attr("value", "");
+$('#pageBean_flag').attr("value", "");
+$('#pageBean_query1').attr("value", "");
+$('#pageBean_query2').attr("value", "");
+$('#pageBean_query3').attr("value", "");
+$('#pageBean_createdby').attr("value", "");
+$('#pageBean_createdtime').attr("value", "");
+$('#pageBean_modifiedby').attr("value", "");
+$('#pageBean_modifiedtime').attr("value", "");
+$('#pageBean_agentNo').attr("value", "");
+$('#pageBean_agentAddress').attr("value", "");
+$('#pageBean_agentMk').attr("value", "");
+$('#pageBean_agentName').attr("value", "");
+$('#pageBean_agentOid').attr("value", "");
+$('#pageBean_agentTel').attr("value", "");
+$('#pageBean_createdBy').attr("value", "");
+$('#pageBean_createdTime').attr("value", "");
+$('#pageBean_insuType').attr("value", "");
+$('#pageBean_modifiedBy').attr("value", "");
+$('#pageBean_modifiedTime').attr("value", "");
+$('#pageBean_staffCode').attr("value", "");
+$('#pageBean_staffName').attr("value", "");
 
-TF_DOC_NO:$('#pageBean_tfDocNo').val(),//發文文號
-DECL_NO:$('#pageBean_declNo').val(),//報單號碼
-TF_DOC_SEQNO:$('#pageBean_tfDocSeqno').val(),//相關文號序號
-TF_ISSUE_DTE:$('#pageBean_tfIssueDte').val(),//發文日期
-UP_PERSON:$('#pageBean_upPerson').val(),//異動人員
-UP_DATE:$('#pageBean_upDate').val(),//異動時間
-TF_SERIAL_SEQ:$('#pageBean_tfSerialSeq').val(),//
+SN:$('#pageBean_sn').val(),//序號
+BATCH:$('#pageBean_batch').val(),//執行批號
+SERVICE:$('#pageBean_service').val(),//服務名稱
+FLAG:$('#pageBean_flag').val(),//執行狀態
+QUERY1:$('#pageBean_query1').val(),//條件1
+QUERY2:$('#pageBean_query2').val(),//條件2
+QUERY3:$('#pageBean_query3').val(),//條件3
+CREATEDBY:$('#pageBean_createdby').val(),//新增者
+CREATEDTIME:$('#pageBean_createdtime').val(),//新增時間
+MODIFIEDBY:$('#pageBean_modifiedby').val(),//修改者
+MODIFIEDTIME:$('#pageBean_modifiedtime').val(),//修改時間
+AGENT_NO:$('#pageBean_agentNo').val(),//Unchecked
+AGENT_ADDRESS:$('#pageBean_agentAddress').val(),//Checked
+AGENT_MK:$('#pageBean_agentMk').val(),//Checked
+AGENT_NAME:$('#pageBean_agentName').val(),//Unchecked
+AGENT_OID:$('#pageBean_agentOid').val(),//Checked
+AGENT_TEL:$('#pageBean_agentTel').val(),//Checked
+CREATED_BY:$('#pageBean_createdBy').val(),//Unchecked
+CREATED_TIME:$('#pageBean_createdTime').val(),//Unchecked
+INSU_TYPE:$('#pageBean_insuType').val(),//Checked
+MODIFIED_BY:$('#pageBean_modifiedBy').val(),//Unchecked
+MODIFIED_TIME:$('#pageBean_modifiedTime').val(),//Unchecked
+STAFF_CODE:$('#pageBean_staffCode').val(),//Checked
+STAFF_NAME:$('#pageBean_staffName').val(),//Checked
 
-pageBean.setTfDocNo(dataObjects.getString("TF_DOC_NO"));//發文文號
-pageBean.setDeclNo(dataObjects.getString("DECL_NO"));//報單號碼
-pageBean.setTfDocSeqno(dataObjects.getString("TF_DOC_SEQNO"));//相關文號序號
-pageBean.setTfIssueDte(dataObjects.getString("TF_ISSUE_DTE"));//發文日期
-pageBean.setUpPerson(dataObjects.getString("UP_PERSON"));//異動人員
-pageBean.setUpDate((Date)dataObjects.getValue("UP_DATE"));//異動時間
-pageBean.setTfSerialSeq(dataObjects.getString("TF_SERIAL_SEQ"));//
+pageBean.setSn(dataObjects.getString("SN"));//序號
+pageBean.setBatch(dataObjects.getString("BATCH"));//執行批號
+pageBean.setService(dataObjects.getString("SERVICE"));//服務名稱
+pageBean.setFlag(dataObjects.getString("FLAG"));//執行狀態
+pageBean.setQuery1(dataObjects.getString("QUERY1"));//條件1
+pageBean.setQuery2(dataObjects.getString("QUERY2"));//條件2
+pageBean.setQuery3(dataObjects.getString("QUERY3"));//條件3
+pageBean.setCreatedby(dataObjects.getString("CREATEDBY"));//新增者
+pageBean.setCreatedtime(dataObjects.getString("CREATEDTIME"));//新增時間
+pageBean.setModifiedby(dataObjects.getString("MODIFIEDBY"));//修改者
+pageBean.setModifiedtime(dataObjects.getString("MODIFIEDTIME"));//修改時間
+pageBean.setAgentNo(dataObjects.getString("AGENT_NO"));//Unchecked
+pageBean.setAgentAddress(dataObjects.getString("AGENT_ADDRESS"));//Checked
+pageBean.setAgentMk(dataObjects.getString("AGENT_MK"));//Checked
+pageBean.setAgentName(dataObjects.getString("AGENT_NAME"));//Unchecked
+pageBean.setAgentOid(dataObjects.getString("AGENT_OID"));//Checked
+pageBean.setAgentTel(dataObjects.getString("AGENT_TEL"));//Checked
+pageBean.setCreatedBy(dataObjects.getString("CREATED_BY"));//Unchecked
+pageBean.setCreatedTime(dataObjects.getString("CREATED_TIME"));//Unchecked
+pageBean.setInsuType(dataObjects.getString("INSU_TYPE"));//Checked
+pageBean.setModifiedBy(dataObjects.getString("MODIFIED_BY"));//Unchecked
+pageBean.setModifiedTime(dataObjects.getString("MODIFIED_TIME"));//Unchecked
+pageBean.setStaffCode(dataObjects.getString("STAFF_CODE"));//Checked
+pageBean.setStaffName(dataObjects.getString("STAFF_NAME"));//Checked
 
-private String tfDocNo = null;//發文文號
-private String declNo = null;//報單號碼
-private String tfDocSeqno = null;//相關文號序號
-private String tfIssueDte = null;//發文日期
-private String upPerson = null;//異動人員
-private Date upDate = null;//異動時間
-private String tfSerialSeq = null;//
+private String sn = null;//序號
+private String batch = null;//執行批號
+private String service = null;//服務名稱
+private String flag = null;//執行狀態
+private String query1 = null;//條件1
+private String query2 = null;//條件2
+private String query3 = null;//條件3
+private String createdby = null;//新增者
+private String createdtime = null;//新增時間
+private String modifiedby = null;//修改者
+private String modifiedtime = null;//修改時間
+private String agentNo = null;//Unchecked
+private String agentAddress = null;//Checked
+private String agentMk = null;//Checked
+private String agentName = null;//Unchecked
+private String agentOid = null;//Checked
+private String agentTel = null;//Checked
+private String createdBy = null;//Unchecked
+private String createdTime = null;//Unchecked
+private String insuType = null;//Checked
+private String modifiedBy = null;//Unchecked
+private String modifiedTime = null;//Unchecked
+private String staffCode = null;//Checked
+private String staffName = null;//Checked
 
-pageBean.setTfDocNo("發文文號");//發文文號
-pageBean.setDeclNo("報單號碼");//報單號碼
-pageBean.setTfDocSeqno("相關文號序號");//相關文號序號
-pageBean.setTfIssueDte("發文日期");//發文日期
-pageBean.setUpPerson("異動人員");//異動人員
-pageBean.setUpDate("異動時間");//異動時間
-pageBean.setTfSerialSeq("");//
+pageBean.setSn("序號");//序號
+pageBean.setBatch("執行批號");//執行批號
+pageBean.setService("服務名稱");//服務名稱
+pageBean.setFlag("執行狀態");//執行狀態
+pageBean.setQuery1("條件1");//條件1
+pageBean.setQuery2("條件2");//條件2
+pageBean.setQuery3("條件3");//條件3
+pageBean.setCreatedby("新增者");//新增者
+pageBean.setCreatedtime("新增時間");//新增時間
+pageBean.setModifiedby("修改者");//修改者
+pageBean.setModifiedtime("修改時間");//修改時間
+pageBean.setAgentNo("Unchecked");//Unchecked
+pageBean.setAgentAddress("Checked");//Checked
+pageBean.setAgentMk("Checked");//Checked
+pageBean.setAgentName("Unchecked");//Unchecked
+pageBean.setAgentOid("Checked");//Checked
+pageBean.setAgentTel("Checked");//Checked
+pageBean.setCreatedBy("Unchecked");//Unchecked
+pageBean.setCreatedTime("Unchecked");//Unchecked
+pageBean.setInsuType("Checked");//Checked
+pageBean.setModifiedBy("Unchecked");//Unchecked
+pageBean.setModifiedTime("Unchecked");//Unchecked
+pageBean.setStaffCode("Checked");//Checked
+pageBean.setStaffName("Checked");//Checked
 
-pageBean.setTfDocNo(tfDocNo);//發文文號
-pageBean.setDeclNo(declNo);//報單號碼
-pageBean.setTfDocSeqno(tfDocSeqno);//相關文號序號
-pageBean.setTfIssueDte(tfIssueDte);//發文日期
-pageBean.setUpPerson(upPerson);//異動人員
-pageBean.setUpDate(upDate);//異動時間
-pageBean.setTfSerialSeq(tfSerialSeq);//
+pageBean.setSn(sn);//序號
+pageBean.setBatch(batch);//執行批號
+pageBean.setService(service);//服務名稱
+pageBean.setFlag(flag);//執行狀態
+pageBean.setQuery1(query1);//條件1
+pageBean.setQuery2(query2);//條件2
+pageBean.setQuery3(query3);//條件3
+pageBean.setCreatedby(createdby);//新增者
+pageBean.setCreatedtime(createdtime);//新增時間
+pageBean.setModifiedby(modifiedby);//修改者
+pageBean.setModifiedtime(modifiedtime);//修改時間
+pageBean.setAgentNo(agentNo);//Unchecked
+pageBean.setAgentAddress(agentAddress);//Checked
+pageBean.setAgentMk(agentMk);//Checked
+pageBean.setAgentName(agentName);//Unchecked
+pageBean.setAgentOid(agentOid);//Checked
+pageBean.setAgentTel(agentTel);//Checked
+pageBean.setCreatedBy(createdBy);//Unchecked
+pageBean.setCreatedTime(createdTime);//Unchecked
+pageBean.setInsuType(insuType);//Checked
+pageBean.setModifiedBy(modifiedBy);//Unchecked
+pageBean.setModifiedTime(modifiedTime);//Unchecked
+pageBean.setStaffCode(staffCode);//Checked
+pageBean.setStaffName(staffName);//Checked
 
-pageBean.setTfDocNo(randomBean.getTfDocNo());//發文文號
-pageBean.setDeclNo(randomBean.getDeclNo());//報單號碼
-pageBean.setTfDocSeqno(randomBean.getTfDocSeqno());//相關文號序號
-pageBean.setTfIssueDte(randomBean.getTfIssueDte());//發文日期
-pageBean.setUpPerson(randomBean.getUpPerson());//異動人員
-pageBean.setUpDate(randomBean.getUpDate());//異動時間
-pageBean.setTfSerialSeq(randomBean.getTfSerialSeq());//
+pageBean.setSn(randomBean.getSn());//序號
+pageBean.setBatch(randomBean.getBatch());//執行批號
+pageBean.setService(randomBean.getService());//服務名稱
+pageBean.setFlag(randomBean.getFlag());//執行狀態
+pageBean.setQuery1(randomBean.getQuery1());//條件1
+pageBean.setQuery2(randomBean.getQuery2());//條件2
+pageBean.setQuery3(randomBean.getQuery3());//條件3
+pageBean.setCreatedby(randomBean.getCreatedby());//新增者
+pageBean.setCreatedtime(randomBean.getCreatedtime());//新增時間
+pageBean.setModifiedby(randomBean.getModifiedby());//修改者
+pageBean.setModifiedtime(randomBean.getModifiedtime());//修改時間
+pageBean.setAgentNo(randomBean.getAgentNo());//Unchecked
+pageBean.setAgentAddress(randomBean.getAgentAddress());//Checked
+pageBean.setAgentMk(randomBean.getAgentMk());//Checked
+pageBean.setAgentName(randomBean.getAgentName());//Unchecked
+pageBean.setAgentOid(randomBean.getAgentOid());//Checked
+pageBean.setAgentTel(randomBean.getAgentTel());//Checked
+pageBean.setCreatedBy(randomBean.getCreatedBy());//Unchecked
+pageBean.setCreatedTime(randomBean.getCreatedTime());//Unchecked
+pageBean.setInsuType(randomBean.getInsuType());//Checked
+pageBean.setModifiedBy(randomBean.getModifiedBy());//Unchecked
+pageBean.setModifiedTime(randomBean.getModifiedTime());//Unchecked
+pageBean.setStaffCode(randomBean.getStaffCode());//Checked
+pageBean.setStaffName(randomBean.getStaffName());//Checked
 
-setTfDocNo(tfDocNo);//發文文號
-setDeclNo(declNo);//報單號碼
-setTfDocSeqno(tfDocSeqno);//相關文號序號
-setTfIssueDte(tfIssueDte);//發文日期
-setUpPerson(upPerson);//異動人員
-setUpDate(upDate);//異動時間
-setTfSerialSeq(tfSerialSeq);//
+setSn(sn);//序號
+setBatch(batch);//執行批號
+setService(service);//服務名稱
+setFlag(flag);//執行狀態
+setQuery1(query1);//條件1
+setQuery2(query2);//條件2
+setQuery3(query3);//條件3
+setCreatedby(createdby);//新增者
+setCreatedtime(createdtime);//新增時間
+setModifiedby(modifiedby);//修改者
+setModifiedtime(modifiedtime);//修改時間
+setAgentNo(agentNo);//Unchecked
+setAgentAddress(agentAddress);//Checked
+setAgentMk(agentMk);//Checked
+setAgentName(agentName);//Unchecked
+setAgentOid(agentOid);//Checked
+setAgentTel(agentTel);//Checked
+setCreatedBy(createdBy);//Unchecked
+setCreatedTime(createdTime);//Unchecked
+setInsuType(insuType);//Checked
+setModifiedBy(modifiedBy);//Unchecked
+setModifiedTime(modifiedTime);//Unchecked
+setStaffCode(staffCode);//Checked
+setStaffName(staffName);//Checked
 
-pageBean.getTfDocNo(),//發文文號
-pageBean.getDeclNo(),//報單號碼
-pageBean.getTfDocSeqno(),//相關文號序號
-pageBean.getTfIssueDte(),//發文日期
-pageBean.getUpPerson(),//異動人員
-pageBean.getUpDate(),//異動時間
-pageBean.getTfSerialSeq(),//
+pageBean.getSn(),//序號
+pageBean.getBatch(),//執行批號
+pageBean.getService(),//服務名稱
+pageBean.getFlag(),//執行狀態
+pageBean.getQuery1(),//條件1
+pageBean.getQuery2(),//條件2
+pageBean.getQuery3(),//條件3
+pageBean.getCreatedby(),//新增者
+pageBean.getCreatedtime(),//新增時間
+pageBean.getModifiedby(),//修改者
+pageBean.getModifiedtime(),//修改時間
+pageBean.getAgentNo(),//Unchecked
+pageBean.getAgentAddress(),//Checked
+pageBean.getAgentMk(),//Checked
+pageBean.getAgentName(),//Unchecked
+pageBean.getAgentOid(),//Checked
+pageBean.getAgentTel(),//Checked
+pageBean.getCreatedBy(),//Unchecked
+pageBean.getCreatedTime(),//Unchecked
+pageBean.getInsuType(),//Checked
+pageBean.getModifiedBy(),//Unchecked
+pageBean.getModifiedTime(),//Unchecked
+pageBean.getStaffCode(),//Checked
+pageBean.getStaffName(),//Checked
 
-pageBean.setValue("TF_DOC_NO", this.getTfDocNo());//發文文號
-pageBean.setValue("DECL_NO", this.getDeclNo());//報單號碼
-pageBean.setValue("TF_DOC_SEQNO", this.getTfDocSeqno());//相關文號序號
-pageBean.setValue("TF_ISSUE_DTE", this.getTfIssueDte());//發文日期
-pageBean.setValue("UP_PERSON", this.getUpPerson());//異動人員
-pageBean.setValue("UP_DATE", this.getUpDate());//異動時間
-pageBean.setValue("TF_SERIAL_SEQ", this.getTfSerialSeq());//
+pageBean.setValue("SN", this.getSn());//序號
+pageBean.setValue("BATCH", this.getBatch());//執行批號
+pageBean.setValue("SERVICE", this.getService());//服務名稱
+pageBean.setValue("FLAG", this.getFlag());//執行狀態
+pageBean.setValue("QUERY1", this.getQuery1());//條件1
+pageBean.setValue("QUERY2", this.getQuery2());//條件2
+pageBean.setValue("QUERY3", this.getQuery3());//條件3
+pageBean.setValue("CREATEDBY", this.getCreatedby());//新增者
+pageBean.setValue("CREATEDTIME", this.getCreatedtime());//新增時間
+pageBean.setValue("MODIFIEDBY", this.getModifiedby());//修改者
+pageBean.setValue("MODIFIEDTIME", this.getModifiedtime());//修改時間
+pageBean.setValue("AGENT_NO", this.getAgentNo());//Unchecked
+pageBean.setValue("AGENT_ADDRESS", this.getAgentAddress());//Checked
+pageBean.setValue("AGENT_MK", this.getAgentMk());//Checked
+pageBean.setValue("AGENT_NAME", this.getAgentName());//Unchecked
+pageBean.setValue("AGENT_OID", this.getAgentOid());//Checked
+pageBean.setValue("AGENT_TEL", this.getAgentTel());//Checked
+pageBean.setValue("CREATED_BY", this.getCreatedBy());//Unchecked
+pageBean.setValue("CREATED_TIME", this.getCreatedTime());//Unchecked
+pageBean.setValue("INSU_TYPE", this.getInsuType());//Checked
+pageBean.setValue("MODIFIED_BY", this.getModifiedBy());//Unchecked
+pageBean.setValue("MODIFIED_TIME", this.getModifiedTime());//Unchecked
+pageBean.setValue("STAFF_CODE", this.getStaffCode());//Checked
+pageBean.setValue("STAFF_NAME", this.getStaffName());//Checked
 
-pageBean.setValue("TF_DOC_NO", "發文文號");//發文文號
-pageBean.setValue("DECL_NO", "報單號碼");//報單號碼
-pageBean.setValue("TF_DOC_SEQNO", "相關文號序號");//相關文號序號
-pageBean.setValue("TF_ISSUE_DTE", "發文日期");//發文日期
-pageBean.setValue("UP_PERSON", "異動人員");//異動人員
-pageBean.setValue("UP_DATE", "異動時間");//異動時間
-pageBean.setValue("TF_SERIAL_SEQ", "");//
+pageBean.setValue("SN", "序號");//序號
+pageBean.setValue("BATCH", "執行批號");//執行批號
+pageBean.setValue("SERVICE", "服務名稱");//服務名稱
+pageBean.setValue("FLAG", "執行狀態");//執行狀態
+pageBean.setValue("QUERY1", "條件1");//條件1
+pageBean.setValue("QUERY2", "條件2");//條件2
+pageBean.setValue("QUERY3", "條件3");//條件3
+pageBean.setValue("CREATEDBY", "新增者");//新增者
+pageBean.setValue("CREATEDTIME", "新增時間");//新增時間
+pageBean.setValue("MODIFIEDBY", "修改者");//修改者
+pageBean.setValue("MODIFIEDTIME", "修改時間");//修改時間
+pageBean.setValue("AGENT_NO", "Unchecked");//Unchecked
+pageBean.setValue("AGENT_ADDRESS", "Checked");//Checked
+pageBean.setValue("AGENT_MK", "Checked");//Checked
+pageBean.setValue("AGENT_NAME", "Unchecked");//Unchecked
+pageBean.setValue("AGENT_OID", "Checked");//Checked
+pageBean.setValue("AGENT_TEL", "Checked");//Checked
+pageBean.setValue("CREATED_BY", "Unchecked");//Unchecked
+pageBean.setValue("CREATED_TIME", "Unchecked");//Unchecked
+pageBean.setValue("INSU_TYPE", "Checked");//Checked
+pageBean.setValue("MODIFIED_BY", "Unchecked");//Unchecked
+pageBean.setValue("MODIFIED_TIME", "Unchecked");//Unchecked
+pageBean.setValue("STAFF_CODE", "Checked");//Checked
+pageBean.setValue("STAFF_NAME", "Checked");//Checked
 
-",發文文號"+"(tfDocNo)="+pageBean.getTfDocNo()+
-",報單號碼"+"(declNo)="+pageBean.getDeclNo()+
-",相關文號序號"+"(tfDocSeqno)="+pageBean.getTfDocSeqno()+
-",發文日期"+"(tfIssueDte)="+pageBean.getTfIssueDte()+
-",異動人員"+"(upPerson)="+pageBean.getUpPerson()+
-",異動時間"+"(upDate)="+pageBean.getUpDate()+
-","+"(tfSerialSeq)="+pageBean.getTfSerialSeq()+
+",序號"+"(sn)="+pageBean.getSn()+
+",執行批號"+"(batch)="+pageBean.getBatch()+
+",服務名稱"+"(service)="+pageBean.getService()+
+",執行狀態"+"(flag)="+pageBean.getFlag()+
+",條件1"+"(query1)="+pageBean.getQuery1()+
+",條件2"+"(query2)="+pageBean.getQuery2()+
+",條件3"+"(query3)="+pageBean.getQuery3()+
+",新增者"+"(createdby)="+pageBean.getCreatedby()+
+",新增時間"+"(createdtime)="+pageBean.getCreatedtime()+
+",修改者"+"(modifiedby)="+pageBean.getModifiedby()+
+",修改時間"+"(modifiedtime)="+pageBean.getModifiedtime()+
+",Unchecked"+"(agentNo)="+pageBean.getAgentNo()+
+",Checked"+"(agentAddress)="+pageBean.getAgentAddress()+
+",Checked"+"(agentMk)="+pageBean.getAgentMk()+
+",Unchecked"+"(agentName)="+pageBean.getAgentName()+
+",Checked"+"(agentOid)="+pageBean.getAgentOid()+
+",Checked"+"(agentTel)="+pageBean.getAgentTel()+
+",Unchecked"+"(createdBy)="+pageBean.getCreatedBy()+
+",Unchecked"+"(createdTime)="+pageBean.getCreatedTime()+
+",Checked"+"(insuType)="+pageBean.getInsuType()+
+",Unchecked"+"(modifiedBy)="+pageBean.getModifiedBy()+
+",Unchecked"+"(modifiedTime)="+pageBean.getModifiedTime()+
+",Checked"+"(staffCode)="+pageBean.getStaffCode()+
+",Checked"+"(staffName)="+pageBean.getStaffName()+
+
++ ", SN"
++ ", BATCH"
++ ", SERVICE"
++ ", FLAG"
++ ", QUERY1"
++ ", QUERY2"
++ ", QUERY3"
++ ", CREATEDBY"
++ ", CREATEDTIME"
++ ", MODIFIEDBY"
++ ", MODIFIEDTIME"
++ ", AGENT_NO"
++ ", AGENT_ADDRESS"
++ ", AGENT_MK"
++ ", AGENT_NAME"
++ ", AGENT_OID"
++ ", AGENT_TEL"
++ ", CREATED_BY"
++ ", CREATED_TIME"
++ ", INSU_TYPE"
++ ", MODIFIED_BY"
++ ", MODIFIED_TIME"
++ ", STAFF_CODE"
++ ", STAFF_NAME"
+
++", '"+this.getSn()+"'"//序號
++", '"+this.getBatch()+"'"//執行批號
++", '"+this.getService()+"'"//服務名稱
++", '"+this.getFlag()+"'"//執行狀態
++", '"+this.getQuery1()+"'"//條件1
++", '"+this.getQuery2()+"'"//條件2
++", '"+this.getQuery3()+"'"//條件3
++", '"+this.getCreatedby()+"'"//新增者
++", '"+this.getCreatedtime()+"'"//新增時間
++", '"+this.getModifiedby()+"'"//修改者
++", '"+this.getModifiedtime()+"'"//修改時間
++", '"+this.getAgentNo()+"'"//Unchecked
++", '"+this.getAgentAddress()+"'"//Checked
++", '"+this.getAgentMk()+"'"//Checked
++", '"+this.getAgentName()+"'"//Unchecked
++", '"+this.getAgentOid()+"'"//Checked
++", '"+this.getAgentTel()+"'"//Checked
++", '"+this.getCreatedBy()+"'"//Unchecked
++", '"+this.getCreatedTime()+"'"//Unchecked
++", '"+this.getInsuType()+"'"//Checked
++", '"+this.getModifiedBy()+"'"//Unchecked
++", '"+this.getModifiedTime()+"'"//Unchecked
++", '"+this.getStaffCode()+"'"//Checked
++", '"+this.getStaffName()+"'"//Checked

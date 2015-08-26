@@ -398,7 +398,42 @@ public class TransforDB39 {
 			bufferedWriter.flush();
 			bufferedWriter.newLine();
 		};
+		
+		//append 14
+		bufferedWriter.newLine();
+		
+		fileReader = new FileReader(changer.beforeFile);
+		bufferedReader = new BufferedReader(fileReader);
+		line="";idx=0;
+		while((line=bufferedReader.readLine())!= null){
+			String key = changer.keyString(line);
+			String javaWord = changer.cutUnderLine(key);
+			String value = changer.valueString(line);
+			//key = changer.cutUnderLine(key);
+			line = changer.createKeyCommonString(key);//("randomBean", javaWord);//javaScript field 屬性
+			bufferedWriter.write(line);
+			bufferedWriter.flush();
+			bufferedWriter.newLine();
+		};
+		
+		//append 15
+		bufferedWriter.newLine();
+		
+		fileReader = new FileReader(changer.beforeFile);
+		bufferedReader = new BufferedReader(fileReader);
+		line="";idx=0;
+		while((line=bufferedReader.readLine())!= null){
+			String key = changer.keyString(line);
+			String javaWord = changer.cutUnderLine(key);
+			String value = changer.valueString(line);
+			//key = changer.cutUnderLine(key);
+			line = changer.createValueCommonString("", javaWord, value);//("randomBean", javaWord);//javaScript field 屬性
+			bufferedWriter.write(line);
+			bufferedWriter.flush();
+			bufferedWriter.newLine();
+		};
 
+				
 		//end print
 		System.out.println("...[END]");
 		bufferedWriter.close();
@@ -669,6 +704,28 @@ public class TransforDB39 {
 		return ans;
 	}
 	
+	public String createKeyCommonString(String fieldName){
+		String ans="";
+		ans += "+ \", "+fieldName+"\"";
+		return ans;
+	}
+	
+	/**
+	 * 希望產生的樣式 + ", "+this.getSn()//序號
+	 * @param beanName
+	 * @param fieldName
+	 * @param comment
+	 * @return
+	 */
+	public String createValueCommonString(String beanName, String javaWord, String comment){
+		String ans="";
+		beanName = beanName.length()>0?beanName+".":beanName;
+		ans+="+\", '\"+"+beanName+prefixString("this.get", javaWord);//"set"+fieldName.substring(0, 1).toUpperCase()+fieldName.substring(1)+"();";
+		ans+="()+\"'\"";
+		ans+="//"+comment;
+		return ans;
+	}
+
 	public String keyString(String line){
 		return getColumnFromLine(line, 0);
 	}
