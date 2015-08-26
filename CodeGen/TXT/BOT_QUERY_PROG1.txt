@@ -395,3 +395,15 @@ pageBean.setValue("MODIFIEDTIME", "修改時間");//修改時間
 +", '"+this.getCreatedtime()+"'"//新增時間
 +", '"+this.getModifiedby()+"'"//修改者
 +", '"+this.getModifiedtime()+"'"//修改時間
+
+V_SN pageBean.SN%TYPE;--序號
+V_BATCH pageBean.BATCH%TYPE;--執行批號
+V_SERVICE pageBean.SERVICE%TYPE;--服務名稱
+V_FLAG pageBean.FLAG%TYPE;--執行狀態
+V_QUERY1 pageBean.QUERY1%TYPE;--條件1
+V_QUERY2 pageBean.QUERY2%TYPE;--條件2
+V_QUERY3 pageBean.QUERY3%TYPE;--條件3
+V_CREATEDBY pageBean.CREATEDBY%TYPE;--新增者
+V_CREATEDTIME pageBean.CREATEDTIME%TYPE;--新增時間
+V_MODIFIEDBY pageBean.MODIFIEDBY%TYPE;--修改者
+V_MODIFIEDTIME pageBean.MODIFIEDTIME%TYPE;--修改時間

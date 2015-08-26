@@ -9,19 +9,6 @@ pageBean.createdby=新增者
 pageBean.createdtime=新增時間
 pageBean.modifiedby=修改者
 pageBean.modifiedtime=修改時間
-pageBean.agentNo=Unchecked
-pageBean.agentAddress=Checked
-pageBean.agentMk=Checked
-pageBean.agentName=Unchecked
-pageBean.agentOid=Checked
-pageBean.agentTel=Checked
-pageBean.createdBy=Unchecked
-pageBean.createdTime=Unchecked
-pageBean.insuType=Checked
-pageBean.modifiedBy=Unchecked
-pageBean.modifiedTime=Unchecked
-pageBean.staffCode=Checked
-pageBean.staffName=Checked
 
 pageBean.sn=sn
 pageBean.batch=batch
@@ -34,19 +21,6 @@ pageBean.createdby=createdby
 pageBean.createdtime=createdtime
 pageBean.modifiedby=modifiedby
 pageBean.modifiedtime=modifiedtime
-pageBean.agentNo=agentNo
-pageBean.agentAddress=agentAddress
-pageBean.agentMk=agentMk
-pageBean.agentName=agentName
-pageBean.agentOid=agentOid
-pageBean.agentTel=agentTel
-pageBean.createdBy=createdBy
-pageBean.createdTime=createdTime
-pageBean.insuType=insuType
-pageBean.modifiedBy=modifiedBy
-pageBean.modifiedTime=modifiedTime
-pageBean.staffCode=staffCode
-pageBean.staffName=staffName
 
 <tr>
 	<td>
@@ -158,136 +132,6 @@ pageBean.staffName=staffName
 	</td>
 </tr>
 
-<tr>
-	<td>
-		<!--agentNo:Unchecked-->
-		<s:text name="pageBean.agentNo"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentNo"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--agentAddress:Checked-->
-		<s:text name="pageBean.agentAddress"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentAddress"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--agentMk:Checked-->
-		<s:text name="pageBean.agentMk"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentMk"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--agentName:Unchecked-->
-		<s:text name="pageBean.agentName"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentName"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--agentOid:Checked-->
-		<s:text name="pageBean.agentOid"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentOid"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--agentTel:Checked-->
-		<s:text name="pageBean.agentTel"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.agentTel"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--createdBy:Unchecked-->
-		<s:text name="pageBean.createdBy"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.createdBy"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--createdTime:Unchecked-->
-		<s:text name="pageBean.createdTime"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.createdTime"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--insuType:Checked-->
-		<s:text name="pageBean.insuType"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.insuType"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--modifiedBy:Unchecked-->
-		<s:text name="pageBean.modifiedBy"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.modifiedBy"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--modifiedTime:Unchecked-->
-		<s:text name="pageBean.modifiedTime"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.modifiedTime"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--staffCode:Checked-->
-		<s:text name="pageBean.staffCode"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.staffCode"/>
-	</td>
-</tr>
-
-<tr>
-	<td>
-		<!--staffName:Checked-->
-		<s:text name="pageBean.staffName"/>
-	</td>
-	<td>
-		<s:textfield name="pageBean.staffName"/>
-	</td>
-</tr>
-
 
 <s:hidden name="pageBean.sn"/><!--sn:序號-->
 <s:hidden name="pageBean.batch"/><!--batch:執行批號-->
@@ -300,19 +144,6 @@ pageBean.staffName=staffName
 <s:hidden name="pageBean.createdtime"/><!--createdtime:新增時間-->
 <s:hidden name="pageBean.modifiedby"/><!--modifiedby:修改者-->
 <s:hidden name="pageBean.modifiedtime"/><!--modifiedtime:修改時間-->
-<s:hidden name="pageBean.agentNo"/><!--agentNo:Unchecked-->
-<s:hidden name="pageBean.agentAddress"/><!--agentAddress:Checked-->
-<s:hidden name="pageBean.agentMk"/><!--agentMk:Checked-->
-<s:hidden name="pageBean.agentName"/><!--agentName:Unchecked-->
-<s:hidden name="pageBean.agentOid"/><!--agentOid:Checked-->
-<s:hidden name="pageBean.agentTel"/><!--agentTel:Checked-->
-<s:hidden name="pageBean.createdBy"/><!--createdBy:Unchecked-->
-<s:hidden name="pageBean.createdTime"/><!--createdTime:Unchecked-->
-<s:hidden name="pageBean.insuType"/><!--insuType:Checked-->
-<s:hidden name="pageBean.modifiedBy"/><!--modifiedBy:Unchecked-->
-<s:hidden name="pageBean.modifiedTime"/><!--modifiedTime:Unchecked-->
-<s:hidden name="pageBean.staffCode"/><!--staffCode:Checked-->
-<s:hidden name="pageBean.staffName"/><!--staffName:Checked-->
 
 <%--SN:序號:sn--%>
 <sjg:gridColumn name="SN" index="SN" title="%{getText('sn')}" width="80" align="center" hidden="true"  sortable="true" />
@@ -336,32 +167,6 @@ pageBean.staffName=staffName
 <sjg:gridColumn name="MODIFIEDBY" index="MODIFIEDBY" title="%{getText('modifiedby')}" width="80" align="center" hidden="true"  sortable="true" />
 <%--MODIFIEDTIME:修改時間:modifiedtime--%>
 <sjg:gridColumn name="MODIFIEDTIME" index="MODIFIEDTIME" title="%{getText('modifiedtime')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_NO:Unchecked:agentNo--%>
-<sjg:gridColumn name="AGENT_NO" index="AGENT_NO" title="%{getText('agentNo')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_ADDRESS:Checked:agentAddress--%>
-<sjg:gridColumn name="AGENT_ADDRESS" index="AGENT_ADDRESS" title="%{getText('agentAddress')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_MK:Checked:agentMk--%>
-<sjg:gridColumn name="AGENT_MK" index="AGENT_MK" title="%{getText('agentMk')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_NAME:Unchecked:agentName--%>
-<sjg:gridColumn name="AGENT_NAME" index="AGENT_NAME" title="%{getText('agentName')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_OID:Checked:agentOid--%>
-<sjg:gridColumn name="AGENT_OID" index="AGENT_OID" title="%{getText('agentOid')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--AGENT_TEL:Checked:agentTel--%>
-<sjg:gridColumn name="AGENT_TEL" index="AGENT_TEL" title="%{getText('agentTel')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--CREATED_BY:Unchecked:createdBy--%>
-<sjg:gridColumn name="CREATED_BY" index="CREATED_BY" title="%{getText('createdBy')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--CREATED_TIME:Unchecked:createdTime--%>
-<sjg:gridColumn name="CREATED_TIME" index="CREATED_TIME" title="%{getText('createdTime')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--INSU_TYPE:Checked:insuType--%>
-<sjg:gridColumn name="INSU_TYPE" index="INSU_TYPE" title="%{getText('insuType')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--MODIFIED_BY:Unchecked:modifiedBy--%>
-<sjg:gridColumn name="MODIFIED_BY" index="MODIFIED_BY" title="%{getText('modifiedBy')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--MODIFIED_TIME:Unchecked:modifiedTime--%>
-<sjg:gridColumn name="MODIFIED_TIME" index="MODIFIED_TIME" title="%{getText('modifiedTime')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--STAFF_CODE:Checked:staffCode--%>
-<sjg:gridColumn name="STAFF_CODE" index="STAFF_CODE" title="%{getText('staffCode')}" width="80" align="center" hidden="true"  sortable="true" />
-<%--STAFF_NAME:Checked:staffName--%>
-<sjg:gridColumn name="STAFF_NAME" index="STAFF_NAME" title="%{getText('staffName')}" width="80" align="center" hidden="true"  sortable="true" />
 
 ,A.SN
 ,A.BATCH
@@ -374,19 +179,6 @@ pageBean.staffName=staffName
 ,A.CREATEDTIME
 ,A.MODIFIEDBY
 ,A.MODIFIEDTIME
-,A.AGENT_NO
-,A.AGENT_ADDRESS
-,A.AGENT_MK
-,A.AGENT_NAME
-,A.AGENT_OID
-,A.AGENT_TEL
-,A.CREATED_BY
-,A.CREATED_TIME
-,A.INSU_TYPE
-,A.MODIFIED_BY
-,A.MODIFIED_TIME
-,A.STAFF_CODE
-,A.STAFF_NAME
 
 <condition key="SN" ignoreEmpty="true">SN = ${SN}</condition>
 <condition key="BATCH" ignoreEmpty="true">BATCH = ${BATCH}</condition>
@@ -399,19 +191,6 @@ pageBean.staffName=staffName
 <condition key="CREATEDTIME" ignoreEmpty="true">CREATEDTIME = ${CREATEDTIME}</condition>
 <condition key="MODIFIEDBY" ignoreEmpty="true">MODIFIEDBY = ${MODIFIEDBY}</condition>
 <condition key="MODIFIEDTIME" ignoreEmpty="true">MODIFIEDTIME = ${MODIFIEDTIME}</condition>
-<condition key="AGENT_NO" ignoreEmpty="true">AGENT_NO = ${AGENT_NO}</condition>
-<condition key="AGENT_ADDRESS" ignoreEmpty="true">AGENT_ADDRESS = ${AGENT_ADDRESS}</condition>
-<condition key="AGENT_MK" ignoreEmpty="true">AGENT_MK = ${AGENT_MK}</condition>
-<condition key="AGENT_NAME" ignoreEmpty="true">AGENT_NAME = ${AGENT_NAME}</condition>
-<condition key="AGENT_OID" ignoreEmpty="true">AGENT_OID = ${AGENT_OID}</condition>
-<condition key="AGENT_TEL" ignoreEmpty="true">AGENT_TEL = ${AGENT_TEL}</condition>
-<condition key="CREATED_BY" ignoreEmpty="true">CREATED_BY = ${CREATED_BY}</condition>
-<condition key="CREATED_TIME" ignoreEmpty="true">CREATED_TIME = ${CREATED_TIME}</condition>
-<condition key="INSU_TYPE" ignoreEmpty="true">INSU_TYPE = ${INSU_TYPE}</condition>
-<condition key="MODIFIED_BY" ignoreEmpty="true">MODIFIED_BY = ${MODIFIED_BY}</condition>
-<condition key="MODIFIED_TIME" ignoreEmpty="true">MODIFIED_TIME = ${MODIFIED_TIME}</condition>
-<condition key="STAFF_CODE" ignoreEmpty="true">STAFF_CODE = ${STAFF_CODE}</condition>
-<condition key="STAFF_NAME" ignoreEmpty="true">STAFF_NAME = ${STAFF_NAME}</condition>
 
 <condition key="SN_S" ignoreEmpty="true">SN >= ${SN_S}</condition><condition key="SN_E" ignoreEmpty="true">${SN_E} >= SN</condition><condition key="SN_L" ignoreEmpty="true">SN like ${SN_L}</condition>
 <condition key="BATCH_S" ignoreEmpty="true">BATCH >= ${BATCH_S}</condition><condition key="BATCH_E" ignoreEmpty="true">${BATCH_E} >= BATCH</condition><condition key="BATCH_L" ignoreEmpty="true">BATCH like ${BATCH_L}</condition>
@@ -424,19 +203,6 @@ pageBean.staffName=staffName
 <condition key="CREATEDTIME_S" ignoreEmpty="true">CREATEDTIME >= ${CREATEDTIME_S}</condition><condition key="CREATEDTIME_E" ignoreEmpty="true">${CREATEDTIME_E} >= CREATEDTIME</condition><condition key="CREATEDTIME_L" ignoreEmpty="true">CREATEDTIME like ${CREATEDTIME_L}</condition>
 <condition key="MODIFIEDBY_S" ignoreEmpty="true">MODIFIEDBY >= ${MODIFIEDBY_S}</condition><condition key="MODIFIEDBY_E" ignoreEmpty="true">${MODIFIEDBY_E} >= MODIFIEDBY</condition><condition key="MODIFIEDBY_L" ignoreEmpty="true">MODIFIEDBY like ${MODIFIEDBY_L}</condition>
 <condition key="MODIFIEDTIME_S" ignoreEmpty="true">MODIFIEDTIME >= ${MODIFIEDTIME_S}</condition><condition key="MODIFIEDTIME_E" ignoreEmpty="true">${MODIFIEDTIME_E} >= MODIFIEDTIME</condition><condition key="MODIFIEDTIME_L" ignoreEmpty="true">MODIFIEDTIME like ${MODIFIEDTIME_L}</condition>
-<condition key="AGENT_NO_S" ignoreEmpty="true">AGENT_NO >= ${AGENT_NO_S}</condition><condition key="AGENT_NO_E" ignoreEmpty="true">${AGENT_NO_E} >= AGENT_NO</condition><condition key="AGENT_NO_L" ignoreEmpty="true">AGENT_NO like ${AGENT_NO_L}</condition>
-<condition key="AGENT_ADDRESS_S" ignoreEmpty="true">AGENT_ADDRESS >= ${AGENT_ADDRESS_S}</condition><condition key="AGENT_ADDRESS_E" ignoreEmpty="true">${AGENT_ADDRESS_E} >= AGENT_ADDRESS</condition><condition key="AGENT_ADDRESS_L" ignoreEmpty="true">AGENT_ADDRESS like ${AGENT_ADDRESS_L}</condition>
-<condition key="AGENT_MK_S" ignoreEmpty="true">AGENT_MK >= ${AGENT_MK_S}</condition><condition key="AGENT_MK_E" ignoreEmpty="true">${AGENT_MK_E} >= AGENT_MK</condition><condition key="AGENT_MK_L" ignoreEmpty="true">AGENT_MK like ${AGENT_MK_L}</condition>
-<condition key="AGENT_NAME_S" ignoreEmpty="true">AGENT_NAME >= ${AGENT_NAME_S}</condition><condition key="AGENT_NAME_E" ignoreEmpty="true">${AGENT_NAME_E} >= AGENT_NAME</condition><condition key="AGENT_NAME_L" ignoreEmpty="true">AGENT_NAME like ${AGENT_NAME_L}</condition>
-<condition key="AGENT_OID_S" ignoreEmpty="true">AGENT_OID >= ${AGENT_OID_S}</condition><condition key="AGENT_OID_E" ignoreEmpty="true">${AGENT_OID_E} >= AGENT_OID</condition><condition key="AGENT_OID_L" ignoreEmpty="true">AGENT_OID like ${AGENT_OID_L}</condition>
-<condition key="AGENT_TEL_S" ignoreEmpty="true">AGENT_TEL >= ${AGENT_TEL_S}</condition><condition key="AGENT_TEL_E" ignoreEmpty="true">${AGENT_TEL_E} >= AGENT_TEL</condition><condition key="AGENT_TEL_L" ignoreEmpty="true">AGENT_TEL like ${AGENT_TEL_L}</condition>
-<condition key="CREATED_BY_S" ignoreEmpty="true">CREATED_BY >= ${CREATED_BY_S}</condition><condition key="CREATED_BY_E" ignoreEmpty="true">${CREATED_BY_E} >= CREATED_BY</condition><condition key="CREATED_BY_L" ignoreEmpty="true">CREATED_BY like ${CREATED_BY_L}</condition>
-<condition key="CREATED_TIME_S" ignoreEmpty="true">CREATED_TIME >= ${CREATED_TIME_S}</condition><condition key="CREATED_TIME_E" ignoreEmpty="true">${CREATED_TIME_E} >= CREATED_TIME</condition><condition key="CREATED_TIME_L" ignoreEmpty="true">CREATED_TIME like ${CREATED_TIME_L}</condition>
-<condition key="INSU_TYPE_S" ignoreEmpty="true">INSU_TYPE >= ${INSU_TYPE_S}</condition><condition key="INSU_TYPE_E" ignoreEmpty="true">${INSU_TYPE_E} >= INSU_TYPE</condition><condition key="INSU_TYPE_L" ignoreEmpty="true">INSU_TYPE like ${INSU_TYPE_L}</condition>
-<condition key="MODIFIED_BY_S" ignoreEmpty="true">MODIFIED_BY >= ${MODIFIED_BY_S}</condition><condition key="MODIFIED_BY_E" ignoreEmpty="true">${MODIFIED_BY_E} >= MODIFIED_BY</condition><condition key="MODIFIED_BY_L" ignoreEmpty="true">MODIFIED_BY like ${MODIFIED_BY_L}</condition>
-<condition key="MODIFIED_TIME_S" ignoreEmpty="true">MODIFIED_TIME >= ${MODIFIED_TIME_S}</condition><condition key="MODIFIED_TIME_E" ignoreEmpty="true">${MODIFIED_TIME_E} >= MODIFIED_TIME</condition><condition key="MODIFIED_TIME_L" ignoreEmpty="true">MODIFIED_TIME like ${MODIFIED_TIME_L}</condition>
-<condition key="STAFF_CODE_S" ignoreEmpty="true">STAFF_CODE >= ${STAFF_CODE_S}</condition><condition key="STAFF_CODE_E" ignoreEmpty="true">${STAFF_CODE_E} >= STAFF_CODE</condition><condition key="STAFF_CODE_L" ignoreEmpty="true">STAFF_CODE like ${STAFF_CODE_L}</condition>
-<condition key="STAFF_NAME_S" ignoreEmpty="true">STAFF_NAME >= ${STAFF_NAME_S}</condition><condition key="STAFF_NAME_E" ignoreEmpty="true">${STAFF_NAME_E} >= STAFF_NAME</condition><condition key="STAFF_NAME_L" ignoreEmpty="true">STAFF_NAME like ${STAFF_NAME_L}</condition>
 
 <field key="SN" name="SN" ignoreEmpty="true"/>
 <field key="BATCH" name="BATCH" ignoreEmpty="true"/>
@@ -449,19 +215,6 @@ pageBean.staffName=staffName
 <field key="CREATEDTIME" name="CREATEDTIME" ignoreEmpty="true"/>
 <field key="MODIFIEDBY" name="MODIFIEDBY" ignoreEmpty="true"/>
 <field key="MODIFIEDTIME" name="MODIFIEDTIME" ignoreEmpty="true"/>
-<field key="AGENT_NO" name="AGENT_NO" ignoreEmpty="true"/>
-<field key="AGENT_ADDRESS" name="AGENT_ADDRESS" ignoreEmpty="true"/>
-<field key="AGENT_MK" name="AGENT_MK" ignoreEmpty="true"/>
-<field key="AGENT_NAME" name="AGENT_NAME" ignoreEmpty="true"/>
-<field key="AGENT_OID" name="AGENT_OID" ignoreEmpty="true"/>
-<field key="AGENT_TEL" name="AGENT_TEL" ignoreEmpty="true"/>
-<field key="CREATED_BY" name="CREATED_BY" ignoreEmpty="true"/>
-<field key="CREATED_TIME" name="CREATED_TIME" ignoreEmpty="true"/>
-<field key="INSU_TYPE" name="INSU_TYPE" ignoreEmpty="true"/>
-<field key="MODIFIED_BY" name="MODIFIED_BY" ignoreEmpty="true"/>
-<field key="MODIFIED_TIME" name="MODIFIED_TIME" ignoreEmpty="true"/>
-<field key="STAFF_CODE" name="STAFF_CODE" ignoreEmpty="true"/>
-<field key="STAFF_NAME" name="STAFF_NAME" ignoreEmpty="true"/>
 
 $('#pageBean_sn').attr('value',rowData.SN);
 $('#pageBean_batch').attr('value',rowData.BATCH);
@@ -474,19 +227,6 @@ $('#pageBean_createdby').attr('value',rowData.CREATEDBY);
 $('#pageBean_createdtime').attr('value',rowData.CREATEDTIME);
 $('#pageBean_modifiedby').attr('value',rowData.MODIFIEDBY);
 $('#pageBean_modifiedtime').attr('value',rowData.MODIFIEDTIME);
-$('#pageBean_agentNo').attr('value',rowData.AGENT_NO);
-$('#pageBean_agentAddress').attr('value',rowData.AGENT_ADDRESS);
-$('#pageBean_agentMk').attr('value',rowData.AGENT_MK);
-$('#pageBean_agentName').attr('value',rowData.AGENT_NAME);
-$('#pageBean_agentOid').attr('value',rowData.AGENT_OID);
-$('#pageBean_agentTel').attr('value',rowData.AGENT_TEL);
-$('#pageBean_createdBy').attr('value',rowData.CREATED_BY);
-$('#pageBean_createdTime').attr('value',rowData.CREATED_TIME);
-$('#pageBean_insuType').attr('value',rowData.INSU_TYPE);
-$('#pageBean_modifiedBy').attr('value',rowData.MODIFIED_BY);
-$('#pageBean_modifiedTime').attr('value',rowData.MODIFIED_TIME);
-$('#pageBean_staffCode').attr('value',rowData.STAFF_CODE);
-$('#pageBean_staffName').attr('value',rowData.STAFF_NAME);
 
 $('#pageBean_sn').attr("value", "");
 $('#pageBean_batch').attr("value", "");
@@ -499,19 +239,6 @@ $('#pageBean_createdby').attr("value", "");
 $('#pageBean_createdtime').attr("value", "");
 $('#pageBean_modifiedby').attr("value", "");
 $('#pageBean_modifiedtime').attr("value", "");
-$('#pageBean_agentNo').attr("value", "");
-$('#pageBean_agentAddress').attr("value", "");
-$('#pageBean_agentMk').attr("value", "");
-$('#pageBean_agentName').attr("value", "");
-$('#pageBean_agentOid').attr("value", "");
-$('#pageBean_agentTel').attr("value", "");
-$('#pageBean_createdBy').attr("value", "");
-$('#pageBean_createdTime').attr("value", "");
-$('#pageBean_insuType').attr("value", "");
-$('#pageBean_modifiedBy').attr("value", "");
-$('#pageBean_modifiedTime').attr("value", "");
-$('#pageBean_staffCode').attr("value", "");
-$('#pageBean_staffName').attr("value", "");
 
 SN:$('#pageBean_sn').val(),//序號
 BATCH:$('#pageBean_batch').val(),//執行批號
@@ -524,19 +251,6 @@ CREATEDBY:$('#pageBean_createdby').val(),//新增者
 CREATEDTIME:$('#pageBean_createdtime').val(),//新增時間
 MODIFIEDBY:$('#pageBean_modifiedby').val(),//修改者
 MODIFIEDTIME:$('#pageBean_modifiedtime').val(),//修改時間
-AGENT_NO:$('#pageBean_agentNo').val(),//Unchecked
-AGENT_ADDRESS:$('#pageBean_agentAddress').val(),//Checked
-AGENT_MK:$('#pageBean_agentMk').val(),//Checked
-AGENT_NAME:$('#pageBean_agentName').val(),//Unchecked
-AGENT_OID:$('#pageBean_agentOid').val(),//Checked
-AGENT_TEL:$('#pageBean_agentTel').val(),//Checked
-CREATED_BY:$('#pageBean_createdBy').val(),//Unchecked
-CREATED_TIME:$('#pageBean_createdTime').val(),//Unchecked
-INSU_TYPE:$('#pageBean_insuType').val(),//Checked
-MODIFIED_BY:$('#pageBean_modifiedBy').val(),//Unchecked
-MODIFIED_TIME:$('#pageBean_modifiedTime').val(),//Unchecked
-STAFF_CODE:$('#pageBean_staffCode').val(),//Checked
-STAFF_NAME:$('#pageBean_staffName').val(),//Checked
 
 pageBean.setSn(dataObjects.getString("SN"));//序號
 pageBean.setBatch(dataObjects.getString("BATCH"));//執行批號
@@ -549,19 +263,6 @@ pageBean.setCreatedby(dataObjects.getString("CREATEDBY"));//新增者
 pageBean.setCreatedtime(dataObjects.getString("CREATEDTIME"));//新增時間
 pageBean.setModifiedby(dataObjects.getString("MODIFIEDBY"));//修改者
 pageBean.setModifiedtime(dataObjects.getString("MODIFIEDTIME"));//修改時間
-pageBean.setAgentNo(dataObjects.getString("AGENT_NO"));//Unchecked
-pageBean.setAgentAddress(dataObjects.getString("AGENT_ADDRESS"));//Checked
-pageBean.setAgentMk(dataObjects.getString("AGENT_MK"));//Checked
-pageBean.setAgentName(dataObjects.getString("AGENT_NAME"));//Unchecked
-pageBean.setAgentOid(dataObjects.getString("AGENT_OID"));//Checked
-pageBean.setAgentTel(dataObjects.getString("AGENT_TEL"));//Checked
-pageBean.setCreatedBy(dataObjects.getString("CREATED_BY"));//Unchecked
-pageBean.setCreatedTime(dataObjects.getString("CREATED_TIME"));//Unchecked
-pageBean.setInsuType(dataObjects.getString("INSU_TYPE"));//Checked
-pageBean.setModifiedBy(dataObjects.getString("MODIFIED_BY"));//Unchecked
-pageBean.setModifiedTime(dataObjects.getString("MODIFIED_TIME"));//Unchecked
-pageBean.setStaffCode(dataObjects.getString("STAFF_CODE"));//Checked
-pageBean.setStaffName(dataObjects.getString("STAFF_NAME"));//Checked
 
 private String sn = null;//序號
 private String batch = null;//執行批號
@@ -574,19 +275,6 @@ private String createdby = null;//新增者
 private String createdtime = null;//新增時間
 private String modifiedby = null;//修改者
 private String modifiedtime = null;//修改時間
-private String agentNo = null;//Unchecked
-private String agentAddress = null;//Checked
-private String agentMk = null;//Checked
-private String agentName = null;//Unchecked
-private String agentOid = null;//Checked
-private String agentTel = null;//Checked
-private String createdBy = null;//Unchecked
-private String createdTime = null;//Unchecked
-private String insuType = null;//Checked
-private String modifiedBy = null;//Unchecked
-private String modifiedTime = null;//Unchecked
-private String staffCode = null;//Checked
-private String staffName = null;//Checked
 
 pageBean.setSn("序號");//序號
 pageBean.setBatch("執行批號");//執行批號
@@ -599,19 +287,6 @@ pageBean.setCreatedby("新增者");//新增者
 pageBean.setCreatedtime("新增時間");//新增時間
 pageBean.setModifiedby("修改者");//修改者
 pageBean.setModifiedtime("修改時間");//修改時間
-pageBean.setAgentNo("Unchecked");//Unchecked
-pageBean.setAgentAddress("Checked");//Checked
-pageBean.setAgentMk("Checked");//Checked
-pageBean.setAgentName("Unchecked");//Unchecked
-pageBean.setAgentOid("Checked");//Checked
-pageBean.setAgentTel("Checked");//Checked
-pageBean.setCreatedBy("Unchecked");//Unchecked
-pageBean.setCreatedTime("Unchecked");//Unchecked
-pageBean.setInsuType("Checked");//Checked
-pageBean.setModifiedBy("Unchecked");//Unchecked
-pageBean.setModifiedTime("Unchecked");//Unchecked
-pageBean.setStaffCode("Checked");//Checked
-pageBean.setStaffName("Checked");//Checked
 
 pageBean.setSn(sn);//序號
 pageBean.setBatch(batch);//執行批號
@@ -624,19 +299,6 @@ pageBean.setCreatedby(createdby);//新增者
 pageBean.setCreatedtime(createdtime);//新增時間
 pageBean.setModifiedby(modifiedby);//修改者
 pageBean.setModifiedtime(modifiedtime);//修改時間
-pageBean.setAgentNo(agentNo);//Unchecked
-pageBean.setAgentAddress(agentAddress);//Checked
-pageBean.setAgentMk(agentMk);//Checked
-pageBean.setAgentName(agentName);//Unchecked
-pageBean.setAgentOid(agentOid);//Checked
-pageBean.setAgentTel(agentTel);//Checked
-pageBean.setCreatedBy(createdBy);//Unchecked
-pageBean.setCreatedTime(createdTime);//Unchecked
-pageBean.setInsuType(insuType);//Checked
-pageBean.setModifiedBy(modifiedBy);//Unchecked
-pageBean.setModifiedTime(modifiedTime);//Unchecked
-pageBean.setStaffCode(staffCode);//Checked
-pageBean.setStaffName(staffName);//Checked
 
 pageBean.setSn(randomBean.getSn());//序號
 pageBean.setBatch(randomBean.getBatch());//執行批號
@@ -649,19 +311,6 @@ pageBean.setCreatedby(randomBean.getCreatedby());//新增者
 pageBean.setCreatedtime(randomBean.getCreatedtime());//新增時間
 pageBean.setModifiedby(randomBean.getModifiedby());//修改者
 pageBean.setModifiedtime(randomBean.getModifiedtime());//修改時間
-pageBean.setAgentNo(randomBean.getAgentNo());//Unchecked
-pageBean.setAgentAddress(randomBean.getAgentAddress());//Checked
-pageBean.setAgentMk(randomBean.getAgentMk());//Checked
-pageBean.setAgentName(randomBean.getAgentName());//Unchecked
-pageBean.setAgentOid(randomBean.getAgentOid());//Checked
-pageBean.setAgentTel(randomBean.getAgentTel());//Checked
-pageBean.setCreatedBy(randomBean.getCreatedBy());//Unchecked
-pageBean.setCreatedTime(randomBean.getCreatedTime());//Unchecked
-pageBean.setInsuType(randomBean.getInsuType());//Checked
-pageBean.setModifiedBy(randomBean.getModifiedBy());//Unchecked
-pageBean.setModifiedTime(randomBean.getModifiedTime());//Unchecked
-pageBean.setStaffCode(randomBean.getStaffCode());//Checked
-pageBean.setStaffName(randomBean.getStaffName());//Checked
 
 setSn(sn);//序號
 setBatch(batch);//執行批號
@@ -674,19 +323,6 @@ setCreatedby(createdby);//新增者
 setCreatedtime(createdtime);//新增時間
 setModifiedby(modifiedby);//修改者
 setModifiedtime(modifiedtime);//修改時間
-setAgentNo(agentNo);//Unchecked
-setAgentAddress(agentAddress);//Checked
-setAgentMk(agentMk);//Checked
-setAgentName(agentName);//Unchecked
-setAgentOid(agentOid);//Checked
-setAgentTel(agentTel);//Checked
-setCreatedBy(createdBy);//Unchecked
-setCreatedTime(createdTime);//Unchecked
-setInsuType(insuType);//Checked
-setModifiedBy(modifiedBy);//Unchecked
-setModifiedTime(modifiedTime);//Unchecked
-setStaffCode(staffCode);//Checked
-setStaffName(staffName);//Checked
 
 pageBean.getSn(),//序號
 pageBean.getBatch(),//執行批號
@@ -699,19 +335,6 @@ pageBean.getCreatedby(),//新增者
 pageBean.getCreatedtime(),//新增時間
 pageBean.getModifiedby(),//修改者
 pageBean.getModifiedtime(),//修改時間
-pageBean.getAgentNo(),//Unchecked
-pageBean.getAgentAddress(),//Checked
-pageBean.getAgentMk(),//Checked
-pageBean.getAgentName(),//Unchecked
-pageBean.getAgentOid(),//Checked
-pageBean.getAgentTel(),//Checked
-pageBean.getCreatedBy(),//Unchecked
-pageBean.getCreatedTime(),//Unchecked
-pageBean.getInsuType(),//Checked
-pageBean.getModifiedBy(),//Unchecked
-pageBean.getModifiedTime(),//Unchecked
-pageBean.getStaffCode(),//Checked
-pageBean.getStaffName(),//Checked
 
 pageBean.setValue("SN", this.getSn());//序號
 pageBean.setValue("BATCH", this.getBatch());//執行批號
@@ -724,19 +347,6 @@ pageBean.setValue("CREATEDBY", this.getCreatedby());//新增者
 pageBean.setValue("CREATEDTIME", this.getCreatedtime());//新增時間
 pageBean.setValue("MODIFIEDBY", this.getModifiedby());//修改者
 pageBean.setValue("MODIFIEDTIME", this.getModifiedtime());//修改時間
-pageBean.setValue("AGENT_NO", this.getAgentNo());//Unchecked
-pageBean.setValue("AGENT_ADDRESS", this.getAgentAddress());//Checked
-pageBean.setValue("AGENT_MK", this.getAgentMk());//Checked
-pageBean.setValue("AGENT_NAME", this.getAgentName());//Unchecked
-pageBean.setValue("AGENT_OID", this.getAgentOid());//Checked
-pageBean.setValue("AGENT_TEL", this.getAgentTel());//Checked
-pageBean.setValue("CREATED_BY", this.getCreatedBy());//Unchecked
-pageBean.setValue("CREATED_TIME", this.getCreatedTime());//Unchecked
-pageBean.setValue("INSU_TYPE", this.getInsuType());//Checked
-pageBean.setValue("MODIFIED_BY", this.getModifiedBy());//Unchecked
-pageBean.setValue("MODIFIED_TIME", this.getModifiedTime());//Unchecked
-pageBean.setValue("STAFF_CODE", this.getStaffCode());//Checked
-pageBean.setValue("STAFF_NAME", this.getStaffName());//Checked
 
 pageBean.setValue("SN", "序號");//序號
 pageBean.setValue("BATCH", "執行批號");//執行批號
@@ -749,19 +359,6 @@ pageBean.setValue("CREATEDBY", "新增者");//新增者
 pageBean.setValue("CREATEDTIME", "新增時間");//新增時間
 pageBean.setValue("MODIFIEDBY", "修改者");//修改者
 pageBean.setValue("MODIFIEDTIME", "修改時間");//修改時間
-pageBean.setValue("AGENT_NO", "Unchecked");//Unchecked
-pageBean.setValue("AGENT_ADDRESS", "Checked");//Checked
-pageBean.setValue("AGENT_MK", "Checked");//Checked
-pageBean.setValue("AGENT_NAME", "Unchecked");//Unchecked
-pageBean.setValue("AGENT_OID", "Checked");//Checked
-pageBean.setValue("AGENT_TEL", "Checked");//Checked
-pageBean.setValue("CREATED_BY", "Unchecked");//Unchecked
-pageBean.setValue("CREATED_TIME", "Unchecked");//Unchecked
-pageBean.setValue("INSU_TYPE", "Checked");//Checked
-pageBean.setValue("MODIFIED_BY", "Unchecked");//Unchecked
-pageBean.setValue("MODIFIED_TIME", "Unchecked");//Unchecked
-pageBean.setValue("STAFF_CODE", "Checked");//Checked
-pageBean.setValue("STAFF_NAME", "Checked");//Checked
 
 ",序號"+"(sn)="+pageBean.getSn()+
 ",執行批號"+"(batch)="+pageBean.getBatch()+
@@ -774,19 +371,6 @@ pageBean.setValue("STAFF_NAME", "Checked");//Checked
 ",新增時間"+"(createdtime)="+pageBean.getCreatedtime()+
 ",修改者"+"(modifiedby)="+pageBean.getModifiedby()+
 ",修改時間"+"(modifiedtime)="+pageBean.getModifiedtime()+
-",Unchecked"+"(agentNo)="+pageBean.getAgentNo()+
-",Checked"+"(agentAddress)="+pageBean.getAgentAddress()+
-",Checked"+"(agentMk)="+pageBean.getAgentMk()+
-",Unchecked"+"(agentName)="+pageBean.getAgentName()+
-",Checked"+"(agentOid)="+pageBean.getAgentOid()+
-",Checked"+"(agentTel)="+pageBean.getAgentTel()+
-",Unchecked"+"(createdBy)="+pageBean.getCreatedBy()+
-",Unchecked"+"(createdTime)="+pageBean.getCreatedTime()+
-",Checked"+"(insuType)="+pageBean.getInsuType()+
-",Unchecked"+"(modifiedBy)="+pageBean.getModifiedBy()+
-",Unchecked"+"(modifiedTime)="+pageBean.getModifiedTime()+
-",Checked"+"(staffCode)="+pageBean.getStaffCode()+
-",Checked"+"(staffName)="+pageBean.getStaffName()+
 
 + ", SN"
 + ", BATCH"
@@ -799,19 +383,6 @@ pageBean.setValue("STAFF_NAME", "Checked");//Checked
 + ", CREATEDTIME"
 + ", MODIFIEDBY"
 + ", MODIFIEDTIME"
-+ ", AGENT_NO"
-+ ", AGENT_ADDRESS"
-+ ", AGENT_MK"
-+ ", AGENT_NAME"
-+ ", AGENT_OID"
-+ ", AGENT_TEL"
-+ ", CREATED_BY"
-+ ", CREATED_TIME"
-+ ", INSU_TYPE"
-+ ", MODIFIED_BY"
-+ ", MODIFIED_TIME"
-+ ", STAFF_CODE"
-+ ", STAFF_NAME"
 
 +", '"+this.getSn()+"'"//序號
 +", '"+this.getBatch()+"'"//執行批號
@@ -824,16 +395,15 @@ pageBean.setValue("STAFF_NAME", "Checked");//Checked
 +", '"+this.getCreatedtime()+"'"//新增時間
 +", '"+this.getModifiedby()+"'"//修改者
 +", '"+this.getModifiedtime()+"'"//修改時間
-+", '"+this.getAgentNo()+"'"//Unchecked
-+", '"+this.getAgentAddress()+"'"//Checked
-+", '"+this.getAgentMk()+"'"//Checked
-+", '"+this.getAgentName()+"'"//Unchecked
-+", '"+this.getAgentOid()+"'"//Checked
-+", '"+this.getAgentTel()+"'"//Checked
-+", '"+this.getCreatedBy()+"'"//Unchecked
-+", '"+this.getCreatedTime()+"'"//Unchecked
-+", '"+this.getInsuType()+"'"//Checked
-+", '"+this.getModifiedBy()+"'"//Unchecked
-+", '"+this.getModifiedTime()+"'"//Unchecked
-+", '"+this.getStaffCode()+"'"//Checked
-+", '"+this.getStaffName()+"'"//Checked
+
+V_SN pageBean.SN%TYPE;--序號
+V_BATCH pageBean.BATCH%TYPE;--執行批號
+V_SERVICE pageBean.SERVICE%TYPE;--服務名稱
+V_FLAG pageBean.FLAG%TYPE;--執行狀態
+V_QUERY1 pageBean.QUERY1%TYPE;--條件1
+V_QUERY2 pageBean.QUERY2%TYPE;--條件2
+V_QUERY3 pageBean.QUERY3%TYPE;--條件3
+V_CREATEDBY pageBean.CREATEDBY%TYPE;--新增者
+V_CREATEDTIME pageBean.CREATEDTIME%TYPE;--新增時間
+V_MODIFIEDBY pageBean.MODIFIEDBY%TYPE;--修改者
+V_MODIFIEDTIME pageBean.MODIFIEDTIME%TYPE;--修改時間

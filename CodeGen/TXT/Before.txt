@@ -9,16 +9,3 @@ CREATEDBY	VARCHAR2(50 BYTE)	Yes		8	新增者
 CREATEDTIME	DATE	Yes		9	新增時間
 MODIFIEDBY	VARCHAR2(50 BYTE)	Yes		10	修改者
 MODIFIEDTIME	DATE	Yes		11	修改時間
-AGENT_NO	varchar(5)	Unchecked
-AGENT_ADDRESS	varchar(200)	Checked
-AGENT_MK	varchar(1)	Checked
-AGENT_NAME	varchar(60)	Unchecked
-AGENT_OID	varchar(50)	Checked
-AGENT_TEL	varchar(20)	Checked
-CREATED_BY	varchar(50)	Unchecked
-CREATED_TIME	datetime	Unchecked
-INSU_TYPE	varchar(1)	Checked
-MODIFIED_BY	varchar(50)	Unchecked
-MODIFIED_TIME	datetime	Unchecked
-STAFF_CODE	varchar(5)	Checked
-STAFF_NAME	varchar(40)	Checked

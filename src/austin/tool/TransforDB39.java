@@ -432,6 +432,25 @@ public class TransforDB39 {
 			bufferedWriter.flush();
 			bufferedWriter.newLine();
 		};
+		
+		
+		//append 15>>>建立Oracle的方法建立方法
+		//V_FLAG BOT_QUERY1_PROG1.FLAG%TYPE;
+		bufferedWriter.newLine();
+		
+		fileReader = new FileReader(changer.beforeFile);
+		bufferedReader = new BufferedReader(fileReader);
+		line="";idx=0;
+		while((line=bufferedReader.readLine())!= null){
+			String key = changer.keyString(line);
+			String javaWord = changer.cutUnderLine(key);
+			String value = changer.valueString(line);
+			//key = changer.cutUnderLine(key);
+			line = changer.declareOracleTypeString(beanName, key, value);//("randomBean", javaWord);//javaScript field 屬性
+			bufferedWriter.write(line);
+			bufferedWriter.flush();
+			bufferedWriter.newLine();
+		};
 
 				
 		//end print
@@ -723,6 +742,23 @@ public class TransforDB39 {
 		ans+="+\", '\"+"+beanName+prefixString("this.get", javaWord);//"set"+fieldName.substring(0, 1).toUpperCase()+fieldName.substring(1)+"();";
 		ans+="()+\"'\"";
 		ans+="//"+comment;
+		return ans;
+	}
+	
+	/**
+	 * 這個是為了要做Oracle快速宣告的相關參數所做的字串方法，範例如下：
+	 * V_FLAG BOT_QUERY1_PROG1.FLAG%TYPE;
+	 * @param beanName
+	 * @param key
+	 * @param comment
+	 * @return
+	 */
+	public String declareOracleTypeString(String beanName, String key, String comment){
+		String ans="";
+		beanName = beanName.length()>0?beanName+".":beanName;
+		ans+="V_"+key+" ";
+		ans+=beanName+key+"%TYPE;";
+		ans+="--"+comment;
 		return ans;
 	}
 
