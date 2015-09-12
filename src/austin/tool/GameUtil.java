@@ -252,7 +252,7 @@ public class GameUtil {
 		Long l = System.currentTimeMillis();
 		l += day * 86400 * 1000;
 		RocDate rocDate = new RocDate(l);
-		return rocDate.toDateString().replace("/", "");
+		return rocDate.toDateString().replaceColumn("/", "");
 	}
 
 	/**
