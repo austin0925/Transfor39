@@ -14,7 +14,7 @@ public class GenCode {
 	File afterFile = new File("./CodeGen/TXT/After.txt");
 	File beforeFile = new File("./CodeGen/TXT/Before.txt");
 	
-	static final String TABLE = "GN_SCHEDULE";
+	static final String TABLE = "GN_SCHEDULE";//GnScheduleDto.java
 	
 	public static void main(String[] args) throws IOException{
 
