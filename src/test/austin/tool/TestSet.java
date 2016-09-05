@@ -1,8 +1,6 @@
-package test.java.util;
+package austin.tool;
 
 import java.util.TreeSet;
-
-import org.junit.Test;
 
 public class TestSet {
 
