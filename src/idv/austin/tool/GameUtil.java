@@ -1,9 +1,4 @@
-package austin.tool;
-
-import gov.customs.commons.bean.GridBean;
-import gov.customs.commons.converter.RocDate;
-import gov.customs.commons.converter.RocDateTime;
-import gov.customs.commons.service.ProcessResult;
+package idv.austin.tool;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,20 +7,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.logging.Logger;
 
-import org.apache.commons.lang.xwork.StringUtils;
-import org.apache.log4j.Logger;
-
-import com.tradevan.commons.collection.DataList;
-import com.tradevan.commons.collection.DataObject;
-import com.tradevan.taurus.xdao.DataPage;
-import com.tradevan.taurus.xdao.SqlPredicate;
-import com.tradevan.taurus.xdao.SqlWhere;
-import com.tradevan.taurus.xdao.XdaoException;
+import test.austin.tool.DataObject;
 
 public class GameUtil {
 	
-	private static final Logger logger = Logger.getLogger(GameUtil.class);
 
 	/**
 	 * 確認DataObject內的value是否為null，若有不為NULL的資料則回傳false
