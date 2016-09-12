@@ -1,4 +1,4 @@
-package austin.bean;
+package idv.austin.bean;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

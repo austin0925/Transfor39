@@ -1,8 +1,9 @@
-package austin.bean;
+package idv.austin.dom4j;
 
 import java.io.ByteArrayInputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Iterator;
+import java.util.List;
 
 public class Dom4jPractice {
 

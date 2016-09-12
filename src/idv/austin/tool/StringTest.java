@@ -1,4 +1,4 @@
-package austin.tool;
+package idv.austin.tool;
 
 public class StringTest {
 

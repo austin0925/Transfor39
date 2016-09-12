@@ -1,4 +1,4 @@
-package austin.gen;
+package idv.austin.gen;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
